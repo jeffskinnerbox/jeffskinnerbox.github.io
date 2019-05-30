@@ -1,3 +1,12 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+![work-in-progress](http://worktrade.eu/img/uc.gif "These materials require additional work and are not ready for general use.")
+
+---
+
 # Pelican Driven Website
 This is the source content and tools for creating my web site [www.jeffskinnerbox.me][03].
 The site is generated using [Pelican][04], written mostly in [markdown][05],
