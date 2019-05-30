@@ -1,0 +1,17 @@
+created: 20150301202200104
+modified: 20150301202220750
+tags: WiFi
+title: AP Mode
+type: text/vnd.tiddlywiki
+
+Access Point (AP) mode or [[infrastructure mode|Infrastructure Mode]]
+sets the device to act as the Master device in a managed wireless network.
+It holds the network together by managing and maintaining lists of associated Stations.
+It also manages security policies.
+The network is named after the [[MAC Address]] ([[BSSID]]) of the AP.
+The human readable name for the network, the [[SSID]],
+is also set by the AP.
+
+The AP usually connects to a router
+(via a wired network) as a standalone device,
+but it can also be an integral component of the router itself.

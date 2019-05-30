@@ -1,0 +1,17 @@
+created: 20150301211844066
+modified: 20150307195533070
+tags: WiFi Mesh
+title: Mesh Basic Service Set (MBSS)
+type: text/vnd.tiddlywiki
+
+The IEEE 802.11s amendment defined an additional protocol for wireless mesh networks.
+Only mesh STAs participate in mesh functionalities such as formation of the mesh BSS, path selection, and forwarding.
+Accordingly, a mesh STA is not a member of an
+[[Independent Basic Service Set (IBSS)]] or of an
+[[Basic Service Set (BSS)]].
+
+Consequently, mesh STAs do not communicate with nonmesh STAs.
+However, instead of existing independently,
+an Mesh Basic Service Set (MBSS) can interconnect with other BSSs
+through the DS (Distribution System).
+Mesh STAs can communicate with non-mesh STAs through a logical architectural component called a Mesh Gate.

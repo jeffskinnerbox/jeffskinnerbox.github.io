@@ -1,0 +1,15 @@
+created: 20150301180128170
+modified: 20150301180302267
+tags: WiFi
+title: Promiscuous Mode
+type: text/vnd.tiddlywiki
+
+In computer networking,
+promiscuous mode or promisc mode is a mode for a wired network interface controller (NIC)
+or wireless network interface controller (WNIC)
+that causes the controller to pass all traffic it receives to the central processing unit (CPU)
+rather than passing only the frames that the controller is intended to receive.
+This mode is normally used for packet sniffing that takes place
+on a router or on a computer connected to a hub (instead of a switch)
+or one being part of a WLAN.
+Interfaces are placed into promiscuous mode by software bridges often used with hardware virtualization.

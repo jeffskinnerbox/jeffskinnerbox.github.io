@@ -1,0 +1,35 @@
+created: 20140920020658891
+modified: 20150321142807791
+tags: Definition
+title: IoT
+type: text/vnd.tiddlywiki
+
+The Internet of Things (IoT) is a scenario in which objects, animals or people are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT has evolved from the convergence of wireless technologies, micro-electromechanical systems (MEMS) and the Internet.
+
+A thing, in the Internet of Things, can be a person with a heart monitor implant, a farm animal with a biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low -- or any other natural or man-made object that can be assigned an
+[[IP address|IP Address]]
+and provided with the ability to transfer data over a network. So far, the Internet of Things has been most closely associated with machine-to-machine (M2M) communication in manufacturing and power, oil and gas utilities. Products built with M2M communication capabilities are often referred to as being smart. (See: smart label, smart meter, smart grid sensor).
+
+''Source'':
+http://whatis.techtarget.com/definition/Internet-of-Things
+
+!!IoT Landscape
+[img[http://o.aolcdn.com/dims-global/dims3/GLOB/resize/1268x949/quality/80/http://tctechcrunch2011.files.wordpress.com/2013/05/internetofthings2.jpg]]
+
+''Source'':
+http://techcrunch.com/2013/05/25/making-sense-of-the-internet-of-things/
+
+!!A View on IoT
+[img[http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/uploads/2014/07/postscapes-harbor-iot-infographics.jpg]]
+
+''Source'':http://www.visualcapitalist.com/what-is-internet-things/
+
+!!Intel's VIew of IoT
+[img[http://cloudtweaks.com/wp-content/uploads/2014/08/internet-things.jpg]]
+
+''Source'':http://cloudtweaks.com/wp-content/uploads/2014/08/internet_of_things_forprint.pdf
+
+!!Mindmap of IoT Technologies
+[img[IoT_Mindmap 3_Technologies.pdf]]
+
+''Source:'' IoT-A

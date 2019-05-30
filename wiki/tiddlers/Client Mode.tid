@@ -1,0 +1,12 @@
+created: 20150327021937565
+modified: 20150327022525417
+tags: WiFi
+title: Client Mode
+type: text/vnd.tiddlywiki
+
+In client mode the devices functions as a wireless client.
+It will associate with another access point.
+If its a WiFi router in Client Mode,
+you can plug computers into the LAN ports but wireless clients can NOT connect to it.
+
+This is the same as [[STA Mode]].

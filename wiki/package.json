@@ -1,0 +1,27 @@
+{
+  "name": "jeffskinnerbox-wiki",
+  "version": "1.0.0",
+  "description": "Personal Wiki for the website www.jeffskinnerbox.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tiddlywiki . --server $PORT $:/core/save/all text/plain text/html \"\" \"\" 0.0.0.0",
+    "postinstall": "npm install -g tiddlywiki"
+  },
+  "keywords": [
+    "heroku",
+    "tiddlywiki"
+  ],
+  "author": "Jeff Irland",
+  "license": "MIT",
+  "dependencies": {
+    "tiddlywiki": "~5.1.7"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffskinnerbox/jeffskinnerbox.github.io/tree/source/wiki"
+  }
+}

@@ -1,0 +1,25 @@
+created: 20140919015250893
+modified: 20160623002713368
+tags: Projects
+title: Video and Camera Processing
+type: text/vnd.tiddlywiki
+
+All Canon Powershots (such as the SD750) released after mid 2009 are not capable of remote control anymore.
+
+* [[cameras remotely controllable for capture|http://www.gphoto.org/doc/remote/]]
+* [[Simple timelapse camera using Raspberry Pi and a coffee tin|http://www.instructables.com/id/Simple-timelapse-camera-using-Raspberry-Pi-and-a-c/?ALLSTEPS]]
+* [[MEncoder is a free command line video decoding, encoding and filtering tool|http://en.wikipedia.org/wiki/MEncoder]]
+* [[The Webcam How-To|http://linux.about.com/od/wcm_howto/a/hwtwcm05t00.htm]]
+* [[Motion, a software motion detector|http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome]]
+* [[webcam - capture images and upload them|http://linux.about.com/od/commands/l/blcmdl1_webcam.htm]]
+* [[Use Your Digital Camera with Linux|http://www.linuxdevcenter.com/pub/a/linux/2005/01/06/digicam.html]]
+* [[How to Remote Control Your Camera with Darktable on Linux|http://www.linux.com/learn/tutorials/750195-how-to-remote-control-your-camera-with-darktable-on-linux-]]
+* [[Deep Belief image recognition framework|https://github.com/jetpacapp/DeepBeliefSDK/tree/master]]
+* [[Caffe: Convolutional Architecture for Fast Feature Embedding|https://github.com/BVLC/caffe]]
+* [[OverFeat is an image recognizer and feature extractor|http://cilvr.nyu.edu/doku.php?id=code:start]]
+* [[Hedgehog Pi Recipe|http://blog.pistuffing.co.uk/?p=3646]]
+* [[A Year Long Time Lapse Camera|http://orbides.1gb.ru/lapse_camera.php?lng=eng]]
+* [[Computer Vision with Raspberry Pi and the Camera Pi module|http://www.open-electronics.org/computer-vision-with-raspberry-pi-and-the-camera-pi-module/]]
+* [[Raspberry Pi and the Camera Pi module: face recognition tutorial|http://www.open-electronics.org/raspberry-pi-and-the-camera-pi-module-face-recognition-tutorial/]]
+* [[Arduino OpenMV Cam Open Source Advanced Machine Vision Board |https://www.geeky-gadgets.com/arduino-advanced-machine-vision-27-01-2015/]]
+* [[Mimobot v2.1|https://translate.google.com/translate?hl=en&sl=cs&tl=en&u=http://www.stiborovi.cz/mimobot-v2-1/&sandbox=1]]

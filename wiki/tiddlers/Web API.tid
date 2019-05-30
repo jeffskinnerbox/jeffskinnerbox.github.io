@@ -1,0 +1,17 @@
+created: 20141026181206398
+modified: 20141026181711832
+title: Web API
+type: text/vnd.tiddlywiki
+
+The general concept of a Web API
+(application programming interface) has two main interpretations.
+It is used to refer to both a server-side API upon a web server, as well as,
+client-side API within a web browser.
+While web API in this context is sometimes considered a synonym for web service,
+[[Web 2.0]] web applications have moved away from SOAP-based web services
+towards more cohesive collections of RESTful web resources.
+
+* ''Server-Side API -'' A server-side web API is a programmatic interface to a defined request-response message system, typically expressed in JSON or XML.
+
+* ''Clint-Side API -'' A client-side web API is a programmatic interface to extend functionality within a web browser or other HTTP client. Originally these were most commonly in the form of native plug-in architectures however most newer ones target standardized JavaScript bindings. The Mozilla Foundation created their WebAPI specification and Google created their Native Client architecture.
+

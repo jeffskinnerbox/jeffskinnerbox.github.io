@@ -1,0 +1,24 @@
+created: 20140916015804477
+modified: 20151220182105029
+tags: Study
+title: Working with Vim
+type: text/vnd.tiddlywiki
+
+* [[What is the difference between the different vim packages available in Ubuntu|http://askubuntu.com/questions/281886/what-is-the-difference-between-the-different-vim-packages-available-in-ubuntu]]
+
+* [[Secrets of tabs in vim|http://tedlogan.com/techblog3.html]]
+* [[Today I learned: Vim|http://tilvim.com/]]
+* [[Using Vim for Arduino development|http://grantlucas.com/posts/2012/09/using-vim-arduino-development]]
+* [[Vim made easy: how to get your favorite IDE features in Vim|http://arstechnica.com/information-technology/2009/05/vim-made-easy-how-to-get-your-favorite-ide-features-in-vim/]]
+* [[How to turn Vim into a full-fledged IDE|http://xmodulo.com/turn-vim-full-fledged-ide.html]]
+* [[YouCompleteMe – Ultimate autocomplete plugin for Vim|http://www.alexeyshmalko.com/2014/youcompleteme-ultimate-autocomplete-plugin-for-vim/]]
+* [[Vi and Vim Editor: 5 Awesome Examples For Automatic Word Completion Using Ctrl-X Magic|http://www.thegeekstuff.com/2009/01/vi-and-vim-editor-5-awesome-examples-for-automatic-word-completion-using-ctrl-x-magic/]]
+
+!!Vim and IPython
+*[[Working with Vim and IPython|http://petro.tanrei.ca/2010/8/working-with-vim-and-ipython.html]]
+*[[vim-ipython - A two-way integration between Vim and IPython|http://github.com/ivanov/vim-ipython]]
+
+!!Vim and Browser
+*[[wasavi (VI editor for any web page)|http://appsweets.net/wasavi/]]
+* [[CodeMirror|http://codemirror.net/]]
+*[[TextAid|http://lalashan.mcmaster.ca/theobio/projects/index.php/TextAid]]

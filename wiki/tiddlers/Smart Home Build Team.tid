@@ -1,0 +1,54 @@
+created: 20150322190852487
+modified: 20150323132947962
+tags: MakerSmiths
+title: Smart Home Build Team
+type: text/x-markdown
+
+# Smart Home Build Team
+We are a group of MakerSmiths members, with a wide range of skills and interests, who have taken on the mission stated below.
+
+## Mission
+Creation of a [sensor network][02] and [home automation][01] solution using off-the-shelf, open source, and DIY software / hardware.
+
+## Solution Statement
+To address the above mission, we envision the following following components within the solution:
+
+1. **Platform** - This is software for integrating different home sensing & control technologies
+into one single solution that supports automation rules.  This platform will provide
+a user interface and sends notifications to cell phones, etc.
+1. **Sensors / Actuators** - These are devices that will sense things
+(e.g. motion in room, water on the floor, etc.)
+and devices that will make things happen (e.g. turn off water)
+1. **Network** - This is the wired and wireless connection between the Platform and the Sensors / Actuators.
+
+## Solution Goals
+The solution will attempt to reach the following goals:
+
+1. **Home Use** - sense environment (e.g. water leak) and control (e.g. turn off water main)
+1. **Maker Space Use** - sense presence (e.g. movement in space), control access (e.g. validate credentials for equipment use).
+
+## Build Plan
+How we go about executing our mission and reaching our goals will evolve over time.
+At this moment, we plan to use the following general strategy:
+
+1. We all work together on the solution, but pursue the solution components Platform, Sensors / Actuators, and Network as quasi-independent tasks.
+1. Use a rapid, iterative build strategy where we build something simple / small but useful, put it into operation, and then build more on top of it.
+1. We'll make use of web-based tools and methods (e.g. [Wiki][06], [GitHub][03], [OpenSCAD][05],  [KiCad][04], etc.) to so we can work together while at our homes or at the maker space.
+1. Where it makes sense, we will partner with other build teams to help with creative solutions (e.g. ask Arduino class to build a water leak sensor as a group project and then reuse their creation)  
+
+## Long Term Vision
+A solution that could be used in most any maker space to address the common needs for access control, monitoring activity, and general safety.
+
+## Team Members
+Over time, the team will likely be very dynamic.
+At this moment, the team consists of:
+
+* Jeff Irland
+* TBD
+
+[01]:http://en.wikipedia.org/wiki/Home_automation
+[02]:http://en.wikipedia.org/wiki/Wireless_sensor_network
+[03]:https://github.com/
+[04]:http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite
+[05]:http://www.openscad.org/
+[06]:http://en.wikipedia.org/wiki/Wiki

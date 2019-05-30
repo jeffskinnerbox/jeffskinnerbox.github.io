@@ -1,0 +1,25 @@
+created: 20141109195836265
+modified: 20141123231632965
+tags: [[Hard Cider]]
+title: Hydrometer
+type: text/vnd.tiddlywiki
+
+A [[Hydrometer|http://en.wikipedia.org/wiki/Hydrometer]]
+is a glass instrument used to determine the 
+density of a liquid as compared to the density of water
+(i.e. [[specific gravity]]).
+Liquids with a higher density have more dissolved sugar,
+liquids with a lower density have less.
+It does not directly measure alcohol content, but can help determine approximate [[alcohol by volume]] with a little math.
+
+[img[|http://mikesbrewreview.com/wp-content/uploads/2010/04/how-to-use-a-hydrometer.jpg]]
+
+''Formula:'' ABV = (OG - FG) * 131.25
+
+where
+
+* ABV = alcohol by volume
+* OG = original gravity
+* FG = final gravity
+
+[[How to Use a Hydrometer|https://www.youtube.com/watch?v=jNVePBvI2ps]]

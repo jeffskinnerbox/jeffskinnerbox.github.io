@@ -1,0 +1,19 @@
+created: 20150307180549029
+modified: 20150321142435557
+tags: Networking
+title: CIDR
+type: text/vnd.tiddlywiki
+
+Classless Inter-Domain Routing (CIDR) is a method for allocating
+[[IP addresses|IP Address]]
+and routing Internet Protocol packets.
+IP addresses are described as consisting of two groups of bits in the address:
+
+* the most significant bits are the network address (or network prefix or network block), which identifies a whole network or [[subnet|Subnetwork]]
+* least significant set forms the host identifier, which specifies a particular interface of a host on that network
+
+CIDR notation is a syntax for specifying IP addresses and their associated routing prefix.
+It appends a slash character to the address and the decimal number of leading bits of the routing prefix,
+e.g., 192.168.2.0/24 for IPv4, and 2001:db8::/32 for IPv6.
+
+''Source:'' http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing

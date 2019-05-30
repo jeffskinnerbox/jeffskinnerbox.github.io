@@ -1,0 +1,21 @@
+created: 20150307180412571
+modified: 20150321143034618
+tags: Networking
+title: Subnetwork
+type: text/vnd.tiddlywiki
+
+A subnetwork, or subnet, is a logical, visible subdivision of an IP network.
+Computers that belong to a subnet are addressed with a common, identical, most-significant bit-group in their [[IP address|IP Address]].
+This results in the logical division of an IP address into two fields: a network or routing prefix and the rest field or host identifier.
+The rest field is an identifier for a specific host or network interface.
+
+The routing prefix is expressed in [[CIDR notation|CIDR]].
+It is written as the first address of a network,
+followed by a slash character (/),
+and ending with the bit-length of the prefix.
+For example, 192.168.1.0/24 is the prefix starting at the given address,
+having 24 bits allocated for the network prefix, and the remaining 8 bits reserved for host addressing.
+
+The primary reason for subnetting in IPv4 is to improve efficiency
+in the utilization of the relatively small address space available, particularly to enterprises.
+No such limitations exist in IPv6, as the large address space available, even to end-users, is not a limiting factor.

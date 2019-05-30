@@ -1,0 +1,21 @@
+created: 20150321153522892
+modified: 20150322002830628
+tags: Networking
+title: Routing Table
+type: text/vnd.tiddlywiki
+
+A routing table is a set of rules,
+often viewed in table format, that is used to determine where data packets traveling over an Internet Protocol (IP)
+network will be directed.
+This is generally called Internet [[Routing]].
+All IP-enabled devices, including computers, routers and switches, use routing tables.
+
+The routing table contains information about the topology of the network immediately around it.
+The construction of routing tables is the primary goal of [[Routing Protocols]].
+[[Static Route]] are entries made in a routing table by non-automatic means
+and which are fixed rather than being the result of some network topology "discovery" procedure.
+These are called [[dynamic routes|Dynamic Routing]].
+
+The [[default route|Default Route]] must generally be supplied, too;
+this is the [[gateway|Gateway]] associated with network 0.0.0.0.
+All packets to an unknown network are sent through the default route.

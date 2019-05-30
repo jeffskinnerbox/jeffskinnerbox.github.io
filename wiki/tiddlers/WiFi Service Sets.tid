@@ -1,0 +1,16 @@
+created: 20150301162741685
+modified: 20150301213606505
+tags: WiFi
+title: WiFi Service Sets
+type: text/vnd.tiddlywiki
+
+In a WiFi [[IEEE 802.11 WLAN Architecture]],
+a service set is a set consisting of all the devices associated with a IEEE 802.11 wireless local area network (WLAN).
+The Service set can be:
+
+* local - [[Basic Service Set (BSS)]]
+* independent - [[Independent Basic Service Set (IBSS)]]
+* extended - [[Extended Service Set (ESS)]]
+* mesh - [[Mesh Basic Service Set (MBSS)]]
+
+''Source:'' http://en.wikipedia.org/wiki/Service_set_%28802.11_network%29

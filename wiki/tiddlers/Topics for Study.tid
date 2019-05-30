@@ -1,0 +1,10 @@
+created: 20140920002220363
+modified: 20150321024431498
+tags: Study
+title: Topics for Study
+type: text/vnd.tiddlywiki
+
+Things I would like to study up on, but honestly,
+I'll never have time to do but a few of these.
+
+<<list-links filter:"[tag[Study]]">>

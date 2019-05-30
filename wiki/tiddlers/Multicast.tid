@@ -1,0 +1,17 @@
+created: 20150321145442591
+modified: 20150321145825448
+tags: Networking
+title: Multicast
+type: text/vnd.tiddlywiki
+
+In IPv4 [[adressing|IP Addressing]]
+it is possible to send data to all possible destinations ("all-hosts broadcast"),
+which permits the sender to send the data only once,
+and all receivers receive a copy of it.
+In the IPv4 protocol, the address 255.255.255.255 is used for local broadcast.
+In addition, a directed (limited) broadcast can be made by combining the network prefix with a host suffix composed entirely of binary 1s.
+
+For example, the destination address used for a directed broadcast to devices on the 192.0.2.0/24 network is 192.0.2.255.
+IPv6 does not implement broadcast addressing and replaces it with multicast to the specially-defined all-nodes multicast address.
+
+''Source:'' http://en.wikipedia.org/wiki/IP_address#Sticky_dynamic_IP_address

@@ -1,0 +1,20 @@
+created: 20141005210148045
+modified: 20141031235715812
+title: Artificial Intelligence vs. Cybernetics
+type: text/vnd.tiddlywiki
+
+Taken from [[Paul Pangaro|http://www.pangaro.com/definition-cybernetics.html]]
+
+[[Artificial Intelligence (AI)]] and [[Cybernetics]] are widely misunderstood to be the same thing. However, they differ in many dimensions. For example:
+
+*Artificial Intelligence (AI) grew from a desire to make computers smart, whether smart like humans or just smart in some other way.
+*Cybernetics grew from a desire to understand and build systems that can achieve goals, whether complex human goals or just goals like maintaining the temperature of a room under changing conditions.
+
+But behind the differences between each domain ("smart" computers versus "goal-directed" systems) are even deeper underlying conceptual differences, some of which are captured in this diagram.
+
+[img[http://www.pangaro.com/assets/img/heroes/ai-versus-cybernetics.jpg]]
+
+For example, AI (left) presumes that value lies in understanding "the world as it is" — which presumes that knowing the world is both possible and necessary.
+Cybernetics (right) holds that it is only necessary and only possible to be coupled to the world sufficiently to achieve goals, that is, to gain feedback in order to correct actions to achieve a goal.
+
+Thus, while both fields must have clear and inter-consistent concepts such as representation, memory, reality, and epistemology (middle), there are more differences than similarities.

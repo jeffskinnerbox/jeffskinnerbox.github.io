@@ -1,0 +1,17 @@
+created: 20150321153139705
+modified: 20150321230714636
+tags: Networking
+title: Default Route
+type: text/vnd.tiddlywiki
+
+A default route of a computer that is participating in computer networking is the packet forwarding rule (route)
+taking effect when no other route can be determined for a given Internet Protocol (IP) destination address.
+All packets for destinations not established in the [[routing table|Routing Table]] are sent via the default route.
+This route generally points to another router,
+which treats the packet the same way:
+If a route matches, the packet is forwarded accordingly,
+otherwise the packet is forwarded to the default route of that router.
+
+Compare this to a [[Default Gateway]].
+
+''Source:'' http://en.wikipedia.org/wiki/Default_route

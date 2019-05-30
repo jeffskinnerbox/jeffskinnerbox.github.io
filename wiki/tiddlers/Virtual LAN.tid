@@ -1,0 +1,19 @@
+created: 20150328203719557
+modified: 20150328204209606
+tags: Networking
+title: Virtual LAN
+type: text/vnd.tiddlywiki
+
+In computer networking, a single layer-2 network may be
+partitioned to create multiple distinct [[Broadcast Domain]],
+which are mutually isolated so that packets can only pass between them via one or more routers;
+such a domain is referred to as a virtual local area network, virtual LAN or VLAN.
+As a result, a virtual LAN allows geographically dispersed network nodes to
+communicate as if they were physically on the same network. 
+
+VLANs allow network administrators to partition their networks physically and logically
+without having to run new cables or make major changes in their current network infrastructure. 
+
+A switch that supports VLANs allows the administrator to select which ports will participate in the VLAN.
+These ports are then grouped to become one VLAN,
+and any broadcasts or information passed among these ports will not be seen by the remaining ports on the switch.

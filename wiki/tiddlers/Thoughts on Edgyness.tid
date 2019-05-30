@@ -1,0 +1,22 @@
+created: 20141031234147411
+modified: 20141031234207384
+title: Thoughts on Edgyness
+type: text/vnd.tiddlywiki
+
+!Discussion with Edy Liongosari
+
+The best thinking coming out of the discussion is that we should lay down some criteria for edginess.  We talked about a few (the same we have been talking about ... bandwidth, latency, etc.) but I think there is more observations to be made.  For example,
+
+#For any give use case, it’s a given that there are range of functions that must be performed.  In principle, you have a choose where the function is performed (i.e. edge / central).  __The context & key attributes of the use case will determine where the function would best be done.__ So it’s a bit erroneous to just ask, "Is this a edgy use case". 
+#So what is "the context & key attributes of the use case"? 
+* What does "context" mean?  It means the network characteristics in which the solution must reside.  It means how you choose to support, upgrade, monitories, etc. the service/product that will result.  It means what security / privacy policies you wish to enforce.  It means how things will be powered (line or battery power).  Etc.
+* What does "key attributes" mean? It means the data volume produced.  It means how computationally intensive your functions might be. It means how time sensitive is the solution. Etc.
+
+You could argue that “context & key attributes” rightfully belong “in” the use case.  But in any event, these are the disruptive factor that will bias the decision to the edge or cloud.  It suggest to me that we need to inspect the detail functions performed in behave of the use case and the environment in which the use case resides to make a call on “edginess”.  We score the functions (aka the activities / requirements in the Excel spreadsheet) for edginess.  There will not be an simple answer via the scoring.  For example, the functions maybe biased for the edge but the lack of a centralized operations / provisioning / management method must be addressed. Can we live with this? Can we fix it but at what cost?
+
+!Some Definitions
+[[So what is "edgyness"|Edginess Criteria]]:
+
+*''Initial Definition:'' An edgy use case would consume large bandwidth, be time critical, require only local data, demand privacy or increase security, or must be protected from network interruptions.
+*''Better Definition:'' A use case itself isn't edgy, but it may have a context or attributes that give it a preference for the edge.
+*''Alternate Definition:'' Depending on the context, there are actions and functions performed within a use cases that are best done on the edge.

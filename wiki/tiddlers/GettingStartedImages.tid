@@ -1,0 +1,48 @@
+created: 20150620183217289
+modified: 20150620184536060
+title: GettingStartedImages
+type: text/vnd.tiddlywiki
+
+! Image Formatting
+
+Images can be included in WikiText with the following syntax:
+
+```
+[img[Picture_of_Jane.jpg]]
+[img[http://tiddlywiki.com/favicon.ico]]
+```
+
+If the image source is the title of an image tiddler then that tiddler is directly displayed. Otherwise it is interpreted as a URL and an HTML `<img>` tag is generated with the `src` attribute containing the URL.
+
+A tooltip can also be specified:
+
+```
+[img[An explanatory tooltip|Picture_of_Jane.jpg]]
+```
+
+Attributes can be provided to specify CSS classes and the image width and height:
+
+```
+[img width=32 [Picture_of_Jane.jpg]]
+[img width=32 class="tc-image" [Picture_of_Jane.jpg]]
+```
+
+Note that attributes can be specified as transclusions or variable references:
+
+```
+[img width={{!!mywidth}} class=<<image-classes>> [Picture_of_Jane.jpg]]
+```
+
+The image syntax is a shorthand for invoking the [[ImageWidget|http://tiddlywiki.com/#ImageWidget]].
+
+! Displaying Images via Transclusion
+
+You can also display an image stored in a tiddler by transcluding that tiddler. The disadvantage of this approach is that there is no direct way to control the size of the image.
+
+```
+{{GettingStartedPicture_of_Jack.jpg}}
+```
+
+Renders as:
+
+{{GettingStartedPicture_of_Jack.jpg}}

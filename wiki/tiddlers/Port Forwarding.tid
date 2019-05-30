@@ -1,0 +1,19 @@
+created: 20150314225003277
+modified: 20150329002019506
+tags: Networking
+title: Port Forwarding
+type: text/vnd.tiddlywiki
+
+[[Port|TCP/IP Port]] forwarding is a method of making a computer on your network accessible to computers on the Internet,
+even though you are behind a [[router|Router]].
+
+Port forwarding takes specific TCP or UDP ports,
+destined to an Internet interface,
+and forwards them to specific internal IPs.
+This is best for users that do not own a pool of public IP addresses.
+This feature can forward different ports to different internal IP addresses,
+allowing multiple servers to be accessible from the same public IP address.  
+
+It is commonly used for hosting game servers,
+peer to peer downloading, and voice over IP type applications.
+There are many other reasons you may need to forward a port, this is not an exhaustive list.

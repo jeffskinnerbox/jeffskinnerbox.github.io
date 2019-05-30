@@ -1,0 +1,83 @@
+created: 20141026183516175
+modified: 20150120013559801
+title: Device Cloud Platform
+type: text/vnd.tiddlywiki
+
+A Device Cloud Platform is a machine-to-machine (M2M) platform-as-a-service.
+Device Cloud Platforms lowers the barriers to building secure, scalable,
+cost-effective solutions that seamlessly tie together enterprise applications and device assets.
+Device Cloud Platforms manages the communication between enterprise applications
+and remote device assets, regardless of location or network.
+It makes connecting remote assets easy, providing all of the tools to connect,
+manage, store and move information across the near and far reaches of the enterprise.
+
+[[also check out this|https://www.cbinsights.com/blog/internet-of-things-periodic-table/]]
+
+Home Automation Platforms:
+
+* [[openHAB|http://www.openhab.org/index.html]]
+* [[IoT Eclipse|http://iot.eclipse.org/index.html]]
+* [[Eclipse Smarthome|https://eclipse.org/smarthome/]]
+* [[Tasker|https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en]]
+* [[Icontrol Networks|http://www.icontrol.com/]]
+
+Examples of Device Cloud Platforms:
+
+* [[Data Torrent|https://www.datatorrent.com/]]
+* [[IFTTT|https://ifttt.com/]]
+* [[Zapier|https://zapier.com/]]
+* [[ParStream|https://www.parstream.com/]]
+* [[TrackR|http://www.thetrackr.com/]] which uses [[Open Garden|http://opengarden.com/]]
+* [[Paho|http://www.eclipse.org/paho/]]
+* [[Nimbits|http://www.nimbits.com/index.jsp]]
+* [[Omega DevCloud|http://www.racowireless.com/products/omega-devcloud/]]
+* [[OpenHAB|http://www.openhab.org/index.html]]
+* [[Etherios Device Cloud|http://www.etherios.com/products/devicecloud/]]
+* [[Zetta|http://www.zettajs.org/]]
+* [[Meshblu|https://developer.octoblu.com/]]
+* [[2lemetry|http://2lemetry.com/]]
+* [[ThingFabric|https://addons.heroku.com/thingfabric]]
+* [[Exosite|http://exosite.com/platform/data-platform/]]
+* [[Bug Labs dweet.io|http://buglabs.net/products/dweet.io]]
+* [[Eclipse|http://iot.eclipse.org/index.html]]
+* [[Spark|https://www.spark.io/]] (they also offer a [[microcontroller|http://docs.spark.io/#/hardware]])
+* [[xively|https://xively.com/]]
+* [[Berg|http://bergcloud.com/]]
+* [[AllJoyn|https://www.alljoyn.org/]]
+* [[Mnubo|http://mnubo.com/]]
+* [[ThingWorx|http://www.thingworx.com/]]
+* [[Arrayent - Internet of Things Platform|http://www.arrayent.com/]]
+* [[Ayla Networks|http://www.aylanetworks.com/]]
+* [[Axeda|http://www.axeda.com/]]
+* [[Davra Networks|http://www.davranetworks.com/]]
+* [[openHUB|http://www.openhab.org/]]
+* [[SeeControl|http://www.seecontrol.com/]]
+* [[OpenRemote|http://www.openremote.com/]]
+* [[RIOT|http://www.riot-os.org/]]
+* [[OpenPicus|http://www.openpicus.com/]]
+* [[ThingSpeak|https://thingspeak.com/]]
+* [[Meshblu (formerly SkyNet.im|http://skynet.im/]]
+* [[NEO|http://neo.aeris.com/]]
+* [[OpenIoT|http://openiot.eu/]]
+** http://www.technologyreview.com/news/519666/free-software-ties-the-internet-of-things-together/
+* [[WSO2|http://wso2.com/]]
+* [[Open Source Internet of Things|http://www.osiot.org/]]
+* [[Thingsquare|http://www.thingsquare.com/]]
+** [[Thingsquare-6LOWPAN|http://processors.wiki.ti.com/index.php/Thingsquare-6LOWPAN]]
+* [[Pushover|https://pushover.net/]]
+* [[Contiki: The Open Source OS for the Internet of Things|http://www.contiki-os.org/]]
+** [[The Official Contiki OS Blog|http://contiki-os.blogspot.com/]]
+* [[Kinoma: Internet of Things construction kit|http://kinoma.com/]]
+* [[PubSubHubBub|https://code.google.com/p/pubsubhubbub/]]
+
+Also, some IoT device providers are supplying their own platforms.
+For example,
+
+* [[SmartThings|http://www.smartthings.com/]]
+* [[Wimoto's - App-enabled Sensors|https://grandst.com/p/wimoto]]
+* [[Spotter Sensor|https://grandst.com/p/spotter]]
+* [[Arrayent|http://www.arrayent.com/]]
+* [[Splunk|http://www.splunk.com/]]
+* [[Jasper Wireless|http://www.jasper.com/]]
+* [[Node-RED - A visual tool for wiring the Internet of Things|http://nodered.org/]]
+** [[IBM's Nick O'Leary Demos Node-RED for the Internet of Things|http://www.infoq.com/news/2014/05/ibm-node-red-qconlondon]]

@@ -1,0 +1,8 @@
+created: 20160602174713022
+modified: 20160602184810473
+tags: 
+title: For Verizon Setup
+type: text/vnd.tiddlywiki
+
+!Installing ~TiddlyWiki
+* Install Cygwin make sure to install vim and apt-cyg

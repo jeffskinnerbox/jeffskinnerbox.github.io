@@ -1,0 +1,18 @@
+created: 20151224212118752
+modified: 20151227044853758
+tags: Projects
+title: Sonar
+type: text/vnd.tiddlywiki
+
+[[Sonar|https://en.wikipedia.org/wiki/Sonar]]
+(originally an acronym for ''SO''und ''N''avigation ''A''nd ''R''anging)
+is a technique that uses sound propagation
+(usually underwater) to navigate,
+communicate with or detect objects on or
+under the surface of the water, such as other vessels.
+Also checkout [[Radar]].
+
+* [[Bootstrapping Motion Input with Cheap Components|http://hackaday.com/2015/10/07/bootstrapping-motion-input-with-cheap-components/]]
+* [[Spread Spectrum Phased Array Sonar|http://hackaday.com/2015/12/04/el-cheapo-phased-array-sonar/]]
+* [[Audible Frequency Chirp Sonar with the Stellaris Launchpad|http://shortcircuitsandinfiniteloops.blogspot.com/2015/01/audible-frequency-chirp-sonar-with.html]]
+* [[Sonar Built from Piezo and Microphone|http://hackaday.com/2015/01/26/sonar-built-from-piezo-and-microphone/]]

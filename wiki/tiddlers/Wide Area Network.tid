@@ -1,0 +1,11 @@
+created: 20150326235550168
+modified: 20150327000009536
+tags: Networking
+title: Wide Area Network
+type: text/vnd.tiddlywiki
+
+Computers connected to a wide area network (WAN) is a network that covers a broad area
+public networks, such as the telephone system.
+They can also be connected through leased lines or satellites.
+The largest WAN in existence is the Internet.
+Typically, a WAN consists of two or more local-area networks (LANs) as [[Subnetwork]].

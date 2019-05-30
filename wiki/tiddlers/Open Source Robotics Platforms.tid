@@ -1,0 +1,32 @@
+created: 20140919012758694
+modified: 20170101162438359
+tags: Projects
+title: Open Source Robotics Platforms
+type: text/vnd.tiddlywiki
+
+* [[Open Source Robotics Foundation|http://www.osrfoundation.org/]]
+* [[Robot Operating System (ROS)|http://www.ros.org/]]
+* [[ePanorama.net Robotics information page|http://www.epanorama.net/links/robotics.html]]
+* [[Out in the Open: Meet Alphalem, an Open Source Brain Just for Robots|http://www.wired.com/wiredenterprise/2014/01/alphalem/]]
+* [[ROS 101: Introdcution to the Robot Operating System|http://www.clearpathrobotics.com/blog/how-to-guide-ros-101/?category=5]]
+* [[ROS 101: PRACTICAL EXAMPLE|http://www.clearpathrobotics.com/blog/ros-101-practical-examples/]]
+* [[ez-robot|http://www.ez-robot.com/]]
+* [[PyPot: A library for Dynamixel motors control|http://poppy-project.github.io/pypot/index.html]]
+* [[OSkAR: OpenCV Based Speaking Robot|http://webpages.shepherd.edu/ccrite03/Project%20Website/index.html]]
+* [[Micromagic Systems Robotics Store|http://www.hexapodrobot.com/index.html]]
+* [[Stubby the Hexapod|http://hackaday.io/project/770-Stubby-the-Hexapod]]
+* [[3D Printed Open Source Robot With Arduino|https://hackaday.io/project/9968-3d-printed-open-source-robot-with-arduino]]
+* [[Mimobot v2.1|https://translate.google.com/translate?hl=en&sl=cs&tl=en&u=http://www.stiborovi.cz/mimobot-v2-1/&sandbox=1]]
+* [[9 open source robotics projects|https://opensource.com/life/16/4/open-source-robotics-projects?sc_cid=70160000000lcGLAAY]]
+
+Real Time Operating System / Event-Driven Programming
+
+* [[Quantum Leaps QP (C++ state machine framework)|http://www.state-machine.com]]
+* [[FreeRTOS|http://www.freertos.org/]]
+* [[Johnny Five|http://johnny-five.io/]]
+
+Robot Simulators
+
+* [[Gazebo|http://gazebosim.org/]]
+* [[MORSE|https://www.openrobots.org/wiki/morse/]]
+* [[V-REP|http://www.coppeliarobotics.com/]]

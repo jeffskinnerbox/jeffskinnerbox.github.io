@@ -1,0 +1,124 @@
+{% if DISPLAY_TAGS_ON_SIDEBAR is not defined %}
+    {% set DISPLAY_TAGS_ON_SIDEBAR = True %}
+{% endif %}
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+            {% if DISPLAY_PICTURE_ON_SIDEBAR %}
+                <div style="text-align: center;">
+                    <h3><a href="{{ SITEURL }}/pages/about-me/" style="font-family: Knewave, cursive; font-size: 18;">{{ SIDEBAR_TITLE }}</a>
+                    <a href="{{ SITEURL }}/pages/about-me/">
+                        <img class="img-rounded" src="{{ SITEURL }}/{{ SIDEBAR_PICTURE }}" alt="Side Bar Picture" height="100%" width="100%">
+                    </a>
+                </div>
+            {% endif %}
+
+            {% if DISPLAY_TESTS_ON_SIDEBAR %}
+            <font color=#990000>
+                <li class="list-group-item"><a href="{{ SITEURL }}/pages/"><h4><i class="fa fa-exclamation-triangle fa-lg"></i><span class="icon-label">Testing Zone</span></h4></a>
+                </li>
+
+                <li class="list-group-item"><a href="{{ SITEURL }}/drafts/"><h4><i class="fa fa-edit fa-lg"></i><span class="icon-label">Draft Articles</span></h4></a>
+                </li>
+            </font>
+            {% endif %}
+
+            <li class="list-group-item"><a href="{{ SITEURL }}/categories.html"><h4><i class="fa fa-folder-open fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                {% if DISPLAY_CATEGORIES_ON_SIDEBAR %}
+                <ul class="list-group" id="categories">
+                    {% for cat, null in categories %}
+                        <li class="list-group-item">
+                            <a href="{{ SITEURL }}/{{ cat.url }}">
+                                <i class="fa fa-folder-open fa-lg"></i> {{ cat }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+
+            <li class="list-group-item"><a href="{{ SITEURL }}/tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                {% if DISPLAY_TAGS_ON_SIDEBAR %}
+                <ul class="list-group" id="tags">
+                    {% for tag in tag_cloud|sort(attribute='1') %}
+                        <li class="list-group-item tag-{{ tag.1 }}">
+                            <a href="{{ SITEURL }}/{{ tag.0.url }}">
+                                {{ tag.0 }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+
+            <li class="list-group-item"><a href="{{ SITEURL }}/index.html"><h4><i class="fa fa-clock-o fa-lg"></i><span class="icon-label">Recent Posts</span></h4></a>
+            {% if DISPLAY_RECENT_POSTS_ON_SIDEBAR %}
+                {% if RECENT_POST_COUNT is not defined %}
+                    {% set RECENT_POST_COUNT = 5 %}
+                {% endif %}
+                    <ul class="list-group" id="recentposts">
+                    {% for article in articles[:RECENT_POST_COUNT] %}
+                        <li class="list-group-item">
+                            <a href="{{ SITEURL }}/{{ article.url }}">
+                                {{ article.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+            {% endif %}
+            </li>
+
+            <li class="list-group-item"><a href="{{ SITEURL }}/pages/open-notebook/index.html"><h4><i class="fa fa-book fa-lg"></i><span class="icon-label">Open Notebook</span></h4></a>
+
+            {% if PAGE %}
+                {% include 'includes/pages.html' %}
+            {% endif %}
+
+            {% if WIKI %}
+                {% include 'includes/wiki.html' %}
+            {% endif %}
+
+            {% if LINKS %}
+                {% include 'includes/links.html' %}
+            {% endif %}
+
+            {% if SOCIAL %}
+                {% include 'includes/social.html' %}
+            {% endif %}
+
+            {% if FEED_DOMAIN %}
+            <li class="list-group-item"><h4><i class="fa fa-rss fa-lg"></i><span class="icon-label">Feeds</span></h4>
+                <ul class="list-group" id="links">
+                    {% if FEED_ALL_ATOM %}
+                    <li class="list-group-item">
+                        <a href="{{ FEED_ALL_ATOM }}" target="_blank">
+                           <i class="fa fa-rss-square fa-lg"></i> ATOM - All Posts
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if FEED_ALL_RSS %}
+                    <li class="list-group-item">
+                        <a href="{{ FEED_ALL_RSS }}" target="_blank">
+                           <i class="fa fa-rss-square fa-lg"></i> RSS - All Posts
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                </li>
+             {% endif %}
+
+            {% if REPOSTS %}
+                {% include 'includes/reposts.html' %}
+            {% endif %}
+
+            {% if ADMIN %}
+                {% include 'includes/admin.html' %}
+            {% endif %}
+
+            <li class="list-group-item"><a href="{{ SITEURL }}/pages/this-blog-is-powered-by/index.html"><h4><i class="fa fa-rocket fa-lg"></i><span class="icon-label">This Blog Powered By</span></h4></a>
+
+        </ul>
+    </section>
+
+</aside>

@@ -1,0 +1,26 @@
+created: 20141026162441628
+modified: 20141026165952673
+title: Physical Web
+type: text/vnd.tiddlywiki
+
+[[The Physical Web|http://google.github.io/physical-web/]]
+is an effort to extend the fundemental concept
+of the web, the URL, to everyday physical objects.
+The core premise is that you should be able to walk up to any “smart” physical object and
+interact with it without first downloading an app.
+The uses experience of smart objects should be much like links in a web browser: i.e., just tap and use.
+
+Like
+[[Apple's iBeacon|http://en.wikipedia.org/wiki/IBeacon]],
+this Gooble project currently uses Bluetooth Low Energy
+to broadcast a device's URL because it's widely supported in smartphones today,
+though the project is open to other methods.
+
+Unlike Apple's iBeacon,
+the core principle of Physical Web is no proactive notifications
+because push notifications in general are too easily abused.
+Rather it will provide a list — perhaps one curated based on past preferences.
+The phone agent can sort by both signal strength as well as personal preference and history, among many other possible factors.
+
+* [[Physical Web Smart Phone App|https://play.google.com/store/apps/details?id=physical_web.org.physicalweb]]
+* [[The Physical Web GitHub|https://github.com/google/physical-web]]

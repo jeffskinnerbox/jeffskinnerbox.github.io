@@ -1,0 +1,48 @@
+created: 20141125171042909
+modified: 20150208022725912
+tags: Pontifications
+title: Three Observations About the Industrial Internet
+type: text/vnd.tiddlywiki
+
+Last week, I had a great conversation with John Roe concerning Weightless SIG, Accenture’s role, how this relationship could evolve, etc.
+I learned a great deal and I’m sure we’ll have additional conversations about [[Weightless|http://www.weightless.org/]]
+and opportunities in the Industrial Internet market space.
+Like [[others|http://www.lightreading.com/iot/google-exec-internet-of-things-requires-brand-new-network/d/d-id/709381?_mc=RSS_LR_EDT]],
+John and I agree that the Industrial Internet will require a special network.
+
+A few things from this conversation with John have made me ponder:
+
+# Cellular carriers are a natural service provider for IoT wireless networking services like Weightless, but cellular carriers have strong desire to leverage their investment in [[3GPP|http://www.3gpp.org/]] standards/technology and will take action to [[adapt their 3GPP investment|http://www.lightreading.com/spit-(service-provider-it)/bss-(inc-billing-revenue-assurance)/location-intelligence-is-the-new-black/a/d-id/706253]] using [[new platforms|http://www.sequans.com/press-release/sequans-introduces-colibri-lte-platform-internet-things/]]. They could look upon any alternatives as a threat and/or destine for the standards graveyard (therefore, will never mature).
+
+# The use of [[White Space Spectrum]] is a great opportunity because of its recent availability and the coveted 470 MHz to 790 MHz range. But this highly prized spectrum has potential non-IoT network uses, it availability is not uniform in all markets, and it will require new radio technology (some form of [[cognitive radio|http://en.wikipedia.org/wiki/Cognitive_radio]], among other things), and it will require regulatory approval.
+
+# A challenge for the Industrial Internet initiative is to make the value proposition truly tangible. Sure, connecting to things sounds valuable, and there are many neat examples, but how do you make its value obvious and within immediate reach?
+
+So what are some initial thoughts? With respect to the first point, despite the natural fit of a IoT wireless network has with a cellular carrier,
+I think a large enterprise solution need
+(think engergy or anyone with assets deployed widely) will emerge well before a cellular carrier willing to provide a mass market offering. Smart City solutions
+(see [[here|http://www.techweekeurope.co.uk/workspace/milton-keynes-iot-m2m-neul-146107]], [[here|https://gigaom.com/2014/05/20/sigfox-brings-its-internet-of-things-network-to-san-francisco/]])
+are sort of a mass market offering and seem to be part of the strategies being used by Weightless/Nuel and Sigfox,
+but the more desirable opportunity is to jump start an enterprise solutions.
+The foundation of the Smart City concept seems to be “build it and they will come”, but the enterprise will move forward without the cellular carriers since they are not bound to urban areas.
+
+The second point is a major concern. It is very hard to see through all the regulatory and technical challenges and it could take years to become clear.
+Maybe this is because I haven’t studied it deeply enough, but more likely it depends on how you perceive the risk in the first place. I think the providers of the technology can stomach the regulatory/technical risk because they have a sense of control and they see a hug upside with a multitude of opportunities.
+On the other hand, an interested enterprise will never take that same risk.
+If the Industral Internet is to be embraced, the enterprise will need help in understanding the risk and strategies to mitigate that risk.
+It likely mean formulating a strategy that leverages the value of the Industrial Internet while waiting for the wireless IoT network market to mature.
+I think there are valuable things an industrial consortium could provide and they could learn from and emulate some of the good things within organizations like [[GS1|http://www.gs1.org/]].
+GS1 created technical and process standards for RFID/Barcodes used in supply and demand chains. What is new for the Industrial Internet’s is its focus is on the infrastructure/operational side of the business (not supply chain).
+But the standardize of end-device technology, APIs, and process, as GS1 did, could be the ingredient to create a safe starting point despite the uncertainties.
+Only then will an industrial enterprise be willing to make a major move, and feel that the risk is manageable.
+
+The third and final point is an age old problem of all emerging technologies. And its the larger problem that transcends the issue of the use of a wireless IoT network.
+This requires the hard work of business case analysis and systematically addressing all the fears of the unknown.
+You need to show that real money (not soft money) can be made/saved, that the organization can embrace the change (since the very nature of how the job gets done will be changed),
+and there is a long term plan to transform into a new/superior operational model. I think here analogies from other technologies/industries could be helpful.
+One of the most obvious analogy is that of marketings embrace of web-base data analytics.
+This has transformed the marketing/sales side of the business world.
+Intelligent devices will create their own data that will feed analytics for the operational side of the business. Other analogy may come from the adoption of telecommunications and computers.
+Years ago, few people saw the need for the wide utilization of the telephone or the PC,
+but they were adapted on mass because of the profound value of real-time/large-scale communication and computation.
+I’m sure there is an analogy here someplace for the Industrial Internet!

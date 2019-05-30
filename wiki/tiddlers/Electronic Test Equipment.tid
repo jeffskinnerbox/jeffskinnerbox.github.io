@@ -1,0 +1,16 @@
+created: 20141227155806256
+modified: 20150504011626733
+tags: [[Test Gear]]
+title: Electronic Test Equipment
+type: text/vnd.tiddlywiki
+
+Electronic test equipment (aka "test gear" or "bench top")
+is used to create signals and capture responses from electronic devices under test.
+
+* [[Oscilloscope]]
+* [[Bus Pirate]]
+
+Some thoughts on the equipment you need to get started in building electronics:
+
+* [[So You Want to Build Electronics|http://blog.thelifeofkenneth.com/2011/06/so-you-want-to-build-electronics.html]]
+* [[Workbench Eye Candy from Around the World|http://hackaday.com/2015/04/27/workbench-eye-candy-from-around-the-world/]]

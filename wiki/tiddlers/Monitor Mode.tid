@@ -1,0 +1,25 @@
+created: 20150301195923818
+modified: 20150301200120430
+tags: WiFi
+title: Monitor Mode
+type: text/vnd.tiddlywiki
+
+[[Monitor mode|http://en.wikipedia.org/wiki/Monitor_mode]]
+is a passive-only mode, no packets are transmitted.
+All incoming packets are handed over to the host computer completely unfiltered.
+This mode is useful to see what's going on on the network.
+
+With some hardware, it is possible to have a network device
+in monitor mode while in one of the other modes.
+This is useful to observe the network whilst using it.
+However, not all hardware fully supports this.
+It may also be possible to transmit packets in monitor mode,
+which is known as packet injection
+(aka [[RadioTap|https://wireless.wiki.kernel.org/en/developers/documentation/radiotap]]).
+
+Unlike [[Promiscuous Mode]],
+which is also used for packet sniffing,
+monitor mode allows packets to be captured without having to
+associate with an access point or ad hoc network first.
+Monitor mode only applies to wireless networks,
+while promiscuous mode can be used on both wired and wireless networks.

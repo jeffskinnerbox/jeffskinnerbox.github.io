@@ -1,0 +1,16 @@
+created: 20150301213103856
+modified: 20150301213505901
+tags: WiFi
+title: Service Set Identification (SSID)
+type: text/vnd.tiddlywiki
+
+The SSID is the informal (human) name of the [[Basic Service Set (BSS)]].
+An SSID is a 32-character (maximum) alphanumeric key identifying the name of the wireless local area network.
+Some vendors refer to the SSID as the network name.
+For the wireless devices in a network to communicate with each other,
+all devices must be configured with the same SSID.
+
+As a purported security enhancement,
+some access points allow a user to inhibit the broadcasting of their SSIDs,
+a tactic known as [[network cloaking|http://en.wikipedia.org/wiki/Network_cloaking]].
+A station may then only join a BSS after the associated SSID has been specified explicitly.

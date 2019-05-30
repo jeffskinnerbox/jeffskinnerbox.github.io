@@ -1,0 +1,15 @@
+created: 20150301202759772
+modified: 20150307195516402
+tags: WiFi Mesh
+title: Mesh Mode
+type: text/vnd.tiddlywiki
+
+This mode establishes a
+[[wireless mesh network (WMN)|Wireless Mesh Network (WMN)]]
+through the connection of wireless access points installed at each network user's locale.
+Each network user is also a provider,
+forwarding data to the next node.
+The networking infrastructure is decentralized and simplified
+because each node need only transmit as far as the next node.
+
+Mesh networks may involve either fixed or mobile devices.

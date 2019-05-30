@@ -1,0 +1,19 @@
+created: 20140916015414292
+modified: 20160821160449507
+tags: Projects
+title: RPi as a Penetration Testing / Intrusion Detection Tool
+type: text/vnd.tiddlywiki
+
+* [[Raspberry Pwn: A Pentesting Release for the Raspberry Pi|http://blog.pwnieexpress.com/post/24967860602/raspberry-pwn-a-pentesting-release-for-the-raspberry]]
+* [[Raspberry Pi as a Network Monitoring Node|http://www.networkworld.com/community/node/84143]]
+* [[Wireless Intrusion Detection System|https://blog.adafruit.com/2015/06/19/wireless-intrusion-detection-system-piday-raspberrypi-raspberry_pi/]]
+* [[Installing Kali Linux on a Raspberry Pi and Connecting to it Remotely|http://cyberarms.wordpress.com/2013/03/14/installing-kali-linux-on-a-raspberry-pi-and-connecting-to-it-remotely/]]
+* [[Kali Linux - advanced and versatile penetration testing Linux distribution|http://www.kali.org/]]
+* [[horst|http://br1.einfach.org/tech/horst/?show=slide]]
+* [[WarBerryPi|https://github.com/secgroundzero/warberry]]
+
+USB Rubber Ducky
+
+* [[USB Rubber Ducky|http://192.64.85.110/index.php]]
+* [[USBdriveby|http://samy.pl/usbdriveby/]]
+* [[Turning USB peripherals into BadUSB|https://srlabs.de/bites/usb-peripherals-turn/]]

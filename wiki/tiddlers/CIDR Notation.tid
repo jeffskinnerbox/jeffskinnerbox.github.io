@@ -1,0 +1,17 @@
+created: 20150321134813107
+modified: 20150321142515251
+tags: Networking
+title: CIDR Notation
+type: text/vnd.tiddlywiki
+
+[[CIDR]] notation is a compact representation of an
+[[IP address|IP Address]]
+and its associated [[routing prefix|Routing Prefix]].
+The notation is constructed from the IP address and the prefix size,
+the latter being equivalent to the number of leading 1 bits in the routing prefix [[mask|Bitmask]].
+
+The IP address is expressed according to the standard IPv4 or IPv6
+[[dot-decimal notation|Dot-Decimal Notation]].
+This is followed by a separator character, the slash ('/') character, and the prefix size expressed as a decimal number.
+
+''Source:'' http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation

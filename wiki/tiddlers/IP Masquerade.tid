@@ -1,0 +1,22 @@
+created: 20150327013713545
+modified: 20150327020809627
+tags: Networking
+title: IP Masquerade
+type: text/vnd.tiddlywiki
+
+IP Masquerade is a networking function in Linux similar to the one-to-many [[Network Address Translation]] (NAT)
+servers found in many commercial firewalls and network routers.
+
+IP Masquerade, also called IPMASQ or MASQ, allows one or more computers in a network
+without assigned IP addresses to communicate with the Internet using the Linux server's assigned IP address.
+The IPMASQ server acts as a gateway, and the other devices are invisible behind it,
+so to other machines on the Internet the outgoing traffic appears to be coming from the IPMASQ server and not the internal PCs.
+
+For example, if a Linux host is connected to the Internet,
+the IP Masquerade feature allows other "internal" computers connected to this Linux box (via PPP, Ethernet, etc.)
+to also reach the Internet as well.
+Linux IP Masquerading allows for this functionality even though
+these internal machines don't have an officially assigned IP address.
+
+* [[IP Masquerade and Network Address Translation|http://www.oreilly.com/openbook/linag2/book/ch11.html]]
+* [[NAT & IP Masquerade|http://bglug.ca/articles/nat_and_ip_masquerade.pdf]]

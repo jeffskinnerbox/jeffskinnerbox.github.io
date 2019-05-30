@@ -1,0 +1,14 @@
+created: 20150301202110127
+modified: 20150327022518347
+tags: WiFi
+title: STA Mode
+type: text/vnd.tiddlywiki
+
+The STA mode or [[infrastructure mode|Infrastructure Mode]]
+sets the station device to connects to an access point.
+Wireless interface in any of station modes will search for acceptable access point (AP) and connect to it. 
+This process is called the authentication and association.
+After the AP sent the successful association reply,
+the station is part of the network.
+
+This is the same as [[Client Mode]].

@@ -1,0 +1,19 @@
+created: 20150301154024781
+modified: 20150327023255510
+tags: WiFi
+title: WiFi Operating Modes
+type: text/vnd.tiddlywiki
+
+A [[WiFi]] network device always operates in one
+(or for some special hardware, multiple modes as in [[AP+STA|http://www.hi-flying.com/products_detail_faqs/&productId=4b01f897-b100-4e11-a85b-9d15bedaf145.html]]
+or [[WDS with AP Mode|http://www.dlink.com/uk/en/support/faq/access-points-and-range-extenders/what-do-the-modes-mean-on-my-ap]])
+of the six modes that 802.11 wireless cards can operate in:
+
+# [[Master / Access Point|AP Mode]] - acting as an access point (AP)
+# [[Managed / Station / STA / Access Point Client / Wireless Client / Client|STA Mode]] - act as a client to an access point
+# [[Ad-Hoc / Point-to-Point / Wireless Bridge|Ad-Hoc Mode]] - directly connecting two or more computers without an access point
+# [[Mesh / Point-to-Multipoint / Multi-point Bridge|Mesh Mode]] - decentralized interconnection with other wireless access points
+# [[Repeater / WDS|WDS Mode]] - wireless interconnection to other access points to form a single managed network
+# [[Monitor|Monitor Mode]] - passively read packets, no packets are transmitted
+
+Strictly speaking, [[Infrastructure Mode]] is not a device mode but a concept.

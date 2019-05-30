@@ -1,0 +1,204 @@
+created: 20140927011730070
+modified: 20160601023537068
+tags: Pontifications
+title: The Internet of Me
+type: text/vnd.tiddlywiki
+
+!Quantified Self Movement
+The origin of this, not so small piece of pseudo-analysis,
+is my curiosity about the 
+"quantified self movement" and its relationship with the Internet of Things.
+Quantified Self movement employs technology to develop self-awareness by tracking data related to exercise,
+diet, health maintenance, financial management, learning and so forth.
+Some of this data could be captured from social media interactions
+but the most interesting data will come from sensors we wear or embedded in device we use.
+
+[[Another definition|http://www.livescience.com/topics/quantified-self/]] I found for the quantified self movement is:
+
+//The quantified self movement aims to measure all aspects of our daily lives with the help of technology.
+Wearable devices such as activity trackers, along with apps that let us log our every step, snack and snooze could bring us a better understanding of ourselves, our nature, and may even benefit our health.//
+
+I will not pass judgement how real this "movement" is,
+nor how much valuable it really has for all of us,
+but I wanted to get a sense of how many IoT type gadgets are out their trying to quantify our lives.
+This topic is interesting in it own right but
+it seems to me this will have significant importance to the Industrial Internet of Things (IIoT).
+If we are quantifying our lives, surely the social media world will love to harvest this data for its use.
+But beyond things like Facebook and Twitter, the Industrial Internet could leverage these gadgets
+to provide services.
+
+Here are some example:
+
+''Your Home''
+
+*[[Oort|http://oort.in/]]
+*[[Belkin WeMo-branded smart wall switches and plugs, LED light bulbs, motion sensors, and lighting devices|http://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/]]
+*[[Canary home security system includes an HD video camera and sensors for air quality, motion, sound, temperature, and vibration in one unit|http://canary.is/]]
+*[[Neurio embeds a Wi-Fi-enabled sensor inside your home's electrical panel and identifies individual devices and appliances by their "power signatures|https://www.neur.io/]]
+
+''Your Car''
+
+*[[Zubie|http://zubie.co/]]
+*[[RECEIVING AND DECODING TIRE PRESSURE MONITOR SYSTEMS USING AN RTL-SDR|http://www.rtl-sdr.com/receiving-decoding-tire-pressure-monitor-systems-using-rtl-sdr/]]
+*[[Power a Car Diagnostics System with a Raspberry Pi|http://lifehacker.com/power-a-car-diagnostics-system-with-a-raspberry-pi-1598020131]]
+
+''Your Safety''
+
+* [[connected bike helmet|https://www.media.volvocars.com/us/en-us/media/pressreleases/155565/volvo-cars-and-poc-to-demonstrate-life-saving-wearable-cycling-tech-concept-at-international-ces-201]]
+
+''Your Environment''
+
+*[[The Era of Ubiquitous Listening Dawns|http://www.technologyreview.com/news/517801/the-era-of-ubiquitous-listening-dawns/]]
+*[[Array of Things|http://arrayofthings.github.io/]]
+
+''Your Life''
+
+* [[Nixie is a wearable drone that captures your activities on the fly|http://flynixie.com/]]
+* [[SnapCam is iON's new $150 wearable lifelogging camera|http://www.engadget.com/2015/01/04/snapcam-ion-life-logging-camera/]]
+
+''Your Yard''
+
+* [[Lawn and Garden|http://www.fastcompany.com/3058239/scotts-miracle-gro-pioneers-the-connected-yard]]
+* [[Parrot Flower Power|http://www.parrot.com/flowerpower/us]]
+
+''Your Travels''
+
+*[[American Airlines undertakes industry’s biggest deployment of iBeacons at DFW Airport|http://www.futuretravelexperience.com/2014/06/american-airlines-undertakes-industrys-biggest-deployment-ibeacons-dfw-airport/]]
+*[[Google Glass Teardown|http://www.catwig.com/google-glass-teardown/]]
+
+''Your Sleep''
+
+*[[Beddit - tracks your sleep, heart rate, breathing rhythm, movements and snoring|http://www.beddit.com/]]
+*[[Sleep Number's IQ Bed Can Silence a Snoring Bedmate|http://gizmodo.com/sleep-numbers-iq-bed-can-silence-a-snoring-bedmate-1497526778]]
+*[[SleepIQ Powered by BAM Labs|http://bamlabs.com/sleep-iq-powered-by-bam-labs/]]
+*[[Watch: iWinks' Aurora Headband Allows You To Manipulate Your Dreams|https://makeit.intel.com/inspiration]]
+*[[Pillow Talk|http://littleriot.com/pillowtalk/]]
+* [[Eight is designed to sense and analyze your bedroom environment and sleeping patterns to determine the temperature that helps you sleep best|http://eightsleep.com/]]
+
+''Your Food''
+
+* [[Egg Minder|http://www.quirky.com/shop/619#.]]
+* [[A Bluetooth beacon in your fridge could help you eat less|https://gigaom.com/2015/01/09/a-bluetooth-beacon-in-your-fridge-could-help-you-eat-less/]]
+* [[June Intelligent Oven|https://juneoven.com/]]
+
+''Your Food Consumption''
+
+*[[Vessyl|https://www.myvessyl.com/]]
+*[[HAPIfork|http://www.hapi.com/products-hapifork.asp]]
+
+''Your Fitness''
+
+*[[Fitbit|https://www.fitbit.com/]]
+*[[ShotStats|http://www.shot-stats.com/]]
+*[[Fuelband|http://www.nike.com/us/en_us/c/nikeplus-fuelband]]
+
+''Your Behavior''
+
+* [[A shock behavior-modifying wristband|http://pavlok.com/]]
+
+''Your Sun Exposure''
+
+* [[Sun-sensitive bracelet|https://www.netatmo.com/en-US/product/june]]
+
+''Your Sports''
+
+* [[World's First Connected Tennis Racquet Will Perfect Your Swing|http://mashable.com/2014/01/07/connected-tennis-racquet/]]
+* [[Golf swing sensor offers smartphone-based coaching, saves your best drives in cloud storage|http://www.engadget.com/2014/02/09/golf-swing-sensor-epson/]]
+* [[Smart Sensor Basketball|http://www.94fifty.com/]]
+* [[Football-helmet sensor warns of concussion risk via phone app|http://www.cnet.com/news/football-helmet-sensor-warns-of-concussion-risk-via-phone-app/]]
+* [[Here's Why You Need a Pair of Smart Skis|http://www.popularmechanics.com/outdoors/sports/skiing-boarding/heres-why-you-need-a-pair-of-smart-skis-17463395]]
+* [[Golf Swing|https://arccosgolf.com/]]
+* [[The NHL Is Getting Player-Tracking Technology—Finally|http://www.fastcompany.com/3042961/the-nhl-is-getting-player-tracking-technology-finally]]
+
+''Your Music''
+
+*[[Pandora wants to DJ the 'Internet of Things'|http://www.cnet.com/news/pandora-wants-to-dj-the-internet-of-things-q-a/]]
+
+''Your Children''
+
+*[[Mimo Baby Monitor|http://mimobaby.com/]]
+*[[WiThings baby monitor|http://www.withings.com/us/baby-monitor.html]]
+
+''Your Pets''
+
+*[[Whistle - Activity Monitor for Your Dog|http://www.whistle.com/]]
+*[[Tractive GPS dog collar|http://tractive.com/en]]
+* [[Tagg|http://www.pettracker.com/]]
+* [[SureFlap|https://www.sureflap.com/en-US]]
+
+''Your Healthcare''
+
+*[[Becoming Cyborgs: Wearable Tech Disrupts Healthcare|http://www.forbes.com/sites/ptc/2014/03/28/becoming-cyborgs-ear-based-wearable-tech-disrupts-healthcare/]]
+*[[In time for summer: 'connected' bikini tells you how to tan|http://phys.org/news/2015-06-summer-bikini-tan_1.html]]
+
+''Your General Health''
+
+*[[Intel Shows Off ‘Smart’ Wearable Shirt|http://bits.blogs.nytimes.com/2014/05/28/intel-shows-off-smart-wearable-shirt/?_php=true&_type=blogs&_php=true&_type=blogs&_r=1]]
+*[[Wearable Self-Tracking Tool Listens for Yawns, Coughs, and Munches|http://www.technologyreview.com/news/528386/wearable-self-tracking-tool-listens-for-yawns-coughs-and-munches/]]
+*[[Scanaflo will test for levels of glucose, protein, leukocytes, nitrates, blood, bilirubin, urobilinogen, specific gravity, and pH in urine|https://www.scanadu.com/scanaflo/]]
+*[[Scanadu Scout|https://www.scanadu.com/scout/]]
+*[[Blood Presure Monitor|http://www.withings.com/us/]]
+*[[Kinsa - World's Smartest Thermometer|https://www.kinsahealth.com/]]
+* [[Hexoskin|http://www.hexoskin.com/]]
+* [[monitor that tells you when your tampon is full|http://www.trackmyflow.com/]]
+
+''Your Emotions''
+
+* [[Beyond Verbal - Beyond Wellness API|http://www.beyondverbal.com/choose-solution/wellness/what-is-it/]]
+* [[Thync - Energize or relax without drinks or pills|http://www.thync.com/]]
+
+''Your Medications''
+
+*[[Vitality Glowcap|http://www.vitality.net/]]
+
+''Your Purchases''
+
+*[[Wearable technology contributes in driving payment revolution|http://letstalkpayments.com/wearable-technology-contributes-driving-payment-revolution/?utm_source=Subscribe+to+LTP&utm_campaign=1bad5f64b5-RSS_EMAIL_CAMPAIGN&utm_medium=email&utm_term=0_aa5e7321a3-1bad5f64b5-90656497]]
+
+''Your Dental Hygiene''
+
+*[[Oral-B Connected Toothbrush|http://connectedtoothbrush.com/]]
+*[[Kolibree toothbrush|http://www.kolibree.com/]]
+
+''Your Brain''
+
+*[[XOX is a new emotional technology platform that enables brands and artists to track users’ emotional states|http://www.xoxemotionaltech.com/]]
+*[[MUSE: the brain sensing headband|http://interaxon.ca/]]
+*[[Emotiv’s New Neuro-Headset|http://techcrunch.com/video/emotivs-new-neuro-headset/518294364/]]
+    *[[Emotiv|http://www.emotiv.com/epoc.php]]
+
+''Your Insurance''
+
+*[[Internet of Things Under the Radar, But Coming to Insurance|http://www.insurancetech.com/business-intelligence/internet-of-things-under-the-radar-but-c/240168164]]
+*[[Prepare for Deep Auto Insurance Premium Drop Scenario, Celent Report Advises|http://www.insurancetech.com/claims/prepare-for-deep-auto-insurance-premium/232901645]]
+*[[Is the Future of Insurance in the Internet of Things?|http://www.propertycasualty360.com/2014/04/29/is-the-future-of-insurance-in-the-internet-of-thin]]
+*[[Microsoft, insurer, may make home automation inexpensive -- even free|http://www.computerworld.com/s/article/9249274/Microsoft_insurer_may_make_home_automation_inexpensive_even_free]]
+
+''Your Identify''
+
+*[[Nymi is the first wearable authentication technology|http://www.bionym.com/]]
+
+''Your Sex Life''
+
+* [[RealTouch|http://www.engadget.com/2015/02/26/adult-themes-digital-brothel/]]
+* [[BlueMotion|http://shop.ohmibod.com/blueMotion/blueMotion-NEX1]]
+* [[HUM: The world’s first artificially intelligent vibrator|http://www.techly.com.au/2015/01/22/hum-worlds-first-artificially-intelligent-vibrator/]]
+
+''Your Junk''
+
+*[[The Pedometer For Your Penis|http://www.huffingtonpost.com/2014/08/07/sexfit-wearable_n_5658413.html?utm_hp_ref=tw]]
+
+''Roll Your Own''
+
+* [[BITalino - a low-cost, easy to use bio wearable developer kit|http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/9047/BITalino--a-low-cost-easy-to-use-bio-wearable-developer-kit.aspx]]
+* [[Intel Announces Curie: Tiny Module for Wearables|http://www.anandtech.com/show/8848/intel-announces-curie-tiny-module-for-wearables]]
+
+Some additional sources on the quantified self movement are:
+
+*[[Quantified Self|http://www.economist.com/node/21548493]]
+*[[Gary Wolf: The quantified self|http://www.ted.com/talks/gary_wolf_the_quantified_self]]
+*[[The Beginner’s Guide to Quantified Self (Plus, a List ofthe Best Personal Data Tools Out There)|http://technori.com/2013/04/4281-the-beginners-guide-to-quantified-self-plus-a-list-of-the-best-personal-data-tools-out-there/]]
+
+Of course, all of this has it down sides concerning privacy and security:
+
+* [[Pretty Much Every Smart Home Device You Can Think of Has Been Hacked|http://www.slate.com/blogs/future_tense/2014/12/30/the_internet_of_things_is_a_long_way_from_being_secure.html]]

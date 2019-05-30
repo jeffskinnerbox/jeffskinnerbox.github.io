@@ -1,0 +1,11 @@
+created: 20150301212513474
+modified: 20150301212914307
+tags: WiFi
+title: Independent Basic Service Set (IBSS)
+type: text/vnd.tiddlywiki
+
+Within 802.11,
+one can set up an [[ad hoc network|Ad-Hoc Mode]]
+of client devices without a [[controlling access point|AP Mode]];
+the result is called an IBSS (independent BSS).
+This is in contrast to a [[Basic Service Set (BSS)]].

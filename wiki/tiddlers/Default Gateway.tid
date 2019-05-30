@@ -1,0 +1,17 @@
+created: 20150321230231716
+modified: 20150321230756695
+tags: Networking
+title: Default Gateway
+type: text/vnd.tiddlywiki
+
+In computer networking, a gateway is a router on a TCP/IP network
+that serves as an access point to another network.
+A default gateway is the router on the computer network that the network software
+uses when an IP address does not match any other routes in the [[routing table|Routing Table]].
+
+In home computing configurations, an ISP often provides a physical device which both connects local hardware to the Internet and serves as a gateway.
+Such devices include DSL routers and cable routers.
+
+Compare this to a [[Default Route]].
+
+''Source:'' http://en.wikipedia.org/wiki/Default_gateway

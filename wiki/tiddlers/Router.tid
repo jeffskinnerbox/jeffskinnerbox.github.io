@@ -1,0 +1,18 @@
+created: 20150322000721593
+modified: 20150322002527899
+tags: Networking
+title: Router
+type: text/vnd.tiddlywiki
+
+A router is a networking device that forwards data packets between computer networks.
+A router is connected to two or more data lines from different networks
+(as opposed to a [[Network Switch]], which connects data lines from one single network).
+When a data packet comes in one of the lines,
+the router reads the address information in the packet to determine its ultimate destination.
+Then, using information in its [[routing table|Routing Table]]
+or routing policy, it directs the packet to the next network on its journey.
+This creates an overlay internetwork.
+Routers perform the "traffic directing" functions on the Internet.
+A data packet is typically forwarded from one router to another through the networks that constitute the internetwork until it reaches its destination node.
+
+''Source:'' http://en.wikipedia.org/wiki/Router_(computing)

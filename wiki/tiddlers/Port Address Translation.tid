@@ -1,0 +1,25 @@
+created: 20150412023317704
+modified: 20150412023643181
+tags: Networking
+title: Port Address Translation
+type: text/vnd.tiddlywiki
+
+Port Address Translation (PAT),
+is an extension to [[Network Address Translation]] (NAT) that permits
+multiple devices on a local area network (LAN)
+to be mapped to a single public IP address.
+The goal of PAT is to conserve IP addresses.
+
+Most home networks use PAT.
+In such a scenario, the Internet Service Provider (ISP) assigns
+a single IP address to the home network's router.
+When Computer X logs on the Internet,
+the router assigns the client a port number,
+which is appended to the internal IP address.
+This, in effect, gives Computer X a unique address.
+If Computer Z logs on the Internet at the same time,
+the router assigns it the same local IP address with a different port number.
+Although both computers are sharing the same public IP address and accessing the Internet at the same time,
+the router knows exactly which computer to send specific packets to because each computer has a unique internal address.
+
+Port Address Tranlation is also called porting, port overloading, port-level multiplexed NAT and single address NAT.

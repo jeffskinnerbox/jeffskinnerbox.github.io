@@ -1,0 +1,10 @@
+{% if article.tags %}
+&nbsp;&nbsp;&nbsp;
+<i class="fa fa-tags fa-lg"></i>
+{% for tag in article.tags %}
+    <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+    {% if not loop.last %}
+        &nbsp;
+    {% endif %}
+{% endfor %}
+{% endif %}

@@ -1,0 +1,9 @@
+created: 20141031210632707
+modified: 20141031210648256
+title: AppleTalk
+type: text/vnd.tiddlywiki
+
+AppleTalk is a proprietary suite of networking protocols developed by Apple Inc. for their Macintosh computers. AppleTalk included a number of features that allowed local area networks to be connected with no prior setup or the need for a centralized router or server of any sort. Connecting together AppleTalk equipped systems would automatically assign addresses, update the distributed namespace, and configure any required inter-networking routing. It was a plug-n-play system.
+
+''Source:''
+http://en.wikipedia.org/wiki/AppleTalk

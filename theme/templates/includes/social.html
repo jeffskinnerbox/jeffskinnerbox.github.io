@@ -1,0 +1,9 @@
+<li class="list-group-item"><h4><i class="fa fa-group fa-lg"></i><span class="icon-label">Social Media</span></h4>
+    <ul class="list-group" id="social">
+        {% for name, icon, link in SOCIAL %}
+        <li class="list-group-item"><a href="{{ link }}" target="_blank">
+            <i class="fa {{ icon }}"></i> {{ name }}
+        </a></li>
+        {% endfor %}
+    </ul>
+</li> 

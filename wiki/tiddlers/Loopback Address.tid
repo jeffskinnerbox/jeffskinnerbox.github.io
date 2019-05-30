@@ -1,0 +1,13 @@
+created: 20150321152910869
+modified: 20150321153045999
+tags: Networking
+title: Loopback Address
+type: text/vnd.tiddlywiki
+
+Loopback address is a special IP number (127.0.0.1)
+that is designated for the software [[loopback|http://en.wikipedia.org/wiki/Loopback]]
+interface of a machine.
+The loopback interface has no hardware associated with it,
+and it is not physically connected to a network.
+The loopback interface allows IT professionals to test IP software
+without worrying about broken or corrupted drivers or hardware.

@@ -1,0 +1,25 @@
+created: 20150314230118415
+modified: 20150412023251639
+tags: Networking
+title: Network Address Translation
+type: text/vnd.tiddlywiki
+
+Network address translation (NAT) is a methodology of remapping
+one [[IP address|IP Address]] space into another by modifying network address
+information in Internet Protocol (IP) datagram packet headers
+while they are in transit across a traffic routing device.
+
+Every router does NAT and has both an internal IP address and an external IP address.
+The external IP address is the one that connects that router to the [[Wide Area Network]] (WAN).
+Usually the WAN is the Internet.
+The internal IP address connects the router to the internal network.
+
+* ''Static NAT'' - Mapping an unregistered IP address to a registered IP address on a one-to-one basis.  Particularly useful when a device needs to be accessible from outside the network.
+* ''Dynamic NAT'' - Maps an unregistered IP address to a registered IP address from a group of registered IP addresses.
+* ''Overloading'' - A form of dynamic NAT that maps multiple unregistered IP addresses to a single registered IP address by using different ports. This is known also as [[Port Address Translation]] (PAT), single address NAT or port-level multiplexed NAT.
+* ''Overlapping'' - When the IP addresses used on your internal network are registered IP addresses in use on another network, the router must maintain a lookup table of these addresses so that it can intercept them and replace them with registered unique IP addresses. 
+
+Additional information:
+
+* [[How Network Address Translation Works|http://computer.howstuffworks.com/nat.htm]]
+* [[IP Masquerade and Network Address Translation|http://www.oreilly.com/openbook/linag2/book/ch11.html]]

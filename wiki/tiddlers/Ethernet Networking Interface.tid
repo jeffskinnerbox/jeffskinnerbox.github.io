@@ -1,0 +1,16 @@
+created: 20150321233645567
+modified: 20150321235437250
+tags: Networking
+title: Ethernet Networking Interface
+type: text/vnd.tiddlywiki
+
+[[Ethernet]] networking interface (ENI)
+refers to a circuit board
+or card installed in a personal computer or workstation,
+as a network client.
+A networking interface allows a computer or mobile device to
+connect to a local area network (LAN) using Ethernet as the transmission mechanism.
+
+* [[Category 5 Cable]] (Cat5)
+* [[RJ-45 Connector]]
+* [[Network Interface Controller]] (NIC)is also known as a network interface card, network adapter, LAN adapter

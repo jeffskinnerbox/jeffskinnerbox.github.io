@@ -1,0 +1,13 @@
+created: 20150104001554382
+modified: 20150104002054617
+title: Bluetooth 4.2
+type: text/vnd.tiddlywiki
+
+Improvements to Bluetooth in these areas:
+
+* ''Privacy and Security —'' Bluetooth 4.2 introduces industry-leading privacy settings that lowers power consumption and builds upon the government-grade security features of the Bluetooth specification. The new privacy features put control back into the hands of the consumer by making it difficult for eavesdroppers to track a device through its Bluetooth connection without permission. For example, when shopping in a retail store with beacons, unless you’ve enabled permission for the beacon to engage with your device, you can’t be tracked.
+* ''Speed —'' Bluetooth 4.2 increases the speed and reliability of data transfers between Bluetooth Smart devices. By increasing the capacity of Bluetooth Smart packets, devices transfer data up to 2.5 times faster than with previous versions. Increased data transfer speeds and packet capacity reduces the opportunity for transmission errors to occur and reduces battery consumption, resulting in a more efficient connection.
+* ''Internet Connectivity —'' Internet Protocol Support Profile (IPSP) will allow Bluetooth Smart sensors to access the Internet directly via IPv6/6LoWPAN. IP connectivity makes it possible to use existing IP infrastructure to manage Bluetooth Smart “edge” devices. This is ideal for connected home scenarios that need both personal and wide area control.
+
+''Source:''
+[[New Bluetooth Specifications Enable IP Connectivity and Deliver Industry-leading Privacy and Increased Speed|http://www.bluetooth.com/Pages/Press-Releases-Detail.aspx?ItemID=220]]

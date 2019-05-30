@@ -1,0 +1,11 @@
+created: 20150307183028975
+modified: 20150321143012876
+tags: Networking
+title: Subnet Mask
+type: text/vnd.tiddlywiki
+
+For IPv4, a network is also characterized by its subnet mask,
+which is the bitmask that when applied by a [[bitwise|Bitmask]] AND operation to any [[IP address|IP Address]] in the network,
+yields the routing prefix.
+Subnet masks are also expressed in dot-decimal notation like an address.
+For example, 255.255.255.0 is the network mask for the 192.168.1.0/24 prefix.

@@ -1,0 +1,14 @@
+created: 20141026182641013
+modified: 20141026185832444
+title: IoT Platforms
+type: text/vnd.tiddlywiki
+
+A typical [[IoT]] appllication will consist of several platform or capabilities.
+They are:
+
+* Device
+* [[IoT Protocols]]
+* [[Device Hub]]
+* Internet Protocols
+* [[Device Cloud Platform]]
+* User Application

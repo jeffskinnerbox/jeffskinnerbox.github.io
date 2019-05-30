@@ -1,0 +1,21 @@
+created: 20160213150656550
+modified: 20160213151156715
+tags: 
+title: WiFi Direct
+type: text/vnd.tiddlywiki
+
+[[WiFi Direct|https://en.wikipedia.org/wiki/Wi-Fi_Direct]],
+initially called WiFi P2P,
+is a WiFi standard enabling devices to easily connect
+with each other without requiring a wireless access point.
+It is useful for everything from internet browsing to file transfer,
+and to communicate with one or more devices simultaneously at typical WiFi speeds.
+One advantage of WiFi Direct is the ability to connect devices even if they are from different manufacturers.
+Only one of the WiFi devices needs to be compliant with WiFi Direct to establish a peer-to-peer connection.
+
+WiFi Direct negotiates the link with a
+[[WiFi Protected Setup system|https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup]]
+that assigns each device a limited wireless access point.
+The "pairing" of WiFi Direct devices can be set up to require
+the proximity of a near field communication, a Bluetooth signal,
+or a button press on one or all the devices.

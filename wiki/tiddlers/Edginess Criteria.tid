@@ -1,0 +1,27 @@
+created: 20141031211051367
+modified: 20141031211115170
+title: Edginess Criteria
+type: text/vnd.tiddlywiki
+
+!Initial Definition
+A use case would be considered edgy if it does one or more of the following: consume large bandwidth, is time critical, requires only local data, demands privacy or increased security, or must be protected from network interruptions.
+
+!Better Definition
+A use case itself isn't edgy, but it may have a context or attributes that give it a preference for the edge.
+
+!Alternative Definition
+Depending on the context, there are actions and functions performed within a use cases that are best done on the edge.
+
+!Criteria
+| !Use case prefers the edge if: | !Use case prefers the cloud if: | !Use case is neutral if: |
+|it involve time critical computation	|you need to minimize maintenance / update cost |solution has small or in frequent data packets|
+|requires the analysis of large volumes of data|you have a complex monetization scheme|solution has simple analytics|
+|you need to minimize single point of failure|you have low power requirements at the edge|solution has heterogeneous data / messaging protocols |
+|you need to minimize privacy exposures|your edge environment is hostile|data is generated and consumed on the edge|
+|you implement API for the edge device|you have multiple uses of devices data | |
+|the edge needs peer-to-peer interaction|your solution requires rapid scaling | |
+|you need to throttle resource consumption|your solution has complex analytics	| |
+|you suppress alarms, notifications, data|you need simplified trouble shooting	| |
+|the edge device is to cause action / activate|your solution requires third party integration  | |
+| |you need to minimize security exposure | |
+| |your edge is in a remote location | |

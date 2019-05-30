@@ -1,0 +1,25 @@
+created: 20151129182049203
+modified: 20180224184151277
+tags: Definition
+title: coherer
+type: text/vnd.tiddlywiki
+
+The [[coherer|https://en.wikipedia.org/wiki/Coherer]]
+is a primitive form of radio signal detector used in the first radio receivers during the wireless telegraphy era at the beginning of the 20th century.
+The Coherer had many short comings as a detector and
+around 1905 will be replaced by the Fleming Valve (aka Diode Vacuum Tube)
+and De Forest's Audion (aka Triode Vacuum Tube).
+For more information, see Kathy Balistreri excellent videos on the [["Secret History of Electricity"|https://www.youtube.com/channel/UCYrX5FiWjiPd0JytMh6NX1Q]].
+Specifically, check out:
+
+* [[Triode Vacuum Tube: History & Physics|https://www.youtube.com/watch?v=0Smj2nHo9zA]]
+* [[Reginald Fessenden & the Physics of the First Radio Broadcast|https://www.youtube.com/watch?v=RYHaihLhBvc]]
+* [[The Arc Transmitter (Poulsen Arc) and the Titanic|https://www.youtube.com/watch?v=hrmx_TKNvyc]]
+
+You too can
+[[rediscovering the magic of wireless communication|http://ashishrd.blogspot.de/2015/11/rediscovering-magic-of-wireless.html]]
+by building your own coherer.
+
+* [[The Branly-Lodge "Coherer" Detector|http://people.seas.harvard.edu/~jones/cscie129/nu_lectures/lecture6/coherers/coherer.html]]
+* [[Spark Museum|http://www.sparkmuseum.com/RADIOS.HTM]]
+* [[Reginald Fessenden|https://hackaday.com/2018/02/19/you-all-know-reginald-fessenden-who/]]

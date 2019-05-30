@@ -1,0 +1,19 @@
+created: 20141026185521161
+modified: 20150103202954050
+title: IoT Protocols
+type: text/vnd.tiddlywiki
+
+!!~IoT Relevant Protocols
+* [[Thread|http://www.threadgroup.org/Home.aspx]]
+* [[pubsubhubbub|http://readwrite.com/2009/09/28/real-time_web_protocol_pubsubhubbub_explained#awesm=~oDUkPl96eqUpe3]]
+* [[Message Queuing Telemetry Transport (MQTT)|http://mqtt.org/]]
+* [[Mosquitto is an open source message broker that implements MQTT protocol|http://mosquitto.org/]]
+* [[Advanced Message Queuing Protocol (AMQP)|]]
+* [[Simple/Streaming Text-Oriented Messaging Protocol (STOMP)|]]
+* [[Constrained Application Protocol (CoAP)|]]
+* [[Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP|http://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html]]
+* [[MQTT and CoAP, IoT Protocols|http://www.eclipse.org/community/eclipse_newsletter/2014/february/article2.php]]
+* [[6LoWPAN -IPv6 over Low power Wireless Personal Area Networks|http://en.wikipedia.org/wiki/6LoWPAN]]
+
+!!Standards Body
+* [[IoT Standards]]

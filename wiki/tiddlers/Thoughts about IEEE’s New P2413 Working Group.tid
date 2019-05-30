@@ -1,0 +1,28 @@
+created: 20141125170346591
+modified: 20150208022646686
+tags: Pontifications
+title: Thoughts about IEEE’s New P2413 Working Group
+type: text/vnd.tiddlywiki
+
+[[On June 12, 2014|http://standards.ieee.org/news/2014/P2413.html]],
+the
+[[IEEE launched a new standards development project, IEEE P2413|http://standards.ieee.org/news/2014/P2413.html]].
+This will create standard for an “Architectural Framework for the Internet of Things (IoT).
+Upon completion, the standard will provide a robust architectural framework for the IoT, reducing market fragmentation, improving interoperability, and serving as a catalyst for continued IoT growth and advancement.”
+
+Here is my observation on what this means:
+
+When you survey the world of IoT solutions and look at the wireless interface, you find solutions using WiFi, Zigbee, 802.15.4 (aka mesh), XBee, BLE (aka Bluetooth), Sigfox, Weightless, 3GPP (e.g. Colibri LTE Platform), etc. 
+When you look beyond things that call themselves “IoT solutions” but are found in home or industrial automation, you find even more wireless radios (e.g. nRF24L01, nRF9E5, and other Nordic Semiconductor devices).
+Each of these devices/standards are useful for their domain (and will continue to be used because they work well) but they don’t talk to each other.
+
+There are some software platforms and protocols being developed for IoT solutions to integrate / bridge these technologies (Thingsquared, Contiki, MQTT, CoAP, etc.).
+This is good, but again, these things all have a domain where they prove useful but not a solution for all.
+
+So in the end, IEEE P2413 will look at all this and attempt to define an acceptable reference model for all these possibilities and it will be something like this – http://iotforum.org/wp-content/uploads/2014/01/Architectural-Reference-Model.pdf.
+There isn’t an electrical interface & message set defined here that everyone can implement but an architectural framework.
+This has value but I don’t foresee a future where there is a single electrical / protocol interface for all devices.  On the other hand, I would anticipate specific vertical domains (e.g. smart meters within a country, cold chain / supply chain management, automotive telemetry, etc.) where there would be a single (or at least very few to select from) electrical / protocol standards.
+
+These vertical domain standards will be drive by industrial groups who will define the message sets, best practices, and process models.
+These industrial groups will then work with bodies like the IEEE to define the electrical interfacing standards for their domain.
+These standards should be consistent with IEEE P2413, but much more specific and something a product developer can build.

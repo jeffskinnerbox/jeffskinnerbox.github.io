@@ -1,0 +1,25 @@
+created: 20150103205400983
+modified: 20150301162450942
+tags: WiFi
+title: What's the matter with WiFi?
+type: text/vnd.tiddlywiki
+
+WiFi is both power hungry and made for big data.
+
+Z-wave is controlled by one company.
+Bluetooth is low-power,
+but while the standard is being tweaked to accommodate a more mesh-like structure,
+it’s not a true mesh network.
+ZigBee has a range of issues, but suffers in part because it has
+so many variations that the standard is not as standardized as consumers would like.
+
+To address these perceived flaws and others,
+the Thread networking protocol supports IPv6 using 6LoWPAN,
+which is a way to adapt the heavier IPv6 capability for a power-and-packet constrained network.
+It also can support a mesh network of 250 devices or more.
+This may seem like overkill,
+but if you tally every light bulb in your home, every outlet,
+every switch and then start adding sensors and fun devices,
+that number starts making sense.
+
+https://gigaom.com/2014/07/15/nest-and-samsung-launch-thread-a-wireless-mesh-standard-for-the-smart-home/

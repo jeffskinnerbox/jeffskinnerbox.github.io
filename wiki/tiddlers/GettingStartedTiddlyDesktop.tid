@@ -1,0 +1,10 @@
+created: 20150530222731059
+modified: 20150530223744420
+tags: 
+title: GettingStartedTiddlyDesktop
+type: text/vnd.tiddlywiki
+
+!~TiddlyDesktop
+
+[[TiddlyDesktop|http://tiddlywiki.com/#TiddlyDesktop]]
+is a special purpose web browser for working with locally stored ~TiddlyWikis.

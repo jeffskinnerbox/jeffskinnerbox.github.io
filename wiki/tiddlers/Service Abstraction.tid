@@ -1,0 +1,10 @@
+created: 20141031233756558
+modified: 20141211220609402
+title: Service Abstraction
+type: text/vnd.tiddlywiki
+
+Service abstraction helps insulate the implementation and infrastructure details from service consumers.
+It provides a single behavior to be experienced by the service consumer even when the underlying components,
+such as IoT devices, low level sensors, electronics, may not be heterogeneous.
+
+They also may hide from the service consumer filtering and algorithmic processing of data that creates new information that is provided to the service consumer.

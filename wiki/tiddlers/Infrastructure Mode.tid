@@ -1,0 +1,18 @@
+created: 20150301192531536
+modified: 20150301195821424
+tags: WiFi
+title: Infrastructure Mode
+type: text/vnd.tiddlywiki
+
+An 802.11 networking framework in which devices communicate
+with each other by first going through an
+[[Access Point (AP)|WiFi Operating Modes]].
+Each [[station computer (STA)|WiFi Operating Modes]]
+connects to an access point via a wireless link.
+The set-up formed by the access point and the stations located within its coverage area are called a [[Basic Service Set (BSS)]].
+They form one cell.
+Each BSS is identified by a [[BSSID]], and in infrastructure mode,
+the BSSID corresponds to the access point's [[MAC Address]].
+
+Most corporate wireless LANs operate in infrastructure mode because
+they require access to the wired LAN in order to use services such as file servers or printers.

@@ -1,0 +1,62 @@
+created: 20150530222845757
+modified: 20150530223003676
+tags: 
+title: GettingStartedHTMLFile
+type: text/vnd.tiddlywiki
+
+!Creating HTML File
+The [[TiddlyWiki website documents|http://tiddlywiki.com/static/Generating%2520Static%2520Sites%2520with%2520TiddlyWiki.html]]
+how to use `tiddlywiki` to generate static HTML representations
+of the tiddlers within a TiddlyWiki that don't need JavaScript.
+
+!!For Linux
+```bash
+#!/usr/bin/env bash
+
+# derived from https://github.com/Jermolene/TiddlyWiki5/issues/168
+# also see http://tiddlywiki.com/static/Generating%2520Static%2520Sites%2520with%2520TiddlyWiki.html
+
+TIDDLYWIKI=/home/jeff/blogging/wiki
+OUTPUT=/home/jeff/tmp/tiddly_wiki_html
+
+# render the tiddlers in seperate filew within a directory
+node /usr/local/lib/node_modules/tiddlywiki/tiddlywiki.js \
+    $TIDDLYWIKI \
+    --verbose \
+    --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html $OUTPUT/static text/plain \
+    --rendertiddler $:/core/templates/static.template.html $OUTPUT/index.html text/plain \
+    --rendertiddler $:/core/templates/static.template.css $OUTPUT/static/static.css text/plain \
+    || exit 1
+
+# render all the tiddlers in a single file
+node /usr/local/lib/node_modules/tiddlywiki/tiddlywiki.js \
+    $TIDDLYWIKI \
+    --verbose \
+    --rendertiddler $:/core/templates/alltiddlers.template.html $OUTPUT/all-tiddlers.html text/plain \
+    || exit 1
+```
+
+!!For Windows
+```bash
+#!/usr/bin/env bash
+
+# derived from https://github.com/Jermolene/TiddlyWiki5/issues/168
+# also see http://tiddlywiki.com/static/Generating%2520Static%2520Sites%2520with%2520TiddlyWiki.html
+
+TIDDLYWIKI=/C/Users/jeffrey.c.irland/Documents/Industrial Internet/Comcast/Comcast-Wiki
+OUTPUT=/C/Users/jeffrey.c.irland/Downloads/tiddly_wiki_html
+
+# render all the tiddlers in seperate files within a directory
+tiddlywiki $TIDDLYWIKI \
+    --verbose \
+    --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html $OUTPUT/static text/plain \
+    --rendertiddler $:/core/templates/static.template.html $OUTPUT/index.html text/plain \
+    --rendertiddler $:/core/templates/static.template.css $OUTPUT/static/static.css text/plain \
+    || exit 1
+
+# render all the tiddlers in a single file
+tiddlywiki $TIDDLYWIKI \
+    --verbose \
+    --rendertiddler $:/core/templates/alltiddlers.template.html $OUTPUT/all-tiddlers.html text/plain \
+    || exit 1
+```

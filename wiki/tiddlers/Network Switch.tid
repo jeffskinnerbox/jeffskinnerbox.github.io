@@ -1,0 +1,14 @@
+created: 20150322001223305
+modified: 20150322001349634
+tags: Networking
+title: Network Switch
+type: text/vnd.tiddlywiki
+
+A network switch (also called switching hub, bridging hub, officially MAC bridge)
+is a computer networking device that connects devices together on a computer network,
+by using packet switching to receive, process and forward data to the destination device.
+Unlike less advanced [[network hubs|Network Hub]],
+a network switch forwards data only to one or multiple devices that need to receive it,
+rather than broadcasting the same data out of each of its ports.
+
+''Source:'' http://en.wikipedia.org/wiki/Network_switch

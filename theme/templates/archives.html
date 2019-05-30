@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% block title %}Archives - {{ SITENAME }}{% endblock %}
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+    <ol class="breadcrumb">
+        <li><a href="{{ SITEURL }}" title="{{ SITENAME }}"><i class="fa fa-home fa-lg"></i></a></li>
+        <li class="active">Archives</li>
+    </ol>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <section id="content">
+        <h1>Archives for {{ SITENAME }}</h1>
+
+        <h3>Tag Cloud</h3>
+        {% for tag in tag_cloud|sort(attribute='1') %}
+            <button type="button" class="btn btn-primary btn-xs">
+            <a class="tag-{{ tag.1 }}" href="{{ SITEURL }}/{{ tag.0.url }}">
+                {{ tag.0 }}
+            </a>
+            </button>
+            {% if not loop.last %}
+                &nbsp;
+            {% endif %}
+        {% endfor %}
+
+{# #### Tag Cloud with unscaled buttons ####
+        <h3>Tag Cloud (Button)</h3>
+        {% for tag in tag_cloud %}
+            <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ tag.0.url }}">
+                {{ tag.0 }}
+            </a>
+            {% if not loop.last %}
+                &nbsp;
+            {% endif %}
+        {% endfor %}
+#}
+
+{# #### Tag Cloud with scaled words ####
+        <hr/>
+        <h3>Tag Cloud (Words Scaled)</h3>
+        {% for tag in tag_cloud|sort(attribute='1') %}
+            <a class="tag-{{ tag.1 }}" href="{{ SITEURL }}/{{ tag.0.url }}">
+                {{ tag.0 }}
+            </a>
+            {% if not loop.last %}
+                &nbsp;
+            {% endif %}
+        {% endfor %}
+#}
+
+{# Taken from Jekyll
+    <!--
+    This provides a page listing all posts grouped by year and month. Has IDs in order
+    to jump directly to a specific month or month-year combination.
+    Source: Jekyll Template Toolkit (JTT) -  http://teumert.net/2012-08-27-release-jekyll-template-toolkit.html
+    https://github.com/NetzwergX/jekyll-template-toolkit
+    -->
+    <hr/>
+    <h3>Chronological Listing</h3>
+    <ul class="postList archive">
+        {% for post in site.posts %}
+
+            {% if post.next %}
+                {% capture year %} {{ post.date | date: '%Y' }} {% endcapture %}
+                {% capture nyear %} {{ post.next.date | date: '%Y' }} {% endcapture %}
+                {% capture month %} {{ post.date | date: '%B' }} {% endcapture %}
+                {% capture nmonth %} {{ post.next.date | date: '%B' }} {% endcapture %}
+            {% endif %}
+
+            {% if forloop.first %}
+                <!-- year -->
+                <li class="box"><h3 id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</h3>
+                    <ul>
+                        <!-- month -->
+                        <li><h4 id="{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</h4>
+                            <ul>
+            {% else %}
+                    <!-- all other posts -->
+                    {% if year != nyear %}
+                            </ul>
+                        </li>
+                        <!-- /month -->
+                    </ul>
+                </li>
+                <!-- /year -->
+                <!-- year -->
+                <li class="box"><h3 id="{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</h3>
+                    <ul>
+                        <!-- month -->
+                        <li><h4 id="{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</h4>
+                            <ul>
+            {% elsif month != nmonth %}
+                            </ul>
+                        </li>
+                            <!-- /month -->
+                            <!-- month -->
+                            <li><h4 id="{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</h4>
+                                <ul>
+            {% endif %}
+            {% endif %}
+                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+   
+            {% if forloop.last %}
+                                </ul>
+                            </li>
+                        <!-- /month -->
+                    </ul>
+                    </li>
+                    <!-- /year -->
+            {% endif %}
+            {% endfor %}
+    </ul>
+#}
+
+{# ##### Original Archive Code ##### #}
+        <hr/>
+        <h3>Chronological Listing</h3>
+        <dl>
+            {% for article in dates %}
+                <dt>{{ article.locale_date }}</dt>
+                <dd>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a>
+                </dd>
+                &nbsp;
+            {% endfor %}
+        </dl>
+
+    </section>
+
+{% endblock %}

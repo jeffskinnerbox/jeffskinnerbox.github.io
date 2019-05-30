@@ -1,0 +1,16 @@
+created: 20150301185341635
+modified: 20150322002946325
+tags: WiFi Networking
+title: MAC Address
+type: text/vnd.tiddlywiki
+
+A [[media access control address|http://en.wikipedia.org/wiki/MAC_address]]
+(MAC address)
+is a unique identifier assigned to
+[[network interfaces|Ethernet Networking Interface]] for
+communications on the physical network segment.
+MAC addresses are used as a network address for most IEEE 802 network technologies,
+including Ethernet and WiFi.
+Logically, MAC addresses are used in the
+[[Media Access Control]] (MAC) protocol sublayer of the
+[[OSI reference model|Open Systems Interconnection]].

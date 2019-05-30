@@ -1,0 +1,64 @@
+created: 20141031211303341
+modified: 20141211220942444
+title: IoT Architectural Patterns
+type: text/vnd.tiddlywiki
+
+!~IoT Device Types
+I believe we are seeing the emergence of three main architectural designs for IoT devices.
+
+!!dumb-device
+A dumb-device has reduced functionality
+(doesn't speak IP, low power requirements, etc.) but ultimately still needs
+to connect with the Internet to reach an application.
+The device connects via a gateway that may handles the relatively compute-intensive tasks of network security, and pre-processing of data,
+protocol conversion, and configuration / management of the individual devices.
+
+Given its limited responsibilities,
+the dumb-device's core compute capability is typically (but not always) a [[microcontroller]].
+
+!!IP-enabled
+The [[IP-enabled]] IoT designs use devices more capable than the dumb-device. These devices are capable of handling their own wide area network interfaces
+via WiFi or [[Ethernet]].
+As an IP device, they can possibly sense of be within a communications network
+and self configure.
+The also have access the a suite of capabilities that come with the TCP/IP stack,
+like UDP, FTP, SMTP, etc. and will make use of them.
+
+The use of the IP requires additional processing power and increased electrical power consumption when compared to dumb-devices.
+This additional compute and power is often put to good use,
+for example preprocessing of data or the establishment of a [[service abstraction|Service Abstraction]], effectively an API.
+
+While a more capable device, an IP-enable device is not autonomous.
+It doesn't take action without supervision.
+IP-enable devices communicate to an Internet application for reporting
+and control as individuals,
+either directly or through a local area network router that is acting simply as a relay point, not a control center.
+
+A simple IP-enabled device could be a [[microcontroller]] but a more computationally demanding implementation will include a [[microprocessor]].
+Its operating system is likely to be simple and missing many of the feature you would expect of a general purpose computing environment (e.g. user logins, a shell, development tools, etc.).
+
+
+!!smart-device
+The smart-device designs take things one step within the IP-enabled design.
+These are relatively autonomous devices that process their own data locally
+and act upon that data autonomously, with little external supervision.
+They may also exchange information to or exercise supervisory control over device within their local or wide area network.
+They use their wide area network connectivity as a means for sending data for deeper analysis or the receive supervisory control.
+
+These smart-devices almost certainly contain microprocessors and are likely to be have some characteristics of a general purpose computing system.
+
+!~IoT Device Networking Architectures
+While these device types can reside in many forms of networks,
+there are patterns that appear repetitively.
+
+!!hub-and-spoke
+dumb-devices always reside in a [[hub-and-spoke]] networking arrangement, where the hub is the gateway.
+They are in fact slaves to the gateway, not capable of any autonomous action.
+IP-enabled and smart-devices can also reside in a hub-and-spoke network
+but don't need to be a slave to the gateway.
+
+!!peer-to-peer
+xxx [[peer-to-peer]] xxx
+
+''Inspired By:''
+http://www.iotworld.com/author.asp?section_id=3150&doc_id=562655

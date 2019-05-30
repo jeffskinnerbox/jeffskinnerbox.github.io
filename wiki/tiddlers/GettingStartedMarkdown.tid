@@ -1,0 +1,12 @@
+created: 20150530222410363
+modified: 20150530222435824
+tags: 
+title: GettingStartedMarkdown
+type: text/vnd.tiddlywiki
+
+!Suport for Markdown
+
+While TiddlyWiki has it own language,
+it can support HTML, plain text, and [[Markdown|Markdown Test]].
+The key to getting TiddlyWiki to format Markdown text
+is to select `text/vnd.tiddlywiki` in the text type menu at the bottom of the page.

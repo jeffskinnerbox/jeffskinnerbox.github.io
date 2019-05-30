@@ -1,0 +1,10 @@
+created: 20140919021022134
+modified: 20150208023635151
+tags: Projects
+title: GSM Hacking
+type: text/vnd.tiddlywiki
+
+*[[Cracking GSM with RTL-SDR for Thirty Dollars|http://hackaday.com/2013/10/22/cracking-gsm-with-rtl-sdr-for-thirty-dollars/]]
+*[[HOWTO: GSM Base Station with the BeagleBone Black, Debian GNU/Linux and a USRP|http://discourse.criticalengineering.org/t/howto-gsm-base-station-with-the-beaglebone-black-debian-gnu-linux-and-a-usrp/56]]
+
+[[pytacle – alpha2|http://www.insinuator.net/2013/10/pytacle-alpha2/]] automates the task of sniffing GSM frames off the air, extracting the key exchange, feeding kraken with the key material and finally decode/decrypt the voice data.

@@ -1,0 +1,18 @@
+created: 20141031234939233
+modified: 20150321235305257
+tags: Networking
+title: Ethernet
+type: text/vnd.tiddlywiki
+
+Ethernet is a family of computer networking technologies for local area (LAN) and larger networks.
+It was commercially introduced in 1980, standardized in 1983 as IEEE 802.3 and has since been refined to support higher bit rates and longer link distances.
+Over time, Ethernet has largely replaced competing wired LAN technologies such as token ring, FDDI, and ARCNET.
+The primary alternative for contemporary LANs is not a wired standard,
+but instead a wireless LAN standardized as IEEE 802.11 and also known as WiFi.
+
+The Ethernet standards comprise several wiring and signaling variants of the OSI physical layer in use with Ethernet.
+The original 10BASE5 Ethernet used coaxial cable as a shared medium.
+Later the coaxial cables were replaced with twisted pair and fiber optic links in conjunction with hubs or switches.
+Data rates have been incrementally increased from the original 3 megabits per second experimental version to a 100 gigabits per second standard over its history.
+
+''Source:'' http://en.wikipedia.org/wiki/Ethernet

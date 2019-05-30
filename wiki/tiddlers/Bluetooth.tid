@@ -1,0 +1,25 @@
+created: 20141101000133588
+modified: 20150104160739917
+title: Bluetooth
+type: text/vnd.tiddlywiki
+
+Bluetooth is a wireless technology standard for exchanging data over short distances
+(using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz)
+from fixed and mobile devices, and building personal area networks (PANs).
+Invented by telecom vendor Ericsson in 1994,
+it was originally conceived as a wireless alternative to RS-232 data cables.
+It can connect several devices, overcoming problems of synchronization.
+
+Bluetooth is managed by the
+[[Bluetooth Special Interest Group (SIG)|http://www.bluetooth.com/Pages/History-of-Bluetooth.aspx]]
+and was standardized as IEEE 802.15.1, but the standard is no longer maintained.
+The SIG oversees the development of the specification, manages the qualification program, and protects the trademarks.
+To be marketed as a Bluetooth device, it must be qualified to standards defined by the SIG.
+A network of patents is required to implement the technology, which is licensed only for that qualifying device.
+
+!!Evolution
+* [[Bluetooth 4.0]]
+* [[Bluetooth 4.1]]
+* [[Bluetooth 4.2]]
+
+''Source:'' http://en.wikipedia.org/wiki/Bluetooth

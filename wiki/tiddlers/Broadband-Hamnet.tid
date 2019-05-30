@@ -1,0 +1,16 @@
+created: 20150307195613081
+modified: 20150307201201148
+tags: Mesh
+title: Broadband-Hamnet
+type: text/vnd.tiddlywiki
+
+Broadband-Hamnet (formerly called HSMM-Mesh)
+is a [[Wireless Mesh Network]]
+operated by the ham radio community with a focus on emergency communications.
+
+In its current form it is built using the Linksys WRT54G/GL/GS
+wireless routers and operates on channels 1-6 of the 2.4GHz ISM band,
+which overlaps with the upper portion of the 13cm amateur radio band.
+Other platforms and bands include several types of Ubiquiti equipment in the 900MHz, 2.4GHz and 5.7GHz band.
+
+For more information, see [[broadband-hamnet.org|http://www.broadband-hamnet.org/]].

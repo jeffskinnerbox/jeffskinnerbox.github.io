@@ -1,0 +1,17 @@
+created: 20150322001423191
+modified: 20150322002451578
+tags: Networking
+title: Network Hub
+type: text/vnd.tiddlywiki
+
+An Ethernet hub, active hub, network hub, repeater hub, multiport repeater or hub
+is a device for connecting multiple Ethernet devices together and making them act as a single [[Network Segment]].
+It has multiple input/output (I/O) ports,
+in which a signal introduced at the input of any port appears at the output of every port except the original incoming.
+A hub works at the physical layer (layer 1) of the [[OSI model|Open Systems Interconnection]].
+
+Hubs are now largely obsolete,
+having been replaced by [[network switches|Network Switch]]
+except in very old installations or specialized applications.
+
+''Source:'' http://en.wikipedia.org/wiki/Ethernet_hub

@@ -1,0 +1,13 @@
+created: 20150328201502495
+modified: 20150328201709064
+tags: Networking
+title: DNS Forwarding
+type: text/vnd.tiddlywiki
+
+DNS forwarding is the process by which particular sets of
+[[Domain Name System]] (DNS) queries are handled by a designated server,
+rather than being handled by the initial server contacted by the client.
+Usually, all DNS servers that handle address resolution within the network
+are configured to forward requests for addresses that are outside the network to a dedicated forwarder.
+
+''Source:'' http://www.dnsmadeeasy.com/understanding-dns-forwarding/

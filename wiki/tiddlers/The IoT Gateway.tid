@@ -1,0 +1,54 @@
+created: 20141031233933855
+modified: 20141211220750752
+title: The IoT Gateway
+type: text/vnd.tiddlywiki
+
+!Its Function
+Multiple chip and product providers are actively  creating interesting gateway devices to bridge the Internet with the world of ~IoT devices.
+It is envisioned that many applications / services that will monitor, manage and control the world of IoT devices will be [[cloud-based]] and will require some kind of a gateway to enable connectivity to IoT devices.
+
+A small sample includes:
+
+* [[Intel's DK50 Series Gateway Solution for the Internet of Things (IoT)|http://www.mouser.com/new/Intel/intel-iotgtwy-dk50/]]
+* [[Advantech Embedded IoT Gateway|http://www.advantech.com/products/embedded-iot-gateway/sub_92d96fda-cdd3-409d-aae5-2e516c0f1b01.aspx]]
+* [[Wind River|http://www.windriver.com/announces/intel-gateway-solutions-for-iot/]]
+* [[Revolv|http://revolv.com/static-index.html]]
+* [[SmartThings|http://www.smartthings.com/]]
+
+It generally believed that IoT devices will use a wide variety of networking technologies and protocols.
+To enable cloud access connectivity for the wide range of IoT networking protocols and technologies will require a multi-protocol gateway that can support ZigBee, [[Bluetooth]], WiFi, [[Ethernet]], [[4G/LTE]], etc.
+Some additional considerations will be the ability to support [[service abstraction|Service Abstraction]],
+security, high-performance connectivity as well as power efficient,
+low-bandwidth RF networking ([[Zwave]], ZigBee, sub-GHz, etc). 
+
+!!Its Primary Purpose
+At first glance, it seems that the gateway is an important function and is here to stay, but maybe not.
+Its key functions are limited to
+
+# protocol translator, helping with device interoperability
+# a data concentrator, helping when there is a lack of connectivity
+
+Typically, the gateway is transform the native device protocols
+(all the way do to the physical layer, in some cases) to IP and
+then allow multiple IoT devices share a single IP connection to up-stream systems via TCP or UDP.
+
+Sure, you can put more in these gateway boxes,
+such as messaging via pub/sub bulletin board or
+some edge compute analytics,
+but the gateway exist because of these two primary reasons.
+
+!!Its Secondary Purpose
+The gateway can provide a localized source of control and decision making without the need for continual Internet connectivity.
+This is helpful where Internet connectivity is uncertain or unreliable,
+or in situations control decisions must be made reliably with minimal delay.
+A gateway with sufficient intelligence, data storage,
+and the like can minimize the need for [[cloud-based]] processing for some tasks.
+
+Another thing a gateway can do is to create a unified functional view from a heterogeneous collection of endpoint devices.
+The gateway can work with the multiple devices,
+extract information, control activities, etc. and create new information or service.
+Other network entities don't need not to provides the coordinating intelligence,  information translation, etc. and they just receive messages from the gateway.
+
+!Its Future
+If IoT devices become [[IP-enabled]], then the role of the gateway is only a IP switch or hub.
+At this point, the gateway no longer has a purpose.

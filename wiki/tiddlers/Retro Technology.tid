@@ -1,0 +1,280 @@
+created: 20141125030141346
+modified: 20180518180120159
+title: Retro Technology
+type: text/vnd.tiddlywiki
+
+[[Shive Wave Machine|http://techchannel.att.com/play-video.cfm/2011/3/7/AT&T-Archives-Similarities-of-Wave-Behavior]]
+- This mechanical wave generator illustrates wave reflection, standing waves, resonance, partial reflection and impedance matching.
+
+[[Harmonic Analyzer|https://www.youtube.com/watch?v=NAsM30MAHLg]]
+- A nineteenth century mechanical computer that performed Fourier analysis by using gears, springs and levers to calculate with sines and cosines.
+And of course, someone in the maker community has made a
+[[plywood version of the harmonic analyzer|http://hackaday.com/2016/04/11/fourier-machine-mimics-michelson-original-in-plywood/]].
+
+AT&T produced the video "[[Seeing the Digital Future|https://www.youtube.com/watch?v=avHo0-qU8xo]]" and
+brags about things like the Data-Phone which could transmit
+at up to a bit-rate of 110 bits per second.
+
+[[Mechanical computation|https://www.youtube.com/watch?v=s1i-dnAH9Y4]] for weapons fire control computer aboard Navy Ships is a thing of the past.
+These mechanical mavels, such as the
+[[Differential Analyzers|http://www.meccano.us/differential_analyzers/index.html]]
+can even solve differential equations.
+While such machanical devices can easily be replaced
+numberical analysis perfromed on a digital computer,
+[[some people still like to build them|http://hackaday.com/2016/08/08/differential-analyzer-cranks-out-math-like-a-champ-at-vcf-2016/]].
+
+[[Popular Electronics Magazine|http://www.americanradiohistory.com/Popular-Electronics-Guide.htm]]
+- Popular Electronics was created in 1954 by Ziff-Davis Publishing for an audience of  electronics hobbyists and experimenters.
+It became Computers & Electronics in November, 1982
+
+[[AmericanRadioHistory.com|http://www.americanradiohistory.com/index.htm]]
+- Two million pages of AM FM & TV Broadcasting history online
+
+[[AT&T Tech Channel|http://techchannel.att.com/index.cfm]]
+- Originally-produced videos about AT&T's Technical History and the past, present and future of the world of technology.
+
+[[Advanced Mobile Phone Service (AMPS)|http://hackaday.com/2014/12/02/retrotechtacular-ma-bells-advanced-mobile-phone-service-amps/]] - The first-generation cellular technology from AT&T
+
+[[The Boy Electrician|http://www.tayloredge.com/museum/museum/TheBoyElectrician.pdf]] is an introduction to electricity and magnetism from a time when you could still build things at home that worked just like commercial gear.
+
+[[Foxhole Radio|http://bizarrelabs.com/foxhole.htm]]
+where built by GI's, during World War Two, which took advantage of readily available materials.
+
+The [[Pascaline|https://www.youtube.com/watch?v=3h71HAJWnVU]]
+was the first successful mechanical calculator. It was developed in the 1640's by the mathematician Blaise Pascal.
+
+From the mid-40s until the 90s,
+[[Heathkit|http://hackaday.com/2014/12/22/the-heathkit-mystery/]]
+was the brand for electronic kits ranging from test equipment, ~HiFis, amateur radio equipment, to computers. Their departure was a tragic loss,
+but there are some faint signs they may be making a
+[[come back|https://www.heathkit.com/heathkit-faq.html]].
+
+A [[teleprinter|https://www.youtube.com/watch?v=HcMHam54EOI#t=516]]
+(teletypewriter, Teletype or TTY) is an electromechanical typewriter that can be used to send and receive typed messages from point to point and point to multipoint over various types of communications channels.
+Teleprinters were invented in order to send and receive messages without the need for operators trained in the use of Morse code.
+At there core, they were
+[[mechanical UARTs|http://hackaday.com/2015/11/13/retrotechtacular-a-mechanical-uart/]],
+converting serial bits pumping out at 110 baud and
+converting the encoding to letter strikes on the paper.
+Check out [[this video|https://www.youtube.com/watch?v=_NuvwndwYSY&index=1&list=PL-_93BVApb5-9eQLTCk9xx16RAGEYHH1q]]
+of restoration of a very old [[Model 19 Teletype|http://www.baudot.net/teletype/M19.htm]].
+
+This training film on [[Basic Telephony|https://www.youtube.com/watch?v=BKfa27PTE_s#t=29]]
+(and it's [[part 2|https://www.youtube.com/watch?v=jKvllL2zxGo]])
+describes the common household telephone prior to todays digital telephony.
+
+The [[Semi-Automatic Ground Environment (SAGE) System|https://www.youtube.com/watch?v=06drBN8nlWg]],
+was designed and built in the 1950s to defend against the threat
+of Soviet bombers attacking the continental United States.
+
+The [[UNIX Operating System|https://www.youtube.com/watch?v=tc4ROCJYbm0]]
+was developed to make the job of creating software systems easier,
+and in general, make the interaction of computers with people easier.
+This productivity gain was taken further with the introduction of the
+[[Blit|https://www.youtube.com/watch?v=Pr1XXvSaVUQ]], an early windowed graphic interface for Unix.
+
+Silicon Valley, or as it was formerlly know,
+[[Valley of the Hearts Delight|http://en.wikipedia.org/wiki/Santa_Clara_Valley]],
+is in some ways retro.
+See the article "[[To Invent the Future, You Must Understand the Past|https://medium.com/backchannel/why-silicon-valley-will-continue-to-rule-c0cbb441e22f]]".
+
+Before [[Pong|http://www.gamasutra.com/view/feature/3900/the_history_of_pong_avoid_missing_.php?print=1]],
+there was [[Tennis for Two|http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/10252/The-Past-and-Future-of-Video-Games.aspx]]
+at [[Brookhaven National Laboratory|http://www.stonybrook.edu/libspecial/videogames/tennis.html]],
+the first video game.
+Tennis for Two consisted of a 5 inch oscilloscope and
+an analog computer to simulate the physics of gravity and elasticity in real time.
+And of course, some have updated the analog orginal with a
+[[digital replacement|http://www.evilmadscientist.com/2008/resurrecting-tennis-for-two-a-video-game-from-1958/]].
+
+The [[Omega navigational system|https://www.youtube.com/watch?v=7mFAemn1pSw]], deployed by the United States Navy, was a network of eight (VLF) transmitter sites spread around the globe using radio frequencies and phase difference calculations to determine global position.
+
+Some believe Westinghouse built the
+[[first electric computer|http://gothamist.com/2015/10/15/grand_central_computer_video.php#photo-1]]
+in 1913 and installed it in the sub-basement of
+Grand Central Terminal.
+As to a programmable electronic digital computer,
+similar todays computers, it is generally believe that
+[[Colossus|http://hackaday.com/2016/08/23/colossus-face-to-face-with-the-first-electronic-computer/#more-219341]] was the first.
+
+I graduated High School in 1974,
+which placing me in a world between
+[[slide rulers and electronic calculators|https://www.sliderulemuseum.com/Calculators.htm]];
+[[vacuum tubes and transistors|https://hackaday.com/2019/02/20/retrotechtacular-how-not-to-design-with-transistors/]].
+So in High School I experienced electronics shop class with tubes
+(yes, [[Shop Class|https://www.forbes.com/sites/tarabrown/2012/05/30/the-death-of-shop-class-and-americas-high-skilled-workforce]]
+was a well respect elective in 1974)
+but studied transistors exclusively in college.
+I used a slide ruler in High School but never used it in college,
+preferring a calculator there.
+
+[[Slide Rules|http://hackaday.com/2015/11/05/slide-rules-were-the-original-personal-computers/#more-175364]]
+were among the first computing tools
+(other than the [[human kind|https://en.wikipedia.org/wiki/Human_computer]])
+and a simple example of a mechanical analog computer
+(not all analog computer are mechanical,
+such as the fluid computers [[MONIAC|http://hackaday.com/2016/04/26/retrotechtacular-moniac/]] and
+[[Water Integrator|http://www.digitaljournal.com/article/338106]]
+and of course the [[electrical analog computer|http://www.analogmuseum.org/english/]]).
+For generations of engineers, technicians and scientists,
+the slide rule (particularly the [[K+E brand|https://en.wikipedia.org/wiki/Keuffel_and_Esser]])
+was an essential part of their daily lives.
+Until, all of a sudden, it wasn't.
+In 1972 Hewlett-Packard
+[[HP-35|http://www.hp.com/hpinfo/abouthp/histnfacts/museum/personalsystems/0023/0023history.html]]
+came out with the first scientific calculator.
+Practically overnight, the slide rule had become obsolete.
+Check out the [[history of the HP-35 pocket calculator|http://codex99.com/design/the-hp35.html]].
+
+It was on [[HP's version|http://www.hpmuseum.org/]]
+of this [[first Desktop Computer|http://hackaday.com/2015/12/08/retrotechtacular-a-desktop-computer-from-1965/]]
+(I believe it might have been a [[HP 9830A|http://www.hpmuseum.org/hp9830.htm]])
+that sparked my interest in software coding.
+Programming it was only slightly better than working in assembly language.
+
+You would thing that the [[Fax Machine|http://hackaday.com/2016/02/17/faxing-in-1843/]]
+couldn't pre-date the telephone, but it appears it does.
+[[Fax|https://en.wikipedia.org/wiki/Fax]],
+or it mondern original version [[radio facsimile|http://hackaday.com/2015/12/22/retrotechtacular-electronic-publishing-in-the-1930s/]],
+was introduced in the 1940s.
+Fax provided a pre-computer age of transmission of scanned printed material (both text and images).
+This was following by the
+[[Xerox 914 copier|http://hackaday.com/2016/07/20/retrotechtacular-birds-and-the-bees-document-style/]]
+and the [[answering machine|https://www.youtube.com/watch?v=xROXat5cBDc]]
+in the late 1950s.
+
+Is the [[World Wide Web (WWW)|http://www.telegraph.co.uk/technology/2016/08/06/the-worlds-first-website-went-online-25-years-ago-today/?utm_source=pocket&utm_medium=email&utm_campaign=pockethits]]
+retrotechnology yet?
+I think not but its first browser, [[Mosaic|https://www.wired.com/2010/04/0422mosaic-web-browser/]] is.
+
+The Internet has made the accessing of mathematical, physical and chemical data easy.
+Back in the day, as in my college years,
+I was required to purchase the
+[[CRC Handbook of Standard Mathematical Tables|https://www.crcpress.com/CRC-Standard-Mathematical-Tables-and-Formulae-32nd-Edition/Zwillinger/9781439835487]].
+As a parting gift for leave for college,
+my high school biology teacher gave me
+a copy of the 1928 version of the
+[[CRC Handbook of Chemistry and Physics, 3rd Edition|http://hackaday.com/2015/12/23/before-google-there-was-the-chemical-rubber-company/]].
+I haven't opened these books in a VERY Long time,
+not because they don't contain relevant / useful information,
+but the [[Internet makes the book searchable|http://www.hbcpnetbase.com/]].
+
+The [[Lunar Excursion Module (LEM)|http://hackaday.com/2016/02/12/cover-your-glass-a-lesson-in-design-trades/]]
+carried astronauts from lunar orbit to the moon’s surface.
+There had never been anything quite like it,
+and engineers had to overcome many challenges to getting it to a working state.
+
+[[Transmission Lines|https://www.youtube.com/watch?v=I9m2w4DgeVk&feature=youtu.be]]
+may not really be retrotech,
+but not a hot topic these days, and so may not be well understood.
+The pace of this old video is a bit slow by today’s standards,
+but the quality of the material presented makes it worth the wait.
+In 1956 that the first transatlantic telephone system,
+[[Transatlantic Telephone Cable System 1 (TAT-1)|http://hackaday.com/2016/03/18/what-lies-beneath-the-first-transatlantic-communications-cables/]],
+is an example of a transmission line.
+
+When I start my career at
+[[Bell Labs|https://hackaday.com/2019/02/19/bell-labs-skunk-works-and-the-crowd-sourcing-of-innovation/]]
+in the 1970s,
+I spent many an hour in and around the Computing Center.
+Check out these training videos:
+[[Part 1|https://www.youtube.com/watch?v=HMYiktO0D64]] and
+[[Part 2|https://www.youtube.com/watch?v=V9aVOIuKVUc]]
+How things have changed!
+
+The [[electronic switching system (ESS)|https://en.wikipedia.org/wiki/Electronic_switching_system]]
+is a telephone connecting operation
+that uses digital electronics and computerized control to interconnect telephone circuits.
+It replaced the need for telephone operators but the public
+had to be trained in its use and operation via
+[[films like this|https://www.youtube.com/watch?v=EvvvLzw1XsQ]].
+
+As a space age kid, it is hard for me to accept
+that the [[Apollo Guidance Computer (AGC)|http://hackaday.com/2015/02/03/reproducing-a-dsky/]]
+is now retro technology, but it is.
+AGC was a digital computer,
+with [[rope memory|http://hackaday.com/2016/09/02/decoding-rediscovered-rope-memory-from-the-apollo-guidance-computer/]],
+produced for the Apollo program that was
+installed on board each Apollo Command Module (CM) and Lunar Module (LM).
+Luckly, [[Hackaday has done multiple articles|http://hackaday.com/tag/apollo/]]
+on the Apollo space program hardware and
+[[software|http://hackaday.com/2016/07/14/riding-shotgun-in-the-apollo-12-lunar-lander/]].
+You can even find the [[AGC code on Github|http://qz.com/726338/the-code-that-took-america-to-the-moon-was-just-published-to-github-and-its-like-a-1960s-time-capsule/]].
+Despite the navigation technology, it still needed good old retro-technology,
+even for its day, to intialize the LM's AGC.
+Check out the LM's [[Alignment Optical Telescope|http://hackaday.com/2016/09/06/apollo-the-alignment-optical-telescope/#more-220722]].
+
+Do you remember when computer graphics meet
+[[ASCII characters on paper via a teletype terminal|http://hackaday.com/2016/06/28/retrotechtacular-ascii-art-in-the-19th-century/]]?
+Well you can still find it in Linux .... [[check out asciiview|http://manpages.ubuntu.com/manpages/precise/man1/aview.1.html]].
+Also see [[jp2a|https://github.com/cslarsen/jp2a]],
+[[libcaca|http://caca.zoy.org/wiki/libcaca]],
+[[img2txt|https://github.com/hit9/img2txt]]
+and there are
+[[others|http://melitamihaljevic.blogspot.com/2012/08/generating-ascii-art-linux-python.html]].
+You can even take [[ASCII pictures on your smartphone|https://hackaday.com/2017/11/25/asciicam-make-ascii-art-with-your-phone/]].
+
+[[VHF/UHF Analog TV|http://hackaday.com/2016/06/01/retrotechtacular-fog-over-portland/#more-206555]]
+with their mechanical turners can't be found anywhere today.
+There is simply no analog channels on the air any more,
+making [[TV snow|https://en.wikipedia.org/wiki/Noise_(video)]]
+a distant memory of the past,
+taking with it a [[visual reminder of the big bang|http://www.universetoday.com/25560/the-switch-to-digital-switches-off-big-bang-tv-signal/]].
+
+While on the subject of old time TV,
+can you remember when TV test pattern appearing on the three channels late at night?
+It appears they where generated by something called a
+[[monoscope tube||https://hackaday.com/2019/05/26/vintage-monoscope-tubes-generate-classic-tv-test-patterns-once-again/]].
+
+There was a time when you couldn't hook up anything to the
+telephone network without AT&T's OK
+- when the [[Bell System|http://www.corp.att.com/history/history3.html]] was considered a
+[[Natural Monopoly|http://www.watier.org/kathy/papers/Telephonenetwork.pdf]].
+[[Hush-A-Phone|https://en.wikipedia.org/wiki/Hush-A-Phone_Corp._v._United_States]] didn't want to challege AT&T's monopoly status
+but did want want to connect a simple physical device
+to the network.
+This was the first step in de-regulating the telecommunication business,
+to be followed by Tom Carter's challege to AT&T with the [[Carterfone|http://hackaday.com/2016/08/16/retrotechtacular-tom-carter-revolutionized-your-phone/]].
+These two events state the stage for the [[breakup of the Bell System|https://en.wikipedia.org/wiki/Breakup_of_the_Bell_System]].
+
+There was a time, in the days of the Bell System,
+when **you could not** connect anything you please to the telephone,
+eclectically or even mechanically.
+This restriction forced the creation some strange designs for things like
+[[telephone answering machines|https://hackaday.com/2018/07/12/the-bad-old-days-of-telephone-answering-machines/]].
+This began to change when a Texan named
+[[Tom Carter sued Ma Bell|https://hackaday.com/2016/08/16/retrotechtacular-tom-carter-revolutionized-your-phone/]].
+
+Do you remember [[dial-up Internet access| https://en.wikipedia.org/wiki/Dial-up_Internet_access]]?
+Do you remember the
+[[dial-up hand-shake sounds|http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html]]
+the modems made?
+Have you ever seen the [[insides of a modem|https://hackaday.com/2019/03/29/teardown-of-a-50-year-old-modem/]]?
+What about the [[acoustic coupler|https://en.wikipedia.org/wiki/Acoustic_coupler]]
+used as an interface device between your computer
+and the phone line?
+And of course, before we had phone lines to exchange data,
+we had magnetic tapes, but that is another story called
+[[MUDPIE|https://hackaday.com/2018/12/01/retrotechtacular-before-the-internet-mudpie/]].
+
+In the days before computer modeling of physical processes
+could be done at large scale,
+you had to perform a physical experiment.
+One of the largest such experiment was [[ATLAS-1|https://en.wikipedia.org/wiki/ATLAS-I]].
+This [[devices, really a huge apperatus,|https://hackaday.com/2018/03/09/how-to-test-a-b-52-against-emp-project-atlas-i/]]
+was to measure the effects of
+[[electromagnetic pulse (EMP)|https://en.wikipedia.org/wiki/Electromagnetic_pulse]]
+on aircraft as large as a [[B-52|https://en.wikipedia.org/wiki/Boeing_B-52_Stratofortress]].
+While no long needed due to todays computer technology,
+[[ATLAS-I still stands|https://www.google.com/maps/place/Kirtland+Air+Force+Base/@35.0293006,-106.5590415,1065m/data=!3m1!1e3!4m5!3m4!1s0x0:0xa33a0a896b5765e4!8m2!3d35.0488288!4d-106.5505835]]
+at Sandia Labs in Albuquerque, New Mexico.
+
+Robotic are now impacting our working and home life but talk of this robotic world
+dates back many years.
+Westinghouse had its [[Elektro|https://www.wikiwand.com/en/Elektro]] at the 1939 World Fair
+and the follow on version called
+[[Televox|https://hackaday.com/2019/04/12/televox-the-pasts-robot-of-the-future/]]
+in the 1940's.
+By today's standards, none of this would be called a robot.
+And let us not forget what the 1960's TV show "[[Lost in Space|https://en.wikipedia.org/wiki/Lost_in_Space]]" brought us.
+It was the [[Class M-3 Model B-9 General Utility Non-Theorizing Environmental Control Robot|https://en.wikipedia.org/wiki/Robot_(Lost_in_Space)]].

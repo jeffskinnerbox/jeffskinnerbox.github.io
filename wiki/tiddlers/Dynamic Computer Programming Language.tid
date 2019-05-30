@@ -1,0 +1,15 @@
+created: 20141101000855237
+modified: 20150328234013877
+title: Dynamic Computer Programming Language
+type: text/vnd.tiddlywiki
+
+Dynamic programming language is a term used in computer science to describe a class of high-level programming languages which,
+at runtime, execute many common programming behaviors that static programming languages perform during compilation.
+These behaviors could include extension of the program,
+by adding new code, by extending objects and definitions,
+or by modifying the type system.
+These behaviors can be emulated in nearly any language of sufficient complexity,
+but dynamic languages provide direct tools to make use of them.
+Many of these features were first implemented as native features in the Lisp programming language.
+
+''Source:'' http://en.wikipedia.org/wiki/Dynamic_programming_language

@@ -1,0 +1,63 @@
+created: 20140928030142026
+modified: 20160519004418556
+tags: Pontifications
+title: IoT vs. Other Emerging Technology
+type: text/vnd.tiddlywiki
+
+!How is The Internet of Things (IoT) new or different from other emerging technologies?
+It's about the creation of services via information
+that traditionally has been locked within physical things.
+Despite the hype around gadgets, IoT is not really about things,
+it's about services.
+IoT hope to exploit the raw data previously locked within objects,
+often combine it with other data accessible locally or via an API,
+could in addition apply analytics local or centrally,
+but creates business value not only via the raw objects themselves,
+but the services that can be packaged with those objects.
+
+For success in the IoT world, you need to look beyond a disruptive technology.
+The technology can be well established or even trivial.
+What is new hear is the creative methods of unlocking information and
+a new complimenting business model that exploits the information that is causing the disruption.
+
+!How should one broaden the above prespective for the IIoT?
+Lets enrich the definition by
+adding some required capabilities that add clarity.
+Consider the following as critical capabilities found within many IIoT system:
+
+* ''Product-Service Hybrids -'' The idea that raw data can be harvested from a product (i.e. a physical thing), transformed into information that is used to create a service.
+* ''Sensor-Driven Computing -'' Utilizing connected sensors and IT systems to acquiring the necessary data from your envirnment, products, services, partners, and clients that will be critical for decision making.
+* ''Industrial Analytics -'' Using acquired data across the whole application domain to create the information and action plan required.
+* ''Intelligent Machine Applications -'' Delivering the relevant information and action plan to the machinery of your business so that smart, context aware decisions can be made locally.
+
+IIoT is the deployment of these capabilities, weave together via networks and standards,
+to create a money-making services. 
+It implies, as it should, not a specific thing or device,
+but the creation of the product-service hybrid by leveraging sensor-driven computing,
+industrial analytics, and intelligent machine applications.
+At its core, IIoT is about harvesting untapped data to provided enhanced feedback and controls to your business.
+
+When the data being harvested is processed by collaborating computational element
+and fed back to physical actuators,
+such as found in industrial automation, drones, UAVs, and robots,
+its a special case of IIoT.
+Here, real-time computing and timing is a over riding concern because a physical entity is being controlled.
+For these systems, sometime know as cyber-physical system (CPS),
+the physical actions performed become the dominate service,
+potential more so than any information that is created.
+
+!How do we recognize a client needs or service offering as being part of IIoT?
+#When a client says they are in need of IoT or IIoT, clearly they are a candidate for a IIoT solution.
+#If you identify need for or the client requires industrial automation, or applying data analytics techniques, they are good candidates for IIoT. 
+#If you identify a need for or the client identifies a need to harvest untapped information trapped within their organization of infrastructure and wish to apply that to provide control or improved outcomes, they are good candidates for IIoT.
+
+So the key distinguishing characteristics of IIoT are:
+
+Always one of these
+
+* Harvesting data from the "edges" of the business, to be used to create new information, that is than feedback to the edge to change outcomes. 
+* The creation of autonomous devices or sub-systems, that can replace or enhance the action of people or machinery.
+
+And often includes this
+
+* The creation of a new business model by unlocking data or perform autonomous physical actions and thereby create new services

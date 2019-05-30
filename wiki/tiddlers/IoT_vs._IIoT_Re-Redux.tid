@@ -1,0 +1,84 @@
+created: 20160519025725191
+modified: 20160519025959141
+tags: Pontifications Definition
+title: IoT vs. IIoT Re-Redux
+type: text/x-markdown
+
+The term "Industrial Internet" is generally agreed to have been [coined by GE][02] in late 2012.
+It refers to the integration of complex physical machinery with networked sensors,
+and using the fields of machine learning, big data,
+and machine-to-machine communication to harvest data from machines, analyze it,
+and use it to adjust operations.
+
+The term [Internet of Things (IoT)][03] has its origins prior to the Industrial Internet
+and was proposed by the [Auto-ID Lab][07] at the Massachusetts Institute of Technology (MIT) in 1999.
+But IoT entered public awareness via the UN's International Telecommunications Union (ITU)
+when it published its first [report][04] on the topic.
+The IoT vision was a world equipping with objects with minuscule identifying devices
+or machine-readable identifiers that would transform daily life.
+Today however, IoT has come to denote advanced connectivity of devices,
+systems, and services that goes beyond machine-to-machine communications (M2M)
+and covers a variety of protocols, domains and applications.
+
+## What is the popularly accepted distinction between a IoT and IIoT solution?
+The above historical prospective is nice but I don't think it captures
+what is really happening.
+I propose a simpler definition, maybe not universally accepted, but largely consistent with the prevailing view:
+
+* **Internet of Things (IoT)** solutions are composed of networked things, typically simple sensors, minor machines,
+and computers, that have an important relationship with individual people.
+Typically data is harvested from like things, analytics are applied
+most often in the cloud, and the new information is provide to an individual person,
+often via a smart phone app or browser.
+* **Industrial Internet of Things( IIoT)** solutions are similar to IoT solutions
+but often more complex sensor, machines, and computers, that contribute to an industry or society.
+Typically data is harvested from many kinds of things,
+analytics applied in the cloud but sometime locally,
+and the new information is provide to multiple people and machines,
+and there often exists a feedback mechanism so outcomes are automatically adjusted.
+
+So I believe it is best not to insist on a IoT vs IIoT classification
+via the technology in the application,
+but instead, consider classifying it by examining the use case.
+For example, take the [Nest home thermostat][01].
+When you think of the thermostat as controlling the homes temperature for its inhabitants,
+it fits the above definition for IoT.
+But when that same thermostat is accessible by a energy company,
+or a home security company, it becomes part of a IIoT solution.
+The key defining characteristic that caused the shift in this classification is the use case.
+
+In fact, it may be better to think of the IoT / IIoT definitions
+above as notable points along a continuum of ways to unlock information
+and gain value from physical objects.
+Case in point would be [Michelin's idea of tires as a service][05],
+where car tires air pressure and mileage would be monitored and replaced when optimal.
+This service clearly is focused on individuals, making it sounds like IoT,
+but the tire company would use the same data to optimize it tire servicing operations,
+sounding like IIoT.
+
+Technology, design patterns, and data will be shared between the IIoT and IoT.
+But keep in mind that sharing of technology and design patterns is just smart engineering,
+but this sharing of data is different.
+If these worlds share data, that can be a true enabler for both worlds.
+Data from a consumers IoT device can create new business opportunities
+within the domain of traditional business.
+Data from the Industrial Internet can create value for the end user,
+sometimes justifying the purchase of an IoT device by the consumer,
+as in the [car insurance industry][06].
+
+So data is the important thing that can bind the worlds of the IIoT and IoT,
+blurring these worlds together.
+That binding will not always be present, but when it is,
+its likely to be a symbiotic relationship.
+But if you focus on the separate use cases,
+you can then see clearly the IIoT vs. IoT classification.
+
+
+
+[01]:https://nest.com/thermostat/meet-nest-thermostat/
+[02]:http://www.ge.com/docs/chapters/Industrial_Internet.pdf
+[03]:http://www.rfidjournal.com/articles/view?4986
+[04]:http://www.itu.int/osg/spu/publications/internetofthings/InternetofThings_summary.pdf
+[05]:http://www.michelin.com/eng/michelin-group/products-services/michelin-solutions
+[06]:http://www.forbes.com/sites/robertreiss/2016/02/01/5-ways-the-iot-will-transform-the-insurance-industry/#7f51380172cb
+[07]:http://autoidlabs.org/wordpress_website/

@@ -1,0 +1,30 @@
+created: 20141031234102555
+modified: 20160320154121090
+tags: Pontifications
+title: The Simplest Wiring Design Wins
+type: text/vnd.tiddlywiki
+
+!What it mean
+Here "simple" means what has been proven to be useful,
+readily available, adoptable, and widely in use.
+
+The multiple choose of network routing / topology / protocol (bus, mesh,  packet-switched, Zigbee, etc.) exist to solve specific problems.
+Identify the problem to be solved (low power, high data rates, unreliable connectivity, etc.)
+and then your mission is to pick the simplest, proven network routing / topology / protocol
+that will address it.
+
+It a good architectural principle to, whenever possible, not to mix metaphor.
+Push the same network routing / topology / protocols all the way down the solution to the device, if at all possible.
+
+TCP/IP and the packet switching metaphor that has stood the test of time.
+TCP/IP networks are becoming more ubiquitous and faster.
+Devices are becoming IP enabled and chip sets are becoming cheaper.
+
+You move to other "wiring" when the environment force it, but TCP/IP (and it suite of protocols) via Ethernet or ~WiFi will be the right choose anytime it can be supported.
+Along with this is peer-to-peer communication with APIs (as apposed to pub-sub which is a popular ~IoT model).
+
+!What are the supporting trend
+*[[Device will increasingly become Ethernet or WiFi tethered|Cheap WiFi Chips on the Edge]],eliminating the need for a [[Gateway|The IoT Gateway]].
+*Devices will be addressed directly like any computer today.
+*Addressing the device via a cloud-based solution will be very natural.
+*Devices must take on a service oriented architectural paradigm since a single device will play different roles for different use cases.

@@ -1,0 +1,10 @@
+created: 20141031210735241
+modified: 20150301162653336
+tags: Pontifications
+title: Cart Before the Horse
+type: text/vnd.tiddlywiki
+
+I have heard many a argument over WiFi vs. ZigBee or CoAP vs. [[MQTT]] vs. [[XMPP]],  and they often seem totally unproductive.
+For me, these discussions seem to start in the middle of the analysis and miss an important point.
+The combatants must first declaring which [[IoT Architectural Patterns]] they are considering,
+and only then they may arrive at a consensus on solutions.

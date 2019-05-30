@@ -1,0 +1,30 @@
+created: 20150314225256298
+modified: 20150321143057106
+tags: Networking
+title: TCP/IP Port
+type: text/vnd.tiddlywiki
+
+!!What are Ports?
+Ports are virtual pathways on which information on the Internet travel.
+There are 65,536 ports to choose from.
+A good analogy is to think of ports like extensions on a phone sytstem.
+
+* Every device on the internet has at least one [[IP address|IP Address]].
+* Every IP address is divided up into many ports. When one computer sends data to another computer, it sends it from a port on an IP address to a port on an IP address.
+* A port can only be used by one program at a time.
+
+!!What are some commonly used ports?
+Every program on your computer that uses the internet is programmed to send its packets through specific ports.
+Sometimes the ports are selected arbitrarily by the programmers of the software,
+but other times programmers will use a more standard port depending on the functionality of the software.
+Here are a few examples of industry standard uses for common ports:
+
+* HTML pages: port 80
+* FTP file transferring: port 21
+* POP3 email: port 110
+* MSN Messenger: port 6901 and ports 6891-6900
+
+For more information on the ports that specific programs use,
+please see [[Port Forwarding Ports List|http://portforward.com/cports.htm]].
+
+''Source:'' http://portforward.com/help/portforwarding.htm

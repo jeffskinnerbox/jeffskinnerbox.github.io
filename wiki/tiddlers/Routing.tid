@@ -1,0 +1,34 @@
+created: 20150308035053877
+modified: 20150322003405504
+tags: Networking
+title: Routing
+type: text/vnd.tiddlywiki
+
+Every TCP/IP packet, whether it’s a client request or a server response, contains a source [[IP address|IP Address]]
+and a destination IP address.
+Routing is the process of determining the network path a packet should
+take from the source IP to the destination IP.
+Most routing is managed automatically by properly
+configured routing software and hardware.
+
+The process of auto-configuring routes is called [[Dynamic Routing]], and is accomplished through the
+exchange of routing information packets among systems on the network.
+The [[Routing Information Protocol]] (RIP)
+and [[Border Gateway Protocol]] (BGP) are examples of Internet routing protocols.
+
+Each network is configured with a [[Default Gateway]];
+the network sends all packets with destination
+IPs that are not directly connected to the local network to the default gateway for forwarding to the
+final destination IP.
+The assumption is that the default gateway will know how to reach any network
+that the system itself cannot reach through one of its own interfaces.
+
+Routing errors can occur for many reasons.
+A principal situation is when a packet cannot be routed to its destination IP address because the network segment that contains
+the destination IP is not bound to any of the directly connected
+network interfaces and the default gateway does not know how to reach the destination.
+In such cases, we need to define a path through which the
+packet can be delivered to its destination.
+We do this by manually defining [[Static Routes]] on one or more systems. 
+
+''Source:'' http://www.coyotepoint.com/files/downloads/StaticRoutes.pdf

@@ -1,0 +1,19 @@
+created: 20150301200442647
+modified: 20150321012953293
+tags: WiFi
+title: Ad-Hoc Mode
+type: text/vnd.tiddlywiki
+
+On wireless computer networks, ad-hoc mode is a method for
+wireless devices to directly communicate with each other.
+Operating in ad-hoc mode allows all wireless devices within range
+of each other to discover and communicate in peer-to-peer fashion without involving central access points.
+
+Ad-hoc mode, also referred to as peer-to-peer mode or an [[Independent Basic Service Set (IBSS)]],
+is used to create a wireless network
+without the need of having a Master Access Point in the network.
+Each station in an IBSS network is managing the network itself.
+Ad-Hoc is useful for connecting two or more computers to each other when no (useful) AP is around for this purpose.
+
+Ad-hoc mode is useful for establishing a network where wireless infrastructure does not exist or where other network services
+(such as Internet access, printer access, etc.) are not required.

@@ -1,0 +1,21 @@
+created: 20140919015516864
+modified: 20160301155157939
+tags: [[Metering & Monitoring]]
+title: Automatic Meter Reading
+type: text/vnd.tiddlywiki
+
+*[[FlowSensors|https://controls.engin.umich.edu/wiki/index.php/FlowSensors#Benefits_with_Ultrasonic_Flowmeters_As_A_Whole]]
+*[[DIY FM Spy Microphone for Remote Surveillance|http://hacknmod.com/hack/diy-fm-spy-microphone-for-remote-surveillance/]]
+*[[laser microphone|http://www.instructables.com/id/LASER-MICROPHONE/]]
+*[[Some Notes on Basic Sound Frequency Analysis On Linux|http://www.acronymchile.com/sigproc.html]]
+*[[Monitoring PC Hardware Sounds in Linux Systems Using the Daubechies D4 Wavelet|http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;frm=1&amp;source=web&amp;cd=12&amp;cad=rja&amp;ved=0CDkQFjABOAo&amp;url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.91.2726%26rep%3Drep1%26type%3Dpdf&amp;ei=7r_5UKvJGoik9AT62YGYCQ&amp;usg=AFQjCNEiJo3u944NT6cAcBMibBMGmzfH0g&amp;bvm=bv.41248874,d.eWU]]
+*[[Web Based Water Metering with ioBridge|http://www.instructables.com/id/Web-Based-Water-Metering-with-ioBridge/]]
+*[[Monitor Your Home Power Usage by Building a DIY Power Meter Reader|http://www.howtogeek.com/93888/monitor-your-home-power-usage-by-building-a-diy-power-meter-reader]]
+*[[Monitoring residential water usage by reading municipal water meter with Hall effect sensor + Arduino|http://www.instructables.com/id/Monitoring-residential-water-usage-by-reading-muni/]]
+*[[Web Monitoring of Water Usage using an ioBridge|http://hackedgadgets.com/2009/05/15/web-monitoring-of-water-usage-using-an-iobridge/]]
+*[[DIY Water Usage Meter|http://electronics-diy.com/electronic_schematic.php?id=998]]
+*[[Low power wireless gas meter monitoring|http://perso.aquilenet.fr/~sven337/english/2014/03/18/Gas-meter-monitoring-wireless-battery-arduino.html]]
+*[[Electricity Monitoring with a Light-to-Voltage Sensor, MQTT and some Duct Tape|http://hackaday.com/2014/08/01/electricity-monitoring-with-a-light-to-voltage-sensor-mqtt-and-some-duct-tape/]]
+* [[detects whether water is flowing through a pipe|http://www.ohnitsch.net/2015/03/18/measuring-heart-rate-with-a-piezoelectric-vibration-sensor/]]
+* [[WeMo Water|http://www.belkin.com/us/F7C042-Belkin/p/P-F7C042;jsessionid=532E7B1776F8389D17A4620F8AFAD35F/]]
+* [[FLUID - The Learning Water Meter|http://techcrunch.com/2015/09/15/fluid-is-a-smart-water-meter-for-your-home/]]

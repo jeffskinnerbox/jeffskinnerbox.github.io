@@ -1,0 +1,30 @@
+created: 20150321150714488
+modified: 20150330023809841
+tags: Networking
+title: IP Addressing
+type: text/vnd.tiddlywiki
+
+The primary job of IP is delivering messages between devices,
+and like any good delivery service,
+it can't do its job too well if it doesn't know where the recipients are located.
+Obviously then, one of the most important functions of the Internet Protocol is addressing.
+
+Even though the original IP addressing scheme was relatively simple,
+it has become complex over time as changes have been made to it to allow it to deal with various addressing requirements.
+The more advanced styles of IP addressing,
+such as [[subnetting|Subnetwork]]
+and [[classless addressing|CIDR]], are the ones used most in modern networks.
+
+Not all network addresses or host addresses can be assigned to a network device.
+Some host addresses are [[reserved for special uses|http://en.wikipedia.org/wiki/Reserved_IP_addresses]].
+Some examples are:
+
+* On all networks, host numbers 0 and 255 are reserved.
+** An IP address with all host bits set to 1 is a [[broadcast address|Broadcast]], e.g. 172.16.0.255 refers to every individual host on network 17.16.
+** An IP address with all host bits set to 0 identifies the network itself, 172.16.0.0 refers to the network 172.16.
+* Network addresses with the first byte value greater than 223 are reserved for special use, and cannot be assigned to a physical network.
+* Network designated as 0.0.0.0 is the [[Default Route]]
+* 127.0.0.1 is the [[Loopback Address]]
+* A range of IP addresses, called a [[Private IP Address]] are reserved for private networks. 
+
+''Source:'' http://www.tcpipguide.com/free/t_IPAddressingOverviewandFundamentals.htm

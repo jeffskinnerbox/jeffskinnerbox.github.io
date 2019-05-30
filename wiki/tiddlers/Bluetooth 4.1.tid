@@ -1,0 +1,16 @@
+created: 20150103235731029
+modified: 20150104001358717
+tags: 
+title: Bluetooth 4.1
+type: text/vnd.tiddlywiki
+
+Improvements to Bluetooth in these areas:
+
+* ''Coexistence —'' engineered to work seamlessly and cooperatively with the latest generation cellular technologies like LTE. Bluetooth and LTE radios can communicate in order to ensure transmissions are coordinated and therefore reduce the possibility of near-band interference. The coordination between the two technologies happens automatically, while the consumer experiences the high quality they expect.
+* ''Better Connections —'' provides manufacturers with more control over creating and maintaining Bluetooth connections by making the reconnection time interval flexible and variable. This improves the consumer experience by allowing devices to reconnect automatically when they are in proximity of one another. The consumer can leave the room and upon returning, two recently used devices reconnect without user intervention.
+* ''Improved Data Transfer —'' Bluetooth Smart technology provide  bulk data transfer. For example, through this new capability, sensors, which gathered data during a run, bike ride or swim, transfer that data more efficiently when the consumer returns home.
+* ''Empowering Developer Innovation —'' providing product and application developers with even more flexibility to create products that can take on multiple roles. With this new capability, a single device acts as both a Bluetooth Smart peripheral and a Bluetooth Smart Ready hub at the same time. For example, a smart watch acts as a hub gathering information from a Bluetooth Smart heart rate monitor while simultaneously acting as a peripheral to a smartphone — displaying new message notifications from the phone.
+* ''Enabling the Internet of Things —'' Groundwork is laid for future protocols by adding a standard means to create a dedicated channel, which could be used for IPv6 communications. These updates make it possible for Bluetooth Smart sensors to also use IPv6, giving developers and OEMs the flexibility they need to ensure connectivity and compatibility. 
+
+''Source:''
+[[Updated Bluetooth 4.1 Extends the Foundation of Bluetooth Technology for the Internet of Things|http://www.bluetooth.com/Pages/Press-Releases-Detail.aspx?ItemID=197]]

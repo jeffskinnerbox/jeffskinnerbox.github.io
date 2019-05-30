@@ -1,0 +1,29 @@
+created: 20150321135534826
+modified: 20150321142949036
+tags: Networking
+title: Routing Prefix
+type: text/vnd.tiddlywiki
+
+The routing prefix, or network prefix, is expressed in [[CIDR notation|CIDR Notation]].
+It is written as the first address of a network,
+followed by a slash character (/), and ending with the bit-length of the prefix.
+For example, 192.168.1.0/24 is the prefix of the Internet Protocol Version 4 network starting at the given [[IP address|IP Address]],
+having 24 bits allocated for the network prefix,
+and the remaining 8 bits reserved for host addressing.
+
+Computers that belong to a [[subnet|Subnetwork]] are addressed with a common, identical,
+most-significant bit-group in their IP address.
+This results in the logical division of an IP address into two fields,
+a network or routing prefix and the rest field or host identifier.
+The rest field is an identifier for a specific host or network interface.
+
+[img[Creating a subnet by dividing the host identifier|Subnetting_operation.png]]
+
+For IPv4, a network is also characterized by its [[subnet mask|Subnet Mask]],
+which is the [[bitmask|Bitmask]]
+that when applied by a bitwise AND operation to any IP address in the network,
+yields the routing prefix.
+Subnet masks are also expressed in [[dot-decimal notation|Dot-Decimal Notation]] like an address.
+For example, 255.255.255.0 is the network mask for the 192.168.1.0/24 prefix.
+
+''Source:'' http://en.wikipedia.org/wiki/Subnetwork

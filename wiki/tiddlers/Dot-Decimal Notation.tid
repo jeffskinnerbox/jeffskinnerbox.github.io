@@ -1,0 +1,23 @@
+created: 20150321132354539
+modified: 20150321142704980
+tags: Networking
+title: Dot-Decimal Notation
+type: text/vnd.tiddlywiki
+
+In computer networking,
+Internet Protocol Version 4 addresses are commonly written using
+a dot-decimal notation (specifically the quad-dotted notation)
+of four decimal integers, ranging from 0 to 255 each.
+In networking, this style of dot-decimal notation is used to
+represent an arbitrarily deep hierarchy of objects identified by arbitrary decimal numbers.
+
+An [[Internet Protocol Version 4 (IPv4) address|IP Address]] consists of 32 bits,
+which may be divided into four octets, 8 bits each.
+These four octets are written in decimal numbers,
+ranging from 0 to 255,
+and are concatenated as a character string with full stop delimiters between number.
+
+[img[An IP address (version 4) in both dot-decimal notation and binary code|1280px-Ipv4_address.svg.png]]
+
+''Note:'' The notation 127.0.0.1/8 has an 8 (significant)
+[[bitmask|Bitmask]] and thus refers to an entire block of addresses all beginning with "127.". See [[CIDR Notation]].

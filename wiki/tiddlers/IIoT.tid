@@ -1,0 +1,15 @@
+created: 20141004023550020
+modified: 20150206215738103
+tags: Definition
+title: IIoT
+type: text/vnd.tiddlywiki
+
+A definiton for IIoT provide by the [[Industrial Internet Consortium|http://www.industrialinternetconsortium.org/]] is:
+
+The Industrial Internet connects machines, devices and people in the context of work, leading to transformational business outcomes. It embodies the convergence of the global industrial ecosystem, advanced computing and manufacturing, pervasive sensing and ubiquitous network connectivity.
+
+There are large numbers of interconnected systems already deployed that combine hardware, software and networking capabilities to sense and control the physical world. Such “cyber-physical systems” contain embedded sensors, processors and actuators providing capability to serve specific operational or business purposes. These systems can be small or large in scale, but they are not usually connected to broader systems or people who work with them.
+
+It is the focus of the Industrial Internet to bring industrial cyber-physical systems online to form large systems-of-systems and to connect such systems and people to business processes. Within the Industrial Internet, operational sensor data and the interactions of people with the systems can be combined with organizational or public information for advanced analysis. The result of the analysis can in turn enable more optimal decision-making, operation and collaboration among a large number of autonomous systems.
+
+Operating in safety-critical environments, the Industrial Internet demands higher-standards of security, safety and resilience than what is available in today’s public consumer internet. To be effective, it requires performance, scalability and efficiency. For rapid and widespread deployment, it also needs to be easily understandable with widely applicable, standard-based, open and horizontal architecture frameworks and reference architectures that can be implemented with interoperable and interchangeable building blocks. 

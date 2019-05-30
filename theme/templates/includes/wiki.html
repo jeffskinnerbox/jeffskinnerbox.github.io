@@ -1,0 +1,11 @@
+<li class="list-group-item"><h4><i class="fa fa-puzzle-piece fa-lg"></i><span class="icon-label">MicroContent</span></h4>
+    <ul class="list-group" id="wiki">
+        {% for name, wiki in WIKI %}
+        <li class="list-group-item">
+            <a href="{{ wiki }}" target="_blank">
+                {{ name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</li>

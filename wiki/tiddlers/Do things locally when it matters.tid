@@ -1,0 +1,14 @@
+created: 20141031210913491
+modified: 20141031210930855
+title: Do things locally when it matters
+type: text/vnd.tiddlywiki
+
+!What it means
+One would think that if a edge device could easily consume data, perform the appropriate computing, and then take action, you would take this approach without the inclusion of a cloud, but there is an unspoken decision here.
+You have rejected any advantages the cloud may provide.
+What if you could easily send the same data, perform the compute, and instruct the device to take action with just as much ease?
+Now you you have the best of both worlds.
+
+The moral of this story is to go to the cloud, but use the edge when it can solve a specific problem for you.
+
+!What are the supporting trend

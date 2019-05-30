@@ -1,0 +1,15 @@
+created: 20141101000541598
+modified: 20141101000822647
+title: JavaScript
+type: text/vnd.tiddlywiki
+
+JavaScript is a [[dynamic computer programming language]].
+It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser,
+communicate asynchronously, and alter the document content that is displayed.
+It is also used in server-side network programming with frameworks such as Node.js,
+game development and the creation of desktop and mobile applications.
+
+JavaScript is classified as a prototype-based scripting language with dynamic typing and first-class functions.
+This mix of features makes it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.
+
+''Source:'' http://en.wikipedia.org/wiki/JavaScript

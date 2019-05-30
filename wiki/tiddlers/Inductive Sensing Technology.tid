@@ -1,0 +1,12 @@
+created: 20140916014714394
+modified: 20150208023237589
+tags: Projects
+title: Inductive Sensing Technology
+type: text/vnd.tiddlywiki
+
+The LDC1000EVM (Evaluation Module) demonstrates the use of inductive sensing technology to sense and measure the presence, position or composition of a conductive target object.
+The module includes an example of a PCB sensor coil. An MSP430 microcontroller is used to interface the LDC to a host computer.
+
+*[[TI LDC1000 inductance-to-digital converter|http://dangerousprototypes.com/2013/09/17/ti-ldc1000-inductance-to-digital-converter/]]
+*[[LDC1000 Evaluation Module User's Guide|http://www.ti.com/lit/ug/snau150/snau150.pdf]]
+*[[EVAL BOARD, LDC1000 DATA CONVERTER|http://www.newark.com/texas-instruments/ldc1000evm/eval-board-ldc1000-data-converter/dp/06X2690?CMP=AFC-JY6146109556]]

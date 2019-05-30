@@ -1,0 +1,19 @@
+created: 20150530222542474
+modified: 20150530222623259
+tags: 
+title: GettingStartedVim
+type: text/vnd.tiddlywiki
+
+!Support for Vim
+
+* [[TiddlyWiki, an open source Evernote with VIM and Markdown|http://blog.htmlfusion.com/tiddlywiki-evernote-with-vim-and-markdown/]]
+* [[Demo of the CodeMirror Plugin for TiddlyWiki5|http://tiddlywiki.com/plugins/tiddlywiki/codemirror/]]
+
+# Open the [[Control Panel|http://127.0.0.1:8080/#%24%3A%2FControlPanel]] and select the Plugin tab
+#  Select the Codemiror plugin
+
+''Vim and Browser''
+
+*[[wasavi (VI editor for any web page)|http://appsweets.net/wasavi/]]
+* [[CodeMirror|http://codemirror.net/]]
+*[[TextAid|http://lalashan.mcmaster.ca/theobio/projects/index.php/TextAid]]

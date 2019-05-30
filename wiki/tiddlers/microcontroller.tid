@@ -1,0 +1,14 @@
+created: 20141031233440954
+modified: 20141031233456633
+title: microcontroller
+type: text/vnd.tiddlywiki
+
+A microcontroller (sometimes abbreviated µC, uC or MCU) is a small computer on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals.
+Microcontrollers are designed for embedded applications, in contrast to the microprocessors used in personal computers or other general purpose applications.
+By reducing the size and cost compared to a design that uses a separate microprocessor, memory, and input/output devices, microcontrollers make it economical to digitally control even more devices and processes.
+
+ It differs form normal desktop or laptop computers in that a microcontroller is an application specific computer that usually runs a single program performing dedicated task(s) while the the later two are general purpose computers that can run numerous programs depending on a users needs.
+A microcontroller contains on chip CPU, input/output interface, memory, clock, timer, and an assortment of of other peripherals.
+
+''Source:''
+http://en.wikipedia.org/wiki/Microcontroller

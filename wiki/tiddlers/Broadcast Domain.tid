@@ -1,0 +1,21 @@
+created: 20150327023616771
+modified: 20150328204619468
+tags: Networking
+title: Broadcast Domain
+type: text/vnd.tiddlywiki
+
+A [[broadcast|Broadcast]] domain is a logical division of a computer network,
+in which all nodes can reach each other by broadcast
+at the [[Data Link Layer]].
+A broadcast domain can be within the same LAN segment (aka [[Network Segment]]) or it can be bridged to other LAN segments.
+
+In a network based on broadcasts to all listeners to find peers,
+as the number of peers on a network grows,
+the frequency of broadcasts also increases,
+potentially to a point that much of the network time and capacity
+is occupied with only sending broadcasts between all members.
+[[Virtual LAN]] (VLAN) can help reduce network traffic by forming multiple broadcast domains,
+to break up a large network into smaller independent segments with
+fewer broadcasts being sent to every device on the overall network.
+
+''Source:'' http://en.wikipedia.org/wiki/Broadcast_domain

@@ -1,0 +1,46 @@
+created: 20140916014247854
+modified: 20170423162124495
+tags: Projects
+title: Laser Scanner, Laser Rangefinders, and Laser Writing
+type: text/vnd.tiddlywiki
+
+!!3D Laser Scanner
+
+*[[3D scanner based on Arduino and Processing|http://www.instructables.com/id/Lets-cook-3D-scanner-based-on-Arduino-and-Proces/]]
+*[[3-D Laser Scanner|http://www.instructables.com/id/3-D-Laser-Scanner/]]
+*[[Make your own 3d scanner!|http://www.instructables.com/id/Make-your-own-3d-scanner/]]
+
+!!Laser Rangefinder (aka LIght Detection And Ranging - LIDAR)
+
+*[[YEAH BITCH! LAZERS!|http://www.berryjam.eu/2014/06/oslrf-01/]]
+*[[Prototype of OSLRF01 Arduino Scanning LIDAR (Under $150)|http://arduino-pi.blogspot.com/2014/03/prototype-of-oslrf01-arduino-scanning.html]]
+*[[11 gram Arduino-powered laser rangefinder|http://diydrones.com/profiles/blogs/11-gram-arduino-powered-laser-rangefinder]]
+*[[Webcam Based DIY Laser Rangefinder|https://sites.google.com/site/todddanko/home/webcam_laser_ranger]]
+*[[Homemade Laser Rangefinder|http://letsmakerobots.com/node/2651]]
+*[[Parallax Laser Range Finder|http://www.parallax.com/product/28044]]
+*[[Neato Robotics XV-11 Tear-down|https://www.sparkfun.com/news/490]]
+*[[Robotics: Low Cost LIDAR and Laser Range Finders: Where Are They?|http://www.phoenixgarage.org/show_article/167]]
+*[[RP-LIDAR: Low Cost 5hz 360 deg LIDAR|http://www.robopeak.com/blog/?p=278]]
+*[[Webcam Based DIY Laser Rangefinder|https://sites.google.com/site/todddanko/home/webcam_laser_ranger]]
+*[[LIDAR-Lite by PulsedLight|http://www.dragoninnovation.com/projects/32-pulsedlight-single-board-range-finder-minimodule]]
+*[[Hacking the Neato XV-11|http://xv11hacking.wikispaces.com/]]
+*[[Ultra Low-Cost Laser Rangefinders Actualized by Neato Robotics|http://www.hizook.com/blog/2009/12/20/ultra-low-cost-laser-rangefinders-actualized-neato-robotics]]
+*[[360 Degree Laser Scanner Development Kit (RPLIDAR)|http://www.dfrobot.com/index.php?route=product/product&product_id=1125#.U2vOZt_umam]]
+* [[Robot Vision: Detecting Obstacles with FPGAs and line lasers|http://hackaday.com/2014/12/12/robot-vision-detecting-obstacles-with-fpgas-and-line-lasers/]]
+* [[LIDAR-Lite Laser Module|http://pulsedlight3d.com/products/lidar-lite]]
+** [[Sparkfun LIDAR Lite|https://www.sparkfun.com/products/13167?utm_source=SparkFun+Customer+Newsletter&utm_campaign=087a09e4d0-RegCustomerNews1-23-15&utm_medium=email&utm_term=0_fa5287abaf-087a09e4d0-7212537]]
+* [[TeraRanger One|http://www.teraranger.com/product/teraranger-one-distance-sensor-for-drones-and-robotics/]]
+* [[ToF Range Finder Sensor|https://www.sparkfun.com/products/12785]]
+* [[How to Use Lidar with the Raspberry Pi|http://hackaday.com/2016/01/22/how-to-use-lidar-with-the-raspberry-pi/]]
+* [[Petite Package Provides Powerful Robot|http://hackaday.com/2016/03/13/petite-package-provides-powerful-robot/]]
+* [[sweep: Scanning LiDAR|http://scanse.io/]]
+
+!!Laser Writing
+
+*[[ArduLASER|http://unsigned.io/?p=9]]
+*[[SpectraBeat: LaserRumbler projector|http://spectrabeat.com/]]
+*[[DIY pillbox laser projector|http://makezine.com/2010/09/16/diy-pillbox-laser-projector/]]
+*[[RGB laser projector is a jaw-dropping build|http://www.edaboard.com/thread230353.html]]
+*[[Wicked Laser|http://www.wickedlasers.com/]]
+*[[Vector Laser Projector is a Lesson in Design Processes|http://hackaday.com/2014/09/20/vector-laser-projector-is-a-lesson-in-design-processes/]]
+*[[Little Laser Light Show is Cleverly Packaged, Cheap to Build|http://hackaday.com/2017/04/22/little-laser-light-show-is-cleverly-packaged-cheap-to-build/]]

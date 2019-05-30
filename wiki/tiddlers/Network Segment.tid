@@ -1,0 +1,17 @@
+created: 20150301214606930
+modified: 20150301215450945
+tags: WiFi Networking
+title: Network Segment
+type: text/vnd.tiddlywiki
+
+A network segment is a portion of a computer network.
+The nature and extent of a segment depends on the nature of the network
+and the device or devices used to interconnect end stations.
+
+According to the defining IEEE standards for Ethernet,
+a network segment is an electrical connection between networked devices.
+A segment would therefore correspond to a single coax cable and any devices tapped into it.
+A network segment would correspond to the individual connection
+between end station to network equipment
+(i.e. repeater, hub or switch)
+or the connections between different pieces of network equipment.

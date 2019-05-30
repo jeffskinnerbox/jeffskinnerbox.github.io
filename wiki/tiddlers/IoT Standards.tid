@@ -1,0 +1,23 @@
+created: 20150103200737099
+modified: 20150104175550897
+tags: 
+title: IoT Standards
+type: text/vnd.tiddlywiki
+
+* [[Thead|http://threadgroup.org/]] - Founded by companies including ARM Holdings, Samsung, and Google, Freescale, Big Ass Fans, Silicon Labs, and Yale Security. Thread is promoting a mesh networking protocol for low-power devices around homes. Built on IEEE 802.15.4, IETF IPv6 and 6LoWPAN,Thread's protocol works on a type of chip that's already on the market, and it gives every device an IPv6 address. The technology doesn't define anything other than networking, so it appears as if higher layer specifications like AllSeen and OIC could be used in Thread products. It plans to start certifying products in the first half of 2015.
+* [[Open Interconnect Consortium (OIC)|http://openinterconnect.org/]] - backed by vendors including Intel, Samsung Electronics, and Dell, and plans a series of specifications to help devices find each other and work together. The open-source standards will cover device discovery, communication, data exchange and other functions. The group plans to release its first source code to developers by the end of 2014. The OIC's first specification should be done in early 2015, with certified products following by the end of that year.
+* [[AllSeen Alliance / AllJoyn|https://allseenalliance.org/]] - launching in December 2013 with Qualcomm, nonprofit Linux Foundation, Cisco Systems, Panasonic and other consumer electronics vendors as charter members. The group's open-source software framework, AllJoyn, is based on a technology Qualcomm developed and then contributed to the alliance. AllSeen's aim is to give home and business devices that use different operating systems and network protocols a way to find and coordinate with each other. There are already shipping products that use AllJoyn, and last month Microsoft announced it was building the framework into Windows 10.
+* [[Industrial Internet Consortium (IIC)|http://www.industrialinternetconsortium.org/]] Includes General Electric, Cisco Systems, IBM, Intel and AT&T with a focus on enterprise IoT. The group says it won't set standards but instead will work with standards bodies to help make sure technologies work together across business sectors. It wants to foster coordination among industries where IoT and older M2M (machine-to-machine) technologies have been developed in relative isolation. That will involve defining requirements for standards, designing reference architectures and creating testbeds.
+* [[HyperCat|http://www.hypercat.io/]]
+* [[IEEE P2413|http://standards.ieee.org/develop/project/2413.html]] - framework for interoperability among connected devices and related applications in home automation, industrial systems, telematics and all other sectors that are expected to use IoT in the coming years. The group held its first meeting in July, with 23 vendors and organizations involved, and hopes to finish its work on the future standard by 2016.
+
+!!In the News
+* [[Intel, Samsung create Internet of Things group|http://www.cnet.com/news/intel-samsung-create-internet-of-things-group/]]
+* [[Google's Nest, others hatch new Internet of Things group|http://www.cnet.com/news/googles-nest-others-hatch-new-internet-of-things-group/]]
+* [[Industry Leaders to Establish Open Interconnect Consortium to Advance Interoperability for Internet of Things|http://global.samsungtomorrow.com/?p=38503]]
+* [[HyperCat - Government-backed consortium launches 'Internet of Things' specification|http://www.techradar.com/news/internet/cloud-services/government-backed-consortium-launches-open-internet-of-things-standard-1255196]]
+* [[IEEE standards group wants to bring order to IoT|http://www.pcworld.com/article/2686692/ieee-standards-group-wants-to-bring-order-to-iot.html]]
+* [[Nest and Samsung launch Thread, a wireless mesh standard for the smart home|https://gigaom.com/2014/07/15/nest-and-samsung-launch-thread-a-wireless-mesh-standard-for-the-smart-home/]]
+* [[IoT groups are like an orchestra tuning up: The music starts in 2016|http://www.pcworld.idg.com.au/article/563031/iot-groups-like-an-orchestra-tuning-up-music-starts-2016/]]
+* [[Bluetooth Fights Back Against Thread|http://www.eetimes.com/document.asp?doc_id=1323126]]
+* [[Introducing Thread: A New Wireless Networking Protocol for the Home|http://www.threadgroup.org/2014_07_Press_Release.aspx]]

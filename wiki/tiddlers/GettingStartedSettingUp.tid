@@ -1,0 +1,30 @@
+created: 20150530221741299
+modified: 20160602174358481
+tags: 
+title: GettingStartedSettingUp
+type: text/vnd.tiddlywiki
+
+!!Setting Up ~TiddlyWiki
+For insight on how to use this Wiki,
+you should start with [[GettingStarted]].
+This will stear your to the TiddlyWiki website for more information.
+
+# `tiddlywiki Wiki-<project-name> --init server` to create a folder for a new wiki that includes server-related components
+# `tiddlywiki Wiki-<project-name> --server` to start TiddlyWiki
+# Visit http://127.0.0.1:8080/ in your browser
+# Try editing and creating tiddlers
+
+* [[Generating Static Sites with TiddlyWiki|http://tiddlywiki.com/static/Generating%2520Static%2520Sites%2520with%2520TiddlyWiki.html]]
+
+*[[Upgrading TiddlyWiki on Node.js|http://tiddlywiki.com/#Upgrading%20TiddlyWiki%20on%20Node.js]]
+
+You can check what version of ~TiddlyWiki your running with the command:
+
+```
+tiddlywiki --version
+```
+If you've installed [[TiddlyWiki on Node.js|http://tiddlywiki.com/#TiddlyWiki%20on%20Node.js]] on the usual way, when a new version is released you can upgrade it with this command:
+
+```
+sudo npm update -g tiddlywiki
+```

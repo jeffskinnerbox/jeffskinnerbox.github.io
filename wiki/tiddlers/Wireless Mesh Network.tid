@@ -1,0 +1,18 @@
+created: 20150301211432360
+modified: 20150321011512991
+tags: Mesh
+title: Wireless Mesh Network
+type: text/x-markdown
+
+A [wireless mesh network (WMN)](http://en.wikipedia.org/wiki/Wireless_mesh_network)
+can literally configure itself,
+allowing the installation to occur in hours instead of days or weeks.
+The mesh is also largely self-managing, making it easy to operate and expand.
+The self-configuring nature of the mesh also makes it self-reconfiguring.
+New nodes become full members of the mesh topology automatically as soon as a minute after booting up.
+Adding, moving or removing nodes and their attached Ethernet devices
+(clients, servers, access points, surveillance cameras, gateways, routers, etc) is as painless as it is immediate.
+
+The most important thing to remember is that the mesh topology is very different from the hierarchical hub and spoke topology presently used in most enterprise and service provider networks.
+What distinguishes the wireless mesh from other typologies is the generous number of interconnections among neighboring nodes throughout the network.
+Although this improves overall performance and resiliency, it is the sheer number of these interconnections that makes implementing a mesh with wires either impractical or impossible.

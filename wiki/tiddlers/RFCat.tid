@@ -1,0 +1,20 @@
+created: 20140919014302043
+modified: 20150208023113418
+tags: Projects
+title: RFCat
+type: text/vnd.tiddlywiki
+
+USB radio dongle (based on Chipcon CC1111EMK-868-900)
+capable of transmitting, receiving, snooping, and spectrum analysis on frequencies
+between 300-928MHz and more (officially 315, 433, 868, 915MHz ranges) using
+modulations 2FSK, GFSK, MSK, ASK, and OOK and baud rates 0 – 250kbaud!
+
+*[[Index of /DEFCONXX/Speaker Presentations/Atlas/rfcat-defconXX-2012|http://www.hakim.ws/DEFCONXX/Speaker%20Presentations/Atlas/rfcat-defconXX-2012/]]
+*[[RfCat: subghz or bust! - Derbycon 2012|http://www.irongeek.com/i.php?page=videos/derbycon2/1-2-6-atlas-rfcat-subghz-or-bust]]
+*[[Hacking fixed key remotes|http://andrewmohawk.com/2012/09/06/hacking-fixed-key-remotes/]]
+*[[ CC1111 evaluation kit|http://www.digikey.com/product-detail/en/CC1111EMK868-915/296-22732-ND/1739551]]
+*[[Setting up RFCat from Scratch - flashing the CC1111 with the RFCat firmware|http://leetupload.com/blagosphere/index.php/2014/02/16/you-know-how-to-send-my-signal-setting-up-rfcat-from-scratch/]]
+*[[Non-Return-to-Zero ASK/OOK Signal Replay|http://leetupload.com/blagosphere/index.php/2014/02/24/non-return-to-zero-askook-signal-replay/]]
+
+Also check out the [[CC1101 433M Wireless Modules|http://www.electrodragon.com/?product=cc1101-433m-wireless-module-variable-designs]] the [[nRF24L01+|http://dangerousprototypes.com/2011/11/20/app-note-nrf24l01-reference-design/]] and other [[RF433 Wireless TX + RX Module Pair|http://www.electrodragon.com/?product=433m-rf-wireless-module-a-pair-of-receiver-and-transmitter]]
+

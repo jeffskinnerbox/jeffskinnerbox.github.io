@@ -1,0 +1,49 @@
+created: 20140916012206395
+modified: 20151224213612046
+tags: Projects
+title: Radar
+type: text/vnd.tiddlywiki
+
+[[Radar|https://en.wikipedia.org/wiki/Radar]]
+(acronym for ''RA''dio ''D''etection ''A''nd ''R''anging)
+is an object-detection system that uses radio waves to determine the range, angle, or velocity of objects.
+Also checkout [[Sonar]].
+
+!!Basic Radar
+* [[Try Radar for Your Next Project|http://hackaday.com/2014/02/24/guest-post-try-radar-for-your-next-project/#more-115551]]
+* [[RADARduino Prototype Testing and Revision 2 Details|http://reactancelabs.com/?p=293]]
+* [[Homebuilt Ultra Wideband Impulse Radar|http://hackaday.com/2013/10/05/homebuilt-ultra-wideband-impulse-radar/]]
+* [[6 GHz Frequency Modulated Radar|http://hforsten.com/6-ghz-frequency-modulated-radar.html]]
+* [[Design of FMCW radars for active safety applications|http://embedded-computing.com/articles/design-fmcw-radars-active-safety-applications/#]]
+
+!!Synthetic Aperture Radar
+* [[Radar Imaging in your Garage: Synthetic Aperture Radar|http://hackaday.com/2014/03/17/radar-imaging-in-your-garage-synthetic-aperture-radar/#more-115727]]
+* [[High Resolution X-Band Linear Rail SAR Imaging System|http://glcharvat.com/Dr._Gregory_L._Charvat_Projects/$240_High_Res_Rail_SAR.html]]
+* [[Build a Phased-Array Radar in Your Garage that Sees Through Walls|http://hackaday.com/2015/04/07/build-a-phased-array-radar-in-your-garage-that-sees-through-walls/]]
+* [[Phased Array Speaker System|http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2012/tcj26_ecs227/tcj26_ecs227/index.html]]
+* [[Homemade synthetic aperture radar|http://hforsten.com/homemade-synthetic-aperture-radar.html]]
+
+!!Passive Radar
+* [[Passive RADAR With a Dual Coherent Channel RTL-SDR|http://hackaday.com/2015/06/05/building-your-own-sdr-based-passive-radar-on-a-shoestring/]]
+
+!!Coffee Can Radar
+* [[How to build a synthetic-aperture imaging system with tin cans and AA batteries|http://spectrum.ieee.org/geek-life/hands-on/coffeecan-radar]]
+* [[Build a Small Radar System Capable of Sensing Range, Doppler, and Synthetic Aperture Radar Imaging|http://ocw.mit.edu/resources/res-ll-003-build-a-small-radar-system-capable-of-sensing-range-doppler-and-synthetic-aperture-radar-imaging-january-iap-2011/]]
+* [[Python Script for the MIT Radar Short Course|http://www.osmanoglu.org/sar/93-python-script-for-the-mit-radar-short-course]]
+* [[Laptop Based Radar: Block Diagram, Schematics, Bill of Material, and Fabrication Instructions|http://ocw.mit.edu/resources/res-ll-003-build-a-small-radar-system-capable-of-sensing-range-doppler-and-synthetic-aperture-radar-imaging-january-iap-2011/projects/MITRES_LL_003IAP11_proj_in.pdf]]
+* [[The MIT IAP 2011 Radar Course: Build a Small Phased Array Radar System Capable of Imaging Moving Targets|http://www.glcharvat.com/website%20pdfs/IEEE_Life_Members_2012_MITIAP_array_course_GL_Charvat_web.pdf]]
+
+!!Automotive Radar
+* [[Automotive Radar|http://www.freescale.com/files/microcontrollers/doc/fact_sheet/AUTORADARFS.pdf]]
+* [[FMCW Radar User Manual and Installation Guide|http://www.houston-radar.com/user-manuals/PD300UserManual-Release.pdf]]
+* [[Ramsey SG7 Speedy Personal Speed Radar Kit|http://www.amazon.com/Ramsey-Speedy-Personal-Speed-Radar/dp/B0002NRL7K]]
+
+!!Other Radar
+* [[Pocket Radar|http://pocketradar.com/]]
+* [[Bike Radar - Backtracker by iKubu|http://www.dragoninnovation.com/projects/41-backtracker-by-ikubu]]
+* [[Hot Wheels Toy Turned Radar Detector|http://hackaday.com/2014/08/18/hot-wheels-toy-turned-radar-detector/]]
+* [[Extremely Detailed FMCW Radar Build|http://hackaday.com/2014/12/03/extremely-detailed-fmcw-radar-build/]]
+
+!!Alternatives
+* [[Laser Scanner, Laser Rangefinders, and Laser Writing]]
+* [[Introduction into Theory of Direction Finding|http://www.rohde-schwarz-usa.com/rs/rohdeschwarz/images/TheoryofDF.pdf?mkt_tok=3RkMMJWWfF9wsRoiu63IZKXonjHpfsXx6u0pWbHr08Yy0EZ5VunJEUWy24YISdQ/cOedCQkZHblFnV8KTq2gSqgNrqIK]]

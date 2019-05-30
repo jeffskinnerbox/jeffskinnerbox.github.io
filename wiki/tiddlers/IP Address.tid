@@ -1,0 +1,43 @@
+created: 20150321143341193
+modified: 20150321151336069
+tags: Networking
+title: IP Address
+type: text/vnd.tiddlywiki
+
+An Internet Protocol address (IP address) is a numerical label
+assigned to each device (e.g., computer, printer)
+participating in a computer network that uses the Internet Protocol for communication.
+The designers of the Internet Protocol defined an IP address as a 32-bit numbe and this system,
+known as Internet Protocol Version 4 (IPv4).
+A new version of IP ([[IPv6|http://en.wikipedia.org/wiki/IPv6]]),
+using 128 bits for the address, was developed in 1995.
+
+An IP address serves two principal functions:
+
+* host or network interface identification
+* location addressing
+
+Its role has been characterized as follows:
+
+* A name indicates what we seek.
+* An address indicates where it is.
+* A route indicates how to get there.
+
+In IPv4 an address consists of 32 bits which limits the address space to 4294967296 (232) possible unique addresses.
+IPv4 reserves some addresses for special purposes such as private networks (~18 million addresses)
+or [[multicast addresses|Multicast]]
+(~270 million addresses).
+
+IPv4 addresses are canonically represented in
+[[dot-decimal notation|Dot-Decimal Notation]],
+which consists of four decimal numbers, each ranging from 0 to 255, separated by dots, e.g., 172.16.254.1.
+Each part represents a group of 8 bits (octet) of the address.
+In some cases of technical writing, IPv4 addresses may be presented in various hexadecimal, octal, or binary representations.
+
+[img[An IP address (version 4) in both dot-decimal notation and binary code|1280px-Ipv4_address.svg.png]]
+
+IP addresses can be classified into several classes of operations
+or [[IP Addressing]]:
+[[Unicast]], [[Multicast]], [[Anycast]] and [[Broadcast]] addressing.
+
+''Source:'' http://en.wikipedia.org/wiki/IP_address

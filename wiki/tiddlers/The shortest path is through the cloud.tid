@@ -1,0 +1,25 @@
+created: 20141031234023033
+modified: 20141031234039342
+title: The shortest path is through the cloud
+type: text/vnd.tiddlywiki
+
+!What it means
+The image below illustrates the trade-off between computing on the edge vs centrally (aka in the cloud).
+
+[img [http://roboearth.org/wp-content/uploads/2013/02/Cloud-Robotics-Communication-Data-Rates-300x159.png]]
+
+Let's assume ([[correctly|Advantages of Cloud vs. Edge Computing]]) that there are
+reasons to choose cloud computing over edge computing.
+Let's also assume your solution currently puts you on the edge, but you prefer a cloud approach.
+Given this, you your first choose will be modify the gross IT resources to address the problem.
+You could do one or more of the following to put you back into the cloud space:
+
+#You will increase your network speed
+#You will reduce the compute time in the cloud via a "bigger box"
+
+These gross objective may translate into specific things like:
+
+#You could put analytics, compression, filtering, etc. on the device to reduce data volumes
+#Introduce more parallelism / elasticity in your architecture and your cloud compute
+
+!What are the supporting trend

@@ -1,0 +1,28 @@
+created: 20150330023943450
+modified: 20150330025000911
+tags: Networking
+title: Private IP Address
+type: text/vnd.tiddlywiki
+
+The organization that doles out IP addresses to the world,
+[[Internet Assigned Numbers Authority (IANA)|http://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority]],
+reserves a range of IP addresses for private networks.
+Private networks can use IP addresses anywhere in the following ranges:
+
+* 192.168.0.0 - 192.168.255.255 (65,536 IP addresses)
+* 172.16.0.0 - 172.31.255.255 (1,048,576 IP addresses)
+* 10.0.0.0 - 10.255.255.255 (16,777,216 IP addresses)
+
+The assumption is that these private address ranges are not directly connected to the Internet,
+so the addresses don't have to be unique.
+These private address ranges are often used for the protected network behind [[network translation devices|Network Address Translation]].
+
+These blocks of addresses can be used by anyone, anywhere.
+Even if your neighbor is using the exact same addresses,
+it won't cause a problem.
+This is possible because these addresses are known as non-routable addresses.
+The network [[routers|Router]] on the Internet are programmed to recognize these addresses.
+
+''Sources:''
+http://whatismyipaddress.com/iana and
+http://en.wikipedia.org/wiki/Private_network

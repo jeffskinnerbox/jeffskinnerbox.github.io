@@ -1,0 +1,92 @@
+created: 20141031210819253
+modified: 20160519031829252
+tags: WiFi Pontifications
+title: Cheap WiFi Chips on the Edge
+type: text/x-markdown
+
+It is extremely tempting to suggest using the existing widely deployed TCP/IP protocol and WiFi networking for the "things" in the Internet of Things (IoT).
+The idea hear is to abandon technologies like ZigBee, Bluetooth, MQTT, etc. for the old workhorse of the Internet.
+The problem with this idea is the very robustness of the TCP/IP protocols and network.
+The are intrinsically designed for high-duty cycle, large data streams, and high reliability.
+To top it off, these capabilities have always come with an expensive price point.
+The eBook "[Rethinking the Internet of Things: A Scalable Approach to Connecting Everything][20]"
+makes this case very well.
+
+But what if the price point isn't as high as suggested in Francis daCosta book?
+Is there a TCP/IP protocol stake and processor that you could economically put at the edge of the IoT network?
+
+
+#Cheap WiFi Chip
+![image of esp8266](http://blog.hekkers.net/wp-content/uploads/2014/12/esp8266.jpg)
+
+In early September 2014, I [became aware][04] of a new
+(and potentially game changing)
+[WiFi transceiver breakout board with a ESP8266 SoC chip][01]
+that appeared in the market for as low as $4 even in small quantities.
+Initially, [not much was know about this chip][02]
+but that has changed rapidly when the Hacker / Maker community discovered it.
+(**Note:** In [some places][06], you see this device referred to as the Wi07c.)
+
+The ESP8266 has builtin TCP/IP using  a light-weight implementation of the TCP/IP protocol suite called [LwIP][11],
+it supports several data rates from 11Mb/s to 300Mb/s via the [802.11b/g/n standard][10],
+and it can operate without a WiFi access point if required via [WiFi Direct (P2P)][12].
+If desired, it can turn any computer into a WiFi access point via  [SoftAP (aka virtual router)][13],
+and so it can operate in all the WiFi modes except Ad-Hoc (aka Mesh) and WDS modes.
+(i.e. supports modes [AP, STA and AP+STA][14]).
+
+Maybe more important is the fact that the ESP8266 is a SoC, or [System on a Chip][17].
+This means it contains not only the WiFi radio and networking functions,
+but also has microprocessor capabilities, making it programmable.
+Its [Lua][18]-based firmware allows you to access to  the device pins and create scripts to support simple application logic.
+
+There is one big caveat, this powerful device hasn't yet received full [FCC and CE certification][19], but it just a matter of time for this to happen.
+
+# So Why Should You Care?
+This is a lot of technical jargon ... what does it mean?
+
+This device is a shot across the bow of any chip and device manufacture out there who wants
+to address the Internet of Things (IoT) market.
+It shows what can be done for IoT at a very appealing price point and high functionality.
+Prior to the arrival of this chip, you would need to pay almost ten time as much money
+and still not have all the capabilities of this little WiFi breakout board.
+
+For example, Texas Instruments offering a WiFi chip solution to the IoT revolution with the introduction of the [SimpleLink WiFi CC3000 module][03].
+Enabling IoT devices to connected via WiFi on a headless devices
+(i.e. no keypads or input device) can be complicated.
+The CC3000 module features the SmartConfig technology,
+ a WiFi configuration process developed by TI that allows multiple in-home devices without displays to connect to a WiFi network via a smartphone or tablet easily.
+The [CC3000 chip is about $10][07] and a [breakout board level implementations are about $35][08]
+and none of the program-ability of the ESP8266.
+
+There are non-WiFi radios that are comparatively priced to the ESP8266,
+such as:
+
+* low power, small packet size, 2.4GHz [Nordic nRF2401+][09] with a [breakout board at about $4][15] in small volume.
+* RFM69 family of HopeRF Wireless Transceiver operate with multiple ISM bands and all cost about [$4 per breakout board][16].
+
+But they don't support natively TCP/IP, like the ESP8266 or have its program-ability.
+
+Easy and cheap WiFi (i.e. TCP/IP) connectivity on the "thing" in the world of IoT would be a game changer.
+ 
+
+
+[01]:http://www.seeedstudio.com/depot/WiFi-Serial-Transceiver-Module-w-ESP8266-p-1994.html
+[02]:http://hackaday.com/2014/09/06/the-current-state-of-esp8266-development/
+[03]:http://www.ti.com/lit/ds/symlink/cc3000.pdf
+[04]:http://hackaday.com/2014/08/26/new-chip-alert-the-esp8266-wifi-module-its-5/
+[05]:http://hackaday.com/2013/01/12/finally-ti-is-producing-simple-cheap-wifi-modules/
+[06]:http://www.electrodragon.com/product/esp8266-wi07c-wifi-module/
+[07]:http://www.edn.com/electronics-products/readers--choice-2013--toyota-s-killer-firmware--epic-apple-fails--raspberry-pi--more/4404215/Self-contained-Wi-Fi-module-simplifies-Internet-connectivity
+[08]:http://www.adafruit.com/products/1469
+[09]:http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P
+[10]:http://compnetworking.about.com/cs/wireless80211/a/aa80211standard.htm
+[11]:http://lwip.wikia.com/wiki/LwIP_Wiki
+[12]:http://www.techradar.com/us/news/phone-and-communications/mobile-phones/wi-fi-direct-what-it-is-and-why-you-should-care-1065449
+[13]:http://en.wikipedia.org/wiki/SoftAP
+[14]:http://wireless.kernel.org/en/users/Documentation/modes
+[15]:http://www.amazon.com/2013newestseller-NRF24L01-Antenna-Wireless-Transceiver/dp/B00FDPTUC6/ref=sr_1_2?ie=UTF8&qid=1410530918&sr=8-2&keywords=nRF24L01%2B
+[16]:http://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=RFM69
+[17]:http://en.wikipedia.org/wiki/System_on_a_chip
+[18]:http://www.lua.org/about.html
+[19]:http://hackaday.com/2014/12/17/esp-gets-fcc-and-ce/
+[20]:http://www.amazon.com/gp/product/B00EBCGHSW/ref=oh_aui_d_detailpage_o01_?ie=UTF8&psc=1

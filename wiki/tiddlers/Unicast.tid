@@ -1,0 +1,19 @@
+created: 20150321145112132
+modified: 20150321145409165
+tags: Networking
+title: Unicast
+type: text/vnd.tiddlywiki
+
+[[Unicast|http://en.wikipedia.org/wiki/Unicast]]
+is the most common concept of an IP address is in unicast
+[[addressing|IP Addressing]], available in both IPv4 and IPv6.
+It normally refers to a single sender or a single receiver,
+and can be used for both sending and receiving.
+Usually, a unicast address is associated with a single device or host,
+but it is not a one-to-one correspondence.
+Some individual PCs have several distinct unicast addresses,
+each for its own distinct purpose.
+Sending the same data to multiple unicast addresses requires the sender to send all the data many times over,
+once for each recipient.
+
+''Source:'' http://en.wikipedia.org/wiki/IP_address#Sticky_dynamic_IP_address

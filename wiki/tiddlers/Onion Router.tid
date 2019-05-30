@@ -1,0 +1,26 @@
+created: 20141018214921455
+modified: 20150208023225245
+tags: Projects
+title: Onion Router
+type: text/vnd.tiddlywiki
+
+[[Tor|https://www.torproject.org/]]
+is a network of virtual tunnels, using
+[[onion routing|http://en.wikipedia.org/wiki/Onion_routing]],
+that allows people and groups to improve their privacy and security on the Internet.
+The Tor network disguises your identity by moving your
+traffic across different Tor servers,
+and encrypting that traffic so it isn't traced back to you.
+Anyone who tries would see traffic coming from
+random nodes on the Tor network, rather than your computer.
+[[Never the less, it's far from perfect|http://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029]].
+
+*[[Tor: The Anonymous Internet, and If It's Right for You|http://gizmodo.com/tor-the-anonymous-internet-and-if-its-right-for-you-1222400823]]
+*[[Web security everywhere|http://hackaday.io/project/2040-web-security-everywhere]]
+*[[Turning the Raspberry Pi into a onion router|https://www.youtube.com/watch?v=JvDx2TnfCVQ]]
+
+Other things to explore:
+
+* [[OpenWrt|https://openwrt.org/]]
+* [[Netduma|http://www.netduma.com/]]
+* [[Linksys WRT1900AC WiFi Router|http://www.cnet.com/products/linksys-wrt1900ac-wireless-router/]]

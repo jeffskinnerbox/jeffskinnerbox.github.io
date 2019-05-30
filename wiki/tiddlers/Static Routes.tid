@@ -1,0 +1,22 @@
+created: 20150308034647891
+modified: 20150321231737228
+tags: Networking
+title: Static Routes
+type: text/vnd.tiddlywiki
+
+Static routing is a form of routing that occurs when a router uses
+a manually-configured routing entry,
+rather than information from a dynamic routing protocol to forward traffic.
+Equvalently, static routes are for traffic that must not,
+or should not, go through the [[Default Gateway]].
+Unlike dynamic routing, static routes are fixed and do not change if the network is changed or reconfigured.
+
+In most Linux distributions,
+a static route can be added using the [[iproute2|http://en.wikipedia.org/wiki/Iproute2]] command.
+The following is typed at a terminal:
+
+```
+ip route add 10.10.20.0/24 via 192.168.100.1
+```
+
+''Source:'' http://en.wikipedia.org/wiki/Static_routing

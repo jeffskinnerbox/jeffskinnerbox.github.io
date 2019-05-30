@@ -1,0 +1,55 @@
+#
+# This file specifies intentionally untracked files that Git should ignore. 
+#
+# Each line in this .gitignore file specifies a regular expression pattern
+# that, when matched, the coresponding file will NOT be include in Git processing.
+#
+### ---------- Project Specific Files ---------- ###
+
+lib/
+local/
+cache/
+output/
+include/
+.ropeproject/
+pelican-themes/
+pelican-plugins/
+
+### -------------- General Files --------------- ###
+
+### -- Compiled Source -- ###
+*.pid
+*.pyc
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+### -- Packages -- ###
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+### -- Logs & Databases -- ###
+*.log
+*.sql
+*.sqlite
+
+### -- OS Generated Files -- ###
+*.out
+*.swp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db

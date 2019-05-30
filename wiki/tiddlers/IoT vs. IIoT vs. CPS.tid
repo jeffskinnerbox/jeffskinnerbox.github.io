@@ -1,0 +1,24 @@
+created: 20141005205020426
+modified: 20141005211909719
+title: IoT vs. IIoT vs. CPS
+type: text/vnd.tiddlywiki
+
+A set of contrasting definitions provide by the [[Industrial Internet Consortium|http://www.industrialinternetconsortium.org/]] is:
+
+!!Cyber Physical Systems
+[[Cyber Physical Systems]] are interconnected systems with embedded sensors, processors, and actuators designed to sense and control the physical world with real-time performance in safety critical environments.
+
+!!IoT view of Cyber Physical Systems 
+Cyber Physical System is a complex entity that combines software, hardware and networking capabilities. Cyber Physical Systems can be small or large in scale and contain various sub-systems. Each sub-system can represent an aggregate capability that makes up the whole Cyber Physical System. In the IoT environment CPS can possess capabilities for sensing, processing, interaction, and communication of physical entities in isolated or networked states using various [[Cybernetics]] means. 
+
+For instance, a gas turbine is a complex CPS that consists of several sub-systems, such as physical hardware (compressor, combustion chamber, turbine), set of sensors, controllers, actuators, software for operation and control, network for internal and external communications, etc.
+
+''GE Example:'' Gas turbine, wind turbine farm, jet engine, MRI, locomotive, power generator, nuclear power plant, and energy distribution grid.
+
+!!Industrial Internet
+As a sub-domain of the Internet of Things, the Industrial Internet focuses on bringing industrial Cyber Physical Systems online to form large systems of systems. It represents the convergence of the global industrial ecosystem, advanced computing and manufacturing, pervasive sensing, and ubiquitous network connectivity.
+
+''GE Example:'' Picture below shows many traditionally dumb, siloed machines and systems being connected to an industrial scale network via multiple communication mechanisms. 
+
+!!Internet of Things
+The Internet of Things is the overarching space that represents the interconnectivity of all types of smart objects. It encompasses all Internet initiatives that move beyond connecting computers and people to the Internet to include all types of devices.

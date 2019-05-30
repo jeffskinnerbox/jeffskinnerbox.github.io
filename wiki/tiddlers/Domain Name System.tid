@@ -1,0 +1,20 @@
+created: 20150307181526521
+modified: 20150328201418117
+tags: Networking
+title: Domain Name System
+type: text/vnd.tiddlywiki
+
+The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services,
+or any resource connected to the Internet or a private network.
+It associates various information with a [[Domain Name]] assigned to each of the participating entities.
+Most prominently, it translates domain names, which can be easily memorized by humans, to the numerical [[IP addresses|IP Address]]
+needed for the purpose of computer services and devices worldwide.
+The Domain Name System is an essential component of the functionality of most Internet services because it is the Internet's primary directory service.
+
+When implementing DNS on a network,
+it’s important to implement some separation between external and internal Domain Name Services.
+The DNS server needs to be configured to handle both external and internal [[IP Address]] resolution.
+External IP addresses are typically resolved via
+[[DNS Forwarding]] to an external DNS server.
+
+''Source:'' http://en.wikipedia.org/wiki/Domain_Name_System

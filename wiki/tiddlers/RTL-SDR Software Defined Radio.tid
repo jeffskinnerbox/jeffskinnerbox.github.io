@@ -1,0 +1,137 @@
+created: 20140919015727086
+modified: 20160623010358052
+tags: Projects
+title: RTL-SDR Software Defined Radio
+type: text/vnd.tiddlywiki
+
+!!RTL-SDR Software Packages
+
+* [[THE BIG LIST OF RTL-SDR SUPPORTED SOFTWARE|http://www.rtl-sdr.com/big-list-rtl-sdr-supported-software/]]
+* [[Taking the Raspberry Pi 2 for a Test Drive with GNU Radio|http://www.rs-online.com/designspark/electronics/eng/blog/taking-the-raspberry-pi-2-for-a-test-drive-with-gnu-radio-2]]
+* [[The Comprehensive GNU Radio Archive Network|http://cgran.org/]]
+
+!!Learning SDR-RTL and GUN Radio
+
+* [[SDR Tutorials From Michael Ossmann|http://hackaday.com/2015/10/10/sdr-tutorials-from-michael-ossmann/]]
+* [[Getting Started with GNU Radio and RTL-SDR (on Backtrack)|http://blog.opensecurityresearch.com/2012/06/getting-started-with-gnu-radio-and-rtl.html]]
+* [[Getting Started with GNU Radio|http://hackaday.com/2015/11/11/getting-started-with-gnu-radio/]]
+*[[An online Software Defined Radio training course|http://www.rtl-sdr.com/an-online-software-defined-radio-training-course/]]
+*[[RTL-SDR.COM|http://www.rtl-sdr.com/]]
+*[[Radio Antics|http://nerdsville.blogspot.com/]]
+*[[Welcome to GNU Radio!|http://gnuradio.org/redmine/projects/gnuradio/wiki]]
+*[[GNU Radio Tutorial Series|http://www.youtube.com/playlist?list=PL618122BD66C8B3C4]]
+*[[CSUN/EAFB Software Defined Radio (SDR) Senior Project|http://www.csun.edu/~skatz/katzpage/sdr_project/sdrproject.html]]
+*[[GRC Examples|http://www.oz9aec.net/index.php/gnu-radio/grc-examples]]
+*[[GNU Radio Documentation|http://radioware.nd.edu/documentation]]
+*[[Balint's SDR (and GNU Radio) Tutorials|http://files.ettus.com/tutorials/]]
+* [[Introductory Tour of the GNU Radio Project|http://www.joshknows.com/gnuradio]]
+* [[Roundup of Software Defined Radios|http://www.rtl-sdr.com/roundup-software-defined-radios/]]
+* [[Videos: GNU Radio Tutorial Series|http://files.ettus.com/tutorials/]]
+
+!!Decoding Tire Pressure Monitor Systems
+
+*[[RECEIVING AND DECODING TIRE PRESSURE MONITOR SYSTEMS USING AN RTL-SDR|http://www.rtl-sdr.com/receiving-decoding-tire-pressure-monitor-systems-using-rtl-sdr/]]
+*[[Track Cars with Wireless Tire Pressure Sensors|https://www.youtube.com/watch?v=TDYoo7TGNcw]]
+
+!!Wideband Spectrum Analyser
+
+*[[RTLSDR Scanner|http://eartoearoak.com/software/rtlsdr-scanner]]
+*[[RTL SDR As A Spectrum Analyzer|http://hackaday.com/2014/11/19/rtl-sdr-as-a-spectrum-analyzer/]]
+
+!!The Innards of the RTL-SDR
+
+*[[RTL-SDR Innards|http://bemasher.github.io/rtlamr/2014/02/08/innards.html]]
+
+!!Discone Antenna
+
+*[[Home Made Coat Hanger Discone|http://www.rtl-sdr.com/home-made-coat-hanger-discone/]]
+*[[Software Defined Radio|http://tinkersoc.org/2013/01/software-defined-radio/]]
+*[[Discone Antenna Calculator|http://www.changpuak.ch/electronics/calc_11.php]]
+*[[PRACTICAL ANTENNA DESIGN: 140-150 MHZ VHF TRANSCEIVERS|http://files.radioscanner.ru/files/download/file311/practical_antenna_design.pdf]]
+*[[White Paper: Discone Antenna Design|http://www.hipoint.ca/whitepapers/WhitePaper_DisconeAntenna.pdf]]
+*[[Notes on HF Discone Antennas|http://w4rnl.net46.net/download/discone.pdf]]
+
+!!Double Cross Antenna
+
+* [[Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites|http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/]]
+
+!!Household Utility Measurement
+
+*[[RTLAMR: An RTL-SDR receiver for smart meters operating in the 900MHz ISM band|http://bemasher.github.io/rtlamr/]]
+*[[Arduino Based Wireless Power Meter|http://people.ece.cornell.edu/land/courses/eceprojectsland/STUDENTPROJ/2009to2010/csm44/index.html]]
+
+!!Long Wave Reciver
+
+*[[A $40 Software-Defined Radio|http://spectrum.ieee.org/geek-life/hands-on/a-40-softwaredefined-radio]]
+*[[Software-Defined Radio, Part II|http://spectrum.ieee.org/geek-life/hands-on/softwaredefined-radio-part-ii]]
+*[[Random wire antenna|http://en.wikipedia.org/wiki/Random_wire_antenna]]
+
+!!Amateur Radio-Astronomy
+
+*[[Radio-astronomy with RTL-SDR, RaspberryPI and Amazon AWS IoT|https://www.hackster.io/mariocannistra/radio-astronomy-with-rtl-sdr-raspberrypi-and-amazon-aws-iot-45b617?utm_source=hackster&utm_medium=email&utm_campaign=new_projects]]
+
+!!Radio Waveform Identification and Spectrum Monitoring
+
+*[[Radio Signal Identification Guide|http://www.rtl-sdr.com/signal-identification-guide/]]
+*[[Signal Identification Guide|http://www.sigidwiki.com/wiki/Signal_Identification_Guide]]
+*[[Digital Modes Samples|http://www.kb9ukd.com/digital/]]
+*[[Monitoring the Spectrum: Building Your Own Distributed RF Scanner Array |http://www.rtl-sdr.com/talk-monitoring-spectrum-building-distributed-rf-scanner-array/]]
+
+!!Improving Your SDR Radio
+
+*[[Adding more frequencies to your software defined radio|http://hackaday.com/2012/07/08/adding-more-frequencies-to-you-software-defined-radio/]]
+*[[Improving a software defined radio with a few bits of wire|http://hackaday.com/2012/05/14/improving-a-software-defined-radio-with-a-few-bits-of-wire/]]
+*[[RTL-SDR Improvement Tips|http://www.ab9il.net/software-defined-radio/rtl2832-sdr.html]]
+
+!!Police & Fire Scanner
+
+*[[How to Make a $19 Police Scanner|https://sites.google.com/site/policescannerhowto/]]
+
+!!Aircraft Monitoring
+
+* [[RTL-SDR Tutorial: Receiving Airplane Data with ACARS |http://www.rtl-sdr.com/rtl-sdr-radio-scanner-tutorial-receiving-airplane-data-with-acars/]]
+* [[ACARS decoder|http://acarsdec.sourceforge.net/]]
+*  [[PlanePlotter|http://www.nicstorey.co.uk/planeplotter/sdrscanner]]
+* [[acarsd - ACARS Decoder for Linux & Windows|http://www.acarsd.org/]]
+* [[The Pi Plane Project tracks planes the fly over my house|http://simonaubury.com/the-pi-plane-project1-introduction/]]
+* [[FlightRadar24|http://www.flightradar24.com/39.17,-77.53/7]]
+
+!!Aircraft Transponders / ADS-B
+
+*[[Build a Cheap Airplane ADS-B Radio Receiving Tracking Station|http://hackaday.com/2014/01/16/build-a-cheap-airplane-ads-b-radio-receiving-tracking-station/#more-112602]]
+*[[ADS-B Sniffing with the Raspberry Pi and the NooElec 820T Dongle|http://corq.co/?p=1865]]
+*[[Listening to aircraft transponders with a Raspberry Pi|http://hackaday.com/2013/05/23/listening-to-aircraft-transponders-with-a-raspberry-pi/]]
+*[[Dump1090 for the Raspberry Pi|http://www.satsignal.eu/raspberry-pi/dump1090.html]]
+
+!!Satellite Broadcasts
+
+*[[How to take NOAA satellite pictures using RTL-SDR for under $50|http://tutorialphotoshop.me/fopnIkYnFPI/How-to-take-NOAA-satellite-pictures-using-RTL-SDR-for]]
+*[[Receiving photos from NOAA satellites with RTL SDR|http://sq7obj.wordpress.com/2012/07/22/receiving-photos-from-noaa-satellites-with-rtl-sdr/]]
+*[[Satellite Tools|http://www.satsignal.eu/]]
+*[[PyEphem provides scientific-grade astronomical computations|http://rhodesmill.org/pyephem/]]
+*[[Astronomical Software Ephemeris|http://www.clearskyinstitute.com/xephem/]]
+*[[Raspi Notifies You Of Space Station Passes|http://hackaday.com/2013/12/13/raspi-notifies-you-of-space-station-passes/]]
+*[[Cubesat|http://en.wikipedia.org/wiki/CubeSat]]
+*[[Carpcomm Space Network|http://carpcomm.com/carpsd/]]
+*[[The FUNcube Project - UK Amature Radio Educational Satellite|http://funcube.org.uk/]]
+*[[AMSAT-UK|http://amsat-uk.org/]]
+*[[How to build a satellite receiving station using a Raspberry Pi|http://carpcomm.com/ref/]]
+*[[Quadrifilar Helix (QFH) Antenna|http://www.youtube.com/watch?v=fopnIkYnFPI]]
+*[[FM Receiver Gnuradio block using  RTL2832U dongle|http://zr6aic.blogspot.com/2012/08/gnuradio-with-rtl2832u-dongle.html]]
+*[[SatNOGS : Global Network of Ground Stations|http://hackaday.io/project/1340-satnogs-global-network-of-ground-stations]]
+* [[Receive Weather Satellite Images With Software-Defined Radio|http://mattg.co.uk/words/noaa_sdr/]]
+* [[Downloading Satellite Images via FM Radio|http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/]]
+* [[NOAA Weather Satellite Reception with GNU Radio and USRP|http://www.oz9aec.net/index.php/gnu-radio-blog/350-noaa-weather-satellite-reception-with-gnu-radio-and-usrp]]
+* [[User's Guide for Building and Operating Environmental Satellite Receiving Stations|http://www.noaasis.noaa.gov/NOAASIS/pubs/Users_Guide-Building_Receive_Stations_March_2009.pdf]]
+
+!!Other SDR Solutions
+
+* [[Reading Weather Data with Software-Defined Radio|http://www.linux-magazine.com/Online/Features/Reading-Weather-Data-with-Software-Defined-Radio]]
+* [[Building A Software Defined Radio With A Teensy|http://hackaday.com/2014/04/25/building-a-software-defined-radio-with-a-teensy/]]
+* [[HackRF One|https://greatscottgadgets.com/hackrf/]]
+* [[HackRF Blue|http://hackrfblue.com/]]
+* [[RF Analyzer - Display for HackRF on an Android Device|http://tech.mantz-it.com/2014/10/rf-analyzer-explore-frequency-spectrum.html]]
+
+!!Mor SDR Projects
+* [[Triple Threat RTL-SDR System Reads Trunked Radio|http://hackaday.com/2016/03/07/triple-threat-rtl-sdr-system-reads-trunked-radio/]]
+* [[Embedded rtl-sdr setup: RTL-SDR + OpenWRT = OMG!!|http://rtl-sdr.sceners.org/?p=40]]

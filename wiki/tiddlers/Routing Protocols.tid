@@ -1,0 +1,21 @@
+created: 20150321232141068
+modified: 20150321232424238
+tags: Networking
+title: Routing Protocols
+type: text/vnd.tiddlywiki
+
+A routing protocol specifies how routers communicate with each other,
+disseminating information that enables them to select routes between any two nodes on a computer network.
+Routing algorithms determine the specific choice of route.
+Each router has a priori knowledge only of networks attached to it directly.
+A routing protocol shares this information first among immediate neighbors,
+and then throughout the network.
+This way, routers gain knowledge of the topology of the network.
+
+Although there are many types of routing protocols, three major classes are in widespread use on IP networks:
+
+* Interior gateway protocols type 1, link-state routing protocols, such as OSPF and IS-IS
+* Interior gateway protocols type 2, distance-vector routing protocols, such as Routing Information Protocol, RIPv2, IGRP.
+* Exterior gateway protocols are routing protocols used on the Internet for exchanging routing information between Autonomous Systems, such as Border Gateway Protocol (BGP), Path Vector Routing Protocol.
+
+''Source:'' http://en.wikipedia.org/wiki/Routing_protocol

@@ -1,0 +1,10 @@
+created: 20150103150222013
+modified: 20150604003018775
+tags: Study
+title: Serial Communication Protocols
+type: text/vnd.tiddlywiki
+
+* [[I2C Communication Protocol|https://learn.sparkfun.com/tutorials/i2c]]
+* [[Comparison Between SPI, I2C, and UART|http://www.quilix.com/sites/default/files/comparison_between_SPI_I2C_UART.pdf]]
+* [[Serial Interfaces:SPI, I2C, UART Demystified|http://w8bh.net/avr/serial.pdf]]
+* [[Introduction to I²C and SPI protocols|http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/]]

@@ -1,0 +1,79 @@
+created: 20141226143823014
+modified: 20170103032933111
+tags: [[Test Gear]]
+title: Oscilloscope Tutorials and Tips
+type: text/vnd.tiddlywiki
+
+I purchased an [[Oscilloscope]],
+so its time to learn how to use it like a pro.
+
+!!Fundamentals
+* [[Digitizer/Oscilloscope Fundamentals|http://www.ni.com/white-paper/3408/en/]]
+* [[Scope Fundementals|http://circuitslab.case.edu/manuals/Oscilloscope_Fundamentals_-_Tektronix.pdf]]
+* [[YouTube Videos Show You How to Use an Oscilloscope|http://www.edn.com/electronics-blogs/scope-insights/4413954/YouTube-Videos-Show-You-How-to-Use-an-Oscilloscope]]
+* [[Videos: Basics and Tutorials on Scopes|https://www.youtube.com/playlist?list=PL746BF38BC2E068E0&app=desktop]]
+* [[Oscilloscope Tutorial|https://www.valuetronics.com/Manuals/Oscilloscope_Tutorial.pdf]]
+* [[NJARC Oscilloscope School (aka "Scopes for Dopes")|http://www.njarc.org/scopes4dopes/]]
+* [[Basics of, and How To Use an Oscilloscope|https://www.youtube.com/watch?v=KYEMPm0c9kY]]
+* [[How to use an oscilloscope. Plus, seeing signals in antique radios|https://www.youtube.com/watch?v=niBGkqlh2XY]]
+* [[How To Use An Oscilloscope|http://hackaday.com/2016/07/25/alan-wolkes-how-to-use-an-oscilloscope/]]
+
+!!Primers & Tutorials
+* [[Adafruit Oscilloscope Tutorials|http://www.adafruit.com/blog/2011/12/16/analog-oscilloscope-tutorials/]]
+* [[XYZs of Oscilloscopes|http://ecee.colorado.edu/~mcclurel/txyzscopes.pdf]]
+* [[Probe Fundamentals|http://www.ece.vt.edu/cel/docs/Probe_Fundamentals_Tektronix.pdf]]
+* [[Understanding Oscilloscope Trigger System Basics & Why You Should Care|https://keysightoscilloscopeblog.com/2016/07/27/understanding-oscilloscope-trigger-system/]]
+* [[Oscilloscope Triggering: When is Normal not so Normal?|https://keysightoscilloscopeblog.com/2016/03/23/oscilloscope-normal-triggering/]]
+* [[Advanced Oscilloscope Triggering and Signal Isolation|https://keysightoscilloscopeblog.com/2016/09/28/advanced-oscilloscope-triggering-and-signal-isolation/]]
+* [[Capturing Intermittent or Infrequent Events|https://keysightoscilloscopeblog.com/2016/05/18/capturing-infrequent-events-why-oscilloscope-update-rate-matters/]]
+* [[7 Tips for Better Oscilloscope Probe Selection and Usage|http://electronicdesign.com/test-measurement/7-tips-better-oscilloscope-probe-selection-and-usage]]
+* [[What is oscilloscope system bandwidth and how do I find the bandwidth of the scope + probe?|https://keysightoscilloscopeblog.com/2016/03/30/what-is-oscilloscope-system-bandwidth-and-how-do-i-find-it/]]
+* [[How to measure your oscilloscope (and probe)’s bandwidth yourself|https://keysightoscilloscopeblog.com/2016/05/04/how-to-measure-your-oscilloscope-and-probes-bandwidth/]]
+* [[Basic Waveform Analysis with an Oscilloscope|http://www.allaboutcircuits.com/technical-articles/basic-waveform-analysis-with-an-oscilloscope/]]
+* [[How does oscilloscope signal integrity impact your measurements and analysis?|https://keysightoscilloscopeblog.com/2016/06/01/how-much-does-your-oscilloscope-impact-your-measurements-and-analysis/]]
+* [[Oscilloscope Vertical Confusion|https://www.youtube.com/watch?v=DMXiD3dKYJc&list=PLvOlSehNtuHsCTtj-T_vkpTTbBXW4sB51]]
+* [[Introduction to Oscilloscopes Lab Experiment|https://www.noisebridge.net/images/8/8d/Tektronix--IntroToOscilliscopesLab.pdf]]
+* [[Oscilloscope and Data Logger Application Notes|https://www.picotech.com/library/application-notes]]
+* [[Tektronix Oscilloscope Tutorial|http://www.tek.com/learning/oscilloscope-tutorial]]
+* [[From Digital to RF - Using a scope to easily debug in the time and frequency domains|http://www.rohde-schwarz-usa.com/Webinar-Digital-to-RF-Oscilloscope.html?mkt_tok=3RkMMJWWfF9wsRojsqXBZKXonjHpfsXx6u0pWbHr08Yy0EZ5VunJEUWy3YAAT9Q/cOedCQkZHblFnV8KTq2gSqgNrqIK]]
+* [[Tektronix Manuals and Documentation|http://www.tek.com/downloads]]
+** [[Application Notes|http://www.afc-ingenieros.com/uploads/Afc/InfoTecn/Osciloscopios/pdf/]]
+** [[View Bench Skills: Oscilloscope Tutorials|http://e2e.ti.com/group/universityprogram/educators/m/teaching_repository/664656]]
+** [[Learn Six Oscilloscope Measurements with One Arduino|https://hackaday.com/2018/06/17/learn-six-oscilloscope-measurements-with-one-arduino/]]
+
+!!Videos
+* [[Rigol Oscilloscope Basics|https://www.youtube.com/playlist?list=PLwOVNTOStjiCTHXOoszZYqMcMRtXGIA8P]]
+
+!!Evaluation
+* [[Evaluating Oscilloscopes - Part 1|http://circuitcellar.com/cc-blog/evaluating-oscilloscopes-part-1/#at_pco=smlre-1.0&at_si=569e738305ad0ffb&at_ab=per-2&at_pos=3&at_tot=4]], [[Part 2|http://circuitcellar.com/cc-blog/evaluating-oscilloscopes-part-2/]], [[Part 3|http://circuitcellar.com/cc-blog/evaluating-oscilloscopes-part-3/]], [[Part 4|http://circuitcellar.com/cc-blog/evaluating-oscilloscopes-part-4/]]
+* [[Oscilloscope performance vs. specifications|https://www.youtube.com/watch?v=6CDJbi8E0UE]]
+
+!!Spectrum Analyzer
+* [[Giving the Rigol DS1052E ‘scope a spectrum analyzer|http://hackaday.com/2012/10/10/giving-the-rygol-ds1052e-scope-a-spectrum-analyzer/]]
+* [[Software Spectrum Analyzer for the Rigol 1000 series Oscilloscopes|http://hackaday.com/2015/12/20/no-spectrum-analyser-no-problem/]]
+* [[A Better Spectrum Analyzer for your Rigol Scope|http://hackaday.com/2015/09/22/a-better-spectrum-analyzer-for-your-rigol-scope/]]
+
+!!Tips
+* [[Twelve tips for using the Rigol DS1052E Oscilloscope|http://www.righto.com/2013/07/tips-for-using-rigol-ds1052e.html]]
+* [[Oscilloscope Vertical Confusion|https://www.youtube.com/watch?v=DMXiD3dKYJc&feature=em-uploademail]]
+* [[Why Digital Oscilloscopes Appear Noisy|https://www.youtube.com/watch?v=Znwp0pK8Tzk]]
+* [[How NOT To Blow Up Your Oscilloscope!|https://www.youtube.com/watch?v=xaELqAo4kkQ]]
+* [[Mysteries of x1 Oscilloscope Probes Revealed|https://www.youtube.com/watch?v=OiAmER1OJh4]]
+* [[w2aew|https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA]]
+* [[Do yourself a favor, read this.|http://keysightoscilloscopeblog.com/2016/03/09/do-yourself-a-favor-read-this/]]
+* [[This Quick Trick Makes Your Oscilloscope Measurement 1,000 Times Better|http://keysightoscilloscopeblog.com/2016/03/07/this-quick-trick-makes-your-oscilloscope-measurement-1000-times-better/]]
+* [[How to Create Bode Plots on an Oscilloscope|https://keysightoscilloscopeblog.com/2016/04/13/how-to-create-bode-plots-on-an-oscilloscope/]]
+* [[Bode Plotting on Your Osciloscope|https://www.youtube.com/watch?v=uMH2hGvqhlE]]
+* [[Oscilloscope High Res vs Average Modes|https://www.youtube.com/watch?v=036Ems1z-o0&feature=em-uploademail]]
+
+!!Tools
+* [[Controlling a Rigol oscilloscope using Linux and Python|http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/]]
+* [[Controlling A Rigol With Linux|http://hackaday.com/2015/06/06/controlling-a-rigol-with-linux/]]
+* [[Four Rigol oscilloscope hacks with Python|http://www.righto.com/2013/07/rigol-oscilloscope-hacks-with-python.html]]
+* [[The LXI Primer|http://www.lxistandard.org/Documents/LXI%20Primer/The%20LXI%20Primer%20Final.pdf]]
+
+!!Misc
+* [[Hacklet 36 – Oscilloscope Projects|http://hackaday.com/2015/02/27/hacklet-36-oscilloscope-projects/]]
+* [[HariFun#134 Oscilloscope Abuse|https://hackaday.io/project/11512-harifun134-oscilloscope-abuse]]
+* [[Watch Video on a Oscilloscope with an ESP32|https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/]]
+* [[The Pre-CRT Oscilloscope|https://hackaday.com/2018/09/11/the-pre-crt-oscilloscope/]]

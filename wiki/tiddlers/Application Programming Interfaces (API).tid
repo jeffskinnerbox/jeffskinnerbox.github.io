@@ -1,0 +1,15 @@
+created: 20141026180136164
+modified: 20141026181000273
+title: Application Programming Interfaces (API)
+type: text/vnd.tiddlywiki
+
+An application programming interface (API) specifies how some software components
+should be used and interact with each other.
+For a programmer, an API is a set of commands, functions, and protocols which
+they use when building software for a specific application.
+
+* ''Enterprise API'' collect, import, export and run reports on their dataor in other ways do business with a company. 
+
+* ''API Enablement'' is the creation of API layer, infrastructure, and developer portal around web services by addressing some of the key areas like scalability, performance, monitoring, monetization, and developer adoption.
+
+* ''Enterprise API Management'' concerns managing APIs as a corporate asset since APIs are no longer just the domain of your product development team. They are an essential aspect of any business that is transacting communication, finances or data online.  As such, they require building a developer community, API security, traffic monitoring, quality of service management, application management and provisioning, API lifecycle management  Examples of platforms that assit in enterprise API managment are [[3Scale|http://www.3scale.net/]], [[Apigee|http://apigee.com/about/]], and [[Layer 7 Technologies|http://www.layer7tech.com/]].

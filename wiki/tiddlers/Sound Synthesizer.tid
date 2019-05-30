@@ -1,0 +1,30 @@
+created: 20140919014920863
+modified: 20160814145004202
+tags: Projects
+title: Sound Synthesizer
+type: text/vnd.tiddlywiki
+
+* [[Sonic Pi - Audible Computing|http://sonic-pi.net/]]
+* [[Code Music with Sonic Pi|https://www.raspberrypi.org/magpi-issues/Essentials_Sonic_Pi-v1.pdf]]
+* [[Csound is an incredibly powerful signal processor.|http://www.csounds.com/]]
+* [[An Introductory Guide to Csound on the BeagleBone and the Raspberry Pi, as well other Linux-powered tinyware|http://www.csounds.com/journal/issue18/beagle_pi.html]]
+* [[SuperCollider - real-time audio synthesis and algorithmic composition|http://supercollider.sourceforge.net/]]
+* [[Overtone|https://overtone.github.io/]]
+* [[Synth Secrets Exposed!|http://hackaday.com/2015/11/08/synth-secrets-exposed/]]
+* [[How to produce electronic music with the Raspberry Pi|https://opensource.com/life/16/3/make-music-raspberry-pi-milkytracker]]
+* [[DIY Synth Series Part 1 — The Exponential VCO|http://www.allaboutcircuits.com/projects/diy-synth-series-vco/]]
+
+[[Freesound|http://www.freesound.org/]]
+aims to create a huge collaborative database of audio snippets, samples, recordings, bleeps, ... released under Creative Commons licenses that allow their reuse.
+
+The [[BTC Sound Encoder|http://www.romanblack.com/picsound.htm]]
+is software I have written for the purpose of converting sound (in wave files) to a
+[[1-bit format|http://www.romanblack.com/BTc_alg.htm]]
+that can be played back on very cheap hardware, like a microprocessor chip
+
+[[pyAudioAnalysis: A Python Audio Analysis Library|https://github.com/tyiannak/pyAudioAnalysis/wiki]]
+
+Signals, spectrum, and sound hacker Oona Räisänen's website -
+[[absorptions|http://www.windytan.com/]]
+
+sigidwiki.com is a [[Signal Identification Guide|http://www.sigidwiki.com/wiki/Signal_Identification_Guide]]

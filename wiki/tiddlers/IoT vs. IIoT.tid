@@ -1,0 +1,29 @@
+created: 20140920030002346
+modified: 20150208022557414
+tags: Definition Pontifications
+title: IoT vs. IIoT
+type: text/vnd.tiddlywiki
+
+!What is the popularly accepted distinction between a IoT and IIoT solution?
+
+A simple definition, not universally accepted, but largely consistent with the prevailing view is:
+
+* IoT solutions are composed of networked things, typically simple sensors, minor machines, and computers, that have an important relationship with individual people. Typically data is harvested from like things, analytics applied locally but sometime in the cloud, and the new information is provide to an individual person, often via a smart phone app or browser.
+
+* IIoT solutions are in the world of similar but often more complex sensor, machines, and computers, that contribute to our society and economy.Typically data is harvested from many kinds of things, analytics applied in the cloud but sometime locally, and the new information is provide to multiple people and machines, and there often exists a feedback mechanism so outcomes are automatically adjusted.
+
+It is best not to insist on a IoT vs IIoT classification by the technology in the application,
+but consider classifing it by examining the use case.
+For example,
+a [[Nest home thermostat|https://nest.com/thermostat/life-with-nest-thermostat/]] the things that it networks with in a persons home,
+fits the above definition for IoT.
+But when that same infrastructure is accessible by a energy company, or a home security company,
+it becomes part of a IIoT solution.
+The key defining characteristic that caused the shift in this classification is the use case.
+
+In fact, it may be better to think of the IoT / IIoT definitions above as notable points along a continuum
+of ways to unlock information and gain value from physical objects.
+Case in point would be idea of tires as a service, where car tires
+air pressure and mileage would be monitored and replaced when optimal.
+This service clearly is focused on individuals, making it sounds like IoT,
+but the tire company would use the data to optimize it tire servicing operations, sounding like IIoT.

@@ -1,0 +1,20 @@
+created: 20141031233238551
+modified: 20141031233257455
+title: Key Architecture Principles for IoT
+type: text/vnd.tiddlywiki
+
+Walid Negm has states the following principle about IoT architecture:
+
+*The simplest wiring design wins
+*Do things locally when it matters
+*The shortest path is through the cloud
+*Design for inter-operable digital service invocation 
+*Avatar for objects in the physical world
+
+I would restate this to
+
+*[[The simplest wiring design wins]]
+*[[Do things locally when it matters]]
+*[[The shortest path is through the cloud]]
+*Design for inter-operable digital service invocation
+*Avatar for objects in the physical world

@@ -1,0 +1,23 @@
+created: 20150425003810568
+modified: 20150425004625201
+tags: Networking
+title: Load Balancer
+type: text/vnd.tiddlywiki
+
+A load balancer is a device that acts as a reverse proxy and
+distributes network or application traffic across a number of servers.
+Load balancers are used to increase capacity (concurrent users) and reliability of applications.
+They improve the overall performance of applications by decreasing
+the burden on servers associated with managing and maintaining application and network sessions,
+as well as by performing application-specific tasks.
+
+Load balancers are generally grouped into two categories: Layer 4 and Layer 7.
+Layer 4 load balancers act upon data found in network and transport layer protocols (IP, TCP, FTP, UDP).
+Layer 7 load balancers distribute requests based upon data found in application layer protocols such as HTTP.
+
+In essence, these devices would present a "virtual server" address to the outside world,
+and when users attempted to connect,
+they would forward the connection to the most appropriate real server doing bi-directional
+[[Network Address Translation]] (NAT).
+
+''Source:'' [[Load Balancer|https://f5.com/glossary/load-balancer]], [[Load Balancing 101: Nuts and Bolts|https://f5.com/resources/white-papers/load-balancing-101-nuts-and-bolts]]

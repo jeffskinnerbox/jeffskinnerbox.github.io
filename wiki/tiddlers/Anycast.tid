@@ -1,0 +1,16 @@
+created: 20150321145840024
+modified: 20150328200756346
+tags: Networking
+title: Anycast
+type: text/vnd.tiddlywiki
+
+Like [[Broadcast]] and [[Multicast]], Anycast [[addressing|IP Addressing]]
+is a one-to-many routing topology.
+However, the data stream is not transmitted to all receivers,
+just the one which the router decides is logically closest in the network.
+Anycast address is an inherent feature of only IPv6.
+In IPv4, anycast addressing implementations typically operate using the shortest-path metric of BGP routing
+and do not take into account congestion or other attributes of the path.
+Anycast methods are useful for global load balancing and are commonly used in distributed [[Domain Name System]].
+
+''Source:'' http://en.wikipedia.org/wiki/IP_address#Sticky_dynamic_IP_address

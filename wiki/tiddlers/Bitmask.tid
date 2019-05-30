@@ -1,0 +1,12 @@
+created: 20150321134423339
+modified: 20150321134540255
+tags: Networking
+title: Bitmask
+type: text/vnd.tiddlywiki
+
+A mask, or bitmask, is data that is used for bitwise operations, particularly in a bit field.
+Using a mask, multiple bits in a byte, nibble, word (etc.)
+can be set either on, off or inverted from on to off
+(or vice versa) in a single bitwise operation.
+
+''Source:'' http://en.wikipedia.org/wiki/Mask_(computing)

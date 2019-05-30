@@ -1,0 +1,10 @@
+created: 20150301213240673
+modified: 20150301213532540
+tags: WiFi
+title: Extended Service Set Identification (ESSID)
+type: text/vnd.tiddlywiki
+
+ESSID is one of two types of [[Service Set Identification (SSID)]]:
+
+* In an [[ad hoc wireless network|Ad-Hoc Mode]] with no access points, the [[Basic Service Set Identification (BSSID)]] is used.
+* In an [[infrastructure wireless network|Infrastructure Mode]] that includes an access point, the ESSID is used, but may still be referred to as SSID.

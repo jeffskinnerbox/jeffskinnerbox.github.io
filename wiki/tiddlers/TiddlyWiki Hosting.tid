@@ -1,0 +1,14 @@
+created: 20140921021418601
+modified: 20150206220600230
+tags: Study
+title: TiddlyWiki Hosting
+type: text/vnd.tiddlywiki
+
+* [[OpenShift|https://www.openshift.com/]]
+** [[Setup a personal TiddlyWiki on OpenShift|http://ericmiao.github.io/blog/2014/04/05/setup-personal-tiddlywiki-on-openshift/]]
+** [[10 Reasons OpenShift is the Best Place for Node.js Apps|https://blog.openshift.com/10-reasons-openshift-is-the-best-place-to-host-your-nodejs-app/]]
+* [[Heroku|https://www.heroku.com/features]]
+** [[Avoid Heroku idling with New Relic pings|https://coderwall.com/p/u0x3nw/avoid-heroku-idling-with-new-relic-pings]]
+* [[Nodejitsu|https://www.nodejitsu.com/]]
+* [[TiddlySpace|http://tiddlyspace.com/]]
+* [[TiddlyWeb|http://tiddlyweb.com/]]

@@ -1,0 +1,16 @@
+created: 20141026185929001
+modified: 20141026190423115
+title: Device Hub
+type: text/vnd.tiddlywiki
+
+Device hub or sensor hub are defined as any processor that takes in and compute sensor
+data to avoid using a device’s application processor
+or microcontroller if it’s a smaller device. 
+This technology can help off-load these jobs from a product's main application processor,
+thus saving battery consumption and providing a performance improvement.
+
+* [[Bitwise Controls|http://bitwisecontrols.com/]]
+* [[Staples Connect Hub|http://www.cepro.com/article/staples_connect_hub_slashed_to_49_newer_model_adds_bluetooth_zigbee/]]
+* [[Iris|http://www.cepro.com/article/lowes_iris_to_launch_first_ever_ul_compliant_zwave_garage_door_controller/]]
+* [[Revolv|http://revolv.com/]]
+* [[SmartThings|http://www.smartthings.com/]]

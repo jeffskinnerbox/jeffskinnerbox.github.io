@@ -1,0 +1,96 @@
+created: 20140926024831092
+modified: 20150208022618585
+tags: Pontifications
+title: IoT vs. IIoT Redux
+type: text/vnd.tiddlywiki
+
+The term "Industrial Internet" is generally agreed to have been [[coined by GE|http://www.ge.com/docs/chapters/Industrial_Internet.pdf]]
+in late 2012.
+It refers to the integration of complex physical machinery with networked sensors,
+and using the fields of machine learning, big data,
+and machine-to-machine communication to harvest data from machines,
+analyze it, and use it to adjust operations.
+
+The term [[Internet of Things (IoT)|http://www.rfidjournal.com/articles/view?4986]] has its origins prior to the Industrial Internet and was proposed
+by the Auto-ID Center at the Massachusetts Institute of Technology (MIT) in 1999.
+But IoT entered public awareness the UN's International Telecommunications Union (ITU)
+published its first [[report|http://www.itu.int/osg/spu/publications/internetofthings/InternetofThings_summary.pdf]] on the topic.
+The IoT vision was a world equipping with objects with minuscule identifying devices
+or machine-readable identifiers that would transform daily life.
+Today however, IoT has come to denote advanced connectivity of devices,
+systems and services that goes beyond machine-to-machine communications (M2M)
+and covers a variety of protocols, domains and applications.
+
+!So is IoT all inclusive of or apart from or part of or within the Industrial Internet?
+I suspect I could formulate a somewhat convincing argument for any of these categories,
+but I choose an easy path by taking their titles at face value.
+After all, these titles where chosen by smart people who thought
+they knew exactly what they were talking about at the time.
+Using their titles, I choose to divide them into the cold/hard world of
+industry and the more personal world of other things.
+The Industrial Internet is a world of large, complex infrastructure of machines and computers that contribute to our society and economy.
+The Internet of Things is composed of all those things, typically minor machines and computers, that have an important relationship with individual people.
+
+My exhibit A to justify this dichotomy is a simple Google search
+on the terms "Internet of Things" and "Industrial Internet". 
+Look at the images posted by the people of the world for each of these terms.
+To me it is evident that my allocation of applicability, while not perfect, rings largely true.
+
+OK, now I should feel justified in dividing the Industrial Internet and IoT along these separate worlds;
+which could imply separable markets, technology platform, etc. independently buzzing along.
+But can I do this?
+I think we all intuitively know we cannot.
+Technology, design patterns, and data will be shared between the Industrial Internet and IoT.
+But keep in mind that sharing of technology and design patterns is just smart engineering,
+but sharing of data is different.
+If these worlds share data, that can be a true enabler for both worlds.
+Data from IoT will create new business opportunities in the Industrial Internet
+or within the domain of traditional business.
+Data from the Industrial Internet can create value for the IoT,
+sometimes justifying in part or in whole its existence.
+So data is the important thing that can bind the worlds of the Industrial Internet and IoT.
+That bind will not always be present, but when it is, its likely to be a symbiotic relationship.
+
+And what is my evidence for the binding of the Industrial Internet and IoT via data?
+I think we all anticipate that our local electrical power utility's smart grid will reach out
+and touch our smart home.
+Some of hope that our good driving habits, sensed by our car,
+will be communicate to our insurance company to justify a lower rate.
+
+We typically thing of IoT as things with an IP address or smart things.
+But not all of those things need an internet connection nor are they very smart.
+All they need is the ability to pass on the information they gather to
+something that can process the information, often via a connection to the internet.
+“Smart” objects only need to be smart enough to do that job.
+That insight is informing a new approach to electronic design.
+Think of it as disposable electronics at the edges of web.
+Barcodes, RFID tags, printable electronics are all examples.
+
+In the old model, a sale in a given category such as watches, lighting,
+TVs or sprinklers was an isolated event, unrelated to the other.
+In an Internet of Things world, this changes.
+Someday your watch will talk to your TV,
+which may talk to your lights and even possibly control the watering of your lawn.
+As a consumer, this means that one purchase decision has implications for another purchase decision,
+and at some point you find yourself not simply buying a random hodge podge of stuff
+but instead investing in a system of interconnected products that work in concert to organize,
+simplify and better your life.
+
+Like what it has done for mobile apps,
+Application programming interfaces (APIs) are the glue which makes the Internet of things (IoT) possible.
+APIs and cloud computing dramatically lowering the entry barrier 
+and enable new business models
+In the old model, a sale in a given category such as watches, lighting,
+TVs or sprinklers was an isolated event, unrelated to the other.
+In an Internet of Things world, this changes.
+Someday your watch will talk to your TV,
+which may talk to your lights and even possibly control the watering of your lawn.
+As a consumer, this means that one purchase decision has implications for another purchase decision,
+and at some point you find yourself not simply buying a random hodge podge of stuff
+but instead investing in a system of interconnected products that work in concert to organize,
+simplify and better your life.
+
+Like what it has done for mobile apps,
+Application programming interfaces (APIs) are the glue which makes the Internet of things (IoT) possible.
+APIs and cloud computing dramatically lowering the entry barrier and enable new business models
+for mobile apps.

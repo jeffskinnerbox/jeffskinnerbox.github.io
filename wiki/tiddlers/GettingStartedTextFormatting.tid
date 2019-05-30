@@ -1,0 +1,18 @@
+created: 20150620175627601
+modified: 20150620175836822
+tags: 
+title: GettingStartedTextFormatting
+type: text/vnd.tiddlywiki
+
+Available character formatting includes:
+
+* <code>&#96;backticks&#96;</code> for `code`
+** Alternatively, <code>&#96;&#96;double backticks allows &#96;embedded&#96; backticks&#96;&#96;</code>
+* `''bold''` for ''bold text''
+* `//italic//` for //italic text//
+* `__underscore__` for __underscored text__
+* `^^superscript^^` for ^^superscript^^ text
+* `,,subscript,,` for ,,subscripted,, text
+* `~~strikethrough~~` for ~~strikethrough~~ text
+
+See also: [[GettingStartedCodeBlocks]]

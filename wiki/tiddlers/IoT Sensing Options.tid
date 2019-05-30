@@ -1,0 +1,25 @@
+created: 20140927200307351
+modified: 20161030214455895
+title: IoT Sensing Options
+type: text/vnd.tiddlywiki
+
+* ''Capactive'' - Capacitive sensing with grounded capacitors is a high-resolution, low-cost, contactless sensing technique that can be applied to a variety of applications. The sensor in a capacitive sensing system is any conductor, allowing for a low-cost and highly-flexible system design. 
+* ''Inductive'' - [[Inductive sensing|Inductive Sensing Technology]] is a contactless sensing technology that can be used to measure the position, motion, or composition of a metal or conductive target as well as detect the compression, extension, or twist of a spring. Immunity to environmental interferers such as oil, water or dirt allows for sensing even in very harsh environments.
+* ''Hall Effect'' - The Hall effect is a sensing technology that detects the presence and strength of a magnetic field. Hall effect sensors can measure the strength of the magnetic field as an indicator of distance or position without physical contact.
+* ''Ultrasonic'' - Ultrasonic sensing is the measurement of the time between an ultrasonic signal being sent and received. The interval between the two signals is typically referred to as time of flight. The speed of an ultrasonic wave is sensitive to the transmission medium (flow speed, temperature & concentration / purity).
+* ''Biosensing'' - Biosensing is sensing and transmitting information about a biological process of an individual under observation.
+* ''Chemical'' - pH sensing is used to monitor water quality by measuring the concentration of hydrogen ions in a solution. Specialized spectral filtering can be combined with a light sensor to measure unique transmission/absorption signatures of some chemicals and materials.
+* ''Current / Power'' - Current measurement is aimed at understanding the consumption by a load, whether the entire system or individual voltage rails. In addition to measuring the current, many systems want to understand the supply voltage rails along with the current to calculate the overall system power consumption.
+* ''Gas'' - Gas-sensing applications detect the quantity and level of gas in the environment, including toxic gases, oxygen, carbon dioxide, methane, and carbon monoxide. Air quality in health and safety applications are becoming an important factor especially in the building automation and automotive markets.
+* ''Humidty'' - Humidity sensors determine the amount of water vapor / moisture in the air. Because relative humidity is a function of temperature, humidity sensors also usually include integrated temperature sensors.
+* ''Light'' - Light sensing is the measurement of the properties of light such as intensity and spectrum.
+* ''Material Composition'' - Composition sensing/detection is used to uniquely determine the type, amount, or size of conductors, non-conductors, liquids, and other materials.
+* ''Occupancy'' - Occupancy detection is the ability to determine the presence of an object or person. Sensing the physical presence allows for decisions and actions to be made including conserving power through automatically controlling lights, increasing safety by enabling passenger airbags, or increasing responsiveness during an emergency by knowing building occupancy.
+* ''Position / Motion'' - Position/motion sensing is used to determine the location and lateral/linear, rotational, or axial motion of any moving object or component in a system.
+* ''Pressure'' - [[Pressure sensors|Pressure Sensing Technology]] are used to measure the pressure of gases and liquids. Pressure measurements typically are made as: pressure relative to a vacuum (Absolute), pressure relative to atmospheric pressure (Gauge), and pressure difference between two inputs (Differential).
+* ''Proximity'' - Proximity sensing is used in applications that either measure the distance of a target object or simply detect its presence.
+* ''Temperature'' - Temperature sensing is the measure of thermal energy as calibrated to a variety of scales, such as Kelvin, Celsius, and Fahrenheit. Temperature sensing is crucial for system protection, calibration, and process controls in an endless list of applications.
+
+* [[TI Sensing Products|http://www.ti.com/lsds/ti/analog/sensors/overview.page]]
+* [[Digi-Key Sensors, Transducers Products|http://www.digikey.com/en/resources/sensors/index?WT.v_sub=6678193&WT.mc_id=em_NPA1606B.US.Send&WT.z_email=7360_NPA1606BI0US_adlearnmore&mkt_tok=eyJpIjoiTnprMk9EVXpZVGhpTXprNCIsInQiOiJhUkFLUHN4QzJoTFZLNFduc0NTVVZtOUVITEVxd2dkbTlSekN1QkdPZjZwTkNpamg3dGhtSERzRW5sbHE5WnRRd0JpbHpQNUNQV3N2VFczbzdpRFdTTlBBdkJaVmI2NzJHN0g2UmV6U3h6WT0ifQ==]]
+* [[10 Sensors of Galaxy S5: Heart Rate, Finger Scanner and morer|http://global.samsungtomorrow.com/?p=36031#sthash.p0z3zpKB.dpuf]]

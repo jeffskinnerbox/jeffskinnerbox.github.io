@@ -1,0 +1,36 @@
+created: 20150110190138590
+modified: 20160910020446611
+tags: 
+title: Quantum Computer
+type: text/vnd.tiddlywiki
+
+* [[The WIRED Guide to Quantum Computing|https://www.wired.com/story/wired-guide-to-quantum-computing/]]
+* [[The 3 Types Of Quantum Computers And Their Applications|http://www.valuewalk.com/2016/03/quantum-computers-applications-graphic/]]
+* [[Introduction to Quantum Computing|http://www.ibm.com/developerworks/library/l-quant/index.html]]
+* [[How Quantum Computing Works|http://www.techrepublic.com/article/microsofts-quantum-computer-simulator-a-glimpse-into-the-future-of-computers/]]
+* [[Quantum Computing for Computer Scientists|https://www.youtube.com/watch?v=F_Riqjdh2oM]]
+* [[Quantum computing: The smart person's guide|http://www.techrepublic.com/article/quantum-computing-the-smart-persons-guide/]]
+* [[A Review of Freely Available Quantum Computer Simulation Software|http://www.diva-portal.org/smash/get/diva2:534374/FULLTEXT01.pdf]]
+* [[Programming a Quantum Computer|http://m.machinedesign.com/technologies/programming-quantum-computer]]
+* [[Quantum Computing Playground|http://www.quantumplayground.net/#/home]]
+* [[QCL - A Programming Language for Quantum Computers|http://tph.tuwien.ac.at/~oemer/qcl.html]]
+* [[Language-Integrated Quantum Operations: LIQUi|>|http://research.microsoft.com/en-us/projects/liquid/]]
+* [[Quantum Gate And Measurement Emulator|http://faculty.hampshire.edu/lspector/qgame.html]]
+* [[The race for the unbreakable password is almost over|http://www.pbs.org/newshour/updates/unbreakable-quantum-password/]]
+* [[Microsoft’s Quantum Mechanics|http://www.technologyreview.com/featuredstory/531606/microsofts-quantum-mechanics/]]
+* [[Quantum Computing Kills Encryption|http://hackaday.com/2015/09/29/quantum-computing-kills-encryption/#more-171241]]
+* [[The IBM Quantum Experience|http://www.research.ibm.com/quantum/]]
+** [[User Guide|https://quantumexperience.ng.bluemix.net/qstage/#/tutorial?sectionId=c59b3710b928891a1420190148a72cce&pageIndex=0]]
+
+!!Quamtum Computer Simulator
+* [[Quantum Computer Simulator|http://www.ict.griffith.edu.au/joan/qucomp/index.php]]
+* [[Quantum Simulator|http://www.bristol.ac.uk/physics/research/quantum/qcloud/simulator/]]
+* [[Microsoft Simulator Brings Quantum Computing One Step Closer to the Masses|http://fortune.com/2015/11/13/microsoft-quantum-computing-simulator/]]
+* [[jQuantum - Quantum Computer Simulator|http://jquantum.sourceforge.net/]]
+* [[Microsoft's quantum computer simulator: A glimpse into the future of computers|http://www.techrepublic.com/article/microsofts-quantum-computer-simulator-a-glimpse-into-the-future-of-computers/]]
+* [[Quantum Computing Playground|http://www.quantumplayground.net/#/home]]
+* [[Quantum Development Kit updates: support for macOS, Linux, plus Python and Q# interoperability|https://www.youtube.com/watch?time_continue=13&v=Gp_VhUF4wBM]]
+
+!!Quantum Cryptography
+* [[Quantum Computation: A cryptography armageddon?|http://www.welivesecurity.com/2016/06/14/quantum-computation-cryptography-armageddon/]]
+* [[Post-quantum cryptography|http://pqcrypto.org/]]

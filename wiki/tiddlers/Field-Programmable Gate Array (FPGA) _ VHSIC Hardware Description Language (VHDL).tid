@@ -1,0 +1,24 @@
+created: 20140916013707935
+modified: 20150208022957928
+tags: Projects
+title: Field-Programmable Gate Array (FPGA) / VHSIC Hardware Description Language (VHDL)
+type: text/vnd.tiddlywiki
+
+A field-programmable gate array (FPGA) is an integrated circuit designed
+to be configured by a customer or a designer after manufacturing – hence "field-programmable".
+The FPGA configuration is generally specified using a hardware description language (HDL),
+similar to that used for an application-specific integrated circuit (ASIC).
+
+* [[FPGA projects and tutorials|http://www.fpga4fun.com/index.html]]
+* [[Cheap FPGA Development Boards: What to look for|http://www.joelw.id.au/FPGA/CheapFPGADevelopmentBoards]]
+* [[FleaFPGA Experimenters Board|http://www.fleasystems.com/fleaFPGA.html]]
+* [[ISE WebPACK Design Software|http://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.htm]]
+* [[Mojo|http://embeddedmicro.com/products/mojo-v3.html]]
+* [[Mojo - FPGA Tutorials|http://embeddedmicro.com/tutorials/mojo/]]
+* [[XESS|http://www.xess.com/]]
+
+PSoC (Programmable System-on-Chip) is a family of microcontroller integrated circuits by Cypress Semiconductor.
+These chips include a CPU core and mixed-signal arrays of configurable integrated analog and digital peripherals.
+
+* [[Programmable System - on - Chip|http://www.cypress.com/?rID=92146]]
+* [[PSoC 4 CY8CKIT-049 4xxx Prototyping Kits|http://www.cypress.com/?rID=92146]]
