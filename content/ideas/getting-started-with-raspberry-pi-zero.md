@@ -881,6 +881,7 @@ you can turn it back on with just a press of the button.
 You can find documentation on the reset switch for the [RPi Zero][120] or
 any of the [Rev 2 RPis][121].
 
+* [How to Add a Power Button to Your Raspberry Pi](https://www.makeuseof.com/tag/add-power-button-raspberry-pi/)
 * [Making Your Own RPi Power Button](https://dzone.com/articles/making-your-own-rpi-power-button?edition=306281&utm_source=Zone%20Newsletter&utm_medium=email&utm_campaign=iot%202017-07-18)
 * [ADD A SAFE OFF-SWITCH TO POWER DOWN YOUR RASPBERRY PI](https://www.raspberrypi.org/magpi-issues/MagPi57.pdf)
 * [Reboot or shut down your Raspberry Pi using an Amazon Dash Button](https://howchoo.com/g/ymy4nza0nzb/reboot-your-raspberry-pi-using-an-amazon-dash-button)

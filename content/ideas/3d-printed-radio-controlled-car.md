@@ -33,6 +33,7 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 * [WiFi Controlled Plane Is Cheap Flying Fun](https://hackaday.com/2019/04/12/wifi-controlled-plane-is-cheap-flying-fun/)
 * [8 open source drone projects](https://opensource.com/article/18/2/drone-projects)
 * [Build a PRO FPV Racing Drone for ONLY $99 Full guide - 2018 UAVFUTURES $99 Build](https://www.youtube.com/watch?v=GFNGUDT_9_c)
+* [Making Autonomous Racing Drones Lean And Mean](https://hackaday.com/2019/05/31/making-autonomous-racing-drones-lean-and-mean/)
 * [Drone Theory 101: Part 1. The basics, and how an fpv quadcopter functions!](https://www.youtube.com/watch?v=K05UwsiqZ_E)
 
 # Radio Controller

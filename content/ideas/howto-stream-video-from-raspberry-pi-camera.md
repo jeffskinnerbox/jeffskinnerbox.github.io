@@ -1,5 +1,8 @@
 * Consider using [OpenFaaS](https://www.openfaas.com/)
 
+* [HKCam: A Raspberry Pi-powered and open-source HomeKit security camera that costs under US$20](https://www.notebookcheck.net/HKCam-A-Raspberry-Pi-powered-and-open-source-HomeKit-security-camera-that-costs-under-US-20.422731.0.html)
+* [Wyze Cam Pan 1080p Pan/Tilt/Zoom Wi-Fi Indoor Smart Home Camera with Night Vision and 2-Way Audio, Works with Alexa]()
+
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Open Data Cam Combines Camera, GPU, and Neural Network in an Artisanal DIY Cereal Box](https://hackaday.com/2018/10/29/open-data-cam-combines-camera-gpu-and-neural-network-in-an-artisanal-diy-cereal-box/)
 
@@ -2189,7 +2192,7 @@ Got this idea from
 [118]:https://www.linux.com/learn/how-operate-linux-spycams-motion
 [119]:https://www.maketecheasier.com/setup-motion-detection-webcam-ubuntu/
 [120]:http://www.mrhobbytronics.com/raspberry-pi-zero-reset-switch/
-[121]:http://iot-projects.com/index.php?id=raspberry-pi-shutdown-button
+[121]:
 [122]:http://www.pcmag.com/encyclopedia/term/65186/fragmented-mp4
 [123]:https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP
 [124]:https://en.wikipedia.org/wiki/HTTP_Live_Streaming

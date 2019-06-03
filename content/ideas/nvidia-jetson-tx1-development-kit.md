@@ -19,6 +19,7 @@
 * [Real Life CUDA Programming — part 3 — Unified Memory](https://medium.com/@ori_cohen/real-life-cuda-programming-part-3-unified-memory-2d9c7c4cd485)
 
 * [Videos: NVIDIADeveloper](https://www.youtube.com/channel/UCBHcMCGaiJhv-ESTcWGJPcw)
+* [Benchmarking the Xnor AI2GO Platform on the Raspberry Pi](https://blog.hackster.io/benchmarking-the-xnor-ai2go-platform-on-the-raspberry-pi-628a82af8aea)
 
 * [Building a 270* Teraflops Deep Learning Box for Under $10,000](https://medium.com/intuitionmachine/building-a-270-teraflops-deep-learning-box-of-under-10-000-2d790b0ae2ec)
 * https://albanianblogger.com/2012/05/10/computer-technology-i-hope-to-be-around-by-then/
@@ -114,6 +115,7 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 
 * [Self Driving RC Car using Tensorflow and OpenCV/](http://ahmedmadbouly.me/Self-driving-RC-Car-using-Tensorflow-and-OpenCV/)
 * [Jetson RACECAR](http://www.jetsonhacks.com/category/robotics/jetson-racecar/)
+* [Nvidia Jetson Robots Get A Head Start With Isaac Software Tools](https://hackaday.com/2019/06/01/nvidia-jetson-robots-get-a-head-start-with-isaac-software-tools/)
 
 # Software
 [JetPack 3.2 SDK for NVIDIA Jetson](https://developer.nvidia.com/embedded/jetpack?ncid=em-ded-jk32-33601)

@@ -31,6 +31,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Raspberry Pi Powered Quadruped](https://www.hackster.io/yasaspeiris/raspberry-pi-powered-quadruped-bbb68b)
 * [A Pet Robot, Just Like Boston Dynamics Makes](https://hackaday.com/2019/03/30/a-pet-robot-just-like-boston-dynamics-makes/)
 * [One-Legged Robot Does the Hop](https://hackaday.com/2019/05/25/one-legged-robot-does-the-hop/)
+* [Robotic Cheetah Teaches a Motors Class](https://hackaday.com/2019/05/29/robotic-cheetah-teaches-a-motors-class/)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)

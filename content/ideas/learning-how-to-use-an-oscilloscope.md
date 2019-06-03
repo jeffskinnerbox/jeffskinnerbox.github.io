@@ -22,9 +22,11 @@
 # History of the Oscilloscope
 * [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
 * [History of the Oscilloscope: Oersted’s Laws and Hand Drawn Waveforms](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-oersteds-laws-and-hand-drawn-waveforms/)
+* [History of the Oscilloscope: Visualizing with Light, the CRT, to the Modern Oscilloscope](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-visualizing-with-light-crt-modern-oscilloscope/)
 
 # Computer Control of the Oscillioscope
 * [Controlling a Rigol oscilloscope using Linux and Python](http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/)
+* [glScopeClient: A Permissively-Licensed Remote Oscilloscope Utility](https://hackaday.com/2019/05/30/glscopeclient-a-permissively-licensed-remote-oscilloscope-utility/)
 
 # Capture Oscillioscope Image
 * [Grab an Image From Your O-scope The Easy Way](https://hackaday.com/2019/03/30/grab-an-image-from-your-o-scope-the-easy-way/)
@@ -37,6 +39,7 @@
 
 # Fun With Negative Resistance
 * [Fun With Negative Resistance: Jellybean Transistors](https://hackaday.com/2019/05/08/fun-with-negative-resistance-jellybean-transistors/)
+
 
 
 [01]:https://hackaday.com/2018/09/11/the-pre-crt-oscilloscope/

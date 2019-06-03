@@ -123,6 +123,7 @@ as long as a containerization system exists.
 * [Docker – the Best Containerization Platform for an Efficient Software Development](https://www.cabotsolutions.com/2016/12/docker-best-containerization-platform-efficient-software-development/)
 * [Docker vs Vagrant: Which is Better for Development?](https://www.devteam.space/blog/docker-vs-vagrant-which-is-better-for-development/)
 * [Ansible and Docker: the Best Combination for an Efficient Software Product Management](https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90)
+* [Docker’s detached mode for beginners](https://www.freecodecamp.org/news/dockers-detached-mode-for-beginners-c53095193ee9/)
 
 ## Learning Vagrant
 So Vagrant allows you to create portable work environments

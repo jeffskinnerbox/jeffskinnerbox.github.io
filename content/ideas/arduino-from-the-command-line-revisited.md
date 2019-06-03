@@ -329,8 +329,13 @@ ln -s $GOPATH/bin/arduino-cli ~/bin/arduino-cli
 `go get` will install the package in the first directory listed at `$GOPATH`
 (an environment variable which might contain a colon separated list of directories).
 
-You can use `go get -ua <package>` to update existing packages.
+You can use `go get -u <package>` to update existing packages.
 You can also use `go get -u all` to update all packages in your `$GOPATH`.
+
+```bash
+# update the arduino-cli tool
+go get -u github.com/arduino/arduino-cli
+```
 
 ### Step 2: Create the .cli-config.yml File - DONE
 I found out the hard way about the **non-existance** of the `.cli-config.yml` file.
@@ -749,8 +754,17 @@ You'll find that the simple Makefile below
 will support our example sketch [ntp-clock.ino][20] when using `arduino-cli`:
 
 ```bash
-FQBN = esp8266:esp8266:nodemcuv2       # fully qualified board name (FQBN)
-PORT = /dev/ttyUSB0                    # serial port used by the board
+# programs name
+PROG = ntp-clock
+
+# fully qualified board name (FQBN)
+FQBN = esp8266:esp8266:nodemcuv2
+
+# serial port used by the board
+PORT = /dev/ttyUSB0
+
+#ESPTOOL = /home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py
+ESPTOOL = /home/jeff/.arduino15/packages/esp8266/hardware/esp8266/2.5.2/tools/esptool/esptool
 
 
 # string within names give to .bin and .elf files
@@ -761,16 +775,22 @@ CC = arduino-cli compile --fqbn $(FQBN)
 UPLOAD = arduino-cli upload --fqbn $(FQBN) --port $(PORT)
 
 
-.PHONY: build upload clean
+.PHONY: build upload clean erase
 
-build:
+build:                                          # build the binary executable
 	$(CC) $(CURDIR)
 
-upload:
+upload:                                         # up load the binary executable
 	$(UPLOAD) $(CURDIR)
 
-clean:
-	rm --force ntp-clock.$(VAR).bin ntp-clock.$(VAR).elf
+erase:                                          # erase the entire flash
+	$(ESPTOOL) --port $(PORT) erase_flash
+
+size:                                           # determine the flash size
+	$(ESPTOOL) --port $(PORT) flash_id
+
+clean:                                          # delete all binaries and object viles
+	rm --force $(PROG).$(VAR).bin $(PROG).$(VAR).elf
 ```
 
 But there is a problem with focusing my Makefile efforts on the `arduino-cli`.

@@ -2,7 +2,7 @@
 * [TensorFlow for Poets](https://petewarden.com/2016/02/28/tensorflow-for-poets/)
     * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 * [Train your own image classifier with Inception in TensorFlow](https://research.googleblog.com/2016/03/train-your-own-image-classifier-with.html)
-* []()
+* [How to Add a Power Button to Your Raspberry Pi](https://www.makeuseof.com/tag/add-power-button-raspberry-pi/)
 
 
 

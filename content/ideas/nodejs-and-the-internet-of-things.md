@@ -749,13 +749,14 @@ From there, you can do copy the flow to your clipboard.
 * [Node-RED on WRTnode](http://blog.thestateofme.com/2014/12/03/node-red-on-wrtnode/)
 * [node-red-contrib-freeboard](https://www.npmjs.com/package/node-red-contrib-freeboard)
 
-# Forever, PM2, Monit, Prometheus
+# Forever, PM2, Monit, Prometheus, Supervisor
 * [forever - Node.js app with forever running as a service daemon](http://www.slidequest.com/q/70ang)
 * [pm2 - Advanced, production process manager for Node.js](http://pm2.keymetrics.io/)
 * [Monit](https://mmonit.com/monit/) is a free, open source process supervision tool for Unix and Linux. With Monit, system status can be viewed directly from the command line, or via the native HTTP web server.
 * [Deploying Node.js With Upstart and Monit](https://howtonode.org/deploying-node-upstart-monit)
 * [Prometheus](https://prometheus.io/)
 * [Getting started with Prometheus](https://opensource.com/article/18/12/introduction-prometheus)
+* [Supervisor: A Process Control System for UNIX-like operating systems](http://supervisord.org/)
 
 # Sources
 * [Hypermedia APIs: The Benefits of HATEOAS](https://www.programmableweb.com/news/hypermedia-apis-benefits-hateoas/how-to/2014/02/27)

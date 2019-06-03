@@ -1,16 +1,24 @@
 
+* [Introduction to AC Motors](http://www.allaboutcircuits.com/textbook/alternating-current/chpt-13/introduction-ac-motors/)
+* [Balancing Robot Needs Innovative Controller and Motor](http://hackaday.com/2017/05/18/balancing-robot-needs-innovative-controller-and-motor/)
+* [Smooth Moves from Cheap Motors](https://hackaday.com/2018/11/16/smooth-moves-from-cheap-motors/)
+
 * [Hackaday Dictionary: Servo Motors](https://hackaday.com/2016/03/24/hackaday-dictionary-servo-motors/)
 * [Wrangling RC Servos Becoming a Hassle? Try Serial Bus Servos!](https://hackaday.com/2018/07/05/wrangling-rc-servos-becoming-a-hassle-try-serial-bus-servos/)
-* [The Little Things I Didn’t Know About Small DC Motors](http://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/)
-* [Giant Stepper Motor Gets You Up to Speed on Theory](http://hackaday.com/2015/08/20/giant-stepper-motor-gets-you-up-to-speed-on-theory/)
-* [Control a DC Motor with an Arduino](http://www.allaboutcircuits.com/projects/control-a-motor-with-an-arduino/)
-* [Introduction to AC Motors](http://www.allaboutcircuits.com/textbook/alternating-current/chpt-13/introduction-ac-motors/)
-* [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
-* [Balancing Robot Needs Innovative Controller and Motor](http://hackaday.com/2017/05/18/balancing-robot-needs-innovative-controller-and-motor/)
+
 * [Driving a brushless DC motors slooooooowly](http://hackaday.com/2015/04/20/driving-a-brushless-dc-motor-sloooooooowly/)
+* [Control a DC Motor with an Arduino](http://www.allaboutcircuits.com/projects/control-a-motor-with-an-arduino/)
+* [The Little Things I Didn’t Know About Small DC Motors](http://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/)
+
+* [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
+* [Best Arduino Stepper Motors in 2019 ](https://all3dp.com/1/best-arduino-stepper-motors/)
 * [How Accurate Is Microstepping Really?](http://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/)
 * [A Command-Line Stepper Library with All the Frills](http://hackaday.com/2017/03/05/a-command-line-stepper-library-with-all-the-frills/)
-* [Smooth Moves from Cheap Motors](https://hackaday.com/2018/11/16/smooth-moves-from-cheap-motors/)
+* [Giant Stepper Motor Gets You Up to Speed on Theory](http://hackaday.com/2015/08/20/giant-stepper-motor-gets-you-up-to-speed-on-theory/)
+
+
+
+
 
 
 # DC Brushed Motor

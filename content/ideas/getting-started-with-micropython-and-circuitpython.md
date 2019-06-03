@@ -65,6 +65,7 @@ With MicroPython, the expectation is to strike out 2.5 of the 5.
 The extra 0.5 from taking advantage of the large set of library.
 
 # SAMD Chip
+* [Drag And Drop Files On Select Arduino Boards ](https://hackaday.com/2019/05/29/drag-and-drop-files-on-select-arduino-boards/)
 
 # Read-Eval-Print-Loop (REPL)
 A [read–eval–print loop (REPL)][09],
