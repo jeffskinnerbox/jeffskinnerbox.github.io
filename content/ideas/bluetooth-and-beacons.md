@@ -1933,6 +1933,7 @@ EOF
 * [nRF52 Software Development Kit (SDK)](https://developer.nordicsemi.com/)
 provides source code of examples and libraries forming the base of your application development
 * [Control a Bluetooth LE Light Bulb With Raspberry Pi](https://www.hackster.io/idreams/control-a-bluetooth-le-light-bulb-with-raspberry-pi-6d04cc)
+* [Adafruit’s Feather nRF52840 Express Board and Developing with CircuitPython](https://blog.nordicsemi.com/getconnected/adafruits-feather-nrf52840-express-board-and-developing-with-circuitpython)
 
 ## Bluetooth LE with Python (bluepy)
 Using `gatttool` is very laborious for doing any useful work,

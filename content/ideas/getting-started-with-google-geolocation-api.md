@@ -20,6 +20,9 @@
 * [MapQuest Developer Portal](https://developer.mapquest.com/)
 * [MapQuest Products](https://business.mapquest.com/products/)
 
+# Other APIs
+* [IP Geolocation API](https://ipgeolocationapi.com/)
+
 # Google Indoor Maps
 With indoor Google Maps, visitors can spend less time searching for building directories and more time discovering new points of interest. Simply zoom in and out of a building and go floor to floor with indoor maps.
 
