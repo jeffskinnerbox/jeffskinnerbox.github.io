@@ -242,6 +242,45 @@ editor.window.width.min=1000
 ```
 
 ### Step X: Install SPIFFS Tools
+There are two ways to store data on ESP8266:
+
+* The first is using internal EEPROM which is of 512 Bytes
+but you can write data 1 millions of times (no file system).
+* The second is use of SPI Flash (64kBytes to 3Mbyte).
+In this flash memory ESP stores the program.
+Along with program you can store your files on it.
+Limitation of this memory is it has only 10000 (ten thousand) write cycles.
+
+Even though file system is stored on the same flash chip as the program,
+programming new sketch will not modify file system contents.
+This allows to use file system to store sketch data, configuration files,
+or content for things like Web server.
+File system size depends on the flash chip size.
+Depending on the board, you have the following [options for flash size][33]:
+
+|      BOARD      | FLASH CHIP SIZE, BYTES | FILE SYSTEM SIZE, BYTES |
+|:---------------:|:----------------------:|:-----------------------:|
+| Generic module  |          512k          |          64k            |
+| Generic module  |          1M            |  64k, 128k, 256k, 512k  |
+| Generic module  |          2M            |           1M            |
+| Generic module  |          4M            |           3M            |
+| Adafruit HUZZAH |          4M            |         1M, 3M          |
+| NodeMCU 0.9     |          4M            |         1M, 3M          |
+| NodeMCU 1.0     |          4M            |         1M, 3M          |
+
+So the first thing you need to know the size of the flash memory
+attached to esp8266 on your module.
+Common sizes are 512 kB (4Mbit), 1 MB (8Mbit) and 4 MB.
+You can use the [esptool][32] can determine it.
+
+You can choose the size of the SPIFFS in your [flash 'layout'][33]
+by selecting the option in the Arduino's IDE Tools menu
+or via the esptool. Pick one according to for you flash size
+and size of the files you want to put into SPIFFS.
+
+>**NOTE:** If you have 1 MB flash on your module and you want to use OTA upload,
+>set flash space for twice a space taken by the sketch.
+
 * [ESP8266 Web Server Files With SPIFFS Flash Memory Using Arduino IDE](https://www.youtube.com/watch?v=pfJROpQg-Is&feature=youtu.be)
 * [#121 SPIFFS and JSON to save configurations on an ESP8266](https://www.youtube.com/watch?v=jIOTzaeh7fs)
 * [Using ESP8266 SPIFFS](https://www.instructables.com/id/Using-ESP8266-SPIFFS/)
@@ -863,8 +902,8 @@ Only materials I have found are:
 [29]:https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
 [30]:https://medium.com/rungo/working-in-go-workspace-3b0576e0534a
 [31]:https://golang.org/
-[32]:
-[33]:
+[32]:https://github.com/espressif/esptool
+[33]:http://arduino.esp8266.com/Arduino/versions/2.0.0/doc/filesystem.html
 [34]:
 [35]:
 [36]:https://frightanic.com/iot/interview-ivan-grokhotkov-espressif/

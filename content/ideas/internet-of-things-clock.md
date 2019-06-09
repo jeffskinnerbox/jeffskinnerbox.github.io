@@ -1013,6 +1013,239 @@ The operating voltage of the BME280 module is from 3.3V to 5V.
 
 
 
+
+## SPIFFS Filesystem
+There are two ways to store data on ESP8266:
+
+* The first is using internal EEPROM which is of 512 Bytes
+but you can write data 1 millions of times (no file system).
+* The second is use of SPI Flash (64kBytes to 3Mbyte).
+In this flash memory ESP stores the program.
+Along with program you can store your files on it.
+Limitation of this memory is it has only 10000 (ten thousand) write cycles.
+
+The SPI Flash Filing System (SPIFFS)
+is a light-weight file system for microcontrollers with an SPI flash chip.
+It was designed for SPI flash devices on constrained embedded microprocessor systems with little RAM.
+
+>**NOTE:**
+>* Currently, SPIFFS does not support directories.
+>It produces a flat structure.
+>For example, if SPIFFS is mounted under `/spiffs`,
+>then creating a file with path `/spiffs/tmp/myfile.txt`
+>will create a file called `/tmp/myfile.txt` in SPIFFS,
+>instead of `myfile.txt` under directory `/spiffs/tmp`.
+>* It is not a realtime stack.
+>One write operation might last much longer than another.
+>* Currently, it does not detect or handle bad blocks.
+
+This filing system can be used to store infrequently changing data, such as,
+web pages, configurations, sensor calibration data etc.
+Even though file system is stored on the same flash chip as the program,
+programming new sketch will not modify file system contents.
+This allows to use file system to store sketch data, configuration files,
+or content for things like Web server.
+
+File system size depends on the flash chip size.
+Depending on the board, you have the following [options for flash size][33]:
+
+|      BOARD      | FLASH CHIP SIZE, BYTES | FILE SYSTEM SIZE, BYTES |
+|:---------------:|:----------------------:|:-----------------------:|
+| Generic module  |          512k          |          64k            |
+| Generic module  |          1M            |  64k, 128k, 256k, 512k  |
+| Generic module  |          2M            |           1M            |
+| Generic module  |          4M            |           3M            |
+| Adafruit HUZZAH |          4M            |         1M, 3M          |
+| NodeMCU 0.9     |          4M            |         1M, 3M          |
+| NodeMCU 1.0     |          4M            |         1M, 3M          |
+
+So the first thing you need to know the size of the flash memory
+attached to esp8266 on your module.
+Common sizes are 512 kB (4Mbit), 1 MB (8Mbit) and 4 MB.
+You can use the [esptool][32] can determine it.
+
+You can choose the size of the SPIFFS in your [flash 'layout'][33]
+by selecting the option in the Arduino's IDE Tools menu
+or via the esptool. Pick one according to for you flash size
+and size of the files you want to put into SPIFFS.
+
+>**NOTE:** If you have 1 MB flash on your module and you want to use OTA upload,
+>set flash space for twice a space taken by the sketch.
+
+You can use the Arduino IDE to create and load your SPIFFS filesystem
+and you can find instructions here:
+
+* [ESP8266 How to Upload Files to SPIFFS](https://www.youtube.com/watch?v=25eLIdLKgHs)
+* [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin)
+
+I prefer to use the commandline tools [`esptool.py`][32] and [`mkspiffs`][85]
+for my SPIFFS work.
+(**NOTE:** There is an alternative to `mkspiffs` called [`spiffsgen.py`][86].)
+
+
+
+
+* [ESP8266 Web Server Files With SPIFFS Flash Memory Using Arduino IDE](https://www.youtube.com/watch?v=pfJROpQg-Is&feature=youtu.be)
+* [#121 SPIFFS and JSON to save configurations on an ESP8266](https://www.youtube.com/watch?v=jIOTzaeh7fs)
+* [Using ESP8266 SPIFFS](https://www.instructables.com/id/Using-ESP8266-SPIFFS/)
+* [ESP8266 Arduino Core: File System](http://esp8266.github.io/Arduino/versions/2.0.0/doc/filesystem.html#flash-layout)
+* [Example of ESP8266 Flash File System (SPIFFS)](https://circuits4you.com/2018/01/31/example-of-esp8266-flash-file-system-spiffs/)
+
+
+### Step X: Install `mkspiffs` - DONE
+The tool [`esptool.py`][32] should have been already installed in an earlier step
+but we must now install [`mkspiffs`][85].
+
+```bash
+# clone the git repository for mkspiffs
+cd ~/src
+git clone https://github.com/igrr/mkspiffs.git
+
+# update tools used by mkspiffs
+cd ~/src/mkspiffs
+git submodule update --init
+
+# build the mkspiffs tool
+make dist
+
+# put the mkspiffs into your path
+mv mkspiffs ~/bin
+
+# check which options were set when building mkspiffs
+$ mkspiffs --version
+mkspiffs ver. 0.2.3-6-g983970e
+Build configuration name: generic
+SPIFFS ver. 0.3.7-5-gf5e26c4
+Extra build flags: (none)
+SPIFFS configuration:
+  SPIFFS_OBJ_NAME_LEN: 32
+  SPIFFS_OBJ_META_LEN: 0
+  SPIFFS_USE_MAGIC: 1
+  SPIFFS_USE_MAGIC_LENGTH: 1
+  SPIFFS_ALIGNED_OBJECT_INDEX_TABLES: 0
+
+# usage information about mkspiffs
+$ mkspiffs --help
+
+USAGE:
+
+   mkspiffs  {-c <pack_dir>|-u <dest_dir>|-l|-i} [-d <0-5>] [-a] [-b
+             <number>] [-p <number>] [-s <number>] [--] [--version] [-h]
+             <image_file>
+
+Where:
+
+   -c <pack_dir>,  --create <pack_dir>
+     (OR required)  create spiffs image from a directory
+         -- OR --
+   -u <dest_dir>,  --unpack <dest_dir>
+     (OR required)  unpack spiffs image to a directory
+         -- OR --
+   -l,  --list
+     (OR required)  list files in spiffs image
+         -- OR --
+   -i,  --visualize
+     (OR required)  visualize spiffs image
+
+   -d <0-5>,  --debug <0-5>
+     Debug level. 0 means no debug output.
+
+   -a,  --all-files
+     when creating an image, include files which are normally ignored;
+     currently only applies to '.DS_Store' files and '.git' directories
+
+   -b <number>,  --block <number>
+     fs block size, in bytes
+
+   -p <number>,  --page <number>
+     fs page size, in bytes
+
+   -s <number>,  --size <number>
+     fs image size, in bytes
+
+   --,  --ignore_rest
+     Ignores the rest of the labeled arguments following this flag.
+
+   --version
+     Displays version information and exits.
+
+   -h,  --help
+     Displays usage information and exits.
+
+   <image_file>
+     (required)  spiffs image file
+```
+
+### Step X: Preparing Filesystem with `mkspiffs`
+`mkspiffs` is a tool to build and unpack SPIFFS images.
+The images can be built on you development computer and uploaded during flashing.
+`mkspiffs` is used to create image from a given folder.
+To do this you need to obtain some parameters:
+
+* **Block Size:** 4096 (standard for SPI Flash)
+* **Page Size:** 256 (standard for SPI Flash)
+* **Image Size:** Size of the partition in bytes (can be obtained from partition table)
+* **Partition Offset:** Starting address of the partition (can be obtained from partition table)
+
+I make heavy use of NodeMCUs, so in this case, to pack a folder
+into the typical 1 Megabyte image (your other choose is 3 Megabyte):
+`mkspiffs -c [src_folder] -b 4096 -p 256 -s 0x100000 spiffs.bin`.
+
+To flash the image to ESP32 at offset `0x110000`:
+`python esptool.py --chip esp32 --port [port] --baud [baud] write_flash -z 0x110000 spiffs.bin`
+
+For my specific example,
+I want to flash my `ntp-clock` WiFi credentials into a SPIFFS filesystem.
+So I created a directory called `data`,
+and created in that directory a file with the information my project needed.
+The file I used (`info.json`) is:
+
+```
+{
+    "personal": {
+        "first-name": "Jeff",
+        "last-name": "Irland",
+        "blog": "http://jeffskinnerbox.me",
+        "email": "jeffskinnerbox@yahoo.com",
+        "github": "https://github.com/jeffskinnerbox",
+        "gravatar": "http://1.gravatar.com/avatar/d6386d1bc80e871a5a4b6d0e28d5f7da.png"
+    },
+    "device": {
+        "model": "HiLetgo New Version ESP8266 NodeMCU LUA CP2102 ESP-12E",
+        "mac-address": "???"
+    },
+    "home-wifi": {
+        "ssid": "<my-ssid>",
+        "password": "<my-password>"
+    },
+    "jetpack-wifi": {
+        "ssid": "<my-ssid>",
+        "password": "<my-password>"
+    }
+}
+```
+So for `ntp-clock`, I did the following:
+
+```bash
+# create the spiffs filesystem for uploading
+mkspiffs -c data/info.json -b 4096 -p 256 -s 0x100000 spiffs.bin
+
+# upload the spiffs filesystem to esp
+python esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 115200 write_flash -z 0x110000 spiffs.bin
+```
+
+>**NOTE:** If you get an error saying "SPIFFS_write error(-10001): File system is full",
+>this means that your files are too large to fit into the SPIFFS memory.
+
+
+### Step X: Flashing Filesystem with `esptool`
+
+
+
+----
+
+
+
 ## Support Functions
 * [PersWiFiManager](http://ryandowning.net/PersWiFiManager/examples.html)
 * [DoubleResetDetector](https://github.com/datacute/DoubleResetDetector/blob/master/examples/minimal/minimal.ino)
@@ -1042,20 +1275,6 @@ It is also more memory efficient, as it does not have to dynamically build the p
 and can serve it from [SPIFFS][62] (flash file system created independent of compiler)
 rather than [PROGMEM][61] (compile time flash loading).
 
-### Step X: SPIFFS Filesystem
-The SPI Flash Filing System (SPIFFS)
-is a light-weight file system for microcontrollers with an SPI flash chip.
-It was designed for SPI flash devices on constrained embedded microprocessor systems with little RAM.
-
-This filing system can be used to store infrequently changing data, such as,
-web pages, configurations, sensor calibration data etc.
-
-* [ESP8266 Web Server Files With SPIFFS Flash Memory Using Arduino IDE](https://www.youtube.com/watch?v=pfJROpQg-Is&feature=youtu.be)
-* [#121 SPIFFS and JSON to save configurations on an ESP8266](https://www.youtube.com/watch?v=jIOTzaeh7fs)
-* [Using ESP8266 SPIFFS](https://www.instructables.com/id/Using-ESP8266-SPIFFS/)
-* [ESP8266 Arduino Core: File System](http://esp8266.github.io/Arduino/versions/2.0.0/doc/filesystem.html#flash-layout)
-* [Example of ESP8266 Flash File System (SPIFFS)](https://circuits4you.com/2018/01/31/example-of-esp8266-flash-file-system-spiffs/)
-
 ### Step X: SPIFFSReadServer Web Server
 [SPIFFSReadServer](http://ryandowning.net/SPIFFSReadServer/)
 is a SPI Flash File System (SPIFFS) server extension of the
@@ -1064,9 +1283,6 @@ To use it, you put your webpages in SPIFFS file system and
 Instead of the declaration `ESP8266WebServer server(80);`
 you just replace it with `SPIFFSReadServer server(80);`.
 
-#### Upload
-* [ESP8266 How to Upload Files to SPIFFS](https://www.youtube.com/watch?v=25eLIdLKgHs)
-* [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin)
 
 ### Step X: WiFi Manager Library (PersWiFiManager)
 The [Persistent WiFi Manager (PersWiFiManager)][55]
@@ -1140,6 +1356,13 @@ OTA (Over the Air) update is the process of loading the firmware to ESP module u
 
 ### Step X: Cryptography
 * [PRACTICAL IOT CRYPTOGRAPHY ON THE ESPRESSIF ESP8266](https://hackaday.com/2017/06/20/practical-iot-cryptography-on-the-espressif-esp8266/)
+
+
+
+----
+
+
+
 
 # Aggressively Low Power with the ESP8266
 * [MAKING THE ESP8266 LOW-POWERED WITH DEEP SLEEP](https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep)
@@ -1640,8 +1863,8 @@ information about [Daylight Savings Time (DST)][13].
 [82]:https://lastminuteengineers.com/bme280-arduino-tutorial/#procedure-to-change-i2c-address
 [83]:https://en.wikipedia.org/wiki/Rotary_encoder
 [84]:https://blog.squix.org/2016/05/esp8266-peripherals-ky-040-rotary-encoder.html
-[85]:
-[86]:
+[85]:https://github.com/igrr/mkspiffs
+[86]:https://docs.espressif.com/projects/esp-idf/en/latest/api-reference/storage/spiffs.html
 [87]:
 [88]:
 [89]:
