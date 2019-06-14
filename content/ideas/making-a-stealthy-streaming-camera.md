@@ -121,6 +121,7 @@ we will work around these and other limitations.
 * [ESP8266 Wi-Fi Instant Camera is a Simple Shooter](https://hackaday.com/2018/11/13/esp8266-wi-fi-instant-camera-is-a-simple-shooter/)
 * [ESP32 / 8266 WiFi instant Camera](https://hackaday.io/project/162256-esp32-8266-wifi-instant-camera)
 * [ESP8266 / ESP32 WiFi Powered Digital Camera](https://github.com/Heltec-Aaron-Lee/FS2) is a digital "Polaroid" that uploads the photo instantly to the cloud.
+* [Captivating ESP32 Camera Hack](https://hackaday.com/2019/06/10/captivating-esp32-camera-hack/)
 * [Cheap ESP32 Webcam](https://hackaday.com/2019/02/02/cheap-esp32-webcam/)
     * [A $9 Fully Open Source Streaming Webcam with No Soldering!](https://www.hackster.io/punkgeek/a-9-fully-open-source-streaming-webcam-with-no-soldering-c4b7c6)
     * [How can I display an RTSP video stream in a web page](https://stackoverflow.com/questions/2245040/how-can-i-display-an-rtsp-video-stream-in-a-web-page)

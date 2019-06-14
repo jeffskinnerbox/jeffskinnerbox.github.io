@@ -124,6 +124,11 @@ because it is possible to locate features based on the position of other feature
 
 
 
+# FreeCAD Workbenches To Consider
+* [Tools for running Slic3r from FreeCAD](https://github.com/limikael/freecad-slic3r-tools)
+* [Slic3r Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=36342)
+
+
 
 
 ------

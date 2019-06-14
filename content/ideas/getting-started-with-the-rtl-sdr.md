@@ -181,6 +181,42 @@ Improving Your SDR Radio
 * [Improving a software defined radio with a few bits of wire][13]
 * [RTL-SDR Improvement Tips][14]
 
+# SIGINT / Spectrum Monitoring
+* [Mobile SIGINT Hacking on a Civilian’s Budget](https://hackaday.com/2019/06/05/mobile-sigint-hacking-on-a-civilians-budget/)
+* [MONITORING THE SPECTRUM: BUILDING YOUR OWN DISTRIBUTED RF SCANNER ARRAY](http://www.rtl-sdr.com/talk-monitoring-spectrum-building-distributed-rf-scanner-array/)
+* [Embedded rtl-sdr setup: RTL-SDR + OpenWRT = OMG!!](http://rtl-sdr.sceners.org/?p=40)
+* [Building an RF Scanner Array](https://events.ccc.de/congress/2013/Fahrplan/system/attachments/2230/original/30c3-RFArray.pdf)
+* [Running RTL-SDR on OpenWrt](http://www.rtl-sdr.com/running-an-rtl-sdr-on-openwrt/)
+* [Scan your WiFi and get access point information and signal quality](https://github.com/kootenpv/access_points)
+* [Radio Spectrum Recordings: Time Travel with Software Defined Radio](https://hackaday.com/2018/07/23/hope-xiii-time-travel-with-software-defined-radio/)
+
+* [libcsdr](https://github.com/simonyiszk/csdr) is a set of simple DSP routines for Software Defined Radio.  It is mostly useful for AM/FM/SSB demodulation and spectrum display.
+* [qtcsdr]() makes a ham transceiver out of your Raspberry Pi 2 and RTL-SDR with the help of rpitx
+* [rpitx - RF transmitter for Raspberry Pi](https://github.com/F5OEO/rpitx)
+* [OpenWebRX](http://sdr.hu/openwebrx)
+
+Instead of running coax from the USB DVB-T stick to an antenna,
+use a small OpenWRT box with a USB TV stick and plug that in close to our antenna.
+Then control and manage it over WiFi
+Simply install the [rtlsdr package on OpenWRT](http://www.rtl-sdr.com/creating-a-wireless-sdr-receiver-with-a-mini-wifi-router/)
+and you should be good to launch it from the command line.
+This gives you a [remote radio head](https://en.wikipedia.org/wiki/Remote_radio_head).
+A remote radio head is a remote radio transceiver that connects to an operator
+radio control panel via electrical or wireless interface.
+
+If you want to really get the most out of it,
+it’s better to try and do some processing on the router itself.
+A SDR decoding ADS-B signals with [MalcolmRobb‘s modifications dump1090](https://github.com/mutability/dump1090)
+has been shown to work.
+Dump1090 is also in the OpenWRT packages list,
+and now even has a script to allow you to start it automatically.
+
+
+
+
+
+
+
 # RTL-SDR Based Tools
 * [RFTap: A Bridge Between GNURadio and Wireshark](http://www.rtl-sdr.com/rftap-a-bridge-between-gnuradio-and-wireshark/)
 * [SDRDue: New Software for Passive Radar with Two Coherent RTL-SDR Dongles](http://www.rtl-sdr.com/sdrdue-new-software-for-passive-radar-with-two-coherent-rtl-sdr-dongles/)
@@ -203,9 +239,11 @@ Improving Your SDR Radio
 * [Your Table Is Ready, Courtesy Of HackRF](https://hackaday.com/2019/06/04/your-table-is-ready-courtesy-of-hackrf/)
 * [Universal Radio Hacker](https://hackaday.com/2017/02/23/universal-radio-hacker/)
 * [RF reverse engineering has become trivial — thanks to the ‘Opensource SDR’ movement](https://medium.com/@nihal.pasham/rf-reverse-engineering-has-become-trivial-thanks-to-the-opensource-sdr-movement-d1f9216f2f04)
+* [gr-inspector: Signal Analysis Toolbox for GNU Radio](https://github.com/gnuradio/gr-inspector)
 * [inspectrum](https://www.rtl-sdr.com/inspectrum-a-new-tool-for-analyzing-captured-signals/)
 * [waveconverter](https://www.rtl-sdr.com/waveconverter-an-open-source-rf-reverse-engineering-tool/)
 * [DSpectrum](https://www.rtl-sdr.com/youtube-talk-introduction-to-dspectrum-for-reverse-engineering-signals/)
+* [Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR](Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR)
 
 # Projects
 * [Read Home Power Meters With RTL-SDR](https://hackaday.com/2017/12/21/read-home-power-meters-with-rtl-sdr/)
@@ -226,7 +264,9 @@ Improving Your SDR Radio
 
 # SDR Transmitter
 Transmit radio signals using just a serial port
-[Your USB Serial Adapter Just Became a SDR](https://hackaday.com/2018/12/06/your-usb-serial-adapter-just-became-a-sdr/)
+
+* [Your USB Serial Adapter Just Became a SDR](https://hackaday.com/2018/12/06/your-usb-serial-adapter-just-became-a-sdr/)
+* [RF transmitter for Raspberry Pi](https://www.rtl-sdr.com/rpitx-v2-released-easily-record-and-replay-with-rtl-sdr-and-a-raspberry-pi/)
 
 
 

@@ -83,10 +83,6 @@ Wood fills.
 ## Transparent 3D Prints
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
 
-# Slicers
-* [Slic3r](https://slic3r.org/)
-* [3D Printering: The Past and Future of Prusa’s Slicer](https://hackaday.com/2019/05/24/3d-printering-the-past-and-future-of-prusas-slicer/)
-
 # CR-10S Software
 There is a fair deal of versatility in terms of software compatibility as well. Just like its preceding model, the CR-10S too leaves a lot of room to experiment with different 3D printing software. Some of the top choices for this 3D printer can be the:
 
@@ -96,8 +92,71 @@ Simplify3d
 Slic3r and
 Cura Software
 
+# Slicers
+3D printing is comprised of a few essential tools.
+Obviously, you have the 3D model and the 3D printer,
+but there’s an instrumental piece to the puzzle right in between those two points.
+3D printing slicer software essentially acts as the middleman between the 3D model and printer.
+3D printing slicer prepares the selected model for your 3D printer by generating g-code,
+which is a widely used numerical control (NC) programming language.
+There is a [large number of slicing software out there][45], many of which are free.
+
 ## Cura
+The very first slicer I used was Ultimaker's [Cura][47].
+Its a good tool to start with since its free and not overly intimidating for a beginner.
+Installation is very simple, just follow the [online install instructions][47].
+
 * [3 Cura Slicer Setting Tricks For Beginner](https://www.youtube.com/watch?v=su_m5zV9rvA&feature=youtu.be)
+
+## Slic3r
+[Slic3r][46] is one of the most widely used open source slicers.
+It's best suited for the more advanced users with its large number of features and options.
+If you installed Slic3r via the Ubuntu package manager,
+you'll get code that dates back to 2015 but classified as "stable".
+I chose to install the most [recent official release][48] that was available
+(verison 1.3.0, dated November of 2018).
+Detail install instructions can be found [here][49].
+
+```bash
+# download slic3r-1.3.0-linux-x64.tar.bz2 from https://dl.slic3r.org/linux/
+mkdir ~/Downloads/slic3r
+cd ~/Downloads/slic3r
+
+# uncompess the file
+tar -xvjf slic3r-1.3.0-linux-x64.tar.bz2
+
+# run the install schell script
+cd Slic3r
+./Slic3r
+```
+From here you just follow the Slic3r Configuration Assistant
+(If this wizard doesn't popup, select button **Help** > **Configuration Assistant...**).
+Enter the following information:
+
+* **G-code flavor:** RepRap
+* **Size:** 300, 300
+* **Nozzle diameter:** 0.4mm
+* **Filament Diameter:** 1.75mm
+* **Extrusion Temperature:** 200C
+* **Bed Temperature:** 60C
+
+Now move the Slic3r libraries and scripts to a pereminate location:
+
+```bash
+# move the libraries and scripts
+cd ~/src
+mv ~/Downloads/slic3r/Slic3r .
+
+# create symbolic links so its in your PATH
+ln -s ~/src/Slic3r/Slic3r ~/bin/slic3r
+```
+
+* [Slic3r](https://slic3r.org/)
+* [3D Printering: The Past and Future of Prusa’s Slicer](https://hackaday.com/2019/05/24/3d-printering-the-past-and-future-of-prusas-slicer/)
+
+
+## Other
+* [3DSlicer](https://www.slicer.org/)
 
 ## Pathio
 * [PathIO](https://pathio.xyz/)
@@ -448,9 +507,19 @@ built on top of an underlying framework called [AliceVision][40].
 [42]:https://en.wikipedia.org/wiki/G-code
 [43]:https://3dprinterpower.com/best-pla-filament-brands-amazon/
 [44]:https://www.amazon.com/s?k=hatchbox
-[45]:
-[46]:
-[47]:
-[48]:
-[49]:
+[45]:https://all3dp.com/1/best-3d-slicer-software-3d-printer/
+[46]:https://slic3r.org/
+[47]:https://ultimaker.com/en/products/ultimaker-cura-software
+[48]:https://slic3r.org/download/
+[49]:https://manual.slic3r.org/getting-slic3r/getting-slic3r
 [50]:
+[51]:
+[52]:
+[53]:
+[54]:
+[55]:
+[56]:
+[57]:
+[58]:
+[59]:
+[60]:

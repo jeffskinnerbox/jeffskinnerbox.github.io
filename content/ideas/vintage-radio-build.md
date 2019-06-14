@@ -82,6 +82,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [Fun With Tubes](http://www.funwithtubes.net/)
 * [Instruments of Amplification: Fun with Homemade Tubes, Transistors, and More](http://www.amazon.com/Instruments-Amplification-Homemade-Tubes-Transistors/dp/0967190517/ref=pd_sim_14_1?ie=UTF8&dpID=41pjdMXQsFL&dpSrc=sims&preST=_AC_UL160_SR103%2C160_&refRID=09DR6PYCCF9HGTF78H2C)
 * [Do you know Rufus Turner?](http://hackaday.com/2016/02/15/do-you-know-rufus-turner/)
+* [Reflex Radio](https://hackaday.com/2019/06/02/new-circuits-with-old-technology/)
 * [Crystadyne](http://www.a-reny.com/iexplorer/cristadyne.html)
 * [Hacking When it Counts: POW Canteen Radios](http://hackaday.com/2016/04/21/hacking-when-it-counts-pow-canteen-radios/#more-201155)
 * [Home Brew Vacuum Tubes Are Easier Than You Think](http://hackaday.com/2016/05/04/home-brew-vacuum-tubes-are-easier-than-you-think/)

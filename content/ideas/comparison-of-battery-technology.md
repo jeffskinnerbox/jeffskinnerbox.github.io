@@ -9,6 +9,8 @@
 * [Battery management training](http://www.ti.com/power-management/battery-management/support-training.html)
 * [Coin Cells: The Mythical Milliamp-Hour](https://hackaday.com/2017/12/22/coin-cells-the-mythical-milliamp-hour/)
 
+* [n Exhaustive Guide To Building 18650 Packs](https://hackaday.com/2019/06/12/an-exhaustive-guide-to-building-18650-packs/)
+
 * [All About Batteries](https://learn.adafruit.com/all-about-batteries)
 
 * [Battery University](https://batteryuniversity.com/)
