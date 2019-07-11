@@ -1,7 +1,11 @@
 
+* [Jupyter is the new Excel (but not for your boss)](https://towardsdatascience.com/jupyter-is-the-new-excel-but-not-for-your-boss-d24340ebf314)
+
+
 * [IPython and Jupyter in Depth: High productivity, interactive Python - PyCon 2017](https://www.youtube.com/watch?v=VQBZ2MqWBZI&feature=youtu.be)
 * [Jupyter with D3](http://www.bogotobogo.com/python/IPython/iPython_Jupyter_Notebook_with_Embedded_D3.php)
 * [Jupyter Notebook Tricks for Data Science that Enhance your efficiency](https://codeburst.io/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4)
+* [Tips, Tricks, Hacks, and Magic: How to Effortlessly Optimize Your Jupyter Notebook](https://towardsdatascience.com/how-to-effortlessly-optimize-jupyter-notebooks-e864162a06ee)
 
 * [How To Set Up Jupyter Notebook with Python 3 on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04)
 * [Advanced Jupyter Notebooks: A Tutorial](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)

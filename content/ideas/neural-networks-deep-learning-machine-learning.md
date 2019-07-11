@@ -73,6 +73,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 
 # Neural Ordinary Differential Equations (ODE)
 * [Neural Differential Equations](https://www.youtube.com/watch?v=AD3K8j12EIE&feature=youtu.be)
+* [Neural ODEs: breakdown of another deep learning breakthrough](https://towardsdatascience.com/neural-odes-breakdown-of-another-deep-learning-breakthrough-3e78c7213795)
 * [Understanding Neural ODE's](https://jontysinai.github.io/jekyll/update/2019/01/18/understanding-neural-odes.html)
 * [“GANs” vs “ODEs”: the end of mathematical modeling?](https://towardsdatascience.com/gans-vs-odes-the-end-of-mathematical-modeling-ec158f04acb9)
 

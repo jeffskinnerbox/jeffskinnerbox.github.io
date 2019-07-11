@@ -32,6 +32,13 @@ Then there is the topic of a dashboard and notifications to provide status to me
 * Telegram
 * Speaker
 
+Native Informational Features
+* Accurate Clock refresh off Internet Time Servers
+* Local Weather and conditions (refreshed every 10 - 30 minutes)
+* News Headlines from all the major sources
+
+
+
 # Node Red MQTT on the Raspberry Pi
 * [Node Red MQTT on the Raspberry Pi](https://www.youtube.com/watch?v=WxUTYzxIDns&feature=youtu.be)
 * [#125 MQTT meets SONOFF: QoS, Last Will, Keep-Alive, etc. explained and shown](https://www.youtube.com/watch?v=fwb5YAPzPGk&t=19s)
@@ -113,8 +120,9 @@ Installed MD_Parola@3.0.2
 
 
 
-
 # Scrolling Sign
+Example builds
+* [Marquee Scroller (Clock, Weather, News, and More)](https://github.com/Qrome/marquee-scroller)
 * [WMYCONGCONG MAX7219 Dot Matrix Module 4 in 1 Display Module for Arduino Microcontroller with 5 Pin Line](https://www.amazon.com/WMYCONGCONG-MAX7219-Display-Arduino-Microcontroller/dp/B07FT6MZ7R/ref=asc_df_B07FT6MZ7R/)
 * [WS2812b Pixel Matrix，CHINLY 8x32 256 Pixels WS2812B Digital Flexible LED Panel Programmed Individually addressable Full Dream color lighting DC5V](https://www.amazon.com/Matrix%EF%BC%8CCHINLY-Flexible-Programmed-Individually-addressable/dp/B07418XNJ2/ref=asc_df_B07418XNJ2/)
 * Connecting a 16x32 RGB LED Matrix Panel to a Raspberry Pi [Part 1](https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview) and [Part 2](https://learn.adafruit.com/16x32-rgb-display-with-raspberry-pi-part-2)
@@ -140,9 +148,6 @@ Installed MD_Parola@3.0.2
     * [My Telegrams Explained](https://www.youtube.com/watch?v=1j1FhkBDjSo&feature=youtu.be)
 * [My Telegrams](https://www.amazon.com/dp/B07GR5LD6M)
 
-# Other Things to Display
-* Display the day's top headlines using the [New York Times API](https://developer.nytimes.com/)
-
 # Posting Messages via Alexa, Slack, etc.
 Could we post messages to your message board from anywhere
 (e.g. connected devices, web services, Alexa)
@@ -165,6 +170,14 @@ using a device's existing speaker and mic.
 # UI Example to Emulate
 * [ESP RFID - Access Control with ESP8266, RC522 PN532 Wiegand RDM6300](https://github.com/esprfid/esp-rfid#esp-rfid---access-control-with-esp8266-rc522-pn532-wiegand-rdm6300)
 * [How you can make a progressive web app in an hour](https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e)
+
+# News and Weather
+* Display the day's top headlines using the [New York Times API](https://developer.nytimes.com/)
+* [Marquee Scroller (Clock, Weather, News, and More)](https://github.com/Qrome/marquee-scroller)
+
+# Authorization & Configuration Web GUI
+* [Marquee Scroller (Clock, Weather, News, and More)](https://github.com/Qrome/marquee-scroller)
+
 
 
 

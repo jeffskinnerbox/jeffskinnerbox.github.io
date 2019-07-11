@@ -263,7 +263,8 @@ instead of continuously charging/draining the battery,
 making it a Uninterruptable Power Supply (UPS).
 
 # How to Prolong Battery Life
-* https://batteryuniversity.com/learn/article/elevating_self_discharge
+* [Elevating Self Discharge](https://batteryuniversity.com/learn/article/elevating_self_discharge)
+* [Battery Life Optimization in IoT devices with the Multi-Channel Power Probe](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_application/application_notes/1td07/1TD07_1e_BatteryLife_IoT~1.pdf)
 
 ## Self Discharge
 Much attention can be paid to extending battery life through the use of
@@ -282,6 +283,12 @@ and an incredibly low annual self-discharge rate that permits up to 40-year batt
 
 * http://www.tadiranbat.com/pulsesplus.html
 * https://www.amazon.com/Professional-Lithium-Batteries-3-6-Volts/dp/B074QMH2DZ/ref=sr_1_1_sspa
+
+# Smart Battery System
+Smart Battery System (SBS) is a specification for managing a smart battery, usually for a portable computer. It allows operating systems to perform power management operations via a smart battery charger based on remaining estimated run times by determining accurate state of charge readings.
+
+* [PackProbe Reports Laptop Battery Health](https://hackaday.com/2019/06/26/packprobe-reports-laptop-battery-health/)
+* [build a dedicated SMBus scanner](https://hackaday.com/2016/09/03/tour-de-force-battery-hacking/)
 
 
 

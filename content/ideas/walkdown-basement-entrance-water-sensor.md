@@ -19,12 +19,9 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [ESP8266 Low Power Solutions](https://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf)
 * [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
 * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
-* [TvE’s Blog - adventure in low power](https://blog.voneicken.com/)
 
 * [Adafruit INA260 High or Low Side Voltage, Current, Power Sensor](https://www.adafruit.com/product/4226)
 
-* [#245 Deep-Sleep Current: Which is better? µCurrent or CurrentRanger?](https://www.youtube.com/watch?v=HmXfyLyN38c&feature=youtu.be)
-* [CurrentRanger](https://lowpowerlab.com/guide/currentranger/)
 
 
 
@@ -55,11 +52,6 @@ so that the ESP8266 can be turned on periodically.
 This is the most the most efficient mode.
 The deep-sleep mode can be used in scenarios where the device should send data at specific intervals.
 
-
-# Tool Box
-µCurrent Meter
-USB Isolator
-
 ## Burden Voltage
 In-circuit current measurement requires that the circuit-under-test be opened
 and the measurement instrument leads placed in series.
@@ -73,6 +65,20 @@ A large burden voltage can affect the circuit being measured, corrupting the mea
 
 * http://zone.ni.com/reference/en-XX/help/370384V-01/dmm/burden_voltage/
 
+
+# Measurment Tools for Ultra-Low-Power
+µCurrent Meter - https://www.adafruit.com/product/882
+CurrentRanger - https://lowpowerlab.com/shop/product/152
+USB Isolator - https://www.adafruit.com/product/2107
+
+* [#245 Deep-Sleep Current: Which is better? µCurrent or CurrentRanger?](https://www.youtube.com/watch?v=HmXfyLyN38c&feature=youtu.be)
+* [TvE’s Blog - adventure in low power](https://blog.voneicken.com/)
+
+
+
+# Soft Power Switches
+* [Ditch The Switch: A Soft Latching Circuit Roundup](https://hackaday.com/2019/06/24/ditch-the-switch-a-soft-latching-circuit-roundup/)
+
 # Designs That Could Be Adapted
 * [Sump pump alert with Moteino & HC-SR04](https://lowpowerlab.com/2013/04/25/sump-pump-alert-with-moteino-hc-sr04/)
 * [SonarMote](https://lowpowerlab.com/guide/sonarmote/)
@@ -82,6 +88,7 @@ A large burden voltage can affect the circuit being measured, corrupting the mea
 * [Water detection system](https://www.hackster.io/gusgonnet/water-detection-system-227b08?ref=list&ref_id=3061&offset=2)
 * [How to Protect Your House From Water Leaks—Without the Internet of Things](http://spectrum.ieee.org/at-work/education/how-to-protect-your-house-from-water-leakswithout-the-internet-of-things)
 * [ESP8266 Water Alarm](http://benlo.com/esp8266/esp8266WaterAlarm.html)
+* [Low Power Water Level Sensor for LoRaWAN/The Things Network](https://www.hackster.io/Amedee/low-power-water-level-sensor-for-lorawan-the-things-network-96c877?utm_campaign=new_projects_default&utm_content=0&utm_medium=email&utm_source=hackster&utm_term=project_name)
 
 
 * [Flood Buzz Water Leak Detector - Set of 6](http://www.brookstone.com/pd/flood-buzz-water-leak-detector---set-of-6/745263p.html?bkeid=compare%7Cmercent%7Cgooglebaseads%7Csearch&gclid=Cj0KEQjwoM63BRDK_bf4_MeV3ZEBEiQAuQWqkUzwfq761WYUNx0aoD4_tHDvs13ASGm71N77GMQAtOIaAtoW8P8HAQ&adpos=1o5&device=c&creative=97619010084&network=g)

@@ -2,8 +2,10 @@
 * [FPGA tutorials](https://hackaday.io/list/160076-fpga-tutorials)
 * [Why use an FPGA instead of a CPU or GPU?](https://blog.esciencecenter.nl/why-use-an-fpga-instead-of-a-cpu-or-gpu-b234cd4f309c)
 
+* [Bringing FPGA Development To The Masses](https://hackaday.com/2019/07/05/bringing-fpga-development-to-the-masses/)
 * [Cheap FPGA Board Roundup](https://hackaday.com/2018/08/20/cheap-fpga-board-roundup/)
 * [Arduino MKR Vidor 4000](https://www.sparkfun.com/products/14870)
+* [SparkFun TinyFPGA BX Board](https://www.sparkfun.com/products/14829)
 * [TinyFPGA BX](https://www.crowdsupply.com/tinyfpga/tinyfpga-bx)
 * [MKR Vidor-4000 FPGA](https://www.designnews.com/electronics-test/fpga-diy-electronics/79145038959945)
 * [ULX3S: An Open-Source Lattice ECP5 FPGA PCB](https://hackaday.com/2019/01/14/ulx3s-an-open-source-lattice-ecp5-fpga-pcb/)

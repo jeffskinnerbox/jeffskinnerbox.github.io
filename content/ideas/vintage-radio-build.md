@@ -50,10 +50,17 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 # History
 * [Crystal radio](https://en.m.wikipedia.org/wiki/Crystal_radio)
 * [Early Radio History](http://earlyradiohistory.us/index.html)
+* [Roots of Radio](https://www.radioworld.com/columns-and-views/roots-of-radio)
 * [Introduction to LC Oscillators circa 1974 US Air Force Training Film](https://www.youtube.com/watch?v=1uSBKUsKpYQ)
 * [Arc Radio Transmitter](http://www.mrc.uidaho.edu/~atkinson/ECE591/Fall2014/Presentations/Callaway.pdf)
 * [Before Valve Amplification - Wireless Communication of an Early Era](http://www.qsl.net/vk5br/Before_Valve_Amp.pdf)
 * [Getting Serious about Crystal Radios](http://hackaday.com/2016/04/07/getting-serious-about-crystal-radios/)
+* [Crystal Radios / Fox Hole Radios: For me, it all started here](http://www.n6cc.com/crystal-radios-it-started-here)
+* [A Modern Take On The Crystal Radio](https://hackaday.com/2018/01/19/a-modern-take-on-the-crystal-radio/)
+* [Simple Radios](https://scitoys.com/scitoys/scitoys/radio/radio.html)
+
+# Spark Gap Radio
+* [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 
 # Transmitter
 * [Build a 1929 Style TNT Transmitter](http://members.shaw.ca/ve7sl/tnt.html)
@@ -64,6 +71,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [The Michigan Mighty-Mite Rides Again](http://hackaday.com/2016/01/29/the-michigan-mighty-mite-rides-again/)
 * [Michigan Mighty Mite](http://www.sm7ucz.se/MMM/MMM.htm)
 * [Negative Resistance Oscillator](http://www.sparkbangbuzz.com/index.html)
+* [Dust Off Those AM Radios, There’s Something Good On!](https://hackaday.com/2018/01/12/what-to-do-with-all-of-those-mid-century-and-pre-war-vintage-am-radios-build-your-own-am-radio-station/)
 
 # Receiver
 * [Alfred P. Morgan: A Generation’s Radio Hacker](http://hackaday.com/2015/12/11/alfred-p-morgan-a-generations-radio-hacker/)

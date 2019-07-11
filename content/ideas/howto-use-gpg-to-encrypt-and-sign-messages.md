@@ -25,6 +25,12 @@
 * [managing encryption keys with Cloud KMS](https://cloud.google.com/kms/docs/quickstart)
 
 
+
+
+#  Elliptic Curve Cryptography
+* [Understanding Elliptic Curve Cryptography And Embedded Security](https://hackaday.com/2019/07/04/understanding-elliptic-curve-cryptography-and-embedded-security/)
+
+
 ################################################################################
 install cerficates for a website
 

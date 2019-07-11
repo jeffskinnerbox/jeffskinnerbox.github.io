@@ -1,6 +1,7 @@
 
 * [Entry Level SDR Educational Tools For Raspberry Pi](https://github.com/myriadrf/ScratchRadio)
 * [The LimeSDR Mimi Grove Starter Kit](https://www.rtl-sdr.com/tag/iot/)
+* [An SDR Transceiver The Old-School Way](https://hackaday.com/2019/06/29/an-sdr-transceiver-the-old-school-way/)
 
 * [SOFTWARE DEFINED RADIO FOR ENGINEERS: FREE UNIVERSITY LEVEL TEXT BOOK WITH PLUTOSDR EXAMPLES](https://www.rtl-sdr.com/software-defined-radio-for-engineers-free-university-level-text-book-with-plutosdr-examples/)
     * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)

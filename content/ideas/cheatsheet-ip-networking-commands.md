@@ -1526,6 +1526,7 @@ sudo /sbin/iptables -L
 
 # Firewall
 * [The Linux Firewall](http://code.tutsplus.com/tutorials/the-linux-firewall--net-31748)
+* [Secure your Linux network with firewall-cmd](https://www.redhat.com/sysadmin/secure-linux-network-firewall-cmd)
 
 Linux comes with a host based [firewall][39] called [`netfilter`][36]
 (or sometimes called "iptables" after the tool used to manage netfilter).

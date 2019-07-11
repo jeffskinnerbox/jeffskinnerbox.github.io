@@ -90,7 +90,8 @@ I found that these tools and methods wouldn't work within Windows 98.
 I concluded that it would be best to burn the Linux distro onto a CD-ROM using
 my current desktop computer and boot the laptop with the CD-ROM as a [live system][18].
 It was still my desire is to use Lubuntu, but give the limitations of this laptop,
-I'll also try out Damn Small Linux (DSL), Puppy Linux, and Tiny Core Linux.
+I'll also try out Damn Small Linux (DSL), Puppy Linux, and Tiny Core Linux
+(other options can be found [here][102]).
 
 ### Damn Small Linux (DSL)
 For my first trial, I choose to install [Damn Small Linux (DSL)][07].
@@ -1139,3 +1140,4 @@ To make this persistent, put `tc/.xsession` in the `/opt/.filetool.lst`.
 [99]:http://distro.ibiblio.org/tinycorelinux/5.x/armv7/GK802/README-wifi.txt
 [100]:http://www.linuxcommand.org/man_pages/iwconfig8.html
 [101]:http://www.splashofstyle.com/archives/2010/12/03/how-to-change-verizon-fios-router-from-wep-to-wpa2-plus-other-security-adjustments/
+[102]:https://opensource.com/article/19/6/linux-distros-to-try

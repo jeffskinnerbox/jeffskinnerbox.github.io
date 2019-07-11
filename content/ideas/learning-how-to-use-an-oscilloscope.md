@@ -15,6 +15,8 @@
 
 * [Rigol MSO5000 Hacked, Features Unlocked](https://hackaday.com/2018/12/19/rigol-mso5000-hacked-features-unlocked/)
 
+* [EEVblog #1226 - Get Better Accuracy On Your Oscilloscope](https://www.youtube.com/watch?v=8iE28oGtayQ&feature=em-uploademail)
+
 
 
 

@@ -33,6 +33,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [One-Legged Robot Does the Hop](https://hackaday.com/2019/05/25/one-legged-robot-does-the-hop/)
 * [Robotic Cheetah Teaches a Motors Class](https://hackaday.com/2019/05/29/robotic-cheetah-teaches-a-motors-class/)
 * [Mech Warfare: Like Driving a Building-Sized Robot Through a Busy City](https://hackaday.com/2019/06/07/mech-warfare-like-driving-a-building-sized-robot-through-a-busy-city/)
+* [A Better Motor For Chickenwalkers](https://hackaday.com/2019/06/24/a-better-motor-for-chickenwalkers/)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
@@ -123,6 +124,7 @@ perform regression testing, and train AI system using realistic scenarios.
 
 # And Now For Something Different
 * [Funky Looking Motor is Powered by Static Electricity](http://hackaday.com/2014/08/09/funky-looking-motor-is-powered-by-static-electricity/)
+* [Augmented Arthropod Gets A Self-Balancing Ride](https://hackaday.com/2019/06/14/augmented-arthropod-gets-a-self-balancing-ride/)
 
 # Teensy 3.2 (72 MHz Cortex-M4)
 

@@ -56,11 +56,12 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 
 # Unix Time
 * [Epic Clock Clocks The Unix Epoch](https://hackaday.com/2018/09/18/epic-clock-clocks-the-unix-epoch/)
-# Time from Mains Frequency
 
+# Time from Mains Frequency
 * [Is Your Clock Tied to Mains Frequency?](https://hackaday.com/2018/03/29/ask-hackaday-is-your-clock-tied-to-mains-frequency/)
 
 # Time from Atomic Clocks
+* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 
 # Time from Radio Stations
 * [WHAT WILL YOU DO IF WWVB GOES SILENT?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
@@ -76,7 +77,6 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [PPS (Pulse per Second) ...simple as that!](https://www.linkedin.com/pulse/pps-pulse-per-second-simple-deepak-kaira/)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 * [What’s More Accurate than a GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
     * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
 
@@ -109,7 +109,10 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Texas Instruments DLP2000EVM](http://www.ti.com/tool/DLPDLCR2000EVM#0)
 * [Christmas Laser Projector](https://hackaday.com/2018/01/22/teardown-christmas-laser-projector/)
 
-## Split-Flap Display
+## Keeping Time via 60Hz Mains Power
+* [Phase-locked Inverter](https://mitxela.com/projects/phase-locked_inverter)
+
+## Split-Flap Display (aka flip-clock)
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
 * [IOT SPLIT-FLAP WEATHER FORECAST POWERED BY XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
@@ -947,6 +950,16 @@ Finally, add a AM/PM indicator on the clock face.
 
 
 ----
+
+
+# Over The Air (OTA) Programming
+* [ESP8266 Over The Air (OTA) Programming Without Reset Using Arduino IDE (Mac OSX and Windows)](https://www.youtube.com/watch?v=3aB85PuOQhY&t=20s)
+
+
+----
+
+
+
 
 
 

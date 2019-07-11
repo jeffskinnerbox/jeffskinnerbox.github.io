@@ -79,6 +79,7 @@ Copper and
 Wood fills.
 
 * [5 ways to ruin your filament (and how to fix it)](https://www.youtube.com/watch?v=WlmCc-vRNr0)
+* [WHY you NEED TO DRY your FILAMENTS!](https://www.youtube.com/watch?v=FAXUjZZER5E)
 
 ## Transparent 3D Prints
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
@@ -92,6 +93,10 @@ Simplify3d
 Slic3r and
 Cura Software
 
+
+-----
+
+
 # Slicers
 3D printing is comprised of a few essential tools.
 Obviously, you have the 3D model and the 3D printer,
@@ -102,15 +107,174 @@ which is a widely used numerical control (NC) programming language.
 There is a [large number of slicing software out there][45], many of which are free.
 
 ## Cura
-The very first slicer I used was Ultimaker's [Cura][47].
+The very first slicer I used was Ultimaker's [Cura][47],
+and still is the primary slicer I use.
 Its a good tool to start with since its free and not overly intimidating for a beginner.
+Cura is the friendly face of slicing software
+but Cura’s more complex settings are there if you need them.
+Hidden (but not too deeply) in the Cura software are almost all those settings
+and options that you can find in the majority of other slicing software.
+So if you like to tinker with the 3D printer settings, you can.
+
 Installation is very simple, just follow the [online install instructions][47].
 
+* [Cura 3D Slicer For Beginners! In Depth Tutorial](https://www.youtube.com/watch?v=eUNTlb5pEWA)
+* [2019 Cura Tutorial – Deep Inside the Cura 3D Slicer Software](https://all3dp.com/1/cura-tutorial-software-slicer-cura-3d/)
+* [Ultimaker Cura Guides - Ultimaker 3D Printing](https://www.youtube.com/playlist?list=PLdLJV6tsi3ACyxZt8ZNCywmOmdSpE2_cZ)
+
+### Step X: Install and Configure Cura - DONE
+Cura is an open source 3D printer slicing application.
+* [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
+
+To install Cura, I followed the procedures documented at
+[Cura's PPA site for the stable release](https://launchpad.net/~thopiekar/+archive/ubuntu/cura).
+This process is as follows, installing Cura version 4.1.0-PPA:
+
+```bash
+# install the link to stable version of Cura
+sudo add-apt-repository ppa:thopiekar/cura
+
+# update your repositories
+sudo apt-get update
+
+# install cura
+sudo apt-get install cura
+```
+
+Next, start-up Cura via the commandline with `cura`.
+You'll get prompted to add information about your 3D printer.
+I selected **Other** > **Creality 10**.
+
+### Step X: Cura Settings for Creality CR-10S
+
+* [Sunhokey reprap Prusa i3 3D Printer: Cura slicer software](https://www.youtube.com/watch?v=fVpn4KjHT80)
+* [A hidden feature in Cura](https://www.youtube.com/watch?v=j2WWWSpnrlE)
+* [3 Cura Slicer Setting Tricks For Beginners](https://www.youtube.com/watch?v=su_m5zV9rvA)
+* [The Best Print Settings for the Creality CR10 - CURA & Simplify3d](https://www.youtube.com/watch?v=UQKagjjnx0Y)
 * [3 Cura Slicer Setting Tricks For Beginner](https://www.youtube.com/watch?v=su_m5zV9rvA&feature=youtu.be)
+
+Check here for tuned setting for CR-10 on github
+* [Creawesome Mod! Installation, troubleshooting and is it for you?](https://www.youtube.com/watch?v=27WTCvR7zvM)
+* [Creawesome Mod tested on Ender 3, Ender 5 and CR-10S Pro](https://www.youtube.com/watch?v=fB6h5n4FseM)
+* [Creawsome mod for CURA 4.0](https://www.youtube.com/watch?v=mOn-VNqg2ac)
+
+### Step X: First Layer Print
+[Cura Slicer Secret for Perfect 1st Layer Prints](https://www.youtube.com/watch?v=pAFDEn3wGYo)
+
+### Step X: Skirts, Brims, Rafts and Supports
+A raft is a platform printed under a print to ad print bed adhesion.i
+A brim is printed on the sides on the print.
+A skirt is printed away from the print to start the flow of filament.
+
+3d Printers are able to “bridge” 90 degree overhangs for a limited distance.  While the general rule of thumb is 5mm, in fact depending on how flat you need the bridge they can often reach up to 50mm.
+
+Many printers require supports when the overhang exceeds 45 to 50 degrees
+The overhang angle is measured from the vertical not from the base.
+
+Support Enforcers and Blockers
+
+* [Cura 4.0 Skirts, Brims, Rafts and Supports](https://www.youtube.com/watch?v=-19xATibO34)
+* [Cura 3.6 | 3D Printing Custom Supports & Suport Blockers](https://www.youtube.com/watch?v=pAJbp0EKN20)
+* [CURA - Tree Supports vs Standard Supports]()
+
+### Step X:Clean Up 3D Prints
+
+* [How to Clean Up 3d Prints](https://www.youtube.com/watch?v=TR2DYi6B5YQ)
+
+### Step X: Operating Cura
+These videos will go over some basic features that will help you to use the Cura program better.
+
+* [Cura Setup For Creality Cr-10 & Cr-10S](https://www.youtube.com/watch?v=omSYmte-aNU)
+* [Cura 3D Slicer For Beginners! In Depth Tutorial](https://www.youtube.com/watch?v=eUNTlb5pEWA)
+
+## Step X: Selecting Your Test Print - DONE
+I'm going to use [3DBenchy][04] as my first test print.
+This popular "first print" is designed to offer a large array of
+[challenging geometrical features for 3D printers][05],
+and touch on different issues related to additive manufacturing.
+The 3D model is designed to print at 1:1 scale without support materials.
+It is challenging for most 3D printers but the small volume (15.55 cm3)
+typically prints in well under two hours and does not require much material.
+
+You'll find [many sites][08] where you can download the CAD / STL files for 3DBenchy.
+The site I choose was [Thingiverse][09].
+For my test run, I followed the advice of the video
+"[Creality CR-10 Calibration, Settings, and First Print!][13]".
+I selected **Settings** >  **Printers** > **Manage Printers...** > **Machine Settings**
+and the only thing I needed to change was the **Gcode flavor**.
+
+My second test print was a [human skull on Thingiverse][14],
+third was a large [nuts, bolts, and washer][53],
+and the forth was a [parametric butt hinge][54].
+
+* [T-Rex Skeleton](https://www.thingiverse.com/thing:1962784/files)
+* [Unique 3d Printed Objects](https://www.youtube.com/watch?v=ZaH1LJTCdss)
+* [All In One 3D Printer test](https://www.thingiverse.com/thing:2656594/files)
+* [Cali Cat - The Calibration Cat](https://www.thingiverse.com/thing:1545913)
+* [XYZ 20mm Calibration Cube](https://www.thingiverse.com/thing:1278865)
+* [Level Test](https://www.thingiverse.com/thing:2987803)
+
+## Step X: Removing Cura Package and the PPA
+I installed Cura via a PPA and is expected to have the latest and greatest version of Cura.
+But this PPA, like many PPAs, is managed by a single developer for personal or limited use.
+Over the time, these PPAs might not be updated with latest version of operating system.
+This might create trouble when you need to [updating Ubuntu][50],
+or in general, your operating system is inconsistent with the PPA's support direction.
+(In my case, my Ubuntu was at version level 18.04.2 and the PPA wasn't supporting it.
+I needed to get to 18.10).
+
+>**Note:** You should remove the application installed by
+>the PPA before removing the PPA itself.
+>You can use the `apt remove` command for that.
+
+There are several ways to [remove a PPA in Ubuntu][51].
+The [developer of the PPA recommends][52] the following:
+
+```bash
+# make sure the ppa-remove tool is installed
+sudo apt update
+sudo apt install ppa-purge
+
+# remove the ppa and its application it supports
+sudo ppa-purge ppa:thopiekar/cura
+```
+
+## Experimental Features
+### Adaptive Layers
+* [Ultimaker Cura: Adaptive Layers (3D Universe)](https://www.youtube.com/watch?v=T68ILZ1aLQQ)
+* [Cura - Experimenting with Adaptive Layering!](https://www.youtube.com/watch?v=W_GIyr6cRtM)
+
+### Surface Finish: Fuzzy Skin and Ironing
+* [Cura Fuzzy Skin and Ironing on 3D Prints](https://www.youtube.com/watch?v=gh5wC4Ti95s)
+
+## Calibration Cube
+Calibration cubes are simple geometric shapes (usually cubes, hence the name)
+that help you fine-tune your 3D printer’s settings. They enable you to achieve maximum precision and accuracy in your prints.
+
+* [Calibration Cube – What’s the Best 3D Printer Calibration Cube?](https://all3dp.com/2/3d-printer-calibration-cube-the-best-models-how-to-use-them/)
+
+* [Classic Calibration Cube](https://www.thingiverse.com/thing:1278865)
+* [Cali Cat - The Calibration Cat](https://www.thingiverse.com/thing:1545913)
+
+## 3D Print Trouble Shooting
+Its a certainty that your prints will have some imperfections
+and you'll want to improve the quality of your 3D printed parts.
+
+* [3D Printing Troubleshooting 41 Common Problems in 2019](https://all3dp.com/1/common-3d-printing-problems-troubleshooting-3d-printer-issues/)
+* [Print Quality Troubleshooting Guide](https://www.simplify3d.com/support/print-quality-troubleshooting/)
+* [A visual Ultimaker troubleshooting guide](https://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide)
+* [Common 3D Printing Questions](https://makeshaper.com/common-3d-printing-questions/)
+
+-----
+
+
 
 ## Slic3r
 [Slic3r][46] is one of the most widely used open source slicers.
 It's best suited for the more advanced users with its large number of features and options.
+
+### Installing Slic3r
+#### Step X: Installing Slic3r
 If you installed Slic3r via the Ubuntu package manager,
 you'll get code that dates back to 2015 but classified as "stable".
 I chose to install the most [recent official release][48] that was available
@@ -149,10 +313,21 @@ mv ~/Downloads/slic3r/Slic3r .
 
 # create symbolic links so its in your PATH
 ln -s ~/src/Slic3r/Slic3r ~/bin/slic3r
+
+# test it and get the version
+$ cura --version
+cura 3.1.0
 ```
+
+cura is upgraded several times a year.
 
 * [Slic3r](https://slic3r.org/)
 * [3D Printering: The Past and Future of Prusa’s Slicer](https://hackaday.com/2019/05/24/3d-printering-the-past-and-future-of-prusas-slicer/)
+
+#### Step X: Removing Unneeded Support Materials
+Support Enforcers and Blockers
+
+* [Slic3r PE: Custom Supports aka Support Enforcers and Blockers](https://www.youtube.com/watch?v=740FkDGpuOI)
 
 
 ## Other
@@ -168,6 +343,19 @@ ln -s ~/src/Slic3r/Slic3r ~/bin/slic3r
 * [3D Printer Nozzle Comparison Guide](https://www.matterhackers.com/news/3d-printer-nozzle-comparison-guide)
 * [How to Print with Extremely Fine Nozzles - Quality Comparison](https://www.youtube.com/watch?v=LHg9phNSCEY)
 * [3D Print ridiculously fast with this terrible mod - 1mm nozzle on the Raise N2+](https://www.youtube.com/watch?v=4Hwc-wbihUs)
+
+# Bed Leveling
+You need to level the bed to assure your hotend is equidistant every where it travels on the bed.
+This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
+
+>**NOTE:** Strictly speaking, you not leveling the bed.
+>What your really doing is [tramming][27].
+>Tramming is the process of squaring your tool
+>(such as a mill head, or the hotend in our case)
+>to the table your working on.
+>Leveling is about making the bed parallel with the effects of gravity.
+
+* [Best method for 3D printer bed levelling](https://www.youtube.com/watch?v=RZRY6kunAvs)
 
 # Print Nozzle
 * [Use your CR-10 the right way: BIG parts with a BIG nozzle!](https://www.youtube.com/watch?v=ChaqTSzrYjI)
@@ -191,10 +379,15 @@ push in the fillement an then pull it out
 * [Changing Filament - Creality CR-10 3D Printer](https://www.youtube.com/watch?v=1yOT_Cyip1k)
 * [How to Change Filament - 2 Different Ways: Beginners Guide](https://www.youtube.com/watch?v=Od3W-asW3FY)
 
+# 3D Printer File Formats
+* [4 Most Common 3D Printer File Formats in 2019](https://all3dp.com/3d-printing-file-formats/)
+
 # STL File
 [STL is a file format][06]
 widely used within CAD software.
 STL is an abbreviation of "[stereolithography][07]".
+
+* [STL File Format (3D Printing) – Simply Explained](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
 
 # G-code File
 [G-code][42] is a language
@@ -231,68 +424,9 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 * [Creality CR10 – GCode to Clean Nozzle Before Printing!](http://diy3dtech.com/creality-cr10-gcode-to-clean-nozzle-before-printing/)
 * [Nozzle Cleaning G-Code!](http://diy3dtech.com/nozzle-cleaning-g-code/)
 
-### Step X: Install and Configure Cura - DONE
-Cura is an open source 3D printer slicing application.
-* [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
+* [G-Code to STL – How to Convert G-Code Back to STL](https://all3dp.com/2/g-code-to-stl-how-to-convert-g-code-back-to-stl/)
+* [STL to STEP – How to Convert STL Files to STEP](https://all3dp.com/2/stl-to-step-how-to-convert-stl-files-to-step/)
 
-To install Cura, I followed the procedures documented at
-[Cura's PPA site for the stable release](https://launchpad.net/~thopiekar/+archive/ubuntu/cura).
-This process is as follows, installing version 3.1 of Cura:
-
-```bash
-# install the link to stable version of Cura
-sudo add-apt-repository ppa:thopiekar/cura
-
-# update your repositories
-sudo apt-get update
-
-# install cura
-sudo apt-get install cura
-```
-
-Next, start-up Cura via the commandline with `cura`.
-You'll get prompted to add information about your 3D printer.
-I selected **Other** > **Creality 10**.
-
-For my test run, I followed the advice of the video
-"[Creality CR-10 Calibration, Settings, and First Print!][13]".
-I selected **Settings** >  **Printers** > **Manage Printers...** > **Machine Settings**
-and the only thing I needed to change was the **Gcode flavor**.
-
-## Step X: Selecting Your Test Print - DONE
-I'm going to use [3DBenchy][04] as my first test print.
-This popular "first print" is designed to offer a large array of
-[challenging geometrical features for 3D printers][05],
-and touch on different issues related to additive manufacturing.
-The 3D model is designed to print at 1:1 scale without support materials.
-It is challenging for most 3D printers but the small volume (15.55 cm3)
-typically prints in well under two hours and does not require much material.
-
-You'll find [many sites][08] where you can download the CAD / STL files for 3DBenchy.
-The site I choose was [Thingiverse][09].
-I opened the `3DBenchy.stl` and read it into Cura.
-
-and create a file
-
-* [Sunhokey reprap Prusa i3 3D Printer: Cura slicer software](https://www.youtube.com/watch?v=fVpn4KjHT80)
-* [Cura 3D Slicer For Beginners! In Depth Tutorial](https://www.youtube.com/watch?v=eUNTlb5pEWA)
-
->**NOTE:** My second test print was a [human skull on Thingiverse][14].
-
-T-Rex Skeleton - https://www.thingiverse.com/thing:1962784/files
-
-## Step X: Cura Settings
-
-## Step X: Bed Leveling
-You need to level the bed to assure your hotend is equidistant every where it travels on the bed.
-This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
-
->**NOTE:** Strictly speaking, you not leveling the bed.
->What your really doing is [tramming][27].
->Tramming is the process of squaring your tool
->(such as a mill head, or the hotend in our case)
->to the table your working on.
->Leveling is about making the bed parallel with the effects of gravity.
 
 
 
@@ -380,6 +514,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Finding Plastic Spaghetti with Machine Learning](https://hackaday.com/2019/03/29/finding-plastic-spaghetti-with-machine-learning/)
 * [3D Printer AI: UP Squared/Movidius/OctoPrint to Catch Errors](https://www.hackster.io/bltrobotics/3d-printer-ai-up-squared-movidius-octoprint-to-catch-errors-9dfe7b)
 * [The Spaghetti Detective](https://thespaghettidetective.com)
+* [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 
 ## OctoPrint
 * [Upgrading a 3D Printer with OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
@@ -437,12 +572,14 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 
 ## Radio Controlled Car
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
+* [DIY Arduino based RC Transmitter](https://www.youtube.com/watch?v=-BDCmwNssiw&app=desktop)
 * [Arduino RC Transmitter For Homebrew Projects](https://hackaday.com/2019/01/15/arduino-rc-transmitter-for-homebrew-projects/)
 * [Joy Bonnet Pack without Soldering - Includes Pi Zero WH](https://www.adafruit.com/product/4085)
 
 ## Add Metal Threads to Your 3D Prints
-* [Add Metal Threads to Your 3D Prints - Make Them Functional! : 4 Steps (with Pictures)](https://www.instructables.com/id/Add-Metal-Threads-to-Your-3D-Prints-Make-Them-Func/)
+* [Add Metal Threads to Your 3D Prints - Make Them Functional!: 4 Steps (with Pictures)](https://www.instructables.com/id/Add-Metal-Threads-to-Your-3D-Prints-Make-Them-Func/)
 * [Adding Screw Threads to 3D Printed Parts](https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/)
+* [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
 
 # CNC
 * [Get Moving with New Software from OpenBuilds](https://hackaday.com/2019/03/23/get-moving-with-new-software-from-openbuilds/)
@@ -512,14 +649,24 @@ built on top of an underlying framework called [AliceVision][40].
 [47]:https://ultimaker.com/en/products/ultimaker-cura-software
 [48]:https://slic3r.org/download/
 [49]:https://manual.slic3r.org/getting-slic3r/getting-slic3r
-[50]:
-[51]:
-[52]:
-[53]:
-[54]:
+[50]:https://itsfoss.com/update-ubuntu/
+[51]:https://itsfoss.com/how-to-remove-or-delete-ppas-quick-tip/
+[52]:https://github.com/thopiekar/Cura-packaging/blob/master/Troubleshooting.md
+[53]:https://www.thingiverse.com/thing:965737
+[54]:https://www.thingiverse.com/thing:2187167
 [55]:
 [56]:
 [57]:
 [58]:
 [59]:
 [60]:
+[61]:
+[62]:
+[63]:
+[64]:
+[65]:
+[66]:
+[67]:
+[68]:
+[69]:
+[70]:

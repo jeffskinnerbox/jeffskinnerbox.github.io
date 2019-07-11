@@ -5,10 +5,14 @@
 # Home Assistant
 * [Hass.io](https://www.home-assistant.io/hassio/)
 * [Home Assistant](https://home-assistant.io/)
-* [Creating an IoT Server with Home Assistant and MQTT](https://www.hackster.io/Richa1/creating-an-iot-server-with-home-assistant-and-mqtt-3d874d?ref=similar&ref_id=45410&offset=5)
+* [Creating an IoT Server with Home Assistant and MQTT](https://www.hackster.io/Richa1/creating-an-iot-server-with-home-assistant-and-mqtt-3d874d)
 * [works with Framework for Internal Navigation and Discovery (FIND)](https://github.com/schollz/find3)
 * [AWS IoT Environment for Home Assistant](https://www.hackster.io/mitchese/aws-iot-environment-for-home-assistant-899a1b)
 * [Integrating Snips with Home Assistant](https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77)
+
+## ESPHome
+* [ESPHome](https://esphome.io/)
+*  [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
 
 ## Hass.io
 Hass.io turns your Raspberry Pi (or another device) into the ultimate home automation hub powered by Home Assistant. With Hass.io you can focus on integrating your devices and writing automations.

@@ -14,6 +14,11 @@
         * [KiCad](http://www.kicad-pcb.org/)
 
 # Electronics Design Automation (EDA)
+
+## EasyEDA
+* [EasyEDA](https://easyeda.com/)
+
+## KiCad
 [KiCad][25] is a free software suite for
 [electronic design automation (EDA), aka electronic computer-aided design (ECAD)][26].
 It facilitates the design of schematics for electronic circuits
@@ -25,6 +30,7 @@ and their conversion to PCB designs.
 * [Contextual Electronics - many KiCad videos](https://www.youtube.com/user/contextualelectronic/playlists)
 * [Shine On You Crazy KiCad](https://contextualelectronics.com/courses/shine-on-you-crazy-kicad/)
 * [Getting to Blinky 4.0](https://contextualelectronics.com/courses/getting-to-blinky/)
+* [What’s The Deal With Square Traces On PCBs](https://hackaday.com/2019/06/26/whats-the-deal-with-square-traces-on-pcbs/)
 
 ## SPICE
 SPICE (Simulation Program with Integrated Circuit Emphasis) is a general-purpose,
@@ -212,10 +218,47 @@ Tutorials
 * [Fillet Mounts](https://www.youtube.com/watch?v=xwHybCZK-6k&app=desktop)
 
 ## Installing OpenSCAD and Setting Up Libraries
+* [Try NopSCADlib For Your Next OpenSCAD Project](https://hackaday.com/2019/06/15/try-nopscadlib-for-your-next-openscad-project/)
+
+**NOTE NOTE NOTE NOTE**
+
+[OpenSCAD release: 2019.05](http://www.openscad.org/news.html#20190518)
+and install instructions are give [here](http://www.openscad.org/downloads.html)
+but [appear to be OpenSCAD version 2015.03-2](https://askubuntu.com/questions/1027731/how-to-install-openscad-in-ubuntu-18-04-18-10).
+
+So as of June 25, 2019, Ubuntu 18.10 support of OpenSCAD 2019.05 hasn't happen yet.
 
 ### Step 1: Installing OpenSCAD Executable - DONE
+On most Linux distributions,
+OpenSCAD isn't the most recent distribution
+(version 2019.05 at the time of writing this)
 For Ubuntu, you can assure you have latest release of OpenSCAD
-by adding the PPA before installing OpenSCAD:
+by [adding the PPA before installing OpenSCAD][28].
+
+Before adding this repository, lets see why it isn't automatically updating to the latest version.
+For Debian systems such as Ubuntu, you could use the command
+`grep ^[^#] /etc/apt/sources.list /etc/apt/sources.list.d/*`
+to list the repositories that are used when you update your system.
+This command selects sources from the `/etc/apt/sources.list` file and `/etc/apt/sources.list.d`
+directory on the system where this information is maintained.
+To look for OpenSCAD specifically,
+use `grep openscad /etc/apt/sources.list /etc/apt/sources.list.d/*`.
+
+One thing you might notice when looking at the listing above is the use of the terms
+restricted, universe, and multiverse. These terms identify some important distinctions:
+
+* **Main –** officially supported, open-source software.
+Canonical provides official support for these packages.
+Every open-source software package included in the default installation is included
+along with some other important packages.
+* **Restricted –** officially supported, closed-source software – e.g.,
+hardware drivers -- supported for the length of the release.
+* **Universe –** community-maintained, open-source.
+The majority of the Ubuntu software comes from this repository.
+Canonical does not provide official support or updates.
+* **Multiverse –** unsupported, closed-source and patent-encumbered software.
+
+To [install OpenSCAD in Ubuntu 18.10][45]:
 
 ```bash
 # add the openscad ppa
@@ -232,6 +275,7 @@ $ openscad --version
 OpenSCAD version 2015.03-2
 ```
 
+### Step X:
 This Linux package install only brings in the the installation library
 (located at `/usr/share/openscad/libraries/MCAD/`).
 The [OpenSCAD MCAD Library][15] ([documentation][16])
@@ -246,6 +290,7 @@ many of which can be found [listed here][17] and [listed here][18].
 Others that I have come accross that may be of some general use are:
 
 * In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part design. - https://en.wikipedia.org/wiki/Fillet_(mechanics)   https://github.com/StephS/i2_xends/blob/master/inc/fillets.scad
+* [Belfry OpenScad Library](https://github.com/revarbat/BOSL/wiki)
 
 
 In all cases, the best pratice is to install them on the
@@ -300,6 +345,9 @@ All workbenches at a glance - https://www.freecadweb.org/wiki/Manual:All_workben
 
 ### A2plus Workbench
 The A2plus workbench is an [external workbench][27] to assemble different parts in FreeCAD.
+
+### Gear Workbench
+* [Home Made Gears Save This Shredder](https://hackaday.com/2019/06/23/home-made-gears-save-this-shredder/)
 
 ### Step 1: Install FreeCAD - DONE
 Installing via `apt-get` on Ubuntu gives you an older version of FreeCAD
@@ -407,7 +455,7 @@ Video Tutorials - https://www.youtube.com/results?search_query=freecad
 [25]:http://kicad-pcb.org/
 [26]:https://en.wikipedia.org/wiki/Electronic_design_automation
 [27]:https://www.freecadweb.org/wiki/External_workbenches
-[28]:
+[28]:http://www.openscad.org/downloads.html
 [29]:https://www.freecadweb.org/
 [30]:https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable
 [31]:https://www.freecadweb.org/wiki/File:Startcenter.jpg
@@ -424,7 +472,7 @@ Video Tutorials - https://www.youtube.com/results?search_query=freecad
 [42]:https://askubuntu.com/questions/984556/gtk-message-failed-to-load-module-overlay-scrollbar-ubuntu-17-10
 [43]:https://github.com/dcowden/cadquery
 [44]:https://github.com/jmwright/cadquery-freecad-module
-[45]:
+[45]:http://ubuntuhandbook.org/index.php/2019/01/install-openscad-ubuntu-18-10-18-04/
 [46]:
 [47]:
 [48]:

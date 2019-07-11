@@ -32,6 +32,7 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [Wellness API](http://www.beyondverbal.com/choose-solution/wellness/what-is-it/)
 
 #### Radio Control Transmitter
+* [DIY Arduino based RC Transmitter](https://www.youtube.com/watch?v=-BDCmwNssiw&app=desktop)
 * [Arduino RC Transmitter For Homebrew Projects](https://hackaday.com/2019/01/15/arduino-rc-transmitter-for-homebrew-projects/)
 * [Joy Bonnet Pack without Soldering - Includes Pi Zero WH](https://www.adafruit.com/product/4085)
 
