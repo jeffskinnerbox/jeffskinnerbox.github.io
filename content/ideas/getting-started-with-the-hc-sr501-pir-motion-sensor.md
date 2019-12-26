@@ -1,5 +1,8 @@
 Image for summary - https://i1.wp.com/henrysbench.capnfatz.com/wp-content/uploads/2016/02/HC-SR501.jpg
 
+* [Microwave Sensor - 5.8GHz Doppler Radar Motion Sensor](https://www.seeedstudio.com/MW0581TR11-5-8GHz-Microwave-Doppler-Radar-Motion-Sensor-p-4366.html)
+* [Microwave vs PIR Sensor](https://www.seeedstudio.com/blog/2019/12/13/which-arduino-motion-sensor-to-use-microwave-or-pir-sensor)
+
 [!hr-sr501](https://www.squirrel-labs.net/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/i/r/irmodule_3.jpg)
 The [HC-SR501 Passive Infrared (PIR) motion sensor][01]
 will detect infrared changes, which can often be interpreted as motion.
@@ -14,6 +17,7 @@ the lens is often fixed to a certain sweep and distance.
 The HC-SR501 uses the [RE200B][03] [pyroelectric][04] passive infrared sensor
 and the [BISS0001 IC][02] to control how motion is detected.
 The module features adjustable sensitivity that allows for a
+
 motion detection range from 3 meters to 7 meter over a 120 degree area.
 The module also includes time delay adjustments and trigger selection
 that allow for fine tuning within your application.

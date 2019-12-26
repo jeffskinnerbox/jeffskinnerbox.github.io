@@ -142,11 +142,20 @@ Example builds
 * [Telegram Bot with ESP8266](https://www.hackster.io/ShebinJoseJacob/telegram-bot-with-esp8266-dbada8)
 * [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
 * [Using a Telegram Bot and a Demo Board to experiment with home automation](https://www.open-electronics.org/using-a-telegram-bot-and-a-demo-board-to-experiment-with-home-automation/)
+* [ESP8266 and Telegram Bot: Home Automation](https://dzone.com/articles/esp8266-and-telegram-bot-home-automation)
 
 # Telegram Bot with Alexa/Echo
 * [Alexa skill that connects Amazon Echo with Telegram Messenger](https://devpost.com/software/my-telegrams)
     * [My Telegrams Explained](https://www.youtube.com/watch?v=1j1FhkBDjSo&feature=youtu.be)
 * [My Telegrams](https://www.amazon.com/dp/B07GR5LD6M)
+* [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
+* [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
+* [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
+* [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
+
+# Telegram Bot with Google DialogFlow
+* [DialogFlow Integration with Telegram](https://medium.com/@hemantjain1999/dialogflow-integration-with-telegram-4048e16397fc)
+* [Dialogflow](https://cloud.google.com/dialogflow/)
 
 # Posting Messages via Alexa, Slack, etc.
 Could we post messages to your message board from anywhere
@@ -169,7 +178,9 @@ using a device's existing speaker and mic.
 
 # UI Example to Emulate
 * [ESP RFID - Access Control with ESP8266, RC522 PN532 Wiegand RDM6300](https://github.com/esprfid/esp-rfid#esp-rfid---access-control-with-esp8266-rc522-pn532-wiegand-rdm6300)
+* [What the Heck is a Progressive Web App (PWA) Anyway?](https://it.toolbox.com/blogs/dennisstevenson/what-the-heck-is-a-progressive-web-app-pwa-anyway-102919)
 * [How you can make a progressive web app in an hour](https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e)
+* [Developing Progressive Web Apps (PWAs) Course](https://codelabs.developers.google.com/dev-pwa-training/)
 
 # News and Weather
 * Display the day's top headlines using the [New York Times API](https://developer.nytimes.com/)

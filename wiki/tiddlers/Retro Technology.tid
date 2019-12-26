@@ -68,6 +68,8 @@ was designed and built in the 1950s to defend against the threat
 of Soviet bombers attacking the continental United States.
 
 The [[UNIX Operating System|https://www.youtube.com/watch?v=tc4ROCJYbm0]]
+(over 50 years old now and often compared to
+[[GNU, Linux, BSD, and MINIX|https://hackaday.com/2019/11/05/will-the-real-unix-please-stand-up/]])
 was developed to make the job of creating software systems easier,
 and in general, make the interaction of computers with people easier.
 This productivity gain was taken further with the introduction of the
@@ -93,6 +95,7 @@ Some believe Westinghouse built the
 [[first electric computer|http://gothamist.com/2015/10/15/grand_central_computer_video.php#photo-1]]
 in 1913 and installed it in the sub-basement of
 Grand Central Terminal.
+Its reminiscent of the the more generalized [[relay computers|https://hackaday.com/2019/12/06/visiting-the-facom-128b-1958-relay-computer/]].
 As to a programmable electronic digital computer,
 similar todays computers, it is generally believe that
 [[Colossus|http://hackaday.com/2016/08/23/colossus-face-to-face-with-the-first-electronic-computer/#more-219341]] was the first.
@@ -110,7 +113,11 @@ preferring a calculator there.
 
 [[Slide Rules|http://hackaday.com/2015/11/05/slide-rules-were-the-original-personal-computers/#more-175364]]
 were among the first computing tools
-(other than the [[human kind|https://en.wikipedia.org/wiki/Human_computer]])
+(other than the [[teams of calculators|https://www.youtube.com/watch?v=m13Jrk-cUmo&app=desktop]]
+of the [[human kind|https://en.wikipedia.org/wiki/Human_computer]]
+that gave us things like the [[Mathematical Tables Project|https://en.wikipedia.org/wiki/Mathematical_Tables_Project]].
+The greatest legacy of the project is the [[Handbook of Mathematical Functions|https://en.wikipedia.org/wiki/Mathematical_Tables_Project]],
+a copy of which I still own),
 and a simple example of a mechanical analog computer
 (not all analog computer are mechanical,
 such as the fluid computers [[MONIAC|http://hackaday.com/2016/04/26/retrotechtacular-moniac/]] and
@@ -196,7 +203,8 @@ AGC was a digital computer,
 with [[rope memory|http://hackaday.com/2016/09/02/decoding-rediscovered-rope-memory-from-the-apollo-guidance-computer/]],
 produced for the Apollo program that was
 installed on board each Apollo Command Module (CM) and Lunar Module (LM).
-Luckly, [[Hackaday has done multiple articles|http://hackaday.com/tag/apollo/]]
+Luckly, [[people have rescued the AGC from the dumpster|https://hackaday.com/2019/08/04/apollo-guidance-computer-saved-from-the-scrap-yard/]]
+and [[Hackaday has done multiple articles|http://hackaday.com/tag/apollo/]]
 on the Apollo space program hardware and
 [[software|http://hackaday.com/2016/07/14/riding-shotgun-in-the-apollo-12-lunar-lander/]].
 You can even find the [[AGC code on Github|http://qz.com/726338/the-code-that-took-america-to-the-moon-was-just-published-to-github-and-its-like-a-1960s-time-capsule/]].
@@ -238,7 +246,7 @@ to be followed by Tom Carter's challege to AT&T with the [[Carterfone|http://hac
 These two events state the stage for the [[breakup of the Bell System|https://en.wikipedia.org/wiki/Breakup_of_the_Bell_System]].
 
 There was a time, in the days of the Bell System,
-when **you could not** connect anything you please to the telephone,
+when ''you could not'' connect anything you please to the telephone,
 eclectically or even mechanically.
 This restriction forced the creation some strange designs for things like
 [[telephone answering machines|https://hackaday.com/2018/07/12/the-bad-old-days-of-telephone-answering-machines/]].
@@ -278,3 +286,16 @@ in the 1940's.
 By today's standards, none of this would be called a robot.
 And let us not forget what the 1960's TV show "[[Lost in Space|https://en.wikipedia.org/wiki/Lost_in_Space]]" brought us.
 It was the [[Class M-3 Model B-9 General Utility Non-Theorizing Environmental Control Robot|https://en.wikipedia.org/wiki/Robot_(Lost_in_Space)]].
+
+I personally did not see much value in the
+[[earliest mobile computing device|https://paleotronic.com/2019/09/28/from-pocket-computers-to-palmtops-an-early-history-of-mobile-telecomputing/]]
+but I did proudly carry an [[AMP|https://en.wikipedia.org/wiki/Advanced_Mobile_Phone_System]]
+enabled [[Motorola StarTAC Flip Cell Phone|https://en.wikipedia.org/wiki/Motorola_StarTAC]]
+and around the same time was an early adopter of the
+[[personal digital assistant (PDA)|https://searchmobilecomputing.techtarget.com/definition/personal-digital-assistant]].
+My first purchase was the [[Sharp Wizard OS-5500|https://www.youtube.com/watch?v=gIFA4Xl03-k]].
+I later move on to the [[Palm series of PDA|https://en.wikipedia.org/wiki/Palm_(PDA)]]
+starting with the [[PalmPilot Personal|https://www.youtube.com/watch?v=Bk0yQwl5gz4]]
+and ultimately the [[Palm Treo 750|https://www.youtube.com/watch?v=PFGi88zvS8o]].
+
+

@@ -15,6 +15,13 @@ and motivation for the multiple infrastructure tools.
 
 The complexity of application stacks keeps going up
 
+## HomeLab
+Maybe you want to experiment with different technologies,
+create development environments, or have your own private cloud.
+
+* [How to set up a homelab from hardware to firewall](https://opensource.com/article/19/3/home-lab)
+* [How to use infrastructure as code](https://opensource.com/article/19/7/infrastructure-code)
+
 ## VirtualBox
 [VirtualBox][09] is a [full virtualization][07] x86 / AMD64 / Intel64 hardware architecture
 (contrast this with [hardware-assisted virtualization][08]).
@@ -117,6 +124,8 @@ Vagrant is a tool focused on providing a consistent development environment work
 across multiple operation systems.
 Docker is a container management that can consistently run software
 as long as a containerization system exists.
+
+* [Container Basics](https://www.sdxcentral.com/containers/definitions/containers-basics-update/)
 
 ## Docker vs Vagrant
 * [Docker Vs Vagrant](https://www.youtube.com/watch?v=9QGkJvbLpRA)
@@ -648,7 +657,10 @@ The private_network is a network that is only between your host and the guest vm
 **see "howto-use-docker-and-resin-on-the-raspberry-pi-and-openwrt.md" for more text**
 
 # Docker
+* [How To Install and Use Docker on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
 * [A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
+* [Running a Docker container as a non-root user](https://medium.com/redbubble/running-a-docker-container-as-a-non-root-user-7d2e00f8ee15)
+
 * [Docker Tutorial: Get Going From Scratch](https://stackify.com/docker-tutorial/)
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
 * [A sysadmin's guide to containers](https://opensource.com/article/18/8/sysadmins-guide-containers)

@@ -1,3 +1,4 @@
+
 Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-globe/)
 
 * [Setting Up a Raspberry Pi SD Card With Amateur Radio-Related Apps](https://dzone.com/articles/setting-up-a-raspberry-pi-sd-card-with-some-amateu)
@@ -10,6 +11,8 @@ Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-glo
 * [Cloud-SDR](http://www.cloud-sdr.com/what-is-cloud-sdr/)
 * [Icoboard Software Defined Radio Platform](https://hackaday.com/2018/03/20/icoboard-software-defined-radio-platform/)
 * [The Raspberry Pi 3B+ As An SDR – Without The SDR!](https://hackaday.com/2018/04/14/the-raspberry-pi-3b-as-an-sdr-without-the-sdr/)
+
+* [Remote ADS-B Install Listens In On All The Aircraft Transmissions With RTL-SDR Trio, Phones Home on Cellular](https://hackaday.com/2019/08/14/remote-ads-b-install-listens-in-on-all-the-aircraft-transmissions-with-rtl-sdr-trio-phones-home-on-cellular/)
 
 * [SOFTWARE DEFINED RADIO FOR ENGINEERS: FREE UNIVERSITY LEVEL TEXT BOOK WITH PLUTOSDR EXAMPLES](https://www.rtl-sdr.com/software-defined-radio-for-engineers-free-university-level-text-book-with-plutosdr-examples/)
     * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
@@ -37,15 +40,20 @@ Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-glo
 
 ###############################################################################
 
+* [How does Software Defined Radio (SDR) work under the Hood?](https://www.youtube.com/watch?v=xQVm-YTKR9s)
+* [Intuitive Tutorial on SDR, Frequency Domain. and IQ Data](https://arachnoid.com/software_defined_radios/)
+* [Intro to RTL-SDR, Part I - Principles and Hardware](http://ajoo.blog/intro-to-rtl-sdr-part-i-principles-and-hardware.html)
+* [Intro to RTL-SDR, Part II - Software](http://ajoo.blog/intro-to-rtl-sdr-part-ii-software.html)
+
 
 # Selecting a RTL-SDR
-[RTL-SDR.COM][15] is an excelent souce for the latest intell on the RTL-SDR,
+[RTL-SDR.COM][75] is an excelent souce for the latest intell on the RTL-SDR,
 and provides several guides aimed at helping you set-up your RTL-SDR.
-This includea a [Quick Start Guide][16], [RTL-SDR Buyers Guide][17],
-and a large set of [Tutorials][18].
-Anothe excellent source is [Radio for Everyone][19].
+This includea a [Quick Start Guide][76], [RTL-SDR Buyers Guide][77],
+and a large set of [Tutorials][78].
+Anothe excellent source is [Radio for Everyone][60].
 
-* [19 RTL-SDR Dongles Reviewed](https://hackaday.com/2017/09/05/19-rtl-sdr-dongles-reviewed/)
+* [60 RTL-SDR Dongles Reviewed](https://hackaday.com/2017/09/05/19-rtl-sdr-dongles-reviewed/)
 * [An Introductory Project for Software Defined Radio](https://www.allaboutcircuits.com/projects/an-introductory-project-for-software-defined-radio/?utm_source=All+About+Circuits+Members&utm_campaign=e01676fafa-EMAIL_CAMPAIGN_2017_02_08&utm_medium=email&utm_term=0_2565529c4b-e01676fafa-270523833/)
 * [Buy RTL-SDR Dongles](http://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
 * [Getting Started with RTL-SDR and SDR-Sharp](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-rtl-sdr-and-sdr-sharp.pdf)
@@ -113,10 +121,10 @@ You'll find that the dongle is limited by the following:
 
 Improving the Quality of the Antenna
 
-* [Antenna-Theory.com][01]
-* [Broadband Discone Antenna][02]
-* [VE3SQB ANTENNA DESIGN PROGRAMS][03]
-* [D.I.Y. Discone for RTLSDR][04]
+* [Antenna-Theory.com][61]
+* [Broadband Discone Antenna][62]
+* [VE3SQB ANTENNA DESIGN PROGRAMS][63]
+* [D.I.Y. Discone for RTLSDR][64]
 * [Understanding Antenna Specifications and Operation](http://www.digikey.com/en/articles/techzone/2011/mar/understanding-antenna-specifications-and-operation)
 
 ## Determining Your Dongles Frequency Off-Set
@@ -129,13 +137,13 @@ These oscillators frequency are engineered for a specific value (28.8MHz in th
 Now if you know how far off your dongles oscillators frequency was from its specification value, then you could compensate for it.
 So in my `rtl_fm` example above, you would adjust the `-f 99.5M` parameter to compensate for the off-set.
 Each unique device has its own off-set, so how do you determine your devices off-set?
-Thanks to the [work of  Joshua Lackey and Steve Markgraf][05], there exist a tool to calculate this value.
-That tool is called [kalibrate, or kal][06] (actually, we be using [kalibrate-rtl][07]
-which is a fork of the software from [kalibrate][08]
+Thanks to the [work of  Joshua Lackey and Steve Markgraf][65], there exist a tool to calculate this value.
+That tool is called [kalibrate, or kal][66] (actually, we be using [kalibrate-rtl][67]
+which is a fork of the software from [kalibrate][68]
 and specifically designed for the RTL-SDR dongles) uses the precise known frequencies of used within GSM base stations to calculate the local oscillator frequency offset.
 GSM base stations timing is required to be very accurate (to within 0.05 ppm), so if we can measure the dongles frequency relative to this very stable GSM frequency, we have an accurate measure of our dongles off-set.
 
-In fact, there is a [video][09] on how to use this tool with RTL-SDR dongles.
+In fact, there is a [video][69] on how to use this tool with RTL-SDR dongles.
 
 ``` bash
 cd ~/src
@@ -169,17 +177,17 @@ Kalibrate-RTL
 
 [RTLSDR Scanner](http://eartoearoak.com/software/rtlsdr-scanner) is a simple cross platform python based spectrum analyzer for the RTL-SDR. The scanner also has an auto calibration feature which can help find the PPM offset of a dongle.
 
-[HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][10]
+[HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][70]
 
 <strong>Improving Your Dongles Antenna</strong>
 
-[Home Made Coat Hanger Discone][11]
+[Home Made Coat Hanger Discone][71]
 
 Improving Your SDR Radio
 
-* [Adding more frequencies to your software defined radio][12]
-* [Improving a software defined radio with a few bits of wire][13]
-* [RTL-SDR Improvement Tips][14]
+* [Adding more frequencies to your software defined radio][72]
+* [Improving a software defined radio with a few bits of wire][73]
+* [RTL-SDR Improvement Tips][74]
 
 # SIGINT / Spectrum Monitoring
 * [Mobile SIGINT Hacking on a Civilian’s Budget](https://hackaday.com/2019/06/05/mobile-sigint-hacking-on-a-civilians-budget/)
@@ -189,6 +197,7 @@ Improving Your SDR Radio
 * [Running RTL-SDR on OpenWrt](http://www.rtl-sdr.com/running-an-rtl-sdr-on-openwrt/)
 * [Scan your WiFi and get access point information and signal quality](https://github.com/kootenpv/access_points)
 * [Radio Spectrum Recordings: Time Travel with Software Defined Radio](https://hackaday.com/2018/07/23/hope-xiii-time-travel-with-software-defined-radio/)
+* [ElectroSense](https://electrosense.org/)
 
 * [libcsdr](https://github.com/simonyiszk/csdr) is a set of simple DSP routines for Software Defined Radio.  It is mostly useful for AM/FM/SSB demodulation and spectrum display.
 * [qtcsdr]() makes a ham transceiver out of your Raspberry Pi 2 and RTL-SDR with the help of rpitx
@@ -221,7 +230,9 @@ and now even has a script to allow you to start it automatically.
 * [RFTap: A Bridge Between GNURadio and Wireshark](http://www.rtl-sdr.com/rftap-a-bridge-between-gnuradio-and-wireshark/)
 * [SDRDue: New Software for Passive Radar with Two Coherent RTL-SDR Dongles](http://www.rtl-sdr.com/sdrdue-new-software-for-passive-radar-with-two-coherent-rtl-sdr-dongles/)
 * [KerberosSDR - A 4x Phase Coherent RTL-SDR for Passive Radar, Direction Finding and More!](https://www.indiegogo.com/projects/kerberossdr-4x-coherent-rtl-sdr#/)
+* [Easy Direction Finding Thanks To Quad SDRs](https://hackaday.com/2019/08/22/__trashed-3/)
 * [SDR Is At the Heart of This Soup-Can Doppler Radar Set](https://hackaday.com/2018/11/29/sdr-is-at-the-heart-of-this-soup-can-doppler-radar-set/)
+* [Bike-Mounted Synthetic-Aperture Radar Makes Detailed Images](https://hackaday.com/2019/08/15/bike-mounted-synthetic-aperture-radar-makes-detailed-images/)
 * [SDR Spectrum Grabber](http://hackaday.com/2016/11/18/cache-shortwave-signals-for-later-with-this-sdr-spectrum-grabber/)
 * [sdrangelove - a Qt software defined radio application](http://osmocom.org/projects/sdr/wiki/sdrangelove)
 
@@ -244,6 +255,7 @@ and now even has a script to allow you to start it automatically.
 * [waveconverter](https://www.rtl-sdr.com/waveconverter-an-open-source-rf-reverse-engineering-tool/)
 * [DSpectrum](https://www.rtl-sdr.com/youtube-talk-introduction-to-dspectrum-for-reverse-engineering-signals/)
 * [Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR](Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR)
+* [Samy Kamkar: Reverse Engineering for a Secure Future](https://hackaday.com/2018/01/02/samy-kamkar-reverse-engineering-for-a-secure-future/)
 
 # Projects
 * [Read Home Power Meters With RTL-SDR](https://hackaday.com/2017/12/21/read-home-power-meters-with-rtl-sdr/)
@@ -252,11 +264,15 @@ and now even has a script to allow you to start it automatically.
 * [RTL-SDR Tutorial: GPS Decoding and Plotting](http://www.rtl-sdr.com/rtl-sdr-tutorial-gps-decoding-plotting/)
 
 # Radio Telescope
+* [Listen to the Sun, Saturn, and the Milky Way with Your Own Radio Telescope](https://hackaday.com/2016/09/28/listen-to-the-sun-saturn-and-the-milky-way-with-your-own-radio-telescope/)
 * [Radio Telescopes Horn In With GNU Radio](https://hackaday.com/2019/01/20/radio-telescopes-horn-in-with-gnu-radio/)
 * DYI Radio Telescope
     * [DIY Radio Telescope Version 2: Wifi vision - Part 1](https://www.youtube.com/watch?v=o6WHhqDHSQ4)
     * [DIY Radio Telescope V2: Wifi Vision - Part 2](https://www.youtube.com/watch?v=VABeN4uv03s)
     * [Building a Camera That Can See Wifi | Radio Telescope V2 - Part 3 SUCCESS!](https://www.youtube.com/watch?v=g3LT_b6K0Mc&feature=youtu.be)
+* [The Tiny Radio Telescope](https://hackaday.com/2016/07/31/the-tiny-radio-telescope/)
+* [Probe The Galaxy On A Shoestring With This DIY Hydrogen-Line Telescope](https://hackaday.com/2019/09/29/probe-the-galaxy-on-a-shoestring-with-this-diy-hydrogen-line-telescope/)
+* [A Miniature Radio Telescope In Every Backyard](https://hackaday.com/2019/10/22/a-miniature-radio-telescope-in-every-backyard/)
 
 # Other SDR Tools
 * [Global Radio Direction Finding in Your Browser](https://hackaday.com/2018/07/16/global-radio-direction-finding-in-your-browser/)
@@ -270,34 +286,23 @@ Transmit radio signals using just a serial port
 
 
 
-[01]:http://www.antenna-theory.com/
-[02]:http://www.ramseyelectronics.com/downloads/manuals/DA25.pdf
-[03]:http://www.ve3sqb.com/
-[04]:http://helix.air.net.au/index.php/d-i-y-discone-for-rtlsdr/
-[05]:https://github.com/steve-m/kalibrate-rtl
-[06]:http://thre.at/kalibrate/
-[07]:https://github.com/steve-m/kalibrate-rtl
-[08]:http://thre.at/kalibrate/
-[09]:http://www.youtube.com/watch?v=VaKzhaf5iKg
-[10]:http://www.securitytube.net/video/7726
-[11]:http://www.rtl-sdr.com/home-made-coat-hanger-discone/
-[12]:http://hackaday.com/2012/07/08/adding-more-frequencies-to-you-software-defined-radio/
-[13]:http://hackaday.com/2012/05/14/improving-a-software-defined-radio-with-a-few-bits-of-wire/
-[14]:http://www.ab9il.net/software-defined-radio/rtl2832-sdr.html
-[15]:http://www.rtl-sdr.com/
-[16]:http://www.rtl-sdr.com/rtl-sdr-quick-start-guide/
-[17]:http://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
-[18]:http://www.rtl-sdr.com/category/tutorial/
-[19]:http://www.radioforeveryone.com/p/reducing-electrical-noise.html
-[20]:
-[21]:
-[22]:
-[23]:
-[24]:
-[25]:
-[26]:
-[27]:
-[28]:
-[29]:
-[30]:
+[60]:http://www.radioforeveryone.com/p/reducing-electrical-noise.html
+[61]:http://www.antenna-theory.com/
+[62]:http://www.ramseyelectronics.com/downloads/manuals/DA25.pdf
+[63]:http://www.ve3sqb.com/
+[64]:http://helix.air.net.au/index.php/d-i-y-discone-for-rtlsdr/
+[65]:https://github.com/steve-m/kalibrate-rtl
+[66]:http://thre.at/kalibrate/
+[67]:https://github.com/steve-m/kalibrate-rtl
+[68]:http://thre.at/kalibrate/
+[69]:http://www.youtube.com/watch?v=VaKzhaf5iKg
+[70]:http://www.securitytube.net/video/7726
+[71]:http://www.rtl-sdr.com/home-made-coat-hanger-discone/
+[72]:http://hackaday.com/2012/07/08/adding-more-frequencies-to-you-software-defined-radio/
+[73]:http://hackaday.com/2012/05/14/improving-a-software-defined-radio-with-a-few-bits-of-wire/
+[74]:http://www.ab9il.net/software-defined-radio/rtl2832-sdr.html
+[75]:http://www.rtl-sdr.com/
+[76]:http://www.rtl-sdr.com/rtl-sdr-quick-start-guide/
+[77]:http://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
+[78]:http://www.rtl-sdr.com/category/tutorial/
 

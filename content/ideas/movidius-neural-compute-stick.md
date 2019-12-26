@@ -115,6 +115,7 @@ and applications written for the Neural Compute Stick to the NCS community.
 * [Movidius Neural Compute Stick: Getting Started Guide](https://ncsforum.movidius.com/uploads/editor/0j/ln0nd3psmp6q.pdf)
 * [Getting started with the Intel Movidius Neural Compute Stick](https://www.pyimagesearch.com/2018/02/12/getting-started-with-the-intel-movidius-neural-compute-stick/)
 * [Getting Started with Neural Compute Stick and Rasbperry Pi 3](https://www.youtube.com/watch?v=f39NFuZAj6s)
+* [OpenCV Vehicle Detection, Tracking, and Speed Estimation](https://www.pyimagesearch.com/2019/12/02/opencv-vehicle-detection-tracking-and-speed-estimation/)
 
 
 * [TensorFlow Object Detection API tutorial — Training and Evaluating Custom Object Detector](https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-evaluating-custom-object-detector-ed2594afcf73)

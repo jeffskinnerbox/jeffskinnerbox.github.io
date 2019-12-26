@@ -1,3 +1,6 @@
+* [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
+
+
 * [Prime Numbers on Numberphile](https://www.youtube.com/playlist?annotation_id=annotation_1659607549&feature=iv&list=PL0D0BD149128BB06F)
 * [Perfect Numbers and Mersenne Primes](https://www.youtube.com/watch?v=T0xKHwQH-4I)
 
@@ -26,6 +29,7 @@ is the title of an article published in 1960 by the physicist Eugene Wigner put 
 * [Mathematics as thought](https://aeon.co/essays/the-secret-intellectual-history-of-mathematics)
 
 # Bernhard Riemann's Habilitation Dissertation
+* [The Riemann Hypothesis, explained - Cantor’s Paradise](https://medium.com/cantors-paradise/the-riemann-hypothesis-explained-fa01c1f75d3f)
 * [Bernhard Riemann: The Habilitation Dissertation](https://larouchepac.com/20150610/bernhard-riemann-habilitation-dissertation)
 * [Bernhard Riemann's Habilitation Dissertation](http://lymcanada.org/wp-content/uploads/sites/2/2015/01/Riemann_Habilitation-Dissertation.pdf)
 * [Bernhard Riemann 1826-1866: Turning Points in the Conception of Mathematics](https://uberty.org/wp-content/uploads/2015/11/Detlef_Laugwitz_Bernhard_Riemann.pdf)
@@ -107,8 +111,12 @@ A prime number is a positive whole number greater than one which is divisible on
 
 1 is neither prime nor composite by convention - http://primes.utm.edu/notes/faq/one.html
 
-[Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
-[Ulam spiral or prime spiral](https://en.wikipedia.org/wiki/Ulam_spiral)
+# Prime Spiral
+* [Why do prime numbers make these spirals?](https://www.youtube.com/watch?v=EK32jo7i5LQ)
+* [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
+* [Ulam spiral or prime spiral](https://en.wikipedia.org/wiki/Ulam_spiral)
+* [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
+* [Unexpected Beauty in Primes](https://medium.com/cantors-paradise/unexpected-beauty-in-primes-b347fe0511b2)
 
 # Generating Primes
 * https://en.wikipedia.org/wiki/Generating_primes

@@ -91,3 +91,36 @@ For example, run the commands below to install VirtualBox repository key:
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 ```
+
+# Purge
+When you remove a package (e.g. `sudo apt remove php5.5-cgi`),
+all files added by the package will be deleted except
+for user configuration files that were modified.
+When you purge a package (e.g. `sudo apt purge php5.5-cgi`), all the package files,
+including modified configuration files, are deleted.
+
+Unfortanately a few years,
+your Ubuntu installation may start to accumulate old packages that were removed but not purged.
+Fortunately, [Chris Jean's post][01] provides a simple script
+to find those unpurged packages and purge them.
+
+```bash
+# list all the package that need to be purged
+dpkg --list | grep ^rc | awk '{ print $2; }'
+
+# purge all thes packages
+sudo apt purge `dpkg --list | grep ^rc | awk '{ print $2; }'`
+```
+
+
+
+[01]:https://chrisjean.com/finding-and-purging-unpurged-packages-on-ubuntu/
+[02]:
+[03]:
+[04]:
+[05]:
+[06]:
+[07]:
+[08]:
+[09]:
+[10]:

@@ -34,6 +34,10 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Robotic Cheetah Teaches a Motors Class](https://hackaday.com/2019/05/29/robotic-cheetah-teaches-a-motors-class/)
 * [Mech Warfare: Like Driving a Building-Sized Robot Through a Busy City](https://hackaday.com/2019/06/07/mech-warfare-like-driving-a-building-sized-robot-through-a-busy-city/)
 * [A Better Motor For Chickenwalkers](https://hackaday.com/2019/06/24/a-better-motor-for-chickenwalkers/)
+* ["StrandMaus” 8-legged walker](https://www.embedded-computing.com/home-page/clearcrawler-moves-with-the-help-of-capacitors-and-nrf24l01-control)
+* [Amazing Open Source Quadruped Capable Of Dynamic Motion](https://hackaday.com/2019/10/03/amazing-open-source-quadruped-capable-of-dynamic-motion/)
+* [SmallKat: An Adorable And Dynamic Robot](https://hackaday.com/2019/11/03/smallkat-an-adorable-and-dynamic-robot/)
+* [Landbeest, A Single Servo Walking Robot](https://hackaday.com/2019/11/29/landbeest-a-single-servo-walking-robot/)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
@@ -63,10 +67,12 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Stick Balances Itself With Reaction Wheels](http://hackaday.com/2016/08/11/stick-balances-itself-with-reaction-wheels/)
 
 # Inverted Pendulum
-* [Inverted Pendulum For The Control Enthusiast ](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)
+* [Inverted Pendulum For The Control Enthusiast](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)
+* [Open-Source inverted pendulum](https://hackaday.io/project/167290-open-source-inverted-pendulum)
 
 # Levitator / Levitation
 * [Ultra Simple Magnetic Levitator](http://hackaday.com/2016/11/05/ultra-simple-magnetic-levitator/)
+* [How to Build a Levitating Light](https://www.sparkfun.com/news/3133)
 * [Electromagnetic levitation device](http://www.instructables.com/id/Levitron-electromagnetic-Levitation-Device/?ALLSTEPS)
 * [Electromagnetic Floater](https://www.instructables.com/id/Electromagnetic-Floater/)
 * [Magnetic Levitation Using Linear Hall Effect Sensors](https://electronics.stackexchange.com/questions/219662/magnetic-levitation-using-linear-hall-effect-sensors)
@@ -82,6 +88,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Juggling Machine Listens to the Bounce to Keep Ball in the Air](https://hackaday.com/2018/07/25/juggling-machine-listens-to-the-bounce-to-keep-ball-in-the-air/)
 * [High-Style Ball Balancing Platform](https://hackaday.com/2019/02/02/high-style-ball-balancing-platform/)
 * [Ball Balancing PID System: 6 Steps (with Pictures)](https://www.instructables.com/id/Ball-Balancing-PID-System/)
+* [Ping-Pong Ball Makes Great PID Example](https://hackaday.com/2019/07/31/ping-pong-ball-makes-great-pid-example/)
 
 # Poppy
 * [Poppy Humanoid Robot](https://www.poppy-project.org/en/)
@@ -154,3 +161,8 @@ Piddy Bot
 | 2 | SPDT Slide Switches | | | | |
 | 4 | Right angle Headers | | | | |
 |   | A bunch of Headers | | | | |
+
+
+# Similar to Balboa
+* [Bobble-Bot Teaches Modern Real-Time Robot Control](https://hackaday.com/2019/11/07/bobble-bot-teaches-modern-real-time-robot-control/)
+* [Bobble-Bot Is a Balancing Robot Designed for Teaching ROS on a Raspberry Pi](https://www.hackster.io/news/bobble-bot-is-a-balancing-robot-designed-for-teaching-ros-on-a-raspberry-pi-1840bc62cd36)

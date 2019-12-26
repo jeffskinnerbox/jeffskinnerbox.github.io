@@ -35,6 +35,11 @@ https://superuser.com/questions/437330/how-do-you-add-a-certificate-authority-ca
 * [How Passwordless Authentication Works](https://dzone.com/articles/how-passwordless-authentication-works?edition=305105&utm_source=weeklydigest&utm_medium=email&utm_campaign=wd2017-06-21)
 * [OAuth 2.0 Beginner's Guide](https://dzone.com/articles/oauth-20-beginners-guide?edition=298102&utm_source=weekly%20digest&utm_medium=email&utm_campaign=wd%202017-05-17)
 
+# Internet Security
+* [An introduction to cryptography and public key infrastructure](https://opensource.com/article/18/5/cryptography-pki)
+* [How internet security works: TLS, SSL, and CA](https://opensource.com/article/19/11/internet-security-tls-ssl-certificate-authority)
+* [Getting started with OpenSSL: Cryptography basics](https://opensource.com/article/19/6/cryptography-basics-openssl-part-1)
+* [How to use OpenSSL: Hashes, digital signatures, and more](https://opensource.com/article/19/6/cryptography-basics-openssl-part-2)
 
 # Understanding IoT Security
 How to Implement Secure Connectivity - https://medium.com/iotforall/securing-your-connectivity-5304c192bea3

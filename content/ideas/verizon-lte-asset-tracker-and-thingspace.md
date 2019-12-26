@@ -1,10 +1,10 @@
+* [What the hell is OAuth?](https://medium.com/@wdevon99/what-the-hell-is-oauth-6ba19f236612)
+* [OAuth 2.0 explained](https://connect2id.com/learn/oauth-2)
 * [An OAuth2 Grant Selection Decision Tree for Securing REST APIs](https://medium.com/scalable/an-oauth2-grant-selection-decision-tree-for-securing-rest-apis-d63b5c0c8900)
 * [When To Use Which (OAuth2) Grants and (OIDC) Flows](https://medium.com/@robert.broeckelmann/when-to-use-which-oauth2-grants-and-oidc-flows-ec6a5c00d864)
-* [OAuth 2.0 explained](https://connect2id.com/learn/oauth-2)
 * [What the Heck is OAuth?](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
 * [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/)
 * [OAuth 2.0 Beginner's Guide](https://dzone.com/articles/oauth-20-beginners-guide)
-* []()
 * []()
 
 # Contacts for Asset Tracker and ThingSpace

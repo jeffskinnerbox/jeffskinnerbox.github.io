@@ -4,6 +4,8 @@
 
 * [MicroPython Unveils New Pyboard D Series Board with STM32F7xx MCU](https://blog.hackster.io/micropython-unveils-new-pyboard-d-series-board-with-stm32f7xx-mcu-a7721bc09877)
 
+* [Micropython and C Play Together Better](https://hackaday.com/2019/08/31/micropython-and-c-play-together-better/)
+
 * [Simple Neural Network on MCUs](https://blog.hackster.io/simple-neural-network-on-mcus-a7cbd3dc108c)
 
 * [Adafruit’s Feather nRF52840 Express Board and Developing with CircuitPython](https://blog.nordicsemi.com/getconnected/adafruits-feather-nrf52840-express-board-and-developing-with-circuitpython)

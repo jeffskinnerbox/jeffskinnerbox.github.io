@@ -2246,6 +2246,9 @@ that could be be battery powered and dropped almost anywhere.
 * [lua-telegram-bot](https://github.com/cosmonawt/lua-telegram-bot)
 * [short tutoral](https://www.domoticz.com/forum/viewtopic.php?t=12443)
 * [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
+* [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
+* [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
+* [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
 
 # Over-The-Air (OTA) Flashing of Firmware
 * [TRANSPARENT ESP8266 WIFI-TO-SERIAL BRIDGE](http://hackaday.com/2015/09/18/transparent-esp8266-wifi-to-serial-bridge/)
@@ -2431,7 +2434,7 @@ bla bla bla
     * [Truly Versatile ESP8266 WiFi Webcam Platform](http://hackaday.com/2016/01/24/truly-versatile-esp8266-wifi-webcam-platform/)
     * [Webserver with NodeMCU/ESP8266 and DHT11](https://www.hackster.io/trimbitei/webserver-with-nodemcu-esp8266-and-dht11-5d4acf?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
     * [How to Make an Interactive TCP Server with NodeMCU on the ESP8266](http://www.allaboutcircuits.com/projects/how-to-make-an-interactive-tcp-server-nodemcu-on-the-esp8266/)
-    * [ESP8266 IoT Energy Monitor](https://www.hackster.io/whatnick/esp8266-iot-energy-monitor-b199ed?utm_source=Hackster.io+newsletter&utm_campaign=bb289b34ff-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-bb289b34ff-140225889&mc_cid=bb289b34ff&mc_eid=9036129d51)
+    * [ESP8266 IoT Energy Monitor](https://www.hackster.io/whatnick/esp8266-iot-energy-monitor-b199ed
     * [GPS Tracker Using NEO 6M and ESP-12](https://www.kolkataonweb.com/code-bank/tag/ai-cloud-inside/)
     * [ESP to WireShark](http://hackaday.com/2017/07/06/esp-to-wireshark/)
     * [WiFi Packet-Monitor | ESP8266 + OLED](https://www.youtube.com/watch?v=RGkqemAGbjU)

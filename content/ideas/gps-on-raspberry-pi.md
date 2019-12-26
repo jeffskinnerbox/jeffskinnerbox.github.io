@@ -1,4 +1,6 @@
 
+* [Building a GPS System](https://www.sparkfun.com/gps)
+* [Building A GPS With Bug Eyes And Ancient Wisdom](https://hackaday.com/2019/09/06/building-a-gps-with-bug-eyes-and-ancient-wisdom/)
 
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [Adafruit Ultimate GPS on the Raspberry Pi](https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all)
@@ -36,6 +38,21 @@
 converts waypoints, tracks, and routes between popular GPS receivers such as Garmin or Magellan and mapping programs like Google Earth or Basecamp.
 It also has powerful manipulation tools for such data. such as filtering duplicates points or simplifying tracks.
 
+
+
+
+
+
+
+I investigate here two GPS solutions for the Raspberry Pi:
+
+* [Adafruit's GPS Breakout][01] which uses the [MediaTek MTK3339 chipset][02]
+* [Ozzmaker BerryGPS-IMU V3][27] which uses the [uBlox CAM-M8][30]
+but also has [IMU sensor LSM9DS1][28] [Barometric Sensor BMP280][29]
+
+
+
+----
 
 
 [!ultimate-gps](https://cdn-learn.adafruit.com/assets/assets/000/003/714/medium640/raspberry_pi_gps_pi_usbconnection2.jpg?1396801034)
@@ -96,6 +113,8 @@ and the newly launched (started in 2005) L2 GPS band.
 * [The central place of GPS in our lives](https://plus.maths.org/content/recognising-place-gps-has-our-lives?nl=0)
 * [How Etak Paved the Way to Personal Navigation](https://hackaday.com/2018/06/29/how-etak-paved-the-way-to-personal-navigation/)
 * [An Introduction to GNSS](https://www.novatel.com/an-introduction-to-gnss/chapter-1-gnss-overview/)
+* [New-Age Satellite-Based Navigation STAN: Simultaneous Tracking and Navigation with LEO Satellite Signals](https://insidegnss.com/new-age-satellite-based-navigation-stan-simultaneous-tracking-and-navigation-with-leo-satellite-signals/)
+* [Tracking The Satellites That Keep Us On Track; Monitoring GPS, Galileo, BeiDou, And GLONASS](https://hackaday.com/2019/09/24/tracking-the-satellites-that-keep-us-on-track-monitoring-gps-galileo-beidou-and-glonass/)
 
 # Global Navigation Satellite Systems (GNSS)
 Global Navigation Satellite Systems (GNSS) is the acronym that encompasses
@@ -148,9 +167,7 @@ Differential Global Positioning Systems (DGPS) are enhancements to the Global Po
 ## Language of GPS
 Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%202005.pdf
 
-# Get GPS Working on Raspberry Pi
-
-# Pulse Per Second (PPS) Signal from the GPS
+## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
@@ -159,6 +176,12 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 * [What’s More Accurate than a GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
     * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
+
+
+----
+
+
+# Get Adafruit's GPS Breakout Working on Raspberry Pi
 
 ## Step X: GPS Module Pinouts - DONE
 [Adafruit's tutorial][05] provides an excellent description of the GPS module pins
@@ -445,6 +468,14 @@ while True:
 * [7 of the Best Free Linux GPS Tools](http://www.linuxlinks.com/article/20110522052357647/GPSTools.html)
 
 
+----
+
+
+# Get Ozzmaker's BerryGPS-IMU V3 Working on Raspberry Pi
+
+
+
+
 
 [01]:https://www.adafruit.com/product/746
 [02]:https://cdn-shop.adafruit.com/datasheets/GlobalTop-FGPMMOPA6C-Datasheet-V0A-Preliminary.pdf
@@ -472,7 +503,17 @@ while True:
 [24]:https://gnss-sdr.org/
 [25]:http://geostar-navi.com/files/docs/geos3/geos_nmea_protocol_v3_0_eng.pdf
 [26]:https://www.sparkfun.com/products/15192
-[27]:
-[28]:
-[29]:
-[30]:
+[27]:http://ozzmaker.com/product/berrygps-imu/
+[28]:https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide/all
+[29]:https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview
+[30]:https://cdn.sparkfun.com/assets/0/b/0/f/7/u-blox8-M8_ReceiverDescrProtSpec__UBX-13003221__Public.pdf
+[31]:
+[32]:
+[33]:
+[34]:
+[35]:
+[36]:
+[37]:
+[38]:
+[39]:
+[40]:

@@ -26,7 +26,13 @@
 * [wit.ai](https://wit.ai/)
 * [Melissa - A lovely virtual assistant for OS X, Windows and Linux systems](https://github.com/melissa-ai)
 * [J.A.R.V.I.S. : A Virtual Home Assistant](https://www.hackster.io/blitzkrieg/j-a-r-v-i-s-a-virtual-home-assistant-d61255?utm_source=Hackster.io+newsletter&utm_campaign=e60e593e75-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-e60e593e75-140225889&mc_cid=e60e593e75&mc_eid=9036129d51)
+
 * [Telegram Bot Platform](https://telegram.org/blog/bot-revolution)
+* [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
+* [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
+* [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
+* [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
+
 * [ReSpeaker 2 Mics Pi HAT for Alexa Voice Service, Google Assistant](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=new_0606)
 
 # YouTube Integrations

@@ -122,3 +122,7 @@ and make your ESP32 multitasking?
 
 # Swagger UI
 * [ESP8266 Tutorial: Adding Swagger UI to REST AP](https://everythingesp.com/esp8266-tutorial-adding-swagger-ui-to-rest-api/)
+
+# ESP32 Long-Range
+* [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
+* [Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A)

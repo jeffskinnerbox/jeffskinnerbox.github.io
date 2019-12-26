@@ -46,6 +46,7 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * [Bash Bunny](https://www.hak5.org/gear/bash-bunny)
     * [Build an Affordable Bash Bunny with a Raspberry Pi Zero W](https://blog.hackster.io/build-an-affordable-bash-bunny-with-a-raspberry-pi-zero-w-11a4abf7bde5)
 * [Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
+* [Open Hardware Rubber Ducky](https://hackaday.com/2019/07/24/an-open-hardware-rubber-ducky/)
 * [BadUSB](https://opensource.srlabs.de/projects/badusb)
 * [PoisonTap](https://samy.pl/poisontap/)
 * [USBdriveby](http://samy.pl/usbdriveby/)

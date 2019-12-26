@@ -14,7 +14,9 @@
 * [Cluster computing on the Raspberry Pi with Kubernetes](https://opensource.com/life/16/2/build-a-kubernetes-cloud-with-raspberry-pi)
 
 ## Using Raspberry Pi for Hadoop Cluster
+* [Raspberry Pi Supercomputer Cluster](https://www.youtube.com/watch?v=VzcarXuVUvU)
 * [Creating a Raspberry Pi-Based Beowulf Cluster](http://coen.boisestate.edu/ece/files/2013/05/Creating.a.Raspberry.Pi-Based.Beowulf.Cluster_v2.pdf)
+* [Build a Raspberry Pi cluster computer](https://www.blogdot.tv/build-a-raspberry-pi-cluster-computer/)
 * [Tiny Titan is a sub-$1,000 classroom supercomputer](http://tinytitan.github.io/)
 * [GCHQ Builds A Raspberry Pi Cluster](http://www.i-programmer.info/news/91-hardware/8385-gchq-builds-a-raspberry-pi-cluster.html)
 * [Raspberry Pi Zero Cluster Packs a Punch](https://hackaday.com/2016/01/25/raspberry-pi-zero-cluster-packs-a-punch/#more-187972)

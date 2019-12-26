@@ -2,7 +2,6 @@
 * [Azure IoT Edge LoRaWAN Starter Kit](https://github.com/Azure/iotedge-lorawan-starterkit)
 
 
-
 # Adafruit Products
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
 * [Adafruit RFM69HCW and RFM9X LoRa Packet Radio Breakouts](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/overview)
@@ -11,6 +10,10 @@
 * [Introduction to the RFM69HW Transceiver](http://www.allaboutcircuits.com/projects/introduction-to-the-rfm69hw-transceiver/)
 * [Adafruit Feather](https://www.adafruit.com/feather)
 * [Adafruit RadioFruit](https://www.adafruit.com/?q=radiofruit)
+
+# Long Range Mode for ESP32
+* [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
+* [Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A)
 
 # Comcast / MachineQ
 * [Starter Kit](https://machineq.com/iot-starter-kit/)
@@ -53,12 +56,12 @@
 * [ESP32 based TTGO T-Beam LoRa + GPS](https://www.youtube.com/watch?v=fK4YQROD9Ps)
 * [The TTGO T-Beam, an ESP32 LoRa Board](https://blog.hackster.io/the-ttgo-t-beam-an-esp32-lora-board-d44b08f18628)
 * [TTGO T-Beam // ESP32, GPS, LoRa & Bluetooth](https://www.youtube.com/watch?v=xrOo5SROzD8)
+* [GPS Mapper for The Things Network (TTN) - LoRaWAN](https://www.hackster.io/fablabeu/gps-mapper-for-the-things-network-ttn-lorawan-584ed7)
 
 # H2020 WAZIUP & WAZIHUB projects
 * https://github.com/CongducPham/tutorials
 * [Low-cost LoRa IoT & gateway with SX1272/76, Raspberry and Arduino](https://github.com/CongducPham/LowCostLoRaGw)
 * [A DIY low-cost LoRa gateway](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html)
-
 
 # LoStik
 * [LoStik](https://www.crowdsupply.com/third-venture/lostik)
@@ -81,6 +84,10 @@
 # RakWireless RAK831 Solution
 * [Configuring a LoRaWAN Gateway for The Things Network](https://www.hackster.io/nootropicdesign/configuring-a-lorawan-gateway-for-the-things-network-b3b1f2)
 * [Using LoRaWAN End Devices on The Things Network](https://www.hackster.io/nootropicdesign/using-lorawan-end-devices-on-the-things-network-206a86)
+
+# Odd Applications
+* [ZOMBIES ATE YOUR NEIGHBORS? TELL EVERYONE THROUGH LORA!](https://hackaday.com/2019/12/04/zombies-ate-your-neighbors-tell-everyone-through-lora/)
+* [LoRa Mesh Chat](https://www.hackster.io/scottpowell69/lora-mesh-chat-5267d9)
 
 
 
@@ -297,6 +304,7 @@ and dense urban area or indoor scenarios, the maximum range is about 2kms (1.2 m
 [LoRa can even work underground][17].
 
 * [LoRa Spreading Factor & Data Rate](https://www.youtube.com/watch?v=B580NvdXtjs)
+* [How Spreading Factor affects LoRaWAN device battery life](https://www.thethingsnetwork.org/article/how-spreading-factor-affects-lorawan-device-battery-life)
 
 # Some LoRa History
 * https://www.instructables.com/id/Introducing-LoRa-/
@@ -434,6 +442,7 @@ like [The Things Network][14], [scriptr;][11].
 
 * [LoRa Videos](https://www.youtube.com/playlist?list=PL3XBzmAj53Rkkogh-lti58h_GkhzU1n7U)
 * [Getting Started with LoRa](https://www.hackster.io/idreams/getting-started-with-lora-fd69d1)
+* [LoRa Devloper Portal](https://lora-developers.semtech.com/)
 
 # The Things Network
 ![img](http://thethingsnetwork.org/static/ttn/media/The%20Things%20Uitlijning.svg)
@@ -529,6 +538,9 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 * [Build your own gateway](https://www.thethingsnetwork.org/docs/gateways/start/build.html)
 
 #### RAK 831
+* [Raspberry Pi 4 based LoRaWAN gateway has GPS and optional LTE](http://linuxgizmos.com/raspberry-pi-4-based-lorawan-gateway-has-gps-and-optional-lte/)
+* [RAK7244 LoRaWAN Developer Gateway](https://store.rakwireless.com/products/rak7244-developer-lorawan-gateway)
+
 [RAK831](https://www.rakwireless.com/en/WisKeyOSH/RAK831) is a RF front end of a LoRa gateway.
 It is able to receive on different frequency channels at the same time
 and is able to demodulate the LoRa signal without knowledge
@@ -543,6 +555,7 @@ to a main board computer or microcontroller.
 * [Getting started with the RAK 831 Lora Gateway on RPi Zero W](https://www.hackster.io/naresh-krish/getting-started-with-the-rak-831-lora-gateway-on-rpi-zero-w-c95fed)
 * [RAK831 LoRaWAN Gateway with a Raspberry Pi Zero](https://www.thethingsnetwork.org/community/berlin/post/196-rak831-lorawan-gateway-with-a-raspberry-pi-zero-project)
 * [SparkFun LoRa Raspberry Pi Gateway with Enclosure](https://www.sparkfun.com/products/14869)
+* [8 Channel LoRa Gateway Kit comes with Raspberry Pi, LoRa and GPS](https://www.adafruit.com/product/4327)
 
 
 

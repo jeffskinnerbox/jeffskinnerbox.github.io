@@ -7,6 +7,10 @@ it pushes you a notification triggered by a digital input.
 
 ###############################################################################
 
+* [The Amazon Dash Button: A Retrospective](https://hackaday.com/2019/08/27/the-amazon-dash-button-a-retrospective/)
+* [Amazon Dash Buttons Are Dead, But Here's What You Can Do With Yours](https://www.dailydot.com/debug/amazon-dash-buttons-what-to-do-hacks/)
+* [Orphaned Amazon Dash Buttons Ripe For Hacking](https://hackaday.com/2019/08/05/orphaned-amazon-dash-buttons-ripe-for-hacking/)
+
 * [Pre-configured Amazon AWS deep learning AMI with Python](http://www.pyimagesearch.com/2017/09/20/pre-configured-amazon-aws-deep-learning-ami-with-python/)
 
 The Amazon Dash Button is a tiny WiFi-enabled device that’s

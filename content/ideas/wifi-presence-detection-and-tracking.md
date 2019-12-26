@@ -111,6 +111,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 ## DNS Tunneling
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
 * [DNS Tunneling: Getting The Data Out Over Other Peoples’ WiFi](http://hackaday.com/2016/08/07/getting-the-data-out-over-other-peoples-wifi/)
+* [hy big ISPs aren’t happy about Google’s plans for encrypted DNS](https://arstechnica.com/tech-policy/2019/09/isps-worry-a-new-chrome-feature-will-stop-them-from-spying-on-you/)
 * [Nameserver Transfer Protocol (NSTX)](http://thomer.com/howtos/nstx.html)
 * [iodine](http://code.kryo.se/iodine/)
 * [dnscat2 – DNS Tunnel Tool](http://www.darknet.org.uk/2016/01/dnscat2-dns-tunnel-tool/)

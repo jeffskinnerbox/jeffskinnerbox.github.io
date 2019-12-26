@@ -90,6 +90,8 @@ On Debian Linux, tc comes bundled with iproute, so in order to install it you ha
 * According to [this article](https://raspberrypi.stackexchange.com/questions/48307/sharing-the-pis-wifi-connection-through-the-ethernet-port),
 Network Manager can conflict with dhcpd (the default manager on Raspbian), hence you may need to disable dhcpd.
 
+* [Pack Your Bags – Systemd Is Taking You To A New Home](https://hackaday.com/2019/10/16/pack-your-bags-systemd-is-taking-you-to-a-new-home/)
+
 NetworkManager is a service for Linux which manages various networking interfaces,
 including physical such as Ethernet and wireless,
 and virtual such as VPN and other tunnels.
@@ -155,12 +157,13 @@ any interface not listed there will remain under NetworkManager control.
     * [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
 ####################
 
-* Tools to Query about Your or Other IP Addresses
+* **Tools to Query about Your or Other IP Addresses**
     * [What is my IP Address][41]- Your IP address and location can be found using this tool.
     * [Lookup IP Address Location][42] - If you can find out the IP address of an Internet user, you can get an idea what part of the country or world they're in by using our IP Lookup tool.
     * [Find Email Address Source][43] - how to find and copy an email header and paste it into the Trace Email Analyzer to get the sender's IP address and track the source.
     * [How to Hide Your IP Address][44] - Borrow a different IP address to go anywhere online and stay hidden.
-* Tools for Querying / Configuring IP Network
+
+* **Tools for Querying / Configuring IP Network**
     * [`ip`][17] shows and manipulates routing, devices, policy routing, and tunnels
     * [`ifconfig`][16] is a network interface configuration, control, and query tool.
     The `ifconfig` command is deprecated and you can replace `ifconfig` by `ip link`.
@@ -180,7 +183,8 @@ any interface not listed there will remain under NetworkManager control.
     It is primarily used to setup static routes to specific host or networks via an interface.
     * [`nslookup`][28] is a tool for querying the Domain Name System (DNS) to obtain domain name
     or IP address mapping or for any other specific DNS record.
-* Tools for Querying / Configuring WiFi
+
+* **Tools for Querying / Configuring WiFi**
     * [`iw`][02] show / manipulate wireless devices and their configuration.
     It is also used in the system startup scripts of many operating systems.
     * [`iwconfig`][18] is used to display and change the parameters of the
@@ -194,9 +198,10 @@ any interface not listed there will remain under NetworkManager control.
     * [`iwlist`][12] allow to initiate scanning and list frequencies, bit-rates, encryption keys, etc.
     **Example Usage:** `iwlist wlan0 scan`
     * [`wpa_supplicant`][03]
-* Tools for Monitoring / Controlling Network Time
 
-* Tools for Monitoring / Scanning IP Network
+* **Tools for Monitoring / Controlling Network Time**
+
+* **Tools for Monitoring / Scanning IP Network**
     * [`nmap`][29] (network mapper) is a security tool for network exploration,
     q security scanning, and auditing.
     `nmap` sends specially crafted packets to discover hosts and services on a computer network,
@@ -223,7 +228,8 @@ any interface not listed there will remain under NetworkManager control.
     kilobytes per second, average packet sizes and more.
     **Example Usage:** `nicstat -i wlan0 1`
     * nethogs & iftop - http://www.tecmint.com/nethogs-monitor-per-process-network-bandwidth-usage-in-real-time/
-* Tools for Monitoring / Scanning WiFi
+
+* **Tools for Monitoring / Scanning WiFi**
     * [`wavemon`][07] is a ncurses-based monitoring application for wireless network devices.
     It displays continuously updated information about signal levels, as well as,
     wireless-specific and general network information.
@@ -236,7 +242,8 @@ any interface not listed there will remain under NetworkManager control.
     * [`iwspy`][33] is used to set a list of addresses to monitor in a
     wireless network interface and to read back quality of link information for each of those.
     * [`rfkill`][61] - tool for enabling and disabling wireless devices
-* IP Network Packet Analysis
+
+* **IP Network Packet Analysis**
     * [`tcpdump`][31] is a common packet analyzer that runs under the command line.
     It allows the user to display TCP/IP and other packets being transmitted or
     received over a network to which the computer is attached.
@@ -248,24 +255,32 @@ any interface not listed there will remain under NetworkManager control.
     * [`tshark`][35] the command-line version of Wireshark.
     The main advantage of tshark is that it can be used in scripts.
     Its main disadvantage is that it does not have a GUI.
-* IP Performance
+
+* **Linux Performance Monitoring**
+    * [`vmstat`][89] is a tool that collects and reports data about your system’s memory, swap,
+    and processor resource utilization in real time.
+    It can be used to determine the root cause of performance and issues related to memory use.
+
+* **IP Performance**
     * [iPerf3][56] is a tool for active measurements of the maximum achievable bandwidth on IP networks.
     It supports tuning of various parameters related to timing, bandwidth, loss, and other parameters.
-* IP Networking Utilities
+
+* **IP Networking Utilities**
     * [`ping`][25] (Packet Internet Gropper) is like a sonar pulse sent to detect another IP address.
     It is used to test the connection and latency between two network connections.
     * [prettyping](http://denilson.sa.nom.br/prettyping/)
     runs the standard `ping` in background and parses its output,
     showing ping responses in a colorful, graphical, easier to read way at the terminal.
+    * [`traceroute`][26] (trace route) is a diagnostic tool for displaying the route
+    (path) and measuring transit delays of packets across an IP network.
+    * [`mtr` aka My TraceRoute or Matt's TraceRoute][70] combines the functions of the traceroute
+    and ping programs in one network diagnostic tool.
+    The Windows equivalent is [`pingpath`][84].
     * [`cryping`][69] is a `ping` like command line utility that extends the functionality
     of the traditional `ping` command to include ping individual specific ports,
     ping HTTP, SMTP, POP3 or NNTP services, time stamps, audible alarms, etc.
     * [`dig`][59] (domain information groper) is a flexible tool for interrogating DNS name servers.
     It performs DNS lookups and displays the answers that are returned from the name server(s) that were queried.
-    * [`traceroute`][26] (trace route) is a diagnostic tool for displaying the route
-    (path) and measuring transit delays of packets across an IP network.
-    * [`mtr` aka My TraceRoute or Matt's TraceRoute][70] combines the functions of the traceroute
-    and ping programs in one network diagnostic tool.
     * [`netcat` or `nc`][22] is a [highly functional][21] Unix utility which reads and writes data
     across network connections, using TCP or UDP protocol.
     It is designed to be a reliable "back-end" tool that can
@@ -278,14 +293,27 @@ any interface not listed there will remain under NetworkManager control.
     and receive/send data in a terminal like environment.
     * [`blucat`](http://blucat.sourceforge.net/blucat/) is netcat for Bluetooth
     data across networks from the command line.
-    Ncat was written a much-improved reimplementation of `netcat`. `ncat` will work with IPv4,
-    IPv6, and has many potential uses.
-    * [`telnet`][24] (teletype network) is both a protocol which is part of the TCP/IP suite
-    providing a bidirectional interactive text-oriented communication facility
-    and a und line ser interface to the protocol.
+    Ncat was written a much-improved reimplementation of `netcat`.
+    `ncat` will work with IPv4, IPv6, and has many potential uses.
+
+* **Terminal Access**
+    * [`telnet`][24] ([teletype network][85]) is a computer protocol that provides
+    two-way interactive communication used on the Internet
+    or local area network to provide text-oriented
+    communication facility using a virtual terminal connection.
     **Example Usage:** `telnet 192.168.8.1`
+    * [`ssh`][]
+    * [`tmux`][88] is a terminal multiplexer that allows us to create multiple sessions
+    that act roughly like terminal windows, create windows that act like tabs,
+    and create panes that let us split `tmux` windows horizontally and vertically.
+    * [`tty-share`][86] is a command line tool that you could use to share your
+    remote access terminal session with somebody. To make the setup easy,
+    your session is in a terminal but a browser is used for the remote end.
+    * [`tmate`][87] is built on top of `tmux` and is very similar to `tty-share`
+    but requires a `ssh` terminal session on the remote end.
 
 ################################################################################
+
 fprobe, nfcapd, and nfdump
 fprobe is a tools that listens to an interface, collects network traffic data, and creates NetFlow records while nfdump reads and displays the NetFlow files stored by the nfcapd NetFlow capture daemon. Engineers can run nfcapd on the same machine as fprobe or on a different computer and use it to collects flows from multiple sources and put into directories. Nfdump can be used to create top N lists such as conversations and protocols.
 
@@ -312,8 +340,16 @@ This tool is used in command lines or scripts to transfer data, usually to and f
 
 Elasticsearch, Logstash, and Kibana (ELK)
 The open source ELK stack enables data collection and search. Logstash collects data such as syslog and local log files, and formats and writes the data to Elasticsearch. Kibana provides an interface to visualize the stored data and creates dashboards.
+
 ################################################################################
+
+# Network Bandwidth Monitoring
+* [18 commands to monitor network bandwidth on Linux server](https://www.binarytides.com/linux-commands-monitor-network/)
+* [Best Tools To Monitor Network Bandwidth On A Linux Server](https://phoenixnap.com/kb/linux-network-bandwidth-monitor-traffic)
+* [How to display network traffic in the terminal?](https://askubuntu.com/questions/257263/how-to-display-network-traffic-in-the-terminal)
+
 ################################################################################
+
 [Howto Check Wireless link quality in Ubuntu Linux](http://www.ubuntugeek.com/howto-check-wireless-link-quality-in-ubuntu-linux.html)
 [A tcpdump Tutorial and Primer](https://danielmiessler.com/study/tcpdump/)
 [An introduction to using tcpdump at the Linux command line](https://opensource.com/article/18/10/introduction-tcpdump)
@@ -756,8 +792,30 @@ This helps avoid confusion between names that are local Bonjour computer names
 ################################################################################
 
 
-# SSH - Remote Unix Work
-[Tips for remote Unix work: SSH, screen, and VNC](http://shebang.brandonmintern.com/tips-for-remote-unix-work-ssh-screen-and-vnc/)
+# Secure Shell (SSH)
+Secure Shell (SSH) is a cryptographic network protocol for operating network services
+securely over an unsecured network.
+Typical applications include remote command-line, login, and remote command execution,
+but any network service can be secured with SSH.
+
+* [Linux Fu: Stupid SSH Tricks](https://hackaday.com/2019/12/17/linux-fu-stupid-ssh-tricks/)
+
+## Eliminate SSH Keys and use a GPG Keys Instead
+* [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
+* [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
+
+## Share Terminal Access (tty-share)
+tty-share enables you to do terminal sharing over the Internet.
+Its an extremely simple means for a remote person to join a shared session you establish.
+
+## Temporary Allow SSH Logins (ssh-allow-friend)
+https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
+
+
+## SSH - Remote Unix Work
+* [Tips for remote Unix work: SSH, screen, and VNC](http://shebang.brandonmintern.com/tips-for-remote-unix-work-ssh-screen-and-vnc/)
+* [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
+* [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
 
 ## The'Connection Refused' Message
 * [What causes the 'Connection Refused' message?](http://serverfault.com/questions/725262/what-causes-the-connection-refused-message)
@@ -1491,9 +1549,53 @@ default via 192.168.1.1 dev eth1  proto static
 ## Diagnosing Routing Problems
 http://www.coyotepoint.com/files/downloads/StaticRoutes.pdf
 
-## Using Traceroute and MTR to Diagnose Network Issues
+## Using, Ping Traceroute, and MTR to Diagnose Network Issues
+http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
+
+### `ping`
+http://www.cyberciti.biz/faq/unix-ping-command-examples/
+http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
+http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/
+http://www.sanfoundry.com/10-ping-command-usage-examples-linux/
+http://www.computerhope.com/unix/arp.htm
+http://www.cyberciti.biz/faq/linux-traffic-shaping-using-tc-to-control-http-traffic/
+
+### `traceroute`
+`traceroute` attempts to trace the route an IP packet would follow to some Internet host
+by launching probe packets with a small TTL (time to live)
+then listening for an ICMP "time exceeded" reply from a gateway.
+
+ It start its probes with a TTL of one and increases this by one until
+ it gets an ICMP "port unreachable" (or TCP reset), which means we got to the "host",
+ or hit a max (which defaults to 30 hops).
+ Three probes (by default) are sent at each TTL setting and a line is printed showing the TTL,
+ address of the gateway and round trip time of each probe.
+ The address can be followed by additional information when requested.
+ If the probe answers come from different gateways,
+ the address of each responding system will be printed.
+ If there is no response within a 5.0 seconds (default),
+ an "*" (asterisk) is printed for that probe.
+
+* [Traceroute Command for Linux](https://www.lifewire.com/traceroute-linux-command-4092586)
+* [traceroute command in Linux with Examples](https://www.geeksforgeeks.org/traceroute-command-in-linux-with-examples/)
+
+### `mtr`
+* [How to use the Linux mtr (My Traceroute) command](https://vitux.com/how-to-use-the-linux-mtr-command/)
 * [Diagnosing Network Issues with MTR](https://www.linode.com/docs/networking/diagnostics/diagnosing-network-issues-with-mtr)
+* [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
+* [What is MTR & How to Use to Troubleshoot & Test your Connections](https://www.pcwdld.com/what-is-mtr-and-howto-troubleshoot-connections)
+
+`mtr` combines the functionality of the `traceroute` and `ping` programs
+in a single network diagnostic tool.
+
+`mtr` probes the intermedate network hop between the host `mtr` runs on
+and the user-specified destination host.
+It first determines the address of each network hop between the machines,
+it then sends a sequence [ICMP ECHO requests][83] (aka pings) to each one
+to determine the quality of the link to each machine. As it does this,
+it prints running statistics about each machine.
+
 
 # Network Address Translation (NAT)
 * [Network Address Translation (NAT) Tutorial](http://www.karlrupp.net/en/computer/nat_tutorial)
@@ -1527,6 +1629,7 @@ sudo /sbin/iptables -L
 # Firewall
 * [The Linux Firewall](http://code.tutsplus.com/tutorials/the-linux-firewall--net-31748)
 * [Secure your Linux network with firewall-cmd](https://www.redhat.com/sysadmin/secure-linux-network-firewall-cmd)
+* [Five Firewall Configuration Mistakes You Need to Avoid](https://www.networkcomputing.com/network-security/five-firewall-configuration-mistakes-you-need-avoid)
 
 Linux comes with a host based [firewall][39] called [`netfilter`][36]
 (or sometimes called "iptables" after the tool used to manage netfilter).
@@ -1564,6 +1667,10 @@ If you lose access due to your firewall settings,
 you may need to connect to it via the console to fix your access.
 Once you are connected via the console, you can change your firewall rules to allow SSH access.
 If your currently saved firewall rules allow SSH access, another method is to reboot your system.
+
+[`firewalld`](https://firewalld.org/) provides a dynamically managed firewall via a service daemon.
+
+* [Make Linux stronger with firewalls](https://opensource.com/article/19/7/make-linux-stronger-firewalls)
 
 ## Understanding Firewall Chains
 [![iptables diagram](http://static.thegeekstuff.com/wp-content/uploads/2011/01/iptables-table-chain-rule-structure.png "iptables firewall is used to manage packet filtering and NAT rules. IPTables comes with all Linux distributions. Understanding how to setup and configure iptables will help you manage your Linux firewall effectively.")](http://www.thegeekstuff.com/2011/01/iptables-fundamentals/)
@@ -2319,13 +2426,13 @@ could be gathered for this cheat sheet.
 [80]:http://www.pool.ntp.org/en/
 [81]:https://www.tecmint.com/set-time-timezone-and-synchronize-time-using-timedatectl-command/
 [82]:https://linux.die.net/man/8/ntpdate
-[83]:
-[84]:
-[85]:
-[86]:
-[87]:
-[88]:
-[89]:
+[83]:https://www.howtogeek.com/howto/windows-vista/allow-pings-icmp-echo-request-through-your-windows-vista-firewall/
+[84]:https://www.clouddirect.net/knowledge-base/KB0011455/using-traceroute-ping-mtr-and-pathping
+[85]:https://www.lifewire.com/what-does-telnet-do-2483642
+[86]:https://tty-share.com/
+[87]:https://tmate.io/
+[88]:https://danielmiessler.com/study/tmux/
+[89]:https://www.linode.com/docs/uptime/monitoring/use-vmstat-to-monitor-system-performance/
 [90]:
 [91]:
 [92]:

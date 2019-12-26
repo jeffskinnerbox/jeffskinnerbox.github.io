@@ -1,6 +1,25 @@
 
 * [How to kill a process or stop a program in Linux](https://opensource.com/article/18/5/how-kill-process-stop-program-linux)
 
+# File Magic
+A "[shebang][13]" is the character sequence consisting of the characters number sign and exclamation mark (`#!`)
+at the beginning of a script.
+The `#!` syntax used in scripts to indicate an interpreter for execution under UNIX / Linux operating systems.
+Therefore many Linux shell and perl / python script starts with the following line:
+`#!/bin/bash` or `#!/usr/bin/perl` or `#!/usr/bin/python`.
+
+* [Linux Fu: Shell Scripts In C, C++, And Others](https://hackaday.com/2019/09/17/linux-fu-shell-scripts-in-c-c-and-others/)
+
+# Named Pipes
+a named pipe (also known as a FIFO for its behavior)
+is an extension to the traditional pipe concept on Unix.
+A traditional pipe is "unnamed" and lasts only as long as the process.
+A named pipe, however, can last as long as the system is up, beyond the life of the process.
+It can be deleted if no longer used.
+Usually a named pipe appears as a file, and generally processes attach to it for IPC.
+
+* [Linux Fu: Named Pipe Dreams](https://hackaday.com/2019/07/12/linux-fu-named-pipe-dreams/)
+
 # Linux System Monitoring
 * [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring?sc_cid=70160000000lcFhAAI)
 * [How To Monitor Your Ubuntu 16.04 System with Sysdig](https://www.digitalocean.com/community/tutorials/how-to-monitor-your-ubuntu-16-04-system-with-sysdig)
@@ -74,6 +93,15 @@ Daemon
 * <Ctrl>-C - stop the current program associated with your terminal. (sending SIGINT to it)
 
 `setsid` is useful when you want to start a new session, because you have started to be connected to a new terminal -- such as when starting a shell inside a terminal emulator -- or you want a daemon (which you don't want to be associated with a controlling terminal).
+
+# sudo
+According to the [sudo website][12]:
+"Sudo allows a system administrator to delegate authority by giving certain users
+the ability to run some commands as root or another user while providing an
+audit trail of the commands and their arguments."
+
+* [What you probably didn’t know about sudo](https://opensource.com/article/19/10/know-about-sudo)
+* [sudo blog](https://blog.sudo.ws/)
 
 # Nohup vs. Screen vs. Setid
 One thing must be clarified, using [screen][06] and nohup, you can return and check the output of the running commands, with screen because you can attach a screen session, and with nohup, because you can check the output file.
@@ -170,9 +198,11 @@ Most are rather obscure, but a few should be committed to memory:
 |    15      |   SIGTERM   | Termination signal. This signal is given to processes to terminate them. Again, programs can process this signal and act upon it. You can also issue this signal directly by typing control-c in the terminal window where the program is running. This is the default signal sent by the kill command if no signal is specified. |
 |     9      |   SIGKILL   | Kill signal. This signal causes the immediate termination of the process by the Linux kernel. Programs cannot listen for this signal. |
 
+* [Linux Fu: It’s A Trap!](https://hackaday.com/2019/08/26/linux-fu-its-a-trap/)
+
 # Cause a process to become a daemon
 * [Cause a process to become a daemon](http://www.microhowto.info/howto/cause_a_process_to_become_a_daemon.html)
-* [daemonizing bashhttp://blog.n01se.net/blog-n01se-net-p-145.html)
+* [daemonizing bash](http://blog.n01se.net/blog-n01se-net-p-145.html)
 
 # Screen
 ![vt-100](https://en.wikipedia.org/wiki/VT100#/media/File:DEC_VT100_terminal.jpg)
@@ -186,8 +216,8 @@ This allows you to run several instances of programs out of one terminal window.
 It can also maintain a persistent session, even when you aren’t connected,
 so if you set it up on a server, you can connect, start a process, disconnect,
 and return to it at a later date.
-Each virtual terminal provides the functions of a classic, but de facto standard, [DEC VT100 terminal][11]
-([and a bit more functionality][10]).
+Each virtual terminal provides the functions of a classic, but de facto standard,
+[DEC VT100 terminal][11] ([and a bit more functionality][10]).
 On Ubuntu, can install `screen` via `sudo apt-get install screen`.
 
 ```bash
@@ -431,8 +461,8 @@ and you can use ps or top to verify that the job is actually still running.
 [09]:https://www.digitalocean.com/community/tutorials/how-to-install-and-use-screen-on-an-ubuntu-cloud-server
 [10]:http://www.computerhope.com/unix/screen.htm
 [11]:https://en.wikipedia.org/wiki/VT100
-[12]:
-[13]:
+[12]:https://www.sudo.ws/
+[13]:https://www.in-ulm.de/~mascheck/various/shebang/
 [14]:
 [15]:
 [16]:

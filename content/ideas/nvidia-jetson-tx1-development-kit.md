@@ -31,6 +31,8 @@
 
 * [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
 
+* [RK3399Pro vs Raspberry Pi 4 vs Jetson Nano – AI and Deep Learning Capabilities](https://www.seeedstudio.com/blog/2019/12/05/rk3399pro-vs-raspberry-pi-4-vs-jetson-nano-ai-and-deep-learning-capabilities/)
+
 
 # Snap
 Canonical has deployed Snappy Ubuntu Core,
@@ -94,6 +96,7 @@ Maxwell is NVIDIA's 2014 GPU architecture succeeding its Kepler GPU architecture
 * [NVIDIA JTX1: Finally An Exciting 64-bit ARM Board!](https://www.phoronix.com/scan.php?page=article&item=nvidia-tegra-jtx1&num=1)
 * [Everything You Need To Know About The NVIDIA Jetson TX1 Performance](https://www.phoronix.com/scan.php?page=article&item=nvidia-jtx1-perf&num=1)
 
+* [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://blog.hackster.io/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797)
 * [Hands-On: New Nvidia Jetson Nano is More Power In A Smaller Form Factor](https://hackaday.com/2019/03/18/hands-on-new-nvidia-jetson-nano-is-more-power-in-a-smaller-form-factor/)
 * [Hands On With Nvidia's New Jetson Nano](https://www.extremetech.com/computing/288153-hands-on-with-nvidias-new-jetson-nano)
 * [Google Coral Edge TPU vs NVIDIA Jetson Nano: A quick deep dive into EdgeAI performance](https://blog.usejournal.com/google-coral-edge-tpu-vs-nvidia-jetson-nano-a-quick-deep-dive-into-edgeai-performance-bc7860b8d87a)
@@ -119,6 +122,7 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 
 # Software
 [JetPack 3.2 SDK for NVIDIA Jetson](https://developer.nvidia.com/embedded/jetpack?ncid=em-ded-jk32-33601)
+[JetPack 4.3 SDK for NVIDIA Jetson](https://www.seeedstudio.com/blog/2019/12/19/jetpack-4-3-released-for-your-jetson-modules)
 bundles the complete Jetson platform software—including
 TensorRT, cuDNN, CUDA Toolkit, NVIDIA VisionWorks™, GStreamer,
 and OpenCV—all built on top of L4T with LTS Linux kernel.
@@ -132,6 +136,7 @@ Jetson Software - https://developer.nvidia.com/embedded/develop/software
 NVIDIA Software -
 * [NVIDIA Deep Learning GPU Training System (DIGITS)](https://developer.nvidia.com/digits)
 * CUDA and cuDNN
+* [CUDA Is Like Owning A Supercomputer](https://hackaday.com/2018/03/19/cuda-is-like-owning-a-supercomputer/)
 * [NVIDIA Deep Learning Accelerator (NVDLA)](http://nvdla.org/)
 
 # Jetson TX1 Enclosure

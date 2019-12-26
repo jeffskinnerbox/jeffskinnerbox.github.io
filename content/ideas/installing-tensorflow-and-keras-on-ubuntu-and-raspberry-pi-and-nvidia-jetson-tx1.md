@@ -14,7 +14,13 @@
 
 * [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
 
+* [Installing Keras with TensorFlow backend](https://www.pyimagesearch.com/2016/11/14/installing-keras-with-tensorflow-backend/)
+* [Install dlib on the Raspberry Pi](https://www.pyimagesearch.com/2017/05/01/install-dlib-raspberry-pi/)
+* [Install dlib (the easy, complete guide)](https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/)
+* [How to install OpenCV 4 on Ubuntu](https://www.pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/)
+* [pip install opencv](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/)
 
+Check this out - [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.kickview.com/building-a-digits-dev-machine-on-ubuntu-16-04/)
 
 # TensorFlow
 * [TesnorFlow 2.0](https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04)
@@ -55,11 +61,19 @@ Does the below install TensorFlow and TesorBoard?
 * [Installing Tflearn on Raspberry Pi 3](http://www.instructables.com/id/Installing-Tflearn-on-Raspberry-Pi-3/)
 * [Five Steps to TensorFlow on the Raspberry Pi](https://hackaday.com/2018/05/18/five-steps-to-tensorflow-on-the-raspberry-pi/)
 
+
+----
+
+
 ## Install TensorFlow on Ubuntu
+* [How to install TensorFlow 2.0 on Ubuntu](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/)
+* [Install Tensorflow 1.13 on Ubuntu 18.04 with GPU support](https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070)
 * [Ubuntu 18.04: Install TensorFlow and Keras for Deep Learning](https://www.pyimagesearch.com/2019/01/30/ubuntu-18-04-install-tensorflow-and-keras-for-deep-learning/)
 * [Keras Tutorial: How to get started with Keras, Deep Learning, and Python](https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/)
+* [Jetson TX2 TensorFlow, OpenCV & Keras Install](https://www.hackster.io/wilson-wang/jetson-tx2-tensorflow-opencv-keras-install-b74e40)
 
-TensorFlow is changing rapidlly, and you might want to consider installing it from source code.
+TensorFlow is changing rapidly, and you might want to consider installing it from source code
+(but I don't do that here).
 If you choose to install TensorFlow via it source code,
 the source code build and test tool being used by the TensorFlow project is [Bazel][29].
 Bazel, developed and supported by Google,
@@ -70,69 +84,27 @@ Building from source also gives you greater control of the features installed.
 During the build process, you'll be provided a series of questions, as shown [here][35],
 to customize your features.
 
-Instead, I choose to do the install from the Python repository.
+A better alternative for me is to take guidance from the [TensorFlow website][20]
+on how to [install TensorFlow on Ubuntu][21].
+More specifically, I choose to do the install from the Python repository,
+using [Adrian Rosebrock][07] instructions [here][08].
 While it doesn't provide the same control as building from source,
 it is much easier and quicker to install.
-The [TensorFlow website][20] provides guidence on how to [install TensorFlow on Ubuntu][21].
-I choose the ["native" pip][22] option.
 
-The appropriate URL below depends on the operating system,
-Python version, and GPU support.
-Find the appropriate value for the URL [here][23].
-In my case,
-I'll be installing the latest version of TensorFlow under Ubuntu 17.10 without GPU, Python 3.6.3, pip3 9.0.1:
+In the past, [Keras][02] has often been used as a high-level model definition
+interface for the lower level TensorFlow framework,
+but starting with TensorFlow 2.0, Keras is now the official high-level deep learning API for TensorFlow
+(see [this post][03] to understand what this all means).
+The bottom-line is, you should be using the Keras implementation inside TensorFlow 2.0
+(i.e., `tf.keras`) when training your own deep neural networks.
+The official Keras package will still receive bug fixes,
+but all new features and implementations will be inside `tf.keras`.
 
-```bash
-# make sure you have the development tools
-sudo apt-get install python3-pip python3-dev
 
-# install the latest version of tensorflow from github
-sudo -H pip3 install --upgrade tf-nightly
-```
 
->**NOTE:** I orginally did the install under Python 3.6.3 using
-`sudo -H pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.0-cp36-cp36m-linux_x86_64.whl`
-but I happend to get some concerning warning message.
-I followed the recommandation [here][02] and used the nightly build of TensorFlow.
-Using the nightly build is a bit risky, so I should revert back to a stable version
-working under Pyton 3.6.3 once this bug is cleared.
-[Alternative][03] was to revert to Python 3.5.x and install TensorFlow with
-`sudo -H pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.1-cp35-cp35m-linux_x86_64.whl`.
+----
 
-To uninstall TensorFlow, simple run `sudo -H pip3 uninstall tensorflow`.
 
-You can validate the TensorFlow installation via the following simple Python3 script:
-
-```bash
-# first change your version of python
-pyenv global 3.5.4
-```
-
-```python
-import sys
-import tensorflow as tf
-
-# print versions used
-print("Python Version = %s.%s.%s" % sys.version_info[:3])
-print("TensorFlow Version =", tf.__version__)
-
-# do a very basic tensorflow test
-hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()
-print(sess.run(hello))
-```
-
-I did get the following warning messages, but I believe I should be OK.
-
-```
->>> import tensorflow as tf
-2018-01-10 22:19:38.187852: I tensorflow/core/platform/s3/aws_logging.cc:53] Initializing Curl library
-/usr/local/lib/python3.6/dist-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-  from ._conv import register_converters as _register_converters
->>> hello = tf.constant('Hello, TensorFlow!')
->>> sess = tf.Session()
-2018-01-10 22:20:27.140519: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
-```
 
 ## Install TensorFlow on Raspberry Pi
 * [Raspberry Pi now officially supports Google's TensorFlow software](https://www.theinquirer.net/inquirer/news/3037047/tensorflow-is-now-officially-supported-by-the-raspberry-pi)
@@ -183,7 +155,13 @@ tensorflow             1.4.0
 tensorflow-tensorboard 0.1.8
 ```
 
+
+----
+
+
+
 ## Install TensorFlow on Nvidia Jetson TX1
+* [Setup a Python Environment for Machine Learning and Deep Learning](https://towardsdatascience.com/setup-an-environment-for-machine-learning-and-deep-learning-with-anaconda-in-windows-5d7134a3db10)
 * [Install TensorFlow on NVIDIA Jetson TX1 Development Kit](http://www.jetsonhacks.com/2016/12/30/install-tensorflow-on-nvidia-jetson-tx1-development-kit/)
 * [Install TensorFlow for Python – NVIDIA Jetson TX Dev Kits](http://www.jetsonhacks.com/2017/09/22/install-tensorflow-python-nvidia-jetson-tx-dev-kits/)
 * [How to Install GPU Tensorflow from Sources – Ubuntu 14.04](https://alliseesolutions.wordpress.com/2016/07/05/how-to-install-gpu-tensorflow-0-9-from-sources-ubuntu-14-04/)
@@ -205,18 +183,26 @@ and other devices through the internet.
 * [LetsRoborTV](Luminoth: Open Source Image Recognition Toolkit)
 * [Open Robot Control Code For Connecting to LetsRobot.tv](https://github.com/runmyrobot/runmyrobot)
 
+# NVIDIA Jetson Projects
+* [Tracking Ants And Zapping Them With Lasers](https://hackaday.com/2019/10/05/tracking-ants-and-zapping-them-with-lasers/)
 
+
+----
+
+
+## Install TensorFlow on MacOS
+* [How to install TensorFlow 2.0 on macOS](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-macos/)
 
 
 
 [01]:https://www.tensorflow.org/get_started/summaries_and_tensorboard
-[02]:https://stackoverflow.com/questions/47225210/tensorflow-install-fails-with-compiletime-version-3-5-of-module-does-not-match
-[03]:https://www.tensorflow.org/install/install_linux#python_35
+[02]:https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html
+[03]:https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/
 [04]:https://petewarden.com/2017/08/20/cross-compiling-tensorflow-for-the-raspberry-pi/
 [05]:http://ci.tensorflow.org/view/Nightly/job/nightly-pi-python3/86/
 [06]:https://www.tensorflow.org/get_started/summaries_and_tensorboard
-[07]:
-[08]:
+[07]:https://www.pyimagesearch.com/about/
+[08]:https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/
 [09]:
 [10]:
 [11]:
@@ -231,7 +217,7 @@ and other devices through the internet.
 [20]:https://www.tensorflow.org/
 [21]:https://www.tensorflow.org/install/install_linux
 [22]:https://www.tensorflow.org/install/install_linux#InstallingNativePip
-[23]:https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package
+[23]:
 [24]:
 [25]:
 [26]:

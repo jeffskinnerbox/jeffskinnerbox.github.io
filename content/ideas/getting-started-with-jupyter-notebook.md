@@ -32,6 +32,7 @@
 * [Jupyter Notebook Extensions: How to get the most from the notebook environment](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 * [Set Your Jupyter Notebook up Right with this Extension](https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332)
 * [Bring your Jupyter Notebook to life with interactive widgets](https://towardsdatascience.com/bring-your-jupyter-notebook-to-life-with-interactive-widgets-bc12e03f0916)
+* [Supercharging Jupyter Notebooks](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18)
 
 
 

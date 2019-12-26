@@ -12,7 +12,10 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 
 * [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)
+* [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
 * [Solar Wifi Weather Station (v2.0)](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fwww.danilolarizza.com%2Fstazione-meteo-solare-wifi-v2-0%2F&edit-text=&act=url)
+* [Improved Outdoor Solar Harvester Now Handles All The Parts](https://hackaday.com/2019/11/19/improved-outdoor-solar-harvester-now-handles-all-the-parts/)
+
 * [ESP32 Technical Tutorials: Watchdog Processing](https://www.youtube.com/watch?v=C2xF3O6qkbg)
 
 * [Device Power Management in IoT](https://dzone.com/articles/device-power-management-in-iot)
@@ -24,6 +27,12 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 
 
+
+# Solar Irradiance ... Got Enough?
+* [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
+
+* [3W Solar Panel 138X160](https://www.seeedstudio.com/3W-Solar-Panel-138X160.html)
+* [LiPo Rider Pro](https://www.seeedstudio.com/LiPo-Rider-Pro.html)
 
 
 # Implementing Power Management
@@ -76,14 +85,6 @@ USB Isolator - https://www.adafruit.com/product/2107
 
 
 
-# Soft Power Switches
-* [Ditch The Switch: A Soft Latching Circuit Roundup](https://hackaday.com/2019/06/24/ditch-the-switch-a-soft-latching-circuit-roundup/)
-
-# Designs That Could Be Adapted
-* [Sump pump alert with Moteino & HC-SR04](https://lowpowerlab.com/2013/04/25/sump-pump-alert-with-moteino-hc-sr04/)
-* [SonarMote](https://lowpowerlab.com/guide/sonarmote/)
-* [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
-
 # Water Detection
 * [Water detection system](https://www.hackster.io/gusgonnet/water-detection-system-227b08?ref=list&ref_id=3061&offset=2)
 * [How to Protect Your House From Water Leaks—Without the Internet of Things](http://spectrum.ieee.org/at-work/education/how-to-protect-your-house-from-water-leakswithout-the-internet-of-things)
@@ -95,6 +96,9 @@ USB Isolator - https://www.adafruit.com/product/2107
 * [Re-Useable Water Leak Alarm](http://www.homedepot.com/p/Re-Useable-Water-Leak-Alarm-RWD21/204116885?MERCH=REC-_-SearchPLPHorizontal1_rr-_-NA-_-204116885-_-N)
 * [Battery-Operated Water Alarm](http://www.homedepot.com/p/Basement-Watchdog-Battery-Operated-Water-Alarm-BWD-HWA/100038838)
 * [Flood Fault Circuit Interrupter Could Save Lives](https://hackaday.com/2018/05/16/flood-fault-circuit-interrupter-could-save-lives/)
+
+# Detecting Low Battery Voltages
+* [Adding a Battery Gauge to a Project with Zero Parts](https://hackaday.com/2014/11/08/adding-a-battery-gauge-to-a-project-with-zero-parts/)
 
 
 

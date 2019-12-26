@@ -15,7 +15,6 @@
 * [Computer terminal](https://en.wikipedia.org/wiki/Computer_terminal)
 * [Linux console](https://en.wikipedia.org/wiki/Linux_console)
 * [Linux Serial Console HOWTO](http://www.vanemery.com/Linux/Serial/serial-console.html)
-* [The TTY demystified](http://www.linusakesson.net/programming/tty/)
 * [RPi Serial Connection](http://elinux.org/RPi_Serial_Connection)
 
 * [Using UART on Raspberry Pi](https://electrosome.com/uart-raspberry-pi-python/)
@@ -28,6 +27,35 @@ HyperTerminal - HyperTerminal is the defacto terminal program for any Windows OS
 PuTTY
 Screen
 microcom
+
+# Character Encoding
+* [Baudot code](https://en.wikipedia.org/wiki/Baudot_code) aka International Telegraph Alphabet No. 1 or ITA1
+* [Baudot–Murray code]() aka International Telegraph Alphabet No. 2 (ITA2)
+* [ASCII](https://en.wikipedia.org/wiki/ASCII)
+
+# TTY
+The `tty` command gets its name from a device from the late 1800s known as
+[teleprinters (aka teletypewriter, Teletype, or TTY)](https://en.wikipedia.org/wiki/Teleprinter)
+It appeared in Unix in 1971, and is part of Linux and Unix-like operating systems to this day.
+
+* [What is a TTY on Linux? (and How to Use the tty Command)](https://www.howtogeek.com/428174/what-is-a-tty-on-linux-and-how-to-use-the-tty-command/)
+* [The TTY demystified](http://www.linusakesson.net/programming/tty/)
+
+# Computer Terminal
+A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system.
+Early user terminals connected to computers were electromechanical teleprinters/teletypewriters (TeleTYpewriter, TTY), such as the Teletype Model 33 ASR, originally used for telegraphy or the Friden Flexowriter.
+
+The DEC VT05 was an early example of a hardware based virtual teletype,
+a predecessor to the famous DEC VT100.
+* [VT05](https://en.wikipedia.org/wiki/VT05)
+* [VT100](https://en.wikipedia.org/wiki/VT100)
+
+* https://en.wikipedia.org/wiki/Computer_terminal
+
+Linux and other Unix-like operating systems such as macOS,
+the terminal window and applications such as [xterm](https://en.wikipedia.org/wiki/Xterm)
+examples of virtual teletypes, but these are emulated entirely in software.
+They are called pseudo-teletypes, which is shortened to pts.
 
 # Types of Serial Port
 serial port lines (CTS, RTS, DTR, DSR, RI, CD)
@@ -65,12 +93,6 @@ Both are still alive and well in many applications.
 * [Application Guidelines for TIA/EIA-485-A](http://e2e.ti.com/cfs-file/__key/telligent-evolution-components-attachments/00-142-00-00-00-33-63-91/TSB_2D00_89_2D00_A.pdf)
 * [RS-485 Transceiver Tutorial](https://www.intersil.com/content/dam/Intersil/whitepapers/interface/rs-485-transceiver-tutorial.pdf)
 
-# Computer Terminal
-A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system.
-Early user terminals connected to computers were electromechanical teleprinters/teletypewriters (TeleTYpewriter, TTY), such as the Teletype Model 33 ASR, originally used for telegraphy or the Friden Flexowriter.
-
-* https://en.wikipedia.org/wiki/Computer_terminal
-
 # Computer Serial Port
 * http://www.labbookpages.co.uk/electronics/serialPort.html
 
@@ -95,6 +117,7 @@ See - https://www.cyberciti.biz/tips/bash-fix-the-display.html
 * http://linux.101hacks.com/unix/stty/
 * http://www.commandlinefu.com/commands/using/stty
 * http://osr507doc.xinuos.com/en/HANDBOOK/serial_line_operation_changing.html
+* [How to change the color of your Linux terminal](https://opensource.com/article/19/9/linux-terminal-colors)
 
 # Screen
 How to check if I'm in screen session? - https://serverfault.com/questions/257975/how-to-check-if-im-in-screen-session

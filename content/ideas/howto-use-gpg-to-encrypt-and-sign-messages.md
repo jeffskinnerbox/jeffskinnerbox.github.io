@@ -24,7 +24,13 @@
 
 * [managing encryption keys with Cloud KMS](https://cloud.google.com/kms/docs/quickstart)
 
+* [A curated list of cryptography resources and links](https://github.com/sobolevn/awesome-cryptography)
 
+
+# Privacy
+* [How to encrypt your entire life in less than an hour](https://medium.freecodecamp.org/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3)
+* [Are you ready? Here's all the data Facebook and Google have on you](https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy)
+* [The Birth And Death Of Privacy: 3,000 Years of History Told Through 46 Images](https://medium.com/the-ferenstein-wire/the-birth-and-death-of-privacy-3-000-years-of-history-in-50-images-614c26059e)
 
 
 #  Elliptic Curve Cryptography
@@ -32,6 +38,12 @@
 
 
 ################################################################################
+# Internet Security
+* [An introduction to cryptography and public key infrastructure](https://opensource.com/article/18/5/cryptography-pki)
+* [How internet security works: TLS, SSL, and CA](https://opensource.com/article/19/11/internet-security-tls-ssl-certificate-authority)
+* [Getting started with OpenSSL: Cryptography basics](https://opensource.com/article/19/6/cryptography-basics-openssl-part-1)
+* [How to use OpenSSL: Hashes, digital signatures, and more](https://opensource.com/article/19/6/cryptography-basics-openssl-part-2)
+
 install cerficates for a website
 
 * [How do I install a root certificate?](https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate)
@@ -569,7 +581,7 @@ You must delete your private key for this key pair from your private key ring fi
 # Recoverable Secrets
 Just about the worst thing you can do is use the same password across several services,
 meaning that an attack on one gives entry to multiple accounts.
-The challenge is to generate a unique and secure password for each and every application,
+The challenge is to generate a unique and secure password for each and every application.
 
 HaseDice is not a password manager, or an app, but a simple method that can be readily applied.
 A simple dice is used to create random numbers,
@@ -582,8 +594,47 @@ ensuring your core secret is never exposed, thus maintaining security.
 
 * [HashDice - strong passwords that are easy to recover](https://stebanoid.blogspot.com/2019/03/hashdice.html)
 
-# Eliminate SSH Keys and use a GPG Keyis Instead
+# Secure Shell (SSH)
+Secure Shell (SSH) is a cryptographic network protocol for operating network services
+securely over an unsecured network.
+Typical applications include remote command-line, login, and remote command execution,
+but any network service can be secured with SSH.
+
+## Eliminate SSH Keys and use a GPG Keys Instead
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
+* [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
+
+## Share Terminal Access (tty-share)
+[tty-share][06] enables you to do terminal sharing over the Internet.
+Its an extremely simple means for a remote person to join a shared session you establish.
+
+## Temporary Allow SSH Logins (ssh-allow-friend)
+https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
+
+## Rendezvous Server
+A rendezvous protocol is a computer network protocol that enables resources or P2P network peers to find each other.
+
+* [Rendezvous Server Protocol](https://magic-wormhole.readthedocs.io/en/latest/server-protocol.html)
+
+## Securely Send Files
+[Magic Wormhole][07] is a simple and free utility that help users to send a files from one computer to another computer anywhere in the world.
+
+* [Magic Wormhole – A Simple And Secure Way To Send Files From Linux Command Line](https://www.2daygeek.com/wormhole-securely-share-files-from-linux-command-line/)
+* [Brian Warner - Magic Wormhole- Simple Secure File Transfer](https://www.youtube.com/watch?v=oFrTqQw0_3c&feature=youtu.be)
+
+# Git-Secret
+What if your application needs WiFi credentials to operate,
+so how do I store them out on GitHub without exposing my home WiFi to Internet riffraff?
+The tool [`git-secret`][08] (GitHub repository [here][09]) helps solve this problem.
+`git-secret` is a shell utility to store your private data inside a `git` repository.
+It encrypts using `gpg` and the public keys of all the users that you trust.
+So everyone of them can decrypt these files using only their personal secret key.
+There are no passwords that change.
+When someone leaves your circle of trust, just delete their public key,
+re-encrypt the files, and they won’t be able to decrypt secrets anymore.
+
+
+
 
 
 
@@ -592,8 +643,8 @@ ensuring your core secret is never exposed, thus maintaining security.
 [03]:https://help.riseup.net/en/security/message-security/openpgp/best-practices
 [04]:https://www.techopedia.com/definition/23150/ascii-armor
 [05]:https://letsencrypt.org/
-[06]:
-[07]:
-[08]:
-[09]:
+[06]:https://tty-share.com/
+[07]:https://github.com/warner/magic-wormhole
+[08]:https://git-secret.io/
+[09]:https://github.com/sobolevn/git-secret
 [10]:

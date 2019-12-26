@@ -1,4 +1,5 @@
 
+* [How to learn Quantum Mechanics on your own (a self-study guide)](https://www.youtube.com/watch?v=Rs572Cf4zkk&feature=youtu.be)
 * [Quantum Computing: Untangling the Hype](https://www.youtube.com/watch?v=wE1OCXvaDtc)
 
 * [Google Sees Long, Expensive Road Ahead For Quantum Computing](http://www.theplatform.net/2015/07/22/google-sees-long-expensive-road-ahead-for-quantum-computing/)
@@ -34,14 +35,15 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 # Tutorials on Quantum Physics
 * [Our quantum problem](http://aeon.co/magazine/science/our-quantum-reality-problem/)
 * [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
-* []()
-* []()
+* [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
+* [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * []()
 * []()
 
 # IBM Q
 * [IBM A Experience Documentation: Beginners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)
 * [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience)
+* [IBM Q announces a host of new tools geared towards making quantum computing more accessible](https://www.neowin.net/news/ibm-q-announces-a-host-of-new-tools-geared-towards-making-quantum-computing-more-accessible)
 
 # Quantum Computing Simulation
 * [List of Quantum Computing Simulators](https://www.quantiki.org/wiki/list-qc-simulators)

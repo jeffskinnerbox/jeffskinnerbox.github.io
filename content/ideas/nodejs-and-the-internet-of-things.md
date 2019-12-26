@@ -521,6 +521,7 @@ http://browser.zettajs.io/#/overview?url=http://127.0.0.1:1337
 # Node-RED
 * [Wiring The Internet of Things With NODE RED](https://www.youtube.com/watch?v=j9H3t3l1En0)
 * [HOW TO NODE-RED!](http://bitluni.net/how-to-node-red/)
+* [A Guide to Rules Engines for IoT: Flow Processing Engines](https://dzone.com/articles/a-guide-to-rules-engines-for-iot-flow-processing-e)
 
 ![node-red-logo](http://images.techhive.com/images/article/2016/05/raspberry-pi-2-node-red-100663608-primary.idge.png "When you want to connect an IoT device to anything, you should take a serious look at Node-RED, a free, open source visual process wiring system from IBM")
 [Node-RED][03] is a new [industry created open-source tool][02],

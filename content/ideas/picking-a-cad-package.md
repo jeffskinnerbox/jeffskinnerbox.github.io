@@ -22,15 +22,23 @@
 [KiCad][25] is a free software suite for
 [electronic design automation (EDA), aka electronic computer-aided design (ECAD)][26].
 It facilitates the design of schematics for electronic circuits
-and their conversion to PCB designs.
+and their conversion to [PCB designs][46].
 
 * [Beginner's Guide to KiCad](https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all)
 * [Byte Sized Pieces Help The KiCad Go Down](https://hackaday.com/2019/04/18/byte-sized-pieces-help-the-kicad-go-down/)
 * [Mechanical Integration With KiCad](https://hackaday.com/2019/04/22/mechanical-integration-with-kicad/)
 * [Contextual Electronics - many KiCad videos](https://www.youtube.com/user/contextualelectronic/playlists)
+* [A New KiCAD Tutorial Hits The Scene](https://hackaday.com/2019/07/29/a-new-kicad-tutorial-hits-the-scene/)
 * [Shine On You Crazy KiCad](https://contextualelectronics.com/courses/shine-on-you-crazy-kicad/)
+* [KiCad Action Plugins](https://hackaday.com/2019/11/19/kicad-action-plugins/)
 * [Getting to Blinky 4.0](https://contextualelectronics.com/courses/getting-to-blinky/)
 * [What’s The Deal With Square Traces On PCBs](https://hackaday.com/2019/06/26/whats-the-deal-with-square-traces-on-pcbs/)
+* [A Complete Desktop PCB Etching Station](https://hackaday.com/2019/07/07/a-complete-desktop-pcb-etching-station/)
+* [Add An Ant To Your Desk For Some Compact PCB Manufacturing](https://hackaday.com/2019/07/27/add-an-ant-to-your-desk-for-some-compact-pcb-manufacturing/)
+
+* [EEVblog #1259 - PCB Manufacturing Options EXPLAINED](https://www.youtube.com/watch?v=mT2Vp3HcIP4&)
+* [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
+* [PCB Design & Manufacture - video playlist](https://www.youtube.com/playlist?list=PL8D3B363139B67FF3)
 
 ## SPICE
 SPICE (Simulation Program with Integrated Circuit Emphasis) is a general-purpose,
@@ -41,11 +49,15 @@ to check the integrity of circuit designs and to predict circuit behavior.
 * [Hackaday Spice](http://hackaday.com/tag/spice/)
     * [Adding Spice to Your Workbench](http://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
     * [Transforming Spice](http://hackaday.com/2016/03/02/transforming-spice/)
-    * [A Spicy Regenerative Reciever]()
+    * [Spice Power](https://hackaday.com/2016/02/29/spice-power/)
+    * [Transforming Spice](https://hackaday.com/2016/03/02/transforming-spice/)
+    * [A Spicy Regenerative Reciever](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
+    * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
 * [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
 * [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
 * [All About Circuts](http://www.allaboutcircuits.com/education/)
 * [RF design guide](http://www.cdt21.com/resources/default.asp)
+* [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
 
 # CAD File Interchangeability
 Exchanging CAD files between CAD tools can be a big headache.
@@ -216,6 +228,12 @@ Tutorials
 * [3D modeling a real world object in OpenSCAD](https://raymii.org/s/articles/3D_modelling_a_real_world_object_in_OpenSCAD.html)
 * [Openscad : how to do a chamfered hole](https://www.youtube.com/watch?v=EuzOxNo2fe0&app=desktop)
 * [Fillet Mounts](https://www.youtube.com/watch?v=xwHybCZK-6k&app=desktop)
+* [Cubehero Blog](https://cubehero.com/)
+
+### OpenSCAD Animation
+* [Ball joint articulated arm](https://www.youtube.com/watch?v=c1B8hW3d830)
+* [How to animate models in OpenSCAD](https://blog.prusaprinters.org/how-to-animate-models-in-openscad/)
+
 
 ## Installing OpenSCAD and Setting Up Libraries
 * [Try NopSCADlib For Your Next OpenSCAD Project](https://hackaday.com/2019/06/15/try-nopscadlib-for-your-next-openscad-project/)
@@ -473,7 +491,7 @@ Video Tutorials - https://www.youtube.com/results?search_query=freecad
 [43]:https://github.com/dcowden/cadquery
 [44]:https://github.com/jmwright/cadquery-freecad-module
 [45]:http://ubuntuhandbook.org/index.php/2019/01/install-openscad-ubuntu-18-10-18-04/
-[46]:
+[46]:https://www.youtube.com/watch?v=Z2LgmIGE2nI
 [47]:
 [48]:
 [49]:

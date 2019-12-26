@@ -5,6 +5,8 @@
 * [A Doorbell With Facial Recognition](https://medium.com/@mppise/a-doorbell-with-facial-recognition-3b132bf9605)
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 
+* [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
+
 # ESP32-CAM or ESP32-EYE + Omnivision camera
 * [How to make a small, low-cost, remote accessible security camera with an ESP32](https://www.nabto.com/esp32/)
 * [Matchbox-Sized P2P Remote Accessible Camera with ESP32](https://www.hackster.io/crgregersen/matchbox-sized-p2p-remote-accessible-camera-with-esp32-a41126)
@@ -204,6 +206,12 @@ google-chrome http://be4fac06.ngrok.io/?action=stream
 ```
 
 
+# Streaming Oneway
+Sending arbitrary IEEE 802.11 frames can be useful in
+unidirectional long-distance communication or low-overhead data transmission.
+
+* [ESP32 WiFi Range Testing - 10km using Directional Antenna](https://www.youtube.com/watch?v=yCLb2eItDyE)
+* [unidirectional long-distance communication](https://github.com/Jeija/esp32free80211)
 
 # Auto-Connect to Open WiFi Network
 [!open-wifi](http://true-random.com/homepage/projects/wifi/free_wifi.jpg)

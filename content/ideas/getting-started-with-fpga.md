@@ -1,7 +1,15 @@
+# FPGA Curious
+* [MicroFPGA – The Coming Revolution in Small Electronics](https://hackaday.com/2019/12/06/david-williams-is-fpga-curious/)
+    * https://davidthings.github.io/spokefpga/hackaday_slides_2019_11_12/#/
+
 * [What Is an FPGA? An Introduction to Programmable Logic](https://www.allaboutcircuits.com/technical-articles/what-is-an-fpga-introduction-to-programmable-logic-fpga-vs-microcontroller/)
 * [FPGA tutorials](https://hackaday.io/list/160076-fpga-tutorials)
 * [Why use an FPGA instead of a CPU or GPU?](https://blog.esciencecenter.nl/why-use-an-fpga-instead-of-a-cpu-or-gpu-b234cd4f309c)
 
+# Getting Started
+* [FPGA Bootcamp #0](https://hackaday.io/project/159720-fpga-bootcamp-0)
+
+# Other
 * [Bringing FPGA Development To The Masses](https://hackaday.com/2019/07/05/bringing-fpga-development-to-the-masses/)
 * [Cheap FPGA Board Roundup](https://hackaday.com/2018/08/20/cheap-fpga-board-roundup/)
 * [Arduino MKR Vidor 4000](https://www.sparkfun.com/products/14870)
@@ -15,3 +23,4 @@
 * [FPGAdeveloper](http://www.fpgadeveloper.com/)
 
 * [FPGA Makes Digital Analog Computer](https://hackaday.com/2019/02/14/fpga-makes-digital-analog-computer/)
+* [A Scratch-built RISC-V CPU In An FPGA](https://hackaday.com/2019/11/19/emulating-risc-v-on-an-fpga/)

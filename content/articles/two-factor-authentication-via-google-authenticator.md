@@ -27,6 +27,7 @@ security tokens from [RFC6238][11] in mobile apps made by Google.
 The Authenticator provides a six digit one-time password users must provide
 in addition to their username and password to log into Google services or other sites.
 Google Authenticator doesn’t call Google — all the work happens on your SSH server and your phone.
+See "[Two-factor authentication with TOTP][15]" for a gentle introduction.
 
 ### Step 1
 To access my home PC from out side my home via SSH,
@@ -177,3 +178,4 @@ Key articles that I found helpful:
 [12]:http://tldp.org/HOWTO/User-Authentication-HOWTO/x115.html
 [13]:http://blog.remibergsma.com/2013/06/08/playing-with-two-facor-authentication-in-linux-using-google-authenticator/
 [14]:http://serverfault.com/questions/518802/two-factor-ssh-authentication-on-external-address-only
+[15]:https://medium.com/@n.moretto/two-factor-authentication-with-totp-ccc5f828b6df

@@ -50,6 +50,7 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 #### Distance Sensor
 * [best distance sensor for robots](http://www.teraranger.com/products/teraranger-one/)
 * [RPLIDAR A1M8 - 360 Degree Laser Scanner Development Kit](https://www.dfrobot.com/product-1125.html)
+* [Xaxxon OpenLIDAR Sensor offers open hardware and software](https://www.geeky-gadgets.com/xaxxon-openlidar-sensor-16-10-2019/)
 * [Make Your Own LIDAR Sensor](https://dzone.com/articles/make-your-own-lidar-sensor)
     * https://www.adafruit.com/product/3316
     * https://www.adafruit.com/product/3317

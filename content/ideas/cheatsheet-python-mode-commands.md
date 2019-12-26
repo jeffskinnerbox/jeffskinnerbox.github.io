@@ -4,7 +4,7 @@ Status: hidden
 
 ## Command
 | Python-Mode Command | Action |
-|:----:|:------| 
+|:----:|:------|
 | :Pydoc <args> | Show python documentation |
 | PyLintToggle | Enable, disable pylint |
 | PyLintCheckerToggle | Toggle code checker (pylint, pyflakes) |
@@ -14,7 +14,7 @@ Status: hidden
 
 ## Python Mode Keys
 | Python-Mode Command | Action |
-|:----:|:------| 
+|:----:|:------|
 | K | Show python docs for current word under cursor |
 | C-Space | Rope code assist |
 | <leader>r | Run current buffer |
@@ -30,7 +30,7 @@ Status: hidden
 
 ## Python Motions
 | Python-Mode Command | Action |
-|:----:|:------| 
+|:----:|:------|
 | [[ | Jump to previous class or function (normal, visual, operator modes) |
 | ]] | Jump to next class or function  (normal, visual, operator modes) |
 | [M | Jump to previous class or method (normal, visual, operator modes) |
@@ -45,3 +45,4 @@ Status: hidden
 
 ## Requires More Research
 * [check out Jedi for auto completion](https://github.com/davidhalter/jedi-vim)
+* [Pylint: Making your Python code consistent](https://opensource.com/article/19/10/python-pylint-introduction)

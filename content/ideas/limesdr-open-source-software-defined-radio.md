@@ -305,6 +305,9 @@ Four-hour [Introduction to GNU Radio](https://www.youtube.com/playlist?list=PLA6
 by Tom Rondeau (the leader of the GNU Radio Project)
 from the [2012 ARRL TAPR DCC](https://www.tapr.org/conf_dcc2012.html).
 
+* [GNU Radio Workshop](http://ntms.org/files/MUD2019/MUD_GNR.pdf)
+* [SDR and GNU Radio for Microwave](http://ntms.org/files/CowtownHamfestJan2019/CowtownHamfest_Jan2019_SDR_GNU_Radio_BobN5BRG.pdf)
+
 ## Pothos
 [Pothos][11] is an [open source project][12] is a dataflow framework for
 creating topologies of interconnected processing blocks.
@@ -361,6 +364,9 @@ Other Tools
 
 * [Amazon EC2 F1 Instances](https://aws.amazon.com/ec2/instance-types/f1/) are a compute instance with field programmable gate arrays (FPGAs) that you can program to create custom hardware accelerations for your application.
 ##############################
+
+# Be Careful
+* [The Great Ohio Key Fob Mystery, Or “Honey, I Jammed The Neighborhood!”](https://hackaday.com/2019/05/15/the-great-ohio-key-fob-mystery-or-honey-i-jammed-the-neighborhood/)
 
 
 

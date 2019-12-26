@@ -261,6 +261,8 @@ InfuxData is realy a platfrom of tools consists of four compoents
 * Kapacitor Time-Series Data Processing
 
 * [InfluxDB is 27x Faster vs. MongoDB for Time Series Workloads](https://www.influxdata.com/blog/influxdb-is-27x-faster-vs-mongodb-for-time-series-workloads/)
+* [Raspberry Pi IoT: Sensors, InfluxDB, MQTT, and Grafana](https://dzone.com/articles/raspberry-pi-iot-sensors-influxdb-mqtt-and-grafana)
+* [Playing With Docker, MQTT, Grafana, InfluxDB, Python, and Arduino](https://dzone.com/articles/playing-with-docker-mqtt-grafana-influxdb-python-a)
 
 # OpenTSDB
 [OpenTSDB][03] is a time-series database widely-used as a
@@ -285,6 +287,7 @@ depending on the data and your desired access patterns.  - https://redislabs.com
 
 * [Build your first Redis Hello World application in Python](https://opensource.com/article/18/4/how-build-hello-redis-with-python)
 * [Redis Time Series - Time Series Data implemented directly in Redis with Lua](https://medium.com/@markuman/redis-time-series-63f3442bb09d)
+* [How To Troubleshoot Issues in Redis](https://www.digitalocean.com/community/cheatsheets/how-to-troubleshoot-issues-in-redis)
 * [MongoDB and Redis: a different interpretation of what's wrong with Relational DBs](http://oldblog.antirez.com/post/MongoDB-and-Redis.html)
 * [Why (and how to) Redis with your MongoDB](https://www.compose.com/articles/why-and-how-to-redis-with-your-mongodb/)
 * [Why Your MongoDB Needs Redis](https://www.slideshare.net/itamarhaber/why-your-mongodb-needs-redis)
@@ -297,6 +300,7 @@ depending on the data and your desired access patterns.  - https://redislabs.com
 
 * [Storing Time Series in Redis](https://www.codeproject.com/Articles/1023038/Storing-Time-Series-in-Redis)
 * [Redis as a Time Series Data Store with Danni Moiseyev - Redis Labs](https://www.youtube.com/watch?v=j9-QIwJ0woE)
+* [How to Benchmark the Performance of a Redis Server on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-perform-redis-benchmark-tests)
 
 # YugaByte
 [Extending Redis API with a Native Time Series Data Type](https://blog.yugabyte.com/extending-redis-with-a-native-time-series-data-type-e5483c7116f8)

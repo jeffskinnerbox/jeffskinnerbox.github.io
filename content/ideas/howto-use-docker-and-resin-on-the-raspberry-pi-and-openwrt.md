@@ -1,14 +1,26 @@
 
 
 
-# What are Containers
+# What are Containers?
+* [Container Basics](https://www.sdxcentral.com/containers/definitions/containers-basics-update/)
+
 * [Containers vs. Virtual Machines (VMs): What’s the Difference?](https://blog.netapp.com/blogs/containers-vs-vms/)
 * [How Linux containers have evolved](https://opensource.com/article/17/7/how-linux-containers-evolved?sc_cid=70160000000h0P5AAI)
 * [8 best practices for building containerized applications](https://opensource.com/life/16/9/8-best-practices-building-containerized-applications?sc_cid=70160000000QyBpAAK)
  * [Why we need a different container purely for apps - Mark Shuttleworth (Canonical)](https://www.youtube.com/watch?v=0z3yusiCOCk)
 * [An Introduction To Snap Packages for Linux](https://www.youtube.com/watch?v=j40tNL3t4gw)
 
+## What is chroot?
+A [`chroot`][25]  or "chroot jail" is an operation (orginating with the Unix operating system)
+that changes the apparent root directory for the current running process and its children
+A program that is run in such a modified environment cannot name
+(and therefore normally cannot access) files outside the designated directory tree.
+chroot mechanism is used to do things like sandbox untrusted FTP clients or
+a chroot environment can be used to create and host a separate virtualized copy of the software system.
+See examples of `chroot` use [here][25], [here][26], and [here][27].
 
+## debootstrap
+debootstrap - Bootstrap a basic Debian system - http://manpages.ubuntu.com/manpages/trusty/man8/debootstrap.8.html
 
 
 While creating my my mesh network,
@@ -444,9 +456,9 @@ https://docs.resin.io/configuration/custom-docker-base-images/
 [22]:https://etcher.io/cli/
 [23]:https://en.wikipedia.org/wiki/Virtual_machine
 [24]:https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components
-[25]:
-[26]:
-[27]:
+[25]:https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/
+[26]:https://www.geeksforgeeks.org/chroot-command-in-linux-with-examples/
+[27]:https://www.cyberciti.biz/faq/unix-linux-chroot-command-examples-usage-syntax/
 [28]:
 [29]:
 [30]:

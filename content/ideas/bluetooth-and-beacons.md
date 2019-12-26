@@ -41,6 +41,7 @@ Bellow are some suggested documents and videos to study along with this write-up
     * [Why Bluetooth Smart is perfect for M2M: Part 1](https://www.ecnmag.com/blog/2014/12/why-bluetooth-smart-perfect-m2m)
     * [How to use Bluetooth Smart in industrial lighting: Part 2](https://www.ecnmag.com/blog/2014/12/how-use-bluetooth-smart-industrial-lighting)
     * [Connecting machinery to the IoT: Part 3](https://www.ecnmag.com/blog/2014/12/connecting-machinery-iot)
+    * [iBeacons Explained: 10 Things About iBeacons You Need to Know](https://www.youtube.com/watch?v=L44m7otNI7o&t=4s)
     * [How you can replace wires with Bluetooth Smart: Part 4](https://www.ecnmag.com/blog/2014/12/how-you-can-replace-wires-bluetooth-smart)
     * [Why Beacon is the next big thing in wireless: Part 5](https://www.ecnmag.com/blog/2014/12/why-beacon-next-big-thing-wireless)
     * [The key to using Bluetooth Smart in asset tracking: Part 6](https://www.ecnmag.com/blog/2015/01/key-using-bluetooth-smart-asset-tracking)
@@ -88,7 +89,7 @@ and it is a 2.4GHz wireless communication protocol for connecting devices
 It's slower than WiFi but is often simpler to set up,
 and is usually preferred for device-to-device communications.
 Bluetooth serves as an excellent protocol for wirelessly transmitting relatively
-small amounts of data over a short range (<100m).
+small amounts of data over a short range (less than 100m).
 It’s perfectly suited as a wireless replacement for serial communication interfaces.
 
 Bluetooth networks use a master/slave (sometimes called controller/peripheral) model
@@ -1016,7 +1017,18 @@ We use:
 
 ########################### BlueZ for Bluetooth Mesh ###########################
 * [How to Deploy BlueZ v5.48 on Raspberry Pi 3](https://blog.bluetooth.com/bluez-on-raspberry-pi)
+
+* [Using BlueZ v5.50 and the Raspberry Pi 4 Update to Create a Bluetooth Mesh Provisioner](https://www.bluetooth.com/blog/use-bluez-v5-50-andraspberry-pi-4-updateto-create-a-bluetoothmesh-provisioner/)
+    * [Deploying BlueZ v5.50 on Raspberry Pi, Part 1 - Deploying](https://www.bluetooth.com/bluetooth-resources/how-to-deploy-bluez-v5-49-on-raspberry-pi3-and-use-it-part-1/)
+    * [Deploying BlueZ v5.50 on Raspberry Pi 3, Part 2 — Provisioning](https://www.bluetooth.com/bluetooth-resources/how-to-deploy-bluez-v5-50-on-raspberry-pi-3-and-use-it-part-2-provisioning/)
 ########################### BlueZ for Bluetooth Mesh ###########################
+
+################################ Web Bluetooth #################################
+* [Intro to Web Bluetooth](https://www.bluetooth.com/bluetooth-resources/intro-to-web-bluetooth/)
+################################ Web Bluetooth #################################
+
+# BLE iBeacon Scanning
+* [Use Node.js And A Raspberry Pi Zero W To Scan For BLE iBeacon Devices](https://www.youtube.com/watch?v=AFjYKEf7j2M)
 
 # Linux Bluetooth Tools
 BlueZ is an open source project and the official Linux Bluetooth protocol stack.
@@ -2207,6 +2219,7 @@ can operate as a master or slave Bluetooth device.
     * Nordic Thingy:52 Web App
     * Nordic Thingy:52 Nodejs
     * Nordic-Thingy:52 iOS library and sample app
+* [Nordic Thingy:91](https://www.nordicsemi.com/Software-and-Tools/Prototyping-platforms/Nordic-Thingy-91)
 
 ### Nordic Bluetooth Tools
 * nrfjprog, pynrfjprog - Intro, Mac OS X & Linux now supported - https://devzone.nordicsemi.com/blogs/840/nrfjprog-pynrfjprog-intro-mac-os-x-linux-now-suppo/

@@ -190,13 +190,36 @@ Part of the field, the "near-field" close to the transmitter, is part of the cha
 The far field is the propagating radiant energy described above and the field portion we are most interested in.
 For more on electromagnetic near fields and far fields, see:
 
+* [EEVblog #1273 - EMC Near Field vs Far Field Explained](https://www.youtube.com/watch?v=lYmfVMWbIHQ&feature=em-uploademail)
 * [Antenna Field Regions](http://www.ic.gc.ca/eic/site/smt-gst.nsf/eng/sf10112.html)
 * [What’s The Difference Between EM Near Field And Far Field?](http://electronicdesign.com/energy/what-s-difference-between-em-near-field-and-far-field)
+
+## Electromagnetic Radiation
+* [Understanding Electromagnetic Radiation!](https://www.youtube.com/watch?v=FWCN_uI5ygY)
+
+## Extending WiFi Range
+* [Uni-Directional WIFI Range Extender](https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/)
+* [ESP32 WiFi Hits 10KM with a Little Help](https://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/#more-252084)
+
+[TP-Link AC1750 WiFi Range Extender](https://www.amazon.com/gp/product/B010S6SG3S/) (aka TP-Link RE450) [from Amazon][02]
+I used this device to extend the range of of my home WiFi into places
+where I currently get poor reception.
+Like my router, its dual band (2.4GHz 450Mbps / 5GHz 1300Mbps)
+and claims to be compatible with any type of Router/Gateway/Access Point.
+The video shows three methods for setting up the range extender:
+smart phone app, web browser, or router WPS button:
+[How to set up a TP-Link Range Extender](https://www.youtube.com/watch?v=W9QxHvIyULQ)
+
+
+## The Physics Behind Antennas
+* [The Physics Behind Antennas](https://hackaday.com/2019/07/11/the-physics-behind-antennas/)
+* [Practical Guide to Radio-Frequency Analysis and Design](https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/)
 
 ## Typical Antenna Designs
 * [monopole antenna][41]
 * [discone antenna][42]
 * [Simple Antennas to Survive the Zombie Apocalypse](https://www.youtube.com/watch?v=MMnpBOwu2I0)
+* [WA2OOO Provides a Complete Guide to Build Radio Antennas](https://www.bigtimedaily.com/wa2ooo-provides-a-complete-guide-to-build-radio-antennas/)
 
 Most of the antenna designs described are all suitable for work requiring a relatively
 narrow band of frequencies with an omni-directional pattern of radiation.
@@ -269,6 +292,12 @@ An in depth and rigorous description of the key antenna parameters can be found 
 It is also important to note that the receiving characteristics of an antenna are equivalent to the transmitting characteristics.
 This electromagnetic fact, call [reciprocity][27], means we can state the antenna's properties
 independently of its uses as a transmitter or receiver.
+
+## Antenna Tuning
+* [Antenna Tuning For GHz Frequencies](https://hackaday.com/2019/08/03/antenna-tuning-for-ghz-frequencies/)
+* [Antenna Tuning for Beginners](https://www.baseapp.com/iot/antenna-tuning-for-beginners/)
+* [Michael Ossmann: Simple RF Circuit Design](https://hackaday.com/2016/03/23/michael-ossmann-makes-you-an-rf-design-hero/)
+* [Chris Gammell - Gaining RF Knowledge: An Analog Engineer Dives into RF Circuits](https://www.youtube.com/watch?v=AS8Ybhm0qk8)
 
 ## Discone Antenna
 A discone antenna is a version of a [biconical antenna][19] is typically a wired structure,
@@ -445,5 +474,10 @@ Cabling Require:
 [61]:http://media.digikey.com/pdf/Data%20Sheets/General%20Cable%20PDFs/RG_174U_Type.pdf
 [62]:http://en.wikipedia.org/wiki/SMA_connector
 [63]:http://www.rohde-schwarz-usa.com/rs/rohdeschwarz/images/8GE01_Antenna_Basics.pdf
-[]:
-[]:
+[64]:
+[65]:
+[66]:
+[67]:
+[68]:
+[69]:
+[70]:

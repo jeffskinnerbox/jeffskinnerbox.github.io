@@ -7,7 +7,10 @@
 
 Some simple weather station setups:
 Nice Design
+* [ESP8266 Weather Station - with Wind and Rain Sensors](https://tysonpower.de/blog/esp8266-weather-station)
+* [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)
 * [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
+* [Solar Powered WiFi Weather Station V2.0](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station-V20/)
 * [Checking The Weather Without A Window](https://hackaday.com/2018/04/27/checking-the-weather-without-a-window/)
 * [ESP32 Weather Station on a PCB](https://hackaday.com/2018/02/10/esp32-weather-station-on-a-pcb/)
 * [ESP8266 WiFi Weather Station with Color TFT Display](https://learn.adafruit.com/wifi-weather-station-with-tft-display)
@@ -29,20 +32,25 @@ Nice Design
 * [PiClock: an all in one clock, weather forecast and radar map](https://blog.adafruit.com/2015/06/12/piclock-an-all-in-one-clock-weather-forecast-and-radar-map-piday-raspberrypi-raspberry_pi/)
 * [Weather Station – DHT11, MQTT, Node-RED, Google Chart, Oh My!](http://www.internetoflego.com/weather-station-dht11-mqtt-node-red-google-chart-oh-my/)
 * [11 Best Weather Stations ](http://www.instructables.com/id/11-Best-Weather-Stations/)
-* [A lightweight, self contained, solar-powered weather station for the Raspberry Pi](https://github.com/masneyb/weather-station)
-* [Solar-powered Weather Station Has the Complete Suite of Sensors](http://hackaday.com/2016/08/17/solar-powered-weather-station-has-the-complete-suite-of-sensors/)
 
 * [Weather Font](http://www.dafont.com/weather.font)
 
 * [National Weather Service](https://www.weather.gov/documentation/)
+    * [National Weather Service Weather Alerts](https://alerts.weather.gov/)
+    * [Weather Alert Light System](https://www.instructables.com/id/Weather-Alert-Light-System/)
 * [OpenWeatherMap](http://openweathermap.org/)
+    * [Real-Time Weather with Raspberry Pi 4](https://www.hackster.io/gatoninja236/real-time-weather-with-raspberry-pi-4-ad621f)
+* [MetaWeather](https://www.metaweather.com/)
 * [Dark Sky API](https://darksky.net/dev/)
+    * [Dark Sky API PyPortal and Weather Dashboard ](https://www.hackster.io/elizabethna/dark-sky-api-pyportal-and-weather-dashboard-9383ee)
 * [Foreca](https://corporate.foreca.com/en/weather-data/weather-api)
 * [cli-weather](https://www.npmjs.com/package/cli-weather)
 * [node-red-node-weather-underground](https://www.npmjs.com/package/node-red-node-weather-underground)
 * [Migrating a Project from Weather Underground to Open Weather Maps](https://www.sparkfun.com/news/2858)
 
 * [Build a Wireless “Tipping Bucket” Rain Gauge, Part 1—Assembling the Bucket](http://www.allaboutcircuits.com/projects/build-a-wireless-tipping-bucket-rain-gauge-part-1assembling-the-base/)
+
+* [climatic simulation](https://hackaday.com/2019/08/02/simulate-climate-with-an-arduino/)
 
 Gulp - http://gulpjs.com/
 Mocha - http://mochajs.org/
@@ -91,6 +99,13 @@ The vertual weather station will
 itself be API emabled so that you can quere for realtime status, hsitoral data,
 and support mutiple thypes of user interfaces
 (e.g. web page, mobile app, or even a repurposed old Kindle).
+
+# Solar Powered Weather Station
+* [Solar Powered Weather Station](https://hackaday.io/project/19324-weather-station)
+* [Stack Of Plant Saucers, Transformed Into Low Cost Solar Shield](https://hackaday.com/2019/09/01/stack-of-plant-saucers-transformed-into-low-cost-solar-shield/)
+* [A lightweight, self contained, solar-powered weather station for the Raspberry Pi](https://github.com/masneyb/weather-station)
+* [Solar-powered Weather Station Has the Complete Suite of Sensors](http://hackaday.com/2016/08/17/solar-powered-weather-station-has-the-complete-suite-of-sensors/)
+* [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
 
 # Space Weather
 Space Weather is the term scientists use to describe the ever changing conditions in space. Explosions on the Sun create storms of radiation, fluctuating magnetic fields, and swarms of energetic particles. These phenomena travel outward through the Solar System with the solar wind. Upon arrival at Earth, they interact in complex ways with Earth's magnetic field, creating Earth's radiation belts and the Aurora. Some space weather storms can damage satellites, disable electric power grids, and disrupt cell phone communications systems.
@@ -183,11 +198,15 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [KindleBerry Pi](http://www.ponnuki.net/2012/09/kindleberry-pi/)
 * [A Jailbreak For Every Kindle](http://hackaday.com/2016/07/09/a-jailbreak-for-every-kindle/)
 
+# Air Particulate Pollution
+* [Measuring Particulate Pollution With The ESP32](https://hackaday.com/2019/08/29/measuring-particulate-pollution-with-the-esp32/)
+
 # Lightning Storm Detector
 * [An Introduction to Storm Detector Modules](https://hackaday.com/2018/03/22/an-introduction-to-storm-detector-modules/)
     * [Storm Detector Modules: Dancing in the Rain](https://hackaday.com/2018/03/28/storm-detector-modules-dancing-in-the-rain/)
 * [Playing With Fusion, Inc](https://github.com/PlayingWithFusion)
 * [SparkFun Lightning Detector - AS3935](https://www.sparkfun.com/products/15276)
+* [This Lightning Detector Is Remarkably Sensitive](https://hackaday.com/2019/10/03/this-lightning-detector-is-remarkably-sensitive/)
 
 # Open Source Seismometer
 * [Earthquake Detection On A Chip](https://hackaday.com/2019/07/06/earthquake-detection-on-a-chip/)
@@ -201,6 +220,8 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [Raspberry Shake - The Personal Seismograph](http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/12810/Raspberry-Shake--The-Personal-Seismograph.aspx) ([shop](http://www.raspberryshake.org/)
 * [Raspberry Shake - Home Earthquake Monitor (RS1D)](https://www.sparkfun.com/products/14835)
 * [Raspberry Pi-powered boom sensor: Detect earthquakes, H-bombs, SpaceX launches](http://www.zdnet.com/article/raspberry-pi-powered-boom-sensor-detect-earthquakes-h-bombs-spacex-launches/)
+* [Watch Earthquake Roll Across A Continent In Seismograph Visualization Video](https://hackaday.com/2019/07/22/watch-earthquake-roll-across-a-continent-in-seismograph-visualization-video/)
+* [Simple Seismic Sensor Makes Earthquake Detection Personal](https://hackaday.com/2019/10/28/simple-seismic-sensor-makes-earthquake-detection-personal/)
 
 # Earthquake Notification
 The United States Geological Survey provides a program called ShakeCast
@@ -211,6 +232,25 @@ that can send notifications within minutes of an earthquake.
 # Geomagnetic Storms
 * [Measuring a geomagnetic storm with a Raspberry Pi magnetometer](http://www.southgatearc.org/news/2019/january/measuring-a-geomagnetic-storm-with-a-raspberry-pi-magnetometer.htm#.XDle9svYrhN)
 
+# Radiation Detection (Geiger-Muller Counter)
+* [DIY Scintillation Detector Is Mighty Sensitive](https://hackaday.com/2019/07/19/diy-scintillation-detector-is-mighty-sensitive/)
+* [DIY Geiger Counter Is Sure To Generate Clicks](https://hackaday.com/2019/08/19/diy-geiger-counter-is-sure-to-generate-clicks/)
+* [You Didn’t See Graphite Around This Geiger Counter](https://hackaday.com/2019/09/08/you-didnt-see-graphite-around-this-geiger-counter/)
+* [Global Radiation Montoring And Tracking Nuclear Disasters At Home](https://hackaday.com/2019/08/28/global-radiation-montoring-and-tracking-nuclear-disasters-at-home/)
+* [Warwalking For Radiation](https://hackaday.com/2019/09/10/warwalking-for-radiation/)
+
+# Spectrophotometer
+* [Spot Adulterated Olive Oil With This Spectrophotometer](https://hackaday.com/2019/08/31/spot-adulterated-olive-oil-with-this-spectrophotometer/)
+
+# NOAA Weather Satellite Data
+* [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)
+* [Receive Weather Satellite Images With Software-Defined Radio](http://mattg.co.uk/words/noaa_sdr/)
+* [Downloading Satellite Images via FM Radio](http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/)
+* [NOAA Weather Satellite Reception with GNU Radio and USRP](http://www.oz9aec.net/index.php/gnu-radio-blog/350-noaa-weather-satellite-reception-with-gnu-radio-and-usrp)
+* [Reading Weather Data with Software-Defined Radio](http://www.linux-magazine.com/Online/Features/Reading-Weather-Data-with-Software-Defined-Radio)
+* [Downloading Satellite Images via FM Radio](http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/)
+* [GNUradio decoders for different satellites](https://github.com/daniestevez/gr-satellites)
+* [L Band Satellite Antennas Revealed](https://hackaday.com/2019/08/04/l-band-satellite-antennas-revealed/)
 
 
 

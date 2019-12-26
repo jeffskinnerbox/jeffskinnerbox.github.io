@@ -21,9 +21,10 @@ Summary: bla bla bla
 [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
 
 ## Music and Sound Waves
- * [Art Ludwig's Sound Page](http://www.silcom.com/~aludwig/)
- * [The Kraakdoos — Musical Abuser of an Ancient OpAmp](http://hackaday.com/2015/09/03/the-kraakdoos-musical-abuser-of-an-ancient-opamp/)
- * The Sound on Sound (SOS) series of articles on [sound synthesis](http://www.soundonsound.com/sos/allsynthsecrets.htm)
+* [Art Ludwig's Sound Page](http://www.silcom.com/~aludwig/)
+* [The Kraakdoos — Musical Abuser of an Ancient OpAmp](http://hackaday.com/2015/09/03/the-kraakdoos-musical-abuser-of-an-ancient-opamp/)
+* The Sound on Sound (SOS) series of articles on [sound synthesis](http://www.soundonsound.com/sos/allsynthsecrets.htm)
+* [Using a Raspberry Pi as a synthesiser](https://www.blogdot.tv/using-a-raspberry-pi-as-a-synthesiser/)
 
 ## Audio Codec
 An audio codec (or just [codec][17]) is a device or computer program capable of

@@ -4,7 +4,8 @@
 # Search Here
 * https://www.google.com/search?q=Creality3D+CR+-+10S&source=lnms&tbm=shop&sa=X&ved=0ahUKEwirq_PUzOPeAhVqTd8KHaSQBDkQ_AUIDigB&biw=1421&bih=996
 
-Referance Shapeways cost vs 3D-Printing your self
+Referance Shapeways cost vs 3D-Printing yourself
+
 
 
 
@@ -40,6 +41,18 @@ The following reviews helped me make this choose:
 
 * [Creality3D CR-10S Upgraded - Review, Print comparison, Pros & Cons](https://www.youtube.com/watch?v=Fhvb9LA9ug0)
 * [Creality CR-10S Review: Is It Better Than the CR-10?](https://www.androidtipster.com/creality-3d-cr-10s-review-upgrade-version-vs-cr-10/)
+
+# Design Principles
+* [Books You Should Read: Exact Constraint: Machine Design Using Kinematic Principles](https://hackaday.com/2019/09/11/books-you-should-read-exact-constraint-machine-design-using-kinematic-principles/)
+
+# 3D vs. 2.5D Printing
+3D printers by in large print in a planer fashion,
+that is, printing in a series of 2D planes stacked up to form a 3D shape.
+True 3D printing is a non-planar technique creates geometry with true 3D tool paths
+that can eliminate the steps often seen on shallow surfaces.
+
+* [Achieve true 3D printing with non planar slicing](https://www.youtube.com/watch?v=gmePlcU0TRw)
+* [How’s That 2.5D Printer Working For You?](https://hackaday.com/2019/09/09/hows-that-2-5d-printer-working-for-you/)
 
 # Barriers to Entry
 One of the biggest reasons there isn’t a 3D printer in every home yet has nothing to do with price or availability.
@@ -93,6 +106,20 @@ Simplify3d
 Slic3r and
 Cura Software
 
+# 3D Printer Projects Downloads
+Free and for fee STL files from community of Makers and Designers.
+
+* [THE BEST SITES TO DOWNLOAD FREE STL FILES, 3D MODELS AND 3D PRINTABLE FILES FOR 3D PRINTING](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/)
+* [3D Printering: The Search For Better Search](https://hackaday.com/2019/09/05/3d-printering-the-search-for-better-search/#more-373259)
+
+* [GrabCAD](https://grabcad.com/library)
+* [STLFinder](https://www.stlfinder.com/)
+* [PinShape](https://pinshape.com/)
+* [Thingiverse](https://www.thingiverse.com/)
+* [Cults](https://cults3d.com/)
+* [OnShape](https://cults3d.com/)
+* [YouMagine](https://www.youmagine.com/)
+* [Cubehero Blog](https://cubehero.com/)
 
 -----
 
@@ -119,8 +146,12 @@ So if you like to tinker with the 3D printer settings, you can.
 Installation is very simple, just follow the [online install instructions][47].
 
 * [Cura 3D Slicer For Beginners! In Depth Tutorial](https://www.youtube.com/watch?v=eUNTlb5pEWA)
+* [2019 Cura Tutorial: Deep Within Cura 3D Slicer Software](https://all3dp.com/1/cura-tutorial-software-slicer-cura-3d/)
 * [2019 Cura Tutorial – Deep Inside the Cura 3D Slicer Software](https://all3dp.com/1/cura-tutorial-software-slicer-cura-3d/)
 * [Ultimaker Cura Guides - Ultimaker 3D Printing](https://www.youtube.com/playlist?list=PLdLJV6tsi3ACyxZt8ZNCywmOmdSpE2_cZ)
+
+## Roll Your Own Slicer
+* [Smoothieboard Gets An Ambitious Update For V2](https://hackaday.com/2019/09/12/smoothieboard-gets-an-ambitious-update-for-v2/)
 
 ### Step X: Install and Configure Cura - DONE
 Cura is an open source 3D printer slicing application.
@@ -177,8 +208,12 @@ Support Enforcers and Blockers
 * [Cura 3.6 | 3D Printing Custom Supports & Suport Blockers](https://www.youtube.com/watch?v=pAJbp0EKN20)
 * [CURA - Tree Supports vs Standard Supports]()
 
-### Step X:Clean Up 3D Prints
+### Step X: Customizing Supports
+Install Custom Supports plugin by selecting the **Marketplace** button at the top right on Cura.
 
+* [Customizing Supports in Ultimaker Cura](https://www.youtube.com/watch?v=6TPFbqZqmWA)
+
+### Step X:Clean Up 3D Prints
 * [How to Clean Up 3d Prints](https://www.youtube.com/watch?v=TR2DYi6B5YQ)
 
 ### Step X: Operating Cura
@@ -315,8 +350,8 @@ mv ~/Downloads/slic3r/Slic3r .
 ln -s ~/src/Slic3r/Slic3r ~/bin/slic3r
 
 # test it and get the version
-$ cura --version
-cura 3.1.0
+$ slic3r --version
+1.3.0
 ```
 
 cura is upgraded several times a year.
@@ -344,6 +379,9 @@ Support Enforcers and Blockers
 * [How to Print with Extremely Fine Nozzles - Quality Comparison](https://www.youtube.com/watch?v=LHg9phNSCEY)
 * [3D Print ridiculously fast with this terrible mod - 1mm nozzle on the Raise N2+](https://www.youtube.com/watch?v=4Hwc-wbihUs)
 
+# Extrusion Width
+* [Extrusion Width - The magic parameter for strong 3D prints?](https://www.youtube.com/watch?v=9YaJ0wSKKHA)
+
 # Bed Leveling
 You need to level the bed to assure your hotend is equidistant every where it travels on the bed.
 This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
@@ -356,6 +394,7 @@ This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
 >Leveling is about making the bed parallel with the effects of gravity.
 
 * [Best method for 3D printer bed levelling](https://www.youtube.com/watch?v=RZRY6kunAvs)
+* [Force Sensitive Resistor Takes The Pain Out Of Bed Leveling](https://hackaday.com/2019/09/01/force-sensitive-resistor-takes-the-pain-out-of-bed-leveling/)
 
 # Print Nozzle
 * [Use your CR-10 the right way: BIG parts with a BIG nozzle!](https://www.youtube.com/watch?v=ChaqTSzrYjI)
@@ -382,12 +421,29 @@ push in the fillement an then pull it out
 # 3D Printer File Formats
 * [4 Most Common 3D Printer File Formats in 2019](https://all3dp.com/3d-printing-file-formats/)
 
-# STL File
+# 3D Printing File Formats
+
+## Stereolithography (STL) File
 [STL is a file format][06]
 widely used within CAD software.
 STL is an abbreviation of "[stereolithography][07]".
+Its the most common and universal file format for 3D printing.
+It was released in 1987 and it’s dead simple.
+An STL file describes a raw, unstructured triangulated surface.
 
 * [STL File Format (3D Printing) – Simply Explained](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
+
+## 3D Manufacturing Format (3MF) File
+The STL file format doesn’t contain any scale, color or material information.
+There is no validation, it’s just a bunch of triangles,
+so it doesn’t stop you from creating holes, non-manifold edges,
+flipped normals, or self-intersecting models.
+It’s good enough most of the time, but isn’t there a better file format?
+
+* [3MF file format and why it’s great](https://blog.prusaprinters.org/3mf-file-format-and-why-its-great/)
+* [Josef Prusa Wants You To Change File Formats](https://hackaday.com/2019/11/01/josef-prusa-wants-you-to-change-file-formats/)
+
+## Additive Manufacturing File (AMF)
 
 # G-code File
 [G-code][42] is a language
@@ -427,7 +483,11 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 * [G-Code to STL – How to Convert G-Code Back to STL](https://all3dp.com/2/g-code-to-stl-how-to-convert-g-code-back-to-stl/)
 * [STL to STEP – How to Convert STL Files to STEP](https://all3dp.com/2/stl-to-step-how-to-convert-stl-files-to-step/)
 
+# PLA Smoothing
+* [PLA Smoothing 3D Prints with 3D Gloop!](https://www.youtube.com/watch?v=vQc5TBPF8uw)
 
+# Gluing PLA
+[Locally Sourced: PLA Adhesive](https://hackaday.com/2018/02/07/locally-sourced-pla-adhesive/)
 
 
 
@@ -521,6 +581,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [OctoPrint](https://octoprint.org/)
     * [OctoPrint Blog](https://octoprint.org/blog/)
     * [OctoPrint Wiki](https://github.com/foosel/OctoPrint/wiki)
+* [How to Set Up OctoPrint on Raspberry Pi 3 B+ – 3 Easy Steps](https://all3dp.com/2/how-to-set-up-octoprint-on-raspberry-pi-3-b-easy-steps/)
 * [THE THREE BEST 3D PRINTER WIRELESS HOST SOFTWARE – OCTOPRINT VS. ASTROPRINT VS. REPETIER SERVER](http://3dprinterpower.com/best-3d-printer-wireless-host-software/)
 * [OctoPrint](https://octoprint.org/)
 * [How to Install and Set Up Octopi for Remote Raspberry Pi 3D Printer Control with Octoprint](https://makerhacks.com/octoprint-raspberrypi-3dprinter/)
@@ -530,7 +591,10 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Controlling OctoPrint On The Go](https://hackaday.com/2018/03/05/controlling-octoprint-on-the-go/)
 
 ### Camera Mount
+* [ARTICULATING RASPBERRY PI CAMERA MOUNT](https://cults3d.com/en/3d-model/tool/articulating-raspberry-pi-camera-mount-for-prusa-mk3)
+* [Light the Bed for Camera: HexaSpot Lamp v1](https://www.thingiverse.com/thing:3605128)
 * [OctoPrint Webcam Bracket for Creality CR-10](https://www.eeweb.com/featured-projects/octoprint-webcam-bracket-for-creality-cr-10)
+* [OctoPrint Time-Lapse: How to Find the Best Octolapse Settings](https://all3dp.com/2/octoprint-timelapse-how-to-find-the-best-octolapse-settings/)
 * [Raspberry Pi CAM Mount with integrated cable management](https://www.thingiverse.com/thing:2842300)
 * [A Modular Mounting System Via 3D Printing](https://hackaday.com/2019/03/01/a-modular-mounting-system-via-3d-printing/)
 * [PrintRite Uses TensorFlow To Avoid Printing Catastrophies](https://hackaday.com/2019/03/03/printrite-uses-tensorflow-to-avoid-printing-catastrophies/)
@@ -579,7 +643,10 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 ## Add Metal Threads to Your 3D Prints
 * [Add Metal Threads to Your 3D Prints - Make Them Functional!: 4 Steps (with Pictures)](https://www.instructables.com/id/Add-Metal-Threads-to-Your-3D-Prints-Make-Them-Func/)
 * [Adding Screw Threads to 3D Printed Parts](https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/)
+* [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
+### Testing Threaded Inserts
 * [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
+* [Threaded Inserts for 3D Prints - Cheap VS Expensive](https://www.youtube.com/watch?v=G-UF4tv3Hvc)
 
 # CNC
 * [Get Moving with New Software from OpenBuilds](https://hackaday.com/2019/03/23/get-moving-with-new-software-from-openbuilds/)
@@ -594,6 +661,11 @@ especially for recovering the exact positions of surface points.
 * [For Better Photogrammetry, Just Add A Donut](https://hackaday.com/2019/05/14/for-better-photogrammetry-just-add-a-donut/)
 * [Meshroom][39] is free, open-source photogrammetry software
 built on top of an underlying framework called [AliceVision][40].
+
+# Super Size Print
+[LuBan][55] is a software tool used to split giant 3D models into manageable chunks that could be printed.
+
+* [LuBan: Easy Way To Make Large 3D Prints!](https://www.inov3d.net/luban)
 
 # Multicolor Printing
 * [MICROSCOPE-INSPIRED TOOLCHANGER SPINS MULTICOLOR 3D PRINTS](https://hackaday.com/2019/05/15/microscope-inspired-toolchanger-spins-multicolor-3d-prints/)
@@ -654,7 +726,7 @@ built on top of an underlying framework called [AliceVision][40].
 [52]:https://github.com/thopiekar/Cura-packaging/blob/master/Troubleshooting.md
 [53]:https://www.thingiverse.com/thing:965737
 [54]:https://www.thingiverse.com/thing:2187167
-[55]:
+[55]:https://www.luban3d.com/
 [56]:
 [57]:
 [58]:

@@ -11,6 +11,7 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 
 * [Google Assistant, Now Available On Ham Radio](https://hackaday.com/2019/01/05/google-assistant-now-available-on-ham-radio/)
 * [All About Ham Satellites](https://hackaday.com/2019/01/07/all-about-ham-satellites/)
+* [Listening to Satellites with a Homemade Yagi Antenna](https://makezine.com/projects/make-24/homemade-yagi-antenna/)
 
 
 I have already bought the
@@ -40,13 +41,13 @@ Additionally, it can receive on standard commercial FM frequencies as well as we
 I bought it because its programmability and others have successfully hacked it
 Some examples of this are:
 
+* [Baofeng UV-5R Review and Set-Up](https://www.youtube.com/watch?v=56PvtAqacz8)
+
 * [Take it Apart - Baofeng UV-5R+ 136-174 400-480 MHz FM Transceiver](https://www.takeitapart.com/guide/9)
 * [Teardown Tuesday: Baofeng Amateur Radio Transceiver](https://www.allaboutcircuits.com/news/teardown-tuesday-baofeng-amateur-radio-transceiver/?utm_source=All+About+Circuits+Members&utm_campaign=3488ffa7b4-EMAIL_CAMPAIGN_2017_03_09&utm_medium=email&utm_term=0_2565529c4b-3488ffa7b4-270523833/)
-* [Baofeng (or other radio) data TX/RX for Raspberry Pi](http://flows.nodered.org/flow/d802e43ab306b4b9f2ba)
 * [Baofeng UV-5R Series Programming](http://www.miklor.com/uv5r/)
 * [CHIRP](http://chirp.danplanet.com/projects/chirp/wiki/Home)
 * [Hacking the Baofeng UV5R](http://elazary.com/index.php?option=com_content&view=article&id=49%3Ahacking-the-baofeng-uv5r&catid=14%3Abaofeng-uv5r&Itemid=17&showall=1)
-* [Baofeng (or other radio) data TX/RX for Raspberry Pi](http://flows.nodered.org/flow/d802e43ab306b4b9f2ba)
 
 Maybe I could even do some exploring of spectrum mysteries like
 [Number Stations][01] and [Tesla Spirit Radio][06]).
@@ -58,7 +59,21 @@ Maybe I could even do some exploring of spectrum mysteries like
 # Digital Ham Radio
 * [Griff's Digital Ham Radio Site](http://w5vwp.com/index.shtml)
 
-# Other
+# Baofeng UV-5R+ as Alternative to WiFi or LTE
+* [Baofeng (or other radio) data TX/RX for Raspberry Pi](http://flows.nodered.org/flow/d802e43ab306b4b9f2ba)
+
+# Baofeng UV-5R+ as a Police Scanner
+Almost all public services (Police, Fire, EMS, works, etc)
+chatter is now trunked and encrypted
+(trunking system in 700 or 800 MHz)
+using P25 digital modulation format.
+However there are still some things you can listen to:
+
+* VHF - 2-Meter ham, MURS, Commercial, Marine band, Railroads
+* UHF - 440 Ham, Commercial, GMRS, FRS
+
+* [Baofeng UV-5R Programming - setup as a police scanner](https://www.youtube.com/watch?v=zlQqQKIWEVE)
+* [Using Baofeng UV-5R as a Radio Scanner with CHIRP](https://oneguyoneblog.com/2018/02/25/scanner-radio-pofung-baofeng-uv-5r-chirp/)
 
 # Studying for Ham Radio License
 * [ARRL Ham Radio License Support Page](http://www.arrl.org/ham-radio-license-manual)
@@ -96,6 +111,11 @@ Family Radio Service (FRS)
 ## Emergency Radio Frequencies
 * [How to communicate when the world goes silent](https://graywolfsurvival.com/2716/ham-radio-best-shtfdisaster-communication/)
 
+## Microwave Frequencies
+ In amateur radio, generally the frequencies above 902 MHz are call microwave frequencies.
+
+ * [North Texas Microwave Society](http://ntms.org/)
+
 # Amateur Radio Weak Signal Communication
 The FT8 digital mode is the latest in a series of weak signal applications for amateur radio.
 Conceived originally for enhancing esoteric propagaint modes such as high speed meteor scatter and moonbounce,
@@ -115,6 +135,14 @@ was announced it was described as being designed for,
 Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 
 * [New Packet Radio](https://hackaday.com/2019/03/30/bidirectional-ip-with-new-packet-radio/)
+* [Setting up Packet Radio on a Raspberry Pi (4 thru Zero-W) running Raspbian Buster, Stretch or Jessie](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi2-setup.html)
+
+# Raspberry Pi for Ham-Radio
+* [Setup Raspberry Pi for Ham-Radio](https://orari.or.id/index.php/2019/09/02/setup-raspberry-pi-for-ham-radio/)
+
+#  International Space Station (ISS)
+* [How to hear the ISS](https://amsat-uk.org/beginners/how-to-hear-the-iss/)
+* [Open Notify: International Space Station Current Location](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
 
 
 

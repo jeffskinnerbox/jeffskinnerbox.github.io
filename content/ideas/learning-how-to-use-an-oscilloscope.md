@@ -19,7 +19,8 @@
 
 
 
-
+# What Does a Workbench Need?
+* [What Does An Electronics Tinkerer’s Workbench Need?](https://hackaday.com/2019/12/14/what-does-an-electronics-tinkerers-workbench-need/)
 
 # History of the Oscilloscope
 * [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
@@ -42,12 +43,35 @@
 # Fun With Negative Resistance
 * [Fun With Negative Resistance: Jellybean Transistors](https://hackaday.com/2019/05/08/fun-with-negative-resistance-jellybean-transistors/)
 
+# Vernier Controls
+The concept is similar in use to [vernier calipers][04] which have a primary scale for gross measurements, and a secondary scale for fine measurements.
+
+* [Get Better Accuracy On Your Oscilloscope](https://www.youtube.com/watch?v=8iE28oGtayQ)
+* [Do Digital Scopes Have REAL Verniers?](https://www.youtube.com/watch?v=7v-P75MOZ5o&feature=em-uploademail)
+
+# Vector Network Analyzer (VNA)
+Vector Network Analyzers are used to test component specifications
+and verify design simulations to make sure systems and their components work properly together.
+
+* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
+* [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
+
+# Example Uses
+* [Measuring Cable Length - Fast Video Covers Coax Velocity Factor](https://hackaday.com/2019/10/11/fast-video-covers-coax-velocity-factor/)
+* [Measure the Speed of Light](https://hackaday.com/2016/09/29/testing-the-speed-of-light-conspiracy/)
+* [Back to Basics: Diodes - guide to operation, characteristics, types and specifications](https://www.youtube.com/watch?v=Pp5AAj2aIzc)
+
+# LabView
+* [What is LabVIEW?](https://www.youtube.com/watch?v=P8y3tKJQadE)
+* [LabVIEW in Linux](http://danielcentore.com/labview-in-linux/)
+* [LabVIEW 2018 Additional Installation Information](https://intra.kth.se/polopoly_fs/1.338137.1555493593!/labview_lin_extrainfo.pdf)
+
 
 
 [01]:https://hackaday.com/2018/09/11/the-pre-crt-oscilloscope/
 [02]:https://hackaday.com/2018/11/01/cut-through-the-noise-see-tiny-signals/
 [03]:http://dangerousprototypes.com/2010/12/06/bus-pirate-piratescope/
-[04]:
+[04]:https://en.wikipedia.org/wiki/Vernier_scale
 [05]:
 [06]:
 [07]:

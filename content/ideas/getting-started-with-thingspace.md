@@ -215,7 +215,7 @@ aka [HAPI][88] web API.
 # Step X: Controlling the Camera (Optional)
 * [My Internet of Things and MobileFirst adventure – Part 4: Adding in the camera](https://dennisschultz.wordpress.com/2015/06/29/my-internet-of-things-and-mobilefirst-adventure-part-5-adding-in-the-camera/)
 * [node-red-contrib-camerapi](http://flows.nodered.org/node/node-red-contrib-camerapi)
-* [node-red-contrib-webcam ](http://flows.nodered.org/node/node-red-contrib-webcam)
+* [node-red-contrib-webcam](http://flows.nodered.org/node/node-red-contrib-webcam)
 
 # Video Storage
 * [Cloudinary](http://cloudinary.com/)

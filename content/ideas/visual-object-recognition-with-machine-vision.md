@@ -9,6 +9,13 @@
 * [Jupyter Notebook Extensions: How to get the most from the notebook environment](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 
 
+# ImageAI
+ImageAI is an easy to use Computer Vision Python library that empowers developers
+to easily integrate state-of-the-art Artificial Intelligence
+features into their new and existing applications and systems.
+
+* [Train Image Recognition AI with 5 lines of code](https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba)
+
 # Machine Vision
 https://www.visiononline.org/vision-resources-details.cfm/vision-resources/Computer-Vision-vs-Machine-Vision/content_id/4585
 Machine vision traditionally refers to the use of computer vision in an industrial or practical application or process where it is necessary to execute a certain function or outcome based on the image analysis done by the vision system. The vision system uses software to identify pre-programmed features. The system can be used to trigger a variety of set “actions” based on the findings.
@@ -131,6 +138,7 @@ Test Images
 * [Lena Soderberg: The Playboy model at the centrefold of computer science](http://www.smh.com.au/technology/technology-news/lena-soderberg-the-playboy-model-at-the-centrefold-of-computer-science-20150510-ggyien.html)
 * [The photo of Lena Söderberg](http://www.computableminds.com/post/lena-soderberg-common-image-processing-test-images.html)
 * [The Playboy Centerfold That Helped Create the JPEG](https://www.theatlantic.com/technology/archive/2016/02/lena-image-processing-playboy/461970/)
+* [A Nude ‘Playboy’ Photo Has Been a Mainstay in Testing Tech for Decades](https://onezero.medium.com/a-nude-playboy-photo-has-been-a-mainstay-in-testing-tech-for-decades-b8cdb434dce1)
 * http://sipi.usc.edu/database/database.php?volume=misc&image=12#top
 
 # JeVois
@@ -177,6 +185,8 @@ JeVois is an impressive machine vision solution and
 and its processor compares very favorably to the Raspberry Pi 3:
 
 [!jrvois-vs-rpi3](https://cdn.shopify.com/s/files/1/1719/3183/files/comparison-to-rpi_1024x1024.png?v=1488568740)
+
+[The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)
 
 JeVois can run standalone, or as a USB camera streaming raw or
 The JeVois can work as:

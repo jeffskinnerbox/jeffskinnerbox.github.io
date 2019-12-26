@@ -2,13 +2,22 @@
 * [6 open source home automation tools](https://opensource.com/life/17/12/home-automation-tools?utm_medium=Email&utm_campaign=weekly&sc_cid=701f2000000tpYEAAY)
 * [What Smart Home IoT Platform Should You Use?](https://dzone.com/articles/what-smart-home-iot-platform-should-you-use)
 
+* [Making my analog doorbell smart by simply attaching a $7 sensor to it](https://partofthething.com/thoughts/making-my-analog-doorbell-smart-by-simply-attaching-a-7-sensor-to-it/)
+* [Home automation with Z-Wave, Home-Assistant, Aeon Multisensor, HUE lights, and a Raspberry Pi 2](https://partofthething.com/thoughts/home-automation-with-z-wave-home-assistant-aeon-multisensor-hue-lights-and-a-raspberry-pi-2/)
+
 # Home Assistant
 * [Hass.io](https://www.home-assistant.io/hassio/)
 * [Home Assistant](https://home-assistant.io/)
+* [Burns Home Assistant](https://www.youtube.com/channel/UCSKQutOXuNLvFetrKuwudpg)
 * [Creating an IoT Server with Home Assistant and MQTT](https://www.hackster.io/Richa1/creating-an-iot-server-with-home-assistant-and-mqtt-3d874d)
 * [works with Framework for Internal Navigation and Discovery (FIND)](https://github.com/schollz/find3)
 * [AWS IoT Environment for Home Assistant](https://www.hackster.io/mitchese/aws-iot-environment-for-home-assistant-899a1b)
 * [Integrating Snips with Home Assistant](https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77)
+
+## LANnouncer
+LANnouncer is a device driver for the Samsung SmartThings home automation hub, bringing audio alerts to the system through any connected Android device.
+* [LANnouncer](http://www.keybounce.com/lannouncer/)
+* [LANnouncer alerts in Home Assistant!!](https://www.youtube.com/watch?v=VMA9ZqgLNIA)
 
 ## ESPHome
 * [ESPHome](https://esphome.io/)
@@ -48,6 +57,10 @@ Hass.io turns your Raspberry Pi (or another device) into the ultimate home autom
 * [Home Automation: Playing With IoT, Temperature Sensors, Fans, and Telegram Bots](https://dzone.com/articles/home-automation-playing-with-iot-temperature-senso)
 * [Telebot - The easy way to write Telegram bots in Node.js](https://github.com/kosmodrey/telebot)
 * [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
+* [ESP8266 and Telegram Bot: Home Automation](https://dzone.com/articles/esp8266-and-telegram-bot-home-automation)
+* [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
+* [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
+* [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
 
 ## Mozilla Things Gateway
 * [GitHub: Things Gateway by Mozilla README.md File](https://github.com/mozilla-iot/gateway/blob/master/README.md)
@@ -72,6 +85,13 @@ Hass.io turns your Raspberry Pi (or another device) into the ultimate home autom
 * [Introducing the Raspberry Pi 2](http://hackaday.com/2015/02/02/introducing-the-raspberry-pi-2/)
 * [UPS PIco - Uninterruptible Power Supply with Peripherals and I2C control Interface](http://www.rpiblog.com/2015/01/ups-pico-uninterruptible-power-supply.html)
 
+### Network Booting
+The latest Raspberry Pis, version 4, ship with Preboot Execution Environment (PXE) boot enabled,
+allowing the Pi to load its file system from a server on the same network.
+
+* [Running Raspberry Pi Without an SD Card](https://hackaday.com/2018/10/08/hack-my-house-running-raspberry-pi-without-an-sd-card/)
+* [Networek Booting the Pi 4](https://hackaday.com/2019/11/11/network-booting-the-pi-4/)
+
 ## Related
 * [The Problem With Home Automation, and How Eclipse SmartHome Could Help](http://java.dzone.com/articles/problem-home-automation-and)
 * [openHAB 2.0 and Eclipse SmartHome](http://kaikreuzer.blogspot.com/2014/06/openhab-20-and-eclipse-smarthome.html)
@@ -90,4 +110,6 @@ Hass.io turns your Raspberry Pi (or another device) into the ultimate home autom
 * [How to root your WINK hub - Step by Step tutorial](http://arahuman.blogspot.de/2014/11/how-to-root-your-wink-hub-step-by-step.html)
 * [OpenEnergyMonitor](http://openenergymonitor.org/emon/)
 * [Home Monitoring with Raspberry Pi and Node.js](https://www.hackster.io/andreioros/home-monitoring-with-raspberry-pi-and-node-js-8ec795)
+* [Building A Safe ESP32 Home Energy Monitor](https://hackaday.com/2019/07/27/building-a-safe-esp32-home-energy-monitor/)
+
 

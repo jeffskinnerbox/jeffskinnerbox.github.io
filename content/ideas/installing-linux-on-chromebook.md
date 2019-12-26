@@ -2,6 +2,9 @@
 * [How to Watch Amazon Prime Video on Your TV With Chromecast](https://www.makeuseof.com/tag/how-to-watch-amazon-prime-on-tv-chromecast/)
 * [Uninstalling Linux Apps In Chrome OS May Be Simplified Soon](https://www.androidheadlines.com/2018/10/uninstalling-linux-apps-in-chrome-os-may-be-simplified-soon.html)
 
+* [Chrome OS now allows virtual desktops](https://www.techradar.com/au/news/chrome-os-now-allows-virtual-desktops)
+* [How to Use Virtual Desktops on Chrome OS](https://www.howtogeek.com/437202/how-to-use-virtual-desktops-on-chrome-os/)
+
 Status: draft
 Title: Installing Linux on Chromebook
 Date: 2100-01-01 00:00
@@ -1139,6 +1142,8 @@ sudo apt-get install jq hashalot
 ```
 
 ## Step X: Install i3 (Optional) - DONE
+* [Running a window manager (i3wm) on stock Chrome OS](https://www.reddit.com/r/Crostini/comments/ean9du/running_a_window_manager_i3wm_on_stock_chrome_os/)
+
 [i3][44] is a [tilling window manager][45] that is configurable, fast, well documented,
 but primarily targeted at advanced users and developers.
 While you may already fined i3 installed,

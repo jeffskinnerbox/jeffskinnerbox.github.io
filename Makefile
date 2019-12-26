@@ -170,6 +170,7 @@ else
 endif
 
 start: startserver startwiki
+	@echo -e "\n\nThe blog can be view at \"http://localhost:8000/\" using a browser."
 
 stop: stopserver stopwiki
 

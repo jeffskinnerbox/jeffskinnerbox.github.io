@@ -6,6 +6,8 @@
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Open Data Cam Combines Camera, GPU, and Neural Network in an Artisanal DIY Cereal Box](https://hackaday.com/2018/10/29/open-data-cam-combines-camera-gpu-and-neural-network-in-an-artisanal-diy-cereal-box/)
 
+* [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
+
 
 If you USB camera stops working or generally misbehaves,
 a frustrating solution is to restart your Linux.
@@ -759,6 +761,9 @@ raspivid -n -t 0 -w 1280 -h 720 -fps 49 -o - | nc 192.168.1.200 5000
 ```
 
 ## GStreamer
+
+* [Gstreamer basic real time streaming tutorial](http://www.einarsundgren.se/gstreamer-basic-real-time-streaming-tutorial/)
+
 [!gstreamer](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gstreamer-logo.svg/530px-Gstreamer-logo.svg.png)
 **NOTE: gstreamer doesn't appear to work very well on Wayland Display Manager.**
 [GStreamer][76] is a framework for creating streaming media applications.
@@ -1859,6 +1864,13 @@ Note: Before using wifibroadcast you have to check if the regulatories of your c
 * [HD Video and Telemetry Link Uses Standard WiFi Hardware](https://hackaday.com/2018/12/27/hd-video-and-telemetry-link-uses-standard-wifi-hardware/)
 
 * [UDP Live Image Streaming](https://github.com/chenxiaoqino/udp-image-streaming/)
+
+## Streaming Oneway
+Sending arbitrary IEEE 802.11 frames can be useful in
+unidirectional long-distance communication or low-overhead data transmission.
+
+* [ESP32 WiFi Range Testing - 10km using Directional Antenna](https://www.youtube.com/watch?v=yCLb2eItDyE)
+* [unidirectional long-distance communication](https://github.com/Jeija/esp32free80211)
 
 # Low-Latency Live Streaming
 I want to stream 720p video (or any quality for that matter)

@@ -24,6 +24,10 @@
 * [ESP8266 Tips & Tricks](https://www.youtube.com/channel/UCqk4hT4XpzUVVUfsIDNzvPw)
 * [My ESP32 videos](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ)
 
+* [Impractical Clock Uses Tuning Fork](https://hackaday.com/2019/08/29/impractical-clock-uses-tuning-fork/)
+
+* [EL Wire Neon Nixie Style Clock](https://www.instructables.com/id/EL-Wire-Neon-Nixie-Style-Clock/)
+
 # Enclosure
 * [Printed It: Custom Enclosure Generator](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
 
@@ -38,13 +42,35 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [tourbillon](https://en.wikipedia.org/wiki/Tourbillon)
 * [Jaeger-LeCoultre: Tourbillon watches explained by Jeff Kingston](https://www.youtube.com/watch?v=u7sE3L-V36E)
 * [Gyrotourbillion Blesses The Eyes, Hard to Say](https://hackaday.com/2018/06/30/gyrotourbillion-blesses-the-eyes-hard-to-say/)
+* [Spiral Exhaust Movement](https://cults3d.com/en/3d-model/various/mouvement-echappement-spiral)
+* [3D-printed Watch with Tourbillon](https://www.thingiverse.com/thing:1249221)
+    * [3D-printed Watch with Tourbillon - How it's made](https://www.youtube.com/watch?v=Go8woPGOggg&app=desktop)
+* [The Clockwerk 3D-Printed Triple-Axis Tourbillon by Adam Wrigley](https://www.youtube.com/watch?v=8KMbHNoY5zc)
 * [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/thing:328569)
+* [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/make:704836)
 * [3D-Printed Tourbillon Demo Keeps the Time with Style](https://hackaday.com/2019/02/04/3d-printed-tourbillon-demo-keeps-the-time-with-style/)
+* [3D Print a Working Tourbillon Clock](https://makezine.com/projects/3d-printed-tourbillon-clock/)
+* [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
 * [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
     * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
 * [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
 * [Time Zone Map](https://www.timeanddate.com/time/map/)
-* [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
+* [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
+* [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
+* [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
+
+## Precision Time Keeping
+If interested in precision timing in general,
+consider joining the [Time Nuts email list](https://lists.febo.com/mailman/listinfo/time-nuts_lists.febo.com).
+
+* [100 Year Old Atomic Clock](https://hackaday.com/2019/09/25/100-year-old-atomic-clock/)
+
+## Clepsydra Clock
+A water clock or clepsydra is any timepiece by which time is measured by
+the regulated flow of liquid into (inflow type) or out from (outflow type) a vessel,
+and where the amount is then measured.
+
+* [Steampunk Clepsydra](https://www.instructables.com/id/Steampunk-Clepsydra-Water-Thief-Clock/)
 
 ## John Harrison Clock
 * [The Clock That Changed the World (BBC History of the World)](https://www.youtube.com/watch?v=T-g27KS0yiY&feature=youtu.be)
@@ -52,6 +78,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 # Getting and Keeping Time
 * ["Connect" to an atomic clock in space! GPS, DCF77](http://hackaday.io/project/1353)
 * [WWV Radio Station](http://en.wikipedia.org/wiki/WWV_%28radio_station%29)
+    * [NIST Radio Stations]()
 * [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 
 # Unix Time
@@ -61,15 +88,22 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [Is Your Clock Tied to Mains Frequency?](https://hackaday.com/2018/03/29/ask-hackaday-is-your-clock-tied-to-mains-frequency/)
 
 # Time from Atomic Clocks
+* [NIST-F1, a Cesium Fountain Atomic Clock, is the nation's primary time and frequency standard](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
 * [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 
 # Time from Radio Stations
 * [WHAT WILL YOU DO IF WWVB GOES SILENT?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 
+# Ham Radio Clock
+* [Ham Clock Raspberry Pi](https://dl1gkk.com/ham-clock-raspberry-pi/)
+
 # Time from GPS
 * [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
 * [Make a GPS Clock With Arduino](https://www.allaboutcircuits.com/projects/how-to-make-a-gps-clock-with-arduino/)
 * [Self-adjusting clock with e-display](https://hackaday.io/project/164955-self-adjusting-clock-with-e-display)
+
+# Speaking Clocks
+* [Retrotechtacular: The Speaking Clock Goes Silent](https://hackaday.com/2019/10/30/retrotechtacular-the-speaking-clock-goes-silent/)
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
@@ -95,6 +129,7 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [1.2" 4-Digit 7-Segment Display w/I2C Backpack](https://www.adafruit.com/product/1270)
 * [Metro Minimalist Clock](https://learn.adafruit.com/metro-minimalist-clock/overview)
 * [7 Segment Display Internet Clock](https://learn.adafruit.com/7-segment-display-internet-clock/code)
+* [Not All 7-Segment Displays Are Electronic](https://hackaday.com/2019/10/13/not-all-7-segment-displays-are-electronic/)
 
 ## Big Display
 * [DIY 7 Segment Digital Clock](https://www.youtube.com/watch?v=1aNHF5tcTpw)
@@ -118,6 +153,9 @@ Project of a clock (or other information) on ceiling in bedroom
 * [IOT SPLIT-FLAP WEATHER FORECAST POWERED BY XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
+
+## Other
+* [Tiny Bubbles In The Clock](https://hackaday.com/2019/12/20/tiny-bubbles-in-the-clock/)
 
 ################################################################################
 
@@ -831,6 +869,8 @@ wget https://github.com/JChristensen/Timezone/archive/master.zip -O Timezone.zip
 Then perform step 3 & 4 above.
 
 ### Step X: Install NTP Client and Test - DONE
+* [Tricks to get local NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&t=86s)
+
 Following the article ["ESP8266 - NTP Client and Daylight Saving Time"][48] as a guide,
 test out these libraries by installing the ESP8266 the NTP Client found [here][29].
 
@@ -968,6 +1008,8 @@ This part will measure eCO2 (equivalent calculated carbon-dioxide) concentration
 
 * https://www.adafruit.com/product/3709
 * https://www.adafruit.com/product/3660
+* [air quality index (AQI)](https://en.wikipedia.org/wiki/Air_quality_index)
+* [Building A Full-Fat Air Quality Monitor](https://hackaday.com/2019/09/03/building-a-full-fat-air-quality-monitor/)
 
 
 

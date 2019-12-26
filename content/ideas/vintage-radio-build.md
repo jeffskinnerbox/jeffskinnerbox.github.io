@@ -1,5 +1,12 @@
+# Understanding Modulation
+* [the mysteries of RF modulation](https://hackaday.com/2019/01/22/understanding-modulated-rf-with-w2aew/)
+* [FM Signal Detection The Pulse-Counting Way](https://hackaday.com/2019/08/28/fm-signal-detection-the-pulse-counting-way/)
+
 # Early Radio Types
 https://en.wikipedia.org/wiki/History_of_radio
+
+# National Radio Quiet Zone
+* [All Quiet On The West Virginia Border: The National Radio Quiet Zone](https://hackaday.com/2016/04/13/all-quiet-on-the-west-virginia-border-the-national-radio-quiet-zone/)
 
 ## Crystal Radio
 The first radio receivers were crystal sets,
@@ -62,11 +69,35 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 # Spark Gap Radio
 * [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 
+# Coherer
+The [coherer](https://en.wikipedia.org/wiki/Coherer)
+is a primitive form of radio signal detector used in the first radio receivers during the wireless telegraphy era at the beginning of the 20th century.
+The Coherer had many short comings as a detector and
+around 1905 will be replaced by the Fleming Valve (aka Diode Vacuum Tube)
+and De Forest's Audion (aka Triode Vacuum Tube).
+For more information, see Kathy Balistreri excellent videos on the ["Secret History of Electricity"](https://www.youtube.com/channel/UCYrX5FiWjiPd0JytMh6NX1Q)
+Specifically, check out:
+
+* [Triode Vacuum Tube: History & Physics](https://www.youtube.com/watch?v=0Smj2nHo9zA)
+* [Reginald Fessenden & the Physics of the First Radio Broadcast](https://www.youtube.com/watch?v=RYHaihLhBvc)
+* [The Arc Transmitter (Poulsen Arc) and the Titanic](https://www.youtube.com/watch?v=hrmx_TKNvyc)
+
+You too can
+[rediscovering the magic of wireless communication](http://ashishrd.blogspot.de/2015/11/rediscovering-magic-of-wireless.html)
+by building your own coherer.
+
+* [The Branly-Lodge "Coherer" Detector](http://people.seas.harvard.edu/~jones/cscie129/nu_lectures/lecture6/coherers/coherer.html)
+* [Spark Museum](http://www.sparkmuseum.com/RADIOS.HTM)
+
+* [Tuning Into Atomic Radio: Quantum Technique Unlocks Laser-Based Radio Reception](https://hackaday.com/2019/07/17/tuning-into-atomic-radio-quantum-technique-unlocks-laser-based-radio-reception/#more-365114)
+
 # Transmitter
 * [Build a 1929 Style TNT Transmitter](http://members.shaw.ca/ve7sl/tnt.html)
+* [Hacking Transmitters, 1920s Style](https://hackaday.com/2019/11/28/hacking-transmitters-1920s-style/)
 * [Showcase: Homemade 1930s-Style AM Radio Transmitter](http://retrovoltage.com/2011/04/05/showcase-homemade-1930s-style-am-radio-transmitter/)
 * [The Complete Guide on How to Build a Crystal Radio—Plus How They Work](http://steampunk.wonderhowto.com/how-to/complete-guide-build-crystal-radio-plus-they-work-0141117/)
 * [Wireless electricity transmission circuit](http://www.instructables.com/id/Wireless-electricity-transmission-circuit/?ALLSTEPS)
+* [A Radio For The Apocalypse](https://hackaday.com/2019/11/15/a-radio-for-the-apocalypse/)
 * [HG Wells Time Machine Crystal Radio](http://crystalradioclub.co.uk/groberts.htm)
 * [The Michigan Mighty-Mite Rides Again](http://hackaday.com/2016/01/29/the-michigan-mighty-mite-rides-again/)
 * [Michigan Mighty Mite](http://www.sm7ucz.se/MMM/MMM.htm)
@@ -82,6 +113,9 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [Two transistor superheterodyne shortwave receiver](http://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 * [Simple Superheterodyne SW Receiver Harks Back Almost 100 years](http://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 * [High Performance Crystal Radio](http://hackaday.com/2016/09/16/high-performance-crystal-radio/)
+
+# Transceiver
+* [Just How Simple Can A Transceiver Be?](https://hackaday.com/2019/11/09/just-how-simple-can-a-transceiver-be/)
 
 # Building Radios and Components from Sketch
 * [Lost Knowledge: Homemade electronic components](http://makezine.com/2009/04/14/lost-knowledge-homemade-electronic/)
@@ -115,6 +149,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 ## Diode
 * [History Of The Diode](http://hackaday.com/2016/08/15/history-of-the-diode/)
 * [Homemade Zinc Oxide Rectifier Diode](http://sparkbangbuzz.com/zinc-oxide-diode/zinc-oxide-diode.htm)
+* [Home Made Diodes From Copper Oxide](http://hackaday.com/2016/05/01/home-made-diodes-from-copper-oxide/)
 
 # Flame Components
 * [Flame Triodes Don’t Need Any Vacuum](http://hackaday.com/2016/05/26/flame-triodes-dont-need-any-vacuum/)
@@ -128,6 +163,8 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [Resistance in Motion: What You Should Know About Variable Resistors](http://hackaday.com/2016/09/16/resistance-in-motion-everything-you-should-know-about-variable-resistors/)
 
 # Other
+* [Modern Radio Laboratories](http://www.modernradiolabs.com/)
+* [Elmer G. Osterhoudt and The Modern Radio Laboratories Catalog](http://www.analogdial.com/Osterhoudt/Osterhoudt1.html)
 * [Alfred Powell Morgan's "The Boy Electrician"](https://books.google.com/books/about/The_Boy_Electrician.html?id=G09NAAAAYAAJ)
 * [Geoff's Crystal Sets](http://crystalreceiver.co.uk/index.htm)
 * [Cool Homemade Stuff etc.](http://www.sparkbangbuzz.com/index.html)
@@ -136,7 +173,6 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [H. P. Friedrichs` "Instruments of Amplification: Fun with Homemade Tubes, Transistors, and More"](http://www.hpfriedrichs.com/mybooks/ioa/bks-ioa.htm)
 * [Homemade Lightbulb](http://www.instructables.com/id/Homemade-Lightbulb/?ALLSTEPS)
 * [The Champagne of Light Bulbs](http://hackaday.com/2016/07/07/the-champagne-of-light-bulbs/)
-* [Home Made Diodes From Copper Oxide](http://hackaday.com/2016/05/01/home-made-diodes-from-copper-oxide/)
 * [Reconstructing the Aether: Building the Hieronymus Machine](https://josephmax.wordpress.com/2010/04/28/hieronymus_machine_1/)
 * [The Transistor: a 1953 documentary, anticipating its coming impact on technology](https://www.youtube.com/watch?v=V9xUQWo4vN0)
 * [Spark, Bang, Buzz](http://www.sparkbangbuzz.com/index.html)

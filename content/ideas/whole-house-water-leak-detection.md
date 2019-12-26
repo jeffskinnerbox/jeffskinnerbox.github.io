@@ -10,6 +10,9 @@ Water leak detection by measuring the flow of water in the house
 * [Water meter + Arduino = Aquameterduino](http://www.instructables.com/id/Water-meter-Arduino-Aquameterduino-/?ALLSTEPS)
 * [Build a Wireless Water Meter for Your Home](http://spectrum.ieee.org/geek-life/hands-on/build-a-wireless-water-meter-for-your-home)
 * [Flood Fault Circuit Interrupter Could Save Lives](https://hackaday.com/2018/05/16/flood-fault-circuit-interrupter-could-save-lives/)
+* [Wireless Water Meter Monitor Watches Waste](https://hackaday.com/2015/12/06/wireless-water-meter-monitor-watches-waste/)
+
+* [Data Mining Home Water Usage; Your Water Meter Knows You A Bit Too Well](https://hackaday.com/2019/08/14/data-mining-home-water-usage-your-water-meter-knows-you-a-bit-too-well/)
 
 
 

@@ -51,6 +51,8 @@ and make it into a service which runs automatically.
 `systemd` is an `init` system which is used on many GNU/Linux distributions,
 including Raspbian and HypriotOS.
 
+* [Pack Your Bags – Systemd Is Taking You To A New Home](https://hackaday.com/2019/10/16/pack-your-bags-systemd-is-taking-you-to-a-new-home/)
+
 # Step X: xxx
 # Step X: xxx
 

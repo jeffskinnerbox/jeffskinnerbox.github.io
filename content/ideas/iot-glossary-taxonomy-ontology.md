@@ -507,6 +507,12 @@ Agile
 ## What is PAN, BAN, WAN and LPWAN
 * https://blog.nordicsemi.com/getconnected/what-is-pan-ban-wan-lpwan-types-of-networks
 
+* [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 1](https://enterpriseiotinsights.com/20190814/channels/news/lpwa-matchup-round-one)
+* [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 2](https://enterpriseiotinsights.com/20190820/channels/news/lpwa-matchup-round-two)
+* [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 3](https://browsifyapp.com/industry-news/iot-building-news/lpwa-matchup-lorawan-vs-sigfox-vs-nb-iot-vs-lte-m-trading-blows-round-3/)
+* [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 4](https://browsifyapp.com/industry-news/iot-building-news/lpwa-matchup-lorawan-vs-sigfox-vs-nb-iot-vs-lte-m-billion-question-round-4/)
+* [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 5](https://enterpriseiotinsights.com/20190829/channels/news/lpwa-matchup-round-five)
+
 ## Knowledge Management
 
 ## Internet Communications

@@ -62,6 +62,7 @@ Comparison of five Inertial Measurement Unit (IMU)
 * [Adafruit Triple-axis Magnetometer (Compass) Board - HMC5883L, $9.95](https://www.adafruit.com/products/1746) - You **DO NOT** have this
 * [SparkFun Triple Axis Accelerometer - LIS3DH, $4.95](https://www.sparkfun.com/products/13963) - You **DO NOT** have this
 * [Learn how to use the LIS3DH accelerometer with CircuitPython!](https://learn.adafruit.com/circuitpython-hardware-lis3dh-accelerometer)
+* [DIY Gimbal For The Raspberry Pi Camera](https://hackaday.com/2019/08/19/diy-gimbal-for-the-raspberry-pi-camera/)
 
 
 # What Is an Inertial Measurement Unit?

@@ -77,6 +77,8 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Understanding Neural ODE's](https://jontysinai.github.io/jekyll/update/2019/01/18/understanding-neural-odes.html)
 * [“GANs” vs “ODEs”: the end of mathematical modeling?](https://towardsdatascience.com/gans-vs-odes-the-end-of-mathematical-modeling-ec158f04acb9)
 
+* [Foundations Built for a General Theory of Neural Networks](https://www.quantamagazine.org/foundations-built-for-a-general-theory-of-neural-networks-20190131/)
+
 # Cheat Sheets
 * [Deep Learning Cheat Sheet](https://hackernoon.com/deep-learning-cheat-sheet-25421411e460#.nrskk2iyy)
 * [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
@@ -96,12 +98,13 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Deep Learning with Keras on Google Compute Engine](https://medium.com/google-cloud/keras-inception-v3-on-google-compute-engine-a54918b0058)
 * [Deep Learning CNN’s in Tensorflow with GPUs](https://hackernoon.com/deep-learning-cnns-in-tensorflow-with-gpus-cba6efe0acc2)
 * [Secret Sauce behind the beauty of Deep Learning: Beginners guide to Activation Functions](https://medium.com/towards-data-science/secret-sauce-behind-the-beauty-of-deep-learning-beginners-guide-to-activation-functions-a8e23a57d046)
-* [Deep Dive into Math Behind Deep Networks: Mysteries of Neural Networks Part I](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba)
 
 # Interpretation of Machine Learning Model
 * [The Importance of Human Interpretable Machine Learning](https://towardsdatascience.com/human-interpretable-machine-learning-part-1-the-need-and-importance-of-model-interpretation-2ed758f5f476)
 * [Model Interpretation Strategies](https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739)
 * [Hands-on Machine Learning Model Interpretation](https://towardsdatascience.com/explainable-artificial-intelligence-part-3-hands-on-machine-learning-model-interpretation-e8ebe5afc608)
+* [This New Google Technique Help Us Understand How Neural Networks are Thinking](https://towardsdatascience.com/this-new-google-technique-help-us-understand-how-neural-networks-are-thinking-229f783300)
+* [Game Theory to Interpret Machine Learning Models and Predictions — The Ultimate Guide](https://towardsdatascience.com/the-ultimate-guide-using-game-theory-to-interpret-machine-learning-c384cbb6929)
 
 # Face Technology
 * [A Practical Guide To Using Face Technology (Part I)](https://www.iotforall.com/practical-guide-face-technology-part-1/)
@@ -124,6 +127,9 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Neural Networks: You’ve Got It So Easy](http://hackaday.com/2017/04/24/neural-networks-youve-got-it-so-easy/)
 
 # Data Sets / Datasets / data set
+* [Results for Standard Classification and Regression Machine Learning Datasets](https://machinelearningmastery.com/results-for-standard-classification-and-regression-machine-learning-datasets/)
+
+* [GovTrack](https://www.govtrack.us)
 * [The 50 Best Public Datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)
 * [Common Objects in Context - COCO](http://cocodataset.org/#home)
 * [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
@@ -136,7 +142,6 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Open Images dataset](https://github.com/openimages/dataset)
 * [Open Images Dataset V4 + Extensions](https://storage.googleapis.com/openimages/web/index.html)
 * [ImageNet](http://image-net.org/)
-* [USA Facts](https://usafacts.org/)
 * [Joint-annotated Human Motion Data Base](http://jhmdb.is.tue.mpg.de/)
 * [Atomic Visual Actions (AVA) Dataset](https://research.google.com/ava/)
 * [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html)
@@ -147,6 +152,9 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Cohn-Kanade - Comprehensive database for facial expression](http://www.consortium.ri.cmu.edu/ckagree/)
 * [Quick, Draw!](https://github.com/googlecreativelab/quickdraw-dataset)
 * [Top 15 Datasets for Machine Learning and Statistics Projects : Must for every Data Scientist](https://www.datasciencelearner.com/datasets-for-machine-learning-projects-data-scientist/)
+* [U.S. Government’s open data](https://www.data.gov/)
+* [USA Facts](https://usafacts.org/)
+* [FaceForensics](http://niessnerlab.org/projects/roessler2018faceforensics.html)
 
 # Data Set Format
 * [Introducing TensorFlow Datasets](https://medium.com/tensorflow/introducing-tensorflow-datasets-c7f01f7e19f3)
@@ -224,6 +232,7 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [An Introduction to Machine Learning Theory and Its Applications: A Visual Tutorial with Examples](https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer)
 * [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [A Deep Learning Tutorial: From Perceptrons to Deep Networks](https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks)
+* [Matthew Stewart Tutorals](https://towardsdatascience.com/@matthew_stewart)
 * Honest Guide to Machine Learning
     * [Part One](https://medium.com/axiomzenteam/an-honest-guide-to-machine-learning-2f6d7a6df60e#.fkg18yn6n)
     * [Part Two - The Core of Machine Learning](https://medium.com/axiomzenteam/the-core-of-machine-learning-5319a57f2941#.2c5k99vaz)
@@ -310,6 +319,7 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * AI Agents
     * [Self Learning AI-Agents Part I: Markov Decision Processes](https://towardsdatascience.com/self-learning-ia-agents-part-i-markov-decision-processes-baf6b8fc4c5f)
 * Mysteries of Neural Networks
+    * [A Gentle Introduction To Math Behind Neural Networks](https://medium.com/datadriveninvestor/a-gentle-introduction-to-math-behind-neural-networks-6c1900bb50e1)
     * [Mysteries of Neural Networks Part I: Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba)
     * [Mysteries of Neural Networks Part II: Preventing Deep Neural Network from Overfitting](https://towardsdatascience.com/preventing-deep-neural-network-from-overfitting-953458db800a)
     * [Mysteries of Neural Networks Part III: Let’s code a Neural Network in plain NumPy](https://towardsdatascience.com/lets-code-a-neural-network-in-plain-numpy-ae7e74410795)

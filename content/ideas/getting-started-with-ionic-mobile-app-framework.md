@@ -75,7 +75,11 @@ resources from this open source community.
 On the whole, Progressive Web Apps describe a collection of technologies, design concepts,
 and Web APIs that work in tandem to provide an app-like experience on the mobile web.
 
-https://ionicframework.com/docs/developer-resources/progressive-web-apps/
+* [What the Heck is a Progressive Web App (PWA) Anyway?](https://it.toolbox.com/blogs/dennisstevenson/what-the-heck-is-a-progressive-web-app-pwa-anyway-102919)
+
+* https://ionicframework.com/docs/developer-resources/progressive-web-apps/
+* [How you can make a progressive web app in an hour](https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e)
+* [Developing Progressive Web Apps (PWAs) Course](https://codelabs.developers.google.com/dev-pwa-training/)
 
 # Meteor
 Meteor is a great backend solution for Angular and Ionic apps.

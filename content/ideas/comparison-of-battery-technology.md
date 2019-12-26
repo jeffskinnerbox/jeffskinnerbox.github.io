@@ -115,11 +115,14 @@ dropping to about 2% to 3% per month for low self-discharge NiMH batteries
 https://en.wikipedia.org/wiki/Memory_effect
 
 # Lithium-ion Batteries
-https://cdn-learn.adafruit.com/downloads/pdf/li-ion-and-lipoly-batteries.pdf
-https://learn.adafruit.com/li-ion-and-lipoly-batteries
+* [Li-Ion & LiPoly Batteries](https://learn.adafruit.com/li-ion-and-lipoly-batteries)
+* [Better Battery Management Through Chemistry](https://hackaday.com/2019/10/07/better-battery-management-through-chemistry/#more-377655)
+* [Protect Your Batteries Before You Wreck Your Batteries](https://hackaday.com/2019/10/30/protect-your-batteries-before-you-wreck-your-batteries/)
 
 http://batteryuniversity.com/learn/article/types_of_lithium_ion
 http://www.digikey.com/en/articles/techzone/2012/sep/a-designers-guide-to-lithium-battery-charging
+
+* [Chemistry Nobel Goes to Lithium Battery Innovators](https://www.quantamagazine.org/chemistry-nobel-goes-to-lithium-battery-innovators-20191009/)
 
 [Lithium-ion batteries][10] are common in home electronics
 because of their high [energy density][14], [specific energy][15],
@@ -289,6 +292,14 @@ Smart Battery System (SBS) is a specification for managing a smart battery, usua
 
 * [PackProbe Reports Laptop Battery Health](https://hackaday.com/2019/06/26/packprobe-reports-laptop-battery-health/)
 * [build a dedicated SMBus scanner](https://hackaday.com/2016/09/03/tour-de-force-battery-hacking/)
+
+# Battery Degradation
+A useful why to think about a batterys degradation or age
+in terms of present capacity versus original (new) capacity.
+
+A useful battery has predictable behavior; it can supply a constant amount of power, for a predictable amount of time, within a narrow voltage range. The ‘capacity’ or ‘C rating’ for batteries is probably the most useful parameter to express this.
+
+* [Predicting Battery Degradation with a Trinket M0 and Python Software Algorithms](https://www.allaboutcircuits.com/projects/how-to-build-battery-age-prediction-using-software-algorithms)
 
 
 

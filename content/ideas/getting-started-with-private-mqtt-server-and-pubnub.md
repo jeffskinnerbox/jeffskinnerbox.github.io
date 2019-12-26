@@ -1,7 +1,6 @@
 
 * [Introduction to the MQTT Protocol on NodeMCU](http://www.allaboutcircuits.com/projects/introduction-to-the-mqtt-protocol-on-nodemcu/)
 * [Publishing MQTT messages from a NodeMCU – Soil Moisture Sensor](http://iotalot.com/2016/05/08/publishing-mqtt-messages-from-a-nodemcu-soil-moisture-sensor/)
-* [Minimal MQTT: Networked Nodes](http://hackaday.com/2016/05/17/minimal-mqtt-networked-nodes/)
 * [mbedTLS SSL Certificate Verification With Mosquitto, lwIP, and MQTT](https://dzone.com/articles/mbedtls-ssl-certificate-verification-with-mosquitto-lwip-and-mqtt?edition=298027&utm_source=Spotlight&utm_medium=email&utm_campaign=iot%202017-05-09)
 
 * [Baofeng (or other radio) data TX/RX for Raspberry Pi](http://flows.nodered.org/flow/d802e43ab306b4b9f2ba)
@@ -21,13 +20,17 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 
 # MQTT
 * [Introduction to MQTT](https://learn.sparkfun.com/tutorials/introduction-to-mqtt)
+* [MQTT: A Conceptual Deep-Dive](https://www.ably.io/concepts/mqtt)
 * [Running Mosquitto (MQTT broker) on Raspberry Pi](http://www.seeed.cc/project_detail.html?id=1754&utm_source=comedm17&utm_medium=mailchimp&utm_campaign=Molly0804)
+* [Raspberry Pi IoT: Sensors, InfluxDB, MQTT, and Grafana](https://dzone.com/articles/raspberry-pi-iot-sensors-influxdb-mqtt-and-grafana)
+* [Playing With Docker, MQTT, Grafana, InfluxDB, Python, and Arduino](https://dzone.com/articles/playing-with-docker-mqtt-grafana-influxdb-python-a)
 * [Setting up an IoT framework/dashboard with NodeRed, Mosca/Mosquitto and Freeboard.io dashboard](https://primalcortex.wordpress.com/2015/02/25/setting-up-an-iot-frameworkdashboard-with-nodered-moscamosquitto-and-freeboard-io-dashboard/)
 * [Installing Mosquitto on a Raspberry Pi](http://jpmens.net/2013/09/01/installing-mosquitto-on-a-raspberry-pi/)
 * [Tutorial: IOT / Installing and Testing Mosquitto MQTT on the Raspberry Pi](http://www.switchdoc.com/2016/02/tutorial-installing-and-testing-mosquitto-mqtt-on-raspberry-pi/)
 * [Minimal MQTT: Power and Privacy](http://hackaday.com/2016/06/02/minimal-mqtt-power-and-privacy/)
 * [Minimal MQTT: Control and Clients](http://hackaday.com/2016/05/27/minimal-mqtt-control-and-clients/)
-* []()
+* [Minimal MQTT: Networked Nodes](http://hackaday.com/2016/05/17/minimal-mqtt-networked-nodes/)
+* [MINIMAL MQTT: Building a Broker](https://hackaday.com/2016/05/09/minimal-mqtt-building-a-broker/)
 * [Creating an IoT Server with Home Assistant and MQTT](https://www.hackster.io/Richa1/creating-an-iot-server-with-home-assistant-and-mqtt-3d874d?ref=similar&ref_id=45410&offset=5)
 * [How to Mash Up BLE, NodeJS, and MQTT to Get Internet of Things](https://hackaday.com/2018/08/24/how-to-mash-up-ble-nodejs-and-mqtt-to-get-internet-of-things/)
 

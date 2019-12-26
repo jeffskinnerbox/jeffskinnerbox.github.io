@@ -2,6 +2,7 @@
 * [CREATE CHEAP PHILIPS HUE COMPATIBLE DEVICES](http://hackaday.com/2017/03/01/create-cheap-philips-hue-compatible-devices/)
 
 ----
+
 * [Compare 12 Smart Plugs that Work With Alexa + WiFi vs. Z-wave Review](https://www.youtube.com/watch?v=9m5oAbnU19c)
 * [Part 1-Start Your Smart Home: Wink Hub 2, SmartThings, HomeKit, IFTTT, Amazon Echo](https://www.youtube.com/watch?v=xEMcqQE6Rlc)
 * [Part 2: Start Your DIY Smart Home - Smart Lighting + Home Automation + Amazon Echo](https://www.youtube.com/watch?v=e_2vb5IQ_y0)
@@ -10,6 +11,7 @@
     * [wherearehue](https://github.com/DeastinY/wherearehue)
 
 ----
+
 **Phillips Hue**
 [!philips-hum-logo](http://www.usa.lighting.philips.com/b-dam/b2b-li/en_AA/support/tools/Philips%20Hue.png)
 I purchased a [Philips Hue White Starter Kit][01] to begin my entry into controlling my homes lighting.
@@ -189,7 +191,7 @@ You will be given a username, which is used for all subsequent API calls.
 
 ## API Access to Hue Bridge
 The Hue Bridge has a RESTful API interface,
-hich behaves like a simple web service.
+which behaves like a simple web service.
 Therefore, you can use all the standard tools useful for RESTful APIs, like [curl][67].
 Here are some examples:
 
@@ -353,7 +355,7 @@ $ curl -s -X DELETE  http://192.168.1.34/api/KXCmAVYhD-kyRZZf1gvj37TIjxaFBnZkv4j
 ]
 ```
 
-# Get Bridge Full Datasore
+# Get Bridge Full Datastore
 This command is used to fetch the entire datastore from the device,
 including settings and state information for lights, groups, schedules and configuration.
 It should only be used sparingly as it is resource intensive for the bridge.
@@ -884,12 +886,11 @@ Alexa Hue - https://github.com/sarkonovich/Alexa-Hue
 
 http://www.tomsguide.com/us/connect-philips-hue-amazon-echo,review-3471.html
 
-
-# Connecting Samsung SmartThings to Amazon Echo
-* [Connect Smart Home Devices to Your Echo with a Smart Home Hub](https://www.amazon.com/gp/help/customer/display.html?nodeId=G202189640&ref_=pe_2242090_353040100_SAP_AUCC_LR_HV_Trans_QSG_hub)
 ----
 
 **Samsung SmartThings**
+
+# Samsung SmartThings
 The [SmartThings Hub V2][69] is the brain for Samsung's wide range of smart devices and makes them work together.
 At the time of write this,
 there are [three generations of SmartThings hubs][70].
@@ -910,6 +911,18 @@ only invites them to leak at a future date and destroying the hub.
 And in general, the apps instructions are crappy to non-existent.
 
 * [Samsung patches SmartThings Hub flaws](https://www.zdnet.com/article/internet-of-things-samsung-patches-smartthings-hub-flaws/)
+* [Samsung SmartThings still hasn’t earned my trust in the smart home](https://www.cnet.com/news/samsung-smartthings-still-hasnt-earned-my-trust-in-the-smart-home/)
+
+## SmartThings Developer Documentation
+* [SmartThings Developer Documentation](https://smartthings.developer.samsung.com/docs/index.html)
+
+### Sign-Up for SmartThings Accounts
+If you haven’t signed up for a Samsung Account,
+do so hear `https://account.samsung.com/membership/intro`.
+Also, sign up for the SmartThings Developer Portal here
+
+### Generate a Personal Access Token
+Generate a personal access token for quick access to the SmartThings API
 
 ## Setup Samsung SmartThings Hub
 * [Samsung SmartThings first impressions and initial setup](https://rcmtech.wordpress.com/2015/10/13/samsung-smartthings-first-impressions-and-initial-setup/)
@@ -919,8 +932,6 @@ And in general, the apps instructions are crappy to non-existent.
 * [SmartThings Groovy IDE](https://graph-na04-useast2.api.smartthings.com/)
 * [Samsung Help for SmartThings](https://help.content.samsung.com/csweb/faq/searchFaq.do)
 * [SmartThings App](https://www.samsung.com/global/galaxy/apps/smartthings/)
-* []()
-* []()
 
 ### Step 1: Power Up Hub and SmartThing App
 Plug the hub into Ethernet port on your router and plug in the power cord.
@@ -931,7 +942,7 @@ pushing marketing materials at you and assuring you have no privacy rights what 
 Here are the procedures I used:
 
 1. From the SmartThings App, tap the "Dashboard" icon in the lower left.
-1. tap "Add device" mid-sreen.
+1. tap "Add device" mid-screen.
 1. Tap "Add Device Manually".
 1 Select "Search" and type in "smartthings hub" and
 then select the "Add" button for "SmartThings Hub (2015 & 2013)
@@ -948,10 +959,10 @@ automatically to get me on.
 You use this process to connect new ZigBee or Z-Wave devices to your SmartThings Hub.
 I followed the procedures [here][] https://support.smartthings.com/hc/en-us/articles/205956950-How-to-connect-and-configure-new-devices (using "SmartThings app" tab).
 
-My first sensor is the [Fibaro System Flood Sensor][73],
+My first sensor was the [Fibaro System Flood Sensor][73],
 a Z-Wave water detector I [purchase on Amazon][74].
 It also includes temperature sensor, tamper sensor, a acoustic & visual alarm,
-and you can use an [external probe][81].
+and you can even use an [external probe][81].
 You'll find a [manual for the Flood Sensor][75]and [knowledge base][82]
 on Fibaro's website but the SmartThings installation is found [here][76],
 and a Youtube revew [here][80].
@@ -981,6 +992,483 @@ so log into the following and establish accounts (if not done already):
 
 ## Samsung SmartThings Hub Vulnerabilities
 * [20 Samsung SmartThings Hub vulnerabilities jeopardized smart homes](https://www.digitaltrends.com/home/20-vulnernabilties-exposed-in-samsung-smartthings-hub/)
+
+# SmartThings REST API
+An active internet connection is always required to manually control your devices and Automations via the SmartThings mobile app. During an internet outage, the Hub will not be able to talk to the SmartThings cloud or mobile app; you will not be notified via the app of a local event until internet is restored.
+
+## OAuth Integration
+[SmartThings uses OAuth2][84] for authentication.
+To integrate a third-party application with SmartThings,
+you must first [submit a request][85].
+Once approved, you can enable users of your platform to interact with
+[SmartThings Cloud][86] through your application.
+
+The OAuth 2.0 flows are complex and [OAuth 2 specifications][87] can be a bit confusing to read.
+So it can be difficult to understand exactly what is going on under the covers.
+If you don't have a good understand of the OAuth 2 Framework,
+it could helpful to study these sources:
+
+* [OAuth Introduction and Terminology](https://www.youtube.com/watch?v=zEysfgIbqlg)
+* [OAuth Codes And Tokens](https://www.youtube.com/watch?v=8CHpnTysVOo)
+* [OAuth Grant Types](https://www.youtube.com/watch?v=1ZX7554l8hY)
+
+* [An Introduction To OpenID Connect](https://www.youtube.com/watch?v=6DxRTJN1Ffo)
+* [OpenID Connect Flows](https://www.youtube.com/watch?v=WVCzv50BslE)
+
+* [OAuth 2.0 Beginner's Guide](https://dzone.com/articles/oauth-20-beginners-guide)
+* [(Understanding) OAuth2… for real?](https://www.youtube.com/watch?v=f36s7KtnUD4)
+* [OAuth 2.0 explained](https://connect2id.com/learn/oauth-2)
+* [OAuth 2 Simplified](https://aaronparecki.com/oauth-2-simplified/)
+* [What the Heck is OAuth?](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
+* [An Overview of OAuth2 using the REST Client Components](https://www.youtube.com/watch?v=EuEovgmVCUs)
+* [When To Use Which (OAuth2) Grants and (OIDC) Flows](https://medium.com/@robert.broeckelmann/when-to-use-which-oauth2-grants-and-oidc-flows-ec6a5c00d864)
+* [An OAuth2 Grant Selection Decision Tree for Securing REST APIs](https://medium.com/scalable/an-oauth2-grant-selection-decision-tree-for-securing-rest-apis-d63b5c0c8900)
+* [A Guide To OAuth 2.0 Grants](https://alexbilbie.com/guide-to-oauth-2-grants/)
+* [OAuth 2.0: An Overview](https://www.youtube.com/watch?v=CPbvxxslDTU)
+* [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+* [Which OAuth 2.0 flow should I use?](https://auth0.com/docs/api-auth/which-oauth-flow-to-use)
+* [Understanding OAuth2 and Building a Basic Authorization Server of Your Own: A Beginner’s Guide](https://medium.com/google-cloud/understanding-oauth2-and-building-a-basic-authorization-server-of-your-own-a-beginners-guide-cf7451a16f66)
+
+# Step 0:
+Start with reading the [SmartThings API (v1.0-PREVIEW)][88] documentation.
+
+# Step 1: Geneate Authorization Bearer Token
+All SmartThings resources are protected with OAuth 2.0 Bearer Tokens
+sent on the request as an `Authorization: Bearer <TOKEN>` header,
+and operations require specific OAuth scopes that specify the exact permissions authorized by the user.
+
+There are two types of tokens: SmartApp tokens, and personal access tokens:
+
+* **SmartApp tokens** are used to communicate between third-party integrations, or SmartApps, and the SmartThings API.
+When a SmartApp is called by the SmartThings platform, it is sent an authorization token
+that can be used to interact with the SmartThings API.
+* **Personal access tokens** are used to interact with the API for non-SmartApp use cases.
+They can be created and managed on the personal access tokens page `https://account.smartthings.com/tokens`.
+
+My interests are access the SmartThings Cloud using `curl` scripts, Postman, etc.
+Therefore, I'll generate a personal acess token via
+the personal access tokens page `https://account.smartthings.com/tokens`.
+I generated the following:
+
+* **Token Name:** `personal-token`
+* **Scope:** Devices, Installed Applications, Locations, Applications, Device Profiles, Schedules, Scenes, Notifications, Invitations, Custom Capabilities
+* **Personal Access Token:** `1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1`
+
+If for some reason I wish to delete this token or generate a new token,
+return to the personal access tokens page `https://account.smartthings.com/tokens`.
+
+# Step 2: Retrieve App Credentials
+# Step 3: Retrieve App Access Token
+
+```bash
+# list all locations currently available in a user account
+$ curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/locations | jq -C '.'
+
+{
+  "items": [
+    {
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "name": "Home"
+    }
+  ],
+  "_links": null
+}
+
+# list all rooms currently available in a location
+$ curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/locations/33310e8e-4895-4f7e-882c-6e8d776500f9/rooms | jq -C '.'
+
+{
+  "items": [
+    {
+      "roomId": "79d727d5-1b90-4d55-9b34-253d944400ae",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "name": "Kitchen",
+      "backgroundImage": null
+    },
+    {
+      "roomId": "0db0f447-f396-4dd7-b9e1-b5424e08c14a",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "name": "Office",
+      "backgroundImage": null
+    },
+    {
+      "roomId": "376b7e87-c52a-4c56-96f8-f0244048f079",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "name": "Basement",
+      "backgroundImage": null
+    }
+  ],
+  "_links": null
+}
+
+# get a list of devices
+$ curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/devices | jq -C '.'
+
+{
+  "items": [
+    {
+      "deviceId": "69cc41f5-1756-41a9-acd5-7f29d10df1f1",
+      "name": "Jeffrey Irland's SAMSUNG-SM-G928V",
+      "label": "Jeffrey Irland's SAMSUNG-SM-G928V",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "deviceTypeId": "8a9d4b1e3bfce38a013bfce42d360015",
+      "deviceTypeName": "Mobile Presence",
+      "deviceNetworkType": "UNKNOWN",
+      "components": [
+        {
+          "id": "main",
+          "capabilities": [
+            {
+              "id": "presenceSensor",
+              "version": 1
+            },
+            {
+              "id": "sensor",
+              "version": 1
+            },
+            {
+              "id": "occupancySensor",
+              "version": 1
+            }
+          ]
+        }
+      ],
+      "dth": {
+        "deviceTypeId": "8a9d4b1e3bfce38a013bfce42d360015",
+        "deviceTypeName": "Mobile Presence",
+        "deviceNetworkType": "UNKNOWN",
+        "completedSetup": false,
+        "networkSecurityLevel": "UNKNOWN"
+      },
+      "type": "DTH"
+    },
+    {
+      "deviceId": "f5c594e7-7094-4b0a-b05a-60891174890f",
+      "name": "Fibaro Flood Sensor",
+      "label": "Bathroom Water Sensor",
+      "deviceManufacturerCode": "010F-0B00-2001",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "roomId": "376b7e87-c52a-4c56-96f8-f0244048f079",
+      "deviceTypeId": "975c2616-84ae-4798-904f-710d0ce1f0a7",
+      "deviceTypeName": "Fibaro Flood Sensor",
+      "deviceNetworkType": "ZWAVE",
+      "components": [
+        {
+          "id": "main",
+          "label": "Bathroom Water Sensor",
+          "capabilities": [
+            {
+              "id": "temperatureMeasurement",
+              "version": 1
+            },
+            {
+              "id": "battery",
+              "version": 1
+            },
+            {
+              "id": "waterSensor",
+              "version": 1
+            },
+            {
+              "id": "configuration",
+              "version": 1
+            },
+            {
+              "id": "sensor",
+              "version": 1
+            },
+            {
+              "id": "healthCheck",
+              "version": 1
+            }
+          ]
+        }
+      ],
+      "dth": {
+        "deviceTypeId": "975c2616-84ae-4798-904f-710d0ce1f0a7",
+        "deviceTypeName": "Fibaro Flood Sensor",
+        "deviceNetworkType": "ZWAVE",
+        "completedSetup": false,
+        "networkSecurityLevel": "ZWAVE_LEGACY_NON_SECURE",
+        "hubId": "207c841c-d1a1-4ef8-8490-f15582fd7960"
+      },
+      "type": "DTH"
+    },
+    {
+      "deviceId": "cad90c8b-7f12-443b-bb82-8fbc2e5b8bbe",
+      "name": "Philips Hue White",
+      "label": "Philips Hue White",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "roomId": "79d727d5-1b90-4d55-9b34-253d944400ae",
+      "deviceTypeId": "4a8b7081-ebf5-4c8b-ad22-5573b3eac389",
+      "deviceTypeName": "ZLL Dimmer Bulb",
+      "deviceNetworkType": "ZIGBEE",
+      "components": [
+        {
+          "id": "main",
+          "capabilities": [
+            {
+              "id": "switch",
+              "version": 1
+            },
+            {
+              "id": "polling",
+              "version": 1
+            },
+            {
+              "id": "configuration",
+              "version": 1
+            },
+            {
+              "id": "switchLevel",
+              "version": 1
+            },
+            {
+              "id": "refresh",
+              "version": 1
+            },
+            {
+              "id": "actuator",
+              "version": 1
+            },
+            {
+              "id": "healthCheck",
+              "version": 1
+            }
+          ]
+        }
+      ],
+      "dth": {
+        "deviceTypeId": "4a8b7081-ebf5-4c8b-ad22-5573b3eac389",
+        "deviceTypeName": "ZLL Dimmer Bulb",
+        "deviceNetworkType": "ZIGBEE",
+        "completedSetup": true,
+        "networkSecurityLevel": "UNKNOWN",
+        "hubId": "207c841c-d1a1-4ef8-8490-f15582fd7960"
+      },
+      "type": "DTH"
+    },
+    {
+      "deviceId": "9b314107-971b-4bed-ba1c-56a02e61ce30",
+      "name": "Fibaro Flood Sensor",
+      "label": "Kitchen Sink Water Sensor",
+      "deviceManufacturerCode": "010F-0B00-2001",
+      "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+      "roomId": "79d727d5-1b90-4d55-9b34-253d944400ae",
+      "deviceTypeId": "975c2616-84ae-4798-904f-710d0ce1f0a7",
+      "deviceTypeName": "Fibaro Flood Sensor",
+      "deviceNetworkType": "ZWAVE",
+      "components": [
+        {
+          "id": "main",
+          "label": "Kitchen Sink Water Sensor",
+          "capabilities": [
+            {
+              "id": "temperatureMeasurement",
+              "version": 1
+            },
+            {
+              "id": "battery",
+              "version": 1
+            },
+            {
+              "id": "waterSensor",
+              "version": 1
+            },
+            {
+              "id": "configuration",
+              "version": 1
+            },
+            {
+              "id": "sensor",
+              "version": 1
+            },
+            {
+              "id": "healthCheck",
+              "version": 1
+            }
+          ]
+        }
+      ],
+      "dth": {
+        "deviceTypeId": "975c2616-84ae-4798-904f-710d0ce1f0a7",
+        "deviceTypeName": "Fibaro Flood Sensor",
+        "deviceNetworkType": "ZWAVE",
+        "completedSetup": true,
+        "networkSecurityLevel": "UNKNOWN",
+        "hubId": "207c841c-d1a1-4ef8-8490-f15582fd7960"
+      },
+      "type": "DTH"
+    }
+  ],
+  "_links": {}
+}
+
+# get a device's description
+$ curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/devices/f5c594e7-7094-4b0a-b05a-60891174890f | jq -C '.'
+
+{
+  "deviceId": "f5c594e7-7094-4b0a-b05a-60891174890f",
+  "name": "Fibaro Flood Sensor",
+  "label": "Bathroom Water Sensor",
+  "deviceManufacturerCode": "010F-0B00-2001",
+  "locationId": "33310e8e-4895-4f7e-882c-6e8d776500f9",
+  "roomId": "376b7e87-c52a-4c56-96f8-f0244048f079",
+  "deviceTypeId": "975c2616-84ae-4798-904f-710d0ce1f0a7",
+  "deviceTypeName": "Fibaro Flood Sensor",
+  "deviceNetworkType": "ZWAVE",
+  "components": [
+    {
+      "id": "main",
+      "label": "Bathroom Water Sensor",
+      "capabilities": [
+        {
+          "id": "temperatureMeasurement",
+          "version": 1
+        },
+        {
+          "id": "battery",
+          "version": 1
+        },
+        {
+          "id": "waterSensor",
+          "version": 1
+        },
+        {
+          "id": "configuration",
+          "version": 1
+        },
+        {
+          "id": "sensor",
+          "version": 1
+        },
+        {
+          "id": "healthCheck",
+          "version": 1
+        }
+      ]
+    }
+  ],
+  "dth": {
+    "deviceTypeId": "975c2616-84ae-4798-904f-710d0ce1f0a7",
+    "deviceTypeName": "Fibaro Flood Sensor",
+    "deviceNetworkType": "ZWAVE",
+    "completedSetup": false,
+    "networkSecurityLevel": "ZWAVE_LEGACY_NON_SECURE",
+    "hubId": "207c841c-d1a1-4ef8-8490-f15582fd7960"
+  },
+  "type": "DTH"
+}
+
+# get the full status of a device - Bathroom Water Sensor
+$ curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/devices/f5c594e7-7094-4b0a-b05a-60891174890f/status | jq -C '.[]'
+
+{
+  "main": {
+    "configuration": {},
+    "waterSensor": {
+      "water": {
+        "value": "dry"
+      }
+    },
+    "healthCheck": {
+      "checkInterval": {
+        "value": 28920,
+        "unit": "s",
+        "data": {
+          "protocol": "zwave",
+          "hubHardwareId": "000F"
+        }
+      },
+      "DeviceWatch-Enroll": {
+        "value": null
+      },
+      "healthStatus": {
+        "value": null,
+        "data": {}
+      },
+      "DeviceWatch-DeviceStatus": {
+        "value": null,
+        "data": {}
+      }
+    },
+    "temperatureMeasurement": {
+      "temperature": {
+        "value": 69.33,
+        "unit": "F"
+      }
+    },
+    "sensor": {},
+    "battery": {
+      "battery": {
+        "value": 100,
+        "unit": "%"
+      }
+    }
+  }
+}
+
+# get wet/dry and battery status of flood sensor - Bathroom Water Sensor
+$ curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/devices/f5c594e7-7094-4b0a-b05a-60891174890f/status | \
+    jq -C '.[] | { moisture: .components.main.waterSensor.water.value, battery: .components.main.battery.battery.value }'
+
+{
+  "moisture": "dry",
+  "battery": 100
+}
+
+# get wet/dry and battery status of flood sensor - Kitchen Sink Water Sensor
+curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/devices/9b314107-971b-4bed-ba1c-56a02e61ce30/status | \
+    jq -C '.[] | { moisture: .components.main.waterSensor.water.value, battery: .components.main.battery.battery.value }'
+```
+
+```bash
+DEVICE_ID_1="f5c594e7-7094-4b0a-b05a-60891174890f"   # Bathroom Water Sensor
+DEVICE_ID_2="9b314107-971b-4bed-ba1c-56a02e61ce30"   # Kitchen Sink Water Sensor
+
+echo "{ \"date\": \"$(date)\" }"
+
+curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+        https://api.smartthings.com/v1/devices/$(DEVICE_ID_1) | jq -C '. | { label: .label }'
+
+curl -s -X GET -H "Content-Type: application/json" \
+    -H "Authorization: Bearer 1c07f3ba-8eb1-47fe-bdd3-3585bfbbf5b1" \
+    https://api.smartthings.com/v1/devices/$(DEVICE_ID_1)/status | \
+    jq -C '.[] | { moisture: .components.main.waterSensor.water.value, battery: .components.main.battery.battery.value }'
+```
+
+* [SmartThings Developer Documentation](https://smartthings.developer.samsung.com/docs/index.html)
+* [SmartThings REST API](https://github.com/bradymholt/smartthings-rest-api)
+
+# Connecting Samsung SmartThings to Amazon Echo
+* [Connect Smart Home Devices to Your Echo with a Smart Home Hub](https://www.amazon.com/gp/help/customer/display.html?nodeId=G202189640&ref_=pe_2242090_353040100_SAP_AUCC_LR_HV_Trans_QSG_hub)
+
+# LANnouncer
+LANnouncer is a device driver for the Samsung SmartThings home automation hub, bringing audio alerts to the system through any connected Android device.
+* [LANnouncer](http://www.keybounce.com/lannouncer/)
+* [LANnouncer alerts in Home Assistant!!](https://www.youtube.com/watch?v=VMA9ZqgLNIA)
+
+# Bixby
+[Bixby](https://www.cnet.com/news/samsung-will-let-developers-make-apps-that-tap-into-bixby-add-more-languages-and-put-on-more-devices/)
+is Samsung's take on the pocket assistant, combining machine learning, voice assistance,
+visual help and more into an all-encompassing helper.
+
+* [Samsung Bixby: Everything you need to know!](https://www.androidcentral.com/bixby)
 
 
 
@@ -1067,10 +1555,20 @@ so log into the following and establish accounts (if not done already):
 [81]:https://www.youtube.com/watch?v=0idfyuXgJ70
 [82]:https://manuals.fibaro.com/knowledge-base/
 [83]:https://diyhue.github.io/
-[84]:
-[85]:
-[86]:
-[87]:
-[88]:
+[84]:https://smartthings.developer.samsung.com/docs/oauth/oauth-integration.html
+[85]:https://smartthings.developer.samsung.com/docs/oauth/oauth-integration.html#Request-to-integrate-third-party-applications
+[86]:https://www.smartthings.com/
+[87]:https://oauth.net/2/
+[88]:https://smartthings.developer.samsung.com/docs/api-ref/st-api.html
 [89]:
 [90]:
+[91]:
+[92]:
+[93]:
+[94]:
+[95]:
+[96]:
+[97]:
+[98]:
+[99]:
+[100]:

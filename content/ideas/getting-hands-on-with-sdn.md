@@ -137,6 +137,13 @@ SDN, NFV, and OpenFlow
 * [SDN Hub](http://sdnhub.org/)
 * [SDN, NFV and OpenFlow for Skeptics: 7 Part Series](https://www.youtube.com/watch?v=6h5xa2mmjjw&list=PLWJf584cuAlT9qbZuTy5E85EaDfp_lNz-) - start with Part 2 to avoid the marketing
 
+# NetDevOps
+[NetDevOps Live!](https://developer.cisco.com/netdevops/live/)
+is a weekly webinar series from [Cisco DevNet](https://developer.cisco.com/)
+where anything related to network automation, programmability, and NetDevOps
+is the topic of discussion.
+
+* [Building a NetDevOps CI/CD Pipeline](https://www.youtube.com/watch?v=LinGy8DGIJ8)
 
 # Programable Networking
 * [P4: Programming the Network's Forwarding Plane](https://www.networkcomputing.com/networking/p4-programming-networks-forwarding-plane/799175661?_mc=nl_x_nwcr_edt_aud_nwc_x_x-updates-20180915)
@@ -151,6 +158,10 @@ switch and application code, on a single machine
 * [VXLAN overlay networks with Open vSwitch](https://www.youtube.com/watch?v=tnSkHhsLqpM)
 
 * [How to use Kytos with Mininet](https://tutorials.kytos.io/napps/how_to_use_kytos_with_mininet/)
+* [Mininet: An Instant Virtual Network on your Laptop (or other PC)](http://mininet.org/)
+
+* https://www.packetdesign.com/blog/quick-start-mpls-fundamentals/
+* https://www.packetdesign.com/blog/a-guide-to-mpls-vpn-fundamentals/
 
 # Introduction to SDN
 * [Introduction to SDN (Software-defined Networking)](https://www.youtube.com/watch?v=DiChnu_PAzA)

@@ -140,6 +140,10 @@ void loop() {
 }
 ```
 
+# Stepper Motor
+## Stepper Motor Wiring
+* [Deducing Stepper Motor Wiring](https://hackaday.com/2019/07/25/deducing-stepper-motor-wiring/)
+
 # Switec Motors
 The Switec motor is an unassuming bit of plastic and metal that is found behind the dashboards of many American cars and trucks. It’s only a little over an inch in diameter, but it reliably swings tachometer, speedometer, and fuel gauge needles
 http://hackaday.com/2013/01/19/custom-gauges-with-a-stepper-motor-breakout-board/
