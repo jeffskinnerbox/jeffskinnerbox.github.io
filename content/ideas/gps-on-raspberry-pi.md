@@ -46,9 +46,9 @@ It also has powerful manipulation tools for such data. such as filtering duplica
 
 I investigate here two GPS solutions for the Raspberry Pi:
 
-* [Adafruit's GPS Breakout][01] which uses the [MediaTek MTK3339 chipset][02]
-* [Ozzmaker BerryGPS-IMU V3][27] which uses the [uBlox CAM-M8][30]
-but also has [IMU sensor LSM9DS1][28] [Barometric Sensor BMP280][29]
+* [Adafruit's Ultimate GPS][41] which uses the [MediaTek MTK3339 chipset][42]
+* [Ozzmaker's BerryGPS-IMU V3][20] which uses the [uBlox CAM-M8][70]
+but also has [IMU sensor LSM9DS1][68] [Barometric Sensor BMP280][69]
 
 
 
@@ -56,7 +56,7 @@ but also has [IMU sensor LSM9DS1][28] [Barometric Sensor BMP280][29]
 
 
 [!ultimate-gps](https://cdn-learn.adafruit.com/assets/assets/000/003/714/medium640/raspberry_pi_gps_pi_usbconnection2.jpg?1396801034)
-I purchased [Adafruit's GPS Breakout][01] which uses the [MediaTek MTK3339 chipset][02].
+I also purchased [Adafruit's Ultimate GPS][41] which uses the [MediaTek MTK3339 chipset][42].
 This is a high-quality GPS module that can track up to 22 satellites concurrently,
 has an module has a standard ceramic patch antenna
 with an excellent high-sensitivity receiver (-165 dBm tracking and -145 dBm acquisition!),
@@ -76,7 +76,7 @@ The module supports an optional CR1220 coin cell to keep the real-time clock (RT
 running, allowing warm starts and a tiny red LED.
 The LED blinks at about 1Hz while it's searching for satellites
 and blinks once every 15 seconds when a fix is found to conserve power.
-Data is provided via a serial [NMEA 0183][06], 9600 baud (default) output.
+Data is provided via a serial [NMEA 0183][46], 9600 baud (default) output.
 
 The GPS module has a built in data-logging capability.
 There is a microcontroller inside the module,
@@ -99,15 +99,20 @@ Adafruit provides some excellent write-up on how to configure and use this devic
 * [Adafruit's GPS Library LOCUS](https://github.com/adafruit/Adafruit_GPS)
 
 # External GPS Antenna
-With the module, I also purchase an external [active GPS antenna][03] that draws about 10mA
+With the module, I also purchase an external [active GPS antenna][43] that draws about 10mA
 and will give you an additional 28 dB of gain
 (but it has a 5 meter cable so may not see this gain).
-You'll also need a [console cable][04] to easily make use of this GPS module.
+You'll also need a [console cable][44] to easily make use of this GPS module.
 
-Ther is also a GNSS Multi-Band antenna, such as the [ANN-MB-00 GNSS multiband antenna][26].
+Ther is also a GNSS Multi-Band antenna, such as the [ANN-MB-00 GNSS multiband antenna][66].
 A multiband antenna is unique from other GNSS/GPS antennas
 in that it is designed to receive both the classic L1 GPS band
 and the newly launched (started in 2005) L2 GPS band.
+
+
+
+
+
 
 # Navigation Technologies
 * [The central place of GPS in our lives](https://plus.maths.org/content/recognising-place-gps-has-our-lives?nl=0)
@@ -122,12 +127,12 @@ those systems that allow users to compute their position based on
 signals transmitted by satellites, world-wide.
 The obvious example is GPS,
 but this term also includes other systems such as
-[GLONASS][21], [Galileo][22] and [BeiDou][23].
+[GLONASS][61], [Galileo][62] and [BeiDou][63].
 
 # Global Positioning System (GPS) Background Information
 The Global Positioning System (GPS) allows users to accurately determine
 the location of objects on or above the surface of the Earth.
-Most GPS receivers transmit [National Marine Electronics Association (NMEA)][20]
+Most GPS receivers transmit [National Marine Electronics Association (NMEA)][60]
 sentences that provide information that includes latitude and longitude,
 altitude, time, bearing, speed, and a great many other variables at 9600 baud.
 
@@ -159,7 +164,7 @@ PPP is a positioning technique that removes or models GNSS system errors to prov
 Differential Global Positioning Systems (DGPS) are enhancements to the Global Positioning System (GPS) which provide improved location accuracy, in the range of operations of each system, from the 15-meter nominal GPS accuracy to about 10 cm in case of the best implementations.
 
 ## GNSS-SDR
-[GNSS-SDR][24] is and open source Global Navigation Satellite Systems software-defined receiver.
+[GNSS-SDR][64] is and open source Global Navigation Satellite Systems software-defined receiver.
 
 ## Dead Reckoning (DR)
 * http://www.furuno.com/en/gnss/technical/tec_dead
@@ -184,9 +189,9 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 # Get Adafruit's GPS Breakout Working on Raspberry Pi
 
 ## Step X: GPS Module Pinouts - DONE
-[Adafruit's tutorial][05] provides an excellent description of the GPS module pins
+[Adafruit's tutorial][45] provides an excellent description of the GPS module pins
 and how to connect the console cable and external antenna
-can be found in the tutorial "[Adafruit Ultimate GPS on the Raspberry Pi][07]".
+can be found in the tutorial "[Adafruit Ultimate GPS on the Raspberry Pi][47]".
 
 [!gps-module-pinout](https://cdn-learn.adafruit.com/assets/assets/000/003/713/medium640/raspberry_pi_UltimateGPS_bb.png?1396801027)
 
@@ -242,28 +247,28 @@ sudo screen /dev/ttyUSB0 9600
 
 It may 30 or more seconds before the red LED stops blinking at 1 second intervals.
 During this time, the GPS module is attempting to get a fix on the GPS satellites.
-If needed, [use the external antenna to get a GPS fix][14].
+If needed, [use the external antenna to get a GPS fix][54].
 The module will automatically detect an external active antenna is attached and switch over to use it.
 
 >**NOTE:** uFL connectors are small and delicate.
 The are not engineered for for repeated connections/disconnections.
 Once you attach a uFL adapter, it is best to just let remain on the module.
 
-The raw GPS data being produced are called [NMEA sentences][08].
+The raw GPS data being produced are called [NMEA sentences][48].
 You'll notice there are a few different kinds of NMEA sentences,
 but the most common are
-([NMEA Reference Manual][17] or [MTK3339 Data Sheet][02] or [GeoS NMEA Data Protocol v3.0][25]):
+([NMEA Reference Manual][57] or [MTK3339 Data Sheet][42] or [GeoS NMEA Data Protocol v3.0][65]):
 
-* [$GPRMC - Recommended minimum specific GPS/Transit data][09]
-* [$GPGGA - Global Positioning System Fix Data][10]
-* [$GPVTG - Track made good and ground speed][11]
-* [$GPGSA - GPS DOP and active satellites][12]
-* [$GPGSV - GPS Satellites in view][13]
-* [$GPZDA - Date & Time (UTC, day, month, year, and local time zone)][19]
+* [$GPRMC - Recommended minimum specific GPS/Transit data][49]
+* [$GPGGA - Global Positioning System Fix Data][50]
+* [$GPVTG - Track made good and ground speed][51]
+* [$GPGSA - GPS DOP and active satellites][52]
+* [$GPGSV - GPS Satellites in view][53]
+* [$GPZDA - Date & Time (UTC, day, month, year, and local time zone)][59]
 
-> **NOTE:** NMEA is the abbreviation for the [National Marine Electronics Association][15].
+> **NOTE:** NMEA is the abbreviation for the [National Marine Electronics Association][55].
 They develop specification that defines the interface between various pieces of marine electronic equipment.
-[NMEA sets the standards for data format supported by all GPS manufacturers][16].
+[NMEA sets the standards for data format supported by all GPS manufacturers][56].
 
 #####################################################
 After the inital start of gpsd and then running something like gpspipe,
@@ -471,49 +476,39 @@ while True:
 ----
 
 
-# Get Ozzmaker's BerryGPS-IMU V3 Working on Raspberry Pi
 
 
 
 
 
-[01]:https://www.adafruit.com/product/746
-[02]:https://cdn-shop.adafruit.com/datasheets/GlobalTop-FGPMMOPA6C-Datasheet-V0A-Preliminary.pdf
-[03]:https://electronics.stackexchange.com/questions/130509/gps-antenna-when-is-an-active-antenna-really-necessary
-[04]:https://www.adafruit.com/product/954
-[05]:https://learn.adafruit.com/adafruit-ultimate-gps/pinouts
-[06]:https://en.wikipedia.org/wiki/NMEA_0183
-[07]:https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all
-[08]:http://aprs.gids.nl/nmea/
-[09]:http://aprs.gids.nl/nmea/#rmc
-[10]:http://aprs.gids.nl/nmea/#gga
-[11]:http://aprs.gids.nl/nmea/#vtg
-[12]:http://aprs.gids.nl/nmea/#gsa
-[13]:http://aprs.gids.nl/nmea/#gsv
-[14]:https://learn.adafruit.com/adafruit-ultimate-gps/external-antenna
-[15]:https://www.nmea.org/
-[16]:http://gpsworld.com/what-exactly-is-gps-nmea-data/
-[17]:https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual1.pdf
-[18]:https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all#installing-a-gps-daemon-gpsd
-[19]:http://aprs.gids.nl/nmea/#zda
-[20]:http://www.gpsinformation.org/dale/nmea.htm#nmea
-[21]:https://www.glonass-iac.ru/en/
-[22]:https://www.esa.int/Our_Activities/Navigation/Galileo/What_is_Galileo
-[23]:http://www.beidou.gov.cn/
-[24]:https://gnss-sdr.org/
-[25]:http://geostar-navi.com/files/docs/geos3/geos_nmea_protocol_v3_0_eng.pdf
-[26]:https://www.sparkfun.com/products/15192
-[27]:http://ozzmaker.com/product/berrygps-imu/
-[28]:https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide/all
-[29]:https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview
-[30]:https://cdn.sparkfun.com/assets/0/b/0/f/7/u-blox8-M8_ReceiverDescrProtSpec__UBX-13003221__Public.pdf
-[31]:
-[32]:
-[33]:
-[34]:
-[35]:
-[36]:
-[37]:
-[38]:
-[39]:
-[40]:
+[41]:https://www.adafruit.com/product/746
+[42]:https://cdn-shop.adafruit.com/datasheets/GlobalTop-FGPMMOPA6C-Datasheet-V0A-Preliminary.pdf
+[43]:https://electronics.stackexchange.com/questions/130509/gps-antenna-when-is-an-active-antenna-really-necessary
+[44]:https://www.adafruit.com/product/954
+[45]:https://learn.adafruit.com/adafruit-ultimate-gps/pinouts
+[46]:https://en.wikipedia.org/wiki/NMEA_0183
+[47]:https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all
+[48]:http://aprs.gids.nl/nmea/
+[49]:http://aprs.gids.nl/nmea/#rmc
+[50]:http://aprs.gids.nl/nmea/#gga
+[51]:http://aprs.gids.nl/nmea/#vtg
+[52]:http://aprs.gids.nl/nmea/#gsa
+[53]:http://aprs.gids.nl/nmea/#gsv
+[54]:https://learn.adafruit.com/adafruit-ultimate-gps/external-antenna
+[55]:https://www.nmea.org/
+[56]:http://gpsworld.com/what-exactly-is-gps-nmea-data/
+[57]:https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual1.pdf
+[58]:
+[59]:http://aprs.gids.nl/nmea/#zda
+[60]:http://www.gpsinformation.org/dale/nmea.htm#nmea
+[61]:https://www.glonass-iac.ru/en/
+[62]:https://www.esa.int/Our_Activities/Navigation/Galileo/What_is_Galileo
+[63]:http://www.beidou.gov.cn/
+[64]:https://gnss-sdr.org/
+[65]:http://geostar-navi.com/files/docs/geos3/geos_nmea_protocol_v3_0_eng.pdf
+[66]:https://www.sparkfun.com/products/15192
+[67]:
+[68]:https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide/all
+[69]:https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview
+[70]:https://cdn.sparkfun.com/assets/0/b/0/f/7/u-blox8-M8_ReceiverDescrProtSpec__UBX-13003221__Public.pdf
+
