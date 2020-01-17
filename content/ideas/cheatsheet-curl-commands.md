@@ -7,6 +7,7 @@ See the following for more examples:
 * [curl tutorial with examples of usage](http://www.yilmazhuseyin.com/blog/dev/curl-tutorial-examples-usage/)
 * [Using cURL to automate HTTP jobs](https://curl.haxx.se/docs/httpscripting.html)
 * [Manual -- curl usage explained](https://curl.haxx.se/docs/manual.html)
+* [Everything curl - the book](https://curl.haxx.se/book.html)
 
 [cURL][03] is a command line tool for getting or sending files using URL syntax.
 cURL uses the client-side URL transfer library [`libcurl`][01],

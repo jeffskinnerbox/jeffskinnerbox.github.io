@@ -38,6 +38,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Amazing Open Source Quadruped Capable Of Dynamic Motion](https://hackaday.com/2019/10/03/amazing-open-source-quadruped-capable-of-dynamic-motion/)
 * [SmallKat: An Adorable And Dynamic Robot](https://hackaday.com/2019/11/03/smallkat-an-adorable-and-dynamic-robot/)
 * [Landbeest, A Single Servo Walking Robot](https://hackaday.com/2019/11/29/landbeest-a-single-servo-walking-robot/)
+* [OpenDog Project](https://hackaday.com/2018/06/11/james-bruton-is-making-a-dog-opendog-project/)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)

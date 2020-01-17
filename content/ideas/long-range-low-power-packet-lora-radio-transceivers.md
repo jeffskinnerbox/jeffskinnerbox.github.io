@@ -88,6 +88,8 @@
 # Odd Applications
 * [ZOMBIES ATE YOUR NEIGHBORS? TELL EVERYONE THROUGH LORA!](https://hackaday.com/2019/12/04/zombies-ate-your-neighbors-tell-everyone-through-lora/)
 * [LoRa Mesh Chat](https://www.hackster.io/scottpowell69/lora-mesh-chat-5267d9)
+* [TTGO LoRa Mesh Chat Device](https://www.hackster.io/scottpowell69/ttgo-lora-mesh-chat-device-37913c)
+* [LoRa Mesh Radio](https://www.instructables.com/id/LoRa-Mesh-Radio/)
 
 
 

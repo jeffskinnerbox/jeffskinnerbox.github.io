@@ -14,6 +14,17 @@ Water leak detection by measuring the flow of water in the house
 
 * [Data Mining Home Water Usage; Your Water Meter Knows You A Bit Too Well](https://hackaday.com/2019/08/14/data-mining-home-water-usage-your-water-meter-knows-you-a-bit-too-well/)
 
+# About Leesburg's Water Meters
+* [Using SDR to Read Your Smart Meter](https://hackaday.com/2014/02/25/using-sdr-to-read-your-smart-meter/)
+* [Reading The Water Meter In A Literal Sense With an ESP8266](https://hackaday.com/2019/09/06/reading-the-water-meter-in-a-literal-sense-with-an-esp8266/)
+* [Tracking down a water leak with rtlamr](https://irrational.net/2019/03/26/tracking-down-a-water-leak/)
+* [Crossing AMR's Iron Curtain](https://www.wwdmag.com/meter-reading-services/crossing-amrs-iron-curtain)
+* [RTLAMR - A word of caution when reading your water meter](https://www.reddit.com/r/RTLSDR/comments/3dh2ag/rtlamr_a_word_of_caution_when_reading_your_water/)
+    - ERT
+    - AMR
+    - pit-mounted Itron encoder/receiver/transmitter (ERT) units
+    - Badger Meter AMR
+
 
 
 [01]:http://techcrunch.com/2015/09/15/fluid-is-a-smart-water-meter-for-your-home/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29&utm_content=FaceBook&sr_share=facebook#.yjgy2z:WRLX

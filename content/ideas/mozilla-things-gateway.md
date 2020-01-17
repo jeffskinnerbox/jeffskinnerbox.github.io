@@ -6,6 +6,7 @@
 * [FreeNAS vs OpenMediaVault](http://www.freenas.org/freenas-vs-openmediavault/)
 * [Video: Raspberry Pi 3 NAS 4TB - DIY Step by Step](https://www.youtube.com/watch?v=SUbaJ-Tjg5s)
 * [Automating backups on a Raspberry Pi NAS](https://opensource.com/article/18/8/automate-backups-raspberry-pi)
+* [How-To How to Turn a Raspberry Pi Into a NAS for Whole-Home File Sharing](https://www.pcmag.com/news/372164/how-to-turn-a-raspberry-pi-into-a-nas-for-whole-home-file-sh)
 * [Sabrent USB 3.0 to SSD / 2.5-Inch SATA Hard Drive Adapter](https://www.amazon.com/Sabrent-2-5-Inch-Adapter-Optimized-EC-SSHD/dp/B011M8YACM)
 
 

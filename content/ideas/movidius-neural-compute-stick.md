@@ -149,6 +149,8 @@ Guidance on implementation:
 * [Deep Learning with Movidius NCS (pt.4) Installing NCSDK on a Rock64](https://www.youtube.com/watch?v=AXzIYk7-lr8)
 
 
+* [Raspberry Pi and Movidius NCS Face Recognition](https://www.pyimagesearch.com/2020/01/06/raspberry-pi-and-movidius-ncs-face-recognition/)
+
 
 # You Only Look Once (YOLO)
 * [Gentle guide on how YOLO Object Localization works with Keras (Part 1)](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)

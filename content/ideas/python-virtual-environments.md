@@ -5,7 +5,9 @@ not for executing them like you're trying.
 http://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH
 
 
-
+* [Configuring Python Environment With Virtualenvwrapper](https://medium.com/the-andela-way/configuring-python-environment-with-virtualenvwrapper-8745c2895745)
+* [Virtualenv with Virtualenvwrapper on Ubuntu](https://medium.com/@aaditya.chhabra/virtualenv-with-virtualenvwrapper-on-ubuntu-34850ab9e765)
+* [Virtualenv with Virtualenvwrapper on Ubuntu 18.04](https://itnext.io/virtualenv-with-virtualenvwrapper-on-ubuntu-18-04-goran-aviani-d7b712d906d5)
 
 * [Why you should use pyenv + Pipenv for your Python projects](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
 * [Why Python devs should use Pipenv](https://opensource.com/article/18/2/why-python-devs-should-use-pipenv?utm_medium=Email&utm_campaign=weekly&sc_cid=701f2000000tyL5AAI)
@@ -20,20 +22,19 @@ http://docs.python.org/2/using/cmdline.html#envvar-PYTHONPATH
 * Python Working Environment for Beginners: [Part 1](https://www.thoughtworks.com/insights/blog/python-working-environment-beginners-part-1)
 [Part 2](https://www.thoughtworks.com/insights/blog/python-working-environment-beginners-part-2)
 * [Working with Python's 3rd Party Libraries the Right Way](https://ewilazarus.github.io/working-with-pythons-3rd-party-libraries-the-right-way.html)
-* [pyvenv vs venv vs python-virtualenv vs virtualenv and python 3](http://askubuntu.com/questions/603935/pyvenv-vs-venv-vs-python-virtualenv-vs-virtualenv-and-python-3)
 * [Using a virtual environment with Python 3.4](https://robinwinslow.uk/2013/12/26/python-3-4-virtual-environment/)
 
 
 
 
-
+# The NEW Python Virtual Environments - venv
+venv - a built-in API module for creating "virtual environments". Added since Python 3.3.
 pyvenv - a built-in command line tool for creating “virtual environments”. It helps separate packages dependence between projects. Ships with Python from 3.4.
 
-venv - a built-in API module for creating "virtual environments". Added since Python 3.3.
+* [pyvenv vs venv vs python-virtualenv vs virtualenv and python 3](http://askubuntu.com/questions/603935/pyvenv-vs-venv-vs-python-virtualenv-vs-virtualenv-and-python-3)
+* [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 
-Python Wheels http://pythonwheels.com/
 
-[pip documentation](https://pip.pypa.io/en/latest/)
 
 
 
@@ -75,6 +76,7 @@ sys.path is populated using the current working directory, followed by directori
 
 # Managing Python Packages the Right Way
 * [Managing Python packages the right way](https://opensource.com/article/19/4/managing-python-packages)
+* [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 
 Although Python applications can be made of a single file,
@@ -157,6 +159,14 @@ Using the `virtualenv` tool consists of getting it to create a folder,
 containing the Python interpreter and a copy of pip.
 Afterwards, in order to work with it, we need to either specify the location of that interpreter
 or us its `activate` command.
+
+## Virtualenv and Shebang
+It is important to use [shebang][23] `#!/usr/bin/env python` within Python executable scripts.
+It runs `env`, which will look for the default python for that environment.
+Therefore, your script will use the right path to you Python modules
+and **not** `$PYTHONPATH` set for you login.
+
+* [How to activate a Python virtual environment from a script file](https://www.a2hosting.com/kb/developer-corner/python/activating-a-python-virtual-environment-from-a-script-file)
 
 ################################################################################
 
@@ -677,7 +687,7 @@ Unless of course, you do this install while in a virtual environment.
 [20]:https://github.com/pyenv/pyenv/blob/master/COMMANDS.md
 [21]:https://github.com/pyenv/pyenv#uninstalling-pyenv
 [22]:https://helloacm.com/calling-c-shared-library-from-python-code-linux-version/
-[23]:
+[23]:https://bash.cyberciti.biz/guide/Shebang
 [24]:
 [25]:
 [26]:

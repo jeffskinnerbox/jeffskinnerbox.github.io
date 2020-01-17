@@ -31,6 +31,8 @@
 # Enclosure
 * [Printed It: Custom Enclosure Generator](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
 
+# History of Time
+* [A revolution in time](https://aeon.co/essays/when-time-became-regular-and-universal-it-changed-history)
 
 # Horology
 Horology is the study of the measurement of time.

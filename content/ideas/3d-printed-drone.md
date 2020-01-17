@@ -28,3 +28,10 @@
 # Autopilot and Ground Station Software
 * [The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)
 * [Paparazzi UAV](http://wiki.paparazziuav.org/wiki/Main_Page)
+
+# Motors to Use
+* motor with position sensing
+    * [IQ Motor Module](https://www.crowdsupply.com/iq-motion-control/iq-motor-module)
+
+
+* [Jumper T8SG V2.0 Plus Carbon Special Edition Hall Gimbal Multi-protocol Advanced Transmitter for Flysky Frsky - Mode 2 (Left Hand Throttle)](https://www.banggood.com/Jumper-T8SG-V2_0-Plus-Carbon-Special-Edition-Hall-Gimbal-Multi-protocol-Advanced-Transmitter-for-Flysky-Frsky-p-1442802.html?ID=42482&cur_warehouse=CN)

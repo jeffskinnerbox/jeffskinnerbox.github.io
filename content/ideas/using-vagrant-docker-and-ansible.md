@@ -1,4 +1,7 @@
 
+
+# Using Vagrant, Docker, and Ansible
+
 # Some Prerequisites
 
 ## Infrastructure as Code
@@ -33,7 +36,9 @@ You can boot an operating system installer disc (or live CD) inside the virtual 
 and the operating system will be “tricked” into thinking it’s running on a real computer.
 It will install and run just as it would on a real, physical machine.
 
----
+
+----
+
 
 # Vagrant
 * [Vagrant Crash Course](https://www.youtube.com/watch?v=vBreXjkizgo)
@@ -652,7 +657,8 @@ The private_network is a network that is only between your host and the guest vm
 * [Building VM images with Ansible and Packer](https://www.jeffgeerling.com/blog/server-vm-images-ansible-and-packer)
 
 
----
+----
+
 
 **see "howto-use-docker-and-resin-on-the-raspberry-pi-and-openwrt.md" for more text**
 
@@ -686,7 +692,9 @@ along with confinement that is known in the container world.
 
 But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https://thenewstack.io/canonicals-snap-great-good-bad-ugly/)" nicely outlines, does the world need another containerizer on Linux?
 
----
+
+----
+
 
 # Ansible
 
@@ -722,7 +730,13 @@ and uses SSH to connect to the servers and run the required commands.
 Hence it is a push model, meaning no additional installs are not required at the end point VMs.
 
 Why not just use Bash scripts, then?
-Ansible has an edge over Bash scripts because of its simplicity.
+Ansible has an edge over Bash scripts because
+it features an goal-oriented resource model that
+describes the desired state of computer systems and services,
+not the paths to get them to this state.
+No matter what state a system is in, Ansible understands how to transform it to the desired state.
+Ansible is a simple to understand [configuration management approach][42].
+
 Ansible just uses a list of tasks to run in YAML2 format.
 Ansible also comes with [idempotency][16] out of the box.
 That means you can run the same operation numerous times,
@@ -1491,7 +1505,9 @@ on the command-line when running ansible.
 ### Step X: Update and Reboot
 [Ansible reboot a Debian/Ubuntu Linux for kernel update and wait for it](https://www.cyberciti.biz/faq/ansible-reboot-debian-ubuntu-linux-for-kernel-update-waitforit/)
 
----
+
+----
+
 
 # Using Vagrant and Ansible
 Vagrant has integrations with Ansible as a provisioner for Vagrant's virtual machines (VM)s.
@@ -1700,7 +1716,7 @@ https://html5hive.org/ansible-quickies-useful-code-snippets/
 [39]:https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804
 [40]:https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
 [41]:https://cfengine.com/
-[42]:
+[42]:https://www.ansible.com/use-cases/configuration-management
 [43]:
 [44]:
 [45]:

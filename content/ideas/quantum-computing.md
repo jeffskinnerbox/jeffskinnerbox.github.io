@@ -56,3 +56,5 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 # Quantum Communication
 * [Quantum Communications in Your Browser](https://hackaday.com/2018/01/31/quantum-communications-in-your-browser/)
 
+# Build Your Own Quantum Computer
+* [36C3: Build Your Own Quantum Computer At Home](https://hackaday.com/2019/12/30/36c3-build-your-own-quantum-computer-at-home/)

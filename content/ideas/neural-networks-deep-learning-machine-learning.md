@@ -1,6 +1,7 @@
 
 * [Deep Learning Framework Power Scores 2018](https://towardsdatascience.com/deep-learning-framework-power-scores-2018-23607ddf297a)
 * https://www.fast.ai/
+* Matthew Stewart Blog - https://towardsdatascience.com/@matthew_stewart
 
 # Definitions
 http://searchbusinessanalytics.techtarget.com/definition/deep-learning
@@ -125,6 +126,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
     * [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
 * [MXNet](https://mxnet.readthedocs.io/en/latest/)
 * [Neural Networks: You’ve Got It So Easy](http://hackaday.com/2017/04/24/neural-networks-youve-got-it-so-easy/)
+* [Uber Has Been Quietly Assembling One of the Most Impressive Open Source Deep Learning Stacks in the Market](https://towardsdatascience.com/uber-has-been-quietly-assembling-one-of-the-most-impressive-open-source-deep-learning-stacks-in-b645656ddddb)
 
 # Data Sets / Datasets / data set
 * [Results for Standard Classification and Regression Machine Learning Datasets](https://machinelearningmastery.com/results-for-standard-classification-and-regression-machine-learning-datasets/)
@@ -198,6 +200,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 # Perceptrons
 * [Machine Learning: Foundations](http://hackaday.com/2016/11/02/machine-learning-foundations/#more-228331)
 * [Perceptrons in C++](http://hackaday.com/2016/11/08/perceptrons-in-c/)
+* [How To Build a Neural Network to Recognize Handwritten Digits with TensorFlow](https://www.digitalocean.com/community/tutorials/how-to-build-a-neural-network-to-recognize-handwritten-digits-with-tensorflow)
 * []()
 
 # Embedded Learning Library (ELL)
@@ -220,12 +223,14 @@ Microsoft claims to be able to make an image detection system run about
 There is also an open source initiative like this call [The Fido Project](http://fidoproject.github.io/).
 
 * [How we made TensorFlow run on a Raspberry Pi using Rust](https://medium.com/snips-ai/how-we-made-tensorflow-run-on-a-raspberry-pi-using-rust-7478f7a31329)
+* [TensorFlow: Tutorials and Articles](https://dzone.com/articles/tensorflow-tutorials)
 
 # Movidius
 * [Movidius launches a $79 deep-learning USB stick](https://techcrunch.com/2017/07/20/movidius-launches-a-79-deep-learning-usb-stick/?ncid=mobilenavtrend)
 
 # Tutorials
 * [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
+* [Introduction to Neural Networks](https://towardsdatascience.com/simple-introduction-to-neural-networks-ac1d7c3d7a2c)
 * [Why is machine learning 'hard'?](http://l.goodbits.io/l/ogcalob3)
 * [Artificial Intelligence, Deep Learning, & Neural Networks Explained](https://medium.com/innoarchitech-innovation-architecture-technology/artificial-intelligence-deep-learning-neural-networks-explained-22a3cc132580#.k30un4a4j)
 * [Practical Deep Learning](http://hackaday.com/2016/12/21/practical-deep-learning/)
@@ -241,7 +246,6 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Approaching (Almost) Any Machine Learning Problem](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/)
 * Recognize Handwritten Digits
     * [Deep learning for complete beginners : Recognising handwritten digits by Cambridge Coding Academy](http://online.cambridgecoding.com/notebooks/cca_admin/deep-learning-for-complete-beginners-recognising-handwritten-digits)
-    * [How To Build a Neural Network to Recognize Handwritten Digits with TensorFlow](https://www.digitalocean.com/community/tutorials/how-to-build-a-neural-network-to-recognize-handwritten-digits-with-tensorflow)
     * [ump into AI with a Neural Network of your Own](https://hackaday.com/2018/10/22/jump-into-ai-with-a-neural-network-of-your-own/)
     * [TINY NEURAL NETWORK LIBRARY IN 200 LINES OF CODE](https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/)
 * [Deep Learning in a Nutshell: Core Concepts](https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/)
@@ -379,9 +383,10 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Deep Learning meets Physics: Restricted Boltzmann Machines Part II](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-ii-4b159dce1ffb)
 
 # Generative Adversarial Networks (GAN)
+* [Introduction to Turing Learning and GANs](https://towardsdatascience.com/comprehensive-introduction-to-turing-learning-and-gans-part-1-81f6d02e644d)
 * [Create Data from Random Noise with Generative Adversarial Networks](https://www.toptal.com/machine-learning/generative-adversarial-networks)
 * [Generating Digits and Sounds with Artificial Neural Nets](https://towardsdatascience.com/generating-digits-and-sounds-with-artificial-neural-nets-ca1270d8445f)
-* []Deep Dream Generator](https://deepdreamgenerator.com/)
+* [Deep Dream Generator](https://deepdreamgenerator.com/)
 
 # Chatbot
 * [The Complete Beginner’s Guide To Chatbots](https://chatbotsmagazine.com/the-complete-beginner-s-guide-to-chatbots-8280b7b906ca#.d3yd7zv3e)

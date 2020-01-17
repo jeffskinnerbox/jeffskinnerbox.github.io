@@ -1,3 +1,7 @@
+* [Build & Customise OpenWrt for Raspberry Pi](https://www.cnx-software.com/2020/01/12/build-customize-openwrt-for-raspberry-pi/)
+
+
+
 # OpenWrt
 ![openwrt-logo](http://domoticx.com/wp-content/uploads/openwrt-logo.png)
 [OpenWrt][40] is a descendant of the firmware used for the classic [Linksys WRT54G][39] router

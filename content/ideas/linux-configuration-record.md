@@ -1,12 +1,20 @@
 
 # Tools
-[7 Command-Line Tools for Data Science](https://www.datascienceworkshops.com/blog/seven-command-line-tools-for-data-science/)
-[Converting CSV to JSON in bash](https://stackoverflow.com/questions/44780761/converting-csv-to-json-in-bash)
-[Transform plain data into json file](https://unix.stackexchange.com/questions/370032/transform-plain-data-into-json-file)
-
 [Get Linux System and Hardware Details on the Command Line](https://vitux.com/get-linux-system-and-hardware-details-on-the-command-line/)
 [How to check Wireless network card and WiFi information from Linux Command Line](https://www.2daygeek.com/linux-find-out-wireless-network-wifi-speed-signal-strength-quality/)
 [Linux Find Wireless Wifi Driver Chipset Information](https://www.cyberciti.biz/faq/linux-find-wireless-driver-chipset/)
+
+# HDMI
+* [Automatically detect when HDMI is plugged in](https://stackoverflow.com/questions/47960344/automatically-detect-when-hdmi-is-plugged-in/47964800)
+* [Detecting HDMI cable whether it's plugged in or not](https://bbs.archlinux.org/viewtopic.php?id=133921)
+
+# JSON
+* [Converting CSV to JSON in bash](https://stackoverflow.com/questions/44780761/converting-csv-to-json-in-bash)
+* [Transform plain data into json file](https://unix.stackexchange.com/questions/370032/transform-plain-data-into-json-file)
+[7 Command-Line Tools for Data Science](https://www.datascienceworkshops.com/blog/seven-command-line-tools-for-data-science/)
+* []()
+* []()
+* []()
 
 # Hardware Configuration Data
 

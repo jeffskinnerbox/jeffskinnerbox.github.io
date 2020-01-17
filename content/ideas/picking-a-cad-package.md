@@ -46,6 +46,7 @@ open-source analog electronic circuit simulator.
 It is a program used in integrated circuit and board-level design
 to check the integrity of circuit designs and to predict circuit behavior.
 
+* [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
 * [Hackaday Spice](http://hackaday.com/tag/spice/)
     * [Adding Spice to Your Workbench](http://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
     * [Transforming Spice](http://hackaday.com/2016/03/02/transforming-spice/)
@@ -55,6 +56,7 @@ to check the integrity of circuit designs and to predict circuit behavior.
     * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
 * [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
 * [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
+
 * [All About Circuts](http://www.allaboutcircuits.com/education/)
 * [RF design guide](http://www.cdt21.com/resources/default.asp)
 * [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)

@@ -52,6 +52,7 @@ Kali Linux is a Debian-derived Linux distribution designed for digital forensics
 * [Reverse geocoding](https://unwiredlabs.com/docs/#reverse-geocoding) is the process of converting geographic coordinates into a human-readable address.
 * [A Plan To Replace Geographic Coordinates on Earth With Unique Strings of Three Words](https://www.smithsonianmag.com/science-nature/plan-replace-geographic-coordinates-earth-unique-strings-three-words-180949946/)
 * [3 Word Address](http://what3words.com/)
+* [Plus Code](https://plus.codes/)
 
 ## Location Platforms
 Use Skyhook Precision Location on a Raspberry Pi device running Raspbian Linux.

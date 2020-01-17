@@ -178,6 +178,12 @@ I selected **Other** > **Creality 10**.
 
 ### Step X: Cura Settings for Creality CR-10S
 
+Try this profile
+* [Improved Cura 4.4 Profiles for Creality Ender 3](https://www.youtube.com/watch?v=CUpKUHUeteY)
+* [Manage Cura profiles](https://ultimaker.com/en/resources/52032-manage-profiles)
+    * [exporting cura profile]()
+    * [importing cura profile]()
+
 * [Sunhokey reprap Prusa i3 3D Printer: Cura slicer software](https://www.youtube.com/watch?v=fVpn4KjHT80)
 * [A hidden feature in Cura](https://www.youtube.com/watch?v=j2WWWSpnrlE)
 * [3 Cura Slicer Setting Tricks For Beginners](https://www.youtube.com/watch?v=su_m5zV9rvA)
@@ -577,6 +583,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 
 ## OctoPrint
+* [How to set up OctoPrint on your Raspberry Pi](https://www.blogdot.tv/how-to-set-up-octoprint-on-your-raspberry-pi/)
 * [Upgrading a 3D Printer with OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
 * [OctoPrint](https://octoprint.org/)
     * [OctoPrint Blog](https://octoprint.org/blog/)
@@ -661,6 +668,7 @@ especially for recovering the exact positions of surface points.
 * [For Better Photogrammetry, Just Add A Donut](https://hackaday.com/2019/05/14/for-better-photogrammetry-just-add-a-donut/)
 * [Meshroom][39] is free, open-source photogrammetry software
 built on top of an underlying framework called [AliceVision][40].
+* [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
 
 # Super Size Print
 [LuBan][55] is a software tool used to split giant 3D models into manageable chunks that could be printed.

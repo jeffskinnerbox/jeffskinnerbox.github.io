@@ -24,3 +24,4 @@
 
 * [FPGA Makes Digital Analog Computer](https://hackaday.com/2019/02/14/fpga-makes-digital-analog-computer/)
 * [A Scratch-built RISC-V CPU In An FPGA](https://hackaday.com/2019/11/19/emulating-risc-v-on-an-fpga/)
+* [FPGA 6800 Uses Python Toolbox](https://hackaday.com/2019/12/27/fpga-6800-uses-python-toolbox/)

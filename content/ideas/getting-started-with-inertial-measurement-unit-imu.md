@@ -93,6 +93,17 @@ particularly over longer periods of time.
 Additional components of navigation systems are designed to correct these incremental errors,
 including magnetic compasses, externally mounted velocity sensors, and GPS control.
 
+When using the IMU to calculate angles, readings from both the gyro and accelerometer are needed which are then combined. This is because using either on their own will result in inaccurate readings. And a special note about yaw.
+
+Here is why;
+Gyros - A gyro measures the rate of rotation, which has to be tracked over time to calculate the current angle. This tracking causes the gyro to drift. However, gyros are good at measuring quick sharp movements.
+
+Accelerometers - Accelerometers are used to sense both static (e.g. gravity) and dynamic (e.g. sudden starts/stops) acceleration. They don’t need to be tracked like a gyro and can measure the current angle at any given time. Accelerometers however are very noisy and are only useful for tracking angles over a long period of time.
+
+Accelerometers cannot measure yaw.   To explain it simply, yaw is when the accelerometer is on a flat level surface and it is rotated clockwise or anticlockwise.  As the Z-Axis readings will not change, we cannot measure yaw.   A gyro and a magnetometer can help you measure yaw. This will be covered in a future guide.
+
+[Here is an excellent tutorial about accelerometers and gyros.](https://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
+
 # How to Select an IMU?
 * [According to Pete: IMU 101](https://www.sparkfun.com/news/2814)
 

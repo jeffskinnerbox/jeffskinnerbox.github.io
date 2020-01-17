@@ -1,10 +1,5 @@
-Title: Coaxial Cable Guide
-Date: 2100-01-01 00:00
-Category:
-Tags: Coaxial Cable
-Slug: coaxial-cable-guide
-Author: Jeff Irland
-Summary: bla bla bla
+
+# Coaxial Cable
 
 * [UHF SO-239](https://www.amazon.com/Female-Chassis-Flange-Solder-Connector/dp/B007Q8JH4Y)
 * [RF Coax Cable Connectors](http://www.fmuser.net/content/?852.html)
@@ -96,6 +91,48 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 * [Common Coaxial Connectors](http://ecee.colorado.edu/~kuester/Coax/connchart.htm)
 * []()
 * []()
+
+
+----
+
+
+# USB Cables
+USB cables are used to transfer data, power devices, and often both.
+Sometimes, when selecting a random USB cable our devices do not work, charging is too slow, etc.
+Your not sure if a crappy USB cable is the reason.
+
+* [Avoid Surprises: How good are USB cables and how can you test yours?](https://www.youtube.com/watch?v=n70N_sBYepQ)
+* [Is it me or is it USB?](https://www.tindie.com/products/nerfhammer/is-it-me-or-is-it-usb/)
+* [Smart & Secure Fast-Charge USB Cable and Adapter](https://www.kickstarter.com/projects/andyfei/smart-and-secure-fast-charge-usb-cable-and-adapter)
+
+What is a smart charging USB port? What's the difference between a smart one and a 1 or 2.1 a charger? - https://www.quora.com/What-is-a-smart-charging-USB-port-Whats-the-difference-between-a-smart-one-and-a-1-or-2-1-a-charger
+
+## USB Cable Types
+Your next phone or laptop will have a USB Type-C port for charging.
+Type-C cables will subject to greater loads, and therefore,
+will require higher levels of manufacturing tolerances.
+
+* **USB Type-C** will not just give you data speeds which are 20 times more than USB 2.0,
+but it also draws more power, A LOT more of it.
+A regular Type-C cable is able to deliver 3A of current, while higher spec ones go up to 5A.
+USB 2.0 can only support anywhere from 500mA up to 2A.
+
+It’s 2019 and USB-C is still a mess - https://www.androidauthority.com/state-of-usb-c-870996/
+The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable
+
+## The Annoyances of USB Charging
+Most computers' USB ports can only charge smartphones slowly -- at 0.5 Amp max. Charge current, measured in Amp, indicates how fast it charges; e.g., 1.0 Amp means charging twice as fast as 0.5 Amp.
+
+Worse yet, most computers' USB ports can't charge iPad or other tablets because they require higher charge current (1.0 Amp or higher). Some can still be charged, but very slowly.
+
+Compatibility issues: USB chargers from different vendors often don't play nice with each other. A few examples: (1) the official iPad charger can't charge Samsung Galaxy tablets and some other tablets; (2) the official Samsung Galaxy tablet charger can't charge iPad; (3) some after-market chargers can charge one type of devices (iPad or Android tablet) at high speed (2 Amp or higher) but they charge the other type of devices at much reduced speed.
+
+Many after-market chargers don't charge your phone or iPad/tablet as fast as they claim: many may claim they can charge at 1 Amp for phones and 2 Amp for iPad and other tablets, but the actual charging speed may be just half of that. That include some the so-called Smart or Universal chargers that are supposed to be cable to charge both iPad and other tablets at 2 Amp or higher.
+
+Hacker attack! If you use a regular USB cable to connect your smartphones to a computer that has been compromised by a hacker, it is possible for the hacker to steal data off your phone; or worse, compromise your phone. It has been found that, it is even possible to hide a hacking device inside a normal-looking charger that is capable of stealing data from your phone or compromising it. Be careful when connecting your phone/tablet to a public computer or charger.
+Introducing Smart & Secure Fast-Ch
+
+They stop fitting snug in your device. They get loose, they fall out and stop charging or transferring data
 
 
 

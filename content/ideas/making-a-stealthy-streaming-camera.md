@@ -23,6 +23,8 @@
 * [RockBLOCK Mk2 - Iridium SatComm Module](https://www.sparkfun.com/products/13745)
 * [Satellite communication with RockBLOCK](http://www.makersnake.com/rockblock/)
 
+# DashCam
+* [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
 
 
 
@@ -134,6 +136,9 @@ we will work around these and other limitations.
 * [ESP32 with Camera and TFT Display](https://www.youtube.com/watch?v=v_8XifFcpaI&list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * [ESP-Eye: First Look (ESP32 Face Recognition)](https://www.youtube.com/watch?v=_JwMuvFVMsM&feature=youtu.be)
 * [ESP32 Camera Mini Series](https://www.youtube.com/playlist?list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
+* LEDWallCamera
+    * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)
+    * [ESP32-Cam Programmer & LED Wall Effects](https://www.youtube.com/watch?v=ikhZ34WgObc)
 
 ----
 

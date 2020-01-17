@@ -89,7 +89,7 @@ USB Isolator - https://www.adafruit.com/product/2107
 * [Water detection system](https://www.hackster.io/gusgonnet/water-detection-system-227b08?ref=list&ref_id=3061&offset=2)
 * [How to Protect Your House From Water Leaks—Without the Internet of Things](http://spectrum.ieee.org/at-work/education/how-to-protect-your-house-from-water-leakswithout-the-internet-of-things)
 * [ESP8266 Water Alarm](http://benlo.com/esp8266/esp8266WaterAlarm.html)
-* [Low Power Water Level Sensor for LoRaWAN/The Things Network](https://www.hackster.io/Amedee/low-power-water-level-sensor-for-lorawan-the-things-network-96c877?utm_campaign=new_projects_default&utm_content=0&utm_medium=email&utm_source=hackster&utm_term=project_name)
+* [Low Power Water Level Sensor for LoRaWAN/The Things Network](https://www.hackster.io/Amedee/low-power-water-level-sensor-for-lorawan-the-things-network-96c877)
 
 
 * [Flood Buzz Water Leak Detector - Set of 6](http://www.brookstone.com/pd/flood-buzz-water-leak-detector---set-of-6/745263p.html?bkeid=compare%7Cmercent%7Cgooglebaseads%7Csearch&gclid=Cj0KEQjwoM63BRDK_bf4_MeV3ZEBEiQAuQWqkUzwfq761WYUNx0aoD4_tHDvs13ASGm71N77GMQAtOIaAtoW8P8HAQ&adpos=1o5&device=c&creative=97619010084&network=g)

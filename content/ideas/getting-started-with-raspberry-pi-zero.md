@@ -593,14 +593,14 @@ iface usb0 inet static
 ```
 
 >**NOTE**: If you want these changes to persist after a reboot,
-it is best pratice to not append the name server with data,
-but instead, put `dns-nameservers 8.8.8.8` within the iface stanza above.
-This way, the this DNS entry would survive a reboot.
-Also, to make the routing table changes persistent,
-place `gateway 10.0.1.1` in the same stanza.
-To make the IP Forwarding permanent insert or edit the following line in
-`/etc/sysctl.conf`: `net.ipv4.ip_forward = 1`
-See below on how to make the iptable updates persistent.
+>it is best pratice to not append the name server with data,
+>but instead, put `dns-nameservers 8.8.8.8` within the iface stanza above.
+>This way, the this DNS entry would survive a reboot.
+>Also, to make the routing table changes persistent,
+>place `gateway 10.0.1.1` in the same stanza.
+>To make the IP Forwarding permanent insert or edit the following line in
+>`/etc/sysctl.conf`: `net.ipv4.ip_forward = 1`
+>See below on how to make the iptable updates persistent.
 
 On the RPi Zero, the routing table will look something like this:
 

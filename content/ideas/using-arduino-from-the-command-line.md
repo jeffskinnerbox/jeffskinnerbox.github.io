@@ -109,7 +109,7 @@ a new version if one is available.)
 cd ~/Downloads
 tar -xvf arduino-1.8.8-linux64.tar.xz
 
-# move the result folder to /opt directory for global use
+# move the result folder to $HOME/src directory for your use
 mv arduino-1.8.8 arduino
 mv ~/Downloads/arduino ~/src
 
@@ -118,7 +118,7 @@ cd ~/src/arduino
 ./install.sh
 ln -s ~/src/arduino/arduino ~/bin/arduino
 
-# brltty (braille device) which will conflict with the Arduino
+# remove brltty (braille device) which will conflict with the Arduino
 sudo apt-get remove brltty
 ```
 

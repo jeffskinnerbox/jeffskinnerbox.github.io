@@ -14,8 +14,8 @@
 * [A British mathematician thinks he’s cracked a secret worth a million bucks](https://www.popsci.com/riemann-hypothesis-proof)
 
 # The Unreasonable Effectiveness of Mathematics
-["The Unreasonable Effectiveness of Mathematics in the Natural Sciences"](https://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html)
-is the title of an article published in 1960 by the physicist Eugene Wigner put me on this quest.
+["The Unreasonable Effectiveness of Mathematics in the Natural Sciences"](hhttps://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)
+is the title of an article, published in 1960 by the physicist Eugene Wigner, that put me on this quest.
 
 * [The Unreasonable Effectiveness of Mathematics](https://www.youtube.com/watch?v=ZBkzqLJPkmM)
 * [Our Mathematical Universe with Max Tegmark](https://www.youtube.com/watch?v=_3UxvycpqYo)
@@ -117,6 +117,7 @@ A prime number is a positive whole number greater than one which is divisible on
 * [Ulam spiral or prime spiral](https://en.wikipedia.org/wiki/Ulam_spiral)
 * [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
 * [Unexpected Beauty in Primes](https://medium.com/cantors-paradise/unexpected-beauty-in-primes-b347fe0511b2)
+* [The Prime Numbers Cross: Hint of a Deeper Pattern?](https://medium.com/@riccardo.disipio/the-prime-numbers-cross-hint-of-a-deeper-pattern-2110c348f03b)
 
 # Generating Primes
 * https://en.wikipedia.org/wiki/Generating_primes
@@ -168,3 +169,8 @@ infinitely many primes of the form a + nd, where n is a non-negative integer.
 # Richard Feynman’s Integral Trick
 * [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
 * [Calculus 2: Integration, Computation of Areas and Volumes, Differential Equations](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKGna43cvDO4NZEEOdM4vcR)
+
+# Finding Pi in Unusal Places
+* [The Pi Machine: The most unexpected answer to a counting puzzle](https://medium.com/@christopher.fraser/the-pi-machine-the-most-unexpected-answer-to-a-counting-puzzle-b365db558b12)
+    * [The most unexpected answer to a counting puzzle](https://www.youtube.com/watch?v=HEfHFsfGXjs)
+    * [Why do colliding blocks compute pi?](https://www.youtube.com/watch?v=jsYwFizhncE)
