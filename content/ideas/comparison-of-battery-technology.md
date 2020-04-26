@@ -32,6 +32,7 @@ All About Batteries
 # Choosing Battery Technology
 * [Battery Basics – Choosing a Battery for Your Project](http://hackaday.com/2014/12/16/battery-basics-choosing-a-battery-for-your-project/)
 * [An Obsessively Thorough Battery (and more) Showdown](http://hackaday.com/2014/09/05/an-obsessively-thorough-battery-and-more-showdown/)
+* [Choosing The Right Battery For Your Electric Vehicle Build](https://hackaday.com/2020/01/07/choosing-the-right-battery-for-your-electric-vehicle-build/)
 
 * [Why Samsung’s Lithium Batteries Explode and How They Could Change Electronics](http://www.allaboutcircuits.com/news/why-samsungs-lithium-batteries-explode-and-how-they-could-change-electronic/?utm_source=All+About+Circuits+Members&utm_campaign=5a64219bdc-EMAIL_CAMPAIGN_2016_11_03&utm_medium=email&utm_term=0_2565529c4b-5a64219bdc-270523833/)
 * [Tour de Force Battery Hacking](http://hackaday.com/2016/09/03/tour-de-force-battery-hacking/)
@@ -241,6 +242,15 @@ http://www.innootech.com/anear-60w-6-port-desktop-usb-charging-hub-high-speed-wi
 
 For LiPo battery packs with cells connected in series, a specialised charger may monitor the charge on a per-cell basis so that all cells are brought to the same state of charge (SOC).
 
+## Building a Lithium Ion Battery Charger
+## Repurposing Lithium Ion Cells
+You may want to reuse lithium-ion batteries from discarded equipment.
+These cells are often charged inside the equipment
+and there is no separate charger that can be reused.
+It is fairly easy to build a charger for used (or new) lithium-ion cells
+and Maxim has app note 5681 on this topic:
+[LITHIUM-ION BATTERY RECYCLING MADE EASY](https://www.maximintegrated.com/en/design/technical-documents/app-notes/5/5681.html)
+
 # DC/DC Boost Converter
 A [boost converter][18] (step-up converter) is a DC-to-DC power converter steps up voltage
 from its input (supply) to its output (load).
@@ -292,6 +302,7 @@ Smart Battery System (SBS) is a specification for managing a smart battery, usua
 
 * [PackProbe Reports Laptop Battery Health](https://hackaday.com/2019/06/26/packprobe-reports-laptop-battery-health/)
 * [build a dedicated SMBus scanner](https://hackaday.com/2016/09/03/tour-de-force-battery-hacking/)
+* [Turn Off Those Batteries With Their Protection Chip](https://hackaday.com/2020/04/05/turn-off-those-batteries-with-their-protection-chip/)
 
 # Battery Degradation
 A useful why to think about a batterys degradation or age
@@ -300,6 +311,22 @@ in terms of present capacity versus original (new) capacity.
 A useful battery has predictable behavior; it can supply a constant amount of power, for a predictable amount of time, within a narrow voltage range. The ‘capacity’ or ‘C rating’ for batteries is probably the most useful parameter to express this.
 
 * [Predicting Battery Degradation with a Trinket M0 and Python Software Algorithms](https://www.allaboutcircuits.com/projects/how-to-build-battery-age-prediction-using-software-algorithms)
+
+# Graphene Battery
+* [Samsung's New Graphene Battery](https://www.youtube.com/watch?v=Go2g_BNpG_Y)
+* [Major Breakthrough: Graphene Batteries FINALLY Hit the Market](https://www.youtube.com/watch?v=dnE1nO6o-do)
+* [Incredibly Fast Graphene Battery Powerbank](https://www.youtube.com/watch?v=uIMegpibt1M)
+
+# Supercapacitors
+A [supercapacitor][30], also called an ultracapacitor,
+is a high-capacity capacitor with a capacitance value much higher than other capacitors,
+but with lower voltage limits,
+that bridges the gap between electrolytic capacitors and rechargeable batteries.
+It typically stores 10 to 100 times more energy per unit volume or mass than electrolytic capacitors,
+can accept and deliver charge much faster than batteries,
+and tolerates many more charge and discharge cycles than rechargeable batteries.
+
+* [Hybrid Supercapacitors Are — Well — Super](https://hackaday.com/2020/03/14/hybrid-supercapacitors-are-well-super/)
 
 
 
@@ -332,4 +359,4 @@ A useful battery has predictable behavior; it can supply a constant amount of po
 [27]:
 [28]:
 [29]:
-[30]:
+[30]:https://www.explainthatstuff.com/how-supercapacitors-work.html

@@ -99,6 +99,7 @@ you'll need to reboot to load the new firmware.
 Filesystems and disks should be check to make sure they are not running low on resources
 and are not showing any signs of pending failure.
 
+
 #### Check Storage and Inode Usage
 If you let some directories get really full, like above 95% full, you will see some serious system problems.
 Check on the status of directory systems storage space and inode usage:
@@ -307,6 +308,47 @@ get your current kernel version back by executing `uname -r` and then reinstall 
     sudo apt-get install linux-image-x.x.x-xx
 
 where `x.x.x-xx` is the kernel version number give by the `uname -r` command.
+
+#### SSD TRIM
+Solid-state drives (SSD) have brought about a new way of managing storage.
+SSDs have benefits like silent and cooler operation and a faster interface spec,
+compared to hard drives but brings with it new methods of maintenance and management.
+SSDs have a feature called TRIM.
+This is essentially a method for reclaiming unused blocks on the device,
+which may have been previously written, but no longer contain valid data and therefore,
+can be returned to the general storage pool for reuse.
+
+Ubuntu Linux executes TRIM services via systemd timer service.
+To check the existence and current status,
+run `sudo systemctl list-timers --all`:
+
+```bash
+# verify TRIM services are enabled
+$ sudo systemctl list-timers --all
+NEXT                         LEFT                LAST                         PASSED             UNIT
+Sat 2020-03-21 22:33:01 EDT  3min 10s left       Sat 2020-03-21 21:33:27 EDT  56min ago          anacron.timer
+Sun 2020-03-22 00:00:00 EDT  1h 30min left       Sat 2020-03-21 00:00:01 EDT  22h ago            logrotate.timer
+Sun 2020-03-22 00:00:00 EDT  1h 30min left       Sat 2020-03-21 00:00:01 EDT  22h ago            man-db.timer
+Sun 2020-03-22 00:10:05 EDT  1h 40min left       Sat 2020-03-21 12:40:56 EDT  9h ago             apt-daily.timer
+Sun 2020-03-22 03:10:22 EDT  4h 40min left       Sun 2020-03-15 03:10:28 EDT  6 days ago         e2scrub_all.timer
+Sun 2020-03-22 06:35:01 EDT  8h left             Sat 2020-03-21 06:19:49 EDT  16h ago            apt-daily-upgrade.timer
+Sun 2020-03-22 08:23:14 EDT  9h left             Sat 2020-03-21 14:38:27 EDT  7h ago             motd-news.timer
+Sun 2020-03-22 08:35:00 EDT  10h left            Sat 2020-03-21 20:09:27 EDT  2h 20min ago       mdmonitor-oneshot.timer
+Sun 2020-03-22 18:07:19 EDT  19h left            Sat 2020-03-21 18:07:19 EDT  4h 22min ago       systemd-tmpfiles-clean.
+Mon 2020-03-23 00:00:00 EDT  1 day 1h left       Mon 2020-03-16 00:00:01 EDT  5 days ago         fstrim.timer
+Sun 2020-04-05 11:39:18 EDT  2 weeks 0 days left Sun 2020-03-01 11:52:26 EST  2 weeks 6 days ago mdcheck_start.timer
+n/a                          n/a                 n/a                          n/a                mdcheck_continue.timer
+n/a                          n/a                 n/a                          n/a                snap-repair.timer
+n/a                          n/a                 n/a                          n/a                snapd.refresh.timer
+n/a                          n/a                 n/a                          n/a                snapd.snap-repair.timer
+
+15 timers listed.
+```
+
+For additional information, check out:
+
+* [Solid state drives in Linux: Enabling TRIM for SSDs](https://opensource.com/article/17/1/solid-state-drives-linux-enabling-trim-ssds)
+* [Extend the life of your SSD drive with fstrim](https://opensource.com/article/20/2/trim-solid-state-storage-linux)
 
 ## When the Hard Disk Goes South
 For basic disk errors, you could try letting Linux heal itself with `fsck` at boot up.

@@ -12,6 +12,10 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 * [Google Assistant, Now Available On Ham Radio](https://hackaday.com/2019/01/05/google-assistant-now-available-on-ham-radio/)
 * [All About Ham Satellites](https://hackaday.com/2019/01/07/all-about-ham-satellites/)
 * [Listening to Satellites with a Homemade Yagi Antenna](https://makezine.com/projects/make-24/homemade-yagi-antenna/)
+* [Hiking Pole Turned Lightweight Yagi Antenna](https://hackaday.com/2020/01/09/hiking-pole-turned-lightweight-yagi-antenna/)
+* [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
+
+
 
 
 I have already bought the
@@ -49,8 +53,13 @@ Some examples of this are:
 * [CHIRP](http://chirp.danplanet.com/projects/chirp/wiki/Home)
 * [Hacking the Baofeng UV5R](http://elazary.com/index.php?option=com_content&view=article&id=49%3Ahacking-the-baofeng-uv5r&catid=14%3Abaofeng-uv5r&Itemid=17&showall=1)
 
+# Tesla
 Maybe I could even do some exploring of spectrum mysteries like
 [Number Stations][01] and [Tesla Spirit Radio][06]).
+
+* [Tesla Coil Arc Plasma Loudspeaker](https://www.amazon.com/gp/product/B0794X4PPD)
+* How do you measure the field strength of a Tesla Coil?  With a [Electrostatic Field Mill Voltmeter](https://hackaday.com/2020/03/26/whirling-shutters-on-this-field-mill-measure-electrostatic-charges-at-distance/)
+* [Vacuum Tube Tesla Coil Does Fascinating Stunts](http://blog.modernmechanix.com/vacuum-tube-tesla-coil-does-fascinating-stunts/)
 
 # Configuring Your Baofeng UV-5R
 * [Tips on How to Best Configure and Use Your Baofeng UV-5R](https://codegreenprep.com/2013/04/tips-on-how-to-best-configure-and-use-your-baofeng-uv-5r/)
@@ -72,7 +81,7 @@ However there are still some things you can listen to:
 * VHF - 2-Meter ham, MURS, Commercial, Marine band, Railroads
 * UHF - 440 Ham, Commercial, GMRS, FRS
 
-* [Baofeng UV-5R Programming - setup as a police scanner](https://www.youtube.com/watch?v=zlQqQKIWEVE)
+* [Baofeng UV-5R Programming - setup as a police scanner](https://www.youtube.com/watcZZh?v=zlQqQKIWEVE)
 * [Using Baofeng UV-5R as a Radio Scanner with CHIRP](https://oneguyoneblog.com/2018/02/25/scanner-radio-pofung-baofeng-uv-5r-chirp/)
 
 # Studying for Ham Radio License
@@ -97,6 +106,8 @@ Through the power of lobbying organizations,
 the Hams of the day were relegated to one small part of radio spectrum.
 In the 1920's, Hiram Percy Maxim saw the value of a public with radios transceivers for emergency communications,
 and founded the American Radio Relay League (ARRL).
+
+
 
 # Emergency Communications
 * [How to communicate when the world goes silent](https://graywolfsurvival.com/2716/ham-radio-best-shtfdisaster-communication/)
@@ -124,12 +135,16 @@ When FT8, jointly developed by Joe Taylor and Steve Franke (K9AN),
 was announced it was described as being designed for,
 “[multi-hop Es where signals may be weak and fading, openings may be short, and you want fast completion of reliable, confirmable QSO’s.][08]”
 
+* [Ham Radio Crash Course](https://www.youtube.com/user/hoshnasi/videos)
 * [FT8: Saving Ham Radio or Killing It?](https://hackaday.com/2018/11/02/ft8-saving-ham-radio-or-killing-it/)
 * [The $50 Ham: Getting Your Ticket Punched](https://hackaday.com/2019/03/08/the-50-ham-getting-your-ticket-punched/)
 * [The $50 Ham: Entry-Level Transceivers for Technicians](https://hackaday.com/2019/03/15/the-50-ham-entry-level-transceivers-for-technicians/)
 * [The $50 Ham: Checking Out the Local Repeater Scene](https://hackaday.com/2019/04/11/the-50-ham-checking-out-the-local-repeater-scene/)
 * [The $50 Ham: Dummy Loads](https://hackaday.com/2019/04/25/the-50-ham-dummy-loads/)
 * [The $50 Ham: Dummy Loads, Part 2](https://hackaday.com/2019/05/17/the-50-ham-dummy-loads-part-2/)
+* [The $50 Ham: Going Mobile](https://hackaday.com/2020/02/05/the-50-ham-going-mobile/)
+
+* [Ham Radio Prep – Ham Radio Online License Class](https://hamradioprep.com/)
 
 # Packet Radio
 Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
@@ -143,6 +158,23 @@ Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 #  International Space Station (ISS)
 * [How to hear the ISS](https://amsat-uk.org/beginners/how-to-hear-the-iss/)
 * [Open Notify: International Space Station Current Location](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
+
+# RF Test Tools
+* [Hackable Ham Radio Multitool Contributes To Long Term Survival Of The Hobby](https://hackaday.com/2019/09/18/hackable-ham-radio-multitool-contributes-to-long-term-survival-of-the-hobby/)
+
+# Short Wave Audio Archives
+The Shortwave Radio Audio Archive (SRAA) is a collection of shortwave radio recordings that you can download or listen.
+
+* [The Short Wave Audio Archives](https://shortwavearchive.com/)
+
+# Moon Bounce
+* [Shoot The Moon With This Homebrew Hardline RF Divider](https://hackaday.com/2020/03/31/shoot-the-moon-with-this-homebrew-hardline-rf-divider/)
+
+# Power Meter
+wanted to measure the exact RF power output from your QRP rig, programmable oscillator, HamShield, 900MHz Explorer Hat, LoRa, WiFi, Bluetooth module, or cable distribution system? How much RF power output does your drone or camera module output? In a simple-to-read output on any computer? Now you can.
+
+* [Measuring HamShield Power Output](https://inductivetwig.com/blogs/news/measuring-hamshield-power-output)
+* [Wideband Power Meter](https://inductivetwig.com/products/vhf-uhf-shf-power-meter-with-usb-serial)
 
 
 

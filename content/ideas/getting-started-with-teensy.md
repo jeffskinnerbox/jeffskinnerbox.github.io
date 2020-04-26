@@ -10,6 +10,7 @@ free software development tools including Teensy Loader application
 * [Teensy 3.6](https://www.sparkfun.com/products/14057?utm_campaign=September+15%2C+2016&utm_source=hs_email&utm_medium=email&utm_content=35839602&_hsenc=p2ANqtz--YLeNo8yN27XQdXKoYvoc5GLCvJFvVW_Uqy5vjQKlFNHwp5_ETiq7y3BJmyU914Fxa_Jh7cRHpwq__Gw0l-Ci0QGsEjA&_hsmi=35839568)
 * [Teensy 4.0](https://blog.hackster.io/teensy-4-0-brings-600-mhz-cortex-m7-to-the-arduino-world-13d451477918) brings 600 MHz Cortex-M7 offers the best performance per dollar available.
 * [New Teensy 4.0 Blows Away Benchmarks, Implements Self-Recovery, Returns To Smaller Form](https://hackaday.com/2019/08/07/new-teensy-4-0-blows-away-benchmarks-implements-self-recovery-returns-to-smaller-form/)
+* [CircuitPython Now Working On Teensy 4.0](https://hackaday.com/2020/01/14/circuitpython-now-working-on-teensy-4-0/)
 
 ## ARM Cortex-M4
 The ARM Cortex-M is a group of [32-bit RISC ARM][03] processor cores licensed by [ARM Holdings][02].
@@ -48,6 +49,7 @@ https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board
 * [Running the RTOS on a ARM Cortex-M Core](http://www.freertos.org/RTOS-Cortex-M3-M4.html)
 * [Using FreeRTOS multi-tasking in Arduino](https://www.hackster.io/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc)
 * [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
+* [The Zephyr Project Welcomes Adafruit Industries to its Open Source Ecosystem](https://blog.adafruit.com/2020/03/02/the-zephyr-project-welcomes-adafruit-industries-to-its-open-source-ecosystem-zephyriot-zephyriot-linuxfoundation-linux-adafruit/)
 * [NuttX Real-Time Operating System](http://www.nuttx.org/)
 * [What is the NuttX RTOS and why should you care?](https://www.embedded.com/electronics-blogs/say-what-/4458729/What-is-the-NuttX-RTOS-and-why-should-you-care-)
 * [New Verizon Developer Toolkit Makes IoT Projects Easy for Amazon Web Services Users](https://iotbusinessnews.com/2018/11/30/27014-new-verizon-developer-toolkit-makes-iot-projects-easy-for-amazon-web-services-users/)

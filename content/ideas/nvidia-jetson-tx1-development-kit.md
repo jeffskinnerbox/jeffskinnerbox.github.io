@@ -33,6 +33,8 @@
 
 * [RK3399Pro vs Raspberry Pi 4 vs Jetson Nano – AI and Deep Learning Capabilities](https://www.seeedstudio.com/blog/2019/12/05/rk3399pro-vs-raspberry-pi-4-vs-jetson-nano-ai-and-deep-learning-capabilities/)
 
+* [How to use OpenCV’s “dnn” module with NVIDIA GPUs, CUDA, and cuDNN](https://www.pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/)
+
 
 # Snap
 Canonical has deployed Snappy Ubuntu Core,
@@ -52,6 +54,11 @@ https://www.floydhub.com/  -   It never ceases to amaze me how what I once consi
 
 
 ################################################################################
+
+* [Measuring Machine Learning](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
+    * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
+    * [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
+    * []()
 
 
 
@@ -161,6 +168,12 @@ You'll file the board drawing on page one on the PDF `P2597_B04_PCB_assembly_dra
 The dimensions of the board are 170.18mm x 170.18mm (6.7in x 6.7in  or  6 45/64 inch x 6 45/64 inch).
 
 # Getting Started with the Jetson TX1
+
+
+# Machine Learning Applied to RF
+* [Making Sense of Signals](http://on-demand.gputechconf.com/gtc/2018/video/S8375/)
+* [Deepwave Digital’s  AIR-T (Artificial Intelligence Radio — Transceiver)](http://linuxgizmos.com/linux-on-jetson-sdr-board-gets-major-software-upgrade/)
+* [cuFFT on the AIR-T with GNU Radio](https://deepwavedigital.com/blog/cufft-on-the-air-t-with-gnu-radio/)
 
 
 

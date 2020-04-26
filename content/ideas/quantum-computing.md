@@ -34,6 +34,7 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 # Tutorials on Quantum Physics
 * [Our quantum problem](http://aeon.co/magazine/science/our-quantum-reality-problem/)
+* [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
 * [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)

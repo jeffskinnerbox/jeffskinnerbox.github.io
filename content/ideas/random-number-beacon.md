@@ -1,5 +1,5 @@
 
-* []()
+* [Too Random, Or Not Random Enough: Student Misunderstandings About Probability In Coin Flipping](https://medium.com/@MatthewOldridge/too-random-or-not-random-enough-student-misunderstandings-about-probability-in-coin-flipping-7d32ac3a7d95)
 * [A Brief History of Random Numbers](https://medium.freecodecamp.com/a-brief-history-of-random-numbers-9498737f5b6c)
 
 # Hacking Analog Clock
@@ -21,6 +21,7 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 * [History of numbers stations](http://hackaday.com/2015/10/29/secret-radio-stations-by-the-numbers/)
 * [Run Your Own Numbers Station](http://hackaday.com/2016/12/31/run-your-own-numbers-station/)
 * [Number Twitters](http://hackaday.com/2017/05/09/number-twitters/)
+* [HM01 - The Ultimate Radio Mystery](https://www.youtube.com/watch?v=e6sE_kfNuKU&feature=youtu.be)
 
 # Random-Number Generation
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
@@ -35,6 +36,7 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 * [WHAT IS ENTROPY AND HOW DO I GET MORE OF IT?](https://hackaday.com/2017/11/02/what-is-entropy-and-how-do-i-get-more-of-it/)
 * [Ensuring Randomness with Linux's Random Number Generator](https://blog.cloudflare.com/ensuring-randomness-with-linuxs-random-number-generator/)
 * [Check available entropy in Linux](https://major.io/2007/07/01/check-available-entropy-in-linux/)
+* [Linux Fu: The Linux Shuffle](https://hackaday.com/2020/02/03/linux-fu-the-linux-shuffle/)
 
 # Lava Light as a Source of Entropy
 * [LavaRand in Production: The Nitty-Gritty Technical Details](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/)

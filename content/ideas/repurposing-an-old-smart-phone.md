@@ -1,6 +1,9 @@
 
 * [Hack your Android phone (or Tablet)](http://www.instructables.com/id/Hack-your-Android-phone/?ALLSTEPS)
 * [20+ Emotion Recognition APIs That Will Leave You Impressed, and Concerned](http://nordicapis.com/20-emotion-recognition-apis-that-will-leave-you-impressed-and-concerned/)
+* [You Can Easily Get Into Anybody’s Smartphone with this Tool](https://www.techtimes.com/articles/246754/20200103/you-can-easily-get-into-anybody-s-smartphone-with-this-tool.htm)
+
+
 
 # Haven
 Haven is for people who need a way to protect their personal spaces and possessions

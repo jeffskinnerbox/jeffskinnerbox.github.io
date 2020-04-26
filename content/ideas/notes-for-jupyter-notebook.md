@@ -1,4 +1,7 @@
 
+* [IPython Or Jupyter?](https://www.datacamp.com/community/blog/ipython-jupyter)
+* [Jupyter Notebook Tutorial: The Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
+* [Jupyter is now a full-fledged IDE](https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095)
 * [Jupyter is the new Excel (but not for your boss)](https://towardsdatascience.com/jupyter-is-the-new-excel-but-not-for-your-boss-d24340ebf314)
 
 
@@ -34,13 +37,15 @@
 * [Bring your Jupyter Notebook to life with interactive widgets](https://towardsdatascience.com/bring-your-jupyter-notebook-to-life-with-interactive-widgets-bc12e03f0916)
 * [Supercharging Jupyter Notebooks](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18)
 
-
-
-
+* [The 7 most popular ways to plot data in Python](https://opensource.com/article/20/4/plot-data-python)
 
 
 * [Running Jupyter Notebooks on a Ubuntu Server](https://hackingandslacking.com/running-jupyter-notebooks-on-a-ubuntu-server-b7b2cb88a986)
 * [Upgrading to JupyterLab on Ubuntu](https://hackersandslackers.com/upgrading-to-jupyter-lab-on-ubuntu/)
+
+
+
+
 
 # Installing Jupyter Notebook
 I want a interactive and feature rich environment for doing my OpenCV work,
@@ -112,6 +117,8 @@ then show use the combination of `pip`, `pyenv`, and `pyenv-virtualenv`.
 Installing Jupyter Notebook on your computer is documented [here][50].
 For new users, they highly recommend installing it via [Anaconda][51],
 but as an existing Python user, you can do the following:
+
+* [Jupyter Standalone Might Just Be Better Than Anaconda](https://towardsdatascience.com/jupyter-standalone-might-just-be-better-than-anaconda-53104da05eee)
 
 ```bash
 # update your pip utility

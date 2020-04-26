@@ -1,6 +1,7 @@
 
 * [Differences between Iperf and SpeedTest](https://netbeez.net/blog/differences-between-iperf-and-speedtest/)
 * [7 Common Network Latency Culprits](https://www.networkcomputing.com/networking/7-common-network-latency-culprits/851316634)
+ * [3 handy command-line internet speed tests](https://opensource.com/article/20/1/internet-speed-tests)
 
 # LAN Test
 * https://www.linode.com/docs/networking/diagnostics/install-iperf-to-diagnose-network-speed-in-linux

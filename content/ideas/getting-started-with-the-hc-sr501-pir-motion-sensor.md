@@ -53,6 +53,10 @@ http://blog.roman-mueller.ch/index.php/2013/01/26/hc-sr501-passive-infrared-sens
 * [ESP8266_PIRv2 - ESP8266 Huzzah Deep Sleep Mode PIR Motion Alarm using IFTTT](https://github.com/rgrokett/ESP8266_PIRv2)
 * [Passive infrared (PIR) sensor tutorial](https://hackaday.com/2009/08/21/passive-infrared-pir-sensor-tutorial/)
 
+# Microwave Doppler Radar Motion Sensor
+* [Microwave Sensor - 5.8GHz Doppler Radar Motion Sensor](https://www.seeedstudio.com/MW0581TR11-5-8GHz-Microwave-Doppler-Radar-Motion-Sensor-p-4366.html)
+* [Microwave vis PIR Sensors](https://www.seeedstudio.com/blog/2019/12/13/which-arduino-motion-sensor-to-use-microwave-or-pir-sensor/)
+
 
 
 

@@ -4,10 +4,17 @@
 # Search Here
 * https://www.google.com/search?q=Creality3D+CR+-+10S&source=lnms&tbm=shop&sa=X&ved=0ahUKEwirq_PUzOPeAhVqTd8KHaSQBDkQ_AUIDigB&biw=1421&bih=996
 
-Referance Shapeways cost vs 3D-Printing yourself
+Reference Shapeways cost vs 3D-Printing yourself
 
 
-
+I waged a long mental debate about the merits of purchasing a 3D Printer.
+For one thing, a have a well equipped woodworking workshop,
+and I figured if I needed to print a special part,
+I could use one of the many online 3D printing services like [Shapeways][62].
+In time, I learned that the [3D Printer could be great addition for woodworking][58],
+and besides, I had gotten into electronics where the use [3D printing custom enclosures][59] is frequently done.
+And now, [thanks in part to NASA support][60],
+we have the possibility of [print the enclosure and the electronic together][61].
 
 There is a [very wide range of 3D printer options in the market][02]
 (you can pay [$200 to $1M for 3D printing][03]).
@@ -111,6 +118,7 @@ Free and for fee STL files from community of Makers and Designers.
 
 * [THE BEST SITES TO DOWNLOAD FREE STL FILES, 3D MODELS AND 3D PRINTABLE FILES FOR 3D PRINTING](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/)
 * [3D Printering: The Search For Better Search](https://hackaday.com/2019/09/05/3d-printering-the-search-for-better-search/#more-373259)
+* [35 Websites to Download Free STL Models for 3D Printers](https://www.hongkiat.com/blog/download-free-stl-3d-models/)
 
 * [GrabCAD](https://grabcad.com/library)
 * [STLFinder](https://www.stlfinder.com/)
@@ -120,6 +128,8 @@ Free and for fee STL files from community of Makers and Designers.
 * [OnShape](https://cults3d.com/)
 * [YouMagine](https://www.youmagine.com/)
 * [Cubehero Blog](https://cubehero.com/)
+* [NASA-3D-Resources](https://github.com/nasa/NASA-3D-Resources)
+
 
 -----
 
@@ -149,6 +159,7 @@ Installation is very simple, just follow the [online install instructions][47].
 * [2019 Cura Tutorial: Deep Within Cura 3D Slicer Software](https://all3dp.com/1/cura-tutorial-software-slicer-cura-3d/)
 * [2019 Cura Tutorial – Deep Inside the Cura 3D Slicer Software](https://all3dp.com/1/cura-tutorial-software-slicer-cura-3d/)
 * [Ultimaker Cura Guides - Ultimaker 3D Printing](https://www.youtube.com/playlist?list=PLdLJV6tsi3ACyxZt8ZNCywmOmdSpE2_cZ)
+* [Rarely Adjusted Slicer Setting Makes A Difference](https://hackaday.com/2019/11/02/rarely-adjusted-slicer-setting-makes-a-difference/)
 
 ## Roll Your Own Slicer
 * [Smoothieboard Gets An Ambitious Update For V2](https://hackaday.com/2019/09/12/smoothieboard-gets-an-ambitious-update-for-v2/)
@@ -218,6 +229,7 @@ Support Enforcers and Blockers
 Install Custom Supports plugin by selecting the **Marketplace** button at the top right on Cura.
 
 * [Customizing Supports in Ultimaker Cura](https://www.youtube.com/watch?v=6TPFbqZqmWA)
+* [3D Printing Support Structures: All You Need To Know](https://all3dp.com/1/3d-printing-support-structures/)
 
 ### Step X:Clean Up 3D Prints
 * [How to Clean Up 3d Prints](https://www.youtube.com/watch?v=TR2DYi6B5YQ)
@@ -305,6 +317,7 @@ and you'll want to improve the quality of your 3D printed parts.
 * [Print Quality Troubleshooting Guide](https://www.simplify3d.com/support/print-quality-troubleshooting/)
 * [A visual Ultimaker troubleshooting guide](https://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide)
 * [Common 3D Printing Questions](https://makeshaper.com/common-3d-printing-questions/)
+
 
 -----
 
@@ -427,6 +440,9 @@ push in the fillement an then pull it out
 # 3D Printer File Formats
 * [4 Most Common 3D Printer File Formats in 2019](https://all3dp.com/3d-printing-file-formats/)
 
+# InFill
+* [Gradient Infill Puts More Plastic Where You Want It](https://hackaday.com/2020/01/20/gradient-infill-puts-more-plastic-where-you-want-it/)
+
 # 3D Printing File Formats
 
 ## Stereolithography (STL) File
@@ -534,6 +550,7 @@ like the [Micro Swiss All Metal Hotend][17].
 Using a wide range of filaments might also challenge the CR-10S stock extruder
 (particularly soft filaments),
 so an upgrade to something like the [Bondtech BMG Dual Drive Extruder][18] might be warranted.
+[I doesn't have to be expensive][56].
 
 The CR-10S extruder has the motor on the frame, far away from the print head.
 A [Bowden tube][19] ((usually made of [PTFE plastic][20])
@@ -566,13 +583,6 @@ You can improve this by using [stepper motor vibration dampers][36].
 
 * [Free Upgrades for CR-10](https://www.youtube.com/watch?v=faJ7ngEst8g&feature=youtu.be)
 
-## Modifications
-Great list of mods can seen on the video
-[Creality CR-10S Mods and Review](https://www.youtube.com/watch?v=sC4vXBgNvY0)
-The prints for the mods can be found at the [authors Thingiverse repository](https://www.thingiverse.com/Fuganater/collections/cr-10)
-
-
-
 # Monitoring Your Print
 Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halts-and-catches-fire-analysis-finds-a-surprising-culprit/
 
@@ -596,10 +606,14 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Installing Octoprint Tutorial for Raspberry Pi3](https://www.youtube.com/watch?v=ehaBdSHWo40&feature=youtu.be)
 * [Adding Rsapberry PI with Octoprint to My CR-10S](https://www.youtube.com/watch?v=VHOvSIAttyQ)
 * [Controlling OctoPrint On The Go](https://hackaday.com/2018/03/05/controlling-octoprint-on-the-go/)
+* [Upgrading A 3D Printer With OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
+* [OctoPrint Setup: How to Install OctoPi on a Raspberry Pi](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/)
+* [Weekend Project: Scaling Octoprint with udev, haproxy, and a Raspberry Pi 4](https://back7.co/home/scaling-octoprint-with-a-raspberry-pi)
 
 ### Camera Mount
 * [ARTICULATING RASPBERRY PI CAMERA MOUNT](https://cults3d.com/en/3d-model/tool/articulating-raspberry-pi-camera-mount-for-prusa-mk3)
 * [Light the Bed for Camera: HexaSpot Lamp v1](https://www.thingiverse.com/thing:3605128)
+* [Adding 3D Printer Power And Light Control To OctoPrint](https://hackaday.com/2018/09/15/adding-3d-printer-power-and-light-control-to-octoprint/)
 * [OctoPrint Webcam Bracket for Creality CR-10](https://www.eeweb.com/featured-projects/octoprint-webcam-bracket-for-creality-cr-10)
 * [OctoPrint Time-Lapse: How to Find the Best Octolapse Settings](https://all3dp.com/2/octoprint-timelapse-how-to-find-the-best-octolapse-settings/)
 * [Raspberry Pi CAM Mount with integrated cable management](https://www.thingiverse.com/thing:2842300)
@@ -614,7 +628,102 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [CR-10S Before and After Noise Mods](https://www.youtube.com/watch?v=Jxmjpc5NfwM)
 * [3 Ways to Silence your CR-10](https://www.youtube.com/watch?v=Vlta31wswAE)
 
+
 -----
+
+
+# Kitting to Make the Creality CR-10S Standalone
+# My Modifications to the Creality CR-10S
+I found a great list of modifications for the Creality CR-10S.
+You can see them in the video [Creality CR-10S Mods and Review][57]
+and you can use the CR-10S to print these mods using the
+[authors Thingiverse repository][63].
+What was particularly appealing about this design is that you can
+eliminates the control box and moves all electronics under the printer.
+
+Modifications that I made
+(in this order because I want to use the print during the modifications):
+
+* Taller feet for the CR10S to provide room for the electronics
+- [CR-10 Racquetball Feet](https://www.thingiverse.com/thing:3370949) - DONE
+* I needed to disassemble the electronics box gone,
+so I mounted the filament spool on the top of the printer
+- [CR-10 Spool Mount](https://www.thingiverse.com/thing:2740042) - DONE
+[CR10 Spool Frame Mount](https://www.thingiverse.com/thing:2641586)
+
+* With these modifications, you'll need a
+[SD Card extension](https://www.amazon.com/gp/product/B01D9JIUU0/ref=as_li_ss_tl)
+- [SD Card extension holder](https://www.thingiverse.com/thing:3115238) - DONE
+
+* The power supply needs to be mounted under the printer -
+two [Power Supply Mount](https://www.thingiverse.com/thing:2841111) - DONE
+
+* Controller electronics -
+CR10S version of [Electronics Cover](https://www.thingiverse.com/thing:2841111) - DONE
+
+* The MOSFET that came with my CR-10S - [MOSFET Holder](https://www.thingiverse.com/thing:3115234) - DONE
+
+* GX-16 Aviator Plug Mount
+[CR10/CR10S Standalone SKR 1.3 Conversion](https://www.thingiverse.com/thing:4032538) - DONE
+[GX-16 Aviator Plug Mount](https://www.thingiverse.com/thing:2841111) - DONE
+
+* Display and control box -
+[Display Case Top](https://www.thingiverse.com/thing:2841111) - DONE
+CR10S version of [Display Case Bottom](https://www.thingiverse.com/thing:2841111) - DONE
+CR10S version of [Display Case Foot](https://www.thingiverse.com/thing:2841111) - NOT PRINTED
+
+* Power receptacle and power switch
+[2020 Power Switch Holder](https://www.thingiverse.com/thing:3543759) - DONE
+
+* Filament Guide
+[Ender 3 Filament Guide](https://www.thingiverse.com/thing:3129612)
+[Filament Guide With Runout Sensor For Cr-10](https://www.thingiverse.com/thing:4189268)
+[Top Filament Guide with Ball Guide](https://www.thingiverse.com/thing:3188600)
+[Bowden Filament Guide WITH!!! Cable holder for Ender 3 and CR's 3d printer](https://www.thingiverse.com/thing:3033468)
+[CR10-S Filement Runout Sensor with Teflon Tube extension for thing #2972904](https://www.thingiverse.com/thing:2976186)
+[Ender 3 Filament Roller Guide](https://www.thingiverse.com/make:705306)
+
+* Cable clip -
+Aluminum Extrusion - 2020 T Slot
+20 Series T-Slotted Aluminum Extrusion with Four Open T-Slots
+20mm x 20mm metric 20 series square T-slot profile with four open T-slots, one on each 20mm face.
+[Kable Clip](https://www.thingiverse.com/thing:2747280)
+[2020 Cable Clips](https://www.thingiverse.com/thing:2673266)
+[CR-10 Cable extension box](https://www.thingiverse.com/thing:2914015)
+[2020 extrusions - cable clip collection](https://www.thingiverse.com/thing:832279)
+[Cable Clip / Duct 2020 3030 4020](https://www.thingiverse.com/thing:3318226)
+[Kable Clip](https://www.thingiverse.com/thing:2747280)
+
+* cover up hole -
+[Blank Cover](https://www.thingiverse.com/thing:2841111)
+
+* Tool tray on top of printer -
+[CR-10 Top Tool Tray](https://www.thingiverse.com/thing:2735703)
+
+* LED lignting and LED switch mount
+[LED Switch Mount](https://www.thingiverse.com/thing:3115264)
+[LED Light Bar Front & Back CR-10 / CR-10S](https://www.thingiverse.com/thing:2765441)
+
+candidates for the list above
+[Creality CR-10 X-Axis cable chain](https://www.thingiverse.com/thing:2850432)
+[CR-10 Z axis cable drag chain](https://www.thingiverse.com/thing:2757810)
+[CR-10 Y axis cable drag chain and Strain relief](https://www.thingiverse.com/thing:2798484)
+[CR-10 Y axis cable drag chain](https://www.thingiverse.com/thing:2607148)
+[CR-10 Z axis cable drag chain](https://www.thingiverse.com/thing:2669362)
+[CR-10 Ultimate Z-Box](https://www.thingiverse.com/thing:2813409)
+[CR10 All-In-One](https://www.thingiverse.com/thing:2841111/files)
+
+* Raspberry Pi Cover
+[Raspberry Pi Cover](https://www.thingiverse.com/thing:2841111/files)
+
+* Camera mount -
+[T-slot V-slot Universal camera mount](https://www.thingiverse.com/thing:2477180)
+
+
+
+-----
+
+
 
 # Starting
 * [Things you should know about PLA](https://www.youtube.com/watch?v=unmvWkfpmRE)
@@ -639,6 +748,7 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [IOT SPLIT-FLAP WEATHER FORECAST POWERED BY XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
+* [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
 * [Printable Filament Spool Hub Skips the Bearings](https://hackaday.com/2019/03/16/printable-filament-spool-hub-skips-the-bearings/)
 
 ## Radio Controlled Car
@@ -663,12 +773,26 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 especially for recovering the exact positions of surface points.
 [Photogrammetry is not 3D scanning][38].
 
+* [Photogrammetry vs. "Real" 3D Scanner](https://www.youtube.com/watch?v=dGJ_XD-fCsI)
+
 * [This 3D Scanner Is Your Ticket To Photogrammetry](https://hackaday.com/2019/04/27/this-3d-scanner-is-your-ticket-to-photogrammetry/)
 * [Get Great 3D Scans with Open Photogrammetry](https://hackaday.com/2019/04/07/get-great-3d-scans-with-open-photogrammetry/)
 * [For Better Photogrammetry, Just Add A Donut](https://hackaday.com/2019/05/14/for-better-photogrammetry-just-add-a-donut/)
 * [Meshroom][39] is free, open-source photogrammetry software
 built on top of an underlying framework called [AliceVision][40].
 * [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
+* [Handheld 3D Scanning, Using Raspberry Pi 4 And Intel RealSense Camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/)
+
+## OpenScan
+* [OpenScan](https://en.openscan.eu/)
+* [OpenScan YouTube](https://www.youtube.com/channel/UCG3IgwSIFFlc77Luf9VVlYw)
+
+# 3D Lithophane
+A lithophane is an etched or molded artwork in very thin translucent porcelain
+that can be seen clearly only when back lit with a light source.
+
+* [How To Make a 3D Printed Lithopane / Lithophane](https://www.youtube.com/watch?v=feL0OMZwZoo&app=desktop)
+* [HUGE 3D Printed Spherical Lithophane Globe](https://www.youtube.com/watch?v=YjkP1BcwLNI&app=desktop)
 
 # Super Size Print
 [LuBan][55] is a software tool used to split giant 3D models into manageable chunks that could be printed.
@@ -735,14 +859,14 @@ built on top of an underlying framework called [AliceVision][40].
 [53]:https://www.thingiverse.com/thing:965737
 [54]:https://www.thingiverse.com/thing:2187167
 [55]:https://www.luban3d.com/
-[56]:
-[57]:
-[58]:
-[59]:
-[60]:
-[61]:
-[62]:
-[63]:
+[56]:https://hackaday.com/2020/02/26/80-dual-extrusion-kit-might-work-with-your-3d-printer/
+[57]:https://www.youtube.com/watch?v=sC4vXBgNvY0
+[58]:https://www.youtube.com/watch?v=k8mzMDLqENA
+[59]:https://3dprintingindustry.com/news/building-enclosures-with-a-3d-printer-3954/
+[60]:https://spinoff.nasa.gov/page/now-anyone-can-make-electronics-on
+[61]:https://www.electronicalchemy.com/eforge/
+[62]:https://www.shapeways.com/
+[63]:https://www.thingiverse.com/Fuganater/collections/cr-10
 [64]:
 [65]:
 [66]:

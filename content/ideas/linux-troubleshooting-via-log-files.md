@@ -1,3 +1,67 @@
+################################################################################
+The document was quite old ... but Linux is linux right? :) how often are core commands and logging structures changed?  I also found:
+
+----------
+
+2) Regarding the logs in /var/log/
+A bash command to filter the most interesting log messages is this:
+
+grep -iv ': starting\|kernel: .*: Power Button\|watching system buttons\|Stopped Cleaning Up\|Started Crash recovery kernel' \
+  /var/log/messages /var/log/syslog /var/log/apcupsd* \
+  | grep -iw 'recover[a-z]*\|power[a-z]*\|shut[a-z ]*down\|rsyslogd\|ups'
+When an unexpected power off or hardware failure occurs the filesystems will not be properly unmounted so in the next boot you may get logs like this:
+
+EXT4-fs ... INFO: recovery required ...
+Starting XFS recovery filesystem ...
+systemd-fsck: ... recovering journal
+systemd-journald: File /var/log/journal/.../system.journal corrupted or uncleanly shut down, renaming and replacing.
+When the system powers off because user pressed the power button you get logs like this:
+
+systemd-logind: Power key pressed.
+systemd-logind: Powering Off...
+systemd-logind: System is powering down.
+Only when the system shuts down orderly you get logs like this:
+
+rsyslogd: ... exiting on signal 15
+When the system shuts down due to overheating you get logs like this:
+
+critical temperature reached...,shutting down
+If you have a UPS and running a daemon to monitor power and shutdown you should obviously check its logs (NUT logs on /var/log/messages but apcupsd logs on /var/log/apcupsd*)
+
+
+
+On Wed, Feb 19, 2020 at 1:38 PM Lawrence, Chris <chris.lawrence@verizon.com> wrote:
+
+Vinny - I stumbled across the following, which you might already have found or known for determining a cold/dirty shutdown:
+
+--------------------------
+
+
+
+Run this command* and compare the output to the examples below:
+
+last -x | head | tac
+Normal shutdown examples
+A normal shutdown and power-up looks like this (note that you have a shutdown event and then a system boot event):
+
+runlevel (to lvl 0)   2.6.32- Sat Mar 17 08:48 - 08:51  (00:02)
+shutdown system down  ... -- first the system shuts down
+reboot   system boot  ... -- afterwards the system boots
+runlevel (to lvl 3)
+In some cases you may see this (note that there is no line about the shutdown but the system was at runlevel 0 which is the "halt state"):
+
+runlevel (to lvl 0)   ... -- first the system shuts down (init level 0)
+reboot   system boot  ... -- afterwards the system boots
+runlevel (to lvl 2)   2.6.24-... Fri Aug 10 15:58 - 15:32 (2+23:34)
+Unexpected shutdown examples
+An unexpected shutdown from power loss looks like this (note that you have a system boot event without a prior system shutdown event):
+
+runlevel (to lvl 3)   ... -- the system was running since this momemnt
+reboot   system boot  ... -- then we've a boot WITHOUT a prior shutdown
+runlevel (to lvl 3)   3.10.0-693.21.1. Sun Jun 17 15:40 - 09:51  (18:11)
+################################################################################
+
+
 * [Troubleshooting with Linux Logs](https://www.loggly.com/ultimate-guide/troubleshooting-with-linux-logs/)
 * [What are Linux Logs? How to View Them, Most Important Directories, and More](https://stackify.com/linux-logs/)
 
@@ -16,6 +80,20 @@ and if the app allows for custom log configuration.
 
 I'm going to be focus on system logs, as that is where the heart of Linux troubleshooting lies.
 And the key issue here is, how do you view and interperate these log files?
+
+# Rsyslog
+rsyslog is the default logging program in Debian and Red Hat.
+It is an extension of the original syslog protocol,
+with additional features such as flexible configuration,
+rich filtering capabilities and content-based filtering.
+Just like syslogd, the `rsyslogd` daemon can be used to gather log messages
+from programs and servers and direct those messages to local log files, devices, or remote logging hosts.
+
+* [rsyslog](https://www.rsyslog.com/)
+* [rsyslog](https://geek-university.com/linux/rsyslog/)
+* [How to Setup Central Logging Server with Rsyslog in Linux](https://www.tecmint.com/install-rsyslog-centralized-logging-in-centos-ubuntu/)
+* [System: Controlling what logs where with rsyslog.conf](https://www.the-art-of-web.com/system/rsyslog-config/)
+
 
 # Tools for Viewing Logs
 

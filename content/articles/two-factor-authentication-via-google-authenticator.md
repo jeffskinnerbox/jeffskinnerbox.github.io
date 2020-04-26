@@ -29,6 +29,9 @@ in addition to their username and password to log into Google services or other 
 Google Authenticator doesn’t call Google — all the work happens on your SSH server and your phone.
 See "[Two-factor authentication with TOTP][15]" for a gentle introduction.
 
+>**NOTE:** There are alternatives to Google Authenticator.
+>Check out ["The 5 Best Alternatives to Google Authenticator"][16].
+
 ### Step 1
 To access my home PC from out side my home via SSH,
 I need to configure port forwarding on your router (external interface)
@@ -179,3 +182,4 @@ Key articles that I found helpful:
 [13]:http://blog.remibergsma.com/2013/06/08/playing-with-two-facor-authentication-in-linux-using-google-authenticator/
 [14]:http://serverfault.com/questions/518802/two-factor-ssh-authentication-on-external-address-only
 [15]:https://medium.com/@n.moretto/two-factor-authentication-with-totp-ccc5f828b6df
+[16]:https://www.makeuseof.com/tag/5-best-alternatives-google-authenticator/

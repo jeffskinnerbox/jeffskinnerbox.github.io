@@ -159,6 +159,20 @@ PROCESS STATE CODES
        +    is in the foreground process group.
 ```
 
+# top and htop
+`top` is a traditional command-line tool for monitoring real-time processes in a Unix/Linux systems.
+It’s comes preinstalled on most if not all Linux distributions
+and shows a useful summary of system information including
+uptime, total number of processes
+(and number of: running, sleeping, stopped and zombie processes),
+CPU and RAM usage, and a list of processes or threads currently being managed by the kernel.
+`htop` is an interactive, ncurses-based processes viewer for Linux systems.
+It is practically a top-like tool, but it displays colorful text,
+and uses ncurses to implement a text-graphical interface, and allows for output scrolling.
+
+* [Linux Tip | How to use Htop](https://www.youtube.com/watch?v=Qw2ZUf0hTF8)
+* [Understand Linux Htop Visually](https://hackaday.com/2020/01/30/understand-linux-htop-visually/)
+
 # Kill
 While the kill command is used to "kill" processes,
 its real purpose is to send signals to processes.

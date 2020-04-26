@@ -1,4 +1,14 @@
 
+* [Defcon 21 - All Your RFz Are Belong to Me - Hacking the Wireless World with Software Defined Radio](https://www.youtube.com/watch?v=ZuNOD3XWp4A)
+
+* [Spectrum Painting: Trolling CTF players with gr-paint](https://irrational.net/2019/11/30/trolling-ctf-players-with-gr-paint/)
+
+# DragonOS LTS
+DragonOS is a Debian Linux based operating system which comes with many open source software defined radio programs pre-installed. It supports SDRs like the RTL-SDR, HackRF and LimeSDR.
+
+* [Software-Defined Radio Made Easy](https://hackaday.com/2020/04/11/software-defined-radio-made-easy/)
+
+
 
 
 ################################################################################
@@ -22,6 +32,8 @@
     * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
     * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
     * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
+
+* [Signals Everywhere](https://signalseverywhere.com/)
 
 
 A signal is a varying physical quanity that conveys information about the behavior or attributes of some phenomenon.
@@ -50,6 +62,7 @@ is a complex-valued representation of the [real-valued][50] modulated physical s
 
 * [I/Q Record Format][53]
 * [Quadrature ( I-Q ) Modulation Tutorial][54]
+* [If The I And Q Of Software Defined Radio Are Your Nemesis, Read On](https://hackaday.com/2017/05/16/if-the-i-and-q-of-software-defined-radio-are-your-nemesis-read-on/)
 * [IQ Modulator Basics: Operation, measurements, impairments](https://www.youtube.com/watch?v=RHFZUqUM8DY&feature=em-subs_digest)
 * [Display in-phase and quadrature components of modulated signal constellation][55]
 * [If The I And Q Of Software Defined Radio Are Your Nemesis, Read On][45]
@@ -90,6 +103,7 @@ http://en.wikipedia.org/wiki/Waveform_viewer
 
 Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-globe/)
 
+* [RTL-SDR: Seven Years Later](https://hackaday.com/2019/07/31/rtl-sdr-seven-years-later/)
 * [Setting Up a Raspberry Pi SD Card With Amateur Radio-Related Apps](https://dzone.com/articles/setting-up-a-raspberry-pi-sd-card-with-some-amateu)
 * [Amateur Radio related uses for the Raspberry Pi ](https://www.kevinhooke.com/2016/07/05/amateur-radio-related-uses-for-the-raspberry-pi-slides/)
 * [Entry Level SDR Educational Tools For Raspberry Pi](https://github.com/myriadrf/ScratchRadio)
@@ -144,6 +158,7 @@ and a large set of [Tutorials][78].
 Anothe excellent source is [Radio for Everyone][60].
 
 * [60 RTL-SDR Dongles Reviewed](https://hackaday.com/2017/09/05/19-rtl-sdr-dongles-reviewed/)
+* [The Libre Space Foundation Reviews Software Defined Radios](https://hackaday.com/2020/04/08/the-esa-reviews-software-defined-radios/)
 * [An Introductory Project for Software Defined Radio](https://www.allaboutcircuits.com/projects/an-introductory-project-for-software-defined-radio/?utm_source=All+About+Circuits+Members&utm_campaign=e01676fafa-EMAIL_CAMPAIGN_2017_02_08&utm_medium=email&utm_term=0_2565529c4b-e01676fafa-270523833/)
 * [Buy RTL-SDR Dongles](http://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
 * [Getting Started with RTL-SDR and SDR-Sharp](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-rtl-sdr-and-sdr-sharp.pdf)
@@ -279,6 +294,9 @@ Improving Your SDR Radio
 * [Improving a software defined radio with a few bits of wire][73]
 * [RTL-SDR Improvement Tips][74]
 
+# SIGINT / Signal Classification
+* [Name That Unknown RF Signal With A Little FFT Magic](https://hackaday.com/2020/02/11/name-that-unknown-rf-signal-with-a-little-fft-magic/)
+
 # SIGINT / Spectrum Monitoring
 * [Mobile SIGINT Hacking on a Civilian’s Budget](https://hackaday.com/2019/06/05/mobile-sigint-hacking-on-a-civilians-budget/)
 * [MONITORING THE SPECTRUM: BUILDING YOUR OWN DISTRIBUTED RF SCANNER ARRAY](http://www.rtl-sdr.com/talk-monitoring-spectrum-building-distributed-rf-scanner-array/)
@@ -317,6 +335,7 @@ and now even has a script to allow you to start it automatically.
 
 
 # RTL-SDR Based Tools
+* [Michael Ossmann & Kate Temkin - Software-Defined Everything](https://www.youtube.com/watch?v=-5TAfdYpC44)
 * [RFTap: A Bridge Between GNURadio and Wireshark](http://www.rtl-sdr.com/rftap-a-bridge-between-gnuradio-and-wireshark/)
 * [SDRDue: New Software for Passive Radar with Two Coherent RTL-SDR Dongles](http://www.rtl-sdr.com/sdrdue-new-software-for-passive-radar-with-two-coherent-rtl-sdr-dongles/)
 * [KerberosSDR - A 4x Phase Coherent RTL-SDR for Passive Radar, Direction Finding and More!](https://www.indiegogo.com/projects/kerberossdr-4x-coherent-rtl-sdr#/)
@@ -334,18 +353,26 @@ and now even has a script to allow you to start it automatically.
 * [RFCrack - A Software Defined Radio Attack Tool](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
 
 # Radio Reverse Engineering
+* [USING THE FCC EAS FOR FUN AND PROFIT](https://hackaday.com/2016/10/10/using-the-fcc-eas-for-fun-and-profit/)
+* [Reverse Engineering A Ceiling Fan Remote](https://hackaday.com/2020/03/31/reverse-engineering-a-ceiling-fan-remote/)
+* [Reverse engineering a ceiling fan](https://irrational.net/2014/03/23/reverse-engineering-a-ceiling-fan/)
+* [Universal Radio Hacker](https://hackaday.com/2017/02/23/universal-radio-hacker/)
+* [Universal Radio Hacker: Video Playlist](https://www.youtube.com/playlist?list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB)
+* [Universal Radio Hacker: Investigate Wireless Protocols like a Boss](https://hakin9.org/universal-radio-hacker-investigate-wireless-protocols-like-a-boss/)
 * [reverse engineering static key remotes with gnuradio and rfcat](https://leonjza.github.io/blog/2016/10/02/reverse-engineering-static-key-remotes-with-gnuradio-and-rfcat/)
 * [Reverse Engineering Signals with the Universal Radio Hacker Software](http://www.rtl-sdr.com/reverse-engineering-signals-universal-radio-hacker-software/)
 * [Using MATLAB and SDR to Reverse Engineer 433MHz Messages](http://hackaday.com/2015/02/16/using-matlab-and-sdr-to-reverse-engineer-433mhz-messages/)
 * [Your Table Is Ready, Courtesy Of HackRF](https://hackaday.com/2019/06/04/your-table-is-ready-courtesy-of-hackrf/)
-* [Universal Radio Hacker](https://hackaday.com/2017/02/23/universal-radio-hacker/)
 * [RF reverse engineering has become trivial — thanks to the ‘Opensource SDR’ movement](https://medium.com/@nihal.pasham/rf-reverse-engineering-has-become-trivial-thanks-to-the-opensource-sdr-movement-d1f9216f2f04)
 * [gr-inspector: Signal Analysis Toolbox for GNU Radio](https://github.com/gnuradio/gr-inspector)
 * [inspectrum](https://www.rtl-sdr.com/inspectrum-a-new-tool-for-analyzing-captured-signals/)
+    * [inspectrum](https://www.rtl-sdr.com/tag/inspectrum/)
 * [waveconverter](https://www.rtl-sdr.com/waveconverter-an-open-source-rf-reverse-engineering-tool/)
 * [DSpectrum](https://www.rtl-sdr.com/youtube-talk-introduction-to-dspectrum-for-reverse-engineering-signals/)
 * [Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR](Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR)
 * [Samy Kamkar: Reverse Engineering for a Secure Future](https://hackaday.com/2018/01/02/samy-kamkar-reverse-engineering-for-a-secure-future/)
+* [Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016](https://www.youtube.com/watch?v=1RipwqJG50c&t=15s)
+* [Samy Kamkar's Crash Course in How to Be a Hardware Hacker](https://www.youtube.com/watch?v=tlwXmNnXeSY&app=desktop)
 
 # Projects
 * [Read Home Power Meters With RTL-SDR](https://hackaday.com/2017/12/21/read-home-power-meters-with-rtl-sdr/)
@@ -408,6 +435,7 @@ Transmit radio signals using just a serial port
 * [The LimeSDR Mimi Grove Starter Kit](https://www.rtl-sdr.com/tag/iot/)
 * [An SDR Transceiver The Old-School Way](https://hackaday.com/2019/06/29/an-sdr-transceiver-the-old-school-way/)
 
+* [Pluto Might Not Be A Planet, But It Is An SDR Transceiver](https://hackaday.com/2020/04/14/pluto-might-not-be-a-planet-but-it-is-an-sdr-transceiver/)
 * [SOFTWARE DEFINED RADIO FOR ENGINEERS: FREE UNIVERSITY LEVEL TEXT BOOK WITH PLUTOSDR EXAMPLES](https://www.rtl-sdr.com/software-defined-radio-for-engineers-free-university-level-text-book-with-plutosdr-examples/)
     * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
     * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
@@ -444,6 +472,7 @@ a free and open-source signal processing library for software-defined radios wri
 * [Lime SDR (and Pluto, Too) Sends TV](https://hackaday.com/2019/01/19/lime-sdr-and-pluto-too-sends-tv/)
 
 * [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
+* [Deepwave Digital: Making Sense of Signals](http://on-demand.gputechconf.com/gtc/2018/video/S8375/)
 
 # Sthingray
 * [It Might Be Possible To Build A Stingray With A Raspberry Pi](https://hackaday.com/2018/11/19/it-might-be-possible-to-build-a-stingray-with-a-raspberry-pi/)
@@ -691,6 +720,7 @@ so you could use an old laptop or PC as a development platform.
 * [Ubuntu Snappy – What You Need to Know](https://www.maketecheasier.com/ubuntu-snappy-what-you-need-to-know/)
 * [Docker on Snappy Ubuntu Core on a Raspberry Pi 2](https://darrenjw2.wordpress.com/2015/08/28/docker-on-snappy-ubuntu-core-on-a-raspberry-pi-2/)
 * [Running Ubuntu Snappy inside Docker](http://andrea.corbellini.name/2015/03/25/running-ubuntu-snappy-inside-docker/)
+* [How To Package and Publish a Snap Application on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-package-and-publish-a-snap-application-on-ubuntu-18-04?utm_source=DigitalOcean_Newsletter)
 
 * [The New Minimalist Operating Systems](https://blog.docker.com/2015/02/the-new-minimalist-operating-systems/)
 * [Docker: A Comparison of Minimalistic Operating Systems](https://www.inovex.de/blog/docker-a-comparison-of-minimalistic-operating-systems/)
@@ -711,6 +741,7 @@ by Tom Rondeau (the leader of the GNU Radio Project)
 from the [2012 ARRL TAPR DCC](https://www.tapr.org/conf_dcc2012.html).
 
 * [Getting Started with GNU Radio](https://hackaday.com/2015/11/11/getting-started-with-gnu-radio/)
+* [GNU Radio first steps: a FM receiver](https://www.abclinuxu.cz/blog/jenda/2019/11/gnu-radio-first-steps-a-fm-receiver)
 * [GNU Radio Workshop](http://ntms.org/files/MUD2019/MUD_GNR.pdf)
 * [SDR and GNU Radio for Microwave](http://ntms.org/files/CowtownHamfestJan2019/CowtownHamfest_Jan2019_SDR_GNU_Radio_BobN5BRG.pdf)
 
@@ -740,6 +771,9 @@ Like GNU Radio, LuaRadio is a flow graph signal processing framework, but [diffe
 * http://luaradio.io/examples/rtlsdr-wbfm-mono.html
 * http://luaradio.io/docs/embedding-luaradio.html
 * http://luaradio.io/docs/comparison-gnuradio.html
+
+## SDRPlay
+* [Your First GNU Radio Receiver With SDRPlay](https://hackaday.com/2015/11/12/your-first-gnu-radio-receiver-with-sdrplay/)
 
 # Snap packages for LimeSDR
 * [Snap packages for LimeSDR](https://www.crowdsupply.com/lime-micro/limesdr/updates/snap-packages)

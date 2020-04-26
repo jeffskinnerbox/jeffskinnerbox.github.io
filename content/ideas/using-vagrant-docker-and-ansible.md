@@ -25,7 +25,11 @@ create development environments, or have your own private cloud.
 * [How to set up a homelab from hardware to firewall](https://opensource.com/article/19/3/home-lab)
 * [How to use infrastructure as code](https://opensource.com/article/19/7/infrastructure-code)
 
-## VirtualBox
+
+----
+
+
+# VirtualBox
 [VirtualBox][09] is a [full virtualization][07] x86 / AMD64 / Intel64 hardware architecture
 (contrast this with [hardware-assisted virtualization][08]).
 It creates a [virtual machine (VM)][06], aka an emulation of a computer system.
@@ -35,6 +39,64 @@ The VM runs as a process in a window on your current operating system.
 You can boot an operating system installer disc (or live CD) inside the virtual machine,
 and the operating system will be “tricked” into thinking it’s running on a real computer.
 It will install and run just as it would on a real, physical machine.
+
+## VBoxManage
+[VBoxManage][53] is the command-line interface to Oracle VM VirtualBox.
+With it, you can completely control Oracle VM VirtualBox from the command line of your host operating system.
+It exposes all the features of the virtualization engine,
+even those that cannot be accessed from the GUI.
+
+```bash
+# list vagrant boxes available
+$ vagrant box list
+ubuntu/bionic64 (virtualbox, 20190508.0.0)
+ubuntu/disco64  (virtualbox, 20191204.0.0)
+ubuntu/disco64  (virtualbox, 20191217.0.0)
+ubuntu/trusty64 (virtualbox, 20180227.0.1)
+ubuntu/xenial64 (virtualbox, 20180912.0.0)
+windows10base   (virtualbox, 0)
+
+# lists all virtual machines currently registered
+$ VBoxManage list vms
+"Windows 8" {13ac2827-612d-43cf-af2b-f578c1f4df9a}
+"micropython_default_1550427608885_85428" {ee5c9ada-f0b8-45e8-9972-4d0efe77eb65}
+"mosquitto_default_1556416097304_85598" {9a247aaa-571c-412a-8f1f-3f9732ce7a18}
+"tensorflow_default_1576814704088_93718" {e9e714da-183b-42c6-981f-e5e547b52a89}
+"tensorflow_default_1577381355317_77366" {dcb0ebdc-f906-4d21-ae77-0f11858819b7}
+"rsyslog-test_default_1581097326775_97773" {5bf0edd8-8fde-48fa-9532-f9cfdae98ae0}
+"windows-10_Windows10BaseBox_1581212590774_74597" {856f4ebb-3f51-4138-a51a-2091bf2ab296}
+
+# lists the host DVD along with the name used to access them from within virtualbox
+$ VBoxManage list hostdvds
+UUID:         00445644-0000-0000-2f64-65762f737230
+Name:         /dev/sr0
+
+# shows information about a particular virtual machine
+VBoxManage showvminfo windows-10_Windows10BaseBox_1581212590774_74597
+```
+
+
+```bash
+# get the list of VMs that are running and their VM ID
+$ VBoxManage list runningvms
+"rsyslog-test_default_1581097326775_97773" {5bf0edd8-8fde-48fa-9532-f9cfdae98ae0}
+"windows-10_Windows10BaseBox_1581212590774_74597" {856f4ebb-3f51-4138-a51a-2091bf2ab296}
+
+# get the list of properties about the VM, so you can get the IDE controller name
+$ VBoxManage showvminfo windows-10_Windows10BaseBox_1581212590774_74597 | grep "Controller Name"
+Storage Controller Name (0):            IDE Controller
+
+# add an empty optical drive
+VBoxManage storageattach 856f4ebb-3f51-4138-a51a-2091bf2ab296 --storagectl "IDE Controller" --port 0 --device 1 --type dvddrive --medium emptydrive
+```
+
+```bash
+# take snapshots so you can revert back to a known-good state rather than having to completely re-install
+VBoxManage snapshot $VM take <name of snapshot>
+
+# revert back to a particular snapshot
+VBoxManage snapshot $VM restore <name of snapshot>
+```
 
 
 ----
@@ -175,6 +237,10 @@ With this, every time you start or shut down a VM with Vagrant,
 the relevant hosts entries will be placed in your system's hosts file,
 without requiring you to do anything manually.
 
+Another nice plugin is [`vagrant-scp`][52].
+It adds a `scp` command to vagrant,
+so you can copy files to your VM like you would normally do with `scp`.
+
 ```bash
 # list plugins currently installed
 vagrant plugin list
@@ -182,7 +248,7 @@ vagrant plugin list
 # install host updater plugin
 vagrant plugin install vagrant-hostsupdater
 
-# uninstall the plugin
+# uninstall the plugins
 vagrant plugin uninstall vagrant-hostsupdater
 
 # update the plugin
@@ -450,7 +516,7 @@ end
 ## Vagrant Command-Line Interface
 To list all the `vagrant` commands available:
 
-```bash
+```
 # list all the vagrant commands
 $ vagrant list-commands
 Below is a listing of all available Vagrant commands and a brief
@@ -467,7 +533,7 @@ halt            stops the vagrant machine
 help            shows the help for a subcommand
 init            initializes a new Vagrant environment by creating a Vagrantfile
 list-commands   outputs all available Vagrant subcommands, even non-primary ones
-login           log in to HashiCorp's Vagrant Cloud
+login           log in to HashiCorps Vagrant Cloud
 package         packages a running vagrant environment into a box
 plugin          manages plugins: install, uninstall, update, etc.
 port            displays information about guest port mappings
@@ -637,6 +703,32 @@ ubuntu/xenial64 (virtualbox, 20180706.0.0)
 vagrant box remove ubuntu/xenial64 --box-version=20180410.0.0
 ```
 
+## Step X: Checking Status of Vagrant Boxes
+
+```bash
+#  lists all the boxes that are installed into Vagrant
+vagrant box list
+
+# check if box you are using in your current vagrant environment is outdated
+vagrant box outdated
+
+# check if every box if its outdated
+vagrant box outdated --global
+
+# state of all active vagrant environments on the system for the currently logged in user
+vagrant global-status
+
+# removes a box from vagrant that matches the given name
+vagrant box remove NAME
+
+# removes old versions of installed boxes; if in use confirm first.
+vagrant box prune
+
+# repackages the given box and puts it in the current directory
+# name, provider, and version of the box can be retrieved using 'vagrant box list'
+vagrant box update
+```
+
 
 
 
@@ -649,12 +741,109 @@ The private_network is a network that is only between your host and the guest vm
 * [Creating your own Vagrant base box](http://eudaimonia.io/2016/05/16/creating-your-own-vagrant-base-box.html)
 * [Creating a Custom Box from Scratch](https://www.skoblenick.com/vagrant/creating-a-custom-box-from-scratch/)
 
+
+----
+
+
 ## Vagrant Package: Custom Vagrant Boxes by Creating Your Own Base Box
 * [Creating a Base Box](https://www.vagrantup.com/docs/virtualbox/boxes.html)
 * [Creating Vagrant Base Box with Veewee](http://ruleoftech.com/2015/creating-vagrant-base-box-with-veewee)
 * [Vagrant, Packer, Veewee.. what to use?](https://unscramblegk.tumblr.com/post/64993566557/vagrant-packer-veewee-what-to-use)
 * [Repeatable Vagrant builds with Packer](https://techblog.covermymeds.com/infrastructure/repeatable-vagrant-builds-with-packer/)
 * [Building VM images with Ansible and Packer](https://www.jeffgeerling.com/blog/server-vm-images-ansible-and-packer)
+* [Using Packer and Vagrant to Build Virtual Machines](https://blog.codeship.com/packer-vagrant-tutorial/)
+* [How to Install and use Packer on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-and-use-packer/)
+* [Packer Tutorial For Beginners – Automate AMI Creation](https://devopscube.com/packer-tutorial-for-beginners/)
+
+
+# Packer
+The creation of a Vagrant box starts with the creation of VM using virtualization tool like VirtualBox.
+This is often a manual process, using a GUI or CLI,
+and is very different for all the virtualization tools on the market (e.g. VitrualBox, VMWare, etc.).
+Unfortunately, this doesn't fit the modern paradigm of [infrastructure as code][43].
+
+To overcome this, the creates of Vagrant, [HasiCorp][44], offer a tool called [Packer][45].
+[Why Use Packer][46]?
+Packer embraces modern configuration management automates the creation of any type of machine image.
+Packer is an open source tool for creating identical 'machine images'
+for multiple virtualization tools from a single source configuration.
+Packer runs on every major operating system, and creates machine images for multiple platforms in parallel.
+Packer does not replace [configuration management][47] tools like Ansible, Chef, or Puppet.
+In fact, when building images,
+Packer is able to use configuration management tools to install software onto the image.
+Packer lets you build Virtual Machine Images for different providers from one JSON file.
+You can use the same file and commands to build an image on AWS, Digital Ocean VirtualBox and Vagrant.
+This makes it possible to use exactly the same system for development which you then create in production.
+
+>**NOTE:** A 'machine image' is a single static unit that contains a pre-configured operating system
+>and installed software which is used to quickly create new running machines.
+>Machine image formats change for each platform.
+>Some examples include AMIs for an AWS EC2,VMDK/VMX files for VMware, OVF exports for VirtualBox, etc.
+
+## Installing Packer
+Packer may be installed from a precompiled binary or from source.
+The easy and recommended method for all users is binary installation method.
+Check the latest release of Packer on the [Downloads page][48].
+Then download the recent version for your platform.
+In my case:
+
+```bash
+# downlaod version 1.5.1  for ubuntu
+cd ~/tmp
+export VER="1.5.1"
+wget https://releases.hashicorp.com/packer/${VER}/packer_${VER}_linux_amd64.zip
+
+# uncompress the download file
+unzip packer_${VER}_linux_amd64.zip
+
+# move the packer binary into your path
+sudo mv packer /usr/local/bin
+
+# verify the install is working
+$ packer --help
+Usage: packer [--version] [--help] <command> [<args>]
+
+Available commands are:
+    build       build image(s) from template
+    console     creates a console for testing variable interpolation
+    fix         fixes templates from old versions of packer
+    inspect     see components of a template
+    validate    check that a template is valid
+    version     Prints the Packer version
+```
+
+## How to Use Packer
+Packer uses builders to generate images and create machines for various platforms from templates.
+A template is a configuration file used to define what image is built and its format is JSON.
+You can see a [full list of suppported builders and their templates][49].
+A template has the following three main parts.
+
+1. **variables** – Where you define custom variables.
+2. **builders** – Where you mention all the required builder parameters.
+3. **provisioners** – Where you can integrate a shell script,
+ansible play or a chef cookbook for configuring a required application.
+
+In my example, I will use [VirtualBox Builder][50] to create an
+Ubuntu 19.04 VirtualBox Virtual Machine.
+[This VirtualBox Packer builder][51] is able to create VirtualBox virtual machines
+and export them in the OVF format,
+starting from an existing OVF/OVA (exported virtual machine image).
+
+>**NOTE:** When exporting from VirtualBox make sure to choose OVF Version 2,
+>since Version 1 is not compatible and will generate errors.
+
+The builder builds a virtual machine by importing an existing OVF or OVA file.
+It then boots this image, runs provisioners on this new VM,
+and exports that VM to create the image.
+The imported machine is deleted prior to finishing the build.
+
+### Step 1:
+Here is a basic build template
+https://computingforgeeks.com/how-to-install-and-use-packer/
+https://devopscube.com/packer-tutorial-for-beginners/
+
+
+
 
 
 ----
@@ -691,6 +880,8 @@ it offers transitional image based updates for the system and apps that can be r
 along with confinement that is known in the container world.
 
 But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https://thenewstack.io/canonicals-snap-great-good-bad-ugly/)" nicely outlines, does the world need another containerizer on Linux?
+
+* [How To Package and Publish a Snap Application on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-package-and-publish-a-snap-application-on-ubuntu-18-04?utm_source=DigitalOcean_Newsletter)
 
 
 ----
@@ -1717,11 +1908,21 @@ https://html5hive.org/ansible-quickies-useful-code-snippets/
 [40]:https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
 [41]:https://cfengine.com/
 [42]:https://www.ansible.com/use-cases/configuration-management
-[43]:
-[44]:
-[45]:
-[46]:
-[47]:
-[48]:
-[49]:
-[50]:
+[43]:https://en.wikipedia.org/wiki/Infrastructure_as_code
+[44]:https://www.hashicorp.com/
+[45]:https://www.packer.io/
+[46]:https://www.packer.io/intro/why.html
+[47]:https://www.ansible.com/use-cases/configuration-management
+[48]:https://www.packer.io/downloads.html
+[49]:https://www.packer.io/docs/builders/index.html
+[50]:https://www.packer.io/docs/builders/virtualbox.html
+[51]:https://www.packer.io/docs/builders/virtualbox-ovf.html
+[52]:https://stackoverflow.com/questions/16704059/easiest-way-to-copy-a-single-file-from-host-to-vagrant-guest
+[53]:https://docs.oracle.com/cd/E97728_01/E97727/html/vboxmanage-intro.html
+[54]:
+[55]:
+[56]:
+[57]:
+[58]:
+[58]:
+[60]:

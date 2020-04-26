@@ -20,16 +20,21 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 * [Device Power Management in IoT](https://dzone.com/articles/device-power-management-in-iot)
 * [ESP8266 Low Power Solutions](https://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf)
-* [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
 * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
+* [One ESP8266, One Battery, One Year… And Counting](https://hackaday.com/2020/01/15/one-esp8266-one-battery-one-year-and-counting/)
+* [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
+* [How Low Can An ESP32 Go?](https://hackaday.com/2020/01/07/how-low-can-an-esp32-go/)
 
 * [Adafruit INA260 High or Low Side Voltage, Current, Power Sensor](https://www.adafruit.com/product/4226)
 
+* [AAA Powered LoRa Mailbox Sensor Goes The Distance](https://hackaday.com/2020/02/15/aaa-powered-lora-mailbox-sensor-goes-the-distance/)
 
 
 
 # Solar Irradiance ... Got Enough?
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
+* [Dave Young -- Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
+* [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 
 * [3W Solar Panel 138X160](https://www.seeedstudio.com/3W-Solar-Panel-138X160.html)
 * [LiPo Rider Pro](https://www.seeedstudio.com/LiPo-Rider-Pro.html)
@@ -48,9 +53,9 @@ There are different ways we can use to achieve a better result.
 for example, an [ESP8266 device has four different modes to “sleep” or save the battery][01]:
 
 * **No Sleep -** This is the most inefficient way to use this device. It is always on.
-* **Modem Sleep -** This mode is enabled only when the ESP8266 is connected to Wi-Fi.
+* **Modem Sleep -** This mode is enabled only when the ESP8266 is connected to WiFi.
 In this mode, the ESP8266 turns off the WiFi module between two DTIM Beacon interval.
-The ESP8266 turns on again the Wi-Fi module before the next Beacon.
+The ESP8266 turns on again the WiFi module before the next Beacon.
 Sleep mode is used when it is necessary to keep the CPU on.
 * **Light Sleep -** This is mode is very similar to the Modem-sleep mode but in this mode,
 ESP8266 suspends the CPU and turns off the clock.

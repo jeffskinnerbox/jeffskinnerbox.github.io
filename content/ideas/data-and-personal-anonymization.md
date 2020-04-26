@@ -40,6 +40,8 @@ l-diversity is a form of group based anonymization that is used to preserve priv
 
 
 
+# Personal Anonymization on the Web
+* [How to be anonymous on the web? Tor, Dark net, Whonix, Tails, Linux](https://www.youtube.com/watch?v=_393maHbHWc)
 
 # Data Anonymization
 https://en.wikipedia.org/wiki/Data_anonymization

@@ -79,6 +79,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [“GANs” vs “ODEs”: the end of mathematical modeling?](https://towardsdatascience.com/gans-vs-odes-the-end-of-mathematical-modeling-ec158f04acb9)
 
 * [Foundations Built for a General Theory of Neural Networks](https://www.quantamagazine.org/foundations-built-for-a-general-theory-of-neural-networks-20190131/)
+* [The mathematics of optimization for deep learning](https://towardsdatascience.com/the-mathematics-of-optimization-for-deep-learning-11af2b1fda30)
 
 # Cheat Sheets
 * [Deep Learning Cheat Sheet](https://hackernoon.com/deep-learning-cheat-sheet-25421411e460#.nrskk2iyy)
@@ -157,6 +158,9 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [U.S. Government’s open data](https://www.data.gov/)
 * [USA Facts](https://usafacts.org/)
 * [FaceForensics](http://niessnerlab.org/projects/roessler2018faceforensics.html)
+* [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
+* [Labled Morse Code Transmissions](http://www.arrl.org/code-practice-files)
+    * [Training a Computer to Listen and Decode Morse Code](http://ag1le.blogspot.com/2019/02/training-computer-to-listen-and-decode.html)
 
 # Data Set Format
 * [Introducing TensorFlow Datasets](https://medium.com/tensorflow/introducing-tensorflow-datasets-c7f01f7e19f3)
@@ -198,10 +202,12 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Neural Network Architectures](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba)
 
 # Perceptrons
+* [Perceptron: The Artificial Neuron (An Essential Upgrade To The McCulloch-Pitts Neuron)](https://towardsdatascience.com/perceptron-the-artificial-neuron-4d8c70d5cc8d)
+* [Perceptron Learning Algorithm: A Graphical Explanation Of Why It Works](https://towardsdatascience.com/perceptron-learning-algorithm-d5db0deab975)
 * [Machine Learning: Foundations](http://hackaday.com/2016/11/02/machine-learning-foundations/#more-228331)
 * [Perceptrons in C++](http://hackaday.com/2016/11/08/perceptrons-in-c/)
 * [How To Build a Neural Network to Recognize Handwritten Digits with TensorFlow](https://www.digitalocean.com/community/tutorials/how-to-build-a-neural-network-to-recognize-handwritten-digits-with-tensorflow)
-* []()
+* [A Deep Learning Tutorial: From Perceptrons to Deep Networks](https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks)
 
 # Embedded Learning Library (ELL)
 Microsoft has released the [Embedded Learning Library (ELL)](https://github.com/Microsoft/ELL),
@@ -230,13 +236,14 @@ There is also an open source initiative like this call [The Fido Project](http:/
 
 # Tutorials
 * [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
+* [Lex Fridman Lectures on Deep Learning](https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA)
+
 * [Introduction to Neural Networks](https://towardsdatascience.com/simple-introduction-to-neural-networks-ac1d7c3d7a2c)
 * [Why is machine learning 'hard'?](http://l.goodbits.io/l/ogcalob3)
 * [Artificial Intelligence, Deep Learning, & Neural Networks Explained](https://medium.com/innoarchitech-innovation-architecture-technology/artificial-intelligence-deep-learning-neural-networks-explained-22a3cc132580#.k30un4a4j)
 * [Practical Deep Learning](http://hackaday.com/2016/12/21/practical-deep-learning/)
 * [An Introduction to Machine Learning Theory and Its Applications: A Visual Tutorial with Examples](https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer)
 * [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-* [A Deep Learning Tutorial: From Perceptrons to Deep Networks](https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks)
 * [Matthew Stewart Tutorals](https://towardsdatascience.com/@matthew_stewart)
 * Honest Guide to Machine Learning
     * [Part One](https://medium.com/axiomzenteam/an-honest-guide-to-machine-learning-2f6d7a6df60e#.fkg18yn6n)
@@ -393,6 +400,7 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Contextual Chat-bots with Tensorflow](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077)
 
 # Tensors
+* [What the HECK is a Tensor?!?](https://www.youtube.com/watch?v=bpG3gqDM80w)
 * [How Tensors Advance Human Technology](https://medium.com/@philjama/how-tensors-advance-human-technology-3831bff0906#.48fcqkrsm)
 * [Tensor Calculus and the Calculus of Moving Surfaces](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
 

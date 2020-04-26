@@ -11,9 +11,8 @@
 * [Here's how to get a more accurate RTC clock set from an NTP time server](https://forum.arduino.cc/index.php?topic=526792.0)
 
 * [NTPtimeESP](https://github.com/SensorsIot/NTPtimeESP)
-
-
 ################################## Junk ########################################
+
 
 
 
@@ -27,6 +26,8 @@
 * [Impractical Clock Uses Tuning Fork](https://hackaday.com/2019/08/29/impractical-clock-uses-tuning-fork/)
 
 * [EL Wire Neon Nixie Style Clock](https://www.instructables.com/id/EL-Wire-Neon-Nixie-Style-Clock/)
+
+* [Edge-Lit 7-Segments Clock The New Normal](https://hackaday.com/2020/04/14/edge-lit-7-segments-clock-the-new-normal/)
 
 # Enclosure
 * [Printed It: Custom Enclosure Generator](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
@@ -61,11 +62,22 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
 
+* [The Geared Head of Feelings](https://www.thingiverse.com/thing:2670124)
+
 ## Precision Time Keeping
 If interested in precision timing in general,
 consider joining the [Time Nuts email list](https://lists.febo.com/mailman/listinfo/time-nuts_lists.febo.com).
 
 * [100 Year Old Atomic Clock](https://hackaday.com/2019/09/25/100-year-old-atomic-clock/)
+* [Cesium Clock Teardown, Or Quantum Physics Playground](https://hackaday.com/2020/03/25/cesium-clock-teardown-or-quantum-physics-playground/)
+
+## Galileo Escapement Mechanism
+Galileo's escapement is a design for a clock escapement,
+invented around 1637 by Italian scientist Galileo Galilei (1564 - 1642).
+It was the earliest design of a pendulum clock.
+
+* [3D Printed Galileo Pendulum](https://www.youtube.com/watch?v=8g-rlaZNAjU)
+* [Galileo Wooden Escapement Mechanism](https://www.instructables.com/id/Galileo-Wooden-Escapement-Mechanism/)
 
 ## Clepsydra Clock
 A water clock or clepsydra is any timepiece by which time is measured by
@@ -79,19 +91,18 @@ and where the amount is then measured.
 
 # Getting and Keeping Time
 * ["Connect" to an atomic clock in space! GPS, DCF77](http://hackaday.io/project/1353)
+* [NIST-F1 Cesium Fountain Atomic Clock](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
 * [WWV Radio Station](http://en.wikipedia.org/wiki/WWV_%28radio_station%29)
     * [NIST Radio Stations]()
 * [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 
 # Unix Time
 * [Epic Clock Clocks The Unix Epoch](https://hackaday.com/2018/09/18/epic-clock-clocks-the-unix-epoch/)
+* [End of Time (Unix) - Numberphile](https://www.youtube.com/watch?v=QJQ691PTKsA&feature=youtu.be)
 
 # Time from Mains Frequency
 * [Is Your Clock Tied to Mains Frequency?](https://hackaday.com/2018/03/29/ask-hackaday-is-your-clock-tied-to-mains-frequency/)
 
-# Time from Atomic Clocks
-* [NIST-F1, a Cesium Fountain Atomic Clock, is the nation's primary time and frequency standard](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 
 # Time from Radio Stations
 * [WHAT WILL YOU DO IF WWVB GOES SILENT?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
@@ -99,10 +110,10 @@ and where the amount is then measured.
 # Ham Radio Clock
 * [Ham Clock Raspberry Pi](https://dl1gkk.com/ham-clock-raspberry-pi/)
 
-# Time from GPS
-* [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
-* [Make a GPS Clock With Arduino](https://www.allaboutcircuits.com/projects/how-to-make-a-gps-clock-with-arduino/)
-* [Self-adjusting clock with e-display](https://hackaday.io/project/164955-self-adjusting-clock-with-e-display)
+
+# Dealing with Daylight Savings Time
+* [Tricks to get NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&feature=youtu.be)
+
 
 # Speaking Clocks
 * [Retrotechtacular: The Speaking Clock Goes Silent](https://hackaday.com/2019/10/30/retrotechtacular-the-speaking-clock-goes-silent/)
@@ -123,6 +134,13 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [This Incredible High-Speed Ticker Board Mimics Your Motion](https://gizmodo.com/5927488/this-incredible-high-speed-ticker-board-mimics-your-motion)
 
 ################################################################################
+
+# Keeping Time
+* [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time)
+* [Railway time](https://en.wikipedia.org/wiki/Railway_time)
+* [Ruth Belville](https://en.wikipedia.org/wiki/Ruth_Belville)
+* [Greenwich Time Signal](https://en.wikipedia.org/wiki/Greenwich_Time_Signal)
+* [Greenwich Time Signal - the 'pips'](https://www.bbc.com/historyofthebbc/anniversaries/february/the-pips)
 
 # Time Display
 
@@ -155,6 +173,11 @@ Project of a clock (or other information) on ceiling in bedroom
 * [IOT SPLIT-FLAP WEATHER FORECAST POWERED BY XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
+* [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
+* [3D Printed Flip Clock Is Worth A Second Look](https://hackaday.com/2020/02/12/3d-printed-flip-clock-is-worth-a-second-look/)
+
+## Math Clock
+Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall+clock
 
 ## Other
 * [Tiny Bubbles In The Clock](https://hackaday.com/2019/12/20/tiny-bubbles-in-the-clock/)
@@ -177,8 +200,26 @@ It means all communications between your browser and the website are encrypted.
 
 
 
+# Time from GPS
+* [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
+* [Make a GPS Clock With Arduino](https://www.allaboutcircuits.com/projects/how-to-make-a-gps-clock-with-arduino/)
+* [Self-adjusting clock with e-display](https://hackaday.io/project/164955-self-adjusting-clock-with-e-display)
 
+A small GPS breakout board suitable for a clock: [Adafruit Mini GPS PA1010D - UART and I2C - STEMMA QT](https://www.adafruit.com/product/4415)
 
+## Build a Stratum 1 NTP Time Server
+* [NIST-F1, a Cesium Fountain Atomic Clock, is the nation's primary time and frequency standard](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
+* [Build Your Own Stratum 1 NTP Time Server with a Raspberry Pi and U-blox NEO-6M](https://www.hackster.io/news/build-your-own-stratum-1-ntp-time-server-with-a-raspberry-pi-and-u-blox-neo-6m-6ce68bcd5752)
+* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [02 Webinar II || GPS & IMU - GPS Time to UTC Epoch Time](https://www.youtube.com/watch?v=24sUlOs8ZGQ&feature=youtu.be&list=PLOafHcC21SxBcup78ZfsHowsVFfHLP-tf)
+* [Building a GPS Time Server with the Raspberry Pi 3](http://unixwiz.net/techtips/raspberry-pi3-gps-time.html)
+* [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
+* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [Stratum-1-Microserver HOWTO](https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/)
+* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [Why You Should Consider Moving From NTP to NTPsec](https://medium.com/linode-cube/why-you-should-consider-moving-from-ntp-to-ntpsec-edab616b6740)
+* [Setting the computer time using GPS](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
+* [5 minute guide to making a GPS Locked Stratum 1 NTP Server with a Raspberry Pi](https://ava.upuaut.net/?p=951)
 
 
 ----

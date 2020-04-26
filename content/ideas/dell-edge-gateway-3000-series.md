@@ -165,6 +165,7 @@ of the "Dell Edge Gateway 3002 Installation and Operation Manual".
 
 # Step X: Watchdog Timer (WDT)
 * http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/watchdog-timer-(wdt)?guid=guid-4a9f1588-6cf2-4ca2-addc-a59c2cefd300&lang=en-us
+* [Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers)
 
 # Step X: NetworkManager
 The Dell Edge Gateway appears to be using [NetworkManager][13] (aka [`nmcli`][12])
@@ -264,6 +265,8 @@ To get hands on with the code and connected with community,
 go to [here](https://www.edgexfoundry.org/community/#HowToGetStarted)
 
 * [Running EdgeX on a Raspberry Pi](https://www.hackster.io/mhall119/running-edgex-on-a-raspberry-pi-d35dd5)
+* [EdgeX Foundry Ready for Prime Time!](https://www.edgexfoundry.org/blog/2019/07/11/edgex-foundry-ready-for-prime-time/)
+* [EdgeX Foundry, the common framework for IoT edge computing, now available as a snap](https://ubuntu.com/blog/edgex-foundry-the-common-framework-for-iot-edge-computing-now-available-as-a-snap)
 
 
 

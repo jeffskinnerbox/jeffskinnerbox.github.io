@@ -5,3 +5,4 @@ The joule thief can operate with very low voltages, this means it can work with 
 
 * https://en.wikipedia.org/wiki/Joule_thief
 * [Itty Bitty Joule Thief](https://www.instructables.com/id/Itty-Bitty-Joule-Thief/)
+* [Powering Neon With A Joule Thief](https://hackaday.com/2020/03/14/powering-neon-with-a-joule-thief/)

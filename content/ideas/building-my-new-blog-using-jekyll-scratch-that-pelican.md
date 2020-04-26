@@ -1,4 +1,15 @@
 
+* [Example of Personal website powered by Bootstrap, Pelican, and GitHub Pages](https://github.com/donnemartin/donnemartin.github.io)
+* [Run your blog on GitHub Pages with Python](https://opensource.com/article/19/5/run-your-blog-github-pages-python)
+* [Host your tiddlywikis in GitHub pages without any git knowledge or installing any software](https://github.com/danielo515/TW5-auto-publish2gh-pages)
+* [GitHub Pages Pelican Build Action](https://github.com/marketplace/actions/pelican-for-github-pages)
+* [Using GitHub to host your TiddlyWiki for DesignWrITe](https://groups.google.com/forum/m/#!topic/designwrite/a-3yUNze5qw)
+
+* [Jermolene](https://jermolene.com/index.html)
+
+
+
+
 * Something to emulate
     * [Daniel Miessler's Blog](https://danielmiessler.com/)
     * [Pelican Themes](http://pelicanthemes.com/)
@@ -24,10 +35,18 @@ http://crunk.io/post/introduction-to-pelican/
 [How I built this website, using Pelican: Part 1 - Setup](http://duncanlock.net/blog/2013/05/17/how-i-built-this-website-using-pelican-part-1-setup/)
 [How I upgraded this website to Pelican 3.3](http://duncanlock.net/blog/2013/10/18/how-i-upgraded-this-website-to-pelican-33/)
 
-Search for XXXX FINISH THIS XXXX and make updates.
 
 * [Migrating from Octopress to Pelican](http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
 * [How I setup Pelican](http://terriyu.info/blog/posts/2013/07/pelican-setup/)
+
+
+################################################################################
+
+
+
+
+
+############### Search for XXXX FINISH THIS XXXX and make updates ##############
 
 Prior to setting up this blog, I initially started with [WordPress][47],
 I felt limited by it and then  I discovered that many tech-savvy people were

@@ -25,6 +25,8 @@ Summary: bla bla bla
 * [The Kraakdoos — Musical Abuser of an Ancient OpAmp](http://hackaday.com/2015/09/03/the-kraakdoos-musical-abuser-of-an-ancient-opamp/)
 * The Sound on Sound (SOS) series of articles on [sound synthesis](http://www.soundonsound.com/sos/allsynthsecrets.htm)
 * [Using a Raspberry Pi as a synthesiser](https://www.blogdot.tv/using-a-raspberry-pi-as-a-synthesiser/)
+* [The Fart Box, A Synthesizer Not Quite Like Others](https://hackaday.com/2020/03/21/the-fart-box-a-synthesizer-not-quite-like-others/)
+* [Music from Outer Space: Your Synth-DIY Headquarters](http://musicfromouterspace.com/)
 
 ## Audio Codec
 An audio codec (or just [codec][17]) is a device or computer program capable of
@@ -67,6 +69,7 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 
 * [Differences Between PCM/ADPCM Wave Files Explained][12]
 * [I/Q Data for Dummies][13]
+* [If The I And Q Of Software Defined Radio Are Your Nemesis, Read On](https://hackaday.com/2017/05/16/if-the-i-and-q-of-software-defined-radio-are-your-nemesis-read-on/)
 * [IQ Modulator Basics: Operation, measurements, impairments](https://www.youtube.com/watch?v=RHFZUqUM8DY&feature=em-subs_digest)
 
 **Bit Size** - Bit size is the number of bits used to encode the amplitude of the signal. In 8 bit recordings, a total of 256 (0 to 255) amplitude levels are available. In 16 bit, a total of 65,536 (-32768 to 32767) amplitude levels are available. The greater the resolution of the file is, the greater the realistic dynamic range of the file. CD-Audio uses 16 bit samples.
@@ -75,6 +78,7 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 
 * [Examples of IQ Signals][10]
 * [What’s Your IQ – About Quadrature Signals][11]
+* [DSP Spreadsheet: IQ Diagrams](https://hackaday.com/2019/11/15/dsp-spreadsheet-iq-diagrams/)
 
 ### Quadrature Signals
 Quadrature signals, also called IQ signals, IQ data or IQ samples, are often used in RF applications. They form the basis of complex RF signal modulation and demodulation, both in hardware and in software, as well as in complex signal analysis.
@@ -103,7 +107,8 @@ to your projects without additional hardware.
 
 # Audio Syntesizer
 * [A Fully Open Source Raspberry Pi Synthesizer](https://hackaday.com/2018/06/08/a-fully-open-source-raspberry-pi-synthesizer/)
-* [ Google’s AI-Powered Synthesizer](https://hackaday.com/2018/06/08/a-fully-open-source-raspberry-pi-synthesizer/)
+* [Google’s AI-Powered Synthesizer](https://www.theverge.com/circuitbreaker/2018/3/13/17114760/google-nsynth-super-ai-touchscreen-synth)
+* [Synthberry Pi standalone Pure Data Raspberry Pi synthesiser](https://www.geeky-gadgets.com/raspberry-pi-synthesiser-14-02-2020/)
 * https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/
 
 ## Digital Audio Editor

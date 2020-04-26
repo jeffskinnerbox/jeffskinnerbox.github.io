@@ -1,5 +1,10 @@
+* [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
+
+* [AAA Powered LoRa Mailbox Sensor Goes The Distance](https://hackaday.com/2020/02/15/aaa-powered-lora-mailbox-sensor-goes-the-distance/)
 
 * [Azure IoT Edge LoRaWAN Starter Kit](https://github.com/Azure/iotedge-lorawan-starterkit)
+
+* [Handheld LoRa Joystick For Long-Range Bots](https://hackaday.com/2019/09/11/handheld-lora-joystick-for-long-range-bots/)
 
 
 # Adafruit Products
@@ -10,6 +15,7 @@
 * [Introduction to the RFM69HW Transceiver](http://www.allaboutcircuits.com/projects/introduction-to-the-rfm69hw-transceiver/)
 * [Adafruit Feather](https://www.adafruit.com/feather)
 * [Adafruit RadioFruit](https://www.adafruit.com/?q=radiofruit)
+* [Adafruit RFM69 Radio with CircuitPython](https://www.hackster.io/whitney-knitter/pi-os-for-zynqberry-adafruit-rfm69-radio-with-circuitpython-1ae658)
 
 # Long Range Mode for ESP32
 * [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
@@ -20,6 +26,7 @@
 
 # Low Power Solutions
 * [Moteino M0](https://lowpowerlab.com/shop/product/184)
+* [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 
 # PyCom
 * [Wireless IoT modules from Pycom](https://www.elektormagazine.com/news/review-wireless-modules-from-pycom)
@@ -57,6 +64,8 @@
 * [The TTGO T-Beam, an ESP32 LoRa Board](https://blog.hackster.io/the-ttgo-t-beam-an-esp32-lora-board-d44b08f18628)
 * [TTGO T-Beam // ESP32, GPS, LoRa & Bluetooth](https://www.youtube.com/watch?v=xrOo5SROzD8)
 * [GPS Mapper for The Things Network (TTN) - LoRaWAN](https://www.hackster.io/fablabeu/gps-mapper-for-the-things-network-ttn-lorawan-584ed7)
+* [TTGO-T-Beam 3D Printed Case](https://www.thingiverse.com/thing:3773717)
+* [Heltec ESP32 3D Printed Case](https://www.thingiverse.com/thing:3125854)
 
 # H2020 WAZIUP & WAZIHUB projects
 * https://github.com/CongducPham/tutorials
@@ -90,6 +99,15 @@
 * [LoRa Mesh Chat](https://www.hackster.io/scottpowell69/lora-mesh-chat-5267d9)
 * [TTGO LoRa Mesh Chat Device](https://www.hackster.io/scottpowell69/ttgo-lora-mesh-chat-device-37913c)
 * [LoRa Mesh Radio](https://www.instructables.com/id/LoRa-Mesh-Radio/)
+* [LoRa Mesh Network With Off-the-Shelf Hardware](https://hackaday.com/2020/02/26/lora-mesh-network-with-off-the-shelf-hardware/)
+* [Meshtastic Mesh Networking Project Combines ESP32, LoRa and GPS Radio](https://www.cnx-software.com/2020/03/11/meshtastic-mesh-networking-project-combines-esp32-lora-and-gps-radio/)
+* [Meshtastic: A Hiking, Skiing, GPS Mesh Communicator](https://www.hackster.io/punkgeek/meshtastic-a-hiking-skiing-gps-mesh-communicator-84f999)
+
+# LoRaWAN Security
+* [LoRaWAN networks are spreading but security researchers say beware](https://www.zdnet.com/article/lorawan-networks-are-spreading-but-security-researchers-say-beware/)
+* [LoRaWAN Encryption Keys Easy to Crack, Jeopardizing Security of IoT Networks](https://threatpost.com/lorawan-encryption-keys-easy-to-crack-jeopardizing-security-of-iot-networks/152276/)
+* [How to detect and prevent issues with vulnerable LoRaWAN networks](https://www.helpnetsecurity.com/2020/01/28/vulnerable-lorawan-networks/)
+* [LoRaWAN Networks Susceptible to Hacking: Common Cyber Security Problems, How to Detect and Prevent Them](https://act-on.ioactive.com/acton/attachment/34793/f-87b45f5f-f181-44fc-82a8-8e53c501dc4e/1/-/-/-/-/LoRaWAN%20Networks%20Susceptible%20to%20Hacking.pdf)
 
 
 
@@ -255,6 +273,7 @@ by sharing knowledge and experience to guarantee interoperability between operat
 
 -----
 
+* [Reinier Van Der Lee - Building a Wireless Community Sensor Network with LoRa](https://www.youtube.com/watch?time_continue=62&v=pMGEhQ7q1qE&feature=emb_logo)
 * [LoRa crash course by Thomas Telkamp](https://www.youtube.com/watch?v=T3dGLqZrjIQ)
 * [LoRa/LoRaWAN tutorials](https://www.youtube.com/playlist?list=PLmL13yqb6OxdeOi97EvI8QeO8o-PqeQ0g)
 * [CongducPham/tutorials](https://github.com/CongducPham/tutorials)
@@ -292,9 +311,10 @@ To decode all this, here are additional, much more technical answer To “What I
 * [Decoding LoRa: Realizing a Modern LPWAN with SDR](https://pubs.gnuradio.org/index.php/grcon/article/download/8/7)
 * [What Is LoRa? A Technical Breakdown](https://www.link-labs.com/blog/what-is-lora)
 * [DecodingLora](https://revspace.nl/DecodingLora)
+* [11 Myths About LoRaWAN](https://www.electronicdesign.com/industrial-automation/11-myths-about-lorawan)
 
 * [Ground breaking world record! LoRaWAN packet received at 702 km (436 miles) distance](https://www.thethingsnetwork.org/article/ground-breaking-world-record-lorawan-packet-received-at-702-km-436-miles-distance)
-* [11 Myths About LoRaWAN](https://www.electronicdesign.com/industrial-automation/11-myths-about-lorawan)
+* [High Power LoRa And Tropospheric Reflection Experiments](https://hackaday.com/2020/03/21/high-power-lora-and-tropospheric-reflection-experiments/)
 
 Most of tests performed by Semtech and other companies
 show radio range of about 15-20kms (9.3 to 12.5 miles)
@@ -506,6 +526,7 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 * [Building a Raspberry Pi Powered LoRaWAN Gateway](http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway)
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
 #### Dragino HAT
+* [Dragino 10 channels - LoRaWAN GPS Concentrator for Raspberry Pi](https://www.seeedstudio.com/Dragino-10-channels-LoRaWAN-GPS-Concentrator-for-Raspberry-Pi-p-4481.html)
 * [Cheap LoRa Gateway: Tutorial on how to Build with one with Raspberry Pi and Dragino](https://www.youtube.com/watch?v=Ya-QlEaonLU)
 * [Dragino Lora/GPS HAT](http://wiki.dragino.com/index.php?title=Lora/GPS_HAT)
     * [Dragino LoRa GPS HAT 915Mhz for Raspberry Pi 2 Model B/Raspberry Pi 3, Built-in Temperature Sensor LNA, Support DGPS SBAS SDK Command RFW95W](https://www.amazon.com/Dragino-Raspberry-Temperature-Support-Command/dp/B07HCZMHKZ/ref=sr_1_1)
@@ -540,6 +561,7 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 * [Build your own gateway](https://www.thethingsnetwork.org/docs/gateways/start/build.html)
 
 #### RAK 831
+* [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
 * [Raspberry Pi 4 based LoRaWAN gateway has GPS and optional LTE](http://linuxgizmos.com/raspberry-pi-4-based-lorawan-gateway-has-gps-and-optional-lte/)
 * [RAK7244 LoRaWAN Developer Gateway](https://store.rakwireless.com/products/rak7244-developer-lorawan-gateway)
 
@@ -569,6 +591,7 @@ to a main board computer or microcontroller.
 * [LoRa/LoRaWAN tutorials](https://www.youtube.com/playlist?list=PLmL13yqb6OxdeOi97EvI8QeO8o-PqeQ0g)
 * [ESP32](https://www.youtube.com/playlist?list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9)
 * [ESP8266](https://www.youtube.com/playlist?list=PL3XBzmAj53Rlu3Byy_GkqG6b-nwEpWku0)
+* [LoRa on ESP Tutorials](https://github.com/xreef/LoRa_E32_Series_Library)
 
 # HelTec WiFi LoRa 32
 For my first foray into the world of LoRa radios is with the
@@ -1233,6 +1256,7 @@ arduino-timer                	1.0.0     	sketchbook
 * [Preventing Embedded Fails with Watchdogs](https://hackaday.com/2019/01/12/preventing-embedded-fails-with-watchdogs/)
 * [ESP32 Technical Tutorials: Watchdog Processing](https://www.youtube.com/watch?v=C2xF3O6qkbg)
 * [ESP32 Tutorial - Watchdog Timer](https://www.youtube.com/watch?v=7kLy2iwIvy8)
+* [Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers)
 
 # ESP32-CAM
 * [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://www.youtube.com/watch?v=MicAM_A0_lU)

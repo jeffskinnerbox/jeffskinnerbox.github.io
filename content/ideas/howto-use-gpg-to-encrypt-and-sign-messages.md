@@ -603,6 +603,7 @@ but any network service can be secured with SSH.
 ## Eliminate SSH Keys and use a GPG Keys Instead
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
+* [How to SSH Properly](https://gravitational.com/blog/how-to-ssh-properly)
 
 ## Share Terminal Access (tty-share)
 [tty-share][06] enables you to do terminal sharing over the Internet.

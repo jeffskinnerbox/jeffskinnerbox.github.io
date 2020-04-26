@@ -21,6 +21,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Six Wheels (En)rolling: Mars Rovers Going To School](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
 * [AlphaBot2 robot building kit for Raspberry Pi 3 Model B](https://www.seeedstudio.com/AlphaBot2-robot-building-kit-for-Raspberry-Pi-3-Model-B-p-2937.html)
 * [Six Wheels Mars Rover](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
+* [Sonic The Hedgehog Self-Balancing Robot Can Bend At The Knees](https://hackaday.com/2020/01/31/sonic-the-hedgehog-self-balancing-robot-can-bend-at-the-knees/)
+* [Sonic The Self-Balancing Robot: Face-Plants And The Challenges Of Sensor Integration](https://hackaday.com/2020/02/26/sonic-the-self-balancing-robot-face-plants-and-the-challenges-of-sensor-integration/)
+* [Autonomous 3D Rover With Tank Tracks Rules The Fields. Almost](https://hackaday.com/2020/04/02/autonomous3d-rover-with-tank-tracks-rules-the-fields-almost/)
 
 # Walking Robot
 * [Train Your Robot to Walk with a Neural Network](https://hackaday.com/2016/12/11/train-your-robot-to-walk-with-a-neural-network/)
@@ -39,6 +42,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [SmallKat: An Adorable And Dynamic Robot](https://hackaday.com/2019/11/03/smallkat-an-adorable-and-dynamic-robot/)
 * [Landbeest, A Single Servo Walking Robot](https://hackaday.com/2019/11/29/landbeest-a-single-servo-walking-robot/)
 * [OpenDog Project](https://hackaday.com/2018/06/11/james-bruton-is-making-a-dog-opendog-project/)
+* [Compliant Quadruped Legs Using Servos](https://hackaday.com/2020/03/22/compliant-quadruped-legs-using-servos/)
+* [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
+* [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
@@ -73,6 +79,7 @@ perform regression testing, and train AI system using realistic scenarios.
 
 # Levitator / Levitation
 * [Ultra Simple Magnetic Levitator](http://hackaday.com/2016/11/05/ultra-simple-magnetic-levitator/)
+* [Magnetic Levitation](https://learn.sparkfun.com/tutorials/magnetic-levitation)
 * [How to Build a Levitating Light](https://www.sparkfun.com/news/3133)
 * [Electromagnetic levitation device](http://www.instructables.com/id/Levitron-electromagnetic-Levitation-Device/?ALLSTEPS)
 * [Electromagnetic Floater](https://www.instructables.com/id/Electromagnetic-Floater/)
@@ -84,16 +91,21 @@ perform regression testing, and train AI system using realistic scenarios.
 
 # Robotic Arm
 * [An open-source, 3D printed, high precision robotic arm with trainability](https://hackaday.io/project/158779-dexter)
+* [Dexter Robot Arm Embraces New Manufacturing With First Micro-Factory](https://hackaday.com/2020/03/09/dexter-robot-arm-embraces-new-manufacturing-with-first-micro-factory/)
 
 # Ball Bouncing / Balancing Bot
 * [Juggling Machine Listens to the Bounce to Keep Ball in the Air](https://hackaday.com/2018/07/25/juggling-machine-listens-to-the-bounce-to-keep-ball-in-the-air/)
 * [High-Style Ball Balancing Platform](https://hackaday.com/2019/02/02/high-style-ball-balancing-platform/)
 * [Ball Balancing PID System: 6 Steps (with Pictures)](https://www.instructables.com/id/Ball-Balancing-PID-System/)
 * [Ping-Pong Ball Makes Great PID Example](https://hackaday.com/2019/07/31/ping-pong-ball-makes-great-pid-example/)
+* [Robotic Ball Bouncer Uses Machine Vision To Stay On Target](https://hackaday.com/2020/03/05/robotic-ball-bouncer-uses-machine-vision-to-stay-on-target/)
 
 # Poppy
 * [Poppy Humanoid Robot](https://www.poppy-project.org/en/)
 * [ERGO JR](https://www.poppy-project.org/en/robots/poppy-ergo-jr)
+
+# Telepresence Bobot
+* [Get Back Out There, Robotically](https://hackaday.com/2020/04/18/get-back-out-there-robotically/)
 
 # Proportional Integral Derivative (PID) Controller
 * [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)

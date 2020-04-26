@@ -1,8 +1,13 @@
+
+* [Hands-On: GreatFET Is An Embedded Tool That Does It All](https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/)
+
 Summary: The Bus Pirate is an open source hacker multi-tool that talks to electronic stuff using 1-Wire, I2C, SPI, JTAG, Asynchronous serial, MIDI, PC keyboard, HD44780 LCD, and more. It has a ton of other capabilities like low-speed logic analyzer, 1Hz-40MHz frequency measurement, Bus traffic sniffers (SPI, I2C), and more.
 
 * [Bus Pirate v3.6a Hookup Guide](https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide)
 * [Logic Pirate](http://dangerousprototypes.com/docs/Logic_Pirate)
 * [RS-232 vs. TTL Serial Communication](https://www.sparkfun.com/tutorials/215?_ga=1.132009867.562203984.1457131060)
+* [The Newbie’s Guide To JTAG](https://hackaday.com/2020/02/24/the-newbies-guide-to-jtag/)
+* [A Hacker’s Guide To JTAG](https://hackaday.com/2020/04/08/a-hackers-guide-to-jtag/)
 
 <a href="/img/posts/jekyll-posts/bus-pirate.jpg"><img align="left" title="bus priate board" src="/img/posts/jekyll-posts/bus-pirate.jpg" width="200px" height="149px" class="img-rounded floatLeft" /></a>
 Interfacing a new microchip or interfacing a new device can be a hassle,

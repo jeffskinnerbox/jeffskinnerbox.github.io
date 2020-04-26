@@ -1,8 +1,24 @@
 
 * [Antenna Basics: Radiation Patterns, Permittivity, Directivity, and Gain](http://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/)
 * [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)
+* [Get Your Weather Images Straight From The Satellite](https://hackaday.com/2020/03/14/get-your-weather-images-straight-from-the-satellite/)
 * [Radio Antenna Mismatching: VSWR Explained](https://hackaday.com/2018/08/17/radio-antenna-mismatching-vswr-explained/)
 
+* [Antennas](https://www.youtube.com/watch?v=rokAuaL2E74)
+* [The Physics Behind an Antennas](https://hackaday.com/2019/07/11/the-physics-behind-antennas/)
+* [Start Your Path to Becoming an Antenna Guru](https://hackaday.com/2016/11/27/start-your-path-to-becoming-an-antenna-guru/)
+
+
+# Write Your Own Electromagntic Numerical Analysis
+[Antenna Design, Analysis and Simulation](https://www.microwavejournal.com/articles/29437-antenna-design-analysis-and-simulation)
+
+[Meep](https://meep.readthedocs.io/en/latest/) is a free and open-source software package for electromagnetics simulation via the finite-difference time-domain (FDTD) method spanning a broad range of applications.
+
+* [Meep GitHub](https://github.com/NanoComp/meep)
+* Documentation - [Meep: A flexible free-software package for electromagnetic simulations by the FDTD method](https://data.mendeley.com/datasets/42hb3hb2tt/1)
+* [Simulations of electromagnetic waves with python-meep](https://www.fzu.cz/~dominecf/meep/)
+
+################################################################################
 
 Need a SMA Panel Jack connector
 
@@ -299,6 +315,14 @@ independently of its uses as a transmitter or receiver.
 * [Michael Ossmann: Simple RF Circuit Design](https://hackaday.com/2016/03/23/michael-ossmann-makes-you-an-rf-design-hero/)
 * [Chris Gammell - Gaining RF Knowledge: An Analog Engineer Dives into RF Circuits](https://www.youtube.com/watch?v=AS8Ybhm0qk8)
 
+-------
+
+# Patch Antenna
+* [A Patch Antenna Is Just A Rectangle, It Should Be Easy To Design, Right?](https://hackaday.com/2020/03/01/a-patch-antenna-is-just-a-rectangle-it-should-be-easy-to-design-right/)
+
+# Loop Antenna
+* [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
+
 ## Discone Antenna
 A discone antenna is a version of a [biconical antenna][19] is typically a wired structure,
 its usually mounted vertically, with the disc at the top and the cone beneath.
@@ -380,7 +404,8 @@ The 2nd to last line is to get additional example input files from Steve Conklin
 The last line copies the `dumpnec` utility to my bin.
 `dumpnec` is a pretty printer for NEC input files (very handy!).
 
-To test xnec2c out, try one of the provided example input file, e.g. `xnec2c -i examples/13cm_Yagi.nec`.
+To test xnec2c out, try one of the provided example input file
+(e.g. Yagi Antenna `xnec2c -i examples/13cm_Yagi.nec`][64].
 To learn more about how to use xnec2c and create input files,
 you'll need to tap into the documentation available for the multiple generations/versions of NEC software.
 With a little bit of insight, you'll be able to leverage these "not quite xnec2c documentation" sources.
@@ -474,7 +499,7 @@ Cabling Require:
 [61]:http://media.digikey.com/pdf/Data%20Sheets/General%20Cable%20PDFs/RG_174U_Type.pdf
 [62]:http://en.wikipedia.org/wiki/SMA_connector
 [63]:http://www.rohde-schwarz-usa.com/rs/rohdeschwarz/images/8GE01_Antenna_Basics.pdf
-[64]:
+[64]:https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/
 [65]:
 [66]:
 [67]:

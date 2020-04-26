@@ -1,4 +1,15 @@
 
+# Latest Kali
+[Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
+
+# Other Tools (e.g. ESP8266)
+* [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
+* [Detect When a Device Is Nearby with the ESP8266 Friend Detector](https://null-byte.wonderhowto.com/how-to/detect-when-device-is-nearby-with-esp8266-friend-detector-0188642/)
+* [Inconspicuously Sniff Wi-Fi Data Packets Using an ESP8266](https://null-byte.wonderhowto.com/how-to/inconspicuously-sniff-wi-fi-data-packets-using-esp8266-0192829/)
+
+
+
+
 In this article, I will set up a Raspberry Pi suitable for a wide range of network and computer hacking.
 My intent is to use this tool within my own home LAN to investigate its security,
 and in general, to get a deeper understanding of the network & computer security challege.
@@ -20,8 +31,6 @@ Good sources of hacking/cracking tools and knowledge:
 
 
 * [9 Best Linux-Based Security Tools](https://linuxblog.darkduck.com/2019/02/9-best-linux-based-security-tools.html)
-* [Is My Password Safe? Practices for People Who Know Better](http://hackaday.com/2017/04/07/is-my-password-safe/)
-* [How to Find Passwords Using Wireshark](http://www.instructables.com/id/How-to-Find-Passwords-Using-Wireshark/)
 * [Sniff with Snort](http://www.itprotoday.com/management-mobility/sniff-snort)
 
 * [Uptime Monitor - monitors your websites every 5 minutes and alerts you if your sites are down](https://uptimerobot.com/)
@@ -36,6 +45,13 @@ How to Spy on Anyone:
 Hijacking Your Home IoT Appliance:
 [Part 1](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-part-1-8c2aabdf950d)
 and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-part-2-92cff7055540)
+
+# Passwork Hacking
+* [Password Cracking - Computerphile](https://www.youtube.com/watch?v=7U-RbOKanYs)
+* [How to Choose a Password - Computerphile](https://www.youtube.com/watch?v=3NjQ9b3pgIg)
+* [How NOT to Store Passwords! - Computerphile](https://www.youtube.com/watch?v=8ZtInClXe1Q)
+* [Is My Password Safe? Practices for People Who Know Better](http://hackaday.com/2017/04/07/is-my-password-safe/)
+* [How to Find Passwords Using Wireshark](http://www.instructables.com/id/How-to-Find-Passwords-Using-Wireshark/)
 
 # Kit Kat Klock
 * https://www.amazon.com/Kitty-Cat-Klock-Classic-Black/dp/B00GNJ9I5K/ref=asc_df_B00GNJ9I5K/?tag=hyprod-20&linkCode=df0&hvadid=191970712264&hvpos=1o1&hvnetw=g&hvrand=12606860438882738637&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9007586&hvtargid=pla-300946248453&psc=1
@@ -52,6 +68,7 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * [USBdriveby](http://samy.pl/usbdriveby/)
 * [USBHarpoon](https://www.bleepingcomputer.com/news/security/usbharpoon-is-a-badusb-attack-with-a-twist/)
 * [ESPloit](https://github.com/exploitagency/ESPloitV2)
+* [Google's Keystroke Injection Protection Test with P4wnP1](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https://pentestit.de/googles-keystroke-injection-schutz-test-mit-p4wnp1/&edit-text=&act=url)
 
 # Build a Hacking Raspberry Pi
 You find many articles about how to turn a Raspberry Pi into a hacking platform:

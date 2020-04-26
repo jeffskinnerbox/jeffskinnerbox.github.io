@@ -109,6 +109,7 @@ Prerequisites
 * [Preventing Embedded Fails with Watchdogs](https://hackaday.com/2019/01/12/preventing-embedded-fails-with-watchdogs/)
 * [ESP32 Technical Tutorials: Watchdog Processing](https://www.youtube.com/watch?v=C2xF3O6qkbg)
 * [ESP32 Tutorial - Watchdog Timer](https://www.youtube.com/watch?v=7kLy2iwIvy8)
+* [Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers)
 
 # Using Both ESP32 Cores
 The ESP32 comes with 2 Xtensa 32-bit LX6 microprocessors: core 0 and core 1.

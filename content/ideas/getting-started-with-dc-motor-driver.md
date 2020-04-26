@@ -3,9 +3,6 @@
 * [Balancing Robot Needs Innovative Controller and Motor](http://hackaday.com/2017/05/18/balancing-robot-needs-innovative-controller-and-motor/)
 * [Smooth Moves from Cheap Motors](https://hackaday.com/2018/11/16/smooth-moves-from-cheap-motors/)
 
-* [Hackaday Dictionary: Servo Motors](https://hackaday.com/2016/03/24/hackaday-dictionary-servo-motors/)
-* [Wrangling RC Servos Becoming a Hassle? Try Serial Bus Servos!](https://hackaday.com/2018/07/05/wrangling-rc-servos-becoming-a-hassle-try-serial-bus-servos/)
-
 * [Driving a brushless DC motors slooooooowly](http://hackaday.com/2015/04/20/driving-a-brushless-dc-motor-sloooooooowly/)
 * [Control a DC Motor with an Arduino](http://www.allaboutcircuits.com/projects/control-a-motor-with-an-arduino/)
 * [The Little Things I Didn’t Know About Small DC Motors](http://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/)
@@ -15,7 +12,6 @@
 * [How Accurate Is Microstepping Really?](http://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/)
 * [A Command-Line Stepper Library with All the Frills](http://hackaday.com/2017/03/05/a-command-line-stepper-library-with-all-the-frills/)
 * [Giant Stepper Motor Gets You Up to Speed on Theory](http://hackaday.com/2015/08/20/giant-stepper-motor-gets-you-up-to-speed-on-theory/)
-
 
 
 
@@ -140,7 +136,36 @@ void loop() {
 }
 ```
 
+
+-----
+
+
+# Servo Motor
+A servomotor is a closed-loop servomechanism that allows for
+precise control of angular or linear position, velocity and acceleration.
+It consists of a suitable motor coupled to a sensor for position feedback.
+It also requires a relatively sophisticated controller,
+often a dedicated module designed specifically for use with servomotors.
+
+>**NOTE:** In control engineering a servomechanism, sometimes shortened to servo,
+>is an automatic device that uses error-sensing negative feedback to correct the action of a mechanism.
+>It usually includes a built-in encoder, or other position feedback mechanism,
+>to ensure the output is achieving the desired effect.
+
+* [Hackaday Dictionary: Servo Motors](https://hackaday.com/2016/03/24/hackaday-dictionary-servo-motors/)
+* [Wrangling RC Servos Becoming a Hassle? Try Serial Bus Servos!](https://hackaday.com/2018/07/05/wrangling-rc-servos-becoming-a-hassle-try-serial-bus-servos/)
+
+
+-----
+
+
 # Stepper Motor
+A stepper motor, also known as step motor or stepping motor,
+is a brushless DC electric motor that divides a full rotation into a number of equal steps.
+The motor's position can then be commanded to move and hold at one of these steps
+without any position sensor for feedback (an open-loop controller),
+as long as the motor is carefully sized to the application in respect to torque and speed.
+
 ## Stepper Motor Wiring
 * [Deducing Stepper Motor Wiring](https://hackaday.com/2019/07/25/deducing-stepper-motor-wiring/)
 
@@ -152,6 +177,12 @@ http://guy.carpenter.id.au/gaugette/2012/01/05/what-is-gaugette/
 
 # Electonic Speed Control (ESC)
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
+
+# Variable Frequency Drives (VFD)
+
+# Motor Choke
+* [What is a motor choke and why is it used?](https://www.motioncontroltips.com/what-is-a-motor-choke-and-why-is-it-used/)
+* [A Practical Look At Chokes For EMI Control](https://hackaday.com/2020/03/15/a-practical-look-at-chokes-for-emi-control/)
 
 
 

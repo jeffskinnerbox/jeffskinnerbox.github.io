@@ -54,7 +54,11 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [Make Your Own LIDAR Sensor](https://dzone.com/articles/make-your-own-lidar-sensor)
     * https://www.adafruit.com/product/3316
     * https://www.adafruit.com/product/3317
+    * [TF-Luna (ToF) Micro Single-point Ranging LiDAR](https://www.dfrobot.com/product-1995.html?tracking=5e72005d37725)
 * [Steering Self Driving Car without LIDAR](https://medium.com/towards-data-science/steering-self-driving-car-without-lidar-a6b0a4d2e2f1)
+* [LIDAR Built On Familiar Platform](https://hackaday.com/2020/04/11/lidar-built-on-familiar-platform/)
+* [TFmini Plus - ToF LIDAR Range Finder](https://www.seeedstudio.com/TFmini-Plus-LIDAR-Range-Finder-based-on-ToF-p-3222.html)
+* [Homemade Lidar: OpenTOFLidar](https://hackaday.com/2020/03/24/lidar-system-isnt-just-a-rangefinder-anymore/)
 
 #### Self Driving Car
 * [Self-Driving RC Cars with TensorFlow; Raspberry Pi or MacBook Onboard](http://hackaday.com/2017/06/06/self-driving-rc-cars-with-tensorflow-raspberry-pi-or-macbook-onboard/#more-260888)
@@ -132,13 +136,14 @@ http://support.robotis.com/en/techsupport_eng.htm#product/dynamixel/ax_series/dx
 * [DYNAMIXEL AX-12A](http://www.trossenrobotics.com/dynamixel-ax-12-robot-actuator.aspx?feed=Froogle&gclid=CKTIrZrwsL0CFWuhOgodjxsA-w) - Stall Torque 15.3 kg·cm / 212 oz·in (at 12.0V, 1.5A)
 * [Wooden Architect Lamp](http://www.instructables.com/id/Wooden-Architect-Lamp/?ALLSTEPS)
 
-# Let's Robot
+# Let's Robot / Telepresence
 Still in the early stages of development,
 Let's Robot is a live-streaming telepresence platform for controlling robots
 and other devices through the internet.
 
 * [LetsRoborTV](Luminoth: Open Source Image Recognition Toolkit)
 * [Open Robot Control Code For Connecting to LetsRobot.tv](https://github.com/runmyrobot/runmyrobot)
+* [How we built a stand-in robot for remote workers using IoT and computer vision](https://tryolabs.com/blog/hackathon-robot-remote-work-iot-computer-vision/)
 
 #  Robot Arm Kit for Romi
 * [Robot Arm Kit for Romi](https://www.pololu.com/product/3550)

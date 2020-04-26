@@ -330,6 +330,12 @@ Sending traffic from one (or multiple) sources to a group of receivers is called
 * [Multicast Explained](https://www.tldp.org/HOWTO/Multicast-HOWTO-2.html)
 * [UDP Unicast and Multicast Streaming Video using the Beaglebone Black](http://derekmolloy.ie/udp-video-streaming-beaglebone-black/)
 
+# Open Broadcast Studio (OBS)
+[Open Broadcaster Software (OBS)](https://obsproject.com/)
+is a free open source software suite that is used for recording and live streaming. OBS is used to capture and record your screen while also capturing audio.
+
+* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
+
 ----
 
 # Video Formats
@@ -1116,6 +1122,8 @@ containing subtitles, opening posters, etc. like this:
 ################################################################################
 
 # Video Streaming Server
+* [OpenCV – Stream video to web browser/HTML page](https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
+* [Live video streaming over network with OpenCV and ImageZMQ](https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
 * [Running a Raspberry Pi Webserver with Flask](https://raspberrypi-aa.github.io/session4/flask.html)
 * [Python Live Video Streaming Example](http://www.chioka.in/python-live-video-streaming-example/)
 * [Video Streaming with Flask](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
@@ -1123,6 +1131,8 @@ containing subtitles, opening posters, etc. like this:
 * [Series of Video Tutorals on Flask](https://www.youtube.com/playlist?list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM)
 * [Make Your Python Prettier With Decorators|](https://hackaday.com/2018/08/31/an-introduction-to-decorators-in-python/)
 * [Stream Video from the Raspberry Pi Camera to Web Browsers, Even on iOS and Android](https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android)
+* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
+* [Live video streaming with open source Video.js](https://opensource.com/article/20/2/video-streaming-tools)
 
 ## Streaming Video Using Raspberry Pi Zero
 Despite the ease in which video files can be displayed within a HTML5 browser,
@@ -1707,6 +1717,7 @@ On the other hand, changing anyone of my assumtions could make it a poor choose.
 Some of the alternatives that I investigate are documented here.
 
 ### WebRTC
+* [WebRTC — The technology that powers Google Meet/Hangout, Facebook Messenger and Discord](https://medium.com/swlh/webrtc-the-technology-that-powers-google-meet-hangout-facebook-messenger-and-discord-cb926973d786)
 * [WebRTC Fundementals](https://telecom.altanai.com/webrtc/)
 * [Building a Raspberry Pi 2 WebRTC camera](https://www.rs-online.com/designspark/building-a-raspberry-pi-2-webrtc-camera)
 * [FruitNanny: RaspberryPI based Baby Monitor (uses a Janus WebRTC Gateway)](https://ivadim.github.io/2017-08-21-fruitnanny/)
@@ -1716,6 +1727,8 @@ Some of the alternatives that I investigate are documented here.
 * [webrtcH4cKS: ~ Part 2: Building a AIY Vision Kit Web Server with UV4L](https://webrtchacks.com/aiy-vision-kit-uv4l-web-server/)
 * https://github.com/webrtcHacks
 * [Build a Webcam Communication App using WebRTC](https://blog.bitsrc.io/build-a-webcam-communication-app-using-webrtc-9737384e84be)
+* [Private Home Surveillance with the WebRTC DataChannel](https://webrtchacks.com/private-home-surveillance-with-the-webrtc-datachannel/)
+* [Accelerated Computer Vision inside a WebRTC Media Server with Intel OWT](https://webrtchacks.com/accelerated-computer-vision-inside-a-webrtc-media-server-with-intel-owt/)
 
 [!webrtc](https://webrtc.org/assets/images/webrtc-logo-vert-retro-255x305.png)
 [WebRTC][71] is an open source project that provides browsers and mobile applications
@@ -1814,6 +1827,7 @@ but the articles "[How to Operate Linux Spycams With Motion][118]" and
 "[How to Set Up Motion Detection Webcam in Ubuntu][119]" will get you going.
 
 * [TURN THAT PI ZERO INTO A STREAMING CAMERA, STEP-BY-STEP](https://hackaday.com/tag/wi-fi-camera/)
+* [Raspberry Pi security camera using MotionEyeOS](https://www.geeky-gadgets.com/raspberry-pi-security-camera-24-01-2020/)
 * [Raspberry Pi Security System Part 1: The camera](https://hackmypi.com/PiCamPart1.php)
 * [motionEye is a web-based frontend for motion](https://github.com/ccrisan/motioneye)
 * [motionEyeOS](https://github.com/ccrisan/motioneyeos/wiki)
@@ -1832,7 +1846,8 @@ Nice writeup - http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-web
 
 # First Person View (FPV)
 Drones typically use old school analog video transmission
-for longer-range frist person viewing (FPV).
+for longer-range frist person viewing (FPV)
+as [early as the 1980s][33].
 These analog video signals are lossy and one-way (or one-to-many).
 WiFi video is not what you want to send video from your quadcopter back to your FPV goggles.
 WiFi is designed for 100% correct, two-way transmission of data between just two radios.
@@ -2117,7 +2132,7 @@ Got this idea from
 [30]:https://www.omgubuntu.co.uk/2018/01/xorg-will-default-display-server-ubuntu-18-04-lts
 [31]:https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html
 [32]:https://en.wikipedia.org/wiki/Flash_Video
-[33]:
+[33]:https://hackaday.com/2020/03/13/an-epic-story-of-1980s-fpv-flight/
 [34]:
 [35]:
 [36]:

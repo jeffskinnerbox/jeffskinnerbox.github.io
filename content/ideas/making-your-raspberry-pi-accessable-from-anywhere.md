@@ -32,6 +32,7 @@ even though it’s buried behind a NAT or a firewall!
 
 # Reverse Shells
 * [Reverse Shells](https://www.sans.org/reading-room/whitepapers/covert/inside-out-vulnerabilities-reverse-shells-1663)
+* [SSH Reverse Proxy and Tunneling](https://medium.com/better-programming/ssh-reverse-proxy-and-tunneling-b6d96ab2325)
 
 # How Is This Done?
 1. You will need a virtual machine (VM) somewhere on the Internet.

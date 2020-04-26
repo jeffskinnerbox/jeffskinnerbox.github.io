@@ -305,6 +305,11 @@ depending on the data and your desired access patterns.  - https://redislabs.com
 # YugaByte
 [Extending Redis API with a Native Time Series Data Type](https://blog.yugabyte.com/extending-redis-with-a-native-time-series-data-type-e5483c7116f8)
 
+# Declarative Visualization in Python
+[Altair](https://altair-viz.github.io/)
+is a declarative statistical visualization library for Python,
+based on [Vega](https://vega.github.io/vega/) and [Vega-Lite](https://vega.github.io/vega-lite/).
+
 # Round Robin Database Tool (RRDtool)
 <a href="http://oss.oetiker.ch/rrdtool/">
     <img class="img-rounded" style="margin: 0px 8px; float: left" title="RRDtool is the OpenSource industry standard, high performance data logging and graphing system for time series data. RRDtool can be easily integrated in shell scripts, perl, python, ruby, lua or tcl applications." alt="RRDtool Logo" src="{filename}/images/rrdtool-logo.jpg" width="250" height="250" />

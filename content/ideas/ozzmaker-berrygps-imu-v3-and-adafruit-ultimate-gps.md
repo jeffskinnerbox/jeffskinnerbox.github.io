@@ -1,5 +1,7 @@
 
 ##############################################################################
+* [GPS Basics](https://learn.sparkfun.com/tutorials/gps-basics)
+* [GPS Tracking Comparisons](https://www.sparkfun.com/tutorials/169)
 * [Building a GPS System](https://www.sparkfun.com/gps)
 * [Building A GPS With Bug Eyes And Ancient Wisdom](https://hackaday.com/2019/09/06/building-a-gps-with-bug-eyes-and-ancient-wisdom/)
 
@@ -9,17 +11,13 @@
 * [SMA to uFL/u.FL/IPX/IPEX RF Adapter Cable](https://www.adafruit.com/product/851)
 * [Adafruit GPS library](https://github.com/adafruit/Adafruit_GPS)
 * [Python library for Raspberry PI for Ultimate GPS based on MTK3339 with serial interface as sold by Adafruit](https://github.com/PrzemoF/mtk3339)
-* [GPS Tracking Comparisons](https://www.sparkfun.com/tutorials/169)
-* [GPS Basics](https://learn.sparkfun.com/tutorials/gps-basics)
 * [Introduction to GPS Data: NMEA & RTCM](http://www.geodetic.gov.hk/smo/gsi/data/ppt/NMEAandRTCM.ppt)
 * [GPS Chipset](http://wiki.openstreetmap.org/wiki/GPS_Chipset)
-* [A-GPS vs. GPS](http://www.diffen.com/difference/A-GPS_vs_GPS)
 * [how I made a decent map with a GPS unit and Ubuntu Breezy GNU/Linux](http://cs.brown.edu/~dap/gps.htm)
 * [Data On the Go](http://www.linux-magazine.com/Issues/2014/166/GPS-Tools)
 * [NMEA data](http://www.gpsinformation.org/dale/nmea.htm#intro)
 * [NMEA Decoder](http://freenmea.net/decoder)
 * [Python library for parsing the NMEA 0183 protocol (GPS)](https://github.com/Knio/pynmea2)
-* [How Not To Build Your Own DGPS Base Station](https://hackaday.com/2018/03/30/fail-of-the-week-how-not-to-build-your-own-dgps-base-station/)
 * [Locating the Hard-to-Find Geospatial Answers](https://www.directionsmag.com/article/7637)
 
 * [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
@@ -45,8 +43,6 @@ Combining the GPS location information onto a video stream
 
 * [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
 
-# Data Logging
-* [OpenLog Data Logger](https://learn.sparkfun.com/tutorials/openlog-hookup-guide)
 
 
 
@@ -84,15 +80,45 @@ but also has [IMU sensor LSM9DS1][68] [Barometric Sensor BMP280][69]
 Sources:
 * [MT3339 All-in-One GNSS Datasheet](https://d86o2zu8ugzlg.cloudfront.net/mediatek-craft/documents/mt3339/MT3339_Datasheet.pdf)
 * [u-blox M8 Concurrent GNSS Antenna Modules](https://www.u-blox.com/sites/default/files/CAM-M8-FW3_DataSheet_%28UBX-15031574%29.pdf)
+
+
+# Data Logging
+* [The Pythonic Guide To Logging](https://timber.io/blog/the-pythonic-guide-to-logging/)
+* [logzero: Python logging made easy](https://logzero.readthedocs.io/en/latest/)
+* [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
+* [OpenLog Data Logger](https://learn.sparkfun.com/tutorials/openlog-hookup-guide)
+
+## Data Logging for NMEA Output
+* [Using PySerial, PyNMEA2, and Raspberry Pi to log NMEA output](https://fishandwhistle.net/post/2016/using-pyserial-pynmea2-and-raspberry-pi-to-log-nmea-output/)
+
+## Plotting
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+* [Geographic Data with Basemap](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
+
+
 ----
 
 
 # Background: Navigation Technologies
+When GPS was first released to consumers,
+it wasn’t even in the hands or understanding of most people.
+It was used for pretty unique and esoteric stuff, with a simple GPS receivers.
+They were pretty much just displayed current coordinates including latitude, longitude, and altitude- not much else.
+These old units are big, heavy, slow, and use a ton of power for what they do.
+Modern GPS units are light, small, cheap, and use very little power.
+
 * [The central place of GPS in our lives](https://plus.maths.org/content/recognising-place-gps-has-our-lives?nl=0)
 * [How Etak Paved the Way to Personal Navigation](https://hackaday.com/2018/06/29/how-etak-paved-the-way-to-personal-navigation/)
 * [An Introduction to GNSS](https://www.novatel.com/an-introduction-to-gnss/chapter-1-gnss-overview/)
 * [New-Age Satellite-Based Navigation STAN: Simultaneous Tracking and Navigation with LEO Satellite Signals](https://insidegnss.com/new-age-satellite-based-navigation-stan-simultaneous-tracking-and-navigation-with-leo-satellite-signals/)
 * [Tracking The Satellites That Keep Us On Track; Monitoring GPS, Galileo, BeiDou, And GLONASS](https://hackaday.com/2019/09/24/tracking-the-satellites-that-keep-us-on-track-monitoring-gps-galileo-beidou-and-glonass/)
+* [Coarse Materials: GPS and GNSS for Geospatial Professionals](https://www.e-education.psu.edu/geog862/home.html)
+
+## Time and Navigation
+* [Time and Navigation](https://timeandnavigation.si.edu/)
+
+## Space Navigation
+* [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
 
 ## Dead Reckoning (DR)
 * http://www.furuno.com/en/gnss/technical/tec_dead
@@ -105,12 +131,44 @@ The obvious example is GPS,
 but this term also includes other systems such as
 [GLONASS][61], [Galileo][62] and [BeiDou][63].
 
+GPS provides positioning of an object to the earth.
+It uses timely signals generated by satellites revolving around the earth.
+GPS includes a constellation of 24 satellites and extra for backup purpose.
+Four satellites are used for getting the precise position, this process is known as [trilateration][37].
+
+GPS technology uses standalone receivers, where the location is directly calculated. This technique is prone to errors such as uncorrected satellite clock errors, orbital parameter satellite error, ionospheric and tropospheric delays, multipath errors, geometric errors and datum selection errors. To reduce these errors new technologies are evolved. GPS can gain nominal accuracy of 10-15 meters.
+
 ## Global Positioning System (GPS) Background Information
 The Global Positioning System (GPS) allows users to accurately determine
 the location of objects on or above the surface of the Earth.
 Most GPS receivers transmit [National Marine Electronics Association (NMEA)][60]
 sentences that provide information that includes latitude and longitude,
 altitude, time, bearing, speed, and a great many other variables at 9600 baud.
+
+A GPS device is designed to delivering fourteen numbers:
+(x, y, z) coordiantes, vilocity along theses coordinats (vx, vy, vz), time,
+and error estimates for each of these seven values.
+The `gpsd` daemon's job is to deliver these numbers to user applications with minimum fuss.
+This is a "TPV" — time-position-velocity report. A GPS is a TPV oracle.
+
+## What is GPS NMEA Data?
+[NMEA is a standard data format][34] supported by all GPS manufacturers,
+much like ASCII is the standard for digital computer characters in the computer world.
+The purpose of NMEA is to give equipment users the ability to mix and match hardware and software.
+NMEA-formatted GPS data also makes life easier for software developers
+so they can write software for a wide variety of GPS receivers
+instead of having to write a custom interface for each GPS receiver.
+
+But like so many standards,
+NMEA is confusing since there are many NMEA messages, not just one.
+Different kinds of GPS receivers with different capabilities will have
+different types of NMEA messages with different capabilities.
+And there is no physical or data link layer standard for NMEA.
+NMEA data can be transmitted via different types of communications interfaces
+such as RS-232, USB, Bluetooth, Wi-Fi, UHF, and many others.
+
+For details on the NMEA message structure,
+check out the article ["What Exactly Is GPS NMEA Data?"][34].
 
 NMEA data - http://www.gpsinformation.org/dale/nmea.htm#PGRMM
 Online NEMA tools - http://freenmea.net/
@@ -143,6 +201,36 @@ Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%20
 * http://www.furuno.com/en/gnss/technical/
 * [GPS Visualizer's coordinate calculators & distance tools](http://www.gpsvisualizer.com/calculators)
 
+## gpsd - Daemon for GPS Reciver
+* [gpsd](https://en.wikipedia.org/wiki/Gpsd)
+* [gpsd manpage](https://manpages.debian.org/testing/gpsd/gpsd.8.en.html)
+* [Tutorial – gpsd](https://www.linux-magazine.com/Issues/2018/210/Tutorial-gpsd#article_f2)
+
+## GPS Connection
+Network based correction methods (GPS-RTK and GPS-PPP)
+can provide GPS fixes to centimeter level accuracy under ideal conditions. However, these solutions are very sensitive to the environment — such as bridges, trees, and buildings. It is well established that the way to overcome this challenge and improve precisions GPS reliability is to use high-accuracy IMU aiding at a low-level in the position solution.
+
+## AGPS
+* [A-GPS vs. GPS](http://www.diffen.com/difference/A-GPS_vs_GPS)
+
+## Differential Global Positioning Systems (DGPS)
+[DGPS (Differential GPS)][35] is essentially a system to provide positional corrections to GPS signals.
+DGPS is designed to be more accurate than GPS.
+DGPS are enhancements to the GPS which provide improved location accuracy,
+in the range of operations of each system,
+from the 15-meter nominal GPS accuracy to about 10 cm in case of the best implementations.
+DGPS uses a fixed, known position to adjust real time GPS signals to eliminate [pseudorange errors][36].
+The stationary GPS receiver needs to be with 100km of the roving GPS receiver.
+DGPS corrections improve the accuracy of position data only.
+DGPS has no effect on results that are based on speed data.
+DGPS accarcy will be effected by the distance between the transmitter & rover,
+and ionosphere, troposphere and multipath conditions.
+
+* [How Does DGPS (Differential GPS) Work?](https://racelogic.support/01VBOX_Automotive/01General_Information/Knowledge_Base/How_Does_DGPS_(Differential_GPS)_Work%3F)
+* [Difference Between GPS and DGPS](https://techdifferences.com/difference-between-gps-and-dgps.html)
+* [How Not To Build Your Own DGPS Base Station](https://hackaday.com/2018/03/30/fail-of-the-week-how-not-to-build-your-own-dgps-base-station/)
+* [Differential GPS Explained](https://www.esri.com/news/arcuser/0103/differential1of2.html)
+
 ## GPS-RTK
 * [Real-Time Kinematic (RTK)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/real-time-kinematic-rtk/)
 * [SparkFun GPS-RTK2 Board](https://www.sparkfun.com/products/15136)
@@ -150,16 +238,13 @@ Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%20
     * [What is GPS RTK?](https://learn.sparkfun.com/tutorials/what-is-gps-rtk)
     * [GPS-RTK Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide)
 
+## Real-Time Kinematic vs. Differential GPS
+* [Real-Time Kinematic and Differential GPS](https://www.e-education.psu.edu/geog862/node/1828)
+
 ### Precise Point Positioning (PPP)
 PPP is a positioning technique that removes or models GNSS system errors to provide a high level of position accuracy from a single receiver. A PPP solution depends on GNSS satellite clock and orbit corrections, generated from a network of global reference stations. Once the corrections are calculated, they are delivered to the end user via satellite or over the Internet. These corrections are used by the receiver, resulting in decimetre-level or better positioning with no base station required.
 
 * [Precise Point Positioning (PPP)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/precise-point-positioning-ppp/)
-
-## Differential Global Positioning Systems (DGPS)
-Differential Global Positioning Systems (DGPS) are enhancements to the Global Positioning System (GPS) which provide improved location accuracy, in the range of operations of each system, from the 15-meter nominal GPS accuracy to about 10 cm in case of the best implementations.
-
-## GNSS-SDR
-[GNSS-SDR][64] is and open source Global Navigation Satellite Systems software-defined receiver.
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
@@ -167,9 +252,82 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [PPS (Pulse per Second) ...simple as that!](https://www.linkedin.com/pulse/pps-pulse-per-second-simple-deepak-kaira/)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 * [What’s More Accurate than a GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
     * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
+
+## GPS Time Coordinate System
+The [World Geodetic System 1984][38] [(WGS84)][67]
+(also known as WGS 1984, EPSG:4326)
+is comprised of a terrestrial reference coordinate system, a geodetic datum
+([Horizontal Datum][71] + [Vertical Datum][72]), and a [ellipsoid modeling the earth][58].
+
+WGS84 is comprises of a reference [ellipsoid modeling the earth][58],
+a standard coordinate system, altitude data and a [geoid][39].
+It uses the Earth’s center of mass as the coordinate origin.
+[Geodesists][40] believe the error is less than 2 centimeters
+
+## Magnetic North vs Geographic (True) North
+* [Magnetic North vs Geographic (True) North Pole](https://gisgeography.com/magnetic-north-vs-geographic-true-pole/)
+
+## GPS Position Accuracy
+[Dilution of precision](https://en.wikipedia.org/wiki/Dilution_of_precision_(navigation))
+is a term used in GPS navigation to specify the error
+in positional measurement precision resulting from sub-optimal satellite geometry.
+
+* [GPS Position accuracy and how to tell if you have a good fix?](https://ozzmaker.com/gps-position-accuracy-and-how-to-tell-if-you-have-a-good-fix/)
+
+##  Coordinate Systems
+* [Latitude, Longitude and Coordinate System Grids](https://gisgeography.com/latitude-longitude-coordinates/)
+
+## Maps
+* [Marble](https://marble.kde.org/index.php)
+
+## Python Libraries for GIS and Mapping
+* [Python Libraries for GIS and Mapping](https://gisgeography.com/python-libraries-gis-mapping/)
+* [Python3 GPS Client Tools](https://confluence.clazzes.org/display/PYTOOLS/Python3+GPS+Client+Tools)
+
+## GNSS-SDR
+[GNSS-SDR][64] is and open source Global Navigation Satellite Systems software-defined receiver.
+
+## VBOX Automotive
+VBOX is a data acquisition systems by RACELOGIC used for measuring the speed and position of a moving vehicle.
+VBOX data loggers can record high accuracy GPS speed measurements, distance, acceleration,
+braking distance, heading, slip angle, lap times, position, cornering forces and more.
+
+* [VBOX 3i | 100Hz Data Logger](https://www.vboxautomotive.co.uk/index.php/en/products/data-loggers/vbox-3i)
+* [Racelogic](https://racelogic.support/)
+
+
+----
+
+
+# Time Keeping
+* [Stratum-1-Microserver HOWTO](https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/)
+* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [Why You Should Consider Moving From NTP to NTPsec](https://medium.com/linode-cube/why-you-should-consider-moving-from-ntp-to-ntpsec-edab616b6740)
+* [Setting the computer time using GPS](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
+* [5 minute guide to making a GPS Locked Stratum 1 NTP Server with a Raspberry Pi](https://ava.upuaut.net/?p=951)
+
+
+----
+
+
+# GPS Data Formats
+* [The Ultimate List of GIS Formats and Geospatial File Extensions](https://gisgeography.com/gis-formats/)
+* [Vector vs Raster: What’s the Difference Between GIS Spatial Data Types?](https://gisgeography.com/spatial-data-types-vector-raster/)
+
+## GPX File Format
+A GPX file is a GPS data file saved in the GPS Exchange format,
+which is an open standard XML format that can be freely used by GPS programs.
+It contains longitude and latitude location data that may include
+waypoints, routes, and tracks.
+
+GPX files can be used by a variety of applications including Google Earth, GPSRouteX, and GPX Viewer.
+GPX files store three types of data:
+
+* Waypoint - Includes GPS coordinates of a point. It may also include other descriptive information.
+* Route - Includes a list of track points, which are waypoints for turn or stage points, that lead to a destination.
+* Track - Includes a list of points that describe a path.
 
 
 ----
@@ -725,7 +883,7 @@ xauth generate :0 . trusted
 xauth add ${HOST}:0 . `xxd -l 16 -p /dev/urandom`
 ```
 
-### Step 12: Setup Python Development Environment
+### Step 12: Setup Python Development Environment - DONE
 Now create a Python Virtual Environment to support the Python tools that will be used.
 
 ```bash
@@ -747,9 +905,6 @@ virtualenvwrapper.user_scripts creating /home/pi/.virtualenvs/berrygps/bin/get_e
 workon berrygps
 
 pip install gps
-
-# activate the virtual environment
-workon dl4cv
 
 # exit/deactivate virtualenv
 deactivate
@@ -839,13 +994,99 @@ There is are several ways to see this data:
 cat /dev/serial0
 
 # scroll the data on a terminal
-sudo screen /dev/serial0 9600,cs8
+screen /dev/serial0 9600,cs8
+
+# or using the ttyAMA0 device
+cat /dev/ttyAMA0
+screen /dev/ttyAMA2 9600,cs8
 ```
+
+Every second or two, any of the satellites picked up by the GPS chip puts out some information,
+and that information is encoded in sentences, or what you see on each line.
+Each sentence encodes specific pieces of information separated by commas,
+which has a different meaning based on the first 5 (or so) characters.
+The exact specification is proprietary,
+but there is a [good online reference][02].
 
 If your [GPS has a fix][03], you would also see the green LED flash on the BerryGPS
 and the NMEA data will have almost all the comma delimited spaces filled in.
 If you have no fix, then no green LED and most of the NMEA data is empty.
 On first power up, it can take your GPS module 10 minutes to get a fix in some situations.
+
+### Step X: Manually Parsing NMEA Sentences
+The python script below accesses GPS data by connecting directly to the serial interface.
+It filters on `$GPRMC` NMEA sentences and then splits the attributes into different variables.
+
+```python
+import serial
+
+port = "/dev/serial0"
+
+def parseGPS(data):
+#    print "raw:", data #prints raw data
+    if data[0:6] == "$GPRMC":
+        sdata = data.split(",")
+        if sdata[2] == 'V':
+            print "no satellite data available"
+            return
+        print "---Parsing GPRMC---",
+        time = sdata[1][0:2] + ":" + sdata[1][2:4] + ":" + sdata[1][4:6]
+        lat = decode(sdata[3]) #latitude
+        dirLat = sdata[4]      #latitude direction N/S
+        lon = decode(sdata[5]) #longitute
+        dirLon = sdata[6]      #longitude direction E/W
+        speed = sdata[7]       #Speed in knots
+        trCourse = sdata[8]    #True course
+        date = sdata[9][0:2] + "/" + sdata[9][2:4] + "/" + sdata[9][4:6]#date
+
+        print "time : %s, latitude : %s(%s), longitude : %s(%s), speed : %s, True Course : %s, Date : %s" %  (time,lat,dirLat,lon,dirLon,speed,trCourse,date)
+
+def decode(coord):
+    #Converts DDDMM.MMMMM > DD deg MM.MMMMM min
+    x = coord.split(".")
+    head = x[0]
+    tail = x[1]
+    deg = head[0:-2]
+    min = head[-2:]
+    return deg + " deg " + min + "." + tail + " min"
+
+print "Receiving GPS data"
+ser = serial.Serial(port, baudrate = 9600, timeout = 0.5)
+while True:
+   data = ser.readline()
+   parseGPS(data)
+```
+
+Source:
+
+* [Using python with a GPS receiver on a Raspberry Pi](https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
+
+### Step X: Using `pynmea2` to Parse NMEA Sentences
+Here again, this python script accesses the GPS data by connecting directly to the serial interface.
+It filters on `$GPGGA` NMEA sentences and then uses `pynmea2` to parse the data.
+(`pynmea2` can be installed with: `pip install pynmea2`)
+
+```python
+import serial
+import pynmea2
+
+port = "/dev/serial0"
+
+def parseGPS(str):
+    if str.find('GGA') > 0:
+        msg = pynmea2.parse(str)
+        print "Timestamp: %s -- Lat: %s %s -- Lon: %s %s -- Altitude: %s %s -- Satellites: %s" % (msg.timestamp,msg.lat,msg.lat_dir,msg.lon,msg.lon_dir,msg.altitude,msg.altitude_units,msg.num_sats)
+
+serialPort = serial.Serial(port, baudrate = 9600, timeout = 0.5)
+while True:
+    str = serialPort.readline()
+    parseGPS(str)
+```
+
+Source:
+
+* [Using python with a GPS receiver on a Raspberry Pi](https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
+* [Using PySerial, PyNMEA2, and Raspberry Pi to log NMEA output](https://fishandwhistle.net/post/2016/using-pyserial-pynmea2-and-raspberry-pi-to-log-nmea-output/)
 
 ### Step 4: Install gpsd Daemon - DONE
 The Linux utility [`gpsd`][04] is a daemon that receives data from a GPS receiver,
@@ -900,7 +1141,7 @@ sudo systemctl start gpsd.socket
 ```
 
 ### Step 5: Using the gpsd Daemon - DONE
-Now run the following command to manually start `gpsd`:
+You can also run the following command to manually start `gpsd`:
 
 ```bash
 # manual start gpsd daemon
@@ -939,7 +1180,8 @@ cgps
 cgps -s       #  surpress displaying the data coming from the daemon
 
 # watches packets coming from a GPS and displays them along with diagnostic information
-gpsmon
+# -n forces gpsmon to request NMEA0183 packets instead of the raw datastream from gpsd
+gpsmon -n
 
 # collects fixes from gpsd and feeds them to a running instance of Google Earth for live location tracking
 gegps
@@ -978,7 +1220,7 @@ To get around this, you can use `gpscat` and `gpspipe` to view this data while `
 
 ```bash
 # this will give you output like 'sudo screen /dev/serial0 9600'
-gpscat -s 9600 /dev/serial0
+sudo gpscat -s 9600 /dev/serial0
 
 # gpspipe is a tool to connect to gpsd and output the received sentences to stdout
 #    -r = Output raw NMEA sentences
@@ -998,6 +1240,9 @@ GPX, or GPS Exchange Format, is an XML schema designed as a common GPS data form
 GPX Viewer - Tracks, Routes & Waypoints - https://play.google.com/store/apps/details?id=com.vecturagames.android.app.gpxviewer&hl=en_US
 
 GPS Visualizer - https://www.gpsvisualizer.com/
+
+
+-----
 
 
 # Setup fo Adafruit's Ultimate GPS
@@ -1028,11 +1273,11 @@ The GPS module has a built in data-logging capability.
 There is a microcontroller inside the module,
 with some empty FLASH memory,
 and the firmware allows sending commands to do internal logging to that FLASH.
-You simply the microcontroller "Start Logging".
+You simply tell the microcontroller "Start Logging".
 After that message is sent, the microcontroller can go to sleep
 and does not need to wake up to talk to the GPS anymore to reduce power consumption.
 The time, date, longitude, latitude, and height is logged every 15 seconds
-and only when there is a fix.
+and only when there is a satellite fix.
 The internal FLASH can store about 16 hours of data.
 It also will automatically append data so you don't have to worry
 about losing data if power is lost.
@@ -1050,7 +1295,7 @@ and will give you an additional 28 dB of gain
 (but it has a 5 meter cable so may not see this gain).
 You'll also need a [console cable][44] to easily make use of this GPS module.
 
-Ther is also a GNSS Multi-Band antenna, such as the [ANN-MB-00 GNSS multiband antenna][66].
+There is also a GNSS Multi-Band antenna, such as the [ANN-MB-00 GNSS multiband antenna][66].
 A multiband antenna is unique from other GNSS/GPS antennas
 in that it is designed to receive both the classic L1 GPS band
 and the newly launched (started in 2005) L2 GPS band.
@@ -1236,13 +1481,13 @@ while True:
 [31]:https://www.openstreetmap.org
 [32]:https://www.usgs.gov/core-science-systems/national-geospatial-program/national-map
 [33]:http://ozzmaker.com/navigating-navit-raspberry-pi/
-[34]:
-[35]:
-[36]:
-[37]:
-[38]:
-[39]:
-[40]:
+[34]:https://www.gpsworld.com/what-exactly-is-gps-nmea-data/
+[35]:https://techdifferences.com/difference-between-gps-and-dgps.html
+[36]:https://racelogic.support/01VBOX_Automotive/01General_Information/Knowledge_Base/How_Does_DGPS_(Differential_GPS)_Work%3F
+[37]:https://gisgeography.com/trilateration-triangulation-gps/
+[38]:https://confluence.qps.nl/qinsy/latest/en/world-geodetic-system-1984-wgs84-182618391.html
+[39]:https://gisgeography.com/geoid-mean-sea-level/
+[40]:https://gisgeography.com/geodesy/
 [41]:https://www.adafruit.com/product/746
 [42]:https://cdn-shop.adafruit.com/datasheets/GlobalTop-FGPMMOPA6C-Datasheet-V0A-Preliminary.pdf
 [43]:https://electronics.stackexchange.com/questions/130509/gps-antenna-when-is-an-active-antenna-really-necessary
@@ -1260,7 +1505,7 @@ while True:
 [55]:https://www.nmea.org/
 [56]:http://gpsworld.com/what-exactly-is-gps-nmea-data/
 [57]:https://www.sparkfun.com/datasheets/GPS/NMEA%20Reference%20Manual1.pdf
-[58]:
+[58]:https://gisgeography.com/ellipsoid-oblate-spheroid-earth/
 [59]:http://aprs.gids.nl/nmea/#zda
 [60]:http://www.gpsinformation.org/dale/nmea.htm#nmea
 [61]:https://www.glonass-iac.ru/en/
@@ -1269,12 +1514,12 @@ while True:
 [64]:https://gnss-sdr.org/
 [65]:http://geostar-navi.com/files/docs/geos3/geos_nmea_protocol_v3_0_eng.pdf
 [66]:https://www.sparkfun.com/products/15192
-[67]:
+[67]:http://support.virtual-surveyor.com/en/support/solutions/articles/1000261351-what-is-wgs84-
 [68]:https://learn.sparkfun.com/tutorials/lsm9ds1-breakout-hookup-guide/all
 [69]:https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/overview
 [70]:https://cdn.sparkfun.com/assets/0/b/0/f/7/u-blox8-M8_ReceiverDescrProtSpec__UBX-13003221__Public.pdf
-[71]:
-[72]:
+[71]:https://gisgeography.com/horizontal-datum/
+[72]:https://gisgeography.com/vertical-datum/
 [73]:
 [74]:
 [75]:
@@ -1282,3 +1527,4 @@ while True:
 [77]:http://standards.ieee.org/develop/regauth/oui/public.html
 [78]:https://standards.ieee.org/products-services/regauth/oui/index.html
 [79]:https://coderseye.com/how-to-clear-arp-cache-on-linux-or-unix/
+

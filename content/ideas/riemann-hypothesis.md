@@ -1,4 +1,6 @@
 * [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
+* [The Emergence of Calculus: A Mathematical Journey of Human Thought](https://medium.com/however-mathematics/the-emergence-of-calculus-a-mathematical-journey-of-human-thought-303dd0839b0a)
+* [A Critical Introduction to Mathematical Structuralism](https://medium.com/cantors-paradise/a-critical-introduction-to-mathematical-structuralism-3cb039427647)
 
 
 * [Prime Numbers on Numberphile](https://www.youtube.com/playlist?annotation_id=annotation_1659607549&feature=iv&list=PL0D0BD149128BB06F)
@@ -9,6 +11,10 @@
 * [A Short Guide to Hard Problems](https://www.quantamagazine.org/a-short-guide-to-hard-problems-20180716/)
 * [Finally, a Problem That Only Quantum Computers Will Ever Be Able to Solve](https://www.quantamagazine.org/finally-a-problem-that-only-quantum-computers-will-ever-be-able-to-solve-20180621/)
 * [The most remarkable numbers: Prime Numbers](https://medium.com/@Alikayaspor/the-most-remarkable-numbers-prime-numbers-569566e837c2)
+
+
+
+
 
 # Solutions
 * [A British mathematician thinks he’s cracked a secret worth a million bucks](https://www.popsci.com/riemann-hypothesis-proof)
@@ -29,6 +35,7 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Mathematics as thought](https://aeon.co/essays/the-secret-intellectual-history-of-mathematics)
 
 # Bernhard Riemann's Habilitation Dissertation
+* [The Pattern to Prime Numbers?](https://www.youtube.com/watch?v=dktH8hJadyU)
 * [The Riemann Hypothesis, explained - Cantor’s Paradise](https://medium.com/cantors-paradise/the-riemann-hypothesis-explained-fa01c1f75d3f)
 * [Bernhard Riemann: The Habilitation Dissertation](https://larouchepac.com/20150610/bernhard-riemann-habilitation-dissertation)
 * [Bernhard Riemann's Habilitation Dissertation](http://lymcanada.org/wp-content/uploads/sites/2/2015/01/Riemann_Habilitation-Dissertation.pdf)
@@ -52,13 +59,26 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Riemann zeta function visualization](https://github.com/empet/Math)
 * [Computer Visualization of the Riemann Zeta Function](https://hal.archives-ouvertes.fr/hal-01441140/document)
 
+# Zero
+* [Zero is nothing but a number](https://medium.com/however-mathematics/zero-is-nothing-but-a-number-a435698bf50c)
+* [A huge conflict: What is zero raised to the power of zero?](https://medium.com/however-mathematics/a-huge-conflict-what-is-zero-raised-to-the-power-of-zero-80298dc1995)
+
 # What is the Importance of Prime Numbers?
+* [Why do we need to know about prime numbers with millions of digits?](http://theconversation.com/why-do-we-need-to-know-about-prime-numbers-with-millions-of-digits-89878)
+
+# Primes and Cryptography
+The most popular example I know comes from Cryptography, where many systems rely on problems in number theory, where primes have an important role (since primes are in a sense the "building blocks" of numbers).
+
+Take for example the RSA encryption system: All arithmetic is done modulo n, with n=pq and p,q large primes. Decryption in this system relies on computing Euler's phi function, φ(n), which is hard to compute (hence the system is hard to break) unless you know the prime factorization of n (which is also hard to compute unless you know it upfront). Hence you need a method to generate primes (the Miller-Rabin primality checking algorithm is usually used here) and then you construct n by multiplying the primes you have found.
+
+* [Why Euler’s Formula for Primes could disrupt the World](https://towardsdatascience.com/why-eulers-formula-for-primes-could-disrupt-the-world-edc41bd3ba5b)
 
 # What is the Riemann Hypothesis?
 The Riemann Hypothesis is one of the [Millennium Prize Problems](http://www.claymath.org/millennium-problems/millennium-prize-problems).
 
 Best explanation of the Riemann hypothesis
 
+* [What is the Riemann Hypothesis?](https://www.youtube.com/watch?v=v9nyNBLCPks&feature=youtu.be)
 * [Riemann Hypothesis](https://www.youtube.com/watch?v=UGj6mfCSZfY&feature=youtu.be)
 * [The Riemann Hypothesis](https://www.youtube.com/watch?v=rGo2hsoJSbo&feature=youtu.be)
 * [The Key to the Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=VTveQ1ndH1c)
@@ -100,6 +120,7 @@ Researchers have discovered a deep connection between the Riemann hypothesis and
 * [From Prime Numbers to Nuclear Physics and Beyond](https://www.ias.edu/ideas/2013/primes-random-matrices)
 * [The Universal Pattern Popping Up in Math, Physics and Biology](https://www.youtube.com/watch?v=rCSndDTSkGU)
 * [In Mysterious Pattern, Math and Nature Converge](https://www.quantamagazine.org/in-mysterious-pattern-math-and-nature-converge-20130205/)
+* [Quantum Gravity, Timelessness and Complex Numbers](https://towardsdatascience.com/quantum-gravity-timelessness-and-complex-numbers-855b403e0c2f)
 
 # Some Facts About Prime Numbers
 Univerisity of Tennessee hosts
@@ -163,14 +184,7 @@ infinitely many primes of the form a + nd, where n is a non-negative integer.
 **Mathematical analysis** is the branch of mathematics dealing with limits and related theories, such as differentiation, integration, measure, infinite series, and analytic functions
 **analytic number theory** is a branch of number theory that uses methods from mathematical analysis to solve problems about the integers.
 
-# Fractional calculus and Gamma Function
-* [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
+* [What is infinity and how many of them are there?](https://medium.com/@tivadar.danka/what-is-infinity-and-how-many-of-them-are-there-c4912322b5ad)
 
-# Richard Feynman’s Integral Trick
-* [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
-* [Calculus 2: Integration, Computation of Areas and Volumes, Differential Equations](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKGna43cvDO4NZEEOdM4vcR)
 
-# Finding Pi in Unusal Places
-* [The Pi Machine: The most unexpected answer to a counting puzzle](https://medium.com/@christopher.fraser/the-pi-machine-the-most-unexpected-answer-to-a-counting-puzzle-b365db558b12)
-    * [The most unexpected answer to a counting puzzle](https://www.youtube.com/watch?v=HEfHFsfGXjs)
-    * [Why do colliding blocks compute pi?](https://www.youtube.com/watch?v=jsYwFizhncE)
+

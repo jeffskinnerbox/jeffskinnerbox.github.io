@@ -21,6 +21,9 @@ What a Mesh!
 * [Outernet](https://en.wikipedia.org/wiki/Outernet)
     * [OUTERNET RADIO FOR THE INFORMATION AGE](https://outernet.is/)
 
+Chantilly MESH
+* [Chantilly MESH](https://gathman.org/meshdoc/)
+
 PIC Mesh
 * [PIC Mesh](http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2016/bac239_aw528_rk534/bac239_aw528_rk534/bac239_aw528_rk534/index.html)
 
@@ -418,6 +421,9 @@ CJDNS implements an encrypted IPv6 network using public-key cryptography for add
 Babel, a level-2 protocal,
 is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4 with fast convergence properties.
 [Babel — a loop-avoiding distance-vector routing protocol](http://www.pps.univ-paris-diderot.fr/~jch/software/babel/)
+
+# FreeMesh
+* [How to set up your own fast, private open source mesh network](https://opensource.com/article/20/2/mesh-network-freemesh)
 
 # Meshing Raspberry Pi
 * [How to Install OpenWrt on Raspberry Pi](https://www.all4os.com/router/how-to-install-openwrt-on-raspberry-pi.html)

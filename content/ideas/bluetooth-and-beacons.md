@@ -431,6 +431,7 @@ check out the following articles:
 
 * [Increasing Wireless Security with Bluetooth Low Energy](http://eecatalog.com/IoT/2014/08/13/increasing-wireless-security-with-bluetooth-low-energy/)
 * [Security Considerations For Bluetooth Smart Devices](https://www.design-reuse.com/articles/39779/security-considerations-for-bluetooth-smart-devices.html)
+* [Bluetooth Low Energy Swiss-army knife](https://hackaday.com/2019/08/10/new-bluetooth-5-channel-hopping-reverse-engineered-for-jamming-and-hijacking/)
 
 * https://www.sans.org/reading-room/whitepapers/wireless/bluetooth-inherent-security-issues-945
 * http://www.lawtechnologytoday.org/2016/05/bluetooth-how-secure-is-it/

@@ -65,6 +65,29 @@ The device will continuously record its location, even when disconnected from th
 * A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
     * [WiGLE.net](https://wigle.net/)
 
+# WiFi and Cell ID Positioning
+Wi-Fi “sniffing” is a great way to do rough location processing.
+A sensor reads the MAC ID and signal strength of WiFi Access Points nearby,
+sends that data to the cloud.
+A WiFi MAC ID database,
+like [Google](https://developers.google.com/maps/documentation/geolocation/intro#wifi_access_point_object),
+[Wigle](https://wigle.net/),
+[SkyHook](http://www.skyhookwireless.com/submit-access-point),
+or a cell site ID with [Polet](https://www.polte.com/),
+[OpenCellid](https://opencellid.org/),
+[Mozilla Location Service (MLS)](https://location.services.mozilla.com/)
+calculates location.
+
+Traditionally, getting WiFi information required a fairly expensive Wi-Fi module,
+Semtech has released the LR1110.
+This chip includes a GPS processor, WiFi scanner, and a Lora radio
+
+* [Combain](https://combain.com/)
+* [How Google--and everyone else--gets Wi-Fi location data](http://www.zdnet.com/article/how-google-and-everyone-else-gets-wi-fi-location-data/)
+* [OpenCellid](https://opencellid.org/) - The world's largest Open Database of Cell Towers from [Unwired Labs](http://unwiredlabs.com/)
+* [Location using ESP8266 | Geolocation Without GPS Module](https://electronicsforu.com/electronics-projects/gps-geolocation-using-esp8266-projects)
+* A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
+
 ## Indoor Location
 * [WiFinder](https://github.com/mpescimoro/wi-finder)
 * [whereami](https://github.com/kootenpv/whereami)
@@ -124,4 +147,10 @@ You can learn about the habits (and later to perform social engineering). hotel 
 * [Build your own DNS name server on Linux](https://opensource.com/article/17/4/build-your-own-name-server)
 * [dnsd: DNS encoder, decoder, and server](https://github.com/ansuz/modern-dnsd)
 * [DNS Is Still the Achilles Heel of the Internet](https://www.darkreading.com/partner-perspectives/f5/dns-is-still-the-achilles-heel-of-the-internet/a/d-id/1329019?elq_mid=78743&elq_cid=23179140&_mc=NL_NWC_EDT_NWC_converations_20170606&cid=NL_NWC_EDT_NWC_converations_20170606&elqTrackId=3d7fdc6841d24f4199ac352d2062abca&elq=25cb098a61134c4e8b49e622076230d1&elqaid=78743&elqat=1&elqCampaignId=26848)
+
+# Capturing Cellphone IMSI
+An international mobile subscriber identity (IMSI) is a unique number, usually fifteen digits, associated with Global System for Mobile Communications (GSM) and Universal Mobile Telecommunications System (UMTS) network mobile phone users. The IMSI is a unique number identifying a GSM subscriber.
+
+* [You Can Easily Get Into Anybody’s Smartphone with this Tool](https://www.techtimes.com/articles/246754/20200103/you-can-easily-get-into-anybody-s-smartphone-with-this-tool.htm)
+* [How to make a simple $7 IMSI Catcher](https://www.youtube.com/watch?v=UjwgNd_as30)
 

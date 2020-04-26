@@ -11,7 +11,8 @@
 * [80 Linux Monitoring Tools](https://blog.serverdensity.com/80-linux-monitoring-tools-know/)
 * [SysUsage: the sysstat and sar grapher](http://sysusage.darold.net/index.html)
 * [10 Useful Sar (Sysstat) Examples for UNIX / Linux Performance Monitoring](http://www.thegeekstuff.com/2011/03/sar-examples/?utm_source=feedburner)
-* [14 Essential Network Troubleshooting Tools](http://www.networkcomputing.com/networking/14-essential-network-troubleshooting-tools/2076793987?elq_mid=79108&elq_cid=23179140&_mc=NL_NWC_EDT_NWC_converations_20170629&cid=NL_NWC_EDT_NWC_converations_20170629&elqTrackId=5ba0eb78902d462aa8af7b9d7c51a917&elq=bf8932920f374dcc8bb6f5e8d4ab187f&elqaid=79108&elqat=1&elqCampaignId=27125)
+* [14 Essential Network Troubleshooting Tools](http://www.networkcomputing.com/networking/14-essential-network-troubleshooting-tools/2076793987)
+* [Unix Toolbox - a collection of Unix/Linux/BSD commands for advanced users](http://cb.vu/unixtoolbox.xhtml)
 
 * [7 Common Network Latency Culprits](https://www.networkcomputing.com/networking/7-common-network-latency-culprits/851316634)
 
@@ -29,10 +30,11 @@ mitmproxy
 * [mitmproxy - Tools for Analysising and Inspecting HTTP Traffic](https://mitmproxy.org/)
 * [How To: Use mitmproxy to read and modify HTTPS traffic](https://blog.heckel.xyz/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-traffic-of-your-phone/)
 * [Decrypt your HTTPS traffic with mitmproxy](http://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/)
-
+################################################################################
 
 
 # Background
+* [Networking tutorial](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 Practical Networking
 * [OSI Model](https://www.practicalnetworking.net/series/packet-traveling/osi-model/)
 * [Key Network Elements](https://www.practicalnetworking.net/series/packet-traveling/key-players/)
@@ -206,12 +208,15 @@ any interface not listed there will remain under NetworkManager control.
     q security scanning, and auditing.
     `nmap` sends specially crafted packets to discover hosts and services on a computer network,
     thus creating a "map" of the network.
+    * [`zenmap`][91] is the official GUI for Nmap
+    It is not to replace Nmap, but to make Nmap more useful.
     * [Angry IP Scanner (`ipscan`)][75] is an open-source and cross-platform
     network scanner designed to be fast and simple to use.
     It scans IP addresses and ports as well as has many other features.
     * [`ettercap`][30] is a network security tool for man-in-the-middle attacks on LAN.
     It is capable of intercepting traffic on a network segment, capturing passwords,
     and conducting active eavesdropping against a number of common protocols.
+    * [`bettercap`][90] is like `ettercap`, but claims to be better.
     * [`netstat`][09] (network statistics) is a command-line tool that displays
     network connections for TCP (both incoming and outgoing),
     routing tables, and a number of network interface and network protocol statistics.
@@ -319,6 +324,7 @@ fprobe is a tools that listens to an interface, collects network traffic data, a
 
 Cacti
 With Cacti, networking pros can graph SNMP values over time. It's handy for utilization, UPS statistics, and work with most any SNMP-managed device. Devices can be added and monitored over long periods of time, and can track not only interface utilization, but availability and response time.
+* [How To Install and Configure an SNMP Daemon and Client on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-an-snmp-daemon-and-client-on-ubuntu-18-04)
 
 SmokePing
 The open source SmokePing tool measures network latency, packet loss, and long-term changes in latency. The software sends multiple ping packets, usually 20, to the target host, then charts out the response times for each of the ping relies. The distribution gives you an idea of variations in response times.
@@ -654,6 +660,7 @@ which gives you greater security, and allow console cables to work via
 [`screen`][101] or [`microcom`][104].
 
 
+-----
 
 
 # Using wpa_cli and wpa_supplicant
@@ -792,6 +799,9 @@ This helps avoid confusion between names that are local Bonjour computer names
 ################################################################################
 
 
+-----
+
+
 # Secure Shell (SSH)
 Secure Shell (SSH) is a cryptographic network protocol for operating network services
 securely over an unsecured network.
@@ -799,23 +809,17 @@ Typical applications include remote command-line, login, and remote command exec
 but any network service can be secured with SSH.
 
 * [Linux Fu: Stupid SSH Tricks](https://hackaday.com/2019/12/17/linux-fu-stupid-ssh-tricks/)
+* [SSH Reverse Proxy and Tunneling](https://medium.com/better-programming/ssh-reverse-proxy-and-tunneling-b6d96ab2325)
 
 ## Eliminate SSH Keys and use a GPG Keys Instead
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
 
-## Share Terminal Access (tty-share)
-tty-share enables you to do terminal sharing over the Internet.
-Its an extremely simple means for a remote person to join a shared session you establish.
-
-## Temporary Allow SSH Logins (ssh-allow-friend)
-https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
-
-
 ## SSH - Remote Unix Work
 * [Tips for remote Unix work: SSH, screen, and VNC](http://shebang.brandonmintern.com/tips-for-remote-unix-work-ssh-screen-and-vnc/)
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
+* [Tools for SSH key management](https://opensource.com/article/20/2/ssh-tools)
 
 ## The'Connection Refused' Message
 * [What causes the 'Connection Refused' message?](http://serverfault.com/questions/725262/what-causes-the-connection-refused-message)
@@ -836,6 +840,23 @@ use telnet (`telnet -l root -r 192.168.8.173`)
 to connect to the ip/port to test connectivity.
 If this fails, this removes any potential issues from your `ssh` application.
 Then you can conclude that the port is not open on the destination machine.
+
+# Share Terminal Access
+
+## tty-share
+tty-share enables you to do terminal sharing over the Internet.
+Its an extremely simple means for a remote person to join a shared session you establish.
+
+## Temporary Allow SSH Logins (ssh-allow-friend)
+https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
+
+## Teleconsole
+* [Teleconsole - Share Your Linux Terminal with Your Friends](https://www.tecmint.com/teleconsole-share-linux-terminal-session-with-friends/)
+* [How to Share a Terminal Session with Friends](https://www.maketecheasier.com/share-terminal-session-with-friends/)
+
+# Recording Terminal Session
+* [How To Record and Share Terminal Sessions Using Terminalizer on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-record-and-share-terminal-sessions-using-terminalizer-on-ubuntu-18-04)
+* [Terminalizer](https://terminalizer.com/)
 
 # Establishing a Connection
 You can use `iw` to connect to an AP directly if and only if the AP has:
@@ -1168,75 +1189,24 @@ So `arp -a` can dump the candiate devices IP Addresses via this command:
 >See the article ["How to clear ARP cache on Linux or Unix"][79]
 >to understand how to flush this cache.
 
-# IP/MAC Address Monitoring with with Arpwatch
-* https://www.youtube.com/watch?v=uqanawVLpSg
-* [Arpwatch Tool to Monitor Ethernet Activity in Linux](https://www.tecmint.com/monitor-ethernet-activity-in-linux/)
-* [How To Monitor Ethernet Activity In Linux Using Arpwatch](http://www.linuxandubuntu.com/home/how-to-monitor-ethernet-activity-in-linux-using-arpwatch)
-* [Arpwatch Home Network Monitor](https://www.virtualizationhowto.com/2016/02/arpwatch-home-network-monitor/)
 
-[`aprwatch`][74] is an open source computer software that is used for
-monitoring Address Resolution Protocol (APR) traffic on a computer network.
-With `aprwatch`, you can easily keep a log or database of all Ethernet and IP address pairings.
-That is, a list of all identified IP and MAC addresses pairings and their corresponding timestamps.
-`aprwatch` listen to APR packets on a local network to monitor ARP activity to detect
-ARP spoofing, network flip-flops, changed and new stations and address reuse.
-It also has the option of reporting these changes via email.
-
-To install `arpwatch` on Debian/Ubuntu Based Distros, do `sudo apt-get install arpwatch`.
-
-`apwatch` creates or uses some important files for its operation.
-The locations may vary a bit depending on the distro that you are using.
-
-* `/var/arpwatch` - default directory
-* `/var/arpwatch/arp.dat` - main ethernet/ip address records database
-* `/var/arpwatch/ethercodes.dat` - vendor ethernet block list
-* `/etc/rc.d/init.d/arpwatch` - arpwatch service to start or stop daemon
-* `/etc/sysconfig/arpwatch` - main configuration file
-* `/usr/sbin/arpwatch` - binary command to start and stop tool using the terminal
-* `/var/log/messages` - system log file where arpwatch writes any changes or unusual activity to IP/MAC
-
-If you want logs to be sent to a specific email address,
-edit the main configuration file to add your email address.
-Open `/etc/sysconfig/arpwatch` and edit the file with this
+------
 
 
+# Port Scanning
+Port Scanning is the name for the technique used to identify open ports and services available on a network host. It is sometimes utilized by security technicians to audit computers for vulnerabilities, however, it is also used by hackers to target victims. It can be used to send requests to connect to the targeted computers, and then keep track of the ports which appear to be opened, or those that respond to the request.
 
+Port sweeping is regarded by certain systems experts to be different from port scanning. They point out that port scanning is executed through the searching of a single host for open ports. However, they state that port sweeping is executed through the searching of multiple hosts in order to target just one specific open port. While Port scanning and sweeping have legitimate uses with regard to network management, unfortunately, they are used almost as frequently for the purpose of criminal activity.
 
+## Testing Site
+The site `http://scanme.nmap.org/` is provided by the [Nmap Security Scanner Project][29]
+and [Insecure.Org][92] to help folks learn about Nmap and also to test
+and make sure that their Nmap installation (or Internet connection) is working properly.
+It is OK to scan this machine with Nmap or other port scanners, just don't hammer it too hard.
 
+## Scan a host
+Do a `nmap` scan of a single host.
 
-
-
-# What Devices Are Connected to Your Network
-An easy way to scan your network to see what device are connected is to use [`nmap`][01].
-With this you can find out if some unknown or unwanted device is connected to it.
-
-Despite its popularity as a utility for network discovery and security auditing,
-`nmap` isn't part of the base install for Ubuntu.
-To install it, just do
-
-    sudo apt-get install nmap
-
-To begin your scan using `nmap -sP`,
-which will run a ping scan on the specified network.
-For instance, `nmap -sP 192.168.1.0/24` will scan the 256 hosts from
-192.168.1.0 through 192.168.1.255 to see if they're available, and report back.
-
-```bash
-# ????
-sudo nmap -v -sL 192.168.1.0/24
-
-# ping scan on the specified network
-sudo nmap -sP 192.168.1.0/24
-```
-
-To check to see what services are running on a box
-
-```bash
-# list what services are running
-sudo nmap -sV 192.168.1.1
-```
-
-# Scan a host
 ```bash
 # scan a host
 $ nmap www.google.com
@@ -1252,7 +1222,9 @@ PORT    STATE SERVICE
 443/tcp open  https
 
 Nmap done: 1 IP address (1 host up) scanned in 4.60 seconds
+```
 
+```bash
 # scan a subnet
 $ nmap 192.168.1.1/24
 
@@ -1343,7 +1315,9 @@ PORT     STATE SERVICE
 8009/tcp open  ajp13
 
 Nmap done: 256 IP addresses (12 hosts up) scanned in 54.41 seconds
+```
 
+```bash
 #  scan the most common 100 ports used:
 $ sudo nmap -f 192.168.1.200
 
@@ -1382,7 +1356,9 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 10.54 seconds
+```
 
+```bash
 # scan for running service
 $ sudo nmap -sV 192.168.1.200
 
@@ -1397,7 +1373,9 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 8.00 seconds
+```
 
+```bash
 # scan using a specific NSE script
 # this command will search for a potential heartbleed attack
 $ nmap -sV -p 443 -script=ssl-heartbleed.nse 192.168.1.1
@@ -1419,6 +1397,86 @@ Nmap done: 1 IP address (1 host up) scanned in 28.16 seconds
 # waits for all pings to complete and returns ip with mac address
 (echo -e "IP Address\tMAC Address" ; prefix="192.168.1" && for i in `seq 254`; do (sleep 0.5 && ping -c1 -w1 $prefix.$i &> /dev/null && arp -n | awk ' /'$prefix'.'$i' / { print $1 "\t" $3 } ') & done; wait)
 ```
+
+
+
+-----
+
+
+# What Devices Are Connected to Your Network
+
+## IP/MAC Address Monitoring with with Arpwatch
+* https://www.youtube.com/watch?v=uqanawVLpSg
+* [Arpwatch Tool to Monitor Ethernet Activity in Linux](https://www.tecmint.com/monitor-ethernet-activity-in-linux/)
+* [How To Monitor Ethernet Activity In Linux Using Arpwatch](http://www.linuxandubuntu.com/home/how-to-monitor-ethernet-activity-in-linux-using-arpwatch)
+* [Arpwatch Home Network Monitor](https://www.virtualizationhowto.com/2016/02/arpwatch-home-network-monitor/)
+
+[`aprwatch`][74] is an open source computer software that is used for
+monitoring Address Resolution Protocol (APR) traffic on a computer network.
+With `aprwatch`, you can easily keep a log or database of all Ethernet and IP address pairings.
+That is, a list of all identified IP and MAC addresses pairings and their corresponding timestamps.
+`aprwatch` listen to APR packets on a local network to monitor ARP activity to detect
+ARP spoofing, network flip-flops, changed and new stations and address reuse.
+It also has the option of reporting these changes via email.
+
+To install `arpwatch` on Debian/Ubuntu Based Distros, do `sudo apt-get install arpwatch`.
+
+`apwatch` creates or uses some important files for its operation.
+The locations may vary a bit depending on the distro that you are using.
+
+* `/var/arpwatch` - default directory
+* `/var/arpwatch/arp.dat` - main ethernet/ip address records database
+* `/var/arpwatch/ethercodes.dat` - vendor ethernet block list
+* `/etc/rc.d/init.d/arpwatch` - arpwatch service to start or stop daemon
+* `/etc/sysconfig/arpwatch` - main configuration file
+* `/usr/sbin/arpwatch` - binary command to start and stop tool using the terminal
+* `/var/log/messages` - system log file where arpwatch writes any changes or unusual activity to IP/MAC
+
+If you want logs to be sent to a specific email address,
+edit the main configuration file to add your email address.
+Open `/etc/sysconfig/arpwatch` and edit the file with this
+
+
+## IP/MAC Address Monitoring with with nmap
+An easy way to scan your network to see what device are connected is to use [`nmap`][01].
+With this you can find out if some unknown or unwanted device is connected to it.
+
+Despite its popularity as a utility for network discovery and security auditing,
+`nmap` isn't part of the base install for Ubuntu.
+To install it, just do
+
+    sudo apt-get install nmap
+
+To begin your scan using `nmap -sP`,
+which will run a ping scan on the specified network.
+For instance, `nmap -sP 192.168.1.0/24` will scan the 256 hosts from
+192.168.1.0 through 192.168.1.255 to see if they're available, and report back.
+
+```bash
+# ????
+sudo nmap -v -sL 192.168.1.0/24
+
+# ping scan on the specified network
+sudo nmap -sP 192.168.1.0/24
+```
+
+To check to see what services are running on a box
+
+```bash
+# list what services are running
+sudo nmap -sV 192.168.1.1
+```
+
+
+## IP/MAC Address Monitoring with with Zenmap
+Zenmap is just a GUI form which can be used by novice users. It completely uses nmap command line tool. So they do not have similarities or differencies. They just completes each other.
+
+* [Zenmap](http://nmap.org/zenmap/)
+* [What is Zenmap?](https://geek-university.com/nmap/what-is-zenmap/)
+* [An introduction to using Zenmap on Linux](http://www.maketecheasier.com/using-zenmap-on-linux/)
+* [Zenmap Tutorial: Audit Your Networks using Nmap GUI](http://www.linux.com/learn/tutorials/381794-audit-your-network-with-zenmap)
+
+* [How to Use Zenmap to Discover Your Network Devices](https://www.youtube.com/watch?v=wt_xMols4Ww&t=823s)
 
 # netcat
 Hacking with Netcat
@@ -1462,6 +1520,9 @@ Address:	192.168.1.1#53
 Name:	desktop.fios-router.home
 Address: 192.168.1.13
 ```
+
+-----
+
 
 # Routing
 _Routing_ is a [means of sending an IP packet from one point to another][64].
@@ -1625,6 +1686,9 @@ To check your firewall rules, use the following:
 # list your firewall rules
 sudo /sbin/iptables -L
 ```
+
+-----
+
 
 # Firewall
 * [The Linux Firewall](http://code.tutsplus.com/tutorials/the-linux-firewall--net-31748)
@@ -2326,10 +2390,6 @@ could be gathered for this cheat sheet.
 * [NMAP - A Stealth Port Scanner](http://www.csc.villanova.edu/~nadi/csc8580/S11/nmap-tutorial.pdf)
 * [Nmap Tutorial: Host Discovery](https://www.networkcomputing.com/network-security/nmap-tutorial-host-discovery/1390582372)
 
-# Zenmap
-* [Zenmap](http://nmap.org/zenmap/)
-* [An introduction to using Zenmap on Linux](http://www.maketecheasier.com/using-zenmap-on-linux/)
-* [Zenmap Tutorial: Audit Your Networks using Nmap GUI](http://www.linux.com/learn/tutorials/381794-audit-your-network-with-zenmap)
 
 # Kismet
 * [How to use Kismet: A free Wi-Fi network-monitoring tool](http://searchsecurity.techtarget.com/video/How-to-use-Kismet-A-free-Wi-Fi-network-monitoring-tool?videoId=8eb0fc2d1aa26410VgnVCM1000000d01c80aRCRD)
@@ -2433,9 +2493,9 @@ could be gathered for this cheat sheet.
 [87]:https://tmate.io/
 [88]:https://danielmiessler.com/study/tmux/
 [89]:https://www.linode.com/docs/uptime/monitoring/use-vmstat-to-monitor-system-performance/
-[90]:
-[91]:
-[92]:
+[90]:https://danielmiessler.com/study/bettercap/
+[91]:https://nmap.org/book/zenmap.html#zenmap-purpose
+[92]:https://insecure.org/
 [93]:
 [94]:
 [95]:
@@ -2480,4 +2540,8 @@ could be gathered for this cheat sheet.
 [134]:
 [135]:http://linux.die.net/man/8/iwlist
 [136]:http://linux.die.net/man/8/iwpriv
+[137]:
+[138]:
+[139]:
+[140]:
 

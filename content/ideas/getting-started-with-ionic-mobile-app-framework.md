@@ -15,7 +15,19 @@
     * [Cordova Frameworks: Ionic vs. Framework7](https://www.toptal.com/apache-cordova/frameworks-ionic-framework7)
     * [Appcelerator](https://www.appcelerator.com/)
 
+* [4 ways to create cross-platforms apps using web technologies](https://www.davrous.com/2019/01/11/4-ways-to-create-cross-platforms-apps-using-web-technologies/)
 
+
+
+
+
+
+I'm not a web / UI developer; I have very limited HTML/CSS/JavaSripts/etc skills.
+I have often struggled long and hard to create a website
+and have typically followed the easy path using frameworks like Jekyll and Pelican.
+There I said it!
+For some reason, I feel a little bit embarrassed for admitting this.
+Seems like every 12 year old know how to do web development, so why shouldn't I?
 
 
 
@@ -71,15 +83,73 @@ Ionic team keeps the framework updated by adapting to the latest trends,
 and its ecosystem has grown so huge that you can easily find tons of development
 resources from this open source community.
 
-# Progressive Web Apps
+
+-----
+
+
+# Progressive Web Apps (PWA)
+Progressive Web Apps (PWA) represent the open web moving forward in its ability
+to deliver fully-functioning applications that can be
+delivered anywhere by anyone and be used on any platform.
+PWAs don’t care if you are running iOS, Mac OS, Windows, Android or Chrome OS.
+They just need a [modern browser][26] to function in.
+In a nutshell, they represent the most flexible and versatile app platform available and up until now.
+
+The term Progressive Web Apps (PWA) was originally coined by Google in 2015,
+takes advantage of the latest technologies to combine the best of web and mobile apps.
 On the whole, Progressive Web Apps describe a collection of technologies, design concepts,
 and Web APIs that work in tandem to provide an app-like experience on the mobile web.
+Think of it as a website built using web technologies but that acts and feels like an app.
+So what does this mean to the developer and user?
 
-* [What the Heck is a Progressive Web App (PWA) Anyway?](https://it.toolbox.com/blogs/dennisstevenson/what-the-heck-is-a-progressive-web-app-pwa-anyway-102919)
+* Progressive web apps take advantage of the much larger web ecosystem, plugins and community and the relative ease of deploying and maintaining a website when compared to a native application in the respective app stores.
+* A website can be built in less time and generally be easier to deploy and maintain
+* For a mobile app, you must download it, install it and then, finally, open it. When a user finds your progressive web app, they will be able to immediately start using it. And when the user returns to the app, they will be prompted to install the app and upgrade to a full-screen experience.
+* A mobile native app can use push notifications and typically consumes less data and is much faster because some resources reside on the device. A progressive web application takes advantage of a mobile app’s characteristics, without the complications involved in maintaining a mobile application.
+* A progressive web app works in all browsers, and the experience is enhanced whenever the user’s browser is updated with new and improved features and APIs.
+* There is no compromise in the user experience with a progressive web app compared to a traditional website; however, you may have to decide what functionality to support offline, and you will have to facilitate navigation (remember that in standalone mode, the user does not have access to the back button).
+* If certain features are required for critical user actions but are not yet available due to a lack of cross-browser support, then a native mobile application might be the better option, guaranteeing the same experience for all users.
 
-* https://ionicframework.com/docs/developer-resources/progressive-web-apps/
-* [How you can make a progressive web app in an hour](https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e)
-* [Developing Progressive Web Apps (PWAs) Course](https://codelabs.developers.google.com/dev-pwa-training/)
+## What Makes a Website a Progressive Web App?
+Progressive Web Apps have the following [characteristics][22]:
+
+* **Progressive -** By definition, a progressive web app must work on any device and enhance progressively, taking advantage of any features available on the user’s device and browser.
+* **Discoverable -** Because a progressive web app is a website, it should be discoverable in search engines. This is a major advantage over native applications, which still lag behind websites in searchability.
+* **Linkable -** As another characteristic inherited from websites, a well-designed website should use the URI to indicate the current state of the application. This will enable the web app to retain or reload its state when the user bookmarks or shares the app’s URL.
+* **Responsive -** A progressive web app’s UI must fit the device’s form factor and screen size.
+* **App-like -** A progressive web app should look like a native app and be built on the application shell model, with minimal page refreshes.
+* **Connectivity-independent -** It should work in areas of low connectivity or offline.
+* **Re-engageable -** Mobile app users are more likely to reuse their apps, and progressive web apps are intended to achieve the same goals through features such as push notifications.
+* **Installable -** A progressive web app can be installed on the device’s home screen, making it readily available.
+* **Fresh -** When new content is published and the user is connected to the Internet, that content should be made available in the app.
+* **Safe -** Because a progressive web app has a more intimate user experience and because all network requests can be intercepted through service workers, it is imperative that the app be hosted over HTTPS to prevent man-in-the-middle attacks.
+
+Technically speaking, in order to call a Web App a PWA, it should have the following features:
+
+* **[Secure Contexts (HTTPS)][23] -** The web application must be served over a secure network. Being a secure site is not only a best practice, but it also establishes your web application as a trusted site especially if users need to make secure transactions. Most of the features related to a PWA such as geolocation and even service workers are available only once the app has been loaded using HTTPS.
+* **[Service Workers -][24]** A service worker is a script that allows intercepting and control of how a web browser handles its network requests and asset caching. With service workers, web developers can create reliably fast web pages and offline experiences.
+* **[Manifest File -][25]** A JSON file that controls how your app appears to the user and ensures that progressive web apps are discoverable. It describes the name of the app, the start URL, icons, and all of the other details necessary to transform the website into an app-like format.
+
+Further reading:
+* [Youtube TV is another Chromebook PWA You can Install Directly from the Play Store](https://chromeunboxed.com/youtube-tv-chromebook-pwa-install-google-play-store/)
+* [Seriously, though. What is a progressive web app?](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093)
+* [Progressive Web Apps: Escaping Tabs Without Losing Our Soul](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/)
+* [Progressive Web Apps 101: the What, Why and How](https://www.freecodecamp.org/news/progressive-web-apps-101-the-what-why-and-how-4aa5e9065ac2/)
+* [A Beginner’s Guide To Progressive Web Apps](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/)
+
+## How Do You Build a PWA?
+* [How to build a PWA from scratch with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/)
+* [Learn how to build a PWA in 5 minutes](https://medium.com/dev-channel/learn-how-to-build-a-pwa-in-under-5-minutes-c860ad406ed)
+
+## PWABuilder
+* [Publishing your PWA in the Play Store in a couple of minutes using PWA Builder](https://www.davrous.com/2020/02/07/publishing-your-pwa-in-the-play-store-in-a-couple-of-minutes-using-pwa-builder/)
+* [New PWABuilder release!](https://medium.com/pwabuilder/new-pwabuilder-release-b2932f4722a5)
+* [PWABuilder 2.0 and beyond!](https://medium.com/pwabuilder/pwabuilder-2-0-and-beyond-579ad2944fac)
+* [PWABuilder](https://www.pwabuilder.com/)
+
+
+------
+
 
 # Meteor
 Meteor is a great backend solution for Angular and Ionic apps.
@@ -209,11 +279,11 @@ https://ionicframework.com/docs/v2/native/barcode-scanner/
 [19]:https://ionicframework.com/docs/v2/native/
 [20]:http://docs.phonegap.com/phonegap-build/configuring/plugins/
 [21]:http://ngcordova.com/docs/plugins/
-[22]:
-[23]:
-[24]:
-[25]:
-[26]:
+[22]:https://developers.google.com/web/fundamentals
+[23]:https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
+[24]:https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+[25]:https://developer.mozilla.org/en-US/docs/Web/Manifest
+[26]:https://developers.google.com/web/updates/2018/09/inside-browser-part1
 [27]:
 [28]:
 [29]:

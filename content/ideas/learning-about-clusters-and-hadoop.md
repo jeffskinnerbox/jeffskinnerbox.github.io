@@ -14,6 +14,8 @@
 * [Cluster computing on the Raspberry Pi with Kubernetes](https://opensource.com/life/16/2/build-a-kubernetes-cloud-with-raspberry-pi)
 
 ## Using Raspberry Pi for Hadoop Cluster
+* [Raspberry Pi Cluster Shows You The Ropes](https://hackaday.com/2020/04/24/raspberry-pi-cluster-shows-you-the-ropes/)
+* [Five years of Raspberry Pi clusters](https://medium.com/@alexellisuk/five-years-of-raspberry-pi-clusters-77e56e547875)
 * [Raspberry Pi Supercomputer Cluster](https://www.youtube.com/watch?v=VzcarXuVUvU)
 * [Creating a Raspberry Pi-Based Beowulf Cluster](http://coen.boisestate.edu/ece/files/2013/05/Creating.a.Raspberry.Pi-Based.Beowulf.Cluster_v2.pdf)
 * [Build a Raspberry Pi cluster computer](https://www.blogdot.tv/build-a-raspberry-pi-cluster-computer/)
@@ -25,6 +27,9 @@
 * [Designing a High Performance Parallel Personal Cluster](http://hackaday.com/2016/05/09/designing-a-high-performance-parallel-personal-cluster/)
 * [Cluster HAT Kit Inc. 4 x Raspberry Pi Zero](https://www.modmypi.com/raspberry-pi/iousbanalogue-expansion-1028/interfacing-1080/cluster-hat-kit-inc.-4-x-raspberry-pi-zero/?search=Cluster%20HAT)
 * [ClusterHAT Case Assembly Instructions](https://www.modmypi.com/blog/clusterhat-case-assembly-instructions)
+
+* [Easy Parallel Computing with IPython](https://andrewmellor.co.uk/blog/articles/2015/04/30/easy-parallel/)
+
 
 ## Using Raspberry Pi Zero for Hadoop Cluster
 * [Cluster HAT v2.0](https://shop.pimoroni.com/products/cluster-hat)

@@ -26,11 +26,33 @@
 * [Stable Orientation – Digital IMU 6DOF + Arduino](http://bildr.org/2012/03/stable-orientation-digital-imu-6dof-arduino/)
 * [FreeIMU: an Open Hardware Framework for Orientation and Motion Sensing](http://www.varesano.net/projects/hardware/FreeIMU)
 
+# Kalman Filter
+* [Kalman Filters: A step by step implementation guide in python](https://towardsdatascience.com/kalman-filters-a-step-by-step-implementation-guide-in-python-91e7e123b968)
+* [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
 * [How a Kalman filter works, in pictures](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
 * [The Kalman Filter Exposed](https://hackaday.com/2019/05/14/the-kalman-filter-exposed/)
 * [Kalman Filter Simulation](https://www.cs.utexas.edu/~teammco/misc/kalman_filter/)
-* [Guide to gyro and accelerometer with Arduino including Kalman filtering](http://www.instructables.com/id/Guide-to-gyro-and-accelerometer-with-Arduino-inclu/)
 * [IMU Data Fusing: Complementary, Kalman, and Mahony Filter](http://www.olliw.eu/2013/imu-data-fusing/)
+* [Guide to gyro and accelerometer with Arduino including Kalman filtering](http://www.instructables.com/id/Guide-to-gyro-and-accelerometer-with-Arduino-inclu/)
+* [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi - Kalman Filter](http://ozzmaker.com/guide-interfacing-gyro-accelerometer-raspberry-pi-kalman-filter/)
+* [A practical approach to Kalman filter and how to implement it](http://blog.tkjelectronics.dk/2012/09/a-practical-approach-to-kalman-filter-and-how-to-implement-it/)
+* [Kalman Filters: A step by step implementation guide in python](https://towardsdatascience.com/kalman-filters-a-step-by-step-implementation-guide-in-python-91e7e123b968)
+* [The Kalman Filter and External Control Inputs](https://towardsdatascience.com/the-kalman-filter-and-external-control-inputs-70ea6bcbc55f)
+
+* [An Explanation of the Kalman Filter](https://math.stackexchange.com/questions/840662/an-explanation-of-the-kalman-filter)
+* [Yet Another Kalman Filter Explanation Article](https://towardsdatascience.com/yet-another-kalman-filter-explanation-article-be0264d99937)
+
+* [Particle Filter : A hero in the world of Non-Linearity and Non-Gaussian](https://towardsdatascience.com/particle-filter-a-hero-in-the-world-of-non-linearity-and-non-gaussian-6d8947f4a3dc)
+
+# Extended Kalman Filter
+* [Extended Kalman Filter: Why do we need an Extended Version?](https://towardsdatascience.com/extended-kalman-filter-43e52b16757d)
+* [Kalman Filter Interview](https://towardsdatascience.com/kalman-filter-interview-bdc39f3e6cf3)
+
+# Unsented Kalman Filter
+* [Making Sense of Sensing in Self Driving Cars: Understanding key fundamentals of Unscented Kalman Filters](https://medium.com/kredo-ai-engineering/making-sense-of-sensing-in-self-driving-cars-3d469c6e5e33)
+
+# Partical Filter
+* [Optimal Estimation Algorithms: Kalman and Particle Filters](https://towardsdatascience.com/optimal-estimation-algorithms-kalman-and-particle-filters-be62dcb5e83)
 
 
 
@@ -66,6 +88,11 @@ Comparison of five Inertial Measurement Unit (IMU)
 
 
 # What Is an Inertial Measurement Unit?
+An inertial measurement unit (IMU) is a device that directly measures the
+three linear acceleration components and the three rotational rate components (6-DOF) of a vehicle.
+An [IMU is a critical sensor in an autonomous vehicle][15] because
+an IMU requires no connection or knowledge of the external world.
+
 A IMU is a single unit in the electronics module
 which collects angular velocity and linear acceleration data which is sent to the main processor.
 The IMU housing actually contains multiple separate sensors.
@@ -193,7 +220,7 @@ when these sources were used individually.
 * [How Sensor Fusion Works](http://www.allaboutcircuits.com/technical-articles/how-sensor-fusion-works/)
 * [Affordable 9 DoF Sensor Fusion](https://github.com/kriswiner/MPU-6050/wiki/Affordable-9-DoF-Sensor-Fusion)
 * [Using the MPU-6050](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&cad=rja&uact=8&ved=0ahUKEwjrwsOT2d_OAhUJL8AKHf6BAV8QFghIMAY&url=http%3A%2F%2Fwww.cs.unca.edu%2F~bruce%2FFall13%2F360%2FIMU_Wk8.pptx&usg=AFQjCNFtEwtGzTZE2aWzhBIfPi6YkmmY2w&sig2=O2jChpi6xXoKH9KYnM2xLg&bvm=bv.131286987,d.dmo)
-* [A practical approach to Kalman filter and how to implement it](http://blog.tkjelectronics.dk/2012/09/a-practical-approach-to-kalman-filter-and-how-to-implement-it/)
+* [Multi-Sensor Data Fusion (MSDF) for Driverless Cars, An Essential Primer](https://medium.com/@lance.eliot/multi-sensor-data-fusion-msdf-for-driverless-cars-an-essential-primer-a1948bb8b57c)
 
 
 # Connecting with the Board
@@ -273,7 +300,7 @@ One option in that case is to use SPI instead of I2C.
 [12]:https://en.wikipedia.org/wiki/True_north
 [13]:https://en.wikipedia.org/wiki/Magnetic_declination
 [14]:https://cdn.sparkfun.com/assets/learn_tutorials/5/9/6/LIS3DH_Datasheet_DocID_17530rev1.pdf
-[15]:
+[15]:https://medium.com/@mikehorton/7-reasons-your-life-depends-on-an-accurate-imu-inertial-measurement-unit-in-a-self-driving-car-75298d5cff9e
 [16]:
 [17]:
 [18]:

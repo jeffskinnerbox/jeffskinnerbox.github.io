@@ -1,4 +1,9 @@
 
+################################################################################
+Pipe data to display via   echo -n "24,116" | nc -b -w 0 -u 192.168.1.196 1337
+example code for ESP8266 - https://cdn.hackaday.io/files/1705007294672000/esp8266_display.ino
+################################################################################
+
 I'm in search of a simple scheme to collect data from a device,
 typically to be stored for later analysis
 but occasionally to trigger some action.
@@ -79,8 +84,7 @@ Name: "MD_Parola"
   Types:  Contributed
   Versions:  [2.2.0, 2.5.0, 2.6.1, 2.6.2, 2.6.4, 2.6.5, 2.6.6, 2.7.0, 2.7.1, 2.7.2, 2.7.3, 2.7.4, 3.0.0, 3.0.1, 3.0.2]
 
-# i
-nstall the desired library
+# install the desired library
 $ arduino-cli lib install MD_Parola@3.0.2 MD_MAX72XX@3.0.2
 MD_Parola@3.0.2 downloaded
 Installed MD_Parola@3.0.2
@@ -189,6 +193,10 @@ using a device's existing speaker and mic.
 # Authorization & Configuration Web GUI
 * [Marquee Scroller (Clock, Weather, News, and More)](https://github.com/Qrome/marquee-scroller)
 
+# Include Voice Announcements
+* [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
+* [Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
+* [Resemble](https://www.resemble.ai/)
 
 
 

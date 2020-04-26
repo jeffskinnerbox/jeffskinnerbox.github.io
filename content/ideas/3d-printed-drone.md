@@ -18,6 +18,11 @@
 * [3D Printed Racing Drone - Will It Survive?](https://www.youtube.com/watch?v=vjvlB7RjnYI)
 * [ESPcopter: A Fully Customizable Drone](https://hackaday.com/2019/09/25/espcopter-a-fully-customizable-drone/)
 * [Tiny Drones Navigate Like Real Bugs](https://hackaday.com/2019/11/06/tiny-drones-navigate-like-real-bugs/)
+* [The Ball-Drone Project](https://hackaday.io/project/169823-the-ball-drone-project)
+* [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
+
+# Open Source RC Radio Transmitters
+* [OpenTX](https://www.open-tx.org/)
 
 # First Person Video (FPV)
 * [FPV Obsession](http://fpvobsession.com/)
@@ -35,3 +40,9 @@
 
 
 * [Jumper T8SG V2.0 Plus Carbon Special Edition Hall Gimbal Multi-protocol Advanced Transmitter for Flysky Frsky - Mode 2 (Left Hand Throttle)](https://www.banggood.com/Jumper-T8SG-V2_0-Plus-Carbon-Special-Edition-Hall-Gimbal-Multi-protocol-Advanced-Transmitter-for-Flysky-Frsky-p-1442802.html?ID=42482&cur_warehouse=CN)
+
+* [Lego Drone Finally Takes Off](https://hackaday.com/2020/01/15/lego-drone-finally-takes-off/)
+
+# Other
+* [The Drone That Can Play Dodgeball](https://hackaday.com/2020/03/23/the-drone-that-can-play-dodgeball/)
+* [UHF Radio Beacon for Lost RC Models](https://blog.tindie.com/2020/04/uhf-radio-beacon-lost-rc-models/)

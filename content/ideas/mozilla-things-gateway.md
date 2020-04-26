@@ -1,5 +1,6 @@
 ################################################################################
 * [3D-printed NAS](https://chapelierfou.org/blog/a-small-3d-printed-nas.html)
+* [Keeping A 3D Printed NAS Updated With The Times](https://hackaday.com/2020/01/26/keeping-a-3d-printed-nas-updated-with-the-times/)
 * [How to build your own Raspberry Pi NAS](https://www.techradar.com/how-to/computing/how-to-build-your-own-raspberry-pi-nas-1315968)
 * [Create a hardened Raspberry Pi NAS](https://blog.alexellis.io/hardened-raspberry-pi-nas/)
 * [OpenMediaVault](https://www.openmediavault.org/)
@@ -8,6 +9,7 @@
 * [Automating backups on a Raspberry Pi NAS](https://opensource.com/article/18/8/automate-backups-raspberry-pi)
 * [How-To How to Turn a Raspberry Pi Into a NAS for Whole-Home File Sharing](https://www.pcmag.com/news/372164/how-to-turn-a-raspberry-pi-into-a-nas-for-whole-home-file-sh)
 * [Sabrent USB 3.0 to SSD / 2.5-Inch SATA Hard Drive Adapter](https://www.amazon.com/Sabrent-2-5-Inch-Adapter-Optimized-EC-SSHD/dp/B011M8YACM)
+* [PiNAS dual drive Raspberry Pi NAS](https://www.geeky-gadgets.com/raspberry-pi-nas-17-02-2020/)
 
 
 * [Mozilla adds a voice assistant to its Things Gateway](https://www.gearbrain.com/mozilla-things-gateway-smart-assistant-2591942459.html)

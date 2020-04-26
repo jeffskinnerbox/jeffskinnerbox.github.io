@@ -13,6 +13,7 @@
 * [FloydHub is Heroku for Deep Learning](https://www.floydhub.com/)
 
 * [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
+* [Deepwave Digital: Making Sense of Signals](http://on-demand.gputechconf.com/gtc/2018/video/S8375/)
 
 * [Installing Keras with TensorFlow backend](https://www.pyimagesearch.com/2016/11/14/installing-keras-with-tensorflow-backend/)
 * [Install dlib on the Raspberry Pi](https://www.pyimagesearch.com/2017/05/01/install-dlib-raspberry-pi/)

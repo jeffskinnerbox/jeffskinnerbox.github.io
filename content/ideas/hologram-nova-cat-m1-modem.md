@@ -40,7 +40,14 @@ LTE Category M1 is a new cellular radio access technology optimized for low-powe
 In the US, AT&T and Verizon are the first networks to support LTE Cat-M1 technology on their existing LTE networks. (LTE Cat-M1 is a new network access technology so coverage and support will vary by network provider.)
 The Hologram Nova LTE Cat-M1 is built with u-blox R404 onboard which has band 13 support for Verizon's LTE Cat-M1 network. Future versions of the Hologram Nova and Hologram Global Dash will support global LTE Cat-M1/NB1 bands. These global Cat-M versions will ship in Q1 2018 and are available for pre-order now.
 
+
+* [Raspberry Pi Cellular IoT HAT – LTE-M & NB-IoT & eGPRS](https://sixfab.com/product/raspberry-pi-lte-m-nb-iot-egprs-cellular-hat)
+
+
 ################################################################################
+
+
+
 
 The Hologram Nova is a global, easy-to-use, and completely open source
 cellular USB modem available in 2G/3G and 4G LTE Cat-M1 models.

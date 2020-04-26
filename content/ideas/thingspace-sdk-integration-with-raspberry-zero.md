@@ -1,3 +1,8 @@
+
+
+* [Raspberry Pi Cellular IoT HAT – LTE-M & NB-IoT & eGPRS](https://sixfab.com/product/raspberry-pi-lte-m-nb-iot-egprs-cellular-hat)
+
+
 Within [Verizon Thingspace Resources][01]
 you'll find [instructions for a Raspberry Pi Ethernet/WiFi Development Kit][02].
 This give you the ability to create a Thingspace device,

@@ -1,3 +1,4 @@
+* [Networking tutorial](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 
 * [Serial Terminal Basics](https://learn.sparkfun.com/tutorials/terminal-basics)
 
@@ -126,6 +127,8 @@ The `screen` program does not (as far as we know) provide an option for local ec
 (to see what you are typing).
 Screen assumes that character echo will be supplied at the far end, not your local host.
 This can be a pain but `minicom` is an alternative that can provide local echo.
+
+* [An introduction to GNU Screen](https://opensource.com/article/17/3/introduction-gnu-screen)
 
 # Minicom
 Minicom is a terminal program, intended for use with a modem, that

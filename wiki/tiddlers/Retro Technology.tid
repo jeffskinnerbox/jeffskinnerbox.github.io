@@ -33,15 +33,13 @@ It became Computers & Electronics in November, 1982
 [[AT&T Tech Channel|http://techchannel.att.com/index.cfm]]
 - Originally-produced videos about AT&T's Technical History and the past, present and future of the world of technology.
 
-[[Advanced Mobile Phone Service (AMPS)|http://hackaday.com/2014/12/02/retrotechtacular-ma-bells-advanced-mobile-phone-service-amps/]] - The first-generation cellular technology from AT&T
+[[Advanced Mobile Phone Service (AMPS)|http://hackaday.com/2014/12/02/retrotechtacular-ma-bells-advanced-mobile-phone-service-amps/]] is the first-generation cellular technology from AT&T.
+But this was presided in the 1940's by the [[Mobile Telephone Service (MTS)|https://hackaday.com/2020/03/13/retrotechtacular-mobile-phones-1940s-style]].
 
 [[The Boy Electrician|http://www.tayloredge.com/museum/museum/TheBoyElectrician.pdf]] is an introduction to electricity and magnetism from a time when you could still build things at home that worked just like commercial gear.
 
 [[Foxhole Radio|http://bizarrelabs.com/foxhole.htm]]
 where built by GI's, during World War Two, which took advantage of readily available materials.
-
-The [[Pascaline|https://www.youtube.com/watch?v=3h71HAJWnVU]]
-was the first successful mechanical calculator. It was developed in the 1640's by the mathematician Blaise Pascal.
 
 From the mid-40s until the 90s,
 [[Heathkit|http://hackaday.com/2014/12/22/the-heathkit-mystery/]]
@@ -51,7 +49,9 @@ but there are some faint signs they may be making a
 
 A [[teleprinter|https://www.youtube.com/watch?v=HcMHam54EOI#t=516]]
 (teletypewriter, Teletype or TTY) is an electromechanical typewriter that can be used to send and receive typed messages from point to point and point to multipoint over various types of communications channels.
-Teleprinters were invented in order to send and receive messages without the need for operators trained in the use of Morse code.
+Teleprinters were invented in order to send and receive messages
+without the need for operators trained in the use of Morse code,
+and have been [[around since at least the 1930's|https://hackaday.com/2020/04/15/logging-into-linux-with-a-1930s-teletype/]].
 At there core, they were
 [[mechanical UARTs|http://hackaday.com/2015/11/13/retrotechtacular-a-mechanical-uart/]],
 converting serial bits pumping out at 110 baud and
@@ -116,6 +116,8 @@ was a well respect elective in 1974)
 but studied transistors exclusively in college.
 I used a slide ruler in High School but never used it in college,
 preferring a calculator there.
+By the way, the [[Pascaline|https://www.youtube.com/watch?v=3h71HAJWnVU]]
+was the first successful mechanical calculator. It was developed in the 1640's by the mathematician Blaise Pascal.
 
 [[Slide Rules|http://hackaday.com/2015/11/05/slide-rules-were-the-original-personal-computers/#more-175364]]
 were among the first computing tools
@@ -138,6 +140,8 @@ In 1972 Hewlett-Packard
 came out with the first scientific calculator.
 Practically overnight, the slide rule had become obsolete.
 Check out the [[history of the HP-35 pocket calculator|http://codex99.com/design/the-hp35.html]].
+I currently own, but rarely use, a [[HP 32S II|http://mycalcdb.free.fr/main.php?l=0&id=846]].
+Maybe the [[handheld calculator is too on its way out|https://hackaday.com/2020/03/02/the-last-scientific-calculator/]].
 
 It was on [[HP's version|http://www.hpmuseum.org/]]
 of this [[first Desktop Computer|http://hackaday.com/2015/12/08/retrotechtacular-a-desktop-computer-from-1965/]]

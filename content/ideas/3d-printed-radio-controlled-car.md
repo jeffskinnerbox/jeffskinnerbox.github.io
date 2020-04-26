@@ -1,4 +1,7 @@
 
+# Latest Version
+* [The Evolution of a 3D Printed Off-Road R/C Car](https://hackaday.com/2020/04/09/the-evolution-of-a-3d-printed-off-road-r-c-car/)
+    * [Tarmo4 RC Project](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit#heading=h.flrf7kcrqwuu)
 
 ################################################################################
 
@@ -44,6 +47,10 @@ The first step in doing this, is to convert the Thingiverse STL files into STEP 
 ### Open Source Radio Controller
 * [Perfecting the Open Source RC Controller](https://hackaday.com/2019/05/15/perfecting-the-open-source-rc-controller/)
 * [DEVELOPING THE ULTIMATE OPEN SOURCE RADIO CONTROL TRANSMITTER](https://hackaday.com/2019/04/03/developing-the-ultimate-open-source-radio-control-transmitter/)
+
+### RC TX/RX Protocols Explained
+* [RC TX RX PROTOCOLS EXPLAINED](https://oscarliang.com/pwm-ppm-sbus-dsm2-dsmx-sumd-difference/)
+* [DIY PWM to PPM converter for 2.4GHz receiver using Arduino](https://www.electronicsinfoline.com/pin/23450/)
 
 ## Battery
 
@@ -410,8 +417,7 @@ and did a balance charge on the battery.
 
 ## Step 4: Assembled the Whole Car - DONE
 Next I finished the physical assembly of the RC car by including a bolts
-and tight them down as required.
-I also greased all gear boxes along the drive train.
+and tight them down as required.  I also greased all gear boxes along the drive train.
 I also install the electrical components: battery, ESC, radio receiver.
 
 * **ESC** - The three wires for the motor can be connected in any order.
@@ -606,6 +612,14 @@ Donkeycar community has built a self driving library for Python.
 * [Adventures building a Self Driving RC Car](https://rahulrav.com/blog/selfdriving.html)
 * [AutoCarJetsonNano](https://github.com/bastulli/AutoCarJetsonNano)
 
+Building an Autonomous Vehicle
+* [Building an Autonomous Vehicle Part 1: Using Behavioral Cloning to make a Self-Driving Car drive like yourself](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-1-using-behavioral-cloning-to-make-a-self-driving-car-drive-92622d1c2dfe)
+* [Building an Autonomous Vehicle Part 2: Using Computer Vision to detect lane lines on road](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-2-using-computer-vision-to-detect-lane-lines-on-road-31ea3cda0cbd)
+* [Building an Autonomous Vehicle Part 3: Using Machine Learning techniques to detect vehicles on road](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-3-using-machine-learning-techniques-to-detect-vehicles-on-road-6cfdfbd926f8)
+* [Building an Autonomous Vehicle Part 4.1: Sensor Fusion and Object Tracking using Kalman Filters](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-4-1-sensor-fusion-and-object-tracking-using-kalman-filters-66589e522965)
+* [Building an Autonomous Vehicle Part 4.2: Sensor Fusion and Object Tracking using Extended Kalman Filters](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-4-2-8049cda5a92)
+* [Building an Autonomous Vehicle Part 4.3: Sensor Fusion and Object Tracking using Unscented Kalman Filters](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-4-3-2a506e57d830)
+
 ## MIT RACECAR - Jetson RACECAR - RACECAR/J
 [RACECAR/J][01] is derived from the open source [MIT RACECAR][02],
 an “open-source powerful platform for robotics research and education”.
@@ -620,6 +634,10 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 * [RACECAR/J](https://www.jetsonhacks.com/racecar-j/)
 * [What is the difference between RACECAR projects?](http://www.jetsonhacks.com/2017/06/04/what-is-the-difference-between-racecar-projects/)
 
+## Course Work
+* [MIT 6.S094: Deep Learning for Self-Driving Cars](https://selfdrivingcars.mit.edu/)
+    * https://github.com/marcotav/deepcars
+
 ## Autonomous RC Car
 The general idea that Steven Daniluk has is to take an RC car,
 attach a small computer and some sensors to it,
@@ -629,6 +647,14 @@ and enable it to drive around a track without any human controls.
 * [Ghost II — Controlling An RC Car With A Computer](https://medium.com/hackernoon/ghost-ii-controlling-an-rc-car-with-a-computer-b1d1849d9e43)
 * [Ghost III — Dead Reckoning Navigation](https://medium.com/hackernoon/ghost-iii-dead-reckoning-navigation-ffd6fd4de1cf)
 * [Ghost IV — Sensor Fusion: Encoders + IM](https://medium.com/hackernoon/ghost-iv-sensor-fusion-encoders-imu-c099dd40a7b)
+* [NAVIT](https://www.navit-project.org/)
+
+* [TFmini Plus - ToF LIDAR Range Finder](https://www.seeedstudio.com/TFmini-Plus-LIDAR-Range-Finder-based-on-ToF-p-3222.html)
+* [Homemade Lidar: OpenTOFLidar](https://hackaday.com/2020/03/24/lidar-system-isnt-just-a-rangefinder-anymore/)
+
+## OpenPilot
+[openpilot](https://github.com/commaai/openpilot)
+is open source software built to improve upon the existing driver assistance in most new cars on the road today. Tesla Autopilot like functionality for your Toyota, Honda, and more.
 
 ## Remote Racing Car
 This projects objective is to competitively a race RC cars over the internet,
@@ -656,6 +682,12 @@ a [A 4G Rover and the Benefits of a Shakedown Mission](https://hackaday.com/2019
 * [Autonomous Drifting using Machine Learning](https://www.youtube.com/watch?v=opsmd5yuBF0)
 * [Active Suspension R/C Car Really Rocks](https://hackaday.com/2020/01/13/active-suspension-r-c-car-really-rocks/)
 
+## Future Controller
+I would like to have a simple, very protable controller / telemetry device for the RC Car.
+Something as simple as this:
+
+* [Bangle.js](https://banglejs.com/)
+* [Badgy Is an ESP8266 E Ink Badge for DEF CON and More](https://www.hackster.io/news/badgy-is-an-esp8266-e-ink-badge-for-def-con-and-more-57ee5f3d54e2)
 
 
 

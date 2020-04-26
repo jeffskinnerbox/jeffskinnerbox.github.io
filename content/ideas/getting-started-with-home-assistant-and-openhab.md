@@ -5,6 +5,9 @@
 * [Making my analog doorbell smart by simply attaching a $7 sensor to it](https://partofthething.com/thoughts/making-my-analog-doorbell-smart-by-simply-attaching-a-7-sensor-to-it/)
 * [Home automation with Z-Wave, Home-Assistant, Aeon Multisensor, HUE lights, and a Raspberry Pi 2](https://partofthething.com/thoughts/home-automation-with-z-wave-home-assistant-aeon-multisensor-hue-lights-and-a-raspberry-pi-2/)
 
+* [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
+* [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
+
 # Home Assistant
 * [Hass.io](https://www.home-assistant.io/hassio/)
 * [Home Assistant](https://home-assistant.io/)
@@ -13,6 +16,8 @@
 * [works with Framework for Internal Navigation and Discovery (FIND)](https://github.com/schollz/find3)
 * [AWS IoT Environment for Home Assistant](https://www.hackster.io/mitchese/aws-iot-environment-for-home-assistant-899a1b)
 * [Integrating Snips with Home Assistant](https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77)
+* [Home Assistant Tutorials](https://www.youtube.com/playlist?list=PLLydq6ff7NvJ1ioQSVRCt2FJK9EFzRKWr)
+* [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 
 ## LANnouncer
 LANnouncer is a device driver for the Samsung SmartThings home automation hub, bringing audio alerts to the system through any connected Android device.
@@ -21,7 +26,8 @@ LANnouncer is a device driver for the Samsung SmartThings home automation hub, b
 
 ## ESPHome
 * [ESPHome](https://esphome.io/)
-*  [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
+* [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
+* [Roll Your Own Automation With ESPHome](https://hackaday.com/2020/04/20/roll-your-own-automation-with-esphome/)
 
 ## Hass.io
 Hass.io turns your Raspberry Pi (or another device) into the ultimate home automation hub powered by Home Assistant. With Hass.io you can focus on integrating your devices and writing automations.
@@ -84,6 +90,8 @@ Hass.io turns your Raspberry Pi (or another device) into the ultimate home autom
 ## Hardware Platform
 * [Introducing the Raspberry Pi 2](http://hackaday.com/2015/02/02/introducing-the-raspberry-pi-2/)
 * [UPS PIco - Uninterruptible Power Supply with Peripherals and I2C control Interface](http://www.rpiblog.com/2015/01/ups-pico-uninterruptible-power-supply.html)
+* [PiVoyager: the smart UPS for the Raspberry Pi](https://www.tindie.com/products/omzlo/pivoyager-the-smart-ups-for-the-raspberry-pi/)
+* [PiVoyager: installation and tutorial](https://www.omzlo.com/articles/pivoyager-installation-and-tutorial)
 
 ### Network Booting
 The latest Raspberry Pis, version 4, ship with Preboot Execution Environment (PXE) boot enabled,

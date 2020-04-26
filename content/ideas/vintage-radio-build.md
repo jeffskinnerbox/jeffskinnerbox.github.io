@@ -2,6 +2,9 @@
 * [the mysteries of RF modulation](https://hackaday.com/2019/01/22/understanding-modulated-rf-with-w2aew/)
 * [FM Signal Detection The Pulse-Counting Way](https://hackaday.com/2019/08/28/fm-signal-detection-the-pulse-counting-way/)
 
+# The Power of Radio
+* [A Dangerous Demonstration Of The Power Of Radio](https://hackaday.com/2020/04/16/a-dangerous-demonstration-of-the-power-of-radio/)
+
 # Early Radio Types
 https://en.wikipedia.org/wiki/History_of_radio
 
@@ -37,6 +40,7 @@ Virtually all modern radio receivers use the superheterodyne principle.
 
 * https://en.wikipedia.org/wiki/Superheterodyne_receiver
 * [Superheterodyne Radios Explained/](https://hackaday.com/2019/01/02/superheterodyne-radios-explained/)
+* [SIMPLE SUPERHETERODYNE SW RECEIVER HARKS BACK ALMOST 100 YEARS](https://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 
 # Crystal Radio
 ![lost-knowladge](http://i0.wp.com/cdn.makezine.com/uploads/2009/02/lk_banner2.jpg?resize=189%2C207)
@@ -65,6 +69,9 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [Crystal Radios / Fox Hole Radios: For me, it all started here](http://www.n6cc.com/crystal-radios-it-started-here)
 * [A Modern Take On The Crystal Radio](https://hackaday.com/2018/01/19/a-modern-take-on-the-crystal-radio/)
 * [Simple Radios](https://scitoys.com/scitoys/scitoys/radio/radio.html)
+* [Edwin Armstrong’s Battle For FM Radio](https://hackaday.com/2018/07/24/edwin-armstrongs-battle-for-fm-radio/)
+* [Crosley VIII and XJ](https://www.youtube.com/watch?v=lY44V_BH_DA)
+    * [MORE POWER: POWEL CROSLEY AND THE CINCINNATI FLAMETHROWER](https://hackaday.com/2017/02/06/more-power-powel-crosley-and-the-cincinnati-flamethrower/)
 
 # Spark Gap Radio
 * [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)

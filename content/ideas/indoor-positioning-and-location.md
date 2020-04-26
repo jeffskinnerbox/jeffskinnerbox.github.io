@@ -28,12 +28,28 @@
 * [Python version - FIND GitHub](https://github.com/kootenpv/find)
 * [find-lf - extension of FIND, the Framework for Internal Navigation and Discovery](https://github.com/schollz/find-lf)
 
-# Cell ID and WiFi Positioning
+# WiFi and Cell ID Positioning
+Wi-Fi “sniffing” is a great way to do rough location processing.
+A sensor reads the MAC ID and signal strength of WiFi Access Points nearby,
+sends that data to the cloud.
+A WiFi MAC ID database,
+like [Google](https://developers.google.com/maps/documentation/geolocation/intro#wifi_access_point_object),
+[Wigle](https://wigle.net/),
+[SkyHook](http://www.skyhookwireless.com/submit-access-point),
+or a cell site ID with [Polet](https://www.polte.com/),
+[OpenCellid](https://opencellid.org/),
+[Mozilla Location Service (MLS)](https://location.services.mozilla.com/)
+calculates location.
+
+Traditionally, getting WiFi information required a fairly expensive Wi-Fi module,
+Semtech has released the LR1110.
+This chip includes a GPS processor, WiFi scanner, and a Lora radio
+
 * [Combain](https://combain.com/)
 * [How Google--and everyone else--gets Wi-Fi location data](http://www.zdnet.com/article/how-google-and-everyone-else-gets-wi-fi-location-data/)
-* [SkyHook](http://www.skyhookwireless.com/submit-access-point)
-* [Wigle](https://wigle.net/)
 * [OpenCellid](https://opencellid.org/) - The world's largest Open Database of Cell Towers from [Unwired Labs](http://unwiredlabs.com/)
+* [Location using ESP8266 | Geolocation Without GPS Module](https://electronicsforu.com/electronics-projects/gps-geolocation-using-esp8266-projects)
+* A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
 
 # What3Words
 With what3words, the entire planet into three-meter squares and assigned each a unique,

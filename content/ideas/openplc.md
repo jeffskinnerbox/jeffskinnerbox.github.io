@@ -2,6 +2,9 @@
 * [What Is a PLC? An Introduction to Programmable Logic Controllers](https://www.allaboutcircuits.com/technical-articles/what-is-a-plc-introduction-to-programmable-logic-controllers/)
 * [An Overview of Software Languages for Programmable Logic Controllers (PLCs)](https://www.allaboutcircuits.com/technical-articles/overview-software-languages-for-programmable-logic-controllers-plcs)
 * [Ladder Logic in Programmable Logic Controllers (PLCs)](https://www.allaboutcircuits.com/technical-articles/ladder-logic-programmable-logic-controller/)
+* [Model-based control: Raspberry Pi vs programmable logic controllers](https://www.controlglobal.com/articles/2020/raspberry-pi-vs-plc-for-model-based-control/)
+
+* [Ignition SCADA + MKR WiFi 1010](https://www.hackster.io/NRobinson2/ignition-scada-mkr-wifi-1010-4d2284)
 
 
 

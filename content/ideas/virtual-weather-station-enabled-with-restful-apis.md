@@ -1,4 +1,7 @@
 
+# Collecting Weather Data
+* [WeatherCollector](https://github.com/CorentinJ/WeatherCollector) - A python script to collect daily weather data from anywhere in the world within any time range
+
 # Calling Home via Satellite
 * [PR-Holonet: Disaster Area Emergency Comms](https://hackaday.io/project/140426-pr-holonet-disaster-area-emergency-comms)
 * [RockBLOCK Mk2 - Iridium SatComm Module](https://www.sparkfun.com/products/13745)
@@ -10,6 +13,7 @@ Nice Design
 * [Weather Pyramid](https://hackaday.io/project/153208-weather-pyramid)
 * [ESP8266 Weather Station - with Wind and Rain Sensors](https://tysonpower.de/blog/esp8266-weather-station)
 * [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)
+* [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 * [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
 * [Solar Powered WiFi Weather Station V2.0](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station-V20/)
 * [Checking The Weather Without A Window](https://hackaday.com/2018/04/27/checking-the-weather-without-a-window/)
@@ -18,6 +22,7 @@ Nice Design
 * [IoT Made Simple: Home Weather Station With NodeMCU and OLED](https://www.hackster.io/mjrobot/iot-made-simple-home-weather-station-with-nodemcu-and-oled-27d3a9)
 * [Desktop Weather Monitor Leaves Nothing to Chance](https://hackaday.com/2019/05/19/desktop-weather-monitor-leaves-nothing-to-chance/)
 * [Analog VU Meter - I2C OLED SH1106 - OLEDMeter Animation](https://forum.arduino.cc/index.php?PHPSESSID=u75qua3pd504eg6p24m9bcpal0&topic=403234.msg2773633#msg2773633)
+* [Laser Draws Weather Report](https://hackaday.com/2018/06/23/laser-draws-weather-report/)
 
 * [The Solid State Weather Station](https://hackaday.com/2018/05/17/the-solid-state-weather-station/)
 * [Weather Station – DHT11, MQTT, Node-RED, Google Chart, Oh My!](http://www.internetoflego.com/weather-station-dht11-mqtt-node-red-google-chart-oh-my/)
@@ -184,6 +189,7 @@ Open `server.js` and replace its content as follows:
 
 # Hardware Design
 * [ESP8266 weather station with e-paper display](http://embedded-lab.com/blog/esp8266-weather-station-e-paper-display/)
+* [7.5inch Passive NFC-Powered e-Paper without Battery](https://www.seeedstudio.com/7-5inch-Passive-NFC-Powered-e-Paper-without-Battery-p-4494.html)
 * [ESP8266 Weather display}(https://github.com/andrei7c4/weatherdisplay)
 * [Run a Linux Terminal on Cheap E-Ink Displays](https://hackaday.com/2018/08/14/run-a-linux-terminal-on-cheap-e-ink-displays/)
 
@@ -220,6 +226,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [Raspberry Shake Detects Quakes](https://hackaday.com/2018/08/25/raspberry-shake-detects-quakes/)
 * [Raspberry Shake - The Personal Seismograph](http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/12810/Raspberry-Shake--The-Personal-Seismograph.aspx) ([shop](http://www.raspberryshake.org/)
 * [Raspberry Shake - Home Earthquake Monitor (RS1D)](https://www.sparkfun.com/products/14835)
+* [BUILD A SEISMOGRAPH WITH RASPBERRY SHAKE](https://www.blogdot.tv/build-a-seismograph-with-raspberry-shake/)
 * [Raspberry Pi-powered boom sensor: Detect earthquakes, H-bombs, SpaceX launches](http://www.zdnet.com/article/raspberry-pi-powered-boom-sensor-detect-earthquakes-h-bombs-spacex-launches/)
 * [Watch Earthquake Roll Across A Continent In Seismograph Visualization Video](https://hackaday.com/2019/07/22/watch-earthquake-roll-across-a-continent-in-seismograph-visualization-video/)
 * [Simple Seismic Sensor Makes Earthquake Detection Personal](https://hackaday.com/2019/10/28/simple-seismic-sensor-makes-earthquake-detection-personal/)

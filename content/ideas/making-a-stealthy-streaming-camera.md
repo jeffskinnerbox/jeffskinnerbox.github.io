@@ -10,6 +10,8 @@
 # ESP32-CAM or ESP32-EYE + Omnivision camera
 * [How to make a small, low-cost, remote accessible security camera with an ESP32](https://www.nabto.com/esp32/)
 * [Matchbox-Sized P2P Remote Accessible Camera with ESP32](https://www.hackster.io/crgregersen/matchbox-sized-p2p-remote-accessible-camera-with-esp32-a41126)
+* [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
+* [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
 
 
 >**stealthy**, adjective [stel-thee]
