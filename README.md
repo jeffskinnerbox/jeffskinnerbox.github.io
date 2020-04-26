@@ -3,7 +3,9 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-![work-in-progress](http://worktrade.eu/img/uc.gif "These materials require additional work and are not ready for general use.")
+<div align="center">
+<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+</div>
 
 ---
 
