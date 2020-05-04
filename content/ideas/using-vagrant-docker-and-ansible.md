@@ -245,8 +245,9 @@ so you can copy files to your VM like you would normally do with `scp`.
 # list plugins currently installed
 vagrant plugin list
 
-# install host updater plugin
+# install host updater and other plugin
 vagrant plugin install vagrant-hostsupdater
+vagrant plugin install vagrant-scp
 
 # uninstall the plugins
 vagrant plugin uninstall vagrant-hostsupdater

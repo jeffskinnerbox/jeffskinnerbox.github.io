@@ -2,6 +2,7 @@
 * [Supercharge JavaScript development in Atom](https://medium.com/@satya164/supercharged-javascript-development-in-atom-ea034e22eabc)
 
 
+* [Tmux for mere mortals](https://zserge.com/posts/tmux/)
 * [A tmux Primer](https://danielmiessler.com/study/tmux/)
 * [A quick introduction to tmux](https://opensource.com/article/17/2/quick-introduction-tmux?sc_cid=701600000012072AAA)
 * [A guide to Tmux that will increase your productivity](https://apiumtech.com/blog/tmux-cheat-sheet-tips-tricks/)

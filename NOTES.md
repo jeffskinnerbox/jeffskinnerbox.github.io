@@ -1,3 +1,9 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+
 # Installation of Pelican
 To install Pelican and its dependancies
 

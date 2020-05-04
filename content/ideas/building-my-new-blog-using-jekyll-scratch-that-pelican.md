@@ -389,9 +389,9 @@ It goes like this:
 Launch Terminal
     : You open your favorate terminal tool and change directory to your Jekyll directory. In my case it `cd ~/myblog`.
 Generate  Post
-    : To create a new post in the _posts directory, you type following command
+    : To create a new post in the \_posts directory, you type following command
 Use Your Favorite Editor
-    : Launch your favorite editor to write the post. This is the best part of all.  Your using a very fimilar editor to create the post.  In my case, this is done with `vim _post/"title of the post"`.
+    : Launch your favorite editor to write the post. This is the best part of all.  Your using a very fimilar editor to create the post.  In my case, this is done with `vim \_post/"title of the post"`.
 Add Proper Front Matter
     : I have customized my Jekyll blog a lot and now it supports a lot of varibles, I’m including some variables below with some sample data, for my own reference.
 Generating Post in `_site` Directory
@@ -556,7 +556,7 @@ as an example, mine now looks like this:
 And that's it; just give your DNS time to update and away you go.
 
 You can use the `[dig][59]` command to confirm that you have set it correctly.
-In my case, I run this command `dig www.jeffskinnerbox.me +nostats +nocomments +nocmd`
+/instaln my case, I run this command `dig www.jeffskinnerbox.me +nostats +nocomments +nocmd`
 to perform a DNS lookup and got the following results:
 
 ```bash

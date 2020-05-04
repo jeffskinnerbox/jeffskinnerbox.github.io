@@ -754,6 +754,7 @@ WiFi Configuration Via Command Line
 * [Wireshark · OUI Lookup Tool](https://www.wireshark.org/tools/oui-lookup.html)
 * [Wireshark Packet Capture: Tshark Vs. Dumpcap](https://www.networkcomputing.com/networking/wireshark-packet-capture-tshark-vs-dumpcap/1149900924)
 * [Deep Dive Packet Analysis with Wireshark](https://www.networkcomputing.com/sites/default/files/resources/nwc/Pennacchi__Deep_Dive_Packet_Analysis_Interop_2018.pdf)
+* [Use Wireshark at the Linux command line with TShark](https://opensource.com/article/20/1/wireshark-linux-tshark)
 
 ################################################################################
 

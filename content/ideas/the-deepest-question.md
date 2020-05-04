@@ -8,6 +8,14 @@ published a now classic article on the philosophy of mathematics and of physics,
 [How math and science move in opposite directions](https://medium.com/@jblake17/how-math-and-science-move-in-opposite-directions-53820a836c4c)
 
 # Philosophy
+It may be wise to learn a little more about philosophy to truly appreciate and master the topics below.
+Philosophy is the systematic and critical study of fundamental questions that arise
+about existence, logic, knowledge, values, reason, mind, and language.
+The philosophical methods include questioning, critical discussion, rational argument, and systematic presentation.
+
+So [what is Philosophy][04], [why do you need to know about it][05], [is it at all useful][06],
+and  after all, [isn't it dead][07]?
+
 * [Carneades.org](https://carneades.org/)
 * [Youtube: Carneades.org](https://www.youtube.com/user/carneadesofcyrene)
 
@@ -27,6 +35,7 @@ published a now classic article on the philosophy of mathematics and of physics,
 
 # The Infinite and Infinitesimal
 * [What is infinity and how many of them are there?](https://medium.com/@tivadar.danka/what-is-infinity-and-how-many-of-them-are-there-c4912322b5ad)
+* [Infinities are not made equal](https://towardsdatascience.com/infinities-are-not-made-equal-7f707e055efa)
 * [Understanding Cantor’s Mathematical Infinity](https://medium.com/however-mathematics/understanding-cantors-mathematical-infinity-bc9ffe7465da)
 * [The Opposite of Infinity - Numberphile](https://www.youtube.com/watch?v=WYijIV5JrKg&t=215s)
 * [The Infinitesimal Monad - Numberphile](https://www.youtube.com/watch?v=BBp0bEczCNg)
@@ -101,10 +110,10 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 [01]:https://en.wikipedia.org/wiki/Eugene_Wigner
 [02]:https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences
 [03]:https://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html
-[04]:
-[05]:
-[06]:
-[07]:
+[04]:https://www.youtube.com/watch?v=ZqOmPbats6w
+[05]:https://www.brown.edu/academics/philosophy/undergraduate/philosophy-what-and-why
+[06]:https://www.youtube.com/watch?v=zOGXvSsksSw
+[07]:https://www.youtube.com/watch?v=H0lQAcqcmSg
 [08]:
 [09]:
 [10]:

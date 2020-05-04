@@ -231,6 +231,12 @@ Ryu supports various protocols for managing network devices, such as OpenFlow, N
 * [Tutorial&1: SDN for Engineers](https://web.archive.org/web/20130116072451/http://www.stanford.edu/~brandonh/ONS/OpenFlowTutorial_ONS_Heller.pdf)
 * [Grotto Networking: SDN Fun](https://www.grotto-networking.com/SDNfun.html#a-graph-with-attributes-and-json-export)
 * [Ryu SDN and other related things](https://www.youtube.com/user/ConfigTerm/search?query=ryu)
+* [Create a SDN on Linux with open source](https://opensource.com/article/20/4/quagga-linux)
+
+# Quagga
+[Quagga](https://www.quagga.net/) is a routing software suite,
+providing implementations of OSPFv2, OSPFv3, RIP v1 and v2,
+RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD.
 
 
 

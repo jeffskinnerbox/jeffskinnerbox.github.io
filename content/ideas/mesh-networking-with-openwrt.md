@@ -207,6 +207,7 @@ Invisible Internet Project (I2P)
 
 Freenet
 :   xxx [Freenet][06]
+    [How to set up your own fast, private open source mesh network](https://opensource.com/article/20/2/mesh-network-freemesh)
 
 Darknet
 :   An anonymizing overlay network, usually running over the internet. Examples: Tor, i2p, freenet.

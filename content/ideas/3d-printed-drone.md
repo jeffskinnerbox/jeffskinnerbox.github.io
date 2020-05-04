@@ -46,3 +46,5 @@
 # Other
 * [The Drone That Can Play Dodgeball](https://hackaday.com/2020/03/23/the-drone-that-can-play-dodgeball/)
 * [UHF Radio Beacon for Lost RC Models](https://blog.tindie.com/2020/04/uhf-radio-beacon-lost-rc-models/)
+* [A DIY Functional F-35 Is No Simple Task](https://hackaday.com/2020/04/27/a-diy-functional-f-35-is-no-simple-task/#more-407964)
+* [A Micro RC Plane Builder Shares His Tricks](https://hackaday.com/2017/02/10/a-micro-rc-plane-builder-shares-his-tricks/)

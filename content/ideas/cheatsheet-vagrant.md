@@ -29,14 +29,15 @@ Be sure that you are in the same directory as the Vagrantfile when running these
 - `vagrant suspend`     -- suspends a virtual machine (remembers state)
 
 # Cleaning Up a VM
-- `vagrant destroy`     -- stops and deletes all traces of the vagrant machine
-- `vagrant destroy -f`   -- same as above, without confirmation
+- `vagrant destroy`        -- stops and deletes all traces of the vagrant machine
+- `vagrant destroy <ID>`   -- delete vagran machine of the referanced ID (e.g. `vagrant destroy e4981e5ec1db498b9fac379c7aea095b`)
+- `vagrant destroy -f`     -- same as above, without confirmation
 
 # Boxes
 - `vagrant box list`              -- see a list of all installed boxes on your computer
 - `vagrant box add <name> <url>`  -- download a box image to your computer
 - `vagrant box outdated`          -- check for updates vagrant box update
-- `vagrant boxes remove <name>`   -- deletes a box from the machine
+- `vagrant boxes remove <name>`   -- deletes a box from the machine (e.g. `vagrant box remove ubuntu/bionic64` or `vagrant box remove ubuntu/disco64 --box-version=20191204.0.0`)
 - `vagrant package`               -- packages a running virtualbox env in a reusable box
 
 # Saving Progress

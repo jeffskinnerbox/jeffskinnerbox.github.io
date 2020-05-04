@@ -11,6 +11,7 @@ From Stuart Gathman
 * Protocol: BATMAN-ADV
 * Encryption: None
 
+* [Setting up an Ad-Hoc Mesh Network with Raspberry Pi 3B+ using BATMAN-Adv](https://medium.com/swlh/setting-up-an-ad-hoc-mesh-network-with-raspberry-pi-3b-using-batman-adv-1c08ee565165)
 * [CJDNS Adhoc node](http://www.instructables.com/id/CJDNS-Adhoc-Node/?ALLSTEPS)
 * [Creating a basic Batman-adv mesh](http://www.radiusdesk.com/technical_discussions/batman_basic)
 * [RADIUSDESK](http://www.radiusdesk.com/technical_discussions)

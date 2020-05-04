@@ -1,10 +1,15 @@
+
+# Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+# Version:      1.1.0
 #
-# This file specifies intentionally untracked files that Git should ignore. 
+# DESCRIPTION:
+# This file specifies intentionally untracked files that Git should ignore.
 #
 # Each line in this .gitignore file specifies a regular expression pattern
 # that, when matched, the coresponding file will NOT be include in Git processing.
-#
-### ---------- Project Specific Files ---------- ###
+
+
+### --------------------------- Project Specific --------------------------- ###
 
 lib/
 local/
@@ -15,10 +20,9 @@ include/
 pelican-themes/
 pelican-plugins/
 
-### -------------- General Files --------------- ###
+### ------------------------------- General -------------------------------- ###
 
-### -- Compiled Source -- ###
-*.pid
+### Compiler and Linker Files ###
 *.pyc
 *.com
 *.class
@@ -26,8 +30,10 @@ pelican-plugins/
 *.exe
 *.o
 *.so
+*.bin
+*.elf
 
-### -- Packages -- ###
+### Packages ###
 *.7z
 *.dmg
 *.gz
@@ -37,12 +43,23 @@ pelican-plugins/
 *.tar
 *.zip
 
-### -- Logs & Databases -- ###
+### Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+### Logs & Databases ###
 *.log
 *.sql
 *.sqlite
+.ipynb_checkpoints
+.ropeproject
+__pycache__
 
-### -- OS Generated Files -- ###
+### OS Generated Files ###
 *.out
 *.swp
 .DS_Store
@@ -53,3 +70,4 @@ pelican-plugins/
 Icon?
 ehthumbs.db
 Thumbs.db
+

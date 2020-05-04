@@ -4,7 +4,6 @@
 * [Neural Network Learns SDR Ham Radio](https://hackaday.com/2017/12/16/neural-network-learns-sdr-ham-radio/)
 * [Jetson TX1](https://blogs.nvidia.com/blog/2016/07/07/deep-learning-cats-lawn/)
 * [nVidia’s Jetson TX1: Embedded Computer Vision](https://blog.hyperiondev.com/index.php/2017/11/15/nvidias-jetson-tx1-embedded-computer-vision/)
-* [JetsonHacks: Install Samsung SSD on NVIDIA Jetson TX1](http://www.jetsonhacks.com/2017/01/28/install-samsung-ssd-on-nvidia-jetson-tx1/)
 * [NVIDIA Jetson TX2 Delivers Twice the Intelligence to the Edge](https://devblogs.nvidia.com/jetson-tx2-delivers-twice-intelligence-edge/)
 * [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.kickview.com/building-a-digits-dev-machine-on-ubuntu-16-04/)
 * [The NVIDIA Jetson TX1 Developer Kit: A Tiny, Low Power, Ultra Fast Computer](https://www.linux.com/learn/nvidia-jetson-tx1-developer-kit-tiny-low-power-ultra-fast-computer)
@@ -36,30 +35,9 @@
 * [How to use OpenCV’s “dnn” module with NVIDIA GPUs, CUDA, and cuDNN](https://www.pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/)
 
 
-# Snap
-Canonical has deployed Snappy Ubuntu Core,
-a tiny Linux-based operating system for large-scale cloud container deployments,
-IoT devices, mobile phones, and anything that needs transitional updates and tiny footprint.
-Snappy Ubuntu Core works more or less like Google’s Chrome OS where
-it offers transitional image based updates for the system and apps that can be rolled back,
-along with confinement that is known in the container world.
-
-But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https://thenewstack.io/canonicals-snap-great-good-bad-ugly/)" nicely outlines, does the world need another containerizer on Linux?
-
-
-
-# FloydHub is Heroku for Deep Learning
-https://www.floydhub.com/  -   It never ceases to amaze me how what I once considered difficult or requiring special skills can become easy or common almost overnight!!
-
 
 
 ################################################################################
-
-* [Measuring Machine Learning](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
-    * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
-    * [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
-    * []()
-
 
 
 I have heard of the NVIDIA Jetson TX1 but was put off by its $600 price tag.
@@ -74,18 +52,31 @@ on-line at Lawrence Livermore National Laboratory, running at 1T FLOPs (nearly 4
 to replace live weapons testing by simulating nuclear weapon tests.
 (ASCI stand for [Accelerated Strategic Computing Initiative][05]).
 
-[understanding supercomputer performance][09]
-
-[What is a FLOP?][10]
-[What makes a computer "super"?][11]
-[floating point operations per second (FLOPS)][08]
-
-For comparison, a handheld calculator performs relatively few FLOPS.
+For comparison, a handheld calculator performs relatively few FLOPS
+([What is a FLOP?][10]).
 A computer response time below 0.1 second in a calculation context is
 usually perceived as instantaneous by a human operator,
 so a simple calculator needs only about 10 FLOPS to be considered functional ([source][08]).
-The NVIDIA Jetson TX1 Maxwell architecture with 256 CUDA cores
-delivering over 1 TeraFLOPs of performance.
+The NVIDIA Jetson TX1 Maxwell architecture
+with quad-core ARM Cortex-A57, 4GB RAM, 16GB of [eMMC storage][18], and integrated 256-core Maxwell GPU
+delivering over 1 TeraFLOPs of performance while consuming 10 watts of power ([source][17]).
+
+Because of the small size of the Jetson TX1 processor,
+it is tempting to compare other small machines like the various Raspberry Pis, BeagleBone Black, etc.
+Any such comparison should look beyond the CPU and consider the performance advantage
+offered by the NVIDIA Maxwell GPU.
+The GPU can perform many general-purpose tasks, as well as,
+image manipulation and mathematics used in high-end robotics.
+See some benchmarking done [here][19].
+
+Unlike many other small Linux machines,
+the Jetson TX1 wants you to have a desktop machine with 64-bit Ubuntu running on it in order to get started.
+This makes things simpler for loading the many [software installations supported by the Jetson][20].
+
+[understanding supercomputer performance][09]
+[What makes a computer "super"?][11]
+[floating point operations per second (FLOPS)][08]
+
 
 # NVIDIA Jetson
 The "Nvidia Jetson" is a brand name for a series of computation processor boards from Nvidia.
@@ -107,6 +98,91 @@ Maxwell is NVIDIA's 2014 GPU architecture succeeding its Kepler GPU architecture
 * [Hands-On: New Nvidia Jetson Nano is More Power In A Smaller Form Factor](https://hackaday.com/2019/03/18/hands-on-new-nvidia-jetson-nano-is-more-power-in-a-smaller-form-factor/)
 * [Hands On With Nvidia's New Jetson Nano](https://www.extremetech.com/computing/288153-hands-on-with-nvidias-new-jetson-nano)
 * [Google Coral Edge TPU vs NVIDIA Jetson Nano: A quick deep dive into EdgeAI performance](https://blog.usejournal.com/google-coral-edge-tpu-vs-nvidia-jetson-nano-a-quick-deep-dive-into-edgeai-performance-bc7860b8d87a)
+
+## Jetson TX1
+* [End of Life](https://developer.nvidia.com/embedded/jetson-tx1-developer-kit)
+
+## Jetson TX2
+* [NVIDIA Jetson TX2 Delivers Twice the Intelligence to the Edge](https://devblogs.nvidia.com/jetson-tx2-delivers-twice-intelligence-edge/)
+## Jetson Nano
+
+# Physical Assembly
+
+## Enclosure
+[JIANGRUI Acrylic TXShell: Jetson Enclosure for your Nvidia Jetson TX1 TX2 Developer Kits](https://www.amazon.com/JIANGRUI-Acrylic-TXShell-Enclosure-integrated/dp/B072VXYCRZ/)
+
+## Installing SSD Drive
+The on-board eMMC storage is more than enough room for Linux and a large application, but that amount can easily be overrun if a lot of data storage is needed.
+
+Purchased the [Samsung 850 PRO - 256GB][16] drive.
+
+* [Install Samsung SSD on NVIDIA Jetson TX1](https://www.jetsonhacks.com/2017/01/28/install-samsung-ssd-on-nvidia-jetson-tx1/)
+* [Install Samsung SSD on NVIDIA Jetson TX1](https://www.youtube.com/watch?v=6nzWt42mzqk)
+* [Develop on SSD - NVIDIA Jetson TX Dev Kits](https://www.youtube.com/watch?v=ZpQgRdg8RmA)
+* [JetsonHacks: Install Samsung SSD on NVIDIA Jetson TX1](http://www.jetsonhacks.com/2017/01/28/install-samsung-ssd-on-nvidia-jetson-tx1/)
+
+# Installation of JetPack on Jetson TX1
+* [NVIDIA Jetson TX1 Development Kit Unboxing and Demonstration](https://www.youtube.com/watch?v=9AWfW7cAb1Y)
+* [Checking Out the Jetson TX1](https://www.electronicdesign.com/technologies/microprocessors/article/21802850/checking-out-the-jetson-tx1)
+* [Working on Jetson TX1 Development Board](https://hub.packtpub.com/working-on-jetson-tx1-development-board-tutorial/)
+* [Jetson TX1 and TX2 Developer Kits User Guide (July 20, 2017)](https://developer.download.nvidia.com/embedded/L4T/r28_Release_v1.0/Docs/Jetson_TX1_and_TX2_Developer_Kits_User_Guide.pdf)
+* [Jetson TX2 Developer Kits User Guide (December 17, 2019)](https://developer.download.nvidia.com/embedded/L4T/r28_Release_v1.0/Docs/Jetson_TX1_and_TX2_Developer_Kits_User_Guide.pdf)
+* [HEADLESS SETUP - Jetson Nano](https://www.jetsonhacks.com/2019/08/21/jetson-nano-headless-setup/)
+* [Embedded AI: The Nvidia Jetson TX1 - Part 1](https://fizzylogic.nl/2017/11/09/embedded-ai-the-nvidia-jetson-tx1/)
+
+## Step 1: First Boot
+The Jetson TX1 comes with a preinstalled Linux OS.
+The Nvidia drivers for it should be installed when it is booted for the first time.
+The commands to do it are as follows:
+
+```bash
+cd ${HOME}/NVIDIA-INSTALLER
+sudo ./installer.sh
+```
+
+When TX1 is rebooted after these two commands,
+the Linux OS with user interface will start.
+
+## Step 2: JetPack
+Nvidia offers a software development kit (SDK),
+which contains all of the software needed for building computer vision and deep learning applications,
+along with the target OS to flash the development board.
+This SDK is called JetPack.
+
+The latest JetPack contains Linux for Tegra (L4T) board support packages; TensorRT, which is used for deep learning inference in computer vision applications; the latest CUDA toolkit, cuDNN, which is a CUDA deep neural network library; VisionWorks, which is also used for computer vision and deep learning applications; and OpenCV.
+
+All of the packages will be installed by default when you install JetPack. This section describes the procedure to install JetPack on the board.
+
+The latest JetPack 2.3 places a 64-bit version of Ubuntu on the module. It is Ubuntu 16.04 with a long-term support (LTS) version.
+
+
+
+
+
+
+
+# Snap
+Canonical has deployed Snappy Ubuntu Core,
+a tiny Linux-based operating system for large-scale cloud container deployments,
+IoT devices, mobile phones, and anything that needs transitional updates and tiny footprint.
+Snappy Ubuntu Core works more or less like Google’s Chrome OS where
+it offers transitional image based updates for the system and apps that can be rolled back,
+along with confinement that is known in the container world.
+
+But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https://thenewstack.io/canonicals-snap-great-good-bad-ugly/)" nicely outlines, does the world need another containerizer on Linux?
+
+
+
+# FloydHub is Heroku for Deep Learning
+https://www.floydhub.com/  -   It never ceases to amaze me how what I once considered difficult or requiring special skills can become easy or common almost overnight!!
+
+
+
+
+* [Measuring Machine Learning](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
+    * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
+    * [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
+
 
 # Benchmarks
 * [Raspberry Pi 3 Benchmarks vs. Eight Other ARM Linux Boards](https://www.phoronix.com/scan.php?page=article&item=raspberry-pi-3&num=1)
@@ -192,8 +268,8 @@ The dimensions of the board are 170.18mm x 170.18mm (6.7in x 6.7in  or  6 45/64 
 [13]:https://www.nvidia.com/en-us/autonomous-machines/embedded-systems-dev-kits-modules/
 [14]:http://www.nvidia.com/object/jetson-tk1-embedded-dev-kit.html
 [15]:http://developer.nvidia.com/embedded/dlc/jetson-tx1-developer-kit-carrier-board-design-files
-[16]:
-[17]:
-[18]:
-[19]:
-[20]:
+[16]:https://www.amazon.com/Samsung-850-PRO-2-5-Inch-MZ-7KE256BW/dp/B00LMXBOP4
+[17]:https://elinux.org/Jetson_TX1
+[18]:https://www.windowscentral.com/emmc-vs-ssd
+[19]:https://www.linux.com/training-tutorials/nvidia-jetson-tx1-developer-kit-tiny-low-power-ultra-fast-computer/
+[20]:https://developer.nvidia.com/embedded/downloads

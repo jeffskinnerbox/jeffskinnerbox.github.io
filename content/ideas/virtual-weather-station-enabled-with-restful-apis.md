@@ -10,6 +10,7 @@
 
 Some simple weather station setups:
 Nice Design
+* [Weather Station with ePaper and Raspberry Pi](Weather Station with ePaper and Raspberry Pi)
 * [Weather Pyramid](https://hackaday.io/project/153208-weather-pyramid)
 * [ESP8266 Weather Station - with Wind and Rain Sensors](https://tysonpower.de/blog/esp8266-weather-station)
 * [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)

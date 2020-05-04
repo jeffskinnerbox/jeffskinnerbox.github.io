@@ -78,12 +78,15 @@ and supports Wi-Fi, Bluetooth, 6LoWPAN and Thread, but not Z-wave or Zigbee.
 It can support both IPv4 and IPv6 as well.
 The mbed OS is free, will be available to ARM’s partners and developers in 4Q14.
 
-* [Tessel 2](https://tessel.io/)
-* [Teensy 3.1](https://www.pjrc.com/teensy/)
+* [Tessel 2](https://www.pjrc.com/store/teensy.html) - 16 MHz AVR
+* [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) - 72 MHz Cortex-M4
+* [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) - ARM Cortex-M7 processor at 600 MHz, with a NXP iMXRT1062 chip, the fastest microcontroller on 04/2020
 * [BeagleBone](http://beagleboard.org/bone)
 * [Freedom](http://mbed.org/platforms/FRDM-KL46Z/)
 * [BananaPi](http://bananapi.org/) - ARM Cortex-A7 dual-core
 * [Raspberry Pi](http://www.raspberrypi.org/) - Broadcom BCM2835 system on a chip (SoC), which includes an ARM11
+
+* [Google’s Pigweed For ARM Development Is A Nice Surprise](https://hackaday.com/2020/03/21/googles-pigweed-for-arm-development-is-a-nice-surprise/)
 
 ## Intel
 * [Intel Edison Module](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)

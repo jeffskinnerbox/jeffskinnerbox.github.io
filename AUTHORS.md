@@ -1,3 +1,9 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+
 # Authors
 This web site was created by the static site generators [Pelican][03].
 The Pelican Theme you see is based on [pelican-bootstrap3][01],

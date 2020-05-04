@@ -8,6 +8,8 @@
 
 * [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
 
+* [Raspberry Pi High Quality Camera Review: Interchangeable Lenses, Powerful Sensor](https://www.tomshardware.com/reviews/raspberry-pi-high-quality-camera)
+
 
 If you USB camera stops working or generally misbehaves,
 a frustrating solution is to restart your Linux.

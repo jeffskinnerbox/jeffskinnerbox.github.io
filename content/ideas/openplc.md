@@ -22,6 +22,7 @@ is an Open Source IPC based on Raspberry Pi
 
 # PLC or Arduino?
 * [Video: Let's Learn PLC - PLC or Arduino?](https://www.youtube.com/watch?v=J4pMD-XfYlo)
+* [PLC P1AM-100 Controller Compatible with Arduino](https://news.thomasnet.com/fullstory/new-p1am-100-controller-compatible-with-arduino-mkr-format-shields-40033353)
 
 # SCADA
 In large industrial structures, it is impractical or even impossible to control the individual parts of the system because, in most installations, the parts are often located very far from each other. Thus the need arises to monitor and control them with SCADA and HMI. The main difference between SCADA and HMI is their scope. HMI is actually just a part of the larger SCADA system. Without SCADA, the HMI would be pretty much useless.

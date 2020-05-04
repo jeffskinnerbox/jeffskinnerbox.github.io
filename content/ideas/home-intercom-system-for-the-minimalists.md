@@ -20,6 +20,9 @@ Search on "android as intercom" and you'll get some good ideas.
 A [search of eBay for "VoIP Intercom"][ebay] gets you device that range from $150 to $500.
 [ebay]:http://www.ebay.com/sch/i.html?_trksid=p2057253.m570.l1311.R1.TR1.TRC0.A0.H0.Xvoip+inter&_nkw=voip+intercom&_sacat=0&_from=R40
 
+* [A Raspberry Pi Video Intercom System](https://hackaday.com/2020/04/27/a-raspberry-pi-video-intercom-system/)
+* [Smart Doorbell / Video Intercom System](https://www.hackster.io/hackershack/smart-doorbell-video-intercom-system-e5aa61)
+
 * [CyberData](http://cyberdata.net/products/voip/digitalanalog/intercomv3/docs.html)
 
 * [Hosting a private VoIP server on a Raspberry Pi](http://www.ezwebgallery.org/hosting-a-private-voip-server-on-a-raspberry-pi/)

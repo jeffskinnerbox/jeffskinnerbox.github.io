@@ -31,6 +31,7 @@
 * [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
 * [How a Kalman filter works, in pictures](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
 * [The Kalman Filter Exposed](https://hackaday.com/2019/05/14/the-kalman-filter-exposed/)
+* [The Kalman Filter and (Maximum) Likelihood](https://towardsdatascience.com/the-kalman-filter-and-maximum-likelihood-9861666f6742)
 * [Kalman Filter Simulation](https://www.cs.utexas.edu/~teammco/misc/kalman_filter/)
 * [IMU Data Fusing: Complementary, Kalman, and Mahony Filter](http://www.olliw.eu/2013/imu-data-fusing/)
 * [Guide to gyro and accelerometer with Arduino including Kalman filtering](http://www.instructables.com/id/Guide-to-gyro-and-accelerometer-with-Arduino-inclu/)

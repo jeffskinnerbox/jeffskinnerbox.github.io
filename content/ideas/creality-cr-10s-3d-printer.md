@@ -61,6 +61,9 @@ that can eliminate the steps often seen on shallow surfaces.
 * [Achieve true 3D printing with non planar slicing](https://www.youtube.com/watch?v=gmePlcU0TRw)
 * [How’s That 2.5D Printer Working For You?](https://hackaday.com/2019/09/09/hows-that-2-5d-printer-working-for-you/)
 
+# Resin vs Filament Printing
+* [3D Printering: Will A Resin Printer Retire Your Filament-based One?](https://hackaday.com/2020/04/30/3d-printering-will-a-resin-printer-retire-your-filament-based-one/)
+
 # Barriers to Entry
 One of the biggest reasons there isn’t a 3D printer in every home yet has nothing to do with price or availability.
 It’s the fact that if you want to design and print your own objects,
