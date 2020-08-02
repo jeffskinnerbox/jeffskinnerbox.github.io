@@ -1222,6 +1222,17 @@ NGMN Alliance or Next Generation Mobile Networks Alliance define 5G network requ
 * Signalling efficiency enhanced.
 * Latency should be significantly reduced compared to LTE
 
+* https://www.androidauthority.com/5g-one-wireless-technology-to-rule-them-all-638150/
+* http://techgenix.com/5g-internet-of-things/
+* https://www.theinternetofallthings.com/why-5g-is-the-way-to-go-for-the-internet-of-things-1252016/
+* https://academicjournals.org/journal/IJPS/article-full-text-pdf/B6145A861166
+* https://www.qualcomm.com/media/documents/files/5g-vision-use-cases.pdf (Unifying Connectivity Fabric)
+* https://www.sdxcentral.com/5g/definitions/top-5g-use-cases/
+* https://www.ecnmag.com/article/2018/10/building-fabric-trust-5g-future
+* https://arxiv.org/pdf/1804.00710.pdf
+* https://www.webpronews.com/5g-affirmed/
+* https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface
+
 ## Category 0 LTE (LTE Cat-0)
 M2M had been talked about as a possible application for LTE,
 but there was a major issue with the complexity of the system.
@@ -1327,6 +1338,13 @@ and chips utilizing 802.11af have been rare and hard to find.
 IEEE 802.11ax is the successor to 802.11ac, and will increase the efficiency of WLAN networks.
 Currently at a very early stage of development this project has the goal
 of providing 4x the throughput of 802.11ac.
+
+## WiFi 6
+* [Wi-Fi 6E becomes official—the FCC will vote on rules this month](https://arstechnica.com/gadgets/2020/04/fcc-will-vote-on-rules-for-1-2ghz-of-new-wi-fi-6e-spectrum-on-april-23/)
+* []()
+
+# Wi-SUN
+* [Wi-SUN: the New Wireless Standard Rivaling LoRaWAN and NB-IoT in Smart Cities](https://www.allaboutcircuits.com/news/wisun-new-wireless-standard-rivaling-lorawan-nb-iot-smart-cities/)
 
 # WirelessHART
 

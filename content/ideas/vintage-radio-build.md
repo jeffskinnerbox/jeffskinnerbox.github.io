@@ -124,6 +124,7 @@ by building your own coherer.
 * [Two transistor superheterodyne shortwave receiver](http://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 * [Simple Superheterodyne SW Receiver Harks Back Almost 100 years](http://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 * [High Performance Crystal Radio](http://hackaday.com/2016/09/16/high-performance-crystal-radio/)
+* [A Homebrew Radio, As All The Best Homebrew Radios Should Be](https://hackaday.com/2020/08/01/a-homebrew-radio-as-all-the-best-homebrew-radios-should-be/)
 
 # Transceiver
 * [Just How Simple Can A Transceiver Be?](https://hackaday.com/2019/11/09/just-how-simple-can-a-transceiver-be/)

@@ -151,6 +151,7 @@ is the topic of discussion.
 # Mininet
 Mininet creates a realistic virtual network, running real kernel,
 switch and application code, on a single machine
+Use Mininet to experiment with Openflow and SDN systems.
 
 * [Introduction to Mininet](https://www.youtube.com/watch?v=jmlgXaocwiE)
 * [Mininet and Remote SDN Controllers (Floodlight + Pox)](https://www.youtube.com/watch?v=CPasnNg9Z4I)

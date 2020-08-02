@@ -12,6 +12,9 @@
 
 [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
 
+# ADC and DAC
+* [RTFM: ADCs And DACs](https://hackaday.com/2019/10/16/rtfm-adcs-and-dacs/)
+
 # Audio Systems
 * [Teensy Audio Library, Delay Line Demo](https://www.youtube.com/watch?v=d80d1HWy5_s&feature=emb_title)
 * [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html)
@@ -24,6 +27,9 @@
 * [The Fart Box, A Synthesizer Not Quite Like Others](https://hackaday.com/2020/03/21/the-fart-box-a-synthesizer-not-quite-like-others/)
 * [Music from Outer Space: Your Synth-DIY Headquarters](http://musicfromouterspace.com/)
 * [Glacial Soundscapes with Evolving Drone Tones!](https://blog.tindie.com/2020/07/glacial-soundscapes-with-evolving-drone-tones/)
+
+# Sound Classification
+* [Sound Classification using Deep Learning](https://medium.com/@mikesmales/sound-classification-using-deep-learning-8bc2aa1990b7)
 
 ## Audio Codec
 An audio codec (or just [codec][17]) is a device or computer program capable of

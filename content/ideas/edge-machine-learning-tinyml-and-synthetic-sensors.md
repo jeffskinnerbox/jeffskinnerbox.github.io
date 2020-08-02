@@ -9,6 +9,10 @@
 # TensorFlow Lite
 * [TensorFlow Lite](https://www.tensorflow.org/lite)
 
+# App Framework for ML
+* [Turn Python Scripts into Beautiful ML Tools](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace)
+* [Streamlit](https://www.streamlit.io/)
+
 # TinyML Boards
 * [SparkFun Edge Development Board - Apollo3 Blue](https://www.sparkfun.com/products/15170) - $14.95
 * [Ambiq]()

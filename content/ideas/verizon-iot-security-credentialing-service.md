@@ -47,6 +47,9 @@ How to Implement Secure Connectivity - https://medium.com/iotforall/securing-you
 * [Understanding IoT Security – Part 2 of 3: IoT Cyber Security for Cloud and Lifecycle Management](https://iot-analytics.com/understanding-iot-cyber-security-part-2/)
 * [Understanding IoT Security (Part 1 of 3): IoT Security Architecture on the Device and Communication Layers](https://dzone.com/articles/iot-security-part-1-of-3-architecture-on-the-device-and-communication-layers?edition=298148&utm_source=Spotlight&utm_medium=email&utm_campaign=iot%202017-05-23)
 
+# FIDO2
+* [FIDO2: The Dream Of Password-Free Authentication On The WWW](https://hackaday.com/2019/09/23/fido2-the-dream-of-password-free-authentication-on-the-www/)
+
 # Types of Digital Certificates
 https://www.ibm.com/support/knowledgecenter/en/ssw_i5_54/rzahu/rzahutypesofcerts.htm
 http://www.digi-sign.com/digital%20certificate/digital%20certificate%20types
