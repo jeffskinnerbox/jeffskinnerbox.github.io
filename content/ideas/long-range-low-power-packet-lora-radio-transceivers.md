@@ -1,3 +1,5 @@
+
+
 * [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
 
 * [AAA Powered LoRa Mailbox Sensor Goes The Distance](https://hackaday.com/2020/02/15/aaa-powered-lora-mailbox-sensor-goes-the-distance/)
@@ -20,6 +22,10 @@
 # Long Range Mode for ESP32
 * [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
 * [Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A)
+
+# ESP32-S2
+* [The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?time_continue=51&v=L6IoSVdKwNM&feature=emb_logo)
+* [EYE on NPI - Espressif ESP32-S2 SoC](https://www.youtube.com/watch?v=4F25y-P8krM)
 
 # Comcast / MachineQ
 * [Starter Kit](https://machineq.com/iot-starter-kit/)
@@ -57,6 +63,7 @@
 * [RadioHead Packet Radio library for embedded microprocessors](http://www.airspayce.com/mikem/arduino/RadioHead/index.html)
 
 # LoRa With The ESP32
+* []()
 * [ESP32 with LoRa using Arduino IDE – Getting Started](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
 * [LoRa With The ESP32](https://hackaday.com/2018/06/24/lora-with-the-esp32/)
 * [ESP32 Lora Boards](ESP32 Lora Boards: What you need to know before you buy )
@@ -90,6 +97,9 @@
 * [SX127x_driver_for_MicroPython_on_ESP8266](https://github.com/Wei1234c/SX127x_driver_for_MicroPython_on_ESP8266)
 * [uPyLora - ESP32 using MicroPython meets lora](https://github.com/lemariva/uPyLora)
 
+# Mimi LoRa Gateway - 8 Channel
+* [Mini IOT Lora gateway LoraWan SX1301 sx1255/57 lora 8 channel](https://www.aliexpress.com/i/32904456899.html)
+
 # RakWireless RAK831 Solution
 * [Configuring a LoRaWAN Gateway for The Things Network](https://www.hackster.io/nootropicdesign/configuring-a-lorawan-gateway-for-the-things-network-b3b1f2)
 * [Using LoRaWAN End Devices on The Things Network](https://www.hackster.io/nootropicdesign/using-lorawan-end-devices-on-the-things-network-206a86)
@@ -102,6 +112,8 @@
 * [LoRa Mesh Network With Off-the-Shelf Hardware](https://hackaday.com/2020/02/26/lora-mesh-network-with-off-the-shelf-hardware/)
 * [Meshtastic Mesh Networking Project Combines ESP32, LoRa and GPS Radio](https://www.cnx-software.com/2020/03/11/meshtastic-mesh-networking-project-combines-esp32-lora-and-gps-radio/)
 * [Meshtastic: A Hiking, Skiing, GPS Mesh Communicator](https://www.hackster.io/punkgeek/meshtastic-a-hiking-skiing-gps-mesh-communicator-84f999)
+* [LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU&feature=youtu.be)
+* [Join Your Own Private LoRa Mesh Network](https://hackaday.com/2020/07/30/join-your-own-private-lora-mesh-network/)
 
 # LoRaWAN Security
 * [LoRaWAN networks are spreading but security researchers say beware](https://www.zdnet.com/article/lorawan-networks-are-spreading-but-security-researchers-say-beware/)
@@ -519,6 +531,7 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 ## LoRa Gateway
 ### Single Channel Gateway
 ### Roll Your Own
+* [Sparklines For Your ESP32 Projects](https://hackaday.com/2020/06/06/sparklines-for-your-esp32-projects/)
 * [SparkFun LoRa Gateway - 1-Channel (ESP32)](https://www.sparkfun.com/products/15006)
 * [Heltec WiFi LoRa 32 – ESP32 with OLED and SX1278](https://robotzero.one/heltec-wifi-lora-32/)
 * [LoRa - Raspberry Pi - Single Channel Gateway - Cheap!](https://www.hackster.io/ChrisSamuelson/lora-raspberry-pi-single-channel-gateway-cheap-d57d36)
@@ -560,6 +573,11 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 #### iMST iC880a Board
 * [Build your own gateway](https://www.thethingsnetwork.org/docs/gateways/start/build.html)
 
+#### RAK2245
+* [Using the LoRaWAN Gateway with a Raspberry Pi 4](https://www.hackster.io/bluetiger9/lorawan-gateway-with-rak2245-pi-hat-and-raspberry-pi-4-3d2407)
+* [Aluminium Case for RAK2245 Gateway](https://www.amazon.com/Gateway-Aluminium-RAK2245-Raspberry-Radiator/dp/B07SGCGL9T)
+* [RAK Lora Development Board RAK2245](https://www.amazon.com/Development-RAK2245-Raspberry-Concentrator-Connector/dp/B085W5ZL4F)
+
 #### RAK 831
 * [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
 * [Raspberry Pi 4 based LoRaWAN gateway has GPS and optional LTE](http://linuxgizmos.com/raspberry-pi-4-based-lorawan-gateway-has-gps-and-optional-lte/)
@@ -588,6 +606,7 @@ to a main board computer or microcontroller.
 
 -----
 
+* [LoRa Tutorials For The DIY Masses ](https://hackaday.com/2020/02/25/lora-tutorials-for-the-diy-masses/)
 * [LoRa/LoRaWAN tutorials](https://www.youtube.com/playlist?list=PLmL13yqb6OxdeOi97EvI8QeO8o-PqeQ0g)
 * [ESP32](https://www.youtube.com/playlist?list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9)
 * [ESP8266](https://www.youtube.com/playlist?list=PL3XBzmAj53Rlu3Byy_GkqG6b-nwEpWku0)
@@ -1265,6 +1284,7 @@ arduino-timer                	1.0.0     	sketchbook
 # ESP32-EYE
 * [SP-WHO is a face detection and recognition development framework designed for AIoT applications](https://www.espressif.com/en/products/hardware/esp-eye/overview)
 * [ESP-WHO is a face detection and recognition platform that is currently based on Espressif Systems' ESP32 chip](https://github.com/espressif/esp-who)
+* [ESP32 camera: face detection](https://techtutorialsx.com/2020/06/13/esp32-camera-face-detection/)
 
 # Using Both ESP32 Cores
 The ESP32 comes with 2 Xtensa 32-bit LX6 microprocessors: core 0 and core 1.

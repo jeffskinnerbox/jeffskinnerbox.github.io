@@ -32,15 +32,15 @@ and RG-6 the ideal choice to carry high frequency signals over long distances.
 Coax comes in a bewildering number of varieties.
 Below is some of the typical cables you'll come accross.
 
- Cable Type | Outer Diameter | Center Conductor | Impedance | Typical Application | [Jonard Stripper][03]
-|:---------:|:--------------:|:----------------:|:---------:|:-------------------:|:-------------:|
-    RG-6    |  0.270 inches  |      18 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |     UST-500
-    RG-7    |  0.320 inches  |      18 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |     UST-500
-    RG-8    |  0.405 inches  |      13 AWG      |   50 Ω    |          AR         |
-    RG-11   |  0.412 inches  |      14 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |     UST-500
-    RG-58   |  0.195 inches  |      20 AWG      |   50 Ω    |          AR         |
-    RG-59   |  0.242 inches  |      20 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |     UST-500
-    RG-174  |  0.100 inches  |      26 AWG      |   50 Ω    |      pig tails      |     UST-175
+| Cable Type | Outer Diameter | Center Conductor | Impedance | Typical Application | [Jonard Stripper][03] |
+|:----------:|:--------------:|:----------------:|:---------:|:-------------------:|:---------------------:|
+     RG-6    |  0.270 inches  |      18 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |      UST-500
+     RG-7    |  0.320 inches  |      18 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |      UST-500
+     RG-8    |  0.405 inches  |      13 AWG      |   50 Ω    |          AR         |
+     RG-11   |  0.412 inches  |      14 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |      UST-500
+     RG-58   |  0.195 inches  |      20 AWG      |   50 Ω    |          AR         |
+     RG-59   |  0.242 inches  |      20 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |      UST-500
+     RG-174  |  0.100 inches  |      26 AWG      |   50 Ω    |      pig tails      |      UST-175
 
 * CATV - Cable Television
 * DBS - Direct Broadcast Satellite
@@ -89,11 +89,19 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 * [Coaxial Cable Solutions Guide](http://www.digikey.com/Web%20Export/Supplier%20Content/GenCable_42/PDF/GenCable_CoaxialCable.pdf?redirected=1)
 * [Coaxial cable](http://en.wikipedia.org/wiki/Coaxial_cable)
 * [Common Coaxial Connectors](http://ecee.colorado.edu/~kuester/Coax/connchart.htm)
-* []()
-* []()
+
+# Measuring RF Cable Impedance
+* [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
+
 
 
 ----
+
+
+<div align="center">
+<img src="https://imgs.xkcd.com/comics/usb_cables.png" title="From xkcd.com - Law of USB Cables: You will never have more than one which has no problems, no matter how many you get." align="center">
+
+</div>
 
 
 # USB Cables
@@ -101,6 +109,16 @@ USB cables are used to transfer data, power devices, and often both.
 Sometimes, when selecting a random USB cable our devices do not work, charging is too slow, etc.
 Your not sure if a crappy USB cable is the reason.
 
+Since its introduction in 1996, USB has evolved in multiple ways
+(some may say it [changed too much][22], maybe we should go back our [serial days][23]).
+As a result, not all USB ports look and behave the same way
+and there are some differences between them that are easy to miss.
+For example, you might have noticed that your phone charges faster
+when you connect it to a certain USB port on your computer.
+Or you might discover that just one of your ports will allow
+you to charge your phone while the computer is turned off or move data faster.
+
+* [A Guide to Computer Ports and Adapters](https://www.laptopmag.com/articles/port-and-adapter-guide)
 * [Avoid Surprises: How good are USB cables and how can you test yours?](https://www.youtube.com/watch?v=n70N_sBYepQ)
 * [Is it me or is it USB?](https://www.tindie.com/products/nerfhammer/is-it-me-or-is-it-usb/)
 * [Smart & Secure Fast-Charge USB Cable and Adapter](https://www.kickstarter.com/projects/andyfei/smart-and-secure-fast-charge-usb-cable-and-adapter)
@@ -120,6 +138,8 @@ USB 2.0 can only support anywhere from 500mA up to 2A.
 It’s 2019 and USB-C is still a mess - https://www.androidauthority.com/state-of-usb-c-870996/
 The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable
 
+* [USB-C Is Taking Over… When, Exactly?](https://hackaday.com/2020/06/23/usb-c-is-taking-over-when-exactly/)
+
 ## The Annoyances of USB Charging
 Most computers' USB ports can only charge smartphones slowly -- at 0.5 Amp max. Charge current, measured in Amp, indicates how fast it charges; e.g., 1.0 Amp means charging twice as fast as 0.5 Amp.
 
@@ -133,6 +153,55 @@ Hacker attack! If you use a regular USB cable to connect your smartphones to a c
 Introducing Smart & Secure Fast-Ch
 
 They stop fitting snug in your device. They get loose, they fall out and stop charging or transferring data
+
+
+# Cable Types
+
+## Standard USB
+Standard USB uses a master/slave architecture;
+a host acts as the master device (aka host) for the entire bus, and a USB device acts as a slave (aka peripheral).
+If implementing standard USB cable,
+you must have one devices assume one the slave role, with computers generally set up as the hosts.
+
+## USB On-The-Go (OTG)
+How usb OTG works(master/slave) - https://stackoverflow.com/questions/11338076/how-usb-otg-worksmaster-slave
+
+[USB On-The-Go][20] (USB OTG or just OTG) is a specification that allows USB devices,
+such as tablets or smartphones, to act as a host (when they normally don't),
+allowing other USB devices, such as USB flash drives, digital cameras, mice or keyboards, to be attached to them.
+Use of USB OTG allows those devices to switch back and forth between the roles of host and slave device.
+
+In the absence of USB OTG, cell phones often implemented slave functionality
+to allow easy transfer of data to and from computers.
+Such phones, as slaves, could not readily be connected to printers as they also implemented the slave role.
+USB OTG directly addresses this issue.
+
+A typical (but not only) USB OTG cable has a OTG A-device with a Type-A USB connector
+and OTG B-device with a Type-Mini-B USB connector.
+The OTG A-device is a power supplier (master/host), and an OTG B-device is a power consumer (slave/peripheral).
+The host and peripheral modes may be exchanged later by using Host Negotiation Protocol (HNP).
+
+OTG adds a fifth pin to the standard USB connector, called the ID-pin.
+The micro-A plug has the ID pin grounded,
+while the ID in the micro-B plug is floating.
+A device with a micro-A plug inserted becomes an OTG A-device,
+and a device with a micro-B plug inserted becomes a B-device.
+The type of plug inserted is detected by the state of the pin ID.
+(see diagram [here][21]).
+
+An important evolution is taking place now, and that is USB Dual Role.
+[USB Dual Role is to replaces USB On-The-Go][24].
+
+## SuperSpeed USB (aka USB 3.X)
+USB 3.0 was also marketed as SuperSpeed USB.
+Most manufacturers use the SuperSpeed USB logo to let you know that you’re dealing with a USB 3.0 port.
+If you see the "SS" prefix in front the regular USB logo, you successfully identified the USB 3.0 port.
+
+* [So what's all this USB 3.0, 3.1, 3.2, SuperSpeed and SuperSpeedPlus?](http://xillybus.com/tutorials/usb-superspeed)
+
+# USB Power Delivery
+* [USB Charger Cable Review - The Good, the Bad...and the Ugly!](https://www.youtube.com/watch?v=doMHmGatyYc&list=RDCMUCOTPsWDzNAosVd6vc3pCPHQ&start_radio=1)
+* [Avoid Surprises: How good are USB cables and how can you test yours?](https://www.youtube.com/watch?v=n70N_sBYepQ)
 
 
 
@@ -155,4 +224,14 @@ They stop fitting snug in your device. They get loose, they fall out and stop ch
 [17]:
 [18]:
 [19]:
-[20]:
+[20]:https://en.wikipedia.org/wiki/USB_On-The-Go
+[21]:https://www.quora.com/How-different-is-a-normal-usb-cable-from-OTG-usb-cable
+[22]:https://www.youtube.com/watch?v=36CKsP9YQ1E
+[23]:https://www.youtube.com/watch?v=4mi0kLLLAOs
+[24]:https://blogs.synopsys.com/tousbornottousb/2018/05/03/usb-dual-role-replaces-usb-on-the-go/
+[25]:
+[26]:
+[27]:
+[28]:
+[29]:
+[30]:

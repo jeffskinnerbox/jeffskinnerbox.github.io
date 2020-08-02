@@ -36,6 +36,9 @@
 * Raspberry Pi Zero Cluster "Supercomputer" [Part 1](https://youtu.be/HsIFWk_QHoc) and [Part 2](https://youtu.be/ddrTDCdlYDE)
 * [EEVblog #934 - Raspberry Pi Supercomputer Cluster PART 1](https://www.youtube.com/watch?v=KI7YLXhovb8&feature=em-uploademail)
 
+## ESP32 Cluster
+* [Build Your Own Supercomputer With ESP32s](https://hackaday.com/2018/04/17/build-your-own-supercomputer-with-esp32s/)
+
 ## Spark
 * [Spark Or Hadoop: Which Is The Best Big Data Framework?](https://www.linkedin.com/pulse/spark-hadoop-which-best-big-data-framework-chaaranpall-lambba?trk=eml-b2_content_ecosystem_digest-recommended_articles-103-null&midToken=AQFNblHgIt9-6A&fromEmail=fromEmail&ut=0pSjPikaB8JD81)
 

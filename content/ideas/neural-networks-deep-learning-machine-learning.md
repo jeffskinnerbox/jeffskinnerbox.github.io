@@ -77,9 +77,12 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Neural ODEs: breakdown of another deep learning breakthrough](https://towardsdatascience.com/neural-odes-breakdown-of-another-deep-learning-breakthrough-3e78c7213795)
 * [Understanding Neural ODE's](https://jontysinai.github.io/jekyll/update/2019/01/18/understanding-neural-odes.html)
 * [“GANs” vs “ODEs”: the end of mathematical modeling?](https://towardsdatascience.com/gans-vs-odes-the-end-of-mathematical-modeling-ec158f04acb9)
+* [Differential Equations as a Neural Network Layers](https://towardsdatascience.com/differential-equations-as-a-neural-network-layer-ac3092632255)
 
 * [Foundations Built for a General Theory of Neural Networks](https://www.quantamagazine.org/foundations-built-for-a-general-theory-of-neural-networks-20190131/)
 * [The mathematics of optimization for deep learning](https://towardsdatascience.com/the-mathematics-of-optimization-for-deep-learning-11af2b1fda30)
+* [Deep Learning’s mathematics](https://medium.com/swlh/deep-learnings-mathematics-f52b3c4d2576)
+* [Simple Guide to Hyperparameter Tuning in Neural Networks](https://towardsdatascience.com/simple-guide-to-hyperparameter-tuning-in-neural-networks-3fe03dad8594)
 
 # Cheat Sheets
 * [Deep Learning Cheat Sheet](https://hackernoon.com/deep-learning-cheat-sheet-25421411e460#.nrskk2iyy)
@@ -87,6 +90,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 
 # Machine Learning
 * [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+* [Learning AI/ML: The Hard Way](https://dzone.com/articles/learning-ai-ml-the-hard-way)
 
 # Deep Learning
 * [What is Deep Learning?](https://machinelearningmastery.com/what-is-deep-learning/)
@@ -131,6 +135,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 
 # Data Sets / Datasets / data set
 * [Results for Standard Classification and Regression Machine Learning Datasets](https://machinelearningmastery.com/results-for-standard-classification-and-regression-machine-learning-datasets/)
+* [BDD100K: A Large-scale Diverse Driving Video Database](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
 
 * [GovTrack](https://www.govtrack.us)
 * [The 50 Best Public Datasets for Machine Learning](https://medium.com/datadriveninvestor/the-50-best-public-datasets-for-machine-learning-d80e9f030279)

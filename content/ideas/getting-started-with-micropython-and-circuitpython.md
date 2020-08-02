@@ -1,5 +1,6 @@
 
 * [OpenMV Cam H7 - Machine Vision w/ MicroPython](https://www.kickstarter.com/projects/1798207217/openmv-cam-h7-machine-vision-w-micropython)
+* [OpenMV H7 Product Line](https://www.youtube.com/watch?v=E6SCejAeDSs)
 * [MicroPython class for OV2640 Camera](https://github.com/namato/micropython-ov2640)
 
 * [MicroPython Unveils New Pyboard D Series Board with STM32F7xx MCU](https://blog.hackster.io/micropython-unveils-new-pyboard-d-series-board-with-stm32f7xx-mcu-a7721bc09877)
@@ -112,6 +113,9 @@ they appear to be backing away from supporting only on xxxxxxxxx
 [`pytype`](https://google.github.io/pytype/)
 is a static type analyzer for Python code.
 * [How to quickly find type-issues in your Python code with Pytype](https://medium.freecodecamp.org/how-to-quickly-find-type-issues-in-your-python-code-with-pytype-c022782f61c3)
+
+## MicroIDE
+MicroIDE is an Integrated Development Environment for micro controllers - https://microide.com/
 
 
 

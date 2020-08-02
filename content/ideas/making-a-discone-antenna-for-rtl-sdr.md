@@ -211,7 +211,8 @@ For more on electromagnetic near fields and far fields, see:
 * [What’s The Difference Between EM Near Field And Far Field?](http://electronicdesign.com/energy/what-s-difference-between-em-near-field-and-far-field)
 
 ## Electromagnetic Radiation
-* [Understanding Electromagnetic Radiation!](https://www.youtube.com/watch?v=FWCN_uI5ygY)
+* [How does an Antenna work? | ICT #4](https://www.youtube.com/watch?v=ZaXm6wau-jc)
+* [Understanding Electromagnetic Radiation! | ICT #5](https://www.youtube.com/watch?v=FWCN_uI5ygY)
 
 ## Extending WiFi Range
 * [Uni-Directional WIFI Range Extender](https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/)
@@ -322,6 +323,7 @@ independently of its uses as a transmitter or receiver.
 
 # Loop Antenna
 * [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
+* [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
 
 ## Discone Antenna
 A discone antenna is a version of a [biconical antenna][19] is typically a wired structure,
@@ -420,6 +422,7 @@ Check out these sources:
 * [MININEC: The Other Edge of The Sword](http://www.arrl.org/files/file/Technology/tis/info/pdf/9102018.pdf)
 * [Simulation of Wire Antennas using 4NEC2](http://www.qsl.net/4nec2/Tutorial_4NEC2_english.pdf)
 * [4NEC2 Tutorial: Electric Dipole Antenna Simulation](http://www.qsl.net/4nec2/NEC_tutorial1.pdf)
+* [Lowering The Boom On Yagi Element Isolation](https://hackaday.com/2020/05/10/lowering-the-boom-on-yagi-element-isolation/)
 
 ## Antenna Modeling of a Discone Antenna
 

@@ -37,7 +37,7 @@ Google's Edge TPU Machine Learning Chip Debuts in Raspberry Pi-Like Dev Board - 
 
 >**NOTE:** Why give this minor piece of work a title, you ask?
 >I couldn't resist the irony.
->You see, ["In Search of the Edge" is a film][A] mocking the [Flat Earth Society][B],
+>You see, ["In Search of the Edge"][E] is a [film][A] mocking the [Flat Earth Society][B],
 >all the while positioning the film as a comprehensive documentary proving,
 >fairly conclusively, that the earth is flat!
 >[Partly funded by the National Film Board of Canada][C],
@@ -100,3 +100,4 @@ so they made an [animation][03].
 [B]:https://theflatearthsociety.org/home/
 [C]:https://en.wikipedia.org/wiki/Modern_flat_Earth_societies
 [D]:http://www.indiana.edu/~ensiweb/lessons/flaterth.vid.ws2.tch.pdf
+[E]:https://www.youtube.com/watch?v=dqgzMMeRPWg

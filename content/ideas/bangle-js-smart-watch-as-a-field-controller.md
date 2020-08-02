@@ -19,6 +19,7 @@ Adafruit offers a devboard
 
 
 # Other Watches
+* [Cheap Smartwatch Hacking, To Run Your Own Code](https://hackaday.com/2020/05/02/cheap-smartwatch-hacking-to-run-your-own-code/)
 * [OpenChronograph Lets You Roll Your Own Smart Watch](https://hackaday.com/2020/02/26/openchronograph-lets-you-roll-your-own-smart-watch/)
 * [BlitzWolf® BW-AT1 Full Touch Dymanic UI Smart Watch](https://www.banggood.com/BlitzWolf-BW-AT1-Full-Screen-Touch-Dymanic-UI-Display-Heart-Rate-Blood-Pressure-Oxygen-Monitor-Weather-Push-Smart-Watch-p-1619435.html)
 * [SMA-Q2 Smart Watch Is Completely Hackable](https://hackaday.com/2020/01/30/sma-q2-smart-watch-is-completely-hackable/)
@@ -27,3 +28,4 @@ Adafruit offers a devboard
     * [Badgy Is an ESP8266 E Ink Badge for DEF CON and More](https://www.hackster.io/news/badgy-is-an-esp8266-e-ink-badge-for-def-con-and-more-57ee5f3d54e2)
 * [watchX](http://www.watchx.io/)
     * [watchX Demonstration](https://www.youtube.com/watch?v=-_z-94JHiTs)
+* [Is That An ESP32 On Your Wrist?](https://hackaday.com/2020/05/22/is-that-an-esp32-on-your-wrist/)

@@ -377,7 +377,7 @@ It should be run regularly,
 especially after an unforeseen reboot (e.g. crash, power-outage).
 
 >_**NOTE:** You need to be "root" to use `fsck` and
-it is very important to unmount the filesystem before running it._
+>it is very important to unmount the filesystem before running it._
 
 First take the system to [runlevel one (single user mode)][25].
 Unmount the filesystem, and then run `fsck`.
@@ -438,27 +438,52 @@ This is almost certainly due to being actually out of space on the root filesyst
 and not some erroneous message by Linux, so you must dig to find the source of the problem.
 
 >_**NOTE:** A deceptive source of filling your root filesystem
-is when there is a failure/corruption of a disk drive mount on [`/mnt`][24].
-The disk maybe unmounted, but never the less,
-programs can still successfully write to `/mnt` directory structure.
-In my case, I had my backup system using `/mnt/backup` and it appear everything was find,
-but in reality, data wasn't going to the external drive
-but instead to the root filesystem under `/mnt`, filling up the root filesystem._
-
+>is when there is a failure/corruption of a disk drive mount on [`/mnt`][24].
+>The disk maybe unmounted, but never the less,
+>programs can still successfully write to `/mnt` directory structure.
+>In my case, I had my backup system using `/mnt/backup` and it appear everything was find,
+>but in reality, data wasn't going to the external drive
+>but instead to the root filesystem under `/mnt`, filling up the root filesystem._
+>
 >_To check for this, `umount` any hard drives mounted to `/mnt`.
-This should remove the filesystem.
-Now look for the filesystem, and if parts of it are still there,
-this could very well be the source of your file space problem._
+>This should remove the filesystem.
+>Now look for the filesystem, and if parts of it are still there,
+>this could very well be the source of your file space problem._
 
 A useful command for finding what's eating up all the space is the ["disk usage" command, `du`][19].
 Running the following command:
 
-    sudo du -s -h -x /*
+```bash
+# 20 largest contributors to storage consumption
+$ sudo du -ahx / | sort -rh | head -n 20
 
-This will give you the total amount of space used (`-s`) by each file
-or directory at the top of your root filesystem (`/*`),
+103G	/
+73G	/var
+48G	/var/log
+46G	/var/log/uvcdynctrl-udev.log
+21G	/usr
+13G	/var/lib
+11G	/var/var
+11G	/var/lib/mlocate
+9.2G	/var/var/lib
+9.1G	/usr/usr
+8.7G	/var/var/lib/mlocate
+5.1G	/usr/lib
+4.0G	/Dropbox
+3.9G	/Dropbox/Dropbox
+3.7G	/usr/usr/lib
+3.6G	/opt
+3.0G	/var/var/lib/mlocate/mlocate.db
+2.9G	/usr/usr/local
+2.9G	/usr/local
+2.8G	/usr/usr/local/lib
+```
+
+This will give you the total amount of space used (`-a`)
+for all files not just directories,
 without looking at other filesystems (`-x`),
-in human-readable numbers like "124M" (`-h`).
+in human-readable numbers like "124M" (`-h`),
+and sort with the largest contributors.
 Don't worry if it takes a while to complete, it could take on the order of minutes.
 
 Don't delete files without first knowing what they are, of course.
@@ -478,25 +503,55 @@ In addition to the locations above, the following locations are common culprits:
 Linux log files found in `/var/log` can be a source of your filesystem full.
 These log files will quickly fill if there are problems within the system.
 
-To investigate if they may be the source your filesystem full,
+To investigate further what may be the source your filesystem full,
 find the top ten largest files and directories in  `/var/log`:
 
 ```bash
 # print number of bytes in the 10 largest files and directories in /var/log
-sudo du -a -b /var/log | sort -n -r | head -n 10
+$ sudo du -ahx /var/log/ | sort -rh | head -n 10
+
+48G	/var/log/
+46G	/var/log/uvcdynctrl-udev.log
+1.9G	/var/log/journal/00f23270d58ed942283218b055d9d601
+1.9G	/var/log/journal
+121M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-000000000003a46a-00059d7019fadab5.journal
+105M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000091ce3-00059d74a2fe9ea9.journal
+105M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000075a69-00059d73c160def7.journal
+89M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000060b47-00059d72b9ef1167.journal
+81M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-000000000004987b-0005a1c99c09dd09.journal
+81M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-0000000000032c53-0005a03b276009d1.journal
 ```
 
-To clean up the offending log file,
-you can use the `: >` operation to truncate the file to zero bytes.
+Its very clear that we have a very bad actor in the file
+`/var/log/uvcdynctrl-udev.log` which is 46G in size!
+In fact, this is a [know problem][27], and judging from the files contents,
+the problem was brought about due to my webcam (an old Logitech QuickCam Orbit/Sphere AF).
+
+>**NOTE:** We site referance above states
+>"This package not only creates this HUGE log files,
+>but it also causes Cheese and other web-cam apps to crash or work very badly
+>(Can't capture video at full resolution with Cheese or Guvcview?
+>REMOVE THIS PACKAGE AND IT WORKS AS IT SHOULD!)"
+>Recommended package removal is `sudo apt-get remove uvcdynctrl-udev`.
+
+To clean up this offending log file,
+we can use the `: >` operation to truncate the file to zero bytes.
 For example, this will reduce the `syslog` and `kern.log` files to zero bytes:
 
 ```bash
-# reduce syslog and kern.log to zero bites
+# check the size of uvcdynctrl-udev.log
+$ ls -lh /var/log/uvcdynctrl-udev.log
+-rw-r--r-- 1 root root 46G May 22 10:39 /var/log/uvcdynctrl-udev.log
+
+# reduce the file uvcdynctrl-udev.log to zero bites
 sudo su
 cd /var/log
-: > syslog
-: > kern.lg
+: > uvcdynctrl-udev.log
 exit
+
+# recheck the size of uvcdynctrl-udev.log
+$ ls -lh /var/log/uvcdynctrl-udev.log
+-rw-r--r-- 1 root root 0 May 22 21:29 /var/log/uvcdynctrl-udev.log
 ```
 
 #### Deleted But Open Files
@@ -625,3 +680,4 @@ I primarily consulted the following sources to create this posting:
 [24]:http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html
 [25]:http://www.cyberciti.biz/tips/linux-changing-run-levels.html
 [26]:https://www.tecmint.com/fsck-repair-file-system-errors-in-linux/
+[27]:https://askubuntu.com/questions/177312/filesystem-filling-up-due-to-large-uvcydnctrl-udev-log-file

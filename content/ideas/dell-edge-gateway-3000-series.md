@@ -257,6 +257,7 @@ For example, the gadget snap will describe the bootloader to be used by the devi
 
 * https://developer.ubuntu.com/core/examples/gadget-snaps
 * https://docs.ubuntu.com/core/en/guides/build-device/gadget
+* [What’s the Deal with SNAP Packages?](https://hackaday.com/2020/06/24/whats-the-deal-with-snap-packages/)
 
 # EdgeX Foundry
 Much of the EdgeX detail is on the public site at https://www.edgexfoundry.org/ plus its technical wiki https://wiki.edgexfoundry.org/

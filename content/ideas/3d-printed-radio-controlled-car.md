@@ -620,6 +620,21 @@ Building an Autonomous Vehicle
 * [Building an Autonomous Vehicle Part 4.2: Sensor Fusion and Object Tracking using Extended Kalman Filters](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-4-2-8049cda5a92)
 * [Building an Autonomous Vehicle Part 4.3: Sensor Fusion and Object Tracking using Unscented Kalman Filters](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-4-3-2a506e57d830)
 
+# DeepPiCar
+* [DeepPiCar — Part 1: How to Build a Deep Learning, Self Driving Robotic Car on a Shoestring Budget](https://towardsdatascience.com/deeppicar-part-1-102e03c83f2c)
+    * Part 2: Raspberry Pi Setup and PiCar Assembly
+    * Part 3: Make PiCar See and Think
+    * Part 4: Autonomous Lane Navigation via OpenCV
+    * Part 5: Autonomous Lane Navigation via Deep Learning
+    * Part 6: Traffic Sign and Pedestrian Detection and Handling
+
+# Autonomous Car
+* [How I built a self driving car, which roams around in my house](https://medium.com/@subodh.malgonde/building-an-actual-self-driving-car-53f67ca41566)
+
+# Self-Driving Car
+* [Self-Driving Car-Part 1: Finding Lane Lines](https://medium.com/swlh/self-driving-car-finding-lane-lines-4d9f405df368)
+* [Self-Driving Car-Part 2: Advance Lane Lines](https://medium.com/@p.alamirpour/self-driving-car-part-2-advance-lane-lines-cc72e5f2cd)
+
 ## MIT RACECAR - Jetson RACECAR - RACECAR/J
 [RACECAR/J][01] is derived from the open source [MIT RACECAR][02],
 an “open-source powerful platform for robotics research and education”.

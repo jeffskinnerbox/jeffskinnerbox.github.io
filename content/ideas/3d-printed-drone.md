@@ -1,4 +1,6 @@
 
+* [Intro to Aerodynamics: How Do Airplanes Fly?](https://www.youtube.com/watch?v=Z1FAAJ4hUaQ)
+
 # Airplane / Drone
 * [WiFi Controlled Plane Is Cheap Flying Fun](https://hackaday.com/2019/04/12/wifi-controlled-plane-is-cheap-flying-fun/)
 * [8 open source drone projects](https://opensource.com/article/18/2/drone-projects)
@@ -21,6 +23,9 @@
 * [The Ball-Drone Project](https://hackaday.io/project/169823-the-ball-drone-project)
 * [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
 
+# Hackable Drones
+* [A Hackable Drone Without All The Wiring](https://hackaday.com/2020/05/02/a-hackable-drone-without-all-the-wiring/)
+
 # Open Source RC Radio Transmitters
 * [OpenTX](https://www.open-tx.org/)
 
@@ -33,6 +38,7 @@
 # Autopilot and Ground Station Software
 * [The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)
 * [Paparazzi UAV](http://wiki.paparazziuav.org/wiki/Main_Page)
+* [ArduPilot](https://ardupilot.org/index.php)
 
 # Motors to Use
 * motor with position sensing
@@ -48,3 +54,4 @@
 * [UHF Radio Beacon for Lost RC Models](https://blog.tindie.com/2020/04/uhf-radio-beacon-lost-rc-models/)
 * [A DIY Functional F-35 Is No Simple Task](https://hackaday.com/2020/04/27/a-diy-functional-f-35-is-no-simple-task/#more-407964)
 * [A Micro RC Plane Builder Shares His Tricks](https://hackaday.com/2017/02/10/a-micro-rc-plane-builder-shares-his-tricks/)
+* [Let’s Take A Closer Look At This Robotic Airship](https://hackaday.com/2020/07/22/lets-take-a-closer-look-at-this-robotic-airship/)

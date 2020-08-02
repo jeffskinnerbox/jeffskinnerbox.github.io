@@ -16,6 +16,7 @@
 
 
 
+* ["Charlotte's Web" Style LED Filament Clock](https://www.instructables.com/id/Charlottes-Web-Style-LED-Filament-Clock/)
 * [Is That A Word Clock In Your Pocket?](https://hackaday.com/2019/02/15/is-that-a-word-clock-in-your-pocket/)
 * [Alphanumeric GPS Wall Clock](https://learn.sparkfun.com/tutorials/alphanumeric-gps-wall-clock)
 * [In memory of Dali](https://hackaday.io/project/5705-in-memory-of-dali)
@@ -25,9 +26,12 @@
 
 * [Impractical Clock Uses Tuning Fork](https://hackaday.com/2019/08/29/impractical-clock-uses-tuning-fork/)
 
-* [EL Wire Neon Nixie Style Clock](https://www.instructables.com/id/EL-Wire-Neon-Nixie-Style-Clock/)
-
 * [Edge-Lit 7-Segments Clock The New Normal](https://hackaday.com/2020/04/14/edge-lit-7-segments-clock-the-new-normal/)
+* [EL Wire Neon Nixie Style Clock](https://www.instructables.com/id/EL-Wire-Neon-Nixie-Style-Clock/)
+* [RGB LED 6 Bit Glow Digital Clock](https://www.ezbuypay.com/collections/tube-clock/products/rgb-led-6-bit-glow-digital-clock-nixie-tube-clock-kit-diy-electronic-retro)
+* ["Lixie", an LED alternative to the Nixie Tube](https://hackaday.io/project/18633-lixie-an-led-alternative-to-the-nixie-tube)
+* [Think IN18s Are Cool? Get A Load Of This Must-Have Custom Nixie Tube](https://hackaday.com/2019/10/02/think-in18s-are-cool-get-a-load-of-this-must-have-custom-nixie-tube/)
+* [Homemade Nixie Tubes](https://hackaday.com/2013/11/07/homemade-nixie-tubes/)
 
 # Enclosure
 * [Printed It: Custom Enclosure Generator](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
@@ -56,11 +60,19 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
 * [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
     * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
+* [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)
 * [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
 * [Time Zone Map](https://www.timeanddate.com/time/map/)
 * [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
 * [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
+
+# Ferrofliud Clock
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
+* [Unorthodox “Ferrolic” clock displays the time with magnets and ferrofluid](https://www.digitaltrends.com/cool-tech/ferrolic-ferrofluid-clock/)
+* [Rhei Liquid Display Clock](http://www.dudeiwantthat.com/gear/gadgets/rhei-liquid-display-clock.asp)
+
+# E-Paper
+* [DISPLIO - WiFi display that tracks what’s important to you](https://www.kickstarter.com/projects/914874115/displio-wifi-display-that-tracks-whats-important-t)
 
 * [The Geared Head of Feelings](https://www.thingiverse.com/thing:2670124)
 
@@ -70,6 +82,7 @@ consider joining the [Time Nuts email list](https://lists.febo.com/mailman/listi
 
 * [100 Year Old Atomic Clock](https://hackaday.com/2019/09/25/100-year-old-atomic-clock/)
 * [Cesium Clock Teardown, Or Quantum Physics Playground](https://hackaday.com/2020/03/25/cesium-clock-teardown-or-quantum-physics-playground/)
+* [How to get Precise Timing and Frequency to our Lab. From Crystals, TCXO, OCXO to GPSDO, BG7TBL](https://www.youtube.com/watch?v=a393cqhdZpM&feature=youtu.be)
 
 ## Galileo Escapement Mechanism
 Galileo's escapement is a design for a clock escapement,
@@ -175,12 +188,15 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
 * [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
 * [3D Printed Flip Clock Is Worth A Second Look](https://hackaday.com/2020/02/12/3d-printed-flip-clock-is-worth-a-second-look/)
+* [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
+* [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 
 ## Math Clock
 Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall+clock
 
 ## Other
 * [Tiny Bubbles In The Clock](https://hackaday.com/2019/12/20/tiny-bubbles-in-the-clock/)
+* [Do You Know Where Your Children Are? Check The Weasley Clock](https://hackaday.com/2020/07/29/do-you-know-where-your-children-are-check-the-weasley-clock/)
 
 ################################################################################
 
@@ -201,6 +217,7 @@ It means all communications between your browser and the website are encrypted.
 
 
 # Time from GPS
+* [Time synchronization with a Garmin GPS](https://www.lammertbies.nl/comm/info/gps-time)
 * [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
 * [Make a GPS Clock With Arduino](https://www.allaboutcircuits.com/projects/how-to-make-a-gps-clock-with-arduino/)
 * [Self-adjusting clock with e-display](https://hackaday.io/project/164955-self-adjusting-clock-with-e-display)
@@ -220,6 +237,67 @@ A small GPS breakout board suitable for a clock: [Adafruit Mini GPS PA1010D - UA
 * [Why You Should Consider Moving From NTP to NTPsec](https://medium.com/linode-cube/why-you-should-consider-moving-from-ntp-to-ntpsec-edab616b6740)
 * [Setting the computer time using GPS](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
 * [5 minute guide to making a GPS Locked Stratum 1 NTP Server with a Raspberry Pi](https://ava.upuaut.net/?p=951)
+
+# Probems with Ubuntu Time Keeping
+With the introduction of systemd,
+you have a conflict between `systemd` and `ntpd` attempts to keep time.
+So depending on your installation, time keeping will also stop working (i.e. time will drift)
+if "ntp", "openntpd", "chrony" and/or VirtualBox Services are installed.
+
+So as long as your using VirtualBox, appears there will be a problem with keeping accurate time.
+Until this is fixed, periodical execution of the command `sudo ntpdate time.nist.gov`
+will update the clocks time.
+
+```bash
+# time synchronization status
+$ timedatectl status
+               Local time: Tue 2020-05-26 21:03:31 EDT
+           Universal time: Wed 2020-05-27 01:03:31 UTC
+                 RTC time: Wed 2020-05-27 00:58:32
+                Time zone: America/New_York (EDT, -0400)
+System clock synchronized: no
+              NTP service: inactive
+          RTC in local TZ: no
+
+# notice 'system clock synchronized' is off
+# turn it on
+timedatectl set-ntp on
+
+# time synchronization status will not turn on
+$ timedatectl status
+               Local time: Tue 2020-05-26 21:03:31 EDT
+           Universal time: Wed 2020-05-27 01:03:31 UTC
+                 RTC time: Wed 2020-05-27 00:58:32
+                Time zone: America/New_York (EDT, -0400)
+System clock synchronized: no
+              NTP service: inactive
+          RTC in local TZ: no
+
+# systemd status shows problem
+$ sudo systemctl status systemd-timesyncd.service
+● systemd-timesyncd.service - Network Time Synchronization
+   Loaded: loaded (/lib/systemd/system/systemd-timesyncd.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/systemd-timesyncd.service.d
+           └─disable-with-time-daemon.conf
+   Active: inactive (dead)
+Condition: start condition failed at Tue 2020-05-26 21:08:59 EDT; 16s ago
+           └─ ConditionFileIsExecutable=!/usr/sbin/VBoxService was not met
+     Docs: man:systemd-timesyncd.service(8)
+
+May 26 19:55:32 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+May 26 20:33:36 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+May 26 20:40:55 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+May 26 21:05:56 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+May 26 21:08:18 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+May 26 21:08:49 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+May 26 21:08:59 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
+```
+
+Source:
+
+* [How to enable automatic date and time on Ubuntu 19.10?](https://askubuntu.com/questions/1198863/how-to-enable-automatic-date-and-time-on-ubuntu-19-10)
+* [Can't sync time to network server on Ubuntu 19.10](https://askubuntu.com/questions/1203038/cant-sync-time-to-network-server-on-ubuntu-19-10)
+* [How to sync time on Ubuntu 20.04 Focal Fossa Linux](https://linuxconfig.org/how-to-sync-time-on-ubuntu-20-04-focal-fossa-linux)
 
 
 ----
@@ -1037,6 +1115,9 @@ Finally, add a AM/PM indicator on the clock face.
 
 # Over The Air (OTA) Programming
 * [ESP8266 Over The Air (OTA) Programming Without Reset Using Arduino IDE (Mac OSX and Windows)](https://www.youtube.com/watch?v=3aB85PuOQhY&t=20s)
+* [OTA ESP32 GUI Makes Updates Simple](https://hackaday.com/2020/06/23/ota-esp32-gui-makes-updates-simple/)
+* [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)
+* [Enginursday: Updating an ESP32 over BLE](https://www.sparkfun.com/news/3325)
 
 
 ----
@@ -1872,6 +1953,18 @@ NTP synchronized: yes
 
 With the use of something other that UTC, notice how the NTP service provides
 information about [Daylight Savings Time (DST)][13].
+
+
+
+----
+
+
+
+# Adding Scanning and Tracking Features
+* [Use an ESP8266 Beacon Spammer to Track Smartphone Users](https://null-byte.wonderhowto.com/how-to/use-esp8266-beacon-spammer-track-smartphone-users-0187599/)
+* [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
+
+
 
 ----
 

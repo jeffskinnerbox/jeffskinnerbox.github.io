@@ -17,7 +17,7 @@ Be sure that you are in the same directory as the Vagrantfile when running these
 - `vagrant up`                  -- starts vagrant environment (also provisions only on the FIRST vagrant up)
 - `vagrant resume`              -- resume a suspended machine (vagrant up works just fine for this as well)
 - `vagrant provision`           -- forces reprovisioning of the vagrant machine
-- `vagrant reload`              -- restarts vagrant machine, loads new Vagrantfile configuration
+- `vagrant reload`              -- restarts vagrant machine, loads new Vagrantfile configuration (equal to a 'halt' followed by an 'up')
 - `vagrant reload --provision`  -- restart the virtual machine and force provisioning
 
 # Getting into a VM
@@ -39,6 +39,7 @@ Be sure that you are in the same directory as the Vagrantfile when running these
 - `vagrant box outdated`          -- check for updates vagrant box update
 - `vagrant boxes remove <name>`   -- deletes a box from the machine (e.g. `vagrant box remove ubuntu/bionic64` or `vagrant box remove ubuntu/disco64 --box-version=20191204.0.0`)
 - `vagrant package`               -- packages a running virtualbox env in a reusable box
+- `vagrant box update`            -- updates the box for the current Vagrant environment if there are updates available
 
 # Saving Progress
 -`vagrant snapshot save [options] [vm-name] <name>` -- vm-name is often `default`. Allows us to save so that we can rollback at a later time
@@ -53,6 +54,7 @@ Be sure that you are in the same directory as the Vagrantfile when running these
 - `vagrant up --provision | tee provision.log`  -- Runs `vagrant up`, forces provisioning and logs all output to a file
 
 # Plugins
+- `vagrant plugin list`           -- list the plugins currently installed in Vagrant
 - [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) : `$ vagrant plugin install vagrant-hostsupdater` to update your `/etc/hosts` file automatically each time you start/stop your vagrant box.
 
 # Notes

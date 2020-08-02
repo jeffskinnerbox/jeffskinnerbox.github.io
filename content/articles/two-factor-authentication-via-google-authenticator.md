@@ -157,6 +157,7 @@ you should not be required to enter the Google Authenticator code.
 # Sources
 Key articles that I found helpful:
 
+* [Setting up two-factor authentication on your Raspberry Pi](https://www.blogdot.tv/setting-up-two-factor-authentication-on-your-raspberry-pi/)
 * [Set Up Google Authenticator](http://kb.mailchimp.com/integrations/other-integrations/set-up-google-authenticator)
 * [How To Protect SSH With Two-Factor Authentication](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-two-factor-authentication)
 * [Securing SSH with two factor authentication using Google Authenticator](https://www.linux.com/community/blogs/133-general-linux/783135-securing-ssh-with-two-factor-authentication-using-google-authenticator)

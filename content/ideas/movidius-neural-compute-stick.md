@@ -12,7 +12,7 @@
 
 * [Gyrfalcon Technology debuts Laceli AI Compute Stick with compact dimension, 4GB free storage space](http://wwpi.com/2018/01/02/gyrfalcon-technology-debuts-laceli-ai-compute-stick-with-compact-dimension-4gb-free-storage-space/)
 * [How we made TensorFlow run on a Raspberry Pi using Rust](https://medium.com/snips-ai/how-we-made-tensorflow-run-on-a-raspberry-pi-using-rust-7478f7a31329)
-
+* [Turning a Raspberry Pi 3B+ into a powerful object recognition edge server with Intel Movidius NCS2](https://towardsdatascience.com/turning-a-raspberry-pi-3b-into-an-object-recognition-server-with-intel-movidius-ncs2-8dcfebebb2d6)
 * [Raspberry Pi Camera with Smarts — Cloud or Local?](https://hackaday.com/2019/03/07/raspberry-pi-camera-with-smarts-cloud-or-local/)
 * [AI ON RASPBERRY PI WITH THE INTEL NEURAL COMPUTE STICK](https://hackaday.com/2019/01/31/ai-on-raspberry-pi-with-the-intel-neural-compute-stick/)
 
@@ -169,6 +169,8 @@ Guidance on implementation:
 [Part 3](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-3/),
 [Part 4](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-4/),
 [Part 5](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-5/)
+
+* [YOLOv5 Controversy — Is YOLOv5 Real?](https://medium.com/@riteshkanjee/yolov5-controversy-is-yolov5-real-20e048bebb08)
 
 # Intel OpenVINO
 Intel has acquired four companies to go after the AI market:

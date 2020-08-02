@@ -445,6 +445,7 @@ and connecting it to a desktop or laptop computer.
 * [OpenMV Cam M7](https://www.sparkfun.com/products/14185)
 * [OpenMV Cam M7](https://openmv.io/products/openmv-cam-m7)
 * [OpenMV Videos](https://www.youtube.com/channel/UCk43Dxy_qcwwYyLsP6EWatQ)
+* [OpenMV H7 Product Line](https://www.youtube.com/watch?v=E6SCejAeDSs)
 * [Reading barcodes with Python and OpenMV](https://www.pyimagesearch.com/2018/03/19/reading-barcodes-with-python-and-openmv/)
 * [OpenMV Cam H7 - Machine Vision w/ MicroPython](https://www.kickstarter.com/projects/1798207217/openmv-cam-h7-machine-vision-w-micropython)
 * [Deep Learning at the Edge on an Arm Cortex-Powered Camera Board](https://blog.hackster.io/deep-learning-at-the-edge-on-an-arm-cortex-powered-camera-board-3ca16eb60ef7)
@@ -920,6 +921,8 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 # Networked Birdhouse
 * [Networked Solar Birdhouses Deep in the Woods](http://hackaday.com/2016/05/20/making-solar-powered-networked-birdhouses-putting-them-in-the-middle-of-the-woods/)
+* [BirdNET - The Easiest Way To Identify Birds By Sound](https://birdnet.cornell.edu/)
+* [The Words of the Birds - Leveraging AI to Detect Songbirds](https://www.splunk.com/en_us/blog/machine-learning/the-words-of-the-birds-leveraging-ai-to-detect-songbirds.html)
 
 # motion
 [!motion](http://www.lavrsen.dk/foswiki/pub/Motion/WebPreferences/motion-trans.gif)

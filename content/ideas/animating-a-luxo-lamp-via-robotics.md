@@ -60,6 +60,11 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [TFmini Plus - ToF LIDAR Range Finder](https://www.seeedstudio.com/TFmini-Plus-LIDAR-Range-Finder-based-on-ToF-p-3222.html)
 * [Homemade Lidar: OpenTOFLidar](https://hackaday.com/2020/03/24/lidar-system-isnt-just-a-rangefinder-anymore/)
 
+#### Sensor Fusion
+* [Sensor Fusion](https://towardsdatascience.com/sensor-fusion-90135614fde6)
+* [Sensor Fusion of LiDAR and Camera — An Overview](https://medium.com/@navin.rahim/sensor-fusion-of-lidar-and-camera-an-overview-697eb41223a3)
+* [Camera-Lidar sensor fusion in real time for autonomous surface vehicles](http://folk.ntnu.no/edmundfo/msc2019-2020/norbye-lidar-camera-reduced.pdf)
+
 #### Self Driving Car
 * [Self-Driving RC Cars with TensorFlow; Raspberry Pi or MacBook Onboard](http://hackaday.com/2017/06/06/self-driving-rc-cars-with-tensorflow-raspberry-pi-or-macbook-onboard/#more-260888)
 * [Donkey Car](http://www.donkeycar.com/)

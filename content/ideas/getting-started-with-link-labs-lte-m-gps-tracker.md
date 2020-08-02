@@ -113,7 +113,7 @@ Reading list:
 * [Conductor - Data Platform](http://docs.link-labs.com/m/52182)
 * [Conductor - Data Platform: User Guide](http://docs.link-labs.com/m/52182/c/154990)
 * [A Python wrapper of the Conductor API - conductor.py](http://docs.link-labs.com/m/52182/l/478374-a-python-wrapper-of-the-conductor-api-conductor-py)
-* [Command-line utility to send downlink messages - send_command_client_edge.py](http://docs.link-labs.com/m/52747/l/637873-command-line-utilit
+* [Command-line utility to send downlink messages - send_command_client_edge.py](http://docs.link-labs.com/m/52747/l/637873-command-line-utilit)
 
 **Link Labs GPS Tracker Device**
 

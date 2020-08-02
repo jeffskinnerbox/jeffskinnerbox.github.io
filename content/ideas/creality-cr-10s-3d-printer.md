@@ -10,7 +10,7 @@ Reference Shapeways cost vs 3D-Printing yourself
 I waged a long mental debate about the merits of purchasing a 3D Printer.
 For one thing, a have a well equipped woodworking workshop,
 and I figured if I needed to print a special part,
-I could use one of the many online 3D printing services like [Shapeways][62].
+I could use one of the many online 3D printing services like [Shapeways][62] or [ProtoLab][64].
 In time, I learned that the [3D Printer could be great addition for woodworking][58],
 and besides, I had gotten into electronics where the use [3D printing custom enclosures][59] is frequently done.
 And now, [thanks in part to NASA support][60],
@@ -525,6 +525,8 @@ improvements to stabilize the hotend temperature,
 hotbed thermal insulation pad,
 and [dual Z-axis leading screw rods][15].
 
+* [Let’s Prototype! This Filament End Needs 80 Decibels](https://hackaday.com/2017/01/27/lets-prototype-this-filament-end-needs-80-decibels/)
+
 Sources:
 * [Paid Upgrades for the CR-10](https://www.youtube.com/watch?v=sJdMfjJWZ7g)
 * [Creality CR-10 upgrades of all kinds the best of the best](https://www.youtube.com/watch?v=HB6Zr1sauSc)
@@ -596,6 +598,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 
 ## OctoPrint
+* [OctoPi GUI Setup](https://github.com/shandilyaguy247/OctoPi_GUI_Setup)
 * [How to set up OctoPrint on your Raspberry Pi](https://www.blogdot.tv/how-to-set-up-octoprint-on-your-raspberry-pi/)
 * [Upgrading a 3D Printer with OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
 * [OctoPrint](https://octoprint.org/)
@@ -696,6 +699,7 @@ Aluminum Extrusion - 2020 T Slot
 [2020 extrusions - cable clip collection](https://www.thingiverse.com/thing:832279)
 [Cable Clip / Duct 2020 3030 4020](https://www.thingiverse.com/thing:3318226)
 [Kable Clip](https://www.thingiverse.com/thing:2747280)
+[Filament Reel Clip](https://www.thingiverse.com/thing:1938575/files)
 
 * cover up hole -
 [Blank Cover](https://www.thingiverse.com/thing:2841111)
@@ -744,6 +748,9 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 # Print Speed
 * [3D Print parts TWICE as fast with simple slicer tweaks. 3DP101](https://www.youtube.com/watch?v=3kW9SnK4LKc)
 
+# Clog Detection
+* [Bolt-On Clog Detection For Your 3D Printer](https://hackaday.com/2020/05/19/bolt-on-clog-detection-for-your-3d-printer/)
+
 # Projects
 ## Split-Flap Display
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
@@ -753,6 +760,8 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
 * [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
 * [Printable Filament Spool Hub Skips the Bearings](https://hackaday.com/2019/03/16/printable-filament-spool-hub-skips-the-bearings/)
+* [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
+* [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 
 ## Radio Controlled Car
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
@@ -767,6 +776,9 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 ### Testing Threaded Inserts
 * [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
 * [Threaded Inserts for 3D Prints - Cheap VS Expensive](https://www.youtube.com/watch?v=G-UF4tv3Hvc)
+* [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
+    * [Four Ways to Tackle Threaded Inserts for Plastics](https://www.ptonline.com/articles/four-ways-to-tackle-threaded-inserts-for-plastics)
+    * [Using Heat Set Inserts](https://markforged.com/blog/heat-set-inserts/)
 
 # CNC
 * [Get Moving with New Software from OpenBuilds](https://hackaday.com/2019/03/23/get-moving-with-new-software-from-openbuilds/)
@@ -785,6 +797,7 @@ especially for recovering the exact positions of surface points.
 built on top of an underlying framework called [AliceVision][40].
 * [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
 * [Handheld 3D Scanning, Using Raspberry Pi 4 And Intel RealSense Camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/)
+* [Scan 3D Objects with this Raspberry Pi Photogrammetry Project](https://www.tomshardware.com/news/scan-3d-objects-with-this-raspberry-pi-photogrammetry-project)
 
 ## OpenScan
 * [OpenScan](https://en.openscan.eu/)
@@ -870,7 +883,7 @@ that can be seen clearly only when back lit with a light source.
 [61]:https://www.electronicalchemy.com/eforge/
 [62]:https://www.shapeways.com/
 [63]:https://www.thingiverse.com/Fuganater/collections/cr-10
-[64]:
+[64]:https://www.protolabs.com/
 [65]:
 [66]:
 [67]:

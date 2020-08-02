@@ -10,6 +10,9 @@
 
 * [Raspberry Pi High Quality Camera Review: Interchangeable Lenses, Powerful Sensor](https://www.tomshardware.com/reviews/raspberry-pi-high-quality-camera)
 
+* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
+* [Live video streaming with open source Video.js](https://opensource.com/article/20/2/video-streaming-tools)
+
 
 If you USB camera stops working or generally misbehaves,
 a frustrating solution is to restart your Linux.
@@ -30,6 +33,7 @@ sudo modprobe uvcvideo
     * [RPi-Cam-Web-Interface](https://elinux.org/RPi-Cam-Web-Interface)
     * [Web based interface for controlling the Raspberry Pi Camera](https://github.com/silvanmelchior/RPi_Cam_Web_Interface)
 * [Enhancing my ordinary IP security cameras with AI](https://harizanov.com/2018/03/enhancing-my-ordinary-security-cameras-with-ai/)
+* [Realtime video object detection on Raspberry Pi](https://towardsdatascience.com/how-to-stream-video-with-real-time-object-detection-on-raspberry-pi-f6503c46c7f9)
 
 
 
@@ -42,6 +46,7 @@ sudo modprobe uvcvideo
 * [OpenCV remote (web-based) stream processing](https://github.com/ECI-Robotics/opencv_remote_streaming_processing)
 * [Raspberry Pi Camera low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.hk/2016/06/raspberry-pi-camera-low-latency.html)
 * [Raspberry Pi Camera openCV rendering with low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.com/2016/06/raspberry-pi-camera-opencv-rendering.html)
+* [Nvidia Hardware accelerated video Encoding/Decoding (nvcodec) — GStreamer](https://medium.com/@nareshkumarganesan/nvidia-hardware-accelerated-video-encoding-decoding-nvcodec-gstreamer-4b8eab662bf1)
 
 
 
@@ -331,12 +336,6 @@ Sending traffic from one (or multiple) sources to a group of receivers is called
 * [Basics of Multicast technology](http://cpham.perso.univ-pau.fr/ENSEIGNEMENT/UERHD/Multicast.pdf)
 * [Multicast Explained](https://www.tldp.org/HOWTO/Multicast-HOWTO-2.html)
 * [UDP Unicast and Multicast Streaming Video using the Beaglebone Black](http://derekmolloy.ie/udp-video-streaming-beaglebone-black/)
-
-# Open Broadcast Studio (OBS)
-[Open Broadcaster Software (OBS)](https://obsproject.com/)
-is a free open source software suite that is used for recording and live streaming. OBS is used to capture and record your screen while also capturing audio.
-
-* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
 
 ----
 
@@ -818,6 +817,7 @@ gst-launch-1.0 videotestsrc pattern=snow ! autovideosink
 
 * Smooth playback of adaptive video streams on Raspberry Pi with gst-mmal - https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf
 * [HackspaceHat part 1: WebRTC, Janus and Gstreamer](https://planb.nicecupoftea.org/2015/07/28/hackspacehat-part-1-webrtc-janus-and-gstreamer/)
+* [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
 
 Now using gst-launch-1.0 which promises less latancy
 
@@ -1131,6 +1131,7 @@ containing subtitles, opening posters, etc. like this:
 * [Video Streaming with Flask](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
 * [Flask Video Streaming Revisited](https://blog.miguelgrinberg.com/post/flask-video-streaming-revisited)
 * [Series of Video Tutorals on Flask](https://www.youtube.com/playlist?list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM)
+* [Building a Microservice in Python](https://medium.com/@sonusharma.mnnit/building-a-microservice-in-python-ff009da83dac)
 * [Make Your Python Prettier With Decorators|](https://hackaday.com/2018/08/31/an-introduction-to-decorators-in-python/)
 * [Stream Video from the Raspberry Pi Camera to Web Browsers, Even on iOS and Android](https://blog.miguelgrinberg.com/post/stream-video-from-the-raspberry-pi-camera-to-web-browsers-even-on-ios-and-android)
 * [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
@@ -1712,6 +1713,8 @@ ngrok http 8090
 google-chrome http://be4fac06.ngrok.io/?action=stream
 ```
 
+* [How to Remote Control Your Raspberry Pi Camera from the Web](https://www.tomshardware.com/how-to/raspberry-pi-remote-control-camera-from-web)
+
 ## Step X: Potential Alternates for Streaming Camera
 I did a considerable amount of research to identify `mjepg-streamer` as my solution.
 It does appear to be the right choose, given all my constraint / requirements.
@@ -1727,6 +1730,7 @@ Some of the alternatives that I investigate are documented here.
 * [webrtcH4cKS: ~ Smile, You’re on WebRTC – Using ML Kit for Smile Detection](https://webrtchacks.com/ml-kit-smile-detection/)
 * [webrtcH4cKS: ~ AIY Vision Kit Part 1: TensorFlow Computer Vision on a Raspberry Pi Zero](https://webrtchacks.com/aiy-vision-kit-tensorflow-uv4l-webrtc/)
 * [webrtcH4cKS: ~ Part 2: Building a AIY Vision Kit Web Server with UV4L](https://webrtchacks.com/aiy-vision-kit-uv4l-web-server/)
+* [Tensorflow on edge, or — Building a “smart” security camera with a Raspberry Pi](https://towardsdatascience.com/tensorflow-on-edge-or-building-a-smart-security-camera-with-a-raspberry-pi-5bb2fc039b0f)
 * https://github.com/webrtcHacks
 * [Build a Webcam Communication App using WebRTC](https://blog.bitsrc.io/build-a-webcam-communication-app-using-webrtc-9737384e84be)
 * [Private Home Surveillance with the WebRTC DataChannel](https://webrtchacks.com/private-home-surveillance-with-the-webrtc-datachannel/)
@@ -2071,6 +2075,13 @@ ffmpeg -f alsa -ac 2 -i hw:0,0 -f x11grab -r 30 -s $(xwininfo -root | grep 'geom
 
 * [Green Recorder 2.0 Released, Lets You Screen Record Wayland](https://www.omgubuntu.co.uk/2017/03/green-recorder-wayland-screen-recorder)
 * [A simple screen recorder for Linux desktop. Supports Wayland & Xorg](https://github.com/foss-project/green-recorder)
+
+## Open Broadcast Studio (OBS)
+[Open Broadcaster Software (OBS)](https://obsproject.com/)
+is a free open source software suite that is used for recording and live streaming. OBS is used to capture and record your screen while also capturing audio.
+
+* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
+* [How I stream video with OBS and WebSockets](https://opensource.com/article/20/6/obs-websockets-streaming)
 
 ## WebEx Screen-Sharing Hack
 If you like me and use WebEx for desktop sharing on Windows,

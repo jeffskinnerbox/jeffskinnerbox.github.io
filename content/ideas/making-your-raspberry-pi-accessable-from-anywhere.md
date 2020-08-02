@@ -161,6 +161,7 @@ Up-and-coming reverse proxy is [Candy](https://caddyserver.com/)
 * [What Makes Caddy Different](https://caddyserver.com/blog/what-makes-caddy-different.html)
 * [Setup Nginx as a reverse proxy](https://www.inpimation.com/setup-nginx-reverse-proxy/)
 * [nginx reverse proxy mopidy raspberry pi 2](https://www.inpimation.com/nginx-mopidy-raspberry-pi-2/)
+* [How to NGINX Reverse Proxy with Docker Compose](https://dzone.com/articles/how-to-nginx-reverse-proxy-with-docker-compose)
 * [How To Develop a Node.js TCP Server Application using PM2 and Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-develop-a-node-js-tcp-server-application-using-pm2-and-nginx-on-ubuntu-16-04)
 ################################################################################
 
@@ -215,6 +216,8 @@ ngrok http 8090
 # now using the url provide by ngrok, see the video in your broswer
 google-chrome http://be4fac06.ngrok.io/?action=stream
 ```
+
+* [How to Remote Control Your Raspberry Pi Camera from the Web](https://www.tomshardware.com/how-to/raspberry-pi-remote-control-camera-from-web)
 
 * [Ngrok, secure tunnels to your Local Development Environment …or how I exposed my local services in 3 seconds?](https://medium.com/@jotarios/ngrok-secure-tunnels-local-dead8685bd71)
 

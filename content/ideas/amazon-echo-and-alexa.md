@@ -323,6 +323,9 @@ then link the SmartThings skill using the Alexa app.
 * [Amazon shows you how to make an Echo with Raspberry Pi](http://www.engadget.com/2016/03/25/amazon-shows-you-how-to-make-an-echo-with-raspberry-pi/)
 * [Project: Raspberry Pi + Alexa Voice Service](https://github.com/amzn/alexa-avs-raspberry-pi)
 
+# Almond - The Open, Privacy-Preserving Virtual Assistant
+*[Almond](https://almond.stanford.edu/)
+
 # Voice Controlled Workbench
 * [You Speak, Your Scope Obeys](http://hackaday.com/2016/03/29/you-speak-your-scope-obeys/)
 

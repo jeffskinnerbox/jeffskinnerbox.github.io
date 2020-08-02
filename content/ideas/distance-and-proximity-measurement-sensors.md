@@ -15,12 +15,17 @@
 * [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
 
 # Radar Sensors
+* [Robot Radar Module](https://hackaday.com/2018/05/03/robot-radar-module/)
+    * [SparkFun Pulsed Radar Breakout - A111](https://www.sparkfun.com/products/15577)
+    * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor/all)
+    * [Radar sensor introduction](https://acconeer-python-exploration.readthedocs.io/en/latest/sensor_introduction.html)
+* [Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0)
+* [Millimeter Wave Doppler Radar (SYH24A1) - 24GHz Transceiver](https://www.seeedstudio.com/Millimeter-wave-Doppler-radar-SYH24A-p-4392.html)
 * [OmniPreSense](https://omnipresense.com/)
 * [Low Cost Radar Speed Sign](https://www.instructables.com/id/Low-Cost-Radar-Speed-Sign/)
 * [Arduino Gets Its First Radar Shield Board](https://www.sensorsmag.com/components/arduino-gets-its-first-radar-shield-board)
 * [Walabot](https://walabot.com/)
 * [A Radar Module Teardown And Measuring Fan Speed The Hard Way](https://hackaday.com/2018/08/14/a-radar-module-teardown-and-measuring-fan-speed-the-hard-way/)
-* [Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0)
 * [HW-MS03 - 2.4GHz To 5.8GHz Radar Sensor Microwave Radar Module Small Size](https://www.banggood.com/HW-MS03-2_4GHz-To-5_8GHz-Radar-Sensor-Microwave-Radar-Module-Small-Size-p-1123550.html?p=E307071053245201501N)
 * [RCWL-0516 - microwave radar sensor module Human body induction switch module Intelligent sensor](https://www.aliexpress.com/item/RCWL-0516-microwave-radar-sensor-module-Human-body-induction-switch-module-Intelligent-sensor/32704946341.html)
 * [WB3-12 - LED Microwave Radar Sensor 3-12W 7m Microwave Radar Sensoring Switch Special for Light Bulb Ceiling Lamp](https://www.aliexpress.com/item/LED-Microwave-Radar-Sensor-3-12W-Microwave-Sensoring-Switch-Special-for-Spherical-Lamp/32602421530.html)
@@ -29,6 +34,10 @@
 * [SK-600 - AC 220V-240V 5.8GHz Microwave Radar Sensor Body Motion HF Detector Light Switch](https://www.banggood.com/SK-600-AC-220V-240V-5_8GHz-Microwave-Radar-Sensor-Body-Motion-HF-Detector-Light-Switch-p-1023364.html)
 * [Keep An Eye On The Neighborhood With This Passive Radar](https://hackaday.com/2019/11/08/keep-an-eye-on-the-neighborhood-with-this-passive-radar/)
 * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor)
+* [Acconeer](https://www.acconeer.com/products)
+
+# BLE Human Presence Detector
+* [BLE Human Presence Detector using an ESP32 (Tutorial, Arduino IDE)](https://www.youtube.com/watch?v=KNoFdKgvskU)
 
 # Sensor Array / Synthetic Sensor
 The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)

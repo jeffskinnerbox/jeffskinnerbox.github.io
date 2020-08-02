@@ -9,6 +9,7 @@
 * [8 best practices for building containerized applications](https://opensource.com/life/16/9/8-best-practices-building-containerized-applications?sc_cid=70160000000QyBpAAK)
  * [Why we need a different container purely for apps - Mark Shuttleworth (Canonical)](https://www.youtube.com/watch?v=0z3yusiCOCk)
 * [An Introduction To Snap Packages for Linux](https://www.youtube.com/watch?v=j40tNL3t4gw)
+* [What’s the Deal with SNAP Packages?](https://hackaday.com/2020/06/24/whats-the-deal-with-snap-packages/)
 
 ## What is chroot?
 A [`chroot`][25]  or "chroot jail" is an operation (orginating with the Unix operating system)
@@ -134,6 +135,7 @@ For additional general informationa about container technology, see these source
 * [Kubernetes Tutorial - Step by Step Introduction to Basic Concepts](https://auth0.com/blog/kubernetes-tutorial-step-by-step-introduction-to-basic-concepts/)
 * [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server/)
 * [The Complete Kubernetes Collection of Tutorials and Tools](https://dzone.com/articles/the-complete-kubernetes-collection-tutorials-and-tools)
+* [Raspberry Pi Kubernetes mini PC cluster project](https://www.geeky-gadgets.com/raspberry-pi-kubernetes-mini-pc-cluster-04-05-2020/)
 
 
 * [Getting started with multicontainer on resin.io](https://github.com/resin-io-projects/multicontainer-getting-started)

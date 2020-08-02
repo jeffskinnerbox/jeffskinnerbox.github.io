@@ -8,6 +8,8 @@ Author: Jeff Irland
 Image: tiddlywiki_logo.png
 Summary: bla bla bla bla bla bla
 
+* [It Ain’t Over ‘Til The Paperwork Is Done: Test Driving TiddlyWiki](https://hackaday.com/2020/02/14/it-aint-over-til-the-paperwork-is-done-test-driving-tiddlywiki/)
+
 I find myself with a multitude of ancillary information,
 some of it related to this blog but not all related.
 I need a place to adequately organize and store it.

@@ -10,6 +10,7 @@
 
 Some simple weather station setups:
 Nice Design
+* [ESP8266 Colored Weather Station](https://www.instructables.com/id/ESP8266-Colored-Weather-Station/)
 * [Weather Station with ePaper and Raspberry Pi](Weather Station with ePaper and Raspberry Pi)
 * [Weather Pyramid](https://hackaday.io/project/153208-weather-pyramid)
 * [ESP8266 Weather Station - with Wind and Rain Sensors](https://tysonpower.de/blog/esp8266-weather-station)
@@ -20,6 +21,7 @@ Nice Design
 * [Checking The Weather Without A Window](https://hackaday.com/2018/04/27/checking-the-weather-without-a-window/)
 * [ESP32 Weather Station on a PCB](https://hackaday.com/2018/02/10/esp32-weather-station-on-a-pcb/)
 * [ESP8266 WiFi Weather Station with Color TFT Display](https://learn.adafruit.com/wifi-weather-station-with-tft-display)
+* [Sparklines For Your ESP32 Projects](https://hackaday.com/2020/06/06/sparklines-for-your-esp32-projects/)
 * [IoT Made Simple: Home Weather Station With NodeMCU and OLED](https://www.hackster.io/mjrobot/iot-made-simple-home-weather-station-with-nodemcu-and-oled-27d3a9)
 * [Desktop Weather Monitor Leaves Nothing to Chance](https://hackaday.com/2019/05/19/desktop-weather-monitor-leaves-nothing-to-chance/)
 * [Analog VU Meter - I2C OLED SH1106 - OLEDMeter Animation](https://forum.arduino.cc/index.php?PHPSESSID=u75qua3pd504eg6p24m9bcpal0&topic=403234.msg2773633#msg2773633)
@@ -191,8 +193,9 @@ Open `server.js` and replace its content as follows:
 # Hardware Design
 * [ESP8266 weather station with e-paper display](http://embedded-lab.com/blog/esp8266-weather-station-e-paper-display/)
 * [7.5inch Passive NFC-Powered e-Paper without Battery](https://www.seeedstudio.com/7-5inch-Passive-NFC-Powered-e-Paper-without-Battery-p-4494.html)
-* [ESP8266 Weather display}(https://github.com/andrei7c4/weatherdisplay)
+* [ESP8266 Weather display](https://github.com/andrei7c4/weatherdisplay)
 * [Run a Linux Terminal on Cheap E-Ink Displays](https://hackaday.com/2018/08/14/run-a-linux-terminal-on-cheap-e-ink-displays/)
+* [How to Make Pocket Sized IoT Weather Station](https://www.instructables.com/id/How-to-Make-Pocket-Sized-IoT-Weather-Station/?linkId=71510722)
 
 As an alternative to buying general purpose e-paper solution, repurposing a Kindle.
 Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs price.
@@ -216,6 +219,10 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [SparkFun Lightning Detector - AS3935](https://www.sparkfun.com/products/15276)
 * [This Lightning Detector Is Remarkably Sensitive](https://hackaday.com/2019/10/03/this-lightning-detector-is-remarkably-sensitive/)
 
+# Bat Detector
+* [What Does The Bat Say? Tune In With This Heterodyne Detector](https://hackaday.com/2020/06/27/what-does-the-bat-say-tune-in-with-this-heterodyne-detector/)
+* [Hack Together Your Own Bat Signal](https://hackaday.com/2020/07/11/hack-together-your-own-bat-signal/)
+
 # Open Source Seismometer
 * [Earthquake Detection On A Chip](https://hackaday.com/2019/07/06/earthquake-detection-on-a-chip/)
 * [Classroom seismometers could monitor earthquakes worldwide](http://physicsworld.com/cws/article/news/2014/jan/28/classroom-seismometers-could-monitor-earthquakes-worldwide)
@@ -223,14 +230,17 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [Instructables Seismometer](http://www.instructables.com/id/Seismometer/?ALLSTEPS)
 * [Build A Seismometer Out Of Plumbing Parts](https://hackaday.com/2019/01/22/build-a-seismometer-out-of-plumbing-parts/)
 * [Detecting seismic waves with a piezo element](https://getpocket.com/a/read/122486014)
+* [Raspberry Shake 4D (RS4D)](https://shop.raspberryshake.org/product/turnkey-iot-home-earth-monitor-rs-4d/)
+* [RasberryShake 4D (RD29A) Chino Hills, Ca Live Stream Overview](https://www.youtube.com/watch?v=lV4CXGVGKaY)
 * [Earthquake enthusiast? Raspberry Shake is your personal seismograph](http://www.digitaltrends.com/cool-tech/raspberry-shake-seismograph/)
 * [Raspberry Shake Detects Quakes](https://hackaday.com/2018/08/25/raspberry-shake-detects-quakes/)
-* [Raspberry Shake - The Personal Seismograph](http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/12810/Raspberry-Shake--The-Personal-Seismograph.aspx) ([shop](http://www.raspberryshake.org/)
+* [Raspberry Shake - The Personal Seismograph](http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/12810/Raspberry-Shake--The-Personal-Seismograph.aspx)
 * [Raspberry Shake - Home Earthquake Monitor (RS1D)](https://www.sparkfun.com/products/14835)
 * [BUILD A SEISMOGRAPH WITH RASPBERRY SHAKE](https://www.blogdot.tv/build-a-seismograph-with-raspberry-shake/)
 * [Raspberry Pi-powered boom sensor: Detect earthquakes, H-bombs, SpaceX launches](http://www.zdnet.com/article/raspberry-pi-powered-boom-sensor-detect-earthquakes-h-bombs-spacex-launches/)
 * [Watch Earthquake Roll Across A Continent In Seismograph Visualization Video](https://hackaday.com/2019/07/22/watch-earthquake-roll-across-a-continent-in-seismograph-visualization-video/)
 * [Simple Seismic Sensor Makes Earthquake Detection Personal](https://hackaday.com/2019/10/28/simple-seismic-sensor-makes-earthquake-detection-personal/)
+* [Earthquake sensor from OpenElectronicsStore on Tindie](https://www.tindie.com/products/openelectronics/earthquake-sensor/)
 
 # Earthquake Notification
 The United States Geological Survey provides a program called ShakeCast

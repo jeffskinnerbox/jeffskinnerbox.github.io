@@ -34,14 +34,19 @@
     * Trimble GPS Tutoral - http://www.trimble.com/gps_tutorial/
 
 * [GPSBabel](https://www.gpsbabel.org/)
-converts waypoints, tracks, and routes between popular GPS receivers such as Garmin or Magellan and mapping programs like Google Earth or Basecamp.
+lets you convert proprietary data formats from a hundred or so different GPS receivers into `.GPX` files that are then easy to work with.
+You can converts waypoints, tracks, and routes between popular GPS receivers such as Garmin or Magellan and mapping programs like Google Earth or Basecamp.
 It also has powerful manipulation tools for such data. such as filtering duplicates points or simplifying tracks.
+From there, [using 200 lines of Python](https://github.com/bunnie/watchmap) ([here](https://www.bunniestudios.com/blog/?p=5863)), you can plot the GPS data on a map and display it as a webpage.
 
 
 # DashCam
 Combining the GPS location information onto a video stream
 
 * [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
+
+# logging
+* [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
 
 
 
@@ -112,7 +117,11 @@ Modern GPS units are light, small, cheap, and use very little power.
 * [An Introduction to GNSS](https://www.novatel.com/an-introduction-to-gnss/chapter-1-gnss-overview/)
 * [New-Age Satellite-Based Navigation STAN: Simultaneous Tracking and Navigation with LEO Satellite Signals](https://insidegnss.com/new-age-satellite-based-navigation-stan-simultaneous-tracking-and-navigation-with-leo-satellite-signals/)
 * [Tracking The Satellites That Keep Us On Track; Monitoring GPS, Galileo, BeiDou, And GLONASS](https://hackaday.com/2019/09/24/tracking-the-satellites-that-keep-us-on-track-monitoring-gps-galileo-beidou-and-glonass/)
+* [Not Just GPS: New Options For Global Positioning](https://hackaday.com/2020/07/07/not-just-gps-new-options-for-global-positioning/)
 * [Coarse Materials: GPS and GNSS for Geospatial Professionals](https://www.e-education.psu.edu/geog862/home.html)
+
+# Decoding GPS Signals
+* [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
 
 ## Time and Navigation
 * [Time and Navigation](https://timeandnavigation.si.edu/)
@@ -121,6 +130,14 @@ Modern GPS units are light, small, cheap, and use very little power.
 * [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
 
 ## Dead Reckoning (DR)
+Dead Reckoning is the process of determining current position by
+combining previously determined positional data with speed and heading.
+This process can also be applied to determine future positions as well.
+
+You can calculates speed and heading through the use of an internal inertial measurement unit (IMU).
+The addition of an wheel ticks
+and IMU allows higher precision and more accurate readings in between GNSS data refreshes.
+
 * http://www.furuno.com/en/gnss/technical/tec_dead
 
 ## Global Navigation Satellite Systems (GNSS)
@@ -237,6 +254,18 @@ and ionosphere, troposphere and multipath conditions.
 * [SparkFun GPS-RTK Board - NEO-M8P-2](https://www.sparkfun.com/products/15005)
     * [What is GPS RTK?](https://learn.sparkfun.com/tutorials/what-is-gps-rtk)
     * [GPS-RTK Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide)
+* [EYE ON NPI - u-blox C099-F9P Application Board for ZED-F9P GNSS RTK Module](https://www.youtube.com/watch?v=RXyBcWh85DM)
+* [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
+
+### The Correction Signal
+RTCM SC-104 is a standard that defines the data structure for differential correction information for a variety of differential correction applications. It was developed by the Radio Technical Commission for Maritime Services (RTCM) and has become an industry standard for communication of correction information.
+
+* https://www.e-education.psu.edu/geog862/node/1838
+
+### SNIP
+SNIP is a Networked Transport of RTCM via Internet Protocol (NTRIP) Caster application that combines user-friendly software with an active data-pushing feature to bring you all the benefits of NTRIP technology.
+
+* [SNIP](https://www.use-snip.com/)
 
 ## Real-Time Kinematic vs. Differential GPS
 * [Real-Time Kinematic and Differential GPS](https://www.e-education.psu.edu/geog862/node/1828)
@@ -285,6 +314,7 @@ in positional measurement precision resulting from sub-optimal satellite geometr
 ## Python Libraries for GIS and Mapping
 * [Python Libraries for GIS and Mapping](https://gisgeography.com/python-libraries-gis-mapping/)
 * [Python3 GPS Client Tools](https://confluence.clazzes.org/display/PYTOOLS/Python3+GPS+Client+Tools)
+* [The Heat Of The Moments – Location Visualization In Python](https://hackaday.com/2019/12/05/the-heat-of-the-moments-location-visualization-in-python/)
 
 ## GNSS-SDR
 [GNSS-SDR][64] is and open source Global Navigation Satellite Systems software-defined receiver.
@@ -296,6 +326,14 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 
 * [VBOX 3i | 100Hz Data Logger](https://www.vboxautomotive.co.uk/index.php/en/products/data-loggers/vbox-3i)
 * [Racelogic](https://racelogic.support/)
+
+
+----
+
+
+# Verizon Location Technology Services
+* [Location for Developers](https://location.verizon.com/)
+
 
 
 ----
@@ -945,6 +983,7 @@ The OzzMaker products website list several useful postings concerning the BerryG
     * [Real-time GPS tracking with a Raspberry Pi](http://ozzmaker.com/real-time-gps-tracking-with-a-raspberry-pi/)
     * [How to save GPS data to a file using Python](http://ozzmaker.com/how-to-save-gps-data-to-a-file-using-python/)
 * IMU
+    * [IMU Attitude Estimation](http://philsal.co.uk/projects/imu-attitude-estimation)
     * [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi](http://ozzmaker.com/berryimu/)
     * [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi - Kalman Filter](http://ozzmaker.com/guide-interfacing-gyro-accelerometer-raspberry-pi-kalman-filter/)
     * [Create a Digital Compass with the Raspberry Pi – Part 1 – “The Basics”](http://ozzmaker.com/compass1/)

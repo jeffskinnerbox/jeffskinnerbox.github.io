@@ -6,7 +6,10 @@
 * [A Dangerous Demonstration Of The Power Of Radio](https://hackaday.com/2020/04/16/a-dangerous-demonstration-of-the-power-of-radio/)
 
 # Early Radio Types
-https://en.wikipedia.org/wiki/History_of_radio
+* [History of Radio](https://en.wikipedia.org/wiki/History_of_radio)
+* [How Early Radio Receivers Worked](https://hackaday.com/2020/07/10/how-early-radio-receivers-worked/)
+* [Modern Radio Receiver Architecture: From Regenerative to Direct Conversion](https://hackaday.com/2020/07/17/modern-radio-receiver-architecture-from-regenerative-to-direct-conversion/)
+* [Receiver Architectures: Fundamentals and Properties](http://ece.tamu.edu/~s-sanchez/665%20Lect%202-Receiver-Topologies%202009.pdf)
 
 # National Radio Quiet Zone
 * [All Quiet On The West Virginia Border: The National Radio Quiet Zone](https://hackaday.com/2016/04/13/all-quiet-on-the-west-virginia-border-the-national-radio-quiet-zone/)
@@ -41,6 +44,7 @@ Virtually all modern radio receivers use the superheterodyne principle.
 * https://en.wikipedia.org/wiki/Superheterodyne_receiver
 * [Superheterodyne Radios Explained/](https://hackaday.com/2019/01/02/superheterodyne-radios-explained/)
 * [SIMPLE SUPERHETERODYNE SW RECEIVER HARKS BACK ALMOST 100 YEARS](https://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
+* [What Does The Bat Say? Tune In With This Heterodyne Detector](https://hackaday.com/2020/06/27/what-does-the-bat-say-tune-in-with-this-heterodyne-detector/)
 
 # Crystal Radio
 ![lost-knowladge](http://i0.wp.com/cdn.makezine.com/uploads/2009/02/lk_banner2.jpg?resize=189%2C207)
@@ -140,6 +144,11 @@ by building your own coherer.
 * [The Art of Vacuum Tube Fabrication](https://hackaday.com/2018/12/31/the-art-of-vacuum-tube-fabrication/)
 * [fabricating semiconductors at home](http://hackaday.com/2017/02/25/the-fab-lab-next-door-diy-semiconductors/)
 * [Semiconductors @ Home](https://hackaday.io/project/107598-semiconductors-home)
+* [Compound Microphone](https://simplifier.neocities.org/compound.html)
+
+## Nixie Tubes
+* [Think IN18s Are Cool? Get A Load Of This Must-Have Custom Nixie Tube](https://hackaday.com/2019/10/02/think-in18s-are-cool-get-a-load-of-this-must-have-custom-nixie-tube/)
+* [Homemade Nixie Tubes](https://hackaday.com/2013/11/07/homemade-nixie-tubes/)
 
 ## Capacitors
 * [Lint And Dog Hair Supercapacitor](http://hackaday.com/2016/04/30/lint-and-dog-hair-supercapacitor/)

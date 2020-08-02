@@ -893,6 +893,8 @@ I hope to illustrate not only the specifics for these emerging technologies,
 but how the "wireless challenge" imposes an architectural pattern that must be matched with
 the IoT solution your attempting to create.
 
+* [What Will You Do With An Extra 1.2 Gigahertz?](https://hackaday.com/2020/05/07/what-will-you-do-with-an-extra-1-2-gigahertz/)
+
 
 ######################################################################################################################
 
@@ -1629,6 +1631,20 @@ http://www.rcrwireless.com/20170124/carriers/verizon-testing-5g-in-10-locations-
 
 
 * [A network of networks: How will carriers handle the evolution to 5G?](https://dupress.deloitte.com/content/dam/dup-us-en/articles/3795_network-of-networks/DUP_Network-of-networks.pdf)
+
+Here are a couple sources about the phenomenon of 5g becoming a “fabric”. The idea is that devices that previously couldn’t exist on cellular due to various reasons (eg. high energy consumption per unit data) can now exist on 5g by virtue of network efficiency ( Literal energy efficieny as well as efficient allotment of bandwidth). It is still a topic of debate as to whether 5g will actually replace Bluetooth,wifi,LoRa, NFC, and similar technologies in practice. Part of this is due to the current abundance of devices that would be deemed deprecated. Thus, it may be more of a gradual reduction in devices using other wireless tech rather than a complete takeover by 5g. The ideal scenario is well represented by the QUALCOMM source wherein illustrations highlight a connected city use case demonstrating previously obscured devices existing on the 5g space.
+
+* https://www.androidauthority.com/5g-one-wireless-technology-to-rule-them-all-638150/
+* http://techgenix.com/5g-internet-of-things/
+* https://www.theinternetofallthings.com/why-5g-is-the-way-to-go-for-the-internet-of-things-1252016/
+* https://academicjournals.org/journal/IJPS/article-full-text-pdf/B6145A861166
+* https://www.qualcomm.com/media/documents/files/5g-vision-use-cases.pdf (Unifying Connectivity Fabric)
+* https://www.sdxcentral.com/5g/definitions/top-5g-use-cases/
+* https://www.ecnmag.com/article/2018/10/building-fabric-trust-5g-future
+* https://arxiv.org/pdf/1804.00710.pdf
+* https://www.webpronews.com/5g-affirmed/
+* https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface
+
 
 
 ######################################################################################################################

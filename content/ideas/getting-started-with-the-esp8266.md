@@ -1990,6 +1990,8 @@ Once your device is in Deep-sleep,
 `RST` will send a LOW signal to `GPIO16` when the sleep timer is up.
 The pinouts are pictured below:
 
+* [ESP32 Secrets: Interrupts, and Deep-Sleep under the Hood](https://www.youtube.com/watch?feature=youtu.be&v=CJhWlfkf-5M&app=desktop)
+
 [!nodemcu](https://www.losant.com/hs-fs/hubfs/Blog/deep_sleep/nodemcu_pins.png?t=1493323288333&width=640&name=nodemcu_pins.png)
 [!feather-huzzah](https://cdn-learn.adafruit.com/assets/assets/000/041/285/large1024/adafruit_products_2821_pinout.png?1493318895)
 
@@ -2221,6 +2223,7 @@ but this is [not fool proof protection][102].
 * [Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA)
 * [Internet of Things with ESP8266 #4: Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA&t=52s)
 * [Over The Air programming Tutorial](https://www.youtube.com/watch?v=GR2ZXyPaqMo)
+* [ESP32 OTA tutorial with tricks (incl. OTA debugging)](https://www.youtube.com/watch?v=1pwqS_NUG7Q)
 
 
 
@@ -2447,6 +2450,7 @@ bla bla bla
 
 * Power Management
     * [ESP8266: Turn Off WiFi - Reduce Current Big Time](https://www.hackster.io/rayburne/esp8266-turn-off-wifi-reduce-current-big-time-1df8ae?utm_source=Hackster.io+newsletter&utm_campaign=2f2ffd9fef-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-2f2ffd9fef-140225889&mc_cid=2f2ffd9fef&mc_eid=9036129d51)
+    * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
     * [REDUCING ESP8266 POWER CONSUMPTION USING DEEP SLEEP](http://tinker.yeoman.com.au/2015/03/08/reducing-esp8266-power-consumption-using-deep-sleep/)
     * [Hack allows ESP-01 to go to Deep Sleep](http://hackaday.com/2015/02/08/hack-allows-esp-01-to-go-to-deep-sleep/)
     * [Low Power ESP8266 – Sleeping at 78 micro Amps](http://tim.jagenberg.info/2015/01/18/low-power-esp8266/)

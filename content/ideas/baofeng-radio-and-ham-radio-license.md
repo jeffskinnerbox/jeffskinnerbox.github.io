@@ -53,13 +53,29 @@ Some examples of this are:
 * [CHIRP](http://chirp.danplanet.com/projects/chirp/wiki/Home)
 * [Hacking the Baofeng UV5R](http://elazary.com/index.php?option=com_content&view=article&id=49%3Ahacking-the-baofeng-uv5r&catid=14%3Abaofeng-uv5r&Itemid=17&showall=1)
 
+# After Market Antenna
+* [Super-Elastic Signal Stick](https://signalstuff.com/product/super-elastic-signal-stick/)
+
+# What can you do with the Baofeng UV-5R
+* [Baofeng UV-5R; Top 5 things to listen to](https://www.youtube.com/watch?v=q3nMV5rOFiw)
+* [Listening to Astronauts ON THE ISS with a Baofeng UV-5R](https://www.youtube.com/watch?v=3sNwzBC6Rbk)
+    * ISS (International Space Station) -reciever frequency - 145.8MHz
+
+
+-------
+
+
 # Tesla
 Maybe I could even do some exploring of spectrum mysteries like
 [Number Stations][01] and [Tesla Spirit Radio][06]).
 
 * [Tesla Coil Arc Plasma Loudspeaker](https://www.amazon.com/gp/product/B0794X4PPD)
 * How do you measure the field strength of a Tesla Coil?  With a [Electrostatic Field Mill Voltmeter](https://hackaday.com/2020/03/26/whirling-shutters-on-this-field-mill-measure-electrostatic-charges-at-distance/)
+* [Compact Slayer Exciter For Your High Voltage Needs](https://hackaday.com/2020/03/21/compact-slayer-exciter-for-your-high-voltage-needs/)
 * [Vacuum Tube Tesla Coil Does Fascinating Stunts](http://blog.modernmechanix.com/vacuum-tube-tesla-coil-does-fascinating-stunts/)
+* [Easy SSTC, Slayer Exciter on Steroids!](https://www.instructables.com/id/Easy-SSTC-Slayer-Exciter-On-Steroids/)
+
+The Slayer Exciter is an air core transformer adapted to operating at low DC voltages. It has a primary and secondary, like a Tesla coil, but it uses low voltage components--diodes and transistors--instead of spark gaps and tank capacitors to induce resonant rise in the coil.
 
 # Configuring Your Baofeng UV-5R
 * [Tips on How to Best Configure and Use Your Baofeng UV-5R](https://codegreenprep.com/2013/04/tips-on-how-to-best-configure-and-use-your-baofeng-uv-5r/)
@@ -83,10 +99,12 @@ However there are still some things you can listen to:
 
 * [Baofeng UV-5R Programming - setup as a police scanner](https://www.youtube.com/watcZZh?v=zlQqQKIWEVE)
 * [Using Baofeng UV-5R as a Radio Scanner with CHIRP](https://oneguyoneblog.com/2018/02/25/scanner-radio-pofung-baofeng-uv-5r-chirp/)
+* [Tackling Trunked Radio With Software](https://hackaday.com/2020/06/16/tackling-trunked-radio-with-software/)
 
 # Studying for Ham Radio License
-* [ARRL Ham Radio License Support Page](http://www.arrl.org/ham-radio-license-manual)
+* [Signal Stuff](https://signalstuff.com/)
 * [HAMSTUDY](https://hamstudy.org/)
+* [ARRL Ham Radio License Support Page](http://www.arrl.org/ham-radio-license-manual)
 * [HamTestOnline](https://www.hamradiolicenseexam.com/)
 * [Gordon West Training Resources From The W5YI Group](http://www.gordonwestradioschool.com/main/page_w5yi_training_resources.html)
 * [Amateur Radio Exam Practice](http://aa9pw.com/radio/)
@@ -151,6 +169,11 @@ Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 
 * [New Packet Radio](https://hackaday.com/2019/03/30/bidirectional-ip-with-new-packet-radio/)
 * [Setting up Packet Radio on a Raspberry Pi (4 thru Zero-W) running Raspbian Buster, Stretch or Jessie](http://www.trinityos.com/HAM/CentosDigitalModes/RPi/rpi2-setup.html)
+* [An Open Hardware Modem For The Modern Era](https://hackaday.com/2020/06/09/an-open-hardware-modem-for-the-modern-era/)
+
+# Echolink
+* [Baofeng UV-5R ham radio, talking from Atlanta to Seattle](https://www.youtube.com/watch?v=Jhr7i-4jbMI)
+* [EchoLink](http://www.echolink.org/)
 
 # Raspberry Pi for Ham-Radio
 * [Setup Raspberry Pi for Ham-Radio](https://orari.or.id/index.php/2019/09/02/setup-raspberry-pi-for-ham-radio/)

@@ -1,11 +1,3 @@
-Title: Converting Audio Files
-Date: 2100-01-01 00:00
-Category: Audio
-Tags:
-Slug: converting-audio-files
-Author: Jeff Irland
-Image: DRAFT_stamp.png
-Summary: bla bla bla
 
 * [Accelerating Fourier transforms using the Raspberry Pi's GPU](http://www.raspberrypi.org/archives/5934)
 * [HiFiBerry](http://www.hifiberry.com/)
@@ -20,6 +12,10 @@ Summary: bla bla bla
 
 [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
 
+# Audio Systems
+* [Teensy Audio Library, Delay Line Demo](https://www.youtube.com/watch?v=d80d1HWy5_s&feature=emb_title)
+* [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html)
+
 ## Music and Sound Waves
 * [Art Ludwig's Sound Page](http://www.silcom.com/~aludwig/)
 * [The Kraakdoos — Musical Abuser of an Ancient OpAmp](http://hackaday.com/2015/09/03/the-kraakdoos-musical-abuser-of-an-ancient-opamp/)
@@ -27,6 +23,7 @@ Summary: bla bla bla
 * [Using a Raspberry Pi as a synthesiser](https://www.blogdot.tv/using-a-raspberry-pi-as-a-synthesiser/)
 * [The Fart Box, A Synthesizer Not Quite Like Others](https://hackaday.com/2020/03/21/the-fart-box-a-synthesizer-not-quite-like-others/)
 * [Music from Outer Space: Your Synth-DIY Headquarters](http://musicfromouterspace.com/)
+* [Glacial Soundscapes with Evolving Drone Tones!](https://blog.tindie.com/2020/07/glacial-soundscapes-with-evolving-drone-tones/)
 
 ## Audio Codec
 An audio codec (or just [codec][17]) is a device or computer program capable of
@@ -84,6 +81,11 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 Quadrature signals, also called IQ signals, IQ data or IQ samples, are often used in RF applications. They form the basis of complex RF signal modulation and demodulation, both in hardware and in software, as well as in complex signal analysis.
 
 A pair of periodic signals are said to be in “quadrature” when they differ in phase by 90 degrees. The “in-phase” or reference signal is referred to as “I,” and the signal that is shifted by 90 degrees (the signal in quadrature) is called “Q.” What does this mean and why do we care?
+
+### Nyquist–Shannon Theorem
+* [The Nyquist–Shannon Theorem: Understanding Sampled Systems](https://www.allaboutcircuits.com/technical-articles/nyquist-shannon-theorem-understanding-sampled-systems/)
+* [The Nyquist–Shannon Theorem in the Frequency Domain](https://www.allaboutcircuits.com/technical-articles/understanding-sampled-systems-the-nyquistshannon-theorem-in-the-frequency-domain/)
+* [The Nyquist–Shannon Sampling Theorem: Exceeding the Nyquist Rate](https://www.allaboutcircuits.com/technical-articles/the-nyquistshannon-sampling-theorem-exceeding-the-nyquist-rate/)
 
 ## Converting Formats
 A huge variety of file formats are used to store and distribute digital audio. The most commonly used for compressed audio is mp3, and the most common format for raw audio (uncompressed) is .wav.  But there are many other audio formats, and you likely want to be able to convert between the various formats.
@@ -192,6 +194,26 @@ Doesn't seem to work???
 
 
 
+----
+
+
+
+# Analog Computer
+* [Building an Analog Computer with Op Amps](https://www.youtube.com/playlist?list=PL_R4uxT5thflWVbSWtl-rx5_C_q0RxjyV)
+
+* [Bil Herd: Computing with Analog](https://hackaday.com/2014/07/25/bil-herd-computing-with-analog/)
+
+* [Analog computation, Part 1: What and why](https://www.analogictips.com/analog-computation-part-1-what-and-why/)
+* [Analog computation, Part 2: When and how](https://www.analogictips.com/analog-computation-part-2-when-and-how-faq/)
+
+[Analog Computing Technique](https://courses.engr.illinois.edu/ece486/fa2019/laboratory/docs/lab1/analog_computer_manual.pdf)
+
+# History
+* [Secrets From A 1969 Analog Computer](https://hackaday.com/2019/09/23/secrets-from-a-1969-analog-computer/)
+* [Not Your Father’s Analog Computer](https://spectrum.ieee.org/computing/hardware/not-your-fathers-analog-computer)
+
+
+
 [01]:http://www.acronymchile.com/sigproc.html
 [02]:http://en.linuxreviews.org/HOWTO_Convert_audio_files
 [03]:http://sox.sourceforge.net/
@@ -232,3 +254,5 @@ Doesn't seem to work???
 [38]:
 [39]:
 [40]:
+![analog-computer](https://dzone.com/storage/temp/12682364-connection-netwok.jpg)
+

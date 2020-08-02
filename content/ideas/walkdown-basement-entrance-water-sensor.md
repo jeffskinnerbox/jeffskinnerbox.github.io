@@ -11,25 +11,32 @@ We'll also need to removing the power from the sensors
 when the microcontroller is asleep to avoid very small but impactful currents that will flow.
 
 
-* [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)
 * [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
 * [Solar Wifi Weather Station (v2.0)](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fwww.danilolarizza.com%2Fstazione-meteo-solare-wifi-v2-0%2F&edit-text=&act=url)
 * [Improved Outdoor Solar Harvester Now Handles All The Parts](https://hackaday.com/2019/11/19/improved-outdoor-solar-harvester-now-handles-all-the-parts/)
 
 * [ESP32 Technical Tutorials: Watchdog Processing](https://www.youtube.com/watch?v=C2xF3O6qkbg)
-
 * [Device Power Management in IoT](https://dzone.com/articles/device-power-management-in-iot)
-* [ESP8266 Low Power Solutions](https://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf)
-* [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
-* [One ESP8266, One Battery, One Year… And Counting](https://hackaday.com/2020/01/15/one-esp8266-one-battery-one-year-and-counting/)
-* [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
-* [How Low Can An ESP32 Go?](https://hackaday.com/2020/01/07/how-low-can-an-esp32-go/)
+
+* [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)
 
 * [Adafruit INA260 High or Low Side Voltage, Current, Power Sensor](https://www.adafruit.com/product/4226)
 
 * [AAA Powered LoRa Mailbox Sensor Goes The Distance](https://hackaday.com/2020/02/15/aaa-powered-lora-mailbox-sensor-goes-the-distance/)
 
+* [ESP32 Secrets: Interrupts, and Deep-Sleep under the Hood](https://www.youtube.com/watch?feature=youtu.be&v=CJhWlfkf-5M&app=desktop)
+* [Aggressively Low Power with the ESP8266](https://www.youtube.com/watch?v=I3lJWcRSlUA)
+* [ESP8266 Low Power Solutions](https://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf)
+* [One ESP8266, One Battery, One Year… And Counting](https://hackaday.com/2020/01/15/one-esp8266-one-battery-one-year-and-counting/)
+* [How Low Can An ESP32 Go?](https://hackaday.com/2020/01/07/how-low-can-an-esp32-go/)
+* [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
+* [Deep Sleep & Other Power Modes (ESP32 + Arduino Series)](https://www.youtube.com/watch?v=dyvpRYfWjkY&feature=youtu.be)
+* [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
 
+
+
+# Solar Power
+* [PiJuice Zero](https://www.crowdsupply.com/pi-supply/pijuice-zero)
 
 # Solar Irradiance ... Got Enough?
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
@@ -38,6 +45,10 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 * [3W Solar Panel 138X160](https://www.seeedstudio.com/3W-Solar-Panel-138X160.html)
 * [LiPo Rider Pro](https://www.seeedstudio.com/LiPo-Rider-Pro.html)
+* [Solar harvesting into supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
+* [LiFePO4wered/Solar1](https://www.tindie.com/products/xorbit/lifepo4weredsolar1/)
+* [Solar Pi Platter](https://www.tindie.com/products/globoy/solar-pi-platter/)
+* [makerPower Solar](https://www.crowdsupply.com/danjuliodesigns/makerpower-solar)
 
 
 # Implementing Power Management
@@ -80,7 +91,32 @@ A large burden voltage can affect the circuit being measured, corrupting the mea
 * http://zone.ni.com/reference/en-XX/help/370384V-01/dmm/burden_voltage/
 
 
-# Measurment Tools for Ultra-Low-Power
+# Amperes vs Power vs Energy
+Power consumption measured in watts (usually in milliwatt, mW)
+is the correct term for low power applications
+but all too often the current consumption, measured in amperes (usually milliamperes, mA),
+is what is specificed instead.
+As the power is just the operating voltage multiplied by the current,
+it is trivial to calculate power for fixed voltage operations
+but often voltage changes widely over time and loading conditions.
+
+So more relavent might be the energy consumption, measured in Joules (usually in micro joules, µJ),
+that determines how much energy is actually drained from the battery to complete a specific task.
+The energy consumption will be the integral of the power consumption over the time needed to perform the operation.
+Again, for static signals this is a simple multiplication of power consumption and the time
+but with varying signals this will demand more complex analysis.
+
+Where power consumption is most relevant is when using a current-constrained power source,
+such as a Lithium-ion coin cell battery.
+Batteries like a coin-cell can only source about a few mA current peaks without getting damaged.
+By attempting to draw a higher peak, you risk reducing the capacity of the battery permanently,
+potentially impacting the output voltage too.
+Peak power consumption will not be an issue for applications where there is enough current to support the peak.
+
+* [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
+* [How to optimize energy efficiency in smart devices](https://blog.nordicsemi.com/getconnected/how-to-optimize-energy-efficiency-in-smart-devices)
+
+## Measurment Tools for Ultra-Low-Power
 µCurrent Meter - https://www.adafruit.com/product/882
 CurrentRanger - https://lowpowerlab.com/shop/product/152
 USB Isolator - https://www.adafruit.com/product/2107
@@ -101,6 +137,8 @@ USB Isolator - https://www.adafruit.com/product/2107
 * [Re-Useable Water Leak Alarm](http://www.homedepot.com/p/Re-Useable-Water-Leak-Alarm-RWD21/204116885?MERCH=REC-_-SearchPLPHorizontal1_rr-_-NA-_-204116885-_-N)
 * [Battery-Operated Water Alarm](http://www.homedepot.com/p/Basement-Watchdog-Battery-Operated-Water-Alarm-BWD-HWA/100038838)
 * [Flood Fault Circuit Interrupter Could Save Lives](https://hackaday.com/2018/05/16/flood-fault-circuit-interrupter-could-save-lives/)
+
+* [Detecting Water With And Without Headaches](https://hackaday.com/2016/12/15/detecting-water-with-and-without-headaches/)
 
 # Detecting Low Battery Voltages
 * [Adding a Battery Gauge to a Project with Zero Parts](https://hackaday.com/2014/11/08/adding-a-battery-gauge-to-a-project-with-zero-parts/)

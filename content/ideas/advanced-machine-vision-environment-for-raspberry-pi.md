@@ -23,8 +23,8 @@ To combat this, it could be beneficial to provide active cooling.
 Microsoft blog, "[Active cooling your Raspberry Pi 3][01]",
 provides some data on how effective adding a fan can be.
 (NOTE: You can fine the Raspberry Pi 3 Fan Mount [STL file][07] [here][02],
-and have it 3D printed at [shapeways][06] or other sites.
-To view the STL file, you can use [this site][05].)
+and have it 3D printed at [shapeways][06], [ProtoLab][08] or other sites.
+To view the STL file, you can use [this site][05].
 
 ## Battery Supply + Power Monitoring
 The [LiFePO4wered/Pi3][85] (purchase on [Tindie][87])
@@ -195,7 +195,7 @@ For additional information, see the following:
 [05]:https://www.viewstl.com/
 [06]:https://www.shapeways.com/
 [07]:https://en.wikipedia.org/wiki/STL_(file_format)
-[08]:
+[08]:https://www.protolabs.com/
 [09]:
 [10]:
 

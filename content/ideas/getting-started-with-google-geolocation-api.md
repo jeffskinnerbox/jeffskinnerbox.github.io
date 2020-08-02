@@ -2,6 +2,9 @@
 * [How the NSA is tracking people right now](http://apps.washingtonpost.com/g/page/national/how-the-nsa-is-tracking-people-right-now/634/)
 * [NSA tracking cellphone locations worldwide, Snowden documents show](https://www.washingtonpost.com/world/national-security/nsa-tracking-cellphone-locations-worldwide-snowden-documents-show/2013/12/04/5492873a-5cf2-11e3-bc56-c6ca94801fac_story.html?utm_term=.d86bafc0ff8b)
 
+# Testing
+* [Getting started with HTTPie for API testing](https://opensource.com/article/19/8/getting-started-httpie)
+
 # Creating APIs
 * [How to set-up a powerful API with Nodejs, GraphQL, MongoDB, Hapi, and Swagger](https://medium.freecodecamp.org/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
 

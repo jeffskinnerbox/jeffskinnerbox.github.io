@@ -43,9 +43,14 @@ where built by GI's, during World War Two, which took advantage of readily avail
 
 From the mid-40s until the 90s,
 [[Heathkit|http://hackaday.com/2014/12/22/the-heathkit-mystery/]]
-was the brand for electronic kits ranging from test equipment, ~HiFis, amateur radio equipment, to computers. Their departure was a tragic loss,
+was the brand for electronic kits ranging from test equipment, ~HiFis, amateur radio equipment, to computers.
+As there [[new branding says|https://shop.heathkit.com/shop]],
+in some ways, Heathkit invented DIY.
+Their departure was a tragic loss,
 but there are some faint signs they may be making a
 [[come back|https://www.heathkit.com/heathkit-faq.html]].
+People still celerbrate the glory days of Heathkit by
+[[rebuilding the old kits|https://hackaday.com/2020/06/26/reliving-heathkits-glory-days-through-a-teardown-and-rebuild/]].
 
 A [[teleprinter|https://www.youtube.com/watch?v=HcMHam54EOI#t=516]]
 (teletypewriter, Teletype or TTY) is an electromechanical typewriter that can be used to send and receive typed messages from point to point and point to multipoint over various types of communications channels.
@@ -95,7 +100,10 @@ an analog computer to simulate the physics of gravity and elasticity in real tim
 And of course, some have updated the analog orginal with a
 [[digital replacement|http://www.evilmadscientist.com/2008/resurrecting-tennis-for-two-a-video-game-from-1958/]].
 
-The [[Omega navigational system|https://www.youtube.com/watch?v=7mFAemn1pSw]], deployed by the United States Navy, was a network of eight (VLF) transmitter sites spread around the globe using radio frequencies and phase difference calculations to determine global position.
+The [[Omega navigational system|https://www.youtube.com/watch?v=7mFAemn1pSw]],
+deployed by the United States Navy, was a network of eight (VLF) transmitter
+sites spread around the globe using radio frequencies
+and phase difference calculations to determine global position.
 
 Some believe Westinghouse built the
 [[first electric computer|http://gothamist.com/2015/10/15/grand_central_computer_video.php#photo-1]]
@@ -117,7 +125,8 @@ but studied transistors exclusively in college.
 I used a slide ruler in High School but never used it in college,
 preferring a calculator there.
 By the way, the [[Pascaline|https://www.youtube.com/watch?v=3h71HAJWnVU]]
-was the first successful mechanical calculator. It was developed in the 1640's by the mathematician Blaise Pascal.
+was the first successful mechanical calculator.
+It was developed in the 1640's by the mathematician Blaise Pascal.
 
 [[Slide Rules|http://hackaday.com/2015/11/05/slide-rules-were-the-original-personal-computers/#more-175364]]
 were among the first computing tools
@@ -142,6 +151,19 @@ Practically overnight, the slide rule had become obsolete.
 Check out the [[history of the HP-35 pocket calculator|http://codex99.com/design/the-hp35.html]].
 I currently own, but rarely use, a [[HP 32S II|http://mycalcdb.free.fr/main.php?l=0&id=846]].
 Maybe the [[handheld calculator is too on its way out|https://hackaday.com/2020/03/02/the-last-scientific-calculator/]].
+
+As a Freshman engineering student,
+I was instructed to to purchase the CRC Standard Mathematical Tables
+(which I still have, 22nd edition printed in 1974).
+I mainly used it to lookup solution to Integrals and Infinite Series.
+Its tables of values for mathematical functions were of little value to me
+since they were already being replaced by the handheld calculator.
+I came to college with a copy the much more famous
+[[CRC Handbook of Chemistry and Physics|https://hackaday.com/2015/12/23/before-google-there-was-the-chemical-rubber-company/]].
+It was an old copy, even when give to me in 1974.
+My biology teacher gave it to me as a gift before parting for college.
+She told me it would be useful since the values in the book are still relevant despite the books advanced age.
+I still have this book; the 13 edition printed in 1928.
 
 It was on [[HP's version|http://www.hpmuseum.org/]]
 of this [[first Desktop Computer|http://hackaday.com/2015/12/08/retrotechtacular-a-desktop-computer-from-1965/]]
@@ -214,13 +236,15 @@ AGC was a digital computer,
 with [[rope memory|http://hackaday.com/2016/09/02/decoding-rediscovered-rope-memory-from-the-apollo-guidance-computer/]],
 produced for the Apollo program that was
 installed on board each Apollo Command Module (CM) and Lunar Module (LM).
-Luckly, [[people have rescued the AGC from the dumpster|https://hackaday.com/2019/08/04/apollo-guidance-computer-saved-from-the-scrap-yard/]]
+Luckily, [[people have rescued the AGC from the dumpster|https://hackaday.com/2019/08/04/apollo-guidance-computer-saved-from-the-scrap-yard/]]
 and [[Hackaday has done multiple articles|http://hackaday.com/tag/apollo/]]
 on the Apollo space program hardware and
 [[software|http://hackaday.com/2016/07/14/riding-shotgun-in-the-apollo-12-lunar-lander/]].
-You can even find the [[AGC code on Github|http://qz.com/726338/the-code-that-took-america-to-the-moon-was-just-published-to-github-and-its-like-a-1960s-time-capsule/]].
+You can even find the [[AGC code on Github|http://qz.com/726338/the-code-that-took-america-to-the-moon-was-just-published-to-github-and-its-like-a-1960s-time-capsule/]],
+and you will also discover what lengths the designs went to conserve memory
+(e.g. [[calculating sine and cosine in 35 instruction steps|https://hackaday.com/2020/06/12/apollo-11-trig-was-brief/]]).
 Despite the navigation technology, it still needed good old retro-technology,
-even for its day, to intialize the LM's AGC.
+even for its day, to initialize the LM's AGC.
 Check out the LM's [[Alignment Optical Telescope|http://hackaday.com/2016/09/06/apollo-the-alignment-optical-telescope/#more-220722]].
 
 Do you remember when computer graphics meet
@@ -253,7 +277,7 @@ telephone network without AT&T's OK
 but did want want to connect a simple physical device
 to the network.
 This was the first step in de-regulating the telecommunication business,
-to be followed by Tom Carter's challege to AT&T with the [[Carterfone|http://hackaday.com/2016/08/16/retrotechtacular-tom-carter-revolutionized-your-phone/]].
+to be followed by Tom Carter's challenge to AT&T with the [[Carterfone|http://hackaday.com/2016/08/16/retrotechtacular-tom-carter-revolutionized-your-phone/]].
 These two events state the stage for the [[breakup of the Bell System|https://en.wikipedia.org/wiki/Breakup_of_the_Bell_System]].
 
 There was a time, in the days of the Bell System,
@@ -308,5 +332,4 @@ My first purchase was the [[Sharp Wizard OS-5500|https://www.youtube.com/watch?v
 I later move on to the [[Palm series of PDA|https://en.wikipedia.org/wiki/Palm_(PDA)]]
 starting with the [[PalmPilot Personal|https://www.youtube.com/watch?v=Bk0yQwl5gz4]]
 and ultimately the [[Palm Treo 750|https://www.youtube.com/watch?v=PFGi88zvS8o]].
-
 

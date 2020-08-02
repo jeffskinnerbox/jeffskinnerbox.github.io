@@ -221,6 +221,7 @@ open phone apps, and [more][20].
 * [Sudo Google Assistant](http://hackaday.com/2017/05/16/sudo-google-assistant/)
 * [ReSpeaker 2 Mics Pi HAT for Alexa Voice Service, Google Assistant](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=new_0606)
 * [Add Vision to the AIY Voice Kit](https://www.hackster.io/elizmyers/add-vision-to-the-aiy-voice-kit-e9ff3d)
+* [Google Assistant on Raspberry Pi-The Easy Way](https://www.hackster.io/Shailesh-Coder/google-assistant-on-raspberry-pi-the-easy-way-eee782)
 
 ## Step 1: Voice Kit Physical Assemble - DONE
 Follow the [AIY Projects][03] website's instructions for

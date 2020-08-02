@@ -1,6 +1,9 @@
 In the city I live,
 they offer
 
+# Testing
+* [Getting started with HTTPie for API testing](https://opensource.com/article/19/8/getting-started-httpie)
+
 # Hacking eMail
 * [Hack Your Gmail: A Quick Start for Google App Scripting](https://hackaday.com/2019/01/17/hack-your-gmail-a-quick-start-for-google-app-scripting/)
 

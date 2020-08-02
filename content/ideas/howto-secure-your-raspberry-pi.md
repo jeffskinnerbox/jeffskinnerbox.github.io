@@ -127,6 +127,8 @@ ngrok http 8090
 google-chrome http://be4fac06.ngrok.io/?action=stream
 ```
 
+* [How to Remote Control Your Raspberry Pi Camera from the Web](https://www.tomshardware.com/how-to/raspberry-pi-remote-control-camera-from-web)
+
 * [How to secure your Raspberry Pi](https://opensource.com/article/17/3/iot-security-raspberry-pi)
 * [Useful Linux Security Tricks To Harden Your System](https://dzone.com/articles/useful-linux-security-tricks-to-harden-your-system?edition=283882&utm_source=weeklydigest&utm_medium=email&utm_campaign=wd2017-03-15)
 * [IoT Security: Tips to Protect your Device from Bad Hackers](https://www.hackster.io/charifmahmoudi/iot-security-tips-to-protect-your-device-from-bad-hackers-768093?ref=platform&ref_id=425_trending___&offset=0)

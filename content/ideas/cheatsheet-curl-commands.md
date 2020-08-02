@@ -3,6 +3,7 @@ Slug: cheatsheet-curl-commands
 Status: hidden
 
 See the following for more examples:
+* [Use the internet from the command line with curl](https://opensource.com/article/20/5/curl-cheat-sheet)
 * [cURL your way to freedom](http://grahamnic.wordpress.com/2013/05/06/mac-os-curl-your-way-to-freedom/)
 * [curl tutorial with examples of usage](http://www.yilmazhuseyin.com/blog/dev/curl-tutorial-examples-usage/)
 * [Using cURL to automate HTTP jobs](https://curl.haxx.se/docs/httpscripting.html)

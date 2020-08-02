@@ -18,6 +18,7 @@ Your Order (due for delivery Sept 2018) - https://www.particle.io/mesh/my-order
 
 * [Particle Introduces New Hardware, Adds Mesh Support](https://hackaday.com/2018/02/13/particle-introduces-new-hardware-adds-mesh-support/)
 * [The Adafruit Feather Is A Thing](https://hackaday.com/2018/05/06/the-adafruit-feather-is-a-thing/)
+* [How To Run ML Applications On Particle Hardware](https://hackaday.com/2019/11/26/how-to-run-ml-applications-on-particle-hardware/)
 
 # goTenna
 * [goTenna Mesh Review: Disaster-Proof Ultra-Portable Phone Network That Fits In Your Pocket](http://travelwithbender.com/product-reviews/gotenna-mesh-review)

@@ -2,10 +2,17 @@
 # Latest Kali
 [Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
 
-# Other Tools (e.g. ESP8266)
+# Other Tools
+* [Scan your Linux security with Lynis](https://opensource.com/article/20/5/linux-security-lynis)
+
+# ESP8266 Tools
 * [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
 * [Detect When a Device Is Nearby with the ESP8266 Friend Detector](https://null-byte.wonderhowto.com/how-to/detect-when-device-is-nearby-with-esp8266-friend-detector-0188642/)
 * [Inconspicuously Sniff Wi-Fi Data Packets Using an ESP8266](https://null-byte.wonderhowto.com/how-to/inconspicuously-sniff-wi-fi-data-packets-using-esp8266-0192829/)
+
+# Network Implant
+* [How to Set Up Network Implants with a Cheap SBC (Single-Board Computer)](https://medium.com/@NullByteWht/how-to-set-up-network-implants-with-a-cheap-sbc-single-board-computer-52247fcfccfc)
+* [Perform Network-Based Attacks with an SBC Implant](https://null-byte.wonderhowto.com/how-to/perform-network-based-attacks-with-sbc-implant-0196199/)
 
 
 
@@ -59,6 +66,7 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * https://kit-cat.com/
 
 # USB Attach Platform
+[Top 10 Gadgets Every White & Black Hat Hacker Use & Needs In Their Toolkit](https://www.youtube.com/watch?v=uVnMy1qtJWc)
 * [Bash Bunny](https://www.hak5.org/gear/bash-bunny)
     * [Build an Affordable Bash Bunny with a Raspberry Pi Zero W](https://blog.hackster.io/build-an-affordable-bash-bunny-with-a-raspberry-pi-zero-w-11a4abf7bde5)
 * [Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
@@ -1226,6 +1234,8 @@ nethogs eth0
 nethogs wlan0
 ```
 
+* [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring)
+
 #### Recordmydesktop
 Recordmydesktop gives you the ability to record and make a video of your activities in Kali Linux.
 
@@ -1438,6 +1448,7 @@ Maltego is am open-source forensics and intelligence gathering.
 A [WiFi deauthentication attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
 is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.
 * [Pocket-Sized Deauther Could Definitely Get You In Trouble](https://hackaday.com/2019/04/04/pocket-sized-deauther-could-definitely-get-you-in-trouble/)
+* [Great Badge Concept: A “Geiger Counter” For WiFi Deauthentication Frames](https://hackaday.com/2020/06/20/great-badge-concept-a-geiger-counter-for-wifi-deauthentication-frames/)
 
 
 

@@ -22,6 +22,8 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 * [Run Your Own Numbers Station](http://hackaday.com/2016/12/31/run-your-own-numbers-station/)
 * [Number Twitters](http://hackaday.com/2017/05/09/number-twitters/)
 * [HM01 - The Ultimate Radio Mystery](https://www.youtube.com/watch?v=e6sE_kfNuKU&feature=youtu.be)
+* [Number station documentary - Tracking The Lincolnshire Poacher](https://www.youtube.com/watch?v=Eiz21RxIXAU&feature=youtu.be)
+* [number station topic on Youtube](https://www.google.com/search?q=number+station&client=safari&hl=en-us&prmd=vnmi&sxsrf=ALeKk01pOMiqNsk1dFMR521Ziy-nGbfqJg:1590385082066&source=lnms&tbm=vid&sa=X&ved=2ahUKEwil__yOps7pAhXRVN8KHXMJDAcQ_AUoAXoECA8QAQ&biw=768&bih=928)
 
 # Random-Number Generation
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
@@ -31,6 +33,7 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 * [Pseudo-random number generation algorithms](http://mathoverflow.net/questions/29494/pseudo-random-number-generation-algorithms)
 * [Is there a pseudo-random number generator simple enough to do in your head?](http://stackoverflow.com/questions/3919597/is-there-a-pseudo-random-number-generator-simple-enough-to-do-in-your-head)
 * [Generate random data for your applications with Elizabeth](https://opensource.com/article/17/2/elizabeth-python-library?sc_cid=701600000012072AAA)
+* [Analog 4-bit random number generator](https://geneticfractals.org/2020/05/17/analog-4-bit-random-number-generator/)
 
 # Linux Entropy
 * [WHAT IS ENTROPY AND HOW DO I GET MORE OF IT?](https://hackaday.com/2017/11/02/what-is-entropy-and-how-do-i-get-more-of-it/)
@@ -43,6 +46,9 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 * [LavaRnd Number Generator](http://www.lavarnd.org/)
 * [LavaRand](http://lavarand.org/)
 
+# Noise
+* [Understanding A Bit About Noise Can Help You Go A Long Way](https://hackaday.com/2020/05/12/understanding-a-bit-about-noise-can-help-you-go-a-long-way/)
+* [Analog Noise Generator, Fighter Of Other Noises](https://hackaday.com/2020/07/06/analog-noise-generator-fighter-of-other-noises/)
 
 # Electrical Noise as a Source of Entropy
 * [Entropy And The Arduino: When Clock Jitter Is Useful](https://hackaday.com/2018/01/08/entropy-and-the-arduino/)

@@ -22,6 +22,7 @@ The complexity of application stacks keeps going up
 Maybe you want to experiment with different technologies,
 create development environments, or have your own private cloud.
 
+* [What is a HomeLab? How can you build your own and why it's useful!](https://www.youtube.com/watch?v=4O_MxTPmah4)
 * [How to set up a homelab from hardware to firewall](https://opensource.com/article/19/3/home-lab)
 * [How to use infrastructure as code](https://opensource.com/article/19/7/infrastructure-code)
 
@@ -98,6 +99,73 @@ VBoxManage snapshot $VM take <name of snapshot>
 VBoxManage snapshot $VM restore <name of snapshot>
 ```
 
+## Installing VirtualBox
+
+### Step X: Installing VirtualBox
+vagrant plugin install vagrant-vbguest
+
+### Step X: Removing VirtualBox
+I had problems where my version of VirtualBox and its Guest Additions where not at the same level.
+Vagrant often doesn't like this and will result in things not working properly.
+You can detect this inconsistency via the following commands:
+
+```bash
+# run on host: check on the status of virtualbox guest additions
+$ vagrant vbguest --status
+Got different reports about installed GuestAdditions version:
+Virtualbox on your host claims:   6.0.14
+VBoxService inside the vm claims: 5.1.38
+Going on, assuming VBoxService is correct...
+[default] GuestAdditions versions on your host (6.0.14) and guest (5.1.38) do not match.
+```
+
+Another detection method is by looking at installed packages via `dpkg`:
+
+```bash
+# run on host: search for virtualbox-guest package
+$ dpkg -l | grep virtualbox-guest
+ii  virtualbox-guest-dkms                                       6.0.14-dfsg-1                                     all          x86 virtualization solution - guest addition module source for dkms
+ii  virtualbox-guest-utils                                      6.0.14-dfsg-1                                     amd64        x86 virtualization solution - non-X11 guest utilities
+ii  virtualbox-guest-x11                                        6.0.14-dfsg-1                                     amd64        x86 virtualization solution - X11 guest utilities
+
+# run on guest: search for virtualbox-guest package
+$ dpkg -l | grep virtualbox-guest
+ii  virtualbox-guest-dkms                      5.1.38-dfsg-0ubuntu1.16.04.3                 all          x86 virtualization solution - guest addition module source for dkms
+ii  virtualbox-guest-utils                     5.1.38-dfsg-0ubuntu1.16.04.3                 amd64        x86 virtualization solution - non-X11 guest utilities
+ii  virtualbox-guest-x11                       5.1.38-dfsg-0ubuntu1.16.04.3                 amd64        x86 virtualization solution - X11 guest utilities
+```
+
+To fix this, bring the VirtualBox Guest Addition up to date with VirtualBox by doing this:
+
+```bash
+# update virtualbox guest addition
+vagrant vbguest
+
+# run on host: check on the status of virtualbox guest additions
+$ vagrant vbguest --status
+[default] GuestAdditions 6.0.14 running --- OK.
+```
+
+
+### Step X: Installing VirtualBox Guest Additions
+VirtualBox Guest Additions are a collection of device drivers
+and system applications designed to achieve closer integration
+between the host and guest operating systems.
+VirtualBox lets you download an image ISO file called “VBoxGuestAdditions.iso” containing Guest Additions.
+This file is located on the host machine
+and can be mounted on the guest system using the VirtualBox GUI manager.
+Once mounted, the guest additions installer can be used to install the guest additions on the guest system.
+The VirtualBox Guest Additions should be installed inside a virtual machine
+after the guest operating system has been installed.
+The articale "[How to Install VirtualBox Guest Additions on Ubuntu 18.04][58]"
+tells you how to do this install.
+
+I'm not going to be using VitualBox directly,
+but instead, I'll be using VirtualBox with Vagrant.
+
+```bash
+sudo apt-get install virtualbox-guest-additions-iso
+```
 
 ----
 
@@ -217,6 +285,65 @@ Here are some materials to learn more about Vagrant:
 * [Installing Vagrant and VirtualBox](https://www.youtube.com/watch?v=RhhF8Yh7OnE)
 * [Crash Course on Vagrant](https://sysadmincasts.com/episodes/42-crash-course-on-vagrant-revised)
 
+## Vagrant Plugins
+Vagrant has many features that requires doing guest OS-specific actions,
+such as mounting folders, configuring networks, etc.
+Vagrant comes pre-configured to support many environments,
+but sometimes you want to change the way Vagrant does something or add additional functionality to Vagrant.
+This can be done via Vagrant plugins.
+In fact, much of the core of Vagrant is [implemented using plugins][54].
+
+```bash
+# browse available plugins
+$ gem list --remote vagrant-
+
+*** REMOTE GEMS ***
+
+capistrano-strategy-vagrant-copy-bundled (0.1.0)
+chino-vagrant-hostmaster (0.8.1)
+cjscp-vagrant-persistent-storage (0.0.27)
+djo-vagrant-vsphere (1.6.3)
+lh-vagrant-dns (0.0.6)
+ll-vagrant-aws (0.0.1)
+mojolingo-vagrant-librarian-puppet (0.7.1)
+outoftime-vagrant-librarian-puppet (0.7.1.1416968000)
+pleschev-vagrant-hostmaster (0.8.1)
+realityforge-vagrant-windows (0.1.4)
+  .
+  .
+  .
+
+# available 'guest' plugins
+$ gem list --remote vagrant- | grep guest
+vagrant-guest-msys2 (0.0.6)
+vagrant-guest-netbsd (0.0.2)
+vagrant-guest-omnios (0.3.0)
+vagrant-guest-openwrt (0.0.3)
+vagrant-guest-qnx (0.0.1)
+vagrant-guest_ansible (0.0.4)
+vagrant-guestip (0.2)
+vagrant-guests-clearlinux (1.2.4)
+vagrant-guests-openbsd (0.0.3)
+vagrant-guests-photon (1.0.5)
+vagrant-guixsd-guest (0.1.1)
+vagrant-nfs_guest (1.0.3)
+vagrant-nfs_guest_vbfix (0.1.10)
+vagrant-smartos-guest (0.0.1)
+vagrant-vbguest (0.24.0)
+vagrant-vbguest-centos (0.2.0)
+vagrant-vbguest-redhat-kernel-update (0.2.3)
+vagrant-windows-guest-nfs (0.2)
+
+# list installed plugins
+$ vagrant plugin list
+vagrant-hostsupdater (1.1.1.160, global)
+  - Version Constraint: > 0
+vagrant-scp (0.5.7, global)
+  - Version Constraint: > 0
+vagrant-vbguest (0.24.0, global)
+  - Version Constraint: > 0
+```
+
 ## Installing Vagrant
 
 ### Step 1: Installing Vagrant and VirtualBox - DONE
@@ -280,6 +407,45 @@ Cmnd_Alias VAGRANT_HOSTS_REMOVE = /usr/bin/sed -i -e /*/ d /etc/hosts
 
 For more information,
 checkout
+
+### Step X: Install the vbguest Pluggin
+`vagrant-vbguest` is a Vagrant plugin which automatically installs the
+host's VirtualBox Guest Additions on the guest system.
+
+The [VirtualBox Guest Additions][55] are a set of drivers and
+applications to be deployed on a virtual machine to have better performance
+and enable features such as folder sharing.
+While it's possible to include the Guest Additions directly in the box,
+not all the boxes you'll find have it, and even when they do, they can be outdated very quickly.
+
+The [solution is to automatically deploy the VirtualBox Guest Additions on demand][56], through a plugin,
+which [autoupdates VirtualBox Guest Additions with the `vagrant-vbguest` plugin][57].
+The vbguest plugin (`vagrant-vbguest`) is a Vagrant plugin which automatically installs
+and updates VirtualBox Guest Additions on the guest system.
+This plugin is a prerequisite for some guest installations, and so good to have install.
+
+>**NOTE:** If you find that one of these does not work for your operating system,
+>then maybe the guest implementation is incomplete or incorrect.
+>
+>When we upgrade VirtualBox, we will get prompted to update the guest additions.
+>That means that the installed version updates with the base version of VirtualBox itself.
+>It does not automatically go back and retrofit the existing machines with the updated guest additions though.
+
+```bash
+# install the plugin
+vagrant plugin install vagrant-vbguest
+
+# uninstall the plugin
+vagrant plugin uninstall vagrant-vbguest
+
+# vbguest status check
+$ vagrant vbguest --status
+Got different reports about installed GuestAdditions version:
+Virtualbox on your host claims:   5.0.18
+VBoxService inside the vm claims: 5.1.38
+Going on, assuming VBoxService is correct...
+[default] A Virtualbox Guest Additions installation was found but no tools to rebuild or start them.
+```
 
 ### Step X: Install the Cashier Pluggin
 [speeds up Vagrant processing of packages](http://jeremybarthe.com/2015/02/02/speed-up-vagrant-environment-symfony2/)
@@ -674,6 +840,9 @@ default (ID: ce0a38ee8cf347e1a125ea0cad47d28f)
 
 Are you sure you want to remove this box? [y/N] N
 Removing box 'ubuntu/xenial64' (v20180831.0.0) with provider 'virtualbox'...
+
+# now destroy the vm referenced above
+vagrant destroy ce0a38ee8cf347e1a125ea0cad47d28f
 ```
 
 ## Vagrant Tools
@@ -853,6 +1022,7 @@ https://devopscube.com/packer-tutorial-for-beginners/
 **see "howto-use-docker-and-resin-on-the-raspberry-pi-and-openwrt.md" for more text**
 
 # Docker
+* [How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)
 * [How To Install and Use Docker on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
 * [A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
 * [Running a Docker container as a non-root user](https://medium.com/redbubble/running-a-docker-container-as-a-non-root-user-7d2e00f8ee15)
@@ -1499,6 +1669,8 @@ Below we will creat Ansible Playbooks for:
 load balancer, API gateway, mail proxy etc.
 We'll create an Ansible role to setup and configure Nginx web server.
 
+* [How to NGINX Reverse Proxy with Docker Compose](https://dzone.com/articles/how-to-nginx-reverse-proxy-with-docker-compose)
+
 Some good videos for learning Ansible can be found [here][37].
 
 ### Step 1: Installing Ansible - DONE
@@ -1920,10 +2092,10 @@ https://html5hive.org/ansible-quickies-useful-code-snippets/
 [51]:https://www.packer.io/docs/builders/virtualbox-ovf.html
 [52]:https://stackoverflow.com/questions/16704059/easiest-way-to-copy-a-single-file-from-host-to-vagrant-guest
 [53]:https://docs.oracle.com/cd/E97728_01/E97727/html/vboxmanage-intro.html
-[54]:
-[55]:
-[56]:
-[57]:
-[58]:
+[54]:https://github.com/hashicorp/vagrant/tree/master/plugins
+[55]:https://geek-university.com/oracle-virtualbox/virtualbox-guest-additions/
+[56]:https://subscription.packtpub.com/book/virtualization_and_cloud/9781786464910/1/ch01lvl1sec12/enabling-virtualbox-guest-additions-in-vagrant
+[57]:https://discoposse.com/2016/05/23/autoupdating-virtualbox-guest-additions-with-vagrant-vbguest/
+[58]:https://linuxize.com/post/how-to-install-virtualbox-guest-additions-in-ubuntu/
 [58]:
 [60]:

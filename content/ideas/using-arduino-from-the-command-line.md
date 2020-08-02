@@ -261,6 +261,7 @@ I also found these sites useful:
 
 * [Arduino now has a command line interface (CLI)](https://hub.packtpub.com/arduino-now-has-a-command-line-interface-cli/)
 * [Tutorial on the Arduino Command Line Interface (CLI)][21]
+* [Using The Arduino Command Line](https://www.woolseyworkshop.com/2019/04/14/using-the-arduino-command-line/)
 * [Arduino Command Line Interface](https://github.com/arduino/arduino-cli)
 * [Arduino CLI Command Line Interface Getting Started (Mac and Windows)](https://www.youtube.com/watch?v=8LPSjucQoso)
 * [Arduino Gets Command Line Interface Tools That Let You Skip the IDE](https://hackaday.com/2018/08/26/arduino-gets-command-line-interface-tools-that-let-you-skip-the-ide/)
@@ -966,8 +967,12 @@ Place the text below in a file called `Makefile`:
 # programs name
 PROG = ntp-clock
 
+# type of ESP chip and board in use
+CHIP = esp8266
+BOARD = nodemcuv2
+
 # fully qualified board name (FQBN)
-FQBN = esp8266:esp8266:nodemcuv2
+FQBN = $(CHIP):$(CHIP):$(BOARD)
 
 # serial port used by the board
 PORT = /dev/ttyUSB0
@@ -986,10 +991,10 @@ UPLOAD = arduino-cli upload --fqbn $(FQBN) --port $(PORT)
 .PHONY: build upload clean erase
 
 build:                                          # build the binary executable
-	$(CC) $(CURDIR)
+	$(CC)
 
 upload:                                         # up load the binary executable
-	$(UPLOAD) $(CURDIR)
+	$(UPLOAD)
 
 erase:                                          # erase the entire flash
 	$(ESPTOOL) --port $(PORT) erase_flash
@@ -999,6 +1004,70 @@ size:                                           # determine the flash size
 
 clean:                                          # delete all binaries and object viles
 	rm --force $(PROG).$(VAR).bin $(PROG).$(VAR).elf
+```
+
+An altenative Makefile, one capable of supporting
+not only the `*.ino` file but additional C++ files (i.e. `*.cpp`),
+is the following:
+
+```bash
+# name of program being created
+PROG = ntp-clock
+
+# type of package, architecture, and board in use
+PACKAGE = esp8266
+ARCH =    esp8266
+BOARD =   nodemcuv2
+
+# serial port used by the board
+PORT = /dev/ttyUSB0
+
+# optional verbose compile/upload flag
+#VERBOSE = -v
+
+#-------------------------------------------------------------------------------
+
+# fully qualified board name (FQBN)
+FQBN = $(PACKAGE):$(ARCH):$(BOARD)
+
+# location of the esptool used for flashing
+ESPTOOL = /home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py
+
+# string within names give to .bin and .elf files
+VAR = $(shell echo $(FQBN) | tr ':' '.')
+
+# path for temp-storage of binary, object, and core.a files
+BUILD = /tmp/$(PROG)
+BUILD_PATH = $(BUILD)/build
+
+# compiler and compiler flags
+CC = arduino-cli compile
+CC_FLAGS = $(VERBOSE) --fqbn $(FQBN) --build-cache-path=$(BUILD) --build-path=$(BUILD_PATH)
+
+# firmware flasher and flags
+UPLOAD = arduino-cli upload
+UPLOAD_FLAGS = $(VERBOSE) --fqbn $(FQBN) --port $(PORT)
+
+
+.PHONY: build upload clean erase size
+
+all: build upload
+
+build: 											# build the binary executable
+	$(CC) $(CC_FLAGS) $(PWD)
+
+upload: 										# up load the binary executable
+	$(UPLOAD) $(UPLOAD_FLAGS) $(PWD)
+
+erase:                                          # erase the entire flash
+	$(ESPTOOL) erase_flash --port $(PORT)
+
+size:                                           # determine the flash size
+	$(ESPTOOL) flash_id --port $(PORT)
+
+clean:                                          # delete all binaries and object files
+	rm -r --force $(BUILD)
+	rm --force *.bin *.elf *.hex
 ```
 
 ### Step 2: Compile & Upload Sketch - DONE
@@ -1012,7 +1081,7 @@ cd ~/tmp/ntp-clock
 # create your Makefile using the block of code in Step 1
 
 # compile the sketch
-make
+make build
 
 # upload the sketch
 make upload

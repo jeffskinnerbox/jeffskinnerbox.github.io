@@ -1,6 +1,8 @@
 
 * Flutter - Google’s portable UI toolkit for building natively-compiled applications for mobile, web, and desktop from a single codebase.
     * [Flutter](https://flutter.dev/)
+    * [Google and Canonical bring Flutter apps to Ubuntu Linux](https://www.slashgear.com/google-and-canonical-bring-flutter-apps-to-ubuntu-linux-09628241/)
+    * [Canonical enables Linux desktop app support with Flutter](https://ubuntu.com/blog/canonical-enables-linux-desktop-app-support-with-flutter)
     * [Flutter for Desktop: Create and Run a Desktop Application](https://medium.com/flutter-community/flutter-for-desktop-create-and-run-a-desktop-application-ebeb1604f1e0)
 * Ionic
     * [Iconic Getting Started V2](http://ionicframework.com/docs/v2/setup/installation/)

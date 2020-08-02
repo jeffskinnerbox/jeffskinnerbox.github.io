@@ -183,6 +183,10 @@ That way pip will install what you've requested locally even though a system-wid
 
 ################################################################################
 
+* [Installing virtualenvwrapper for Python3](https://medium.com/@gitudaniel/installing-virtualenvwrapper-for-python3-ad3dfea7c717)
+* [Installing and using virtualenv with Python 3](https://help.dreamhost.com/hc/en-us/articles/115000695551-Installing-and-using-virtualenv-with-Python-3)
+* [virtualenvwrapper documentation](https://virtualenvwrapper.readthedocs.io/en/latest/install.html#shell-startup-file)
+
 ## Leave Your Native Python Alone
 Linux has many Python programs as part of it suite of tools.
 I like them to be available in all sessions without activate any virtualenv.

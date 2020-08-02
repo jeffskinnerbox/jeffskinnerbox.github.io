@@ -134,6 +134,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 
 ## DNS Tunneling
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
+* [DNS 101: An introduction to Domain Name Servers](https://www.redhat.com/sysadmin/dns-domain-name-servers)
 * [DNS Tunneling: Getting The Data Out Over Other Peoples’ WiFi](http://hackaday.com/2016/08/07/getting-the-data-out-over-other-peoples-wifi/)
 * [hy big ISPs aren’t happy about Google’s plans for encrypted DNS](https://arstechnica.com/tech-policy/2019/09/isps-worry-a-new-chrome-feature-will-stop-them-from-spying-on-you/)
 * [Nameserver Transfer Protocol (NSTX)](http://thomer.com/howtos/nstx.html)
@@ -146,7 +147,8 @@ You can learn about the habits (and later to perform social engineering). hotel 
 * [Introduction to the Domain Name System (DNS)](https://opensource.com/article/17/4/introduction-domain-name-system-dns)
 * [Build your own DNS name server on Linux](https://opensource.com/article/17/4/build-your-own-name-server)
 * [dnsd: DNS encoder, decoder, and server](https://github.com/ansuz/modern-dnsd)
-* [DNS Is Still the Achilles Heel of the Internet](https://www.darkreading.com/partner-perspectives/f5/dns-is-still-the-achilles-heel-of-the-internet/a/d-id/1329019?elq_mid=78743&elq_cid=23179140&_mc=NL_NWC_EDT_NWC_converations_20170606&cid=NL_NWC_EDT_NWC_converations_20170606&elqTrackId=3d7fdc6841d24f4199ac352d2062abca&elq=25cb098a61134c4e8b49e622076230d1&elqaid=78743&elqat=1&elqCampaignId=26848)
+* [DNS Is Still the Achilles Heel of the Internet](https://www.darkreading.com/partner-perspectives/f5/dns-is-still-the-achilles-heel-of-the-internet/a/d-id/1329019)
+* [Firefox Announces New Partner in Delivering Private and Secure DNS Services to Users](https://blog.mozilla.org/blog/2019/12/17/firefox-announces-new-partner-in-delivering-private-and-secure-dns-services-to-users/)
 
 # Capturing Cellphone IMSI
 An international mobile subscriber identity (IMSI) is a unique number, usually fifteen digits, associated with Global System for Mobile Communications (GSM) and Universal Mobile Telecommunications System (UMTS) network mobile phone users. The IMSI is a unique number identifying a GSM subscriber.

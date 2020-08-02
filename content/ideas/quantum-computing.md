@@ -1,9 +1,13 @@
 
+* [Quantum computing for the very curious](https://quantum.country/qcvc)
+* [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
+
 * [How to learn Quantum Mechanics on your own (a self-study guide)](https://www.youtube.com/watch?v=Rs572Cf4zkk&feature=youtu.be)
 * [Quantum Computing: Untangling the Hype](https://www.youtube.com/watch?v=wE1OCXvaDtc)
 
 * [Google Sees Long, Expensive Road Ahead For Quantum Computing](http://www.theplatform.net/2015/07/22/google-sees-long-expensive-road-ahead-for-quantum-computing/)
 * [The Golden Age Of Quantum Computing Is Upon Us (Once We Solve These Tiny Problems)](http://www.fastcompany.com/3045708/big-tiny-problems-for-quantum-computing)
+* [Quantum Computing And The End Of Encryption](https://hackaday.com/2020/06/11/quantum-computing-and-the-end-of-encryption/)
 
 # Tutorials on Quantum Computing
 
@@ -33,13 +37,16 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [QuTiP](http://qutip.org/)
 
 # Tutorials on Quantum Physics
+* [How does quantum computing work?](https://plus.maths.org/content/how-does-quantum-commuting-work)
+* [Quantum computing: Some (not so) gruesome details](https://plus.maths.org/content/really-how-do-quantum-computers-work)
+* [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
+    * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
 * [Our quantum problem](http://aeon.co/magazine/science/our-quantum-reality-problem/)
 * [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
 * [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
-* []()
-* []()
+* [Online course trains students in the bizarre world of quantum computing](https://www.livescience.com/quantum-computing-students-online-course.html)
 
 # IBM Q
 * [IBM A Experience Documentation: Beginners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)

@@ -26,6 +26,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Autonomous 3D Rover With Tank Tracks Rules The Fields. Almost](https://hackaday.com/2020/04/02/autonomous3d-rover-with-tank-tracks-rules-the-fields-almost/)
 
 # Walking Robot
+* [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
 * [Train Your Robot to Walk with a Neural Network](https://hackaday.com/2016/12/11/train-your-robot-to-walk-with-a-neural-network/)
 * [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
 * [Watch the Snappy, Insect-like Moves of this DIY Quadruped Robot](https://hackaday.com/2018/09/30/watch-the-snappy-insect-like-moves-of-this-diy-quadruped-robot/)
@@ -42,9 +43,13 @@ perform regression testing, and train AI system using realistic scenarios.
 * [SmallKat: An Adorable And Dynamic Robot](https://hackaday.com/2019/11/03/smallkat-an-adorable-and-dynamic-robot/)
 * [Landbeest, A Single Servo Walking Robot](https://hackaday.com/2019/11/29/landbeest-a-single-servo-walking-robot/)
 * [OpenDog Project](https://hackaday.com/2018/06/11/james-bruton-is-making-a-dog-opendog-project/)
+* [Robotic Open Source Puppy Needs A Home](https://hackaday.com/2020/05/12/robotic-open-source-puppy-needs-a-home/)
 * [Compliant Quadruped Legs Using Servos](https://hackaday.com/2020/03/22/compliant-quadruped-legs-using-servos/)
+* [DIY hobby servos quadruped robot](https://hackaday.io/project/171456-diy-hobby-servos-quadruped-robot)
 * [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
 * [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
+* [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
+* [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
@@ -52,7 +57,11 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Pan/Tilt2 Servo Motor Kit for Pixy2 - Dual Axis Robotic Camera Mount](https://www.seeedstudio.com/Pan-Tilt2-Servo-Motor-Kit-for-Pixy2-Dual-Axis-Robotic-Camera-Mount-p-3161.html)
 * [Robot Can’t Take Its Eyes Off The Bottle](https://hackaday.com/2019/01/25/robot-cant-take-its-eyes-off-the-bottle/)
 
+# BEAM Robots
+* [BEAM Robots](http://www.smfr.org/robots/)
+
 # Balancing Bot
+* [Inside an Autonomous Self Balancing Robot](https://www.youtube.com/watch?v=s5m-DTn8jyw&list=PL3XBzmAj53RnO2fvVSaX-iTGfNFgcqSSu)
 * [PIDDYBOT – A Self Balancing Teaching Tool](http://hackaday.com/2014/01/17/piddybot-a-self-balancing-teaching-tool/#more-112629)
 * [PIDDYBOT - DIY Arduino Balancing Robot](https://www.hackster.io/seanhodgins/piddybot-diy-arduino-balancing-robot-14ce90)
 * [Self-balancing Arduino does it without an IMU](http://hackaday.com/2013/09/26/self-balancing-arduino-does-it-without-an-imu/)
@@ -78,6 +87,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Open-Source inverted pendulum](https://hackaday.io/project/167290-open-source-inverted-pendulum)
 
 # Levitator / Levitation
+* [Anti-Gravitator](https://www.thingiverse.com/thing:943091)
 * [Ultra Simple Magnetic Levitator](http://hackaday.com/2016/11/05/ultra-simple-magnetic-levitator/)
 * [Magnetic Levitation](https://learn.sparkfun.com/tutorials/magnetic-levitation)
 * [How to Build a Levitating Light](https://www.sparkfun.com/news/3133)
@@ -88,17 +98,19 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Hovering Questions About Magnetic Levitation](https://hackaday.com/2017/10/08/hovering-questions-about-magnetic-levitation/)
 * [The Simplest Possible DIY Ultrasonic Levitator ](https://hackaday.com/2018/04/23/the-simplest-possible-diy-ultrasonic-levitator/)
 * [Magnetic Bearings Might Keep this Motor Spinning for Millennia](https://hackaday.com/2019/03/25/magnetic-bearings-might-keep-this-motor-spinning-for-millennia/)
+* [A Levitating Lamp Without Magnets](https://hackaday.com/2020/06/10/a-levitating-lamp-without-magnets/)
 
 # Robotic Arm
 * [An open-source, 3D printed, high precision robotic arm with trainability](https://hackaday.io/project/158779-dexter)
 * [Dexter Robot Arm Embraces New Manufacturing With First Micro-Factory](https://hackaday.com/2020/03/09/dexter-robot-arm-embraces-new-manufacturing-with-first-micro-factory/)
 
-# Ball Bouncing / Balancing Bot
+# Ball Bouncing / Ball Balancing / Ball Tossing
 * [Juggling Machine Listens to the Bounce to Keep Ball in the Air](https://hackaday.com/2018/07/25/juggling-machine-listens-to-the-bounce-to-keep-ball-in-the-air/)
 * [High-Style Ball Balancing Platform](https://hackaday.com/2019/02/02/high-style-ball-balancing-platform/)
 * [Ball Balancing PID System: 6 Steps (with Pictures)](https://www.instructables.com/id/Ball-Balancing-PID-System/)
 * [Ping-Pong Ball Makes Great PID Example](https://hackaday.com/2019/07/31/ping-pong-ball-makes-great-pid-example/)
 * [Robotic Ball Bouncer Uses Machine Vision To Stay On Target](https://hackaday.com/2020/03/05/robotic-ball-bouncer-uses-machine-vision-to-stay-on-target/)
+* [Robotic Basketball Hoop V2](https://hackaday.com/2020/05/19/robotic-basketball-hoop-v2/)
 
 # Poppy
 * [Poppy Humanoid Robot](https://www.poppy-project.org/en/)
@@ -108,6 +120,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Get Back Out There, Robotically](https://hackaday.com/2020/04/18/get-back-out-there-robotically/)
 
 # Proportional Integral Derivative (PID) Controller
+* [PID Controllers Explained](https://www.youtube.com/watch?v=VVOi2dbtxC0&feature=youtu.be)
 * [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)
 * [PID Controller](https://en.wikipedia.org/wiki/PID_controller)
 * [Proportional-Integral-Derivative (PID) Controller](https://nicisdigital.wordpress.com/2011/06/27/proportional-integral-derivative-pid-controller/)

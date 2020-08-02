@@ -1,4 +1,6 @@
 
+
+
 * [How to kill a process or stop a program in Linux](https://opensource.com/article/18/5/how-kill-process-stop-program-linux)
 
 # File Magic
@@ -70,6 +72,17 @@ Daemon
 * [Linux-Fu: Keeping Things Running](http://hackaday.com/2017/03/10/linux-fu-keeping-things-running/#more-246002)
 * [The Process Model of Linux Application Development](http://www.informit.com/articles/article.aspx?p=397655&seqNum=6)
 * [8 Linux commands for effective process management](https://opensource.com/article/18/9/linux-commands-process-management)
+
+# Job Control
+job control refers to control of jobs by a shell, especially interactively,
+where a "job" is a shell's representation for a process group.
+Basic job control features are the suspending, resuming, or terminating of all processes in the job/process group; more advanced features can be performed by sending signals to the job. Job control is of particular interest in Unix due to its multiprocessing, and should be distinguished from job control generally, which is frequently applied to sequential execution (batch processing).
+
+* The `shell` is both an interactive command language and a scripting language,
+and is used by the operating system to control the execution of the system using shell scripts.
+* a process group denotes a collection of one or more processes. Among other things, a process group is used to control the distribution of a signal; when a signal is directed to a process group, the signal is delivered to each process that is a member of the group.
+* a session denotes a collection of one or more process groups. A process may not create a process group that belongs to another session; furthermore, a process is not permitted to join a process group that is a member of another session
+* a process is the instance of a computer program that is being executed by one or many threads
 
 # Job Control Commands
 * [Job Control Commands](http://tldp.org/LDP/abs/html/x9644.html)
@@ -172,6 +185,7 @@ and uses ncurses to implement a text-graphical interface, and allows for output 
 
 * [Linux Tip | How to use Htop](https://www.youtube.com/watch?v=Qw2ZUf0hTF8)
 * [Understand Linux Htop Visually](https://hackaday.com/2020/01/30/understand-linux-htop-visually/)
+* [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring)
 
 # Kill
 While the kill command is used to "kill" processes,
@@ -191,10 +205,10 @@ Typing `kill -l` will give you a list of the signals it supports:
 $ kill -l
  1) SIGHUP	      2) SIGINT        3) SIGQUIT	     4) SIGILL	     5) SIGTRAP
  6) SIGABRT	      7) SIGBUS  	   8) SIGFPE	     9) SIGKILL     10) SIGUSR1
-11) SIGSEGV	     12) SIGUSR2      13) SIGPIPE     14) SIGALRM     15) SIGTERM
-16) SIGSTKFLT	 17) SIGCHLD      18) SIGCONT     19) SIGSTOP     20) SIGTSTP
-21) SIGTTIN      22) SIGTTOU      23) SIGURG      24) SIGXCPU     25) SIGXFSZ
-26) SIGVTALRM    27) SIGPROF      28) SIGWINCH	29) SIGIO       30) SIGPWR
+11) SIGSEGV	     12) SIGUSR2      13) SIGPIPE       14) SIGALRM     15) SIGTERM
+16) SIGSTKFLT	 17) SIGCHLD      18) SIGCONT       19) SIGSTOP     20) SIGTSTP
+21) SIGTTIN      22) SIGTTOU      23) SIGURG        24) SIGXCPU     25) SIGXFSZ
+26) SIGVTALRM    27) SIGPROF      28) SIGWINCH  	29) SIGIO       30) SIGPWR
 31) SIGSYS       34) SIGRTMIN     35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
 38) SIGRTMIN+4   39) SIGRTMIN+5   40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
 43) SIGRTMIN+9   44) SIGRTMIN+10  45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
@@ -214,9 +228,26 @@ Most are rather obscure, but a few should be committed to memory:
 
 * [Linux Fu: It’s A Trap!](https://hackaday.com/2019/08/26/linux-fu-its-a-trap/)
 
-# Cause a process to become a daemon
+# Systemd
+systemd init system, which has nowadays been adopted by the majority of Linux distributions as replacement for its oldschool, Unix-style init-system predecessors, essentially changing everything we knew about the system boot process.
+
+* [Pack Your Bags – Systemd Is Taking You To A New Home](https://hackaday.com/2019/10/16/pack-your-bags-systemd-is-taking-you-to-a-new-home/)
+* [Use systemd timers instead of cronjobs](https://opensource.com/article/20/7/systemd-timers)
+
+# Pathological Processes
+_You describe a person or their behaviour as pathological when they behave in an extreme and unacceptable way, and have very powerful feelings which they cannot control._
+
+## Orphan Process - When a process become a daemon with intending so
+* [Orphan Process](http://www.geekride.com/orphan-zombie-process/)
 * [Cause a process to become a daemon](http://www.microhowto.info/howto/cause_a_process_to_become_a_daemon.html)
 * [daemonizing bash](http://blog.n01se.net/blog-n01se-net-p-145.html)
+
+## Zombie Process - When a process is dead but lives in the process table
+* [Zombie Process](http://www.geekride.com/zombie-process-defunct-linux/)
+
+## Fork Bomb - When a process endlessly reproduces itself
+* [Fork Bomb](http://www.geekride.com/fork-bomb-linux/)
+* [Forking vs Threading](http://www.geekride.com/fork-forking-vs-threading-thread-linux-kernel/)
 
 # Screen
 ![vt-100](https://en.wikipedia.org/wiki/VT100#/media/File:DEC_VT100_terminal.jpg)

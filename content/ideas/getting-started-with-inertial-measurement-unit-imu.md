@@ -27,6 +27,7 @@
 * [FreeIMU: an Open Hardware Framework for Orientation and Motion Sensing](http://www.varesano.net/projects/hardware/FreeIMU)
 
 # Kalman Filter
+* [The Curious Case of Kalman Filters](https://medium.com/@krunalkshirsagar/the-curious-case-of-kalman-filters-f29c3d17b121)
 * [Kalman Filters: A step by step implementation guide in python](https://towardsdatascience.com/kalman-filters-a-step-by-step-implementation-guide-in-python-91e7e123b968)
 * [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
 * [How a Kalman filter works, in pictures](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
@@ -48,6 +49,7 @@
 # Extended Kalman Filter
 * [Extended Kalman Filter: Why do we need an Extended Version?](https://towardsdatascience.com/extended-kalman-filter-43e52b16757d)
 * [Kalman Filter Interview](https://towardsdatascience.com/kalman-filter-interview-bdc39f3e6cf3)
+* [Robot localization with Kalman-Filters and landmarks](https://medium.com/@jannik.zuern/robot-localization-with-kalman-filters-and-landmarks-cf97fa44e80b)
 
 # Unsented Kalman Filter
 * [Making Sense of Sensing in Self Driving Cars: Understanding key fundamentals of Unscented Kalman Filters](https://medium.com/kredo-ai-engineering/making-sense-of-sensing-in-self-driving-cars-3d469c6e5e33)

@@ -4,6 +4,7 @@
 * [Host your tiddlywikis in GitHub pages without any git knowledge or installing any software](https://github.com/danielo515/TW5-auto-publish2gh-pages)
 * [GitHub Pages Pelican Build Action](https://github.com/marketplace/actions/pelican-for-github-pages)
 * [Using GitHub to host your TiddlyWiki for DesignWrITe](https://groups.google.com/forum/m/#!topic/designwrite/a-3yUNze5qw)
+* [It Ain’t Over ‘Til The Paperwork Is Done: Test Driving TiddlyWiki](https://hackaday.com/2020/02/14/it-aint-over-til-the-paperwork-is-done-test-driving-tiddlywiki/)
 
 * [Jermolene](https://jermolene.com/index.html)
 

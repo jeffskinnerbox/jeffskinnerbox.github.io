@@ -7,6 +7,7 @@
     * [BRL-CAD](http://brlcad.org/)
     * [OpenSCAD](http://www.openscad.org/)
     * [FreeCAD](https://www.freecadweb.org/)
+    * [SolveSpace](http://solvespace.com/index.pl)
     * [TINKERCAD](https://www.tinkercad.com/)
     * [Onshape](https://www.onshape.com/open-source)
     * [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
@@ -49,6 +50,7 @@ and their conversion to [PCB designs][46].
 * [A Complete Desktop PCB Etching Station](https://hackaday.com/2019/07/07/a-complete-desktop-pcb-etching-station/)
 * [Add An Ant To Your Desk For Some Compact PCB Manufacturing](https://hackaday.com/2019/07/27/add-an-ant-to-your-desk-for-some-compact-pcb-manufacturing/)
 * [KiCad Panelization Made Easy](https://hackaday.com/2020/04/25/kicad-panelization-made-easy/)
+* [Circuit Simulations with KiCad](https://www.woolseyworkshop.com/2019/07/01/performing-a-circuit-simulation-in-kicad/)
 
 * [EEVblog #1259 - PCB Manufacturing Options EXPLAINED](https://www.youtube.com/watch?v=mT2Vp3HcIP4&)
 * [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
@@ -69,11 +71,15 @@ to check the integrity of circuit designs and to predict circuit behavior.
     * [A Spicy Regenerative Reciever](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
     * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
 * [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
+* [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
 * [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
 
 * [All About Circuts](http://www.allaboutcircuits.com/education/)
 * [RF design guide](http://www.cdt21.com/resources/default.asp)
 * [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
+
+## Xyce
+* [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
 
 # CAD File Interchangeability
 Exchanging CAD files between CAD tools can be a big headache.
@@ -122,6 +128,7 @@ import designs from other CAD software application for use or modification on yo
 
 * [CAD Battle - OpenSCAD vs. FreeCAD](https://www.youtube.com/watch?v=OP0zI0k9gOs)
 * [OpenSCAD vs. FreeCAD - Using FreeCAD to Export a printable STL of an OpenSCAD Model](https://www.youtube.com/watch?v=G66zAjnZpcc)
+* [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
 * [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
 
 ### FreeCAD + CadQuery

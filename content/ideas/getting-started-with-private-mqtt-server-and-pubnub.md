@@ -19,6 +19,7 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * [ESP8266 AND IOT: STREAMING SERIAL ACCELEROMETER DATA VIA MQTT](http://tinker.yeoman.com.au/2015/03/29/esp8266-and-iot-streaming-serial-accelerometer-data-via-mqtt/)
 
 # MQTT
+* [Why MQTT Has Become the De-Facto IoT Standard](https://dzone.com/articles/why-mqtt-has-become-the-de-facto-iot-standard)
 * [Introduction to MQTT](https://learn.sparkfun.com/tutorials/introduction-to-mqtt)
 * [MQTT: A Conceptual Deep-Dive](https://www.ably.io/concepts/mqtt)
 * [Running Mosquitto (MQTT broker) on Raspberry Pi](http://www.seeed.cc/project_detail.html?id=1754&utm_source=comedm17&utm_medium=mailchimp&utm_campaign=Molly0804)

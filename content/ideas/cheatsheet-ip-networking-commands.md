@@ -307,15 +307,21 @@ any interface not listed there will remain under NetworkManager control.
     or local area network to provide text-oriented
     communication facility using a virtual terminal connection.
     **Example Usage:** `telnet 192.168.8.1`
-    * [`ssh`][]
+    * [`ssh`][94] is a software package that enables secure system administration
+    and file transfers over insecure networks.
+    It is used in nearly every data center and in every large enterprise.
     * [`tmux`][88] is a terminal multiplexer that allows us to create multiple sessions
     that act roughly like terminal windows, create windows that act like tabs,
     and create panes that let us split `tmux` windows horizontally and vertically.
+
+* **Shared Terminal Access**
     * [`tty-share`][86] is a command line tool that you could use to share your
     remote access terminal session with somebody. To make the setup easy,
     your session is in a terminal but a browser is used for the remote end.
     * [`tmate`][87] is built on top of `tmux` and is very similar to `tty-share`
     but requires a `ssh` terminal session on the remote end.
+    * [`streamhut`][93]  allows you to stream (pipe) realtime data from your
+    terminal stdout/stderr to a web xterm UI or even to another terminal.
 
 ################################################################################
 
@@ -402,11 +408,55 @@ time and timezone or enable automatic system clock synchronization with a remote
 
 [ntpdate][82] (deprecated and replaced with `ntpd -q`) sets the local date and time by polling the Network Time Protocol (NTP) server(s) given as the server arguments to determine the correct time.
 In most Linux systems, the ntpdate command is not installed by default.
+`ntpdate` sets the local date and time by polling the Network Time Protocol (NTP) server(s) given as the server
+arguments to determine the correct time.
 
 `ntpd` is an operating system daemon which sets and maintains
 the system time of day in synchronism with Internet standard time servers.
 
 ntptrace
+
+```
+# poll USA ntp server and set your computer clock
+$ sudo ntpdate 0.us.pool.ntp.org
+ 1 Jun 21:00:59 ntpdate[974]: adjust time server 195.21.137.209 offset -0.336255 sec
+
+# poll ntp server and set your computer clock
+$ sudo ntpd -q
+ 1 Jun 21:03:44 ntpd[1105]: ntpd 4.2.8p12@1.3728-o (1): Starting
+ 1 Jun 21:03:44 ntpd[1105]: Command line: ntpd -q
+ 1 Jun 21:03:44 ntpd[1105]: proto: precision = 0.046 usec (-24)
+ 1 Jun 21:03:44 ntpd[1105]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
+ 1 Jun 21:03:44 ntpd[1105]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2020-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
+ 1 Jun 21:03:44 ntpd[1105]: Listen and drop on 0 v6wildcard [::]:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen normally on 2 lo 127.0.0.1:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen normally on 3 eth0 192.168.1.200:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen normally on 4 wlan0 192.168.1.13:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen normally on 5 lo [::1]:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen normally on 6 eth0 [fe80::222:4dff:fe83:c1c8%2]:123
+ 1 Jun 21:03:44 ntpd[1105]: Listen normally on 7 wlan0 [fe80::96db:c9ff:fe51:10ca%4]:123
+ 1 Jun 21:03:44 ntpd[1105]: Listening on routing socket on fd #24 for interface updates
+ 1 Jun 21:03:45 ntpd[1105]: Soliciting pool server 50.205.244.111
+ 1 Jun 21:03:46 ntpd[1105]: Soliciting pool server 162.159.200.1
+ 1 Jun 21:03:46 ntpd[1105]: Soliciting pool server 144.172.126.201
+ 1 Jun 21:03:47 ntpd[1105]: Soliciting pool server 24.248.217.23
+ 1 Jun 21:03:47 ntpd[1105]: Soliciting pool server 162.248.241.94
+ 1 Jun 21:03:47 ntpd[1105]: Soliciting pool server 184.105.182.15
+ 1 Jun 21:03:48 ntpd[1105]: Soliciting pool server 45.33.84.208
+ 1 Jun 21:03:48 ntpd[1105]: Soliciting pool server 134.215.114.200
+ 1 Jun 21:03:48 ntpd[1105]: Soliciting pool server 185.144.157.134
+ 1 Jun 21:03:48 ntpd[1105]: Soliciting pool server 69.89.207.199
+ 1 Jun 21:03:49 ntpd[1105]: Soliciting pool server 216.240.36.24
+ 1 Jun 21:03:49 ntpd[1105]: Soliciting pool server 198.211.103.209
+ 1 Jun 21:03:49 ntpd[1105]: Soliciting pool server 72.87.88.202
+ 1 Jun 21:03:49 ntpd[1105]: Soliciting pool server 91.189.91.157
+ 1 Jun 21:03:50 ntpd[1105]: Soliciting pool server 91.189.89.198
+ 1 Jun 21:03:50 ntpd[1105]: Soliciting pool server 99.104.170.138
+ 1 Jun 21:03:50 ntpd[1105]: Soliciting pool server 208.79.89.249
+ 1 Jun 21:03:51 ntpd[1105]: ntpd: time set -0.272817 s
+ntpd: time set -0.272817s
+```
 
 ### Verify NTP is Working Or Not
 You can use any one of the following program to verify ntp client configuration:
@@ -858,6 +908,7 @@ https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-compu
 # Recording Terminal Session
 * [How To Record and Share Terminal Sessions Using Terminalizer on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-record-and-share-terminal-sessions-using-terminalizer-on-ubuntu-18-04)
 * [Terminalizer](https://terminalizer.com/)
+* [termtosvg](https://github.com/nbedos/termtosvg)
 
 # Establishing a Connection
 You can use `iw` to connect to an AP directly if and only if the AP has:
@@ -2396,6 +2447,7 @@ could be gathered for this cheat sheet.
 * [How to use Kismet: A free Wi-Fi network-monitoring tool](http://searchsecurity.techtarget.com/video/How-to-use-Kismet-A-free-Wi-Fi-network-monitoring-tool?videoId=8eb0fc2d1aa26410VgnVCM1000000d01c80aRCRD)
 
 # Arbitrary Network Packets
+* [Getting started with socat, a multipurpose relay tool for Linux](https://www.redhat.com/sysadmin/getting-started-socat)
 * [HOWTO: Crafting arbitrary network packets with socat](http://discourse.criticalengineering.org/t/howto-crafting-arbitrary-network-packets-with-socat/51/last)
 * [socat: Linux / UNIX TCP Port Forwarder](http://www.cyberciti.biz/faq/linux-unix-tcp-port-forwarding/)
 * [socat: The General Bidirectional Pipe Handler](https://www.linux.com/news/socat-general-bidirectional-pipe-handler)
@@ -2497,8 +2549,8 @@ could be gathered for this cheat sheet.
 [90]:https://danielmiessler.com/study/bettercap/
 [91]:https://nmap.org/book/zenmap.html#zenmap-purpose
 [92]:https://insecure.org/
-[93]:
-[94]:
+[93]:https://streamhut.io/
+[94]:https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work
 [95]:
 [96]:
 [97]:

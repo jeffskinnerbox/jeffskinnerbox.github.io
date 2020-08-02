@@ -1,4 +1,10 @@
 
+# ESP32-S2
+* [The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?time_continue=51&v=L6IoSVdKwNM&feature=emb_logo)
+* [EYE on NPI - Espressif ESP32-S2 SoC](https://www.youtube.com/watch?v=4F25y-P8krM)
+
+
+
 * [ESP32 Videos](https://www.youtube.com/playlist?list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9)
 
 * [ESP8266 Tips & Tricks](https://www.youtube.com/channel/UCqk4hT4XpzUVVUfsIDNzvPw)
@@ -86,6 +92,7 @@ The Espressif Internet Development Framework (ESP-IDF) is core development tool-
 
 # Over-The-Air Update (OTA)
 * [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)
+* [ESP32 OTA tutorial with tricks (incl. OTA debugging)](https://www.youtube.com/watch?v=1pwqS_NUG7Q)
 * [ESP8266 - Pushing OTA Upgrades](http://smallbits.marshall-tribe.net/blog/2016/05/29/esp8266-pushing-ota-upgrades)
 * https://www.youtube.com/watch?v=o05sBDfaFO8&index=9&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE
 

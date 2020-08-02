@@ -18,6 +18,7 @@
 * [Integrating Snips with Home Assistant](https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77)
 * [Home Assistant Tutorials](https://www.youtube.com/playlist?list=PLLydq6ff7NvJ1ioQSVRCt2FJK9EFzRKWr)
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
+* [Home Automation Covers Everything](https://hackaday.com/2020/07/13/home-automation-covers-everything/)
 
 ## LANnouncer
 LANnouncer is a device driver for the Samsung SmartThings home automation hub, bringing audio alerts to the system through any connected Android device.
@@ -119,5 +120,9 @@ allowing the Pi to load its file system from a server on the same network.
 * [OpenEnergyMonitor](http://openenergymonitor.org/emon/)
 * [Home Monitoring with Raspberry Pi and Node.js](https://www.hackster.io/andreioros/home-monitoring-with-raspberry-pi-and-node-js-8ec795)
 * [Building A Safe ESP32 Home Energy Monitor](https://hackaday.com/2019/07/27/building-a-safe-esp32-home-energy-monitor/)
+
+# Non Intrusive Load Monitoring
+* [Non Intrusive Load Monitoring with Shelly 3EM](https://blog.squix.org/2020/07/non-intrusive-load-monitoring-with-shelly-3em.html)
+* [A Complete Raspberry Pi Power Monitoring System](https://hackaday.com/2020/07/24/a-complete-raspberry-pi-power-monitoring-system/)
 
 

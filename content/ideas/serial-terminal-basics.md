@@ -52,6 +52,7 @@ a predecessor to the famous DEC VT100.
 * [VT100](https://en.wikipedia.org/wiki/VT100)
 
 * https://en.wikipedia.org/wiki/Computer_terminal
+* [Building A 3270 Terminal Controller](https://hackaday.com/2020/05/28/building-a-3270-terminal-controller/)
 
 Linux and other Unix-like operating systems such as macOS,
 the terminal window and applications such as [xterm](https://en.wikipedia.org/wiki/Xterm)
@@ -170,7 +171,7 @@ For example cisco, now every time you would like to use the same configuration j
 ## Local Echo
 >Local echo is a computer modem feature and terminal option that allows the modem to display keyboard commands and transmitted data on the screen as it is being entered into the computer or received by the modem.
 
-For some situations you will not hav local echo of characters you type in.
+For some situations you will not have local echo of characters you type in.
 To fix this, you can add it with `CTRL-A E` to turn on local echo
 and `CTRL-A A` to append a linefeed to CR terminated ASCII arriving at the serial port.
 
@@ -195,10 +196,14 @@ This post shows in detailed steps how to open a serial connection to an embedded
 
 # What is meant by serial communication?
 # Serial Connection
-[Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication)
+* [PROTOCOLS: UART - I2C - SPI - Serial communications](https://www.youtube.com/watch?v=IyGwvGzrqp8&feature=youtu.be)
+* [Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication)
 
 # Understanding UART
+* [how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI&feature=youtu.be)
 * [How to Communicate with UART](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
+* [Arduino for Production! How to Communicate with UART - Tutorials for the AVR Microcontroller](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
+
 * [Back to Basics: The Universal Asynchronous Receiver/Transmitter (UART)](http://www.allaboutcircuits.com/technical-articles/back-to-basics-the-universal-asynchronous-receiver-transmitter-uart/?utm_source=All+About+Circuits+Members&utm_campaign=44def5ed41-EMAIL_CAMPAIGN_2016_12_28&utm_medium=email&utm_term=0_2565529c4b-44def5ed41-270523833/)
 * [Where does 9600 bps come from?](https://www.sparkfun.com/news/2231)
 * [UART Double Buffering Technique: Interrupt-Friendly](http://www.allaboutcircuits.com/technical-articles/uart-double-buffering-technique-interrupt-friendly/)
@@ -227,6 +232,8 @@ This post shows in detailed steps how to open a serial connection to an embedded
 USB (universal serial bus) is an industry standard covering cables, connectors and protocols;
 and is pretty ubiquitous among tech products these days.
 
+* [What did we use before USB?](https://www.youtube.com/watch?v=4mi0kLLLAOs)
+* [Why Does USB Keep Changing?](https://www.youtube.com/watch?v=36CKsP9YQ1E)
 * [USB Reverse Engineering: Down the rabbit hole](http://devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/)
 * [USB Reverse Engineering: A Universal Guide](https://hackaday.com/2018/05/25/usb-reverse-engineering-a-universal-guide/)
 
@@ -264,6 +271,7 @@ along with other extended AT commands.
 * [All You Wanted To Know About AT And GSM AT Commands](http://electronicsforu.com/resources/cool-stuff-misc/wanted-know-gsm-commands)
 * [Serial Programming/Modems and AT Commands](https://en.wikibooks.org/wiki/Serial_Programming/Modems_and_AT_Commands)
 * [A brief history of USB, what it replaced, and what has failed to replace it](http://arstechnica.com/gadgets/2015/11/a-brief-history-of-usb-what-it-replaced-and-what-has-failed-to-replace-it-2/)
+* [How A Dial-up Modem Handshake Works](https://hackaday.com/2013/01/31/how-a-dial-up-modem-handshake-works/)
 
 # Terminal
 Back when computers where big, bulky, and took up entire rooms,

@@ -34,6 +34,7 @@ and  after all, [isn't it dead][07]?
 * [All the Numbers (extra footage) - Numberphile](https://www.youtube.com/watch?v=LsBQhfkw5ag)
 
 # The Infinite and Infinitesimal
+* [Cantor’s Approach to Mathematical Infinity](https://medium.com/however-mathematics/cantors-approach-to-mathematical-infinity-ca0119e18894)
 * [What is infinity and how many of them are there?](https://medium.com/@tivadar.danka/what-is-infinity-and-how-many-of-them-are-there-c4912322b5ad)
 * [Infinities are not made equal](https://towardsdatascience.com/infinities-are-not-made-equal-7f707e055efa)
 * [Understanding Cantor’s Mathematical Infinity](https://medium.com/however-mathematics/understanding-cantors-mathematical-infinity-bc9ffe7465da)
@@ -49,6 +50,7 @@ and  after all, [isn't it dead][07]?
 * [An Infinite Playlist](https://www.youtube.com/playlist?list=PLa6IE8XPP_glwNKmFfl2tEL0b7E9D0WRr)
 * [The Nature of Infinity — and Beyond](https://medium.com/cantors-paradise/the-nature-of-infinity-and-beyond-a05c146df02c)
 * [Proving Cantor’s Theorem](https://medium.com/cantors-paradise/proving-cantors-theorem-dbfbc4a37f56)
+* [To Settle Infinity Dispute, a New Law of Logic](https://www.quantamagazine.org/to-settle-infinity-question-a-new-law-of-mathematics-20131126/)
 
 * [Georg Cantor and His Opposition](https://www.youtube.com/watch?v=cM1sl9QszsI)
 * [Secret History: Part 1 Georg Cantor's Mystical Philosophy of Infinity](https://www.youtube.com/watch?v=L26Ioa3WAtc&list=RDQM0DRQbISDFMk&start_radio=1)
@@ -64,7 +66,16 @@ that when investigated or explained may prove to be well founded or true.
 
 An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - [Cantor's Paradox](https://www.youtube.com/watch?v=WIrdyu9WquQ)
 
+#  Gödel’s Incompleteness Theorems
+* [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
+
+# Impulse
+* [Green's function](https://en.wikipedia.org/wiki/Green%27s_function)
+* [Dirac delta function](https://en.wikipedia.org/wiki/Dirac_delta_function)
+* [Impulse response](https://en.wikipedia.org/wiki/Impulse_response)
+
 # What is Time
+* [Arrows of Time](https://www.quantamagazine.org/what-is-time-a-history-of-physics-biology-clocks-and-culture-20200504/)
 * [Does Time Really Flow? New Clues Come From a Century-Old Approach to Math](https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/)
 
 # What is Randomness?
@@ -73,20 +84,29 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
 
 # What about Chaos Theory and Emergent Properties?
+* [This equation will change how you see the world (the logistic map)](https://www.youtube.com/watch?v=ovJcsL7vyrk)
+* [Chaos in One Innocent Equation](https://medium.com/swlh/chaos-in-one-innocent-equation-168d0bd31bad)
+* [The Logistic Map](https://www.complexity-explorables.org/flongs/logistic/)
+* [Chaos Theory and the Logistic Map](https://geoffboeing.com/2015/03/chaos-theory-logistic-map/)
+* [Machine Learning’s ‘Amazing’ Ability to Predict Chaos](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/)
 
 # What about Quantum Theory?
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
+* [EEVblog #1316 - Quantum Computing for Electrical Engineers](https://www.youtube.com/watch?v=nOQhdgY8aBM)
+* [Long Version: Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0)
 
 # What about String Theory?
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
 
 # Information
+* [The Mathematics Behind Communication and Transmitting Information](https://medium.com/however-mathematics/the-mathematics-behind-communication-and-transmitting-information-f8162aa25055)
 
-# Other Ideas
-* [Fixed Points](https://www.youtube.com/watch?v=csInNn6pfT4)
-
-# Fractional calculus and Gamma Function
+# Fractional Calculus and Gamma Function
 * [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
+ZZ
+# Euler’s Formula
+* [Euler’s Formula](https://medium.com/swlh/eulers-formula-11a991fc3829)
+* [Euler’s Identity](https://medium.com/swlh/eulers-identity-990b52f0d8fc)
 
 # Richard Feynman’s Integral Trick
 * [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
@@ -104,6 +124,26 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 
 # Probability of the Extremely Rare
 * [How to Build a Probability Microscope](https://nautil.us/issue/44/Luck/-how-to-build-a-probability-microscope)
+* [Probability: A Philosophical Perspective, Part I](https://medium.com/thesociablesolipsist/probability-a-philosophical-perspective-part-i-accb35315900)
+
+# Other Ideas
+* [Fixed Points](https://www.youtube.com/watch?v=csInNn6pfT4)
+* [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
+
+# The Future of Programming
+* ["Uncle" Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
+
+# Math & Physics: normalization
+* [In the End, It All Adds Up to – 1/12](https://www.nytimes.com/2014/02/04/science/in-the-end-it-all-adds-up-to.html)
+* [Infinity or -1/12?](https://plus.maths.org/content/infinity-or-just-112?nl=0)
+* [How physicists solved the problem of infinity](https://www.youtube.com/watch?v=dkYL6G0JHtY)
+* [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk&feature=youtu.be)
+
+* [Why is 1 + 2 + 4 + 8 + … = -1?](https://medium.com/cantors-paradise/the-powers-of-two-why-is-1-2-4-8-1-19d8f00be228)
+* [Sums Of Divergent Series](https://brilliant.org/wiki/sums-of-divergent-series/)
+* [Astounding Infinity](http://www.mathaware.org/mam/2014/calendar/infinity.html)
+* [Infinite series are weird — redux!](https://skullsinthestars.com/2010/05/25/infinite-series-are-weird-redux/)
+* [Follow-Up: The Infinite Series and the Mind-Blowing Result](https://slate.com/technology/2014/01/follow-up-the-infinite-series-and-the-mind-blowing-result.html)
 
 
 

@@ -5,6 +5,7 @@
 * [Understanding Advanced Batteries and Energy Storage – Part I](http://investorintel.com/technology-metals-intel/understanding-advanced-batteries-energy-storage-part/)
 * [A Description of Maddening Battery Terminology](http://hackaday.com/2014/09/26/a-description-of-maddening-battery-terminology/)
 * [An Average Introduction To LiPo Batteries](http://www.averagemanvsraspberrypi.com/2016/06/lipo-batteries.html)
+* [A Beginner’s Guide to Lithium Rechargeable Batteries](https://hackaday.com/2020/06/11/a-beginners-guide-to-lithium-rechargeable-batteries/)
 * [Lithium-Ion Shipping and Travel Regulations: What You Need to Know](https://www.allaboutcircuits.com/news/lithium-ion-shipping-and-travel-regulations-what-you-need-to-know/?utm_source=All+About+Circuits+Members&utm_campaign=2e59b3d647-EMAIL_CAMPAIGN_2017_04_06&utm_medium=email&utm_term=0_2565529c4b-2e59b3d647-270523833/)
 * [Battery management training](http://www.ti.com/power-management/battery-management/support-training.html)
 * [Coin Cells: The Mythical Milliamp-Hour](https://hackaday.com/2017/12/22/coin-cells-the-mythical-milliamp-hour/)

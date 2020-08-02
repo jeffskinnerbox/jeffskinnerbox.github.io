@@ -8,3 +8,5 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 * [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
 
 * [Tacotron: A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model](https://github.com/keithito/tacotron)
+
+* [Voice style transfer with random CNN](https://github.com/mazzzystar/randomCNN-voice-transfer)
