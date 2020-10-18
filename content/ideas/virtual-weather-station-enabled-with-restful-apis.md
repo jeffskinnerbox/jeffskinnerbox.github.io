@@ -1,16 +1,75 @@
 
+I have been considered purchasing or building my own home weather station for my backyard.
+I would make it part of my larger plan to instrument my home for automation and monitoring.
+A sophisticated weather stations could be bristling with devices like:
+
+* **Anemometer** is a device for measuring wind speed.
+* **Wind Vane** is a device that measures the direction of the wind.
+* **Thermometer** is a device that measures temperature.
+* **Hygrometer** is a device that measures relative humidity.
+* **Barometer** is an instrument used to measure atmospheric pressure.
+* **Rain Gauge** is a device that measures liquid precipitation (rain), as opposed to solid precipitation (snow gauge) over a set period of time.
+* **Solar Radiation sensor** measures solar energy from the sun.
+* **Ultraviolet sensor** (UV sensor) is a device that measures UV light from the Sun.
+* **Leaf Wetness sensor** detects the presence of surface moisture and is measured between 0 (dry) and 15 (saturated).
+* **Soil Moisture sensor** measures the quantity of water contained in a material, such as soil on a volumetric or gravimetric basis.
+* **Soil Temperature sensor** measures the temperature of the soil
+
+So potential there are many expensive sensors,
+then of course their is the user interface,
+the installation, and continuing maintenance of the station.
+
+I then thought about it, and frankly, I'm not prepared to make this commitment.
+I would like the data, but the cost and labor I would like to avoid.
+My solution to this will be a vertual weather station.
+No hardware mounted to my house,
+just a Raspberry Pi, or other such device, making use of published API to get my local weather.
+The vertual weather station will
+itself be API emabled so that you can quere for realtime status, hsitoral data,
+and support mutiple thypes of user interfaces
+(e.g. web page, mobile app, or even a repurposed old Kindle).
+
+
+
+------
+
+
+# Hyper-Local Weather Forcasting
+[ClimaCell](https://www.climacell.co/)
+provides minute-by-minute, street-by-street-level forecasts.
+HyperCast is based on the company's Weather Operating System (Weather OS),
+which combines "Weather-of-Things" data,
+including cell tower signals, and data from connected cars, airplanes, drones and IoT devices,
+with AI-driven models that analyze the data at resolutions of hundreds of meters and minutes.
+
+* [You Don’t Need A Weatherman To Know Which Way The Drone Blows](https://hackaday.com/2020/09/07/you-dont-need-a-weatherman-to-know-which-way-the-drone-blows/)
+* [ClimaCell API](https://developer.climacell.co/)
+
 # Collecting Weather Data
 * [WeatherCollector](https://github.com/CorentinJ/WeatherCollector) - A python script to collect daily weather data from anywhere in the world within any time range
+
+# Sage
+In September of 2019, the National Science Foundation awarded a multi-institutional team,
+led by Northwestern University, a $9 million grant to launch the [Sage project](https://sagecontinuum.org/),
+a novel cyberinfrastructure created to exploit dramatic improvements in artificial intelligence technology.
+The goal: to build a continent-spanning network of smart sensors.
 
 # Calling Home via Satellite
 * [PR-Holonet: Disaster Area Emergency Comms](https://hackaday.io/project/140426-pr-holonet-disaster-area-emergency-comms)
 * [RockBLOCK Mk2 - Iridium SatComm Module](https://www.sparkfun.com/products/13745)
 * [Satellite communication with RockBLOCK](http://www.makersnake.com/rockblock/)
 
+# Weather Alerts Software / APIS
+There’s no shortage of ways to receive weather information.
+We all have our favorite weather app or forecasting site,
+and there are emergency alerts to cell phones, TV, and radio stations as well.
+If none of that suits you, though, you can also [roll out your own weather alert readerboard](https://github.com/damageddolphin/readerboard).
+
 
 Some simple weather station setups:
 Nice Design
 * [ESP8266 Colored Weather Station](https://www.instructables.com/id/ESP8266-Colored-Weather-Station/)
+* [Stylish desktop ESP8266 weather station](https://hackaday.io/project/174508-stylish-desktop-esp8266-weather-station)
 * [Weather Station with ePaper and Raspberry Pi](Weather Station with ePaper and Raspberry Pi)
 * [Weather Pyramid](https://hackaday.io/project/153208-weather-pyramid)
 * [ESP8266 Weather Station - with Wind and Rain Sensors](https://tysonpower.de/blog/esp8266-weather-station)
@@ -22,6 +81,7 @@ Nice Design
 * [ESP32 Weather Station on a PCB](https://hackaday.com/2018/02/10/esp32-weather-station-on-a-pcb/)
 * [ESP8266 WiFi Weather Station with Color TFT Display](https://learn.adafruit.com/wifi-weather-station-with-tft-display)
 * [Sparklines For Your ESP32 Projects](https://hackaday.com/2020/06/06/sparklines-for-your-esp32-projects/)
+* [ESP32 Weathercloud Weather Station](https://www.instructables.com/id/ESP32-Weathercloud-Weather-Station/?linkId=71473200)
 * [IoT Made Simple: Home Weather Station With NodeMCU and OLED](https://www.hackster.io/mjrobot/iot-made-simple-home-weather-station-with-nodemcu-and-oled-27d3a9)
 * [Desktop Weather Monitor Leaves Nothing to Chance](https://hackaday.com/2019/05/19/desktop-weather-monitor-leaves-nothing-to-chance/)
 * [Analog VU Meter - I2C OLED SH1106 - OLEDMeter Animation](https://forum.arduino.cc/index.php?PHPSESSID=u75qua3pd504eg6p24m9bcpal0&topic=403234.msg2773633#msg2773633)
@@ -29,6 +89,7 @@ Nice Design
 
 * [The Solid State Weather Station](https://hackaday.com/2018/05/17/the-solid-state-weather-station/)
 * [Weather Station – DHT11, MQTT, Node-RED, Google Chart, Oh My!](http://www.internetoflego.com/weather-station-dht11-mqtt-node-red-google-chart-oh-my/)
+* [node-red-node-weather-underground](https://www.npmjs.com/package/node-red-node-weather-underground)
 * [Hyper-local Weather Dashboard: Wunderground + Pi Sense HAT](https://github.com/InitialState/wunderground-sensehat/wiki)
 * [How to Monitor Room Temperature With a Raspberry Pi](https://www.jeremymorgan.com/tutorials/raspberry-pi/monitor-room-temperature-raspberry-pi/)
 * [Make a Weather Station With a Raspberry Pi 2](https://www.jeremymorgan.com/tutorials/raspberry-pi/how-to-weather-station-raspberry-pi/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed:+JeremyMorganTutorials+(Jeremy)
@@ -39,22 +100,29 @@ Nice Design
 * [NodeMCU Weather Widget](https://www.youtube.com/watch?v=NnS7sFmU-c4)
 * Weather station - [Using the 4 pins of the ESP8266-01](https://arduinodiy.wordpress.com/2016/10/11/using-the-4-pins-of-the-esp8266-01/)
 * [PiClock: an all in one clock, weather forecast and radar map](https://blog.adafruit.com/2015/06/12/piclock-an-all-in-one-clock-weather-forecast-and-radar-map-piday-raspberrypi-raspberry_pi/)
-* [Weather Station – DHT11, MQTT, Node-RED, Google Chart, Oh My!](http://www.internetoflego.com/weather-station-dht11-mqtt-node-red-google-chart-oh-my/)
 * [11 Best Weather Stations ](http://www.instructables.com/id/11-Best-Weather-Stations/)
 
 * [Weather Font](http://www.dafont.com/weather.font)
 
+* [Improve battery life in Ultra Low Power wireless applications](https://blog.nordicsemi.com/getconnected/improve-battery-life-in-ultra-low-power-wireless-applications)
+* [Battery Life Calculator for Projects with Sleep Mode](https://www.geekstips.com/battery-life-calculator-sleep-mode/)
+
+# Weather APIs
+* [RapidAPI](https://docs.rapidapi.com/docs/what-is-rapidapi)
+* [Top 6 Best Free Weather APIs to Access Global Weather Data (Updated for 2020)](https://rapidapi.com/blog/access-global-weather-data-with-these-weather-apis/)
+
+* [WeatherCloud](https://weathercloud.net/site/about)
 * [National Weather Service](https://www.weather.gov/documentation/)
     * [National Weather Service Weather Alerts](https://alerts.weather.gov/)
     * [Weather Alert Light System](https://www.instructables.com/id/Weather-Alert-Light-System/)
 * [OpenWeatherMap](http://openweathermap.org/)
     * [Real-Time Weather with Raspberry Pi 4](https://www.hackster.io/gatoninja236/real-time-weather-with-raspberry-pi-4-ad621f)
+    * [Fetching real-time weather data and controlling the speed of a motor fan with Raspberry Pi on Raspbe](https://community.dfrobot.com/makelog-308300.html)
 * [MetaWeather](https://www.metaweather.com/)
 * [Dark Sky API](https://darksky.net/dev/)
     * [Dark Sky API PyPortal and Weather Dashboard ](https://www.hackster.io/elizabethna/dark-sky-api-pyportal-and-weather-dashboard-9383ee)
 * [Foreca](https://corporate.foreca.com/en/weather-data/weather-api)
 * [cli-weather](https://www.npmjs.com/package/cli-weather)
-* [node-red-node-weather-underground](https://www.npmjs.com/package/node-red-node-weather-underground)
 * [Migrating a Project from Weather Underground to Open Weather Maps](https://www.sparkfun.com/news/2858)
 
 * [Build a Wireless “Tipping Bucket” Rain Gauge, Part 1—Assembling the Bucket](http://www.allaboutcircuits.com/projects/build-a-wireless-tipping-bucket-rain-gauge-part-1assembling-the-base/)
@@ -79,35 +147,6 @@ Sample Application with Backbone.js, Twitter Bootstrap, Node.js, Express, and Mo
 is a simple configurable service to mock out RESTful API or SOAP web-services.
 This online service allows you to quickly define REST API or SOAP endpoints and have them return JSON or XML data.
 
-I have considered purchasing or building my own home weather station.
-I would make it part of my larger plan to instrument my home for automation and monitoring.
-A some of the most sophisticated weather stations would have
-
-* **Anemometer** is a device for measuring wind speed.
-* **Wind vane** is a device that measures the direction of the wind.
-* **Thermometer** is a device that measures temperature.
-* **Hygrometer** is a device that measures relative humidity.
-* **Barometer** is an instrument used to measure atmospheric pressure.
-* **Rain gauge** is a device that measures liquid precipitation (rain), as opposed to solid precipitation (snow gauge) over a set period of time.
-* **Solar radiation** sensor measures solar energy from the sun.
-* **Ultraviolet sensor** (UV sensor) is a device that measures UV light from the Sun.
-* **Leaf wetness sensor** detects the presence of surface moisture and is measured between 0 (dry) and 15 (saturated).
-* **Soil moisture** sensor measures the quantity of water contained in a material, such as soil on a volumetric or gravimetric basis.
-* **Soil temperature** sensor measures the temperature of the soil
-
-So potential there are many expensive sensors,
-then of course their is the user interface,
-the installation, and continuing maintenance of the station.
-Frankly, I'm not prepared to make this commitment.
-I would like the data, but the cost and labor I would like to avoid.
-
-My solution to this will be a vertual weather station.
-No hardware mounted to my house,
-just a Raspberry Pi making use of published API to get my local weather.
-The vertual weather station will
-itself be API emabled so that you can quere for realtime status, hsitoral data,
-and support mutiple thypes of user interfaces
-(e.g. web page, mobile app, or even a repurposed old Kindle).
 
 # Solar Powered Weather Station
 * [Solar Powered Weather Station](https://hackaday.io/project/19324-weather-station)
@@ -121,6 +160,7 @@ Space Weather is the term scientists use to describe the ever changing condition
 
 * [NASA APIs](https://api.nasa.gov/index.html)
 * [SPACE WEATHER PREDICTION CENTER](https://www.swpc.noaa.gov/communities/space-weather-enthusiasts)
+* [Welcome To Solar Cycle 25; Our Sun Enters A New 11-Year Period](https://hackaday.com/2020/10/06/welcome-to-solar-cycle-25-our-sun-enters-a-new-11-year-period/)
 
 # Creating APIs
 * [How to set-up a powerful API with Nodejs, GraphQL, MongoDB, Hapi, and Swagger](https://medium.freecodecamp.org/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
@@ -212,16 +252,42 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 # Air Particulate Pollution
 * [Measuring Particulate Pollution With The ESP32](https://hackaday.com/2019/08/29/measuring-particulate-pollution-with-the-esp32/)
 
+
 # Lightning Storm Detector
+Lightning Basics - https://www.nssl.noaa.gov/education/svrwx101/lightning/
+
 * [An Introduction to Storm Detector Modules](https://hackaday.com/2018/03/22/an-introduction-to-storm-detector-modules/)
     * [Storm Detector Modules: Dancing in the Rain](https://hackaday.com/2018/03/28/storm-detector-modules-dancing-in-the-rain/)
 * [Playing With Fusion, Inc](https://github.com/PlayingWithFusion)
-* [SparkFun Lightning Detector - AS3935](https://www.sparkfun.com/products/15276)
+
+## Lightning "Emulator"
+* [Lightning "Emulator" Shield](https://www.playingwithfusion.com/productview.php?pdid=55)
+
+## "Triditional" Detector
 * [This Lightning Detector Is Remarkably Sensitive](https://hackaday.com/2019/10/03/this-lightning-detector-is-remarkably-sensitive/)
+
+## Specialized IC Detector
+* [AMS AS3935 Franklin Lightning Sensor](https://esphome.io/components/sensor/as3935.html)
+* [SparkFun Lightning Detector - AS3935](https://www.sparkfun.com/products/15276)
+* [Lightning Sensor Breakout](https://www.playingwithfusion.com/productview.php?pdid=22&catid=1012)
+
+## SDR Radio Detector
+* [Lightning Analysis With Your SDR](https://hackaday.com/2020/08/07/lightning-analysis-with-your-sdr/)
+* [ANALYZING LIGHTNING DISCHARGES WITH AN RTL-SDR AND THE SAGE NETWORK](https://www.rtl-sdr.com/analyzing-lightning-discharges-with-an-rtl-sdr-and-the-sage-network/)
+
+## National Weather Service
+??
+
+
+
+# Dust Detection
+* [Weather Warnings and Dust Detection from this Meteorological Marvel](https://hackaday.com/2020/09/14/weather-warnings-and-dust-detection-from-this-meteorological-marvel/)
+* [The SDS011 sensor and fine dust](https://www.settorezero.com/wordpress/il-sensore-sds011-e-le-polveri-sottili/#Set_Working_Period)
 
 # Bat Detector
 * [What Does The Bat Say? Tune In With This Heterodyne Detector](https://hackaday.com/2020/06/27/what-does-the-bat-say-tune-in-with-this-heterodyne-detector/)
 * [Hack Together Your Own Bat Signal](https://hackaday.com/2020/07/11/hack-together-your-own-bat-signal/)
+* [Why MEMS Microphones Are the Best Choice for Your Project](https://www.hackster.io/news/why-mems-microphones-are-the-best-choice-for-your-project-fb4c3a61f33d)
 
 # Open Source Seismometer
 * [Earthquake Detection On A Chip](https://hackaday.com/2019/07/06/earthquake-detection-on-a-chip/)
@@ -242,6 +308,10 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [Simple Seismic Sensor Makes Earthquake Detection Personal](https://hackaday.com/2019/10/28/simple-seismic-sensor-makes-earthquake-detection-personal/)
 * [Earthquake sensor from OpenElectronicsStore on Tindie](https://www.tindie.com/products/openelectronics/earthquake-sensor/)
 
+# OpenEEW
+earthquake early-warning systems OpenEEW
+* [The Linux Foundation, Grillo and IBM Announce New Earthquake Early-Warning Open Source Project](https://www.linuxfoundation.org/press-release/2020/08/the-linux-foundation-grillo-and-ibm-announce-new-earthquake-early-warning-open-source-project/)
+
 # Earthquake Notification
 The United States Geological Survey provides a program called ShakeCast
 that can send notifications within minutes of an earthquake.
@@ -253,6 +323,7 @@ that can send notifications within minutes of an earthquake.
 
 # Radiation Detection (Geiger-Muller Counter)
 * [DIY Scintillation Detector Is Mighty Sensitive](https://hackaday.com/2019/07/19/diy-scintillation-detector-is-mighty-sensitive/)
+* [Working Geiger Counter W/ Minimal Parts](https://www.instructables.com/id/Working-Geiger-Counter-W-Minimal-Parts/)
 * [DIY Geiger Counter Is Sure To Generate Clicks](https://hackaday.com/2019/08/19/diy-geiger-counter-is-sure-to-generate-clicks/)
 * [You Didn’t See Graphite Around This Geiger Counter](https://hackaday.com/2019/09/08/you-didnt-see-graphite-around-this-geiger-counter/)
 * [Global Radiation Montoring And Tracking Nuclear Disasters At Home](https://hackaday.com/2019/08/28/global-radiation-montoring-and-tracking-nuclear-disasters-at-home/)
@@ -260,6 +331,7 @@ that can send notifications within minutes of an earthquake.
 
 # Spectrophotometer
 * [Spot Adulterated Olive Oil With This Spectrophotometer](https://hackaday.com/2019/08/31/spot-adulterated-olive-oil-with-this-spectrophotometer/)
+* [Arduino Rig Does Spectrophotometry](https://hackaday.com/2020/08/24/arduino-rig-does-spectrophotometry/)
 
 # NOAA Weather Satellite Data
 * [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)

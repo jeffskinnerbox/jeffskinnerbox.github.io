@@ -110,6 +110,8 @@ The ESP-12E WiFi Module data sheet is [here][31].
 There are also ESP8266 PCBs that provide additional functionality and ease your development.
 These include:
 
+* [ESP8266 module comparison: ESP-01, ESP-05, ESP-12, ESP-201, Test Board and NodeMCU](https://blog.squix.org/2015/03/esp8266-module-comparison-esp-01-esp-05.html)
+
 * [NodeMCU DevKit][34] for $9 with a [cheap CH340G][39] serial-to-USB interface
 * [Adafruit HUZZAH][33] for $10 is similar to the NodeMCU DevKit but no USB to serial chip
 * [Adafruit Feather HUZZAH][38] for $17 same as above with micro USB port for power,

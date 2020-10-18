@@ -120,6 +120,11 @@ MicroIDE is an Integrated Development Environment for micro controllers - https:
 
 
 
+# CircuitBrains
+CircuitPython on an ARM Cortex M4 in about 1 square inch!
+
+* [CircuitBrains Basic](https://kevinneubauer.com/portfolio/circuitbrains-basic/)
+* [CircuitBrains Deluxe](https://kevinneubauer.com/portfolio/circuitbrains-deluxe/)
 
 # ESP32 + MicroPython
 I want to set up and program an ESP32 device running MicroPython.

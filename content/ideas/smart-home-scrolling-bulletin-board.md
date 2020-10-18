@@ -55,6 +55,9 @@ Native Informational Features
 * [#127 Home Automation without coding: Sonoff , MQTT,Alexa, Nod-Red](https://www.youtube.com/watch?v=QU24kMqpFdY&feature=youtu.be)
 * [#128 Node-Red Tricks for Home Automation (JS, Audio, SQlite, Alexa, Mosq...](https://www.youtube.com/watch?v=YahFRqf-rFA&feature=youtu.be)
 
+# Give it a Voice via Amazon Polly
+* [Amazon Polly Tutorial | How to convert Text to Speech using AWS Polly](https://www.youtube.com/watch?v=ywpPZE6Gd80)
+
 
 
 -------

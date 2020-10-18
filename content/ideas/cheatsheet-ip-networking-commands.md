@@ -26,10 +26,19 @@
 * [20 Myths of WiFi Interferance](http://www.wifiadvies.be/20-myths-of-wi-fi-interference/)
 * [Simple WebSocket Client](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo?hl=en)
 
-mitmproxy
+# mitmproxy
 * [mitmproxy - Tools for Analysising and Inspecting HTTP Traffic](https://mitmproxy.org/)
 * [How To: Use mitmproxy to read and modify HTTPS traffic](https://blog.heckel.xyz/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-traffic-of-your-phone/)
 * [Decrypt your HTTPS traffic with mitmproxy](http://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/)
+
+# Universal Serial Bus (USB)
+Universal Serial Bus (USB) is an industry standard that establishes specifications for cables and connectors and protocols for connection, communication and power supply (interfacing) between computers, peripherals and other computers.
+
+* [Recognize more devices on Linux with this USB ID Repository](https://opensource.com/article/20/8/usb-id-repository)
+
+
+
+
 ################################################################################
 
 
@@ -67,7 +76,6 @@ The iproute2 collection contains the following command-line utilities:
 `nstat`, `routef`, `routel`, `rtstat`, and `arpd`.
 
 what about ethtool, netifd, nm-tool, nm-online, [nmcli](https://fedoraproject.org/wiki/Networking/CLI)
-* [Connect to a wireless network using command line nmcli](https://nullr0ute.com/2016/09/connect-to-a-wireless-network-using-command-line-nmcli/)
 
 * Why nm-tool is no longer available in Ubuntu 15.04? - http://askubuntu.com/questions/617067/why-nm-tool-is-no-longer-available-in-ubuntu-15-04
 * 9 Linux ethtool Examples to Manipulate Ethernet Card (NIC Card) - http://www.thegeekstuff.com/2010/10/ethtool-command/
@@ -87,6 +95,9 @@ On Debian Linux, tc comes bundled with iproute, so in order to install it you ha
 * [How to configure networking in Linux](https://opensource.com/life/16/6/how-configure-networking-linux?sc_cid=701600000011yI7AAI)
 
 # NetworkManager
+* [Manage network connections from the Linux command line with nmcli](https://opensource.com/article/20/7/nmcli)
+* [Connect to a wireless network using command line nmcli](https://nullr0ute.com/2016/09/connect-to-a-wireless-network-using-command-line-nmcli/)
+
 * [RPi NetworkManager CLI](http://gary-dalton.github.io/RaspberryPi-projects/rpi_nmcli.html)
 * [Exploring NetworkManager, D-Bus, systemd, and Raspberry Pi](http://dev.iachieved.it/iachievedit/exploring-networkmanager-d-bus-systemd-and-raspberry-pi/)
 * According to [this article](https://raspberrypi.stackexchange.com/questions/48307/sharing-the-pis-wifi-connection-through-the-ethernet-port),
@@ -232,7 +243,6 @@ any interface not listed there will remain under NetworkManager control.
     It displays information and statistics about all your network card such as packets,
     kilobytes per second, average packet sizes and more.
     **Example Usage:** `nicstat -i wlan0 1`
-    * nethogs & iftop - http://www.tecmint.com/nethogs-monitor-per-process-network-bandwidth-usage-in-real-time/
 
 * **Tools for Monitoring / Scanning WiFi**
     * [`wavemon`][07] is a ncurses-based monitoring application for wireless network devices.
@@ -265,6 +275,10 @@ any interface not listed there will remain under NetworkManager control.
     * [`vmstat`][89] is a tool that collects and reports data about your system’s memory, swap,
     and processor resource utilization in real time.
     It can be used to determine the root cause of performance and issues related to memory use.
+    * [`iftop`][95] is a network analyzing tool to view the bandwidth related stats.
+    It shows a quick overview of the networking activities on an interface usaed as a diagnostics tool.
+    * [`nethogs`][96] is a command line program, similar to Linux top command,
+    that is used for monitor real time network traffic bandwidth used by each process or application.
 
 * **IP Performance**
     * [iPerf3][56] is a tool for active measurements of the maximum achievable bandwidth on IP networks.
@@ -859,7 +873,9 @@ securely over an unsecured network.
 Typical applications include remote command-line, login, and remote command execution,
 but any network service can be secured with SSH.
 
+* [A beginner’s guide to SSH for remote connection on Linux](https://opensource.com/article/20/9/ssh)
 * [Linux Fu: Stupid SSH Tricks](https://hackaday.com/2019/12/17/linux-fu-stupid-ssh-tricks/)
+* [Linux Fu: Simple SSH File Sharing](https://hackaday.com/2020/09/21/linux-fu-simple-ssh-file-sharing/)
 * [SSH Reverse Proxy and Tunneling](https://medium.com/better-programming/ssh-reverse-proxy-and-tunneling-b6d96ab2325)
 
 ## Eliminate SSH Keys and use a GPG Keys Instead
@@ -2551,8 +2567,8 @@ could be gathered for this cheat sheet.
 [92]:https://insecure.org/
 [93]:https://streamhut.io/
 [94]:https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work
-[95]:
-[96]:
+[95]:https://www.geeksforgeeks.org/iftop-command-in-linux-with-examples/
+[96]:http://www.tecmint.com/nethogs-monitor-per-process-network-bandwidth-usage-in-real-time/
 [97]:
 [98]:
 [99]:

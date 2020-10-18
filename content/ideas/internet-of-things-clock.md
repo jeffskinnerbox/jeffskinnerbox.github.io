@@ -38,6 +38,7 @@
 
 # History of Time
 * [A revolution in time](https://aeon.co/essays/when-time-became-regular-and-universal-it-changed-history)
+* [The First Clock In America Failed, And It Helped Revolutionize Physics](https://medium.com/starts-with-a-bang/the-first-clock-in-america-failed-and-it-helped-revolutionize-physics-223f8ab845d9)
 
 # Horology
 Horology is the study of the measurement of time.
@@ -70,6 +71,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
 * [Unorthodox “Ferrolic” clock displays the time with magnets and ferrofluid](https://www.digitaltrends.com/cool-tech/ferrolic-ferrofluid-clock/)
 * [Rhei Liquid Display Clock](http://www.dudeiwantthat.com/gear/gadgets/rhei-liquid-display-clock.asp)
+* [An Electro-Mechanical Clock with a Liquid Display](https://imgur.com/gallery/iZU2M)
 
 # E-Paper
 * [DISPLIO - WiFi display that tracks what’s important to you](https://www.kickstarter.com/projects/914874115/displio-wifi-display-that-tracks-whats-important-t)
@@ -116,7 +118,6 @@ and where the amount is then measured.
 # Time from Mains Frequency
 * [Is Your Clock Tied to Mains Frequency?](https://hackaday.com/2018/03/29/ask-hackaday-is-your-clock-tied-to-mains-frequency/)
 
-
 # Time from Radio Stations
 * [WHAT WILL YOU DO IF WWVB GOES SILENT?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 
@@ -127,6 +128,11 @@ and where the amount is then measured.
 # Dealing with Daylight Savings Time
 * [Tricks to get NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&feature=youtu.be)
 
+# Master/Slave Clock Systems
+* https://en.wikipedia.org/wiki/Master_clock
+* https://en.wikipedia.org/wiki/Slave_clock
+* [ESP32 Becomes Modern Controller For A 1960s Clock](https://hackaday.com/2020/09/30/esp32-becomes-modern-controller-for-a-1960s-clock/)
+
 
 # Speaking Clocks
 * [Retrotechtacular: The Speaking Clock Goes Silent](https://hackaday.com/2019/10/30/retrotechtacular-the-speaking-clock-goes-silent/)
@@ -134,6 +140,7 @@ and where the amount is then measured.
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
+* [What’s More Accurate Than A GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [PPS (Pulse per Second) ...simple as that!](https://www.linkedin.com/pulse/pps-pulse-per-second-simple-deepak-kaira/)
@@ -183,7 +190,6 @@ Project of a clock (or other information) on ceiling in bedroom
 ## Split-Flap Display (aka flip-clock)
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
-* [IOT SPLIT-FLAP WEATHER FORECAST POWERED BY XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
 * [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
@@ -197,6 +203,9 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 ## Other
 * [Tiny Bubbles In The Clock](https://hackaday.com/2019/12/20/tiny-bubbles-in-the-clock/)
 * [Do You Know Where Your Children Are? Check The Weasley Clock](https://hackaday.com/2020/07/29/do-you-know-where-your-children-are-check-the-weasley-clock/)
+* [Moving Fridge Magnets Make For Unique Clock](https://hackaday.com/2020/08/14/moving-fridge-magnets-make-for-unique-clock/)
+* [Clock Is Not Readable By Humans](https://hackaday.com/2020/10/06/clock-is-not-readable-by-humans/)
+* [This mechanical clock tells time using steel balls](https://www.blogdot.tv/this-mechanical-clock-tells-time-using-steel-balls/)
 
 ################################################################################
 
@@ -223,6 +232,7 @@ It means all communications between your browser and the website are encrypted.
 * [Self-adjusting clock with e-display](https://hackaday.io/project/164955-self-adjusting-clock-with-e-display)
 
 A small GPS breakout board suitable for a clock: [Adafruit Mini GPS PA1010D - UART and I2C - STEMMA QT](https://www.adafruit.com/product/4415)
+* [Qwiic GPS Clock](https://www.sparkfun.com/news/3368)
 
 ## Build a Stratum 1 NTP Time Server
 * [NIST-F1, a Cesium Fountain Atomic Clock, is the nation's primary time and frequency standard](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
@@ -364,6 +374,8 @@ with their claim to fame being [leap-smeared time][54].
 They use this technology to smoothly handle leap seconds with no disruptive events.
 
 ## Real Time Clock (RTC)
+* [Choosing The Right RTC For Your Project](https://hackaday.com/2020/09/30/choosing-the-right-rtc-for-your-project/)
+
 A [real time clock (RTC)][06] is basically just like a watch.
 Using a battery, it keeps time for you even when there is a power outage.
 The [Adafruit DS1307 Real Time Clock][02] has a battery backup

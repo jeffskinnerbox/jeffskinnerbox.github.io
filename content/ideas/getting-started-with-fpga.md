@@ -1,8 +1,15 @@
 
 
 * [Getting Started With The TinyFPGA BX](https://www.woolseyworkshop.com/2019/08/30/getting-started-with-the-tinyfpga-bx/)
+* [An FPGA Developer's Guide to Cheap Development Boards](https://www.hackster.io/news/an-fpga-developer-s-guide-to-cheap-development-boards-8f1782bb271a)
+* [Cheap FPGA Development Boards](https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards)
 
 
+* [USING FPGAs](https://www.sparkfun.com/fpga)
+* [How Does an FPGA Work?](https://learn.sparkfun.com/tutorials/how-does-an-fpga-work)
+* [First FPGA Project - Getting Fancy with PWM](https://learn.sparkfun.com/tutorials/first-fpga-project---getting-fancy-with-pwm)
+* [Programming an FPGA](https://learn.sparkfun.com/tutorials/programming-an-fpga)
+* [External IO and Metastability](https://learn.sparkfun.com/tutorials/external-io-and-metastability)
 
 
 
@@ -24,6 +31,8 @@ More Challenging Projects (Lattice iCEstick)
 
 
 * [Introduction to FPGA and its Architecture](https://towardsdatascience.com/introduction-to-fpga-and-its-architecture-20a62c14421c)
+
+
 
 
 # Digital Logic vs Computer Logic
@@ -79,6 +88,14 @@ and the world appear to be moving towards Verilog.
 * [An Example Verilog Test Bench](https://www.youtube.com/watch?v=TtqZ-DwUYk4)
 * [Writing a Verilog Testbench](https://www.youtube.com/watch?v=sGQoBnFcmwc)
 
+# Chisel
+* [Chisel Away at FPGA Development](https://hackaday.com/2019/10/28/chisel-away-at-fpga-development/)
+* [Chisel](https://www.chisel-lang.org/)
+
+# PipelineC
+* [Write In PipelineC For FPGAs](https://hackaday.com/2020/08/16/write-in-pipelinec-for-fpgas/)
+* [PipelineC](https://github.com/JulianKemmerer/PipelineC)
+
 ## FPGA Synthesis
 Traditionally, to create an FPGA design, the application is described using a Hardware
 Description Language (HDL) like Verilog or VHDL, and then multiple steps are carried out
@@ -114,6 +131,7 @@ An application-specific integrated circuit (ASIC /ˈeɪsɪk/) is an integrated c
 * [FPGA Fundementals](https://www.ni.com/en-us/innovations/white-papers/08/fpga-fundamentals.html)
 * [Comparing an FPGA to a Microcontroller, Microprocessor or an ASIC](https://www.element14.com/community/groups/fpga-group/blog/2018/02/22/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic)
 * [FPGA Basics: Architecture, Applications and Uses](https://www.arrow.com/en/research-and-events/articles/fpga-basics-architecture-applications-and-uses)
+* [Reverse-engineering the first FPGA chip, the XC2064](http://www.righto.com/2020/09/reverse-engineering-first-fpga-chip.html)
 
 # Embedded FPGA (eFPGA)
 a range of new startups provide embedded FPGA (eFPGA)
@@ -133,6 +151,8 @@ An eFPGA is just the core, without the analog I/O, which can be integrated into 
 
 # FPGA SoftCore
 * [SoftCore CPU Comparison](https://hackaday.com/2020/07/12/softcore-cpu-comparison/)
+* [A Scratch-Built RISC-V CPU in an FPGA](https://hackaday.com/2019/11/19/emulating-risc-v-on-an-fpga/)
+* [Indian RISC-V Chip is Team’s Third Successful Chip](https://hackaday.com/2020/10/03/indian-risc-v-chip-is-teams-third-successful-chip/)
 
 # Building a CPU on an FPGA
 * [Building a CPU on an FPGA](https://www.youtube.com/watch?v=2fNBkUCjhcE&list=PLEeZWGE3PwbZ44SUf1-vA-UuX9_J_pifB)
@@ -224,6 +244,14 @@ TinyFPGA is a family of low cost, open source FPGA development boards designed a
 ## iCE FPGA
 The TinyFPGA BX has a [ICE40LP8K][06] by Lattice
 https://en.wikipedia.org/wiki/ICE_(FPGA)
+
+# Open Source FPGA
+Most of the players in FPGA land have their own proprietary tools for creating bitstream files,
+and synthesizing the HDL.
+Using any of these FPGA tools usually means agreeing to terms and conditions that nobody reads.
+
+* [An Open Source Toolchain For ICE40 FPGAs](https://hackaday.com/2015/05/29/an-open-source-toolchain-for-ice40-fpgas/)
+
 
 ## Lattice
 * Lattice iCE40 devices supported by Project IceStorm

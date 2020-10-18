@@ -15,7 +15,11 @@
 
 
 
+# Tpes of Motors
+* [Types Of Electric Motors - DC | AC | Synchronous | Brushless | Brushed | Stepper | Servo](https://www.youtube.com/watch?v=I2_-etus0KQ)
 
+* [DC & Brushless DC Motor + ESC](https://www.youtube.com/watch?v=UteZJ_7C4Mg)
+* [Brushed DC Motors and How to Drive Them](https://www.youtube.com/watch?v=yO9xIVv8ryc)
 
 # DC Brushed Motor
 ![motor](http://www.robotshop.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/p/o/pololu-30-1-micro-metal-gearmotor-mp.jpg "Micro Metal Gear Motor")

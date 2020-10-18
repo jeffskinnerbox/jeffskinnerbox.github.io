@@ -143,6 +143,9 @@ Accelerometers cannot measure yaw.   To explain it simply, yaw is when the accel
 * [Accelerometer & Gyro Tutorial](http://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
 * [How MEMS Accelerometer Gyroscope Magnetometer Work](https://www.youtube.com/watch?v=eqZgxR6eRjo)
 
+## Gimbal Lock
+* [How to Fix Gimbal Lock in N-Dimensions](https://medium.com/@omar4ur/how-to-fix-gimbal-lock-in-n-dimensions-f2f7baec2b5e)
+
 # Accelerometer
 * [Accelerometer Basics](https://learn.sparkfun.com/tutorials/accelerometer-basics)
 * [Accelerometer & Gyro Tutorial](http://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)

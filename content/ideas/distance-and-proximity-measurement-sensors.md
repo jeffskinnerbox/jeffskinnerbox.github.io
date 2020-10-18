@@ -1,11 +1,20 @@
-# Ultrasonic
+
+# HC-SR04 Ultrasonic Sensor
 * [Ultrasonic Distance Sensors Arduino Tutorial and Comparison for HC-SR04, HY-SRF05, US-015](https://www.youtube.com/watch?v=aLkkAsrSibo)
 * [Making a better HC-SR04 Echo Locator](http://uglyduck.ath.cx/ep/archive/2014/01/Making_a_better_HC_SR04_Echo_Locator.html)
+* [Ultrasonic Trimount Brackets](https://blog.tindie.com/2020/08/ultrasonic-trimount-brackets/)
+
+# Other Ultrasonic Sensor
+* [Panel Mount Ultrasonic (Sonar) Ranging Module with UART Output](https://www.adafruit.com/product/4665)
+* [Large Ultrasonic (Sonar) Sensor with Horn and UART Output](https://www.adafruit.com/product/4664)
 
 # PIR
 * [How PIR modules work and using them to control LED strings.](https://www.youtube.com/watch?v=evZM2_RTvTU)
 * [PIR Sensors: Test and comparison of HC-SR501 and HC-SR505. Is the bigger better?](https://www.youtube.com/watch?v=0zgY5x9Zq3M)
 * [Presence detection using phone’s WiFi and Node-RED](https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/)
+
+# IR
+* [IR distance sensor includes cable (20cm-150cm)](https://www.adafruit.com/product/1031)
 
 # Time of Flight Distance Sensor
 * [VL6180X ToF sensor](https://www.adafruit.com/product/3316)
@@ -15,12 +24,14 @@
 * [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
 
 # Radar Sensors
+* [Recognizing Activities Using Radar](https://hackaday.com/2020/09/06/recognizing-activities-using-radar/)
 * [Robot Radar Module](https://hackaday.com/2018/05/03/robot-radar-module/)
     * [SparkFun Pulsed Radar Breakout - A111](https://www.sparkfun.com/products/15577)
     * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor/all)
     * [Radar sensor introduction](https://acconeer-python-exploration.readthedocs.io/en/latest/sensor_introduction.html)
 * [Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0)
 * [Millimeter Wave Doppler Radar (SYH24A1) - 24GHz Transceiver](https://www.seeedstudio.com/Millimeter-wave-Doppler-radar-SYH24A-p-4392.html)
+* [Microwave Sensor - 24GHz Doppler Radar Motion Sensor - MW2401TR11](https://www.seeedstudio.com/Microwave-Sensor-24GHz-Doppler-Radar-Motion-Sensor-MW2401TR11-p-4690.html)
 * [OmniPreSense](https://omnipresense.com/)
 * [Low Cost Radar Speed Sign](https://www.instructables.com/id/Low-Cost-Radar-Speed-Sign/)
 * [Arduino Gets Its First Radar Shield Board](https://www.sensorsmag.com/components/arduino-gets-its-first-radar-shield-board)
@@ -47,6 +58,7 @@ PALS technology would register organisms’ responses to target stimuli,
 process and distill that information, and relay it to remote end users.
 
 * [Sense All the Things with a Synthetic Sensor](http://hackaday.com/2017/05/19/sense-all-the-things-with-a-synthetic-sensor/)
+* [Into The Belly Of The Beast With Placemon](https://hackaday.com/2020/09/17/into-the-belly-of-the-beast-with-placemon/)
 * [Synthetic Sensors: Towards General-Purpose Sensing](http://www.gierad.com/assets/supersensor/supersensor.pdf)
 * [Synthetic Sensors (Gierad Laput - ACM CHI 2017)](https://www.youtube.com/watch?v=hpxUrvTltJI)
 * [Vibrosight Hears When You are Sleeping. It Knows When You’re Awake.](https://hackaday.com/2018/10/22/vibrosight-hears-when-you-are-sleeping-it-knows-when-youre-awake/)

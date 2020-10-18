@@ -1,7 +1,22 @@
 
+# TinyML
+TinyML concerns us of ultra-low power machine learning technologies and approaches dealing with machine intelligence at the very edge of the cloud.
+
+TinyML is a community of engineers focused on how best to implement machine learning (ML) in ultra-low power systems.
+
+>“Imagine a cascading model of classifiers where you have a really low power model using barely any power to detect if there is a sound going on, then another model that takes more energy to run, which figures out if it’s human speech or not,” he explained. “Then a deeper network that only wakes up when these conditions are met, that uses more power and resources. By chaining these together, you only wake up the [energy intensive] one when you need to, so you can make big savings on energy efficiency.” - Daniel Situnayake, Google
+
 # TinyML Book
 * [TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers](https://tinymlbook.com/)
 * [TinyML Screencasts](https://www.youtube.com/playlist?list=PLtT1eAdRePYoovXJcDkV9RdabZ33H6Di0)
+
+* [I Just Created my First AI/ML App! (Part 1)](https://www.eejournal.com/article/i-just-created-my-first-ai-ml-app-part-1/)
+* [I Just Created my First AI/ML App! (Part 2)](https://www.eejournal.com/article/i-just-created-my-first-ai-ml-app-part-2/)
+* [CR3111-3000 - 100A Current Sense Transformer 20Hz ~ 1kHz](https://www.digikey.com/product-detail/en/cr-magnetics-inc/CR3111-3000/582-1178-ND/4383872)
+* [AC Current Sensor Split-Core Current Transformer](https://www.amazon.com/JANSANE-SCT-013-000-Non-invasive-Split-Core-Transformer/dp/B07JNDRJQ4)
+
+* [Data Driven Science & Engineering Machine Learning, Dynamical Systems, and Control](http://databookuw.com/databook.pdf)
+* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems]()
 
 # μTensor
 * [μTensor](https://utensor.github.io/website/)
@@ -34,6 +49,7 @@ PALS technology would register organisms’ responses to target stimuli,
 process and distill that information, and relay it to remote end users.
 
 * [Sense All the Things with a Synthetic Sensor](http://hackaday.com/2017/05/19/sense-all-the-things-with-a-synthetic-sensor/)
+* [Into The Belly Of The Beast With Placemon](https://hackaday.com/2020/09/17/into-the-belly-of-the-beast-with-placemon/)
 * [Synthetic Sensors: Towards General-Purpose Sensing](http://www.gierad.com/assets/supersensor/supersensor.pdf)
 * [Synthetic Sensors (Gierad Laput - ACM CHI 2017)](https://www.youtube.com/watch?v=hpxUrvTltJI)
 * [Vibrosight Hears When You are Sleeping. It Knows When You’re Awake.](https://hackaday.com/2018/10/22/vibrosight-hears-when-you-are-sleeping-it-knows-when-youre-awake/)
@@ -116,15 +132,13 @@ But in CVFS voltage and frequency can range over a continuum. An algorithm const
 * [Edge Impulse Documentation](https://docs.edgeimpulse.com/)
 * [Building and audio recognition system](https://www.edgeimpulse.com/blog/train-a-tiny-ml-model/)
 
+## Seeed Wio Terminal
 ## ATSAMD51-based Microcontroller
 * [Wio Terminal is officially supported by Edge Impulse now](https://www.seeedstudio.com/blog/2020/07/23/wio-terminal-is-officially-supported-by-edge-impulse-now/)
 
-# TinyML
-TinyML concerns us of ultra-low power machine learning technologies and approaches dealing with machine intelligence at the very edge of the cloud.
-
-TinyML is a community of engineers focused on how best to implement machine learning (ML) in ultra-low power systems.
-
->“Imagine a cascading model of classifiers where you have a really low power model using barely any power to detect if there is a sound going on, then another model that takes more energy to run, which figures out if it’s human speech or not,” he explained. “Then a deeper network that only wakes up when these conditions are met, that uses more power and resources. By chaining these together, you only wake up the [energy intensive] one when you need to, so you can make big savings on energy efficiency.” - Daniel Situnayake, Google
+# Computer Vision
+* [Tiny computer vision for all embedded devices](https://edgeimpulse.com/blog/computer-vision/)
+* [Adding sight to your sensors](https://docs.edgeimpulse.com/docs/image-classification)
 
 # Synthetic Sensors
 * [Synthetic Sensors](http://www.gierad.com/projects/supersensor/)
@@ -133,11 +147,17 @@ TinyML is a community of engineers focused on how best to implement machine lear
 After building a model in TensorFlow, engineers can run it through the Tensor Flow Lite converter,
 which makes it smaller and does things like quantisation, which allow you to reduce the size and precision of the model down to a scale where it will fit comfortably on the device you are targeting.
 
+* [Official TensorFlow Lite Micro Support Comes to the ESP32](https://www.hackster.io/news/official-tensorflow-lite-micro-support-comes-to-the-esp32-9708fb6a760f)
+* [Announcing TensorFlow Lite Micro support on the ESP32](https://blog.tensorflow.org/2020/08/announcing-tensorflow-lite-micro-esp32.html)
 
 # Voice Classification
 * [Pindrop](https://www.pindrop.com/)
 * [Carnegie Mellon University](http://mlsp.cs.cmu.edu/people/rsingh/index.html)
 
+# Projects
+* [Autonomous embedded driving using computer vision](https://www.edgeimpulse.com/blog/autonomous-driving-using-computer-vision/)
+* [BABL: A Baby Monitor Powered by tinyML and Edge Impulse!](https://www.hackster.io/ishotjr/babl-a-baby-monitor-powered-by-tinyml-and-edge-impulse-f5045f)
+* [Cough Detection with TinyML on Arduino](https://www.hackster.io/edge-impulse/cough-detection-with-tinyml-on-arduino-417f37)
 
 
 ################################################################################
@@ -357,6 +377,19 @@ https://docs.edgeimpulse.com/docs/eta-compute-ecm3532-ai-sensor#next-steps-build
 ## Step X: xxx
 
 # Using Smartphone as Sensor
+
+
+
+-------
+
+
+
+# Sound Detector
+* [Sound Detector Hookup Guide](https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/SoundDetector_HookupGuide.pdf)
+* [Toilet sensors warn of overflows, leaks](https://www.fierceelectronics.com/sensors/toilet-sensors-warn-overflows-leaks)
+* [Best water leak detectors for smart homes](https://www.techhive.com/article/3138905/best-water-leak-detectors-for-smart-homes.html)
+* [LeakAlertor](https://leakalertor.com/)
+* [The 5 Best Smart Water Leak Detectors Compared](https://restechtoday.com/guide-5-modern-leak-detectors/)
 
 
 

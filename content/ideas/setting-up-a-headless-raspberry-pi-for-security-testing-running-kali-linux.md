@@ -14,6 +14,16 @@
 * [How to Set Up Network Implants with a Cheap SBC (Single-Board Computer)](https://medium.com/@NullByteWht/how-to-set-up-network-implants-with-a-cheap-sbc-single-board-computer-52247fcfccfc)
 * [Perform Network-Based Attacks with an SBC Implant](https://null-byte.wonderhowto.com/how-to/perform-network-based-attacks-with-sbc-implant-0196199/)
 
+# Flipper
+Designed by Pavel Zhovner, Flipper is a portable, practical pentesting platform pocket-tool.
+It is able to operate in a number of tailored modes, giving you a range of application specific approaches
+to the walled gardens you are trying to gain access to.
+
+* [Flipper](https://flipperzero.one/)
+* [Flipper: A Portable Phreaking Platform That Fits in Your Pocket!](https://www.hackster.io/news/flipper-a-portable-phreaking-platform-that-fits-in-your-pocket-1ac111854562)
+* [Flipper Zero/One — Tamagotchi for Hackers](https://hackaday.io/project/170875/logs)
+* [Flipper Zero Blasts Past Funding Goal And Into Our Hearts](https://hackaday.com/2020/09/02/flipper-zero-blasts-past-funding-goal-and-into-our-hearts/)
+
 
 
 
@@ -1076,6 +1086,7 @@ some security and privacy tweaks need to be done.
 * [The Complete Firefox Privacy and Security Guide](https://www.bestvpn.com/firefox-privacy-security-guide/)
 
 #### Step X: Install Tor
+* [Tor 0day: Finding IP Addresses](https://www.hackerfactor.com/blog/index.php?/archives/896-Tor-0day-Finding-IP-Addresses.html)
 You can installing [Tor][53] on Kali Linux and it is available in the Kali repository.
 Tor helps hide your traffic from being analyzed by ISPs or the government
 It also allows you to access the “Dark Web” which means you can access `.onion` websites.

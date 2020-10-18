@@ -61,22 +61,6 @@ Some examples of this are:
 * [Listening to Astronauts ON THE ISS with a Baofeng UV-5R](https://www.youtube.com/watch?v=3sNwzBC6Rbk)
     * ISS (International Space Station) -reciever frequency - 145.8MHz
 
-
--------
-
-
-# Tesla
-Maybe I could even do some exploring of spectrum mysteries like
-[Number Stations][01] and [Tesla Spirit Radio][06]).
-
-* [Tesla Coil Arc Plasma Loudspeaker](https://www.amazon.com/gp/product/B0794X4PPD)
-* How do you measure the field strength of a Tesla Coil?  With a [Electrostatic Field Mill Voltmeter](https://hackaday.com/2020/03/26/whirling-shutters-on-this-field-mill-measure-electrostatic-charges-at-distance/)
-* [Compact Slayer Exciter For Your High Voltage Needs](https://hackaday.com/2020/03/21/compact-slayer-exciter-for-your-high-voltage-needs/)
-* [Vacuum Tube Tesla Coil Does Fascinating Stunts](http://blog.modernmechanix.com/vacuum-tube-tesla-coil-does-fascinating-stunts/)
-* [Easy SSTC, Slayer Exciter on Steroids!](https://www.instructables.com/id/Easy-SSTC-Slayer-Exciter-On-Steroids/)
-
-The Slayer Exciter is an air core transformer adapted to operating at low DC voltages. It has a primary and secondary, like a Tesla coil, but it uses low voltage components--diodes and transistors--instead of spark gaps and tank capacitors to induce resonant rise in the coil.
-
 # Configuring Your Baofeng UV-5R
 * [Tips on How to Best Configure and Use Your Baofeng UV-5R](https://codegreenprep.com/2013/04/tips-on-how-to-best-configure-and-use-your-baofeng-uv-5r/)
 * [A Complete System for your Baofeng UV-5R or F8HP Radio](https://codegreenprep.com/2013/04/a-complete-system-for-your-baofeng-uv-5r-radio/)
@@ -164,6 +148,9 @@ was announced it was described as being designed for,
 
 * [Ham Radio Prep – Ham Radio Online License Class](https://hamradioprep.com/)
 
+# Internet Radio
+* [World Radio Lets Your Fingers Do The Walking](https://hackaday.com/2020/09/12/world-radio-lets-your-fingers-do-the-walking/)
+
 # Packet Radio
 Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 
@@ -177,10 +164,16 @@ Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 
 # Raspberry Pi for Ham-Radio
 * [Setup Raspberry Pi for Ham-Radio](https://orari.or.id/index.php/2019/09/02/setup-raspberry-pi-for-ham-radio/)
+* [Tutorial For Setting Up Raspberry Pi For Ham Radio Use](https://hackaday.com/2020/09/08/tutorial-for-setting-up-raspberry-pi-for-ham-radio-use/)
+
+# Ham Radio Satellites
+* [All About Ham Satellites](https://hackaday.com/2019/01/07/all-about-ham-satellites/)
+* [The Ultimate Guide to Working Ham Radio Satellites](https://www.youtube.com/watch?v=aAE8NiJ6tGA)
 
 #  International Space Station (ISS)
 * [How to hear the ISS](https://amsat-uk.org/beginners/how-to-hear-the-iss/)
 * [Open Notify: International Space Station Current Location](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
+* [ISS Ham Radio Repeater](https://hackaday.com/2020/09/10/iss-ham-radio-repeater/)
 
 # RF Test Tools
 * [Hackable Ham Radio Multitool Contributes To Long Term Survival Of The Hobby](https://hackaday.com/2019/09/18/hackable-ham-radio-multitool-contributes-to-long-term-survival-of-the-hobby/)

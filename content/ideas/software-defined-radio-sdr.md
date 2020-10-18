@@ -40,7 +40,8 @@ DragonOS is a Debian Linux based operating system which comes with many open sou
 * [Signals Everywhere](https://signalseverywhere.com/)
 * [Strange Signals? Sigidwiki!](https://hackaday.com/2015/09/11/strange-signals-sigidwiki/)
 
-
+# Virtual Software Defined Radio
+* [Virtual Software Defined Radio](https://hackaday.com/2020/08/07/virtual-software-defined-radio/)
 
 
 
@@ -307,6 +308,10 @@ Kalibrate-RTL
 
 [RTLSDR Scanner](http://eartoearoak.com/software/rtlsdr-scanner) is a simple cross platform python based spectrum analyzer for the RTL-SDR. The scanner also has an auto calibration feature which can help find the PPM offset of a dongle.
 
+* [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
+* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
+* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
+
 [HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][70]
 
 
@@ -398,6 +403,8 @@ and now even has a script to allow you to start it automatically.
 * [Building A New RF Remote From Scratch](https://hackaday.com/2020/04/30/building-a-new-rf-remote-from-scratch/)
 
 # Reverse Engineering Tools
+* [Reverse Engineering Embedded Device Firmware](https://hackaday.com/2011/05/30/reverse-engineering-embedded-device-firmware/)
+
 ## Ghidra
 [Ghidra](https://ghidra-sre.org/) is a free and open source reverse engineering tool [developed by the National Security Agency](https://www.nsa.gov/resources/everyone/ghidra/).
 
@@ -406,6 +413,9 @@ and now even has a script to allow you to start it automatically.
 * [Introduction to Reverse Engineering with Ghidra: A Four Session Course](https://wrongbaud.github.io/ghidra-training/)
 * [Learn Software Reverse Engineering: Ghidra Class Videos From HackadayU Now Available!](https://hackaday.com/2020/07/30/learn-software-reverse-engineering-ghidra-class-videos-from-hackadayu-now-available/)
 * [Reverse Engineering with Ghidra](https://www.youtube.com/playlist?list=PL_tws4AXg7auglkFo6ZRoWGXnWL0FHAEi)
+
+## De-Crypting
+* [Hacking D-Link Firmware](https://hackaday.com/2020/08/24/hacking-d-link-firmware/)
 
 
 
@@ -445,6 +455,7 @@ Transmit radio signals using just a serial port
 
 * [Your USB Serial Adapter Just Became a SDR](https://hackaday.com/2018/12/06/your-usb-serial-adapter-just-became-a-sdr/)
 * [RF transmitter for Raspberry Pi](https://www.rtl-sdr.com/rpitx-v2-released-easily-record-and-replay-with-rtl-sdr-and-a-raspberry-pi/)
+* [SDR Transmitting Gets The Power](https://hackaday.com/2020/08/29/sdr-transmitting-gets-the-power/)
 
 
 
@@ -688,9 +699,10 @@ In order to make it possible to browse and search the available apps without hav
 ## LMS Suite Software
 The board’s host driver architecture, meanwhile, supports both the SoapySDR and UHD APIs. The firmware supports advanced features liked timed TX bursts and RX sample timestamps, “as required for use with GSM and other time-sensitive protocols,” says the project. The LimeSDR’s host driver is built on a “Lime Suite” low level library that handles programming and calibration of the LMS7002M FPRF transceiver, among other gnarly internal communications.
 
-http://wiki.myriadrf.org/LMS_Suite
-https://myriadrf.org/projects/lime-suite/
-https://myriadrf.org/blog/limesuite-driver-architecture/
+* [Lime Suite 20.07.1 Released](https://www.crowdsupply.com/lime-micro/limesdr/updates/lime-suite-20-07-1-released)
+* http://wiki.myriadrf.org/LMS_Suite
+* https://myriadrf.org/projects/lime-suite/
+* https://myriadrf.org/blog/limesuite-driver-architecture/
 
 ## SoapySDR
 SoapySDR is the glue layer that sits between the LimeSDR’s driver

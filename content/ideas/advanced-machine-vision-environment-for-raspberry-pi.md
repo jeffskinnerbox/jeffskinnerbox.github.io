@@ -126,6 +126,7 @@ and you can purchase it [on Tindie][90].
 * [What accessories do I need to overclock my Raspberry Pi 3 B+?](https://www.androidcentral.com/what-accessories-do-i-need-overclock-my-raspberry-pi-3-b)
 * config.txt - Overclocking options - https://www.raspberrypi.org/documentation/configuration/config-txt/overclocking.md
 * [Overclock Your Raspberry Pi The Right Way](https://hackaday.com/2018/01/16/__trashed-5/)
+* [How to Overclock Any Raspberry Pi](https://www.tomshardware.com/how-to/overclock-any-raspberry-pi)
 
 # Embedded Learning Library (ELL)
 The Microsoft's [Embedded Learning Library (ELL)][03]

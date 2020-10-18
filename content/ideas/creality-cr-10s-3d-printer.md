@@ -103,6 +103,7 @@ Wood fills.
 
 * [5 ways to ruin your filament (and how to fix it)](https://www.youtube.com/watch?v=WlmCc-vRNr0)
 * [WHY you NEED TO DRY your FILAMENTS!](https://www.youtube.com/watch?v=FAXUjZZER5E)
+* [Plastics: PETG](https://hackaday.com/2019/01/29/plastics-petg/)
 
 ## Transparent 3D Prints
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
@@ -119,9 +120,21 @@ Cura Software
 # 3D Printer Projects Downloads
 Free and for fee STL files from community of Makers and Designers.
 
-* [THE BEST SITES TO DOWNLOAD FREE STL FILES, 3D MODELS AND 3D PRINTABLE FILES FOR 3D PRINTING](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/)
+Of course, its always perferable to produce your own design to your exacting specifications,
+but all that CAD can be time consuming so why not use something that is already available.
+The challege now becomes searching for the perfict design,
+and [good serach tools really don't exist yet][66].
+
+## For Fee 3D Models
+There are [quite a few different ways 3D models get sold online][65],
+and typically your paying for a license to use the model rather than purchasing it outright.
+
+* [3D Printering: The World Of Non-Free 3D Models Is Buyer Beware](https://hackaday.com/2020/08/26/3d-printering-the-world-of-non-free-3d-models-is-buyer-beware/)
 * [3D Printering: The Search For Better Search](https://hackaday.com/2019/09/05/3d-printering-the-search-for-better-search/#more-373259)
+
+## Free 3D Models
 * [35 Websites to Download Free STL Models for 3D Printers](https://www.hongkiat.com/blog/download-free-stl-3d-models/)
+* [THE BEST SITES TO DOWNLOAD FREE STL FILES, 3D MODELS AND 3D PRINTABLE FILES FOR 3D PRINTING](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/)
 
 * [GrabCAD](https://grabcad.com/library)
 * [STLFinder](https://www.stlfinder.com/)
@@ -134,7 +147,9 @@ Free and for fee STL files from community of Makers and Designers.
 * [NASA-3D-Resources](https://github.com/nasa/NASA-3D-Resources)
 
 
+
 -----
+
 
 
 # Slicers
@@ -320,6 +335,10 @@ and you'll want to improve the quality of your 3D printed parts.
 * [Print Quality Troubleshooting Guide](https://www.simplify3d.com/support/print-quality-troubleshooting/)
 * [A visual Ultimaker troubleshooting guide](https://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide)
 * [Common 3D Printing Questions](https://makeshaper.com/common-3d-printing-questions/)
+
+3D Printing Troubleshooting Guide
+* [Layer Separation](https://www.youtube.com/watch?v=mgG7kMRMsLE)
+* [Warping](https://www.youtube.com/watch?v=rj0wpGE3uzc&list=PLfzz3f4EgsrRoSc7CIS6mZv88O2H8s44b)
 
 
 -----
@@ -598,6 +617,8 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 
 ## OctoPrint
+* [Cura OctoPrint Connection: What Is It & How to Install It](https://all3dp.com/2/cura-octoprint-plugin-connection/)
+* [OctoPrint Setup: How to Install OctoPi on a Raspberry Pi](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/)
 * [OctoPi GUI Setup](https://github.com/shandilyaguy247/OctoPi_GUI_Setup)
 * [How to set up OctoPrint on your Raspberry Pi](https://www.blogdot.tv/how-to-set-up-octoprint-on-your-raspberry-pi/)
 * [Upgrading a 3D Printer with OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
@@ -615,6 +636,9 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Upgrading A 3D Printer With OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
 * [OctoPrint Setup: How to Install OctoPi on a Raspberry Pi](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/)
 * [Weekend Project: Scaling Octoprint with udev, haproxy, and a Raspberry Pi 4](https://back7.co/home/scaling-octoprint-with-a-raspberry-pi)
+
+### Save Energy
+* [Save Energy by automating your 3D-printer (Raspberry safe shutdown, OctoPrint, Sonoff)](https://www.youtube.com/watch?v=WR0WdTBQJGo&feature=youtu.be)
 
 ### Camera Mount
 * [ARTICULATING RASPBERRY PI CAMERA MOUNT](https://cults3d.com/en/3d-model/tool/articulating-raspberry-pi-camera-mount-for-prusa-mk3)
@@ -755,7 +779,6 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 ## Split-Flap Display
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
-* [IOT SPLIT-FLAP WEATHER FORECAST POWERED BY XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
 * [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
@@ -773,6 +796,8 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [Add Metal Threads to Your 3D Prints - Make Them Functional!: 4 Steps (with Pictures)](https://www.instructables.com/id/Add-Metal-Threads-to-Your-3D-Prints-Make-Them-Func/)
 * [Adding Screw Threads to 3D Printed Parts](https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/)
 * [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
+* [Custom Tool Helps Hakko Set Threaded Inserts](https://hackaday.com/2020/10/05/custom-tool-helps-hakko-set-threaded-inserts/)
+
 ### Testing Threaded Inserts
 * [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
 * [Threaded Inserts for 3D Prints - Cheap VS Expensive](https://www.youtube.com/watch?v=G-UF4tv3Hvc)
@@ -817,6 +842,9 @@ that can be seen clearly only when back lit with a light source.
 
 # Multicolor Printing
 * [MICROSCOPE-INSPIRED TOOLCHANGER SPINS MULTICOLOR 3D PRINTS](https://hackaday.com/2019/05/15/microscope-inspired-toolchanger-spins-multicolor-3d-prints/)
+
+# Press Fit Parts
+* [Adding Crush Ribs To 3D Printed Parts For A Better Press Fit](https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/)
 
 
 
@@ -884,8 +912,8 @@ that can be seen clearly only when back lit with a light source.
 [62]:https://www.shapeways.com/
 [63]:https://www.thingiverse.com/Fuganater/collections/cr-10
 [64]:https://www.protolabs.com/
-[65]:
-[66]:
+[65]:https://hackaday.com/2020/08/26/3d-printering-the-world-of-non-free-3d-models-is-buyer-beware/
+[66]:https://hackaday.com/2019/09/05/3d-printering-the-search-for-better-search/
 [67]:
 [68]:
 [69]:

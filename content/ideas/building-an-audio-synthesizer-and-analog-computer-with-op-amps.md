@@ -10,7 +10,14 @@
 
 * [DeepSound overview](http://jpinsoft.net/DeepSound/)
 
-[GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
+* [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
+
+# Audio Sequencer
+A music sequencer (or audio sequencer or simply sequencer) is a device or application software that can record, edit, or play back music, by handling note and performance information in several forms, typically CV/Gate, MIDI, or Open Sound Control (OSC), and possibly audio and automation data for DAWs and plug-ins
+* [Adding MIDI To A Mini Synth Is Easy As Pi](https://hackaday.com/2020/09/21/adding-midi-to-a-mini-synth-is-easy-as-pi/)
+* [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
+
+
 
 # ADC and DAC
 * [RTFM: ADCs And DACs](https://hackaday.com/2019/10/16/rtfm-adcs-and-dacs/)
@@ -18,6 +25,12 @@
 # Audio Systems
 * [Teensy Audio Library, Delay Line Demo](https://www.youtube.com/watch?v=d80d1HWy5_s&feature=emb_title)
 * [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html)
+
+# Faust
+Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc. Faust targets high-performance signal processing applications and audio plug-ins for a variety of platforms and standards.
+
+* [Faust](https://faust.grame.fr/index.html)
+
 
 ## Music and Sound Waves
 * [Art Ludwig's Sound Page](http://www.silcom.com/~aludwig/)
@@ -197,6 +210,9 @@ Doesn't seem to work???
 * []()
 
 [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
+
+# Op Amps
+* [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
 
 
 

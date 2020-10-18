@@ -18,6 +18,7 @@ It was patented 2 years later and the patent expired in 1987.
 
 # LEDs
 * [LEDs for use with solderless breadboard](https://skippy.org.uk/leds-for-use-with-solderless-breadboard/)
+* [Choosing the Resistor to Use With LEDs](https://www.instructables.com/id/Choosing-The-Resistor-To-Use-With-LEDs/)
 
 # Test Points
 [Hook Loop for Multimeter Test Points](https://www.robotroom.com/Breadboard-Hints-And-Tips.html)
@@ -30,3 +31,8 @@ A potentiometer is a three-terminal resistor with a sliding or rotating contact 
 
 # Device Panel
 [Panel-Mounted Breadboard Accessories](https://hackaday.com/2015/08/14/panel-mounted-breadboard-accessories/)
+
+Breadboard
+Dupont Wire
+Male and Female Headers Connector
+Break Away Single Row Round Headers Machine Pin Female

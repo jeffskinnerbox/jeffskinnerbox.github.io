@@ -346,6 +346,41 @@ vagrant-vbguest (0.24.0, global)
 
 ## Installing Vagrant
 
+### Step X: Check Verisons of Installed Vagrant and VirtualBox
+```bash
+# check vritualbox version
+$ vboxmanage --version
+6.1.10_Ubuntur138449
+
+# check vagrant version
+$ vagrant --version
+Vagrant 2.2.6
+
+# check if installed vagrant and virtualBox ara compatable
+$ vagrant up --provider=virtualbox
+The provider 'virtualbox' that was requested to back the machine
+'default' is reporting that it isn't usable on this system. The
+reason is shown below:
+
+Vagrant has detected that you have a version of VirtualBox installed
+that is not supported by this version of Vagrant. Please install one of
+the supported versions listed below to use Vagrant:
+
+4.0, 4.1, 4.2, 4.3, 5.0, 5.1, 5.2, 6.  0
+
+A Vagrant update may also be available that adds support for the version
+you specified. Please check www.vagrantup.com/downloads.html to download
+the latest version.
+```
+
+In my case, you see I have an incompatibility.
+Unfortunately, this happens often when Virtualbox, Vagrant, or Ubuntu make updates.
+In this case,
+Oracle knew of the Vagrant 2.2.6 incompatibility with Virtualbox 6.1.x
+and Oracle provided a fix.
+See the article
+["VirtualBox 6.1: No compatible version of Vagrant yet! (or is there?)"](https://oracle-base.com/blog/2020/01/01/virtualbox-6-1-no-compatible-version-of-vagrant-yet/).
+
 ### Step 1: Installing Vagrant and VirtualBox - DONE
 Its best to install both VirtualBox and Vagrant via their respective download pages,
 not your operating systems distribution package manager.
@@ -1020,6 +1055,7 @@ https://devopscube.com/packer-tutorial-for-beginners/
 
 
 **see "howto-use-docker-and-resin-on-the-raspberry-pi-and-openwrt.md" for more text**
+* [Manage your Raspberry Pi fleet with Ansible](https://opensource.com/article/20/9/raspberry-pi-ansible)
 
 # Docker
 * [How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)
@@ -1041,6 +1077,7 @@ https://devopscube.com/packer-tutorial-for-beginners/
 * [Removing Docker Images, Containers, and Volumes with Ease](https://medium.com/@jon.froiland/removing-docker-images-containers-and-volumes-with-ease-fdf16bebccec)
 * [Docker’s detached mode for beginners](https://medium.freecodecamp.org/dockers-detached-mode-for-beginners-c53095193ee9)
 * [Docker for App Dev](https://www.youtube.com/watch?v=tfOqLM9HjRg&list=PL6aLoEodmDP-SwkMXsLPnD2soWE7_2fwl)
+* [Building container images with the ansible-bender tool](https://opensource.com/article/19/10/building-container-images-ansible)
 
 ## Snap
 Canonical has deployed Snappy Ubuntu Core,
@@ -1541,6 +1578,7 @@ ssh-keygen
 ssh-copy-id root@remote-host
 ```
 
+* [Say YES to Password-free SSH Access!](https://medium.com/100-days-of-linux/say-yes-to-password-free-ssh-access-c7a7fa315cd7)
 * [Ansible Vault: Maintaining Secure Secrets in Ansible | Jungle Disk](https://www.jungledisk.com/blog/2017/06/26/maintaining-secure-secrets-in-ansible/)
 * [How Ansible Vault Works](https://serversforhackers.com/c/how-ansible-vault-works)
 * [How To Use Vault to Protect Sensitive Ansible Data on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data-on-ubuntu-16-04)

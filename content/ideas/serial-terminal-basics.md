@@ -215,6 +215,7 @@ This post shows in detailed steps how to open a serial connection to an embedded
 * [DISCOVERY: UART INPUT](http://embedded.fm/blog/2017/1/19/discovery-uart-input)
 * [How to Communicate with UART](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
 * [Using the UART](http://www.raspberry-projects.com/pi/programming-in-c/uart-serial-port/using-the-uart)
+* [UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
 
 # SPI Bus
 * [SPI On Embedded Linux](http://hackaday.com/2017/02/19/spi-on-embedded-linux/)

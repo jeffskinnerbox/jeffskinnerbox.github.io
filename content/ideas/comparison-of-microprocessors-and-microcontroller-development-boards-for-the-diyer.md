@@ -86,7 +86,11 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 * [BananaPi](http://bananapi.org/) - ARM Cortex-A7 dual-core
 * [Raspberry Pi](http://www.raspberrypi.org/) - Broadcom BCM2835 system on a chip (SoC), which includes an ARM11
 
+* [Degrees Of Freedom: Booting ARM Processors](https://hackaday.com/2020/08/12/degrees-of-freedom-booting-arm-processors/)
 * [Google’s Pigweed For ARM Development Is A Nice Surprise](https://hackaday.com/2020/03/21/googles-pigweed-for-arm-development-is-a-nice-surprise/)
+
+## Blue Pill STM32
+* [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide](https://www.youtube.com/watch?v=EaZuKRSvwdo&t=13s&app=desktop)
 
 ## Intel
 * [Intel Edison Module](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)

@@ -56,13 +56,15 @@ and their conversion to [PCB designs][46].
 * [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
 * [PCB Design & Manufacture - video playlist](https://www.youtube.com/playlist?list=PL8D3B363139B67FF3)
 
+## CircuitMaker
+* [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
+
 ## SPICE
 SPICE (Simulation Program with Integrated Circuit Emphasis) is a general-purpose,
 open-source analog electronic circuit simulator.
 It is a program used in integrated circuit and board-level design
 to check the integrity of circuit designs and to predict circuit behavior.
 
-* [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
 * [Hackaday Spice](http://hackaday.com/tag/spice/)
     * [Adding Spice to Your Workbench](http://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
     * [Transforming Spice](http://hackaday.com/2016/03/02/transforming-spice/)
@@ -70,15 +72,23 @@ to check the integrity of circuit designs and to predict circuit behavior.
     * [Transforming Spice](https://hackaday.com/2016/03/02/transforming-spice/)
     * [A Spicy Regenerative Reciever](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
     * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
-* [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
-* [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
-* [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
 
 * [All About Circuts](http://www.allaboutcircuits.com/education/)
 * [RF design guide](http://www.cdt21.com/resources/default.asp)
 * [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
 
-## Xyce
+### LTSpice
+* [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
+* [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
+
+### MICRO-CAP 12
+* [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
+
+### PSpice
+* [TI And Cadence Make PSpice Free](https://hackaday.com/2020/09/20/ti-and-cadence-make-pspice-free/)
+* [PSpice for TI](https://e2e.ti.com/blogs_/b/analogwire/archive/2020/09/14/how-to-simulate-complex-analog-power-and-signal-chain-circuits-with-pspice-for-ti)
+
+### Xyce
 * [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
 
 # CAD File Interchangeability

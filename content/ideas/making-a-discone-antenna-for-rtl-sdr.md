@@ -7,6 +7,7 @@
 * [Antennas](https://www.youtube.com/watch?v=rokAuaL2E74)
 * [The Physics Behind an Antennas](https://hackaday.com/2019/07/11/the-physics-behind-antennas/)
 * [Start Your Path to Becoming an Antenna Guru](https://hackaday.com/2016/11/27/start-your-path-to-becoming-an-antenna-guru/)
+* [KiwiSDR Vs RaspberrySDR — A Tale Of Two SDRs](https://hackaday.com/2020/09/30/kiwisdr-vs-raspberrysdr-a-tale-of-two-sdrs/)
 
 
 # Write Your Own Electromagntic Numerical Analysis
@@ -51,6 +52,8 @@ There are several good sources for designing a discone antenna, some of better a
 * [PRACTICAL ANTENNA DESIGN: 140-150 MHZ VHF TRANSCEIVERS](http://files.radioscanner.ru/files/download/file311/practical_antenna_design.pdf)
 * [White Paper: Discone Antenna Design](http://www.hipoint.ca/whitepapers/WhitePaper_DisconeAntenna.pdf)
 * [Notes on HF Discone Antennas](http://w4rnl.net46.net/download/discone.pdf)
+
+* [Review: Nooelec Nano 3](http://www.radioforeveryone.com/2017/10/review-nooelec-nano-3_17.html)
 
 With the exception of "Notes on HF Discone Antennas",
 these sources lack any rigorous analysis of what performance can be expected from the discone antenna
@@ -316,7 +319,14 @@ independently of its uses as a transmitter or receiver.
 * [Michael Ossmann: Simple RF Circuit Design](https://hackaday.com/2016/03/23/michael-ossmann-makes-you-an-rf-design-hero/)
 * [Chris Gammell - Gaining RF Knowledge: An Analog Engineer Dives into RF Circuits](https://www.youtube.com/watch?v=AS8Ybhm0qk8)
 
+## Comparing Antenna Perfromance
+* [Comparing shortwave antennas with Python](http://www.hydrogen18.com/blog/comparing-shortwave-antennas-with-python.html)
+
+
+
 -------
+
+
 
 # Patch Antenna
 * [A Patch Antenna Is Just A Rectangle, It Should Be Easy To Design, Right?](https://hackaday.com/2020/03/01/a-patch-antenna-is-just-a-rectangle-it-should-be-easy-to-design-right/)
@@ -324,6 +334,7 @@ independently of its uses as a transmitter or receiver.
 # Loop Antenna
 * [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
 * [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
+* [Antenna Pulls In AM Stations](https://hackaday.com/2020/08/19/antenna-pulls-in-am-stations/)
 
 ## Discone Antenna
 A discone antenna is a version of a [biconical antenna][19] is typically a wired structure,

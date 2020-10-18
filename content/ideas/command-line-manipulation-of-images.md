@@ -1,5 +1,8 @@
 
 * [How to Convert Images Using Linux](https://www.lifewire.com/convert-linux-command-unix-command-4097060)
+* [Edit images with Jupyter and Python](https://opensource.com/article/20/8/edit-images-python)
+
+
 
 ## Display Characteristics
 Sometime you need to know the dimensions or pixel resolution

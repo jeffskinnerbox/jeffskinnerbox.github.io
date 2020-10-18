@@ -1,3 +1,9 @@
+Drones are defined as "an unmanned aircraft or ship guided by remote control or onboard computers",
+and have been around for over [100 hundred years][01].
+These remote-controlled flying crafts have become an increasingly popular project to work on,
+including building and racing them.
+[FPV Drone Racing][02] has become a popular sport and it even has its own league.
+The Drone Racing League was created in 2015 and features racing with custom-built drones that traveling over 100 MPH.
 
 * [Intro to Aerodynamics: How Do Airplanes Fly?](https://www.youtube.com/watch?v=Z1FAAJ4hUaQ)
 
@@ -49,9 +55,25 @@
 
 * [Lego Drone Finally Takes Off](https://hackaday.com/2020/01/15/lego-drone-finally-takes-off/)
 
+# Flight Controller
+* [DIY Flight Controller: How to build your own flight controller](https://www.youtube.com/playlist?list=PLUo0zMUQehP8k8IROYb-iXnCTw5TACZ5P)
+
+# VR Headset
+* [Open Source VR Headset For $200](https://hackaday.com/2020/09/13/open-source-vr-headset-for-200/)
+* [AKK 5.8G RC832 Mini FPV Receiver Double-Screen Display for FPV Quadcopter Drone](https://www.amazon.com/gp/product/B01FXFZ0NS)
+* [AKK A2 5.8Ghz 200mW FPV Transmitter Raceband 600TVL 1/4 Cmos Mini FPV Micro AIO Camera with Clover Antenna for FPV Drone](https://www.amazon.com/gp/product/B06VSW41LN)
+
+# Rocket
+* [Advanced Model Rocket Flight Computer Reaching For The Star](https://hackaday.com/2020/10/02/advanced-model-rocket-flight-computer-reaching-for-the-stars/)
+
 # Other
 * [The Drone That Can Play Dodgeball](https://hackaday.com/2020/03/23/the-drone-that-can-play-dodgeball/)
 * [UHF Radio Beacon for Lost RC Models](https://blog.tindie.com/2020/04/uhf-radio-beacon-lost-rc-models/)
 * [A DIY Functional F-35 Is No Simple Task](https://hackaday.com/2020/04/27/a-diy-functional-f-35-is-no-simple-task/#more-407964)
 * [A Micro RC Plane Builder Shares His Tricks](https://hackaday.com/2017/02/10/a-micro-rc-plane-builder-shares-his-tricks/)
 * [Let’s Take A Closer Look At This Robotic Airship](https://hackaday.com/2020/07/22/lets-take-a-closer-look-at-this-robotic-airship/)
+
+
+
+[01]:https://www.digitaltrends.com/cool-tech/history-of-drones/
+[02]:https://thedroneracingleague.com/learn-more/

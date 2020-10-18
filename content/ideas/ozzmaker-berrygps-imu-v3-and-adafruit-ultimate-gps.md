@@ -18,6 +18,7 @@
 * [NMEA data](http://www.gpsinformation.org/dale/nmea.htm#intro)
 * [NMEA Decoder](http://freenmea.net/decoder)
 * [Python library for parsing the NMEA 0183 protocol (GPS)](https://github.com/Knio/pynmea2)
+* [NMEA GPS Library for Microcontrollers -2-](https://www.pocketmagic.net/nmea-gps-library-for-microcontrollers-2/)
 * [Locating the Hard-to-Find Geospatial Answers](https://www.directionsmag.com/article/7637)
 
 * [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
@@ -47,6 +48,11 @@ Combining the GPS location information onto a video stream
 
 # logging
 * [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
+
+# GPS Jamming and Spoofing
+* [How to Fool a GPS](https://www.ted.com/talks/todd_humphreys_how_to_fool_a_gps?language=en)
+* [GPS Jamming and Spoofing: When Good Signals Go Bad](https://www.directionsmag.com/article/8107)
+* [Teardown: Mini GPS Jammer](https://hackaday.com/2020/09/08/teardown-mini-gps-jammer/)
 
 
 
@@ -100,6 +106,14 @@ Sources:
 * [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 * [Geographic Data with Basemap](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
 
+# Raspberry Pi Zero
+* [Raspberry Pi Zero Guide: Projects, Specs, GPIO, Getting Started](https://www.tomshardware.com/features/raspberry-pi-zero)
+* Adafruit LoRa Raspberry Pi Zero Bonnet - what about the LoRa version to support forwarding GPS / IMU data for pre-processing or post-processing
+    * [Single Channel LoRaWAN Gateway for Raspberry Pi](https://learn.adafruit.com/raspberry-pi-single-channel-lorawan-gateway)
+    * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
+    * [SX1308 Raspberry Pi Zero LoRa Gateway Board](https://www.tindie.com/products/will123321/sx1308-raspberry-pi-zero-lora-gateway-board/)
+    * [for case ideas, see this](https://learn.adafruit.com/raspberry-pi-wearable-time-lapse-camera/3d-printing)
+
 
 ----
 
@@ -139,6 +153,7 @@ The addition of an wheel ticks
 and IMU allows higher precision and more accurate readings in between GNSS data refreshes.
 
 * http://www.furuno.com/en/gnss/technical/tec_dead
+* [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
 
 ## Global Navigation Satellite Systems (GNSS)
 Global Navigation Satellite Systems (GNSS) is the acronym that encompasses
@@ -189,6 +204,9 @@ check out the article ["What Exactly Is GPS NMEA Data?"][34].
 
 NMEA data - http://www.gpsinformation.org/dale/nmea.htm#PGRMM
 Online NEMA tools - http://freenmea.net/
+NMEA 0183 Interface Standard - https://www.nmea.org/content/STANDARDS/NMEA_0183_Standard
+NMEA 0183 - https://en.wikipedia.org/wiki/NMEA_0183
+NMEA 2000 - https://en.wikipedia.org/wiki/NMEA_2000
 
 The raw GPS data being produced are called [NMEA sentences][48].
 You'll notice there are a few different kinds of NMEA sentences,
@@ -208,6 +226,15 @@ but the most common are
 
 ## Language of GPS
 Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%202005.pdf
+
+
+
+-----
+
+# Choosing GPS Technology
+* [How To Choose The Right GPS Module For Your Project](https://hackaday.com/2020/08/14/how-to-choose-the-right-gps-module-for-your-project/)
+* [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
+
 
 ## GPS Technology
 * [Hackaday Dictionary: The Global Positioning System (GPS)](https://hackaday.com/2015/11/12/hackaday-dictionary-the-global-positioning-system-gps/)

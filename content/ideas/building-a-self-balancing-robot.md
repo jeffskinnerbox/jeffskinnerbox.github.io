@@ -2,6 +2,8 @@ Should you **delete** entry in TiddleWiki, "Self Balancing Robots" when you publ
 
 Consider this for radio remote control - [Pi GRRL Zero Parts Kit - Includes Pi Zero W](https://www.adafruit.com/product/3161)
 
+* [The balancing problem](http://twopotatoe.net/?page_id=323)
+
 # Let's Robot
 Still in the early stages of development,
 Let's Robot is a live-streaming telepresence platform for controlling robots
@@ -42,7 +44,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Amazing Open Source Quadruped Capable Of Dynamic Motion](https://hackaday.com/2019/10/03/amazing-open-source-quadruped-capable-of-dynamic-motion/)
 * [SmallKat: An Adorable And Dynamic Robot](https://hackaday.com/2019/11/03/smallkat-an-adorable-and-dynamic-robot/)
 * [Landbeest, A Single Servo Walking Robot](https://hackaday.com/2019/11/29/landbeest-a-single-servo-walking-robot/)
-* [OpenDog Project](https://hackaday.com/2018/06/11/james-bruton-is-making-a-dog-opendog-project/)
+* [Mini Raspberry Pi Boston Dynamics–inspired robot](https://www.blogdot.tv/mini-raspberry-pi-boston-dynamics-inspired-robot/)
 * [Robotic Open Source Puppy Needs A Home](https://hackaday.com/2020/05/12/robotic-open-source-puppy-needs-a-home/)
 * [Compliant Quadruped Legs Using Servos](https://hackaday.com/2020/03/22/compliant-quadruped-legs-using-servos/)
 * [DIY hobby servos quadruped robot](https://hackaday.io/project/171456-diy-hobby-servos-quadruped-robot)
@@ -50,6 +52,22 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
+
+# Wall Climbing Robot
+* [Ultra-Mobile Little Robot Will Climb The Walls](https://hackaday.com/2020/09/07/ultra-mobile-little-robot-will-climb-the-walls/)
+
+## Dog & Cat Robots
+* [OpenDog Project](https://hackaday.com/2018/06/11/james-bruton-is-making-a-dog-opendog-project/)
+* [OpenCat](https://www.hackster.io/petoi/opencat-845129)
+    * [Petoi Nybble](https://www.hackster.io/RzLi/petoi-nybble-944867)
+* [Robot Cat Takes Inspiration From Nature](https://hackaday.com/2020/09/30/robot-cat-takes-inspiration-from-nature/)
+* [Sourino – the Best Toy for Cats and Kids](https://www.instructables.com/id/Sourino-the-Best-Toy-for-Cats-and-Kids/)
+* [Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun](https://www.kickstarter.com/projects/petoi/bittle)
+    * [sit(); Good Boy!](https://www.hackster.io/news/sit-good-boy-e0f259d88d44)
+* [The Spot Micro Is a Much Smaller, Cheaper, and DIY Version of Its Namesake](https://www.hackster.io/news/the-spot-micro-is-a-much-smaller-cheaper-and-diy-version-of-its-namesake-d93c1d36fe91)
+
+# Jumping Robot
+* [Little Jumping Bot Can Now Stick The Perfect Landing](https://hackaday.com/2020/08/02/little-jumping-bot-can-now-stick-the-perfect-landing/)
 
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
@@ -87,6 +105,15 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Open-Source inverted pendulum](https://hackaday.io/project/167290-open-source-inverted-pendulum)
 
 # Levitator / Levitation
+idea - magnetically levitate a disk but enable the spinning of that disk.  As the disk turns it captures the air a whistles a tune.
+* [Sonic Spinner from MDI Australia](https://www.youtube.com/watch?v=h3h9Jnpd_OM)
+* [Whistle and Humming Top Full Spin Downs](https://www.youtube.com/watch?v=y1iiRQqhrZo)
+
+## Magnetic Levitation
+## Sonic Levitation
+* [How does Magnetic Levitation work? || Crude Levitator circuit](https://www.youtube.com/watch?v=BgIjlvlwwzY)
+* [Electronic Basics #34: Two-Position Controller & PID Controller](https://www.youtube.com/watch?v=1pKJ-KcHZ8g)
+
 * [Anti-Gravitator](https://www.thingiverse.com/thing:943091)
 * [Ultra Simple Magnetic Levitator](http://hackaday.com/2016/11/05/ultra-simple-magnetic-levitator/)
 * [Magnetic Levitation](https://learn.sparkfun.com/tutorials/magnetic-levitation)
@@ -94,15 +121,19 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Electromagnetic levitation device](http://www.instructables.com/id/Levitron-electromagnetic-Levitation-Device/?ALLSTEPS)
 * [Electromagnetic Floater](https://www.instructables.com/id/Electromagnetic-Floater/)
 * [Magnetic Levitation Using Linear Hall Effect Sensors](https://electronics.stackexchange.com/questions/219662/magnetic-levitation-using-linear-hall-effect-sensors)
+* [Magnetic Levitation with Arduino](https://hackaday.com/2015/11/02/magnetic-levitation-with-arduino/)
 * [An AVR Atmega based PID magnetic levitator](http://davidegironi.blogspot.it/2013/12/an-avr-atmega-based-pid-magnetic.html#.WCYGFnUrLMS)
 * [Hovering Questions About Magnetic Levitation](https://hackaday.com/2017/10/08/hovering-questions-about-magnetic-levitation/)
 * [The Simplest Possible DIY Ultrasonic Levitator ](https://hackaday.com/2018/04/23/the-simplest-possible-diy-ultrasonic-levitator/)
 * [Magnetic Bearings Might Keep this Motor Spinning for Millennia](https://hackaday.com/2019/03/25/magnetic-bearings-might-keep-this-motor-spinning-for-millennia/)
 * [A Levitating Lamp Without Magnets](https://hackaday.com/2020/06/10/a-levitating-lamp-without-magnets/)
+* [Eye-Catching And Crumb-Suspending](https://hackaday.com/2020/09/10/eye-catching-and-crumb-suspending/)
+* [Levitating Starship Model Comes In For A Landing](https://hackaday.com/2020/02/25/levitating-starship-model-comes-in-for-a-landing/)
 
 # Robotic Arm
 * [An open-source, 3D printed, high precision robotic arm with trainability](https://hackaday.io/project/158779-dexter)
 * [Dexter Robot Arm Embraces New Manufacturing With First Micro-Factory](https://hackaday.com/2020/03/09/dexter-robot-arm-embraces-new-manufacturing-with-first-micro-factory/)
+* [Open-Source Robotic Arm For All Purposes](https://hackaday.com/2020/09/15/open-source-robotic-arm-for-all-purposes/)
 
 # Ball Bouncing / Ball Balancing / Ball Tossing
 * [Juggling Machine Listens to the Bounce to Keep Ball in the Air](https://hackaday.com/2018/07/25/juggling-machine-listens-to-the-bounce-to-keep-ball-in-the-air/)
@@ -120,6 +151,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Get Back Out There, Robotically](https://hackaday.com/2020/04/18/get-back-out-there-robotically/)
 
 # Proportional Integral Derivative (PID) Controller
+* [Classical Control Theory](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
 * [PID Controllers Explained](https://www.youtube.com/watch?v=VVOi2dbtxC0&feature=youtu.be)
 * [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)
 * [PID Controller](https://en.wikipedia.org/wiki/PID_controller)

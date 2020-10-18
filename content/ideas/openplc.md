@@ -5,6 +5,7 @@
 * [Model-based control: Raspberry Pi vs programmable logic controllers](https://www.controlglobal.com/articles/2020/raspberry-pi-vs-plc-for-model-based-control/)
 
 * [Ignition SCADA + MKR WiFi 1010](https://www.hackster.io/NRobinson2/ignition-scada-mkr-wifi-1010-4d2284)
+* [Evaluating Raspberry Pi As A Programmable Logic Controller](https://hackaday.com/2020/08/24/evaluating-raspberry-pi-as-a-programmable-logic-controller/)
 
 
 

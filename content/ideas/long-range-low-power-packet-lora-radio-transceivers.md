@@ -63,7 +63,6 @@
 * [RadioHead Packet Radio library for embedded microprocessors](http://www.airspayce.com/mikem/arduino/RadioHead/index.html)
 
 # LoRa With The ESP32
-* []()
 * [ESP32 with LoRa using Arduino IDE – Getting Started](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
 * [LoRa With The ESP32](https://hackaday.com/2018/06/24/lora-with-the-esp32/)
 * [ESP32 Lora Boards](ESP32 Lora Boards: What you need to know before you buy )
@@ -71,8 +70,12 @@
 * [The TTGO T-Beam, an ESP32 LoRa Board](https://blog.hackster.io/the-ttgo-t-beam-an-esp32-lora-board-d44b08f18628)
 * [TTGO T-Beam // ESP32, GPS, LoRa & Bluetooth](https://www.youtube.com/watch?v=xrOo5SROzD8)
 * [GPS Mapper for The Things Network (TTN) - LoRaWAN](https://www.hackster.io/fablabeu/gps-mapper-for-the-things-network-ttn-lorawan-584ed7)
+
+## Case for ESP32 LoRa
 * [TTGO-T-Beam 3D Printed Case](https://www.thingiverse.com/thing:3773717)
 * [Heltec ESP32 3D Printed Case](https://www.thingiverse.com/thing:3125854)
+* [Heltec ESP32+LoRa+OLED case](https://www.thingiverse.com/thing:3125854)
+* [TTGO LoRa Mesh Radio Case](https://www.thingiverse.com/thing:3865750)
 
 # H2020 WAZIUP & WAZIHUB projects
 * https://github.com/CongducPham/tutorials
@@ -103,6 +106,7 @@
 # RakWireless RAK831 Solution
 * [Configuring a LoRaWAN Gateway for The Things Network](https://www.hackster.io/nootropicdesign/configuring-a-lorawan-gateway-for-the-things-network-b3b1f2)
 * [Using LoRaWAN End Devices on The Things Network](https://www.hackster.io/nootropicdesign/using-lorawan-end-devices-on-the-things-network-206a86)
+* [RAK831 LoRaWAN Gateway](https://www.pocketmagic.net/rak831-lorawan-gateway/)
 
 # Odd Applications
 * [ZOMBIES ATE YOUR NEIGHBORS? TELL EVERYONE THROUGH LORA!](https://hackaday.com/2019/12/04/zombies-ate-your-neighbors-tell-everyone-through-lora/)
@@ -461,6 +465,7 @@ the application server specifical takes actions based on the packet contents.
 * [Multilateration](https://www.bresslergroup.com/blog/the-latest-on-lora-enabling-the-internet-of-things-to-get-real/)
 * [LoRa Localization](https://www.link-labs.com/blog/lora-localization)
 * [Geolocation using LoRa and Node Red](https://www.youtube.com/watch?v=eF5QeC-DZ2Q)
+* [Investigation of the Performance of TDoA-Based Localization Over LoRaWAN in Theory and Practice](https://res.mdpi.com/d_attachment/sensors/sensors-20-05464/article_deploy/sensors-20-05464.pdf)
 
 # MultiConnect Conduit
  [MultiTech has created a portfolio][09] of gateways
@@ -529,6 +534,7 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 * [Got Adafruit Feather 32u4 LoRa Radio to work and here is how](https://www.thethingsnetwork.org/forum/t/got-adafruit-feather-32u4-lora-radio-to-work-and-here-is-how/6863)
 
 ## LoRa Gateway
+* [Deploy a Basics Station LoRa gateway with TTN and balena](https://www.balena.io/blog/deploy-a-basics-station-lora-gateway-with-ttn-and-balena/)
 ### Single Channel Gateway
 ### Roll Your Own
 * [Sparklines For Your ESP32 Projects](https://hackaday.com/2020/06/06/sparklines-for-your-esp32-projects/)
@@ -1258,8 +1264,6 @@ arduino-timer                	1.0.0     	sketchbook
 
 -------
 
-# Enclosure for HelTec WiFi LoRa 32
-* [Heltec ESP32+LoRa+OLED case](https://www.thingiverse.com/thing:3125854)
 
 # ESP Security
 * [Don’t Toss That Bulb, It Knows Your Password](https://hackaday.com/2019/01/29/dont-toss-that-bulb-it-knows-your-password/)

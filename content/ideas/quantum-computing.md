@@ -1,4 +1,6 @@
 
+* [The Three Pillars of Quantum Computing](https://medium.com/digital-diplomacy/the-three-pillars-of-quantum-computing-d80ff5f50ec7)
+* [The Ultimate Beginner’s Guide to Quantum Computing and its Applications](https://towardsdatascience.com/the-ultimate-beginners-guide-to-quantum-computing-and-its-applications-5b43c8fbcd8f)
 * [Quantum computing for the very curious](https://quantum.country/qcvc)
 * [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
 

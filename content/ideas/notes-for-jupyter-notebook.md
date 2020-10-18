@@ -4,6 +4,8 @@
 * [Jupyter is now a full-fledged IDE](https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095)
 * [Jupyter is the new Excel (but not for your boss)](https://towardsdatascience.com/jupyter-is-the-new-excel-but-not-for-your-boss-d24340ebf314)
 
+* [5 Reasons why you should Switch from Jupyter Notebook to Scripts](https://towardsdatascience.com/5-reasons-why-you-should-switch-from-jupyter-notebook-to-scripts-cb3535ba9c95)
+
 
 * [IPython and Jupyter in Depth: High productivity, interactive Python - PyCon 2017](https://www.youtube.com/watch?v=VQBZ2MqWBZI&feature=youtu.be)
 * [Jupyter with D3](http://www.bogotobogo.com/python/IPython/iPython_Jupyter_Notebook_with_Embedded_D3.php)
@@ -44,6 +46,17 @@
 * [Upgrading to JupyterLab on Ubuntu](https://hackersandslackers.com/upgrading-to-jupyter-lab-on-ubuntu/)
 
 
+
+----------
+
+
+
+# The New Jupyter Book
+* [The New Jupyter Book](https://medium.com/swlh/the-new-jupyter-book-4028f054893f)
+
+
+
+----------
 
 
 
@@ -274,6 +287,7 @@ You can publish your HTML presentations online by using available [online platfo
 or on your own website, or using [github pages][62].
 
 Example in a notebook:
+* [Create a slide deck using Jupyter Notebooks](https://opensource.com/article/20/9/presentation-jupyter-notebooks)
 * [How to Create a Slideshow using Jupyter+Markdown+Reveal.js](https://www.youtube.com/watch?v=EOpcxy0RA1A&feature=youtu.be)
 * [Presentation slides with Jupyter Notebook](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V19WnWJ96V4)
 * [A programmer’s cleaning guide for messy sensor data](https://opensource.com/article/17/9/messy-sensor-data?utm_medium=Email&utm_campaign=weekly&sc_cid=701f20000019T6MAAU)

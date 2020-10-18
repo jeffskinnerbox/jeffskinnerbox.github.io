@@ -341,6 +341,7 @@ Here are some good references:
 * [SSH: The Secure Shell - Troubleshooting and FAQ](http://docstore.mik.ua/orelly/networking_2ndEd/ssh/ch12_01.htm)
 
 # Sources
+* [Say YES to Password-free SSH Access!](https://medium.com/100-days-of-linux/say-yes-to-password-free-ssh-access-c7a7fa315cd7)
 * [SSH Tutorial for Linux](http://support.suso.com/supki/SSH_Tutorial_for_Linux)
 * [GitHub: Generating an SSH key](https://help.github.com/categories/ssh/)
 * [An Illustrated Guide to SSH Agent Forwarding](http://www.unixwiz.net/techtips/ssh-agent-forwarding.html)

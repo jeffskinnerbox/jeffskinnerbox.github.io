@@ -1,22 +1,29 @@
+
+>**stealthy**, adjective [stel-thee]
+>behaving, done, or made in a cautious and surreptitious manner, so as not to be seen or heard.
+
+
 * Consider using [OpenFaaS](https://www.openfaas.com/)
 
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Hundreds ‘Rickrolled’ in Mysterious Campus Prank at Cornell](https://cornellsun.com/2017/11/10/hundreds-rickrolled-in-mysterious-campus-prank-at-cornell/)
 * [A Doorbell With Facial Recognition](https://medium.com/@mppise/a-doorbell-with-facial-recognition-3b132bf9605)
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
+* [Raspberry Pi Zero W Surveillance Camera](https://www.youtube.com/watch?v=rhIzfRmKHnQ)
 
 * [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
 
-# ESP32-CAM or ESP32-EYE + Omnivision camera
+# ESP32-CAM or ESP32-EYE 0r esp32-eye + Omnivision camera
 * [How to make a small, low-cost, remote accessible security camera with an ESP32](https://www.nabto.com/esp32/)
 * [Matchbox-Sized P2P Remote Accessible Camera with ESP32](https://www.hackster.io/crgregersen/matchbox-sized-p2p-remote-accessible-camera-with-esp32-a41126)
 * [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
 * [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
 * [ESP32 Trail Camera Goes The Distance On AA Batteries](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
+* [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)
+* [Low-cost Video Streaming With A Webcam And Raspberry Pi](https://hackaday.com/2016/11/25/low-cost-video-streaming-with-a-webcam-and-raspberry-pi/)
 
-
->**stealthy**, adjective [stel-thee]
->behaving, done, or made in a cautious and surreptitious manner, so as not to be seen or heard.
+* [Official TensorFlow Lite Micro Support Comes to the ESP32](https://www.hackster.io/news/official-tensorflow-lite-micro-support-comes-to-the-esp32-9708fb6a760f)
+* [Announcing TensorFlow Lite Micro support on the ESP32](https://blog.tensorflow.org/2020/08/announcing-tensorflow-lite-micro-esp32.html)
 
 # Tiny Spy Audio Transmitter
 * [Tiny Transmitter Brings Out the Spy Inside You](https://hackaday.com/2018/05/18/tiny-transmitter-brings-out-the-spy-inside-you/)

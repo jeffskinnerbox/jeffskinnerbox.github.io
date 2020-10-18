@@ -1,3 +1,9 @@
+
+* [Echo Show 10](https://www.amazon.com/dp/B07VHZ41L8)
+
+* [Alexa Printer Support](https://developer.amazon.com/en-US/blogs/alexa/alexa-skills-kit/2020/09/additional-printer-support-for-alexa-skill-kit-print-connections)
+
+
 * [Support for Echo Plus](https://www.amazon.com/gp/help/customer/display.html?nodeId=202189070&ref_=pe_2242090_353040100_SAP_AUCC_LR_HV_Trans_QSG_Support)
 
 * [Installing Alexa Voice Service to Raspberry Pi](https://www.youtube.com/watch?v=frH9HaQTFL8)

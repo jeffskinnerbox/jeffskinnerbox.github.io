@@ -79,6 +79,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 
 # Spark Gap Radio
 * [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)
+* [Revolutionary Spark Gap Radio REBUILT!!](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 
 # Coherer
 The [coherer](https://en.wikipedia.org/wiki/Coherer)
@@ -125,11 +126,13 @@ by building your own coherer.
 * [Simple Superheterodyne SW Receiver Harks Back Almost 100 years](http://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 * [High Performance Crystal Radio](http://hackaday.com/2016/09/16/high-performance-crystal-radio/)
 * [A Homebrew Radio, As All The Best Homebrew Radios Should Be](https://hackaday.com/2020/08/01/a-homebrew-radio-as-all-the-best-homebrew-radios-should-be/)
+* [The Simplest Microwave Receiver](https://hackaday.com/2020/06/07/the-simplest-microwave-receiver/)
 
 # Transceiver
 * [Just How Simple Can A Transceiver Be?](https://hackaday.com/2019/11/09/just-how-simple-can-a-transceiver-be/)
 
 # Building Radios and Components from Sketch
+* [Just Who Makes Tubes These Days?](https://hackaday.com/2020/08/06/just-who-makes-tubes-these-days/)
 * [Lost Knowledge: Homemade electronic components](http://makezine.com/2009/04/14/lost-knowledge-homemade-electronic/)
 * [The Voice of the Crystal](http://www.amazon.com/dp/0967190509/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=363R5Y466YLW&coliid=I12STRWY8ZX3RV)
 * [Build a Universal Coil Winding Machine](http://www.amazon.com/Build-Universal-Coil-Winding-Machine/dp/187808710X/ref=pd_sim_14_4?ie=UTF8&dpID=41MuvM7FzXL&dpSrc=sims&preST=_AC_UL160_SR124%2C160_&refRID=09DR6PYCCF9HGTF78H2C)
@@ -152,6 +155,7 @@ by building your own coherer.
 * [Homemade Nixie Tubes](https://hackaday.com/2013/11/07/homemade-nixie-tubes/)
 
 ## Capacitors
+* [How To Make 7000F Ultra capacitor , DIY Homemade super capacitor from Aluminum foil](https://www.youtube.com/watch?v=8c2FMJtIW7E)
 * [Lint And Dog Hair Supercapacitor](http://hackaday.com/2016/04/30/lint-and-dog-hair-supercapacitor/)
 * [Capacitors Made Easy the Hackaday Way](https://hackaday.com/2016/06/21/capacitors-made-easy-the-hackaday-way/)
 * [They’re JUST Capacitors](http://phy.supplyframe.com/2016/04/17/james-lewis-kemet-theyre-just-capacitors/)
@@ -162,11 +166,19 @@ by building your own coherer.
 * [Homemade Wide Range Variable Electrolytic Capacitor](http://www.sparkbangbuzz.com/els/varelec-el.htm)
 * [Homemade Capacitors Of A Mad Scientist](http://hackaday.com/2016/10/03/homemade-capacitors-of-a-mad-scientist/)
 * [How to Measure the Dielectric Constant for DIY Capacitors](http://hackaday.com/2016/10/12/measuring-the-dielectric-constant-for-diy-capacitors/)
+* [Lightning Generator Made Of Water (DIY Marx)](https://www.youtube.com/watch?v=WDfZFSay_1A&t=364s)
+
+## Inductor
+* [Digging In The Dirt Yields Homebrew Inductors](https://hackaday.com/2020/09/13/digging-in-the-dirt-yields-homebrew-inductors/)
 
 ## Diode
 * [History Of The Diode](http://hackaday.com/2016/08/15/history-of-the-diode/)
 * [Homemade Zinc Oxide Rectifier Diode](http://sparkbangbuzz.com/zinc-oxide-diode/zinc-oxide-diode.htm)
 * [Home Made Diodes From Copper Oxide](http://hackaday.com/2016/05/01/home-made-diodes-from-copper-oxide/)
+
+## Transistor
+* [Do You Know Rufus Turner?](https://hackaday.com/2016/02/15/do-you-know-rufus-turner/)
+* []()
 
 # Flame Components
 * [Flame Triodes Don’t Need Any Vacuum](http://hackaday.com/2016/05/26/flame-triodes-dont-need-any-vacuum/)
@@ -194,3 +206,7 @@ by building your own coherer.
 * [The Transistor: a 1953 documentary, anticipating its coming impact on technology](https://www.youtube.com/watch?v=V9xUQWo4vN0)
 * [Spark, Bang, Buzz](http://www.sparkbangbuzz.com/index.html)
 * [The Art of Making A Nixie Tube](http://hackaday.com/2016/10/04/the-art-of-making-a-nixie-tube/)
+
+# Audio Amplifiers
+## Class D Digital Audio Amplifier
+* [MAKE WEARABLE AND IOT AUDIO EFFORTLESS WITH A PLUG'N'PLAY CLASS D AMPLIFIER](https://www.maximintegrated.com/en/design/technical-documents/design-solutions/7/7334.html)

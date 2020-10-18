@@ -25,8 +25,8 @@ http://www.amazon.com/Trojan-T-1275-150Ah-Flooded-Battery/dp/B00NY7MI56
 
 
 # Inverter
-
-#
+* [Inverters, How do they work?](https://www.youtube.com/watch?v=qVeERT4nyz8&feature=emb_rel_end)
+* [Power Inverters Explained](https://www.youtube.com/watch?v=iIqhAX0I7lI)
 
 * [Compare 12 Smart Plugs that Work With Alexa + WiFi vs. Z-wave Review](https://www.youtube.com/watch?v=9m5oAbnU19c)
 

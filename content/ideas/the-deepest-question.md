@@ -35,6 +35,7 @@ and  after all, [isn't it dead][07]?
 
 # The Infinite and Infinitesimal
 * [Cantor’s Approach to Mathematical Infinity](https://medium.com/however-mathematics/cantors-approach-to-mathematical-infinity-ca0119e18894)
+* [Cardinal Numbers](https://medium.com/@joshuagammage/cardinal-numbers-661a1a6c224d)
 * [What is infinity and how many of them are there?](https://medium.com/@tivadar.danka/what-is-infinity-and-how-many-of-them-are-there-c4912322b5ad)
 * [Infinities are not made equal](https://towardsdatascience.com/infinities-are-not-made-equal-7f707e055efa)
 * [Understanding Cantor’s Mathematical Infinity](https://medium.com/however-mathematics/understanding-cantors-mathematical-infinity-bc9ffe7465da)
@@ -63,25 +64,41 @@ that when investigated or explained may prove to be well founded or true.
 
 * [Infinity Paradoxes - Numberphile](https://www.youtube.com/watch?v=dDl7g_2x74Q)
 * [Paradoxes of Infinity](https://www.cut-the-knot.org/WhatIs/Infinity/Paradoxes.shtml)
+* [Aristotle's Wheel Paradox - To Infinity and Beyond](https://www.youtube.com/watch?v=mrVg9GM5h7Q&feature=youtu.be)
 
 An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - [Cantor's Paradox](https://www.youtube.com/watch?v=WIrdyu9WquQ)
 
 #  Gödel’s Incompleteness Theorems
 * [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
+* [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
+
+# Strange Converance
+* [The Collatz Conjecture](https://medium.com/cantors-paradise/the-collatz-conjecture-some-shocking-results-from-180-000-iterations-7fea130d0377)
+* [The Simple Math Problem We Still Can’t Solve](https://www.quantamagazine.org/why-mathematicians-still-cant-solve-the-collatz-conjecture-20200922/)
+* [Mathematician Proves Huge Result on ‘Dangerous’ Problem](https://www.quantamagazine.org/mathematician-terence-tao-and-the-collatz-conjecture-20191211/)
 
 # Impulse
+A function is a relation that uniquely associates members of one set with members of another set. More formally, a function from A to B is an object f such that every a in A is uniquely associated with an object f(a) in B. A function is therefore a many-to-one (or sometimes one-to-one) relation.
+
+ A distribution is sometimes also called a "generalized function" or "ideal function." As its name implies, a generalized function is a generalization of the concept of a function. For example, in physics, a baseball being hit by a bat encounters a force from the bat, as a function of time. Since the transfer of momentum from the bat is modeled as taking place at an instant, the force is not actually a function. Instead, it is a multiple of the delta function.
+
 * [Green's function](https://en.wikipedia.org/wiki/Green%27s_function)
 * [Dirac delta function](https://en.wikipedia.org/wiki/Dirac_delta_function)
 * [Impulse response](https://en.wikipedia.org/wiki/Impulse_response)
+* [Distributions: What Exactly is the Dirac Delta “Function”?](https://medium.com/cantors-paradise/distributions-what-exactly-is-the-dirac-delta-function-e2af19d6e700)
 
 # What is Time
 * [Arrows of Time](https://www.quantamagazine.org/what-is-time-a-history-of-physics-biology-clocks-and-culture-20200504/)
 * [Does Time Really Flow? New Clues Come From a Century-Old Approach to Math](https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/)
 
+# What are Complex Numbers?
+* [What are complex numbers](https://medium.com/@zsolt.gkiss/there-is-no-such-thing-as-1-4848b7e2380)
+
 # What is Randomness?
 * [What is Random?](https://www.youtube.com/watch?v=9rIy0xY99a0)
 * [What is NOT Random?](https://www.youtube.com/watch?v=sMb00lz-IfE)
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
+* [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
 
 # What about Chaos Theory and Emergent Properties?
 * [This equation will change how you see the world (the logistic map)](https://www.youtube.com/watch?v=ovJcsL7vyrk)
@@ -94,6 +111,7 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
 * [EEVblog #1316 - Quantum Computing for Electrical Engineers](https://www.youtube.com/watch?v=nOQhdgY8aBM)
 * [Long Version: Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0)
+* [How Quantum is the Uncertainty Principle?](https://medium.com/swlh/how-quantum-is-the-uncertainty-principle-4569eb7a9eb1)
 
 # What about String Theory?
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
@@ -103,7 +121,10 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 
 # Fractional Calculus and Gamma Function
 * [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
-ZZ
+
+# Fractals
+* [Mandelbulb: Three Dimensional Fractals](https://medium.com/cantors-paradise/mandelbulb-three-dimensional-fractals-d74c0317b76d)
+
 # Euler’s Formula
 * [Euler’s Formula](https://medium.com/swlh/eulers-formula-11a991fc3829)
 * [Euler’s Identity](https://medium.com/swlh/eulers-identity-990b52f0d8fc)
@@ -111,6 +132,7 @@ ZZ
 # Richard Feynman’s Integral Trick
 * [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
 * [Calculus 2: Integration, Computation of Areas and Volumes, Differential Equations](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKGna43cvDO4NZEEOdM4vcR)
+* [Richard Hamming: "Learning to Learn"](https://www.youtube.com/playlist?list=PL2FF649D0C4407B30)
 
 # Finding Pi in Unusal Places
 * [The Pi Machine: The most unexpected answer to a counting puzzle](https://medium.com/@christopher.fraser/the-pi-machine-the-most-unexpected-answer-to-a-counting-puzzle-b365db558b12)
@@ -133,7 +155,7 @@ ZZ
 # The Future of Programming
 * ["Uncle" Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
 
-# Math & Physics: normalization
+# Math & Physics: renormalization
 * [In the End, It All Adds Up to – 1/12](https://www.nytimes.com/2014/02/04/science/in-the-end-it-all-adds-up-to.html)
 * [Infinity or -1/12?](https://plus.maths.org/content/infinity-or-just-112?nl=0)
 * [How physicists solved the problem of infinity](https://www.youtube.com/watch?v=dkYL6G0JHtY)
@@ -144,6 +166,16 @@ ZZ
 * [Astounding Infinity](http://www.mathaware.org/mam/2014/calendar/infinity.html)
 * [Infinite series are weird — redux!](https://skullsinthestars.com/2010/05/25/infinite-series-are-weird-redux/)
 * [Follow-Up: The Infinite Series and the Mind-Blowing Result](https://slate.com/technology/2014/01/follow-up-the-infinite-series-and-the-mind-blowing-result.html)
+
+* [How Renormalization Saved Particle Physics](https://www.quantamagazine.org/how-renormalization-saved-particle-physics-20200917/)
+* [Strange Numbers Found in Particle Collisions](https://www.quantamagazine.org/strange-numbers-found-in-particle-collisions-20161115/)
+
+# Laplace & Fourier Transforms
+* [The Laplace Transform: A Generalized Fourier Transform](https://www.youtube.com/watch?v=7UvtU75NXTg)
+
+# Nothingness
+* [The Four Different Meanings Of ‘Nothing’ To A Scientist](https://medium.com/starts-with-a-bang/the-four-different-meanings-of-nothing-to-a-scientist-283d9ad185fd)
+
 
 
 

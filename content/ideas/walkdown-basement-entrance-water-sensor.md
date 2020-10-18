@@ -15,6 +15,9 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Solar Wifi Weather Station (v2.0)](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fwww.danilolarizza.com%2Fstazione-meteo-solare-wifi-v2-0%2F&edit-text=&act=url)
 * [Improved Outdoor Solar Harvester Now Handles All The Parts](https://hackaday.com/2019/11/19/improved-outdoor-solar-harvester-now-handles-all-the-parts/)
 
+* [Low-cost Drift Buoy Plies The Atlantic For Nearly A Year](https://hackaday.com/2017/04/28/low-cost-drift-buoy-plies-the-atlantic-for-nearly-a-year/)
+* [Project Wilson](https://projectwilson2020.wixsite.com/mysite/)
+
 * [ESP32 Technical Tutorials: Watchdog Processing](https://www.youtube.com/watch?v=C2xF3O6qkbg)
 * [Device Power Management in IoT](https://dzone.com/articles/device-power-management-in-iot)
 
@@ -29,9 +32,12 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [ESP8266 Low Power Solutions](https://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf)
 * [One ESP8266, One Battery, One Year… And Counting](https://hackaday.com/2020/01/15/one-esp8266-one-battery-one-year-and-counting/)
 * [How Low Can An ESP32 Go?](https://hackaday.com/2020/01/07/how-low-can-an-esp32-go/)
+* [Low-Power ESP32 Boards](https://blog.voneicken.com/2018/lp-wifi-esp32-boards/)
+* [ESP32 Low Power Device Design – Part 1](https://blog.squix.org/2020/04/esp32-door-sensor-part-1.html)
 * [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
 * [Deep Sleep & Other Power Modes (ESP32 + Arduino Series)](https://www.youtube.com/watch?v=dyvpRYfWjkY&feature=youtu.be)
 * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
+* [ESP32 Deep Sleep Tutorial](https://www.instructables.com/ESP32-Deep-Sleep-Tutorial/)
 
 
 
@@ -115,6 +121,7 @@ Peak power consumption will not be an issue for applications where there is enou
 
 * [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
 * [How to optimize energy efficiency in smart devices](https://blog.nordicsemi.com/getconnected/how-to-optimize-energy-efficiency-in-smart-devices)
+* [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
 
 ## Measurment Tools for Ultra-Low-Power
 µCurrent Meter - https://www.adafruit.com/product/882
@@ -123,6 +130,11 @@ USB Isolator - https://www.adafruit.com/product/2107
 
 * [#245 Deep-Sleep Current: Which is better? µCurrent or CurrentRanger?](https://www.youtube.com/watch?v=HmXfyLyN38c&feature=youtu.be)
 * [TvE’s Blog - adventure in low power](https://blog.voneicken.com/)
+* [uCurrent Videos](https://www.youtube.com/results?search_query=uCurrent)
+
+## Lock-in Amplifiers
+* [Basic Fundamentals of Lock-In Amplifiers](https://www.allaboutcircuits.com/technical-articles/basic-fundamentals-of-lock-in-amplifiers/)
+* [Understanding Types of Lock-In Amplifiers and Related Noise Sources](https://www.allaboutcircuits.com/technical-articles/understanding-types-lock-in-amplifiers-noise-sources/)
 
 
 

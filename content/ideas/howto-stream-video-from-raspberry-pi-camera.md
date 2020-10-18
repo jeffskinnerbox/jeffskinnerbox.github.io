@@ -28,12 +28,14 @@ sudo modprobe uvcvideo
 
 # Check This Out!!
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
+* [How to Create a Raspberry Pi Security Camera with Motion Alerts](https://www.tomshardware.com/how-to/raspberry-pi-security-camera-motion-sensor)
 * [Turning a Raspberry Pi into a portable streaming camera](https://opensource.com/life/15/9/turning-raspberry-pi-portable-streaming-camera)
     * [RPi Cam Web Interface](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=63276)
     * [RPi-Cam-Web-Interface](https://elinux.org/RPi-Cam-Web-Interface)
     * [Web based interface for controlling the Raspberry Pi Camera](https://github.com/silvanmelchior/RPi_Cam_Web_Interface)
 * [Enhancing my ordinary IP security cameras with AI](https://harizanov.com/2018/03/enhancing-my-ordinary-security-cameras-with-ai/)
 * [Realtime video object detection on Raspberry Pi](https://towardsdatascience.com/how-to-stream-video-with-real-time-object-detection-on-raspberry-pi-f6503c46c7f9)
+* [Low-cost Video Streaming With A Webcam And Raspberry Pi](https://hackaday.com/2016/11/25/low-cost-video-streaming-with-a-webcam-and-raspberry-pi/)
 
 
 
@@ -42,7 +44,6 @@ sudo modprobe uvcvideo
 * [The Camera Modual Guide](https://www.raspberrypi.org/magpi-issues/Essentials_Camera_v1.pdf)
 * [Choose the Right 3D Vision Camera For Your IoT Device](https://medium.com/iotforall/choose-the-right-3d-vision-camera-for-your-iot-device-962d95c581cb)
 
-* [How to Process Live Video Stream Using FFMPEG and OpenCV](http://blog.lemberg.co.uk/how-process-live-video-stream-using-ffmpeg-and-opencv)
 * [OpenCV remote (web-based) stream processing](https://github.com/ECI-Robotics/opencv_remote_streaming_processing)
 * [Raspberry Pi Camera low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.hk/2016/06/raspberry-pi-camera-low-latency.html)
 * [Raspberry Pi Camera openCV rendering with low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.com/2016/06/raspberry-pi-camera-opencv-rendering.html)
@@ -484,6 +485,8 @@ and therefore less suited for situations where you do a lot of seeking in the vi
 However when it comes to bandwidth, the H.264 codec is the clear winner compared to Motion-JPEG.
 The H.264 codec was designed for streaming.
 
+* [Video Compression Explainer — Like We’re Five-Year-Olds](https://hackaday.com/2020/08/28/video-compression-explainer-like-were-five-year-olds/)
+
 ## What are the Video Transport Protocols?
 To transport the stream of of video data packets,
 there are several protocals to pick from.
@@ -608,6 +611,19 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 
 * http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/
 * [Android Streaming Live Camera Video to Web Page](http://www.androidhive.info/2014/06/android-streaming-live-camera-video-to-web-page/)
+
+## FFmpeg
+* [How to Process Live Video Stream Using FFMPEG and OpenCV](http://blog.lemberg.co.uk/how-process-live-video-stream-using-ffmpeg-and-opencv)
+* [OTTVerse: FFmpeg](https://ottverse.com/tags/ffmpeg/)
+* [FFmpeg and how to use it wrong](https://videoblerg.wordpress.com/2017/11/10/ffmpeg-and-how-to-use-it-wrong/)
+* [Low-Latency Live Streaming your Desktop using ffmpeg](http://fomori.org/blog/?p=1213)
+* [Stream a file with original playing rate](http://superuser.com/questions/508560/ffmpeg-stream-a-file-with-original-playing-rate)
+* [RTP streaming with ffmpeg](http://lucabe72.blogspot.com/2010/04/rtp-streaming-with-ffmpeg.html)
+* [Using CVLC for streaming using RTP protocol under Linux](https://inogeni.com/knowledgebase/using-cvlc-for-streaming-using-rtp-protocol-under-linux/)
+* [How can I stream h264 files with FFmpeg over rtmp without reencoding?](http://forum.videohelp.com/threads/377436-How-can-I-stream-h264-files-with-FFmpeg-over-rtmp-without-reencoding)
+* [An ffmpeg and SDL Tutorial](http://dranger.com/ffmpeg/ffmpeg.html)
+* [A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats?sc_cid=70160000000gz65AAA)
+* [ffmpeg documentation](https://www.ffmpeg.org/documentation.html)
 
 ## Streaming RTMP with crtmpserver and ffmpeg
 `crtmpserver` is a high performance streaming platform
@@ -1544,17 +1560,6 @@ ffmpeg -re -i All-is-Full-of-Love-by-Bjork.ts -codec copy -f mpegts -codec:v mpe
 google-chrome http://desktop:8080/view-stream.html
 ```
 
-################################################################################
-
-* [Stream a file with original playing rate](http://superuser.com/questions/508560/ffmpeg-stream-a-file-with-original-playing-rate)
-* [RTP streaming with ffmpeg](http://lucabe72.blogspot.com/2010/04/rtp-streaming-with-ffmpeg.html)
-* [Using CVLC for streaming using RTP protocol under Linux](https://inogeni.com/knowledgebase/using-cvlc-for-streaming-using-rtp-protocol-under-linux/)
-* [How can I stream h264 files with FFmpeg over rtmp without reencoding?](http://forum.videohelp.com/threads/377436-How-can-I-stream-h264-files-with-FFmpeg-over-rtmp-without-reencoding)
-* [An ffmpeg and SDL Tutorial](http://dranger.com/ffmpeg/ffmpeg.html)
-* [A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats?sc_cid=70160000000gz65AAA)
-* [ffmpeg documentation](https://www.ffmpeg.org/documentation.html)
-
-################################################################################
 
 
 

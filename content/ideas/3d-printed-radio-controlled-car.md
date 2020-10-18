@@ -1,3 +1,6 @@
+# Remote Control / Viewing
+* [Building a Network Controlled Robot With Arduino and Raspberry Pi](https://medium.com/swlh/building-a-network-controlled-robot-with-arduino-and-raspberry-pi-77dd9134e48c)
+* [Webots: open source for simulate of robots](https://cyberbotics.com/)
 
 # Latest Version
 * [The Evolution of a 3D Printed Off-Road R/C Car](https://hackaday.com/2020/04/09/the-evolution-of-a-3d-printed-off-road-r-c-car/)
@@ -78,6 +81,9 @@ it can store up to 10 different battery charging profiles.
 * [The 4 Best LiPo Chargers for the Money – Reviews 2019](http://www.mechanicalcaveman.com/best-lipo-charger-review-for-the-money-rc-lithium-polymer-battery/)
 
 ## Brushless Motor
+BLDC motor
+* [Types Of Electric Motors - DC | AC | Synchronous | Brushless | Brushed | Stepper | Servo](https://www.youtube.com/watch?v=I2_-etus0KQ)
+* [DC & Brushless DC Motor + ESC](https://www.youtube.com/watch?v=UteZJ_7C4Mg)
 
 ## Electronic Speed Controllers (ESC)
 * [RC Basics - Understanding Electronic Speed Controllers (ESC)](https://www.youtube.com/watch?v=OZNxbxL7cdc)
@@ -591,6 +597,11 @@ I didn't bother with any of this.
 # Camera
 * [Lane Keeping RC Car Uses OpenCV](https://hackaday.com/2019/10/16/lane-keeping-rc-car-uses-opencv/)
 
+# First Person Video (FPV)
+* [Open Source VR Headset For $200](https://hackaday.com/2020/09/13/open-source-vr-headset-for-200/)
+* [AKK 5.8G RC832 Mini FPV Receiver Double-Screen Display for FPV Quadcopter Drone](https://www.amazon.com/gp/product/B01FXFZ0NS)
+* [AKK A2 5.8Ghz 200mW FPV Transmitter Raceband 600TVL 1/4 Cmos Mini FPV Micro AIO Camera with Clover Antenna for FPV Drone](https://www.amazon.com/gp/product/B06VSW41LN)
+* [3D Printed Arduino FPV RC Tracked Car With Controller](https://www.instructables.com/id/3D-Printed-Arduino-FPV-RC-Tracked-Car-With-Control/)
 
 ----
 
@@ -606,11 +617,14 @@ Donkeycar community has built a self driving library for Python.
 
 * [Donkey Car](http://www.donkeycar.com/)
 * [Stereo Vision and LiDAR Powered Donkey Car](https://www.hackster.io/bluetiger9/stereo-vision-and-lidar-powered-donkey-car-575769)
+* [Autonomous Rover Navigates The House With LIDAR](https://hackaday.com/2020/09/22/autonomous-rover-navigates-the-house-with-lidar/)
 * [Build an Autonomous R/C Car with Raspberry Pi](https://makezine.com/projects/build-autonomous-rc-car-raspberry-pi/)
 * [Modular Robotics Made Easier With ROS](https://hackaday.com/2018/05/31/modular-robotics-made-easier-with-ros/)
 * [Buy Or Build An Autonomous Race Car To Take The Checkered Flag](https://hackaday.com/2018/11/30/buy-or-build-an-autonomous-race-car-to-take-the-checkered-flag/)
 * [Adventures building a Self Driving RC Car](https://rahulrav.com/blog/selfdriving.html)
+
 * [AutoCarJetsonNano](https://github.com/bastulli/AutoCarJetsonNano)
+* [Jetson Nano Robot](https://hackaday.com/2020/10/16/jetson-nano-robot/)
 
 Building an Autonomous Vehicle
 * [Building an Autonomous Vehicle Part 1: Using Behavioral Cloning to make a Self-Driving Car drive like yourself](https://medium.com/@akhilsuri194/building-an-autonomous-vehicle-part-1-using-behavioral-cloning-to-make-a-self-driving-car-drive-92622d1c2dfe)

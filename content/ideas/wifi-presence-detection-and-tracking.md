@@ -35,6 +35,10 @@ Kali Linux is a Debian-derived Linux distribution designed for digital forensics
 * [Real-Time Rogue Wireless Access Point Detection with the Raspberry Pi](http://www.linuxjournal.com/content/real-time-rogue-wireless-access-point-detection-raspberry-pi?page=0,0)
 * [Portable WiFi Analyzer](https://www.instructables.com/id/Portable-WiFi-Analyzer/)
 
+Detects all Beacons and their mac addresses within range, Detects All AP's in range, Gets GPS Lat/Long positioning,
+Gets GPS UTC Time, Logs all this to SD card and displays the information
+* [RESQ Hunts For Lost Hikers From The Air](https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/)
+
 ## Using ESP8266
 * [Monitor Foot Traffic Using Radio](https://hackaday.com/2018/04/06/monitor-foot-traffic-using-radio/)
 * [ESP32-Paxcounter is a proof-of-concept device for metering passenger flows in realtime](https://hackaday.com/2018/04/06/monitor-foot-traffic-using-radio/)

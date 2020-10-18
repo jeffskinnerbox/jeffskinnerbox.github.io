@@ -1,6 +1,6 @@
 Title: Speech Synthesis on the Raspberry Pi
 Date: 2012-11-26 00:01
-Category: Electronics 
+Category: Electronics
 Tags: Raspberry Pi, Audio
 Slug: speech-synthesis-on-the-raspberry-pi
 Author: Jeff Irland
@@ -8,6 +8,7 @@ Image: hal9000.png
 Summary: I want the RPi to provide status via email, SMS, web updates, and so why not speech? This post show you how to get the speech synthesis utility Festival working on the Raspberry Pi.
 
 Now that I can get <a href="http://jeffskinnerbox.wordpress.com/2012/11/15/getting-audio-out-working-on-the-raspberry-pi/">sound</a> out of my Raspberry Pi (RPi), the next logical step for me is speech synthesis ... Right?  I foresee my RPi being used as a controller/gateway for other devices (e.g. RPi or Arduino).  In that capacity, I want the RPi to provide status via email, SMS, web updates, and so why not speech?  Therefore, I'm looking for a good text-to-speech tool that will work nicely with my RPi.
+Check this out for a <a href="https://hackaday.io/project/174316-sam-2600/details">Brief History of Speech Synthesis</a>
 
 The two dominate free speech synthesis tools for Linux are <a href="http://espeak.sourceforge.net/">eSpeak</a> and <a href="http://www.cstr.ed.ac.uk/projects/festival/download.html">Festival</a> (which has a light-weight version called Flite). Both tools appear very popular, well supported, and produce quality voices.  I sensed that Festival is more feature reach and configurable, so I went with it.
 

@@ -213,6 +213,7 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Perceptrons in C++](http://hackaday.com/2016/11/08/perceptrons-in-c/)
 * [How To Build a Neural Network to Recognize Handwritten Digits with TensorFlow](https://www.digitalocean.com/community/tutorials/how-to-build-a-neural-network-to-recognize-handwritten-digits-with-tensorflow)
 * [A Deep Learning Tutorial: From Perceptrons to Deep Networks](https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks)
+* [Neural Networks from Scratch with Python Code and Math in Detail— I](https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf)
 
 # Embedded Learning Library (ELL)
 Microsoft has released the [Embedded Learning Library (ELL)](https://github.com/Microsoft/ELL),
@@ -349,6 +350,9 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Setting up Ubuntu 16.04 + CUDA + GPU for deep learning with Python](https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/)
 * [Train Your Machine Learning Models on Google’s GPUs for Free — Forever](https://hackernoon.com/train-your-machine-learning-models-on-googles-gpus-for-free-forever-a41bd309d6ad)
 * [Google Colab Free GPU Tutorial](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
+
+# Types of Neural Networks
+* [Main Types of Neural Networks and its Applications — Tutorial](https://medium.com/towards-artificial-intelligence/main-types-of-neural-networks-and-its-applications-tutorial-734480d7ec8e)
 
 # MNIST
 * [MNIST For ML Beginners](https://www.tensorflow.org/tutorials/mnist/beginners/#mnist-for-ml-beginners)

@@ -18,5 +18,9 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 
 * [Thief of Joules](http://cachivacheselectronicos.blogspot.com/2015/04/test-ladron-de-jouls-primer-proyecto-en.html)
 
+# Super Joule Thief
+* [Make a SUPER Joule Thief Light!](https://www.instructables.com/id/Make-a-SUPER-Joule-Thief-Light/)
+* [Powering Neon With a Joule Thief](https://hackaday.com/2020/03/14/powering-neon-with-a-joule-thief/)
+
 # Othe Battery Options
 * [Water Powered Calculator (Original)](https://www.instructables.com/id/Water-Powered-Calculator/)

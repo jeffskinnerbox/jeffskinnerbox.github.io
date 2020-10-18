@@ -33,6 +33,7 @@ even though it’s buried behind a NAT or a firewall!
 # Reverse Shells
 * [Reverse Shells](https://www.sans.org/reading-room/whitepapers/covert/inside-out-vulnerabilities-reverse-shells-1663)
 * [SSH Reverse Proxy and Tunneling](https://medium.com/better-programming/ssh-reverse-proxy-and-tunneling-b6d96ab2325)
+* [Bypass your Linux firewall with SSH over HTTP](https://opensource.com/article/20/7/linux-shellhub)
 
 # How Is This Done?
 1. You will need a virtual machine (VM) somewhere on the Internet.
@@ -108,7 +109,14 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 ###############################################################################
 
+# Dynamic DNS (DDNS)
+* [How To Easily Access Your Home Network From Anywhere With Dynamic DNS](https://www.howtogeek.com/66438/how-to-easily-access-your-home-network-from-anywhere-with-ddns/)
+* [Dynamic DNS (DDNS)? -How it Works and Why Use It?](https://stevessmarthomeguide.com/dynamic-dns/)
+* [Linux-Fu: Your Own Dynamic DNS](https://hackaday.com/2020/08/25/linux-fu-your-own-dynamic-dns/)
+* [DDNS](https://wiki.debian.org/DDNS)
 
+
+# DNS Tunneling
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
 * [DNS Tunneling: Getting The Data Out Over Other Peoples’ WiFi](http://hackaday.com/2016/08/07/getting-the-data-out-over-other-peoples-wifi/)
 * [TOWL - Telemetry over Opportunistic WiFi Links](http://www.phreakmonkey.com/2016/08/towl-telemetry-over-opportunistic-wifi.html)

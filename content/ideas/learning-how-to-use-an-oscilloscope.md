@@ -24,6 +24,22 @@
 * [Scope Review: Keysight 1000 X-Series](https://hackaday.com/2017/05/02/scope-review-keysight-1000-x-series/)
 
 
+# History of the Oscilloscope
+* [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
+* [History of the Oscilloscope: Oersted’s Laws and Hand Drawn Waveforms](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-oersteds-laws-and-hand-drawn-waveforms/)
+* [History of the Oscilloscope: Visualizing with Light, the CRT, to the Modern Oscilloscope](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-visualizing-with-light-crt-modern-oscilloscope/)
+
+# Digital Oscilloscope Specs
+* [Understanding Digital Oscilloscope Sample Rate and Analog Bandwidth Specs](https://www.allaboutcircuits.com/technical-articles/understanding-digital-oscilloscope-sample-rate-analog-bandwidth)
+
+Oscilloscope Analog Bandwidth
+Oscilloscope Sample Rate
+
+
+-------
+
+
+
 # Noise and EMI
 * [Differential (Normal) Mode Noise and Common Mode Noise－Causes and Measures](https://techweb.rohm.com/knowledge/emc/s-emc/01-s-emc/6899)
 * [How To Track Down Common Mode Noise](https://www.youtube.com/watch?v=BFLZm4LbzQU)
@@ -31,13 +47,6 @@
 
 # Premature Oscilloscope Triggering
 * [EEVblog #1320 - Premature Oscilloscope Triggering](https://www.youtube.com/watch?v=GZHnrGIK9V8)
-
-
-# Digital Oscilloscope Specs
-* [Understanding Digital Oscilloscope Sample Rate and Analog Bandwidth Specs](https://www.allaboutcircuits.com/technical-articles/understanding-digital-oscilloscope-sample-rate-analog-bandwidth)
-
-Oscilloscope Analog Bandwidth
-Oscilloscope Sample Rate
 
 ## The Art of Electronics
 None of these tools will be a substitute for a mastering of the domain of electronics.
@@ -57,11 +66,6 @@ To to that, you man not start here, but you should certainly finish here:
 
 # What Does a Workbench Need?
 * [What Does An Electronics Tinkerer’s Workbench Need?](https://hackaday.com/2019/12/14/what-does-an-electronics-tinkerers-workbench-need/)
-
-# History of the Oscilloscope
-* [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
-* [History of the Oscilloscope: Oersted’s Laws and Hand Drawn Waveforms](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-oersteds-laws-and-hand-drawn-waveforms/)
-* [History of the Oscilloscope: Visualizing with Light, the CRT, to the Modern Oscilloscope](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-visualizing-with-light-crt-modern-oscilloscope/)
 
 # Computer Control of the Oscilloscope
 * [Controlling a Rigol oscilloscope using Linux and Python](http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/)
@@ -90,6 +94,9 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 * [Get Better Accuracy On Your Oscilloscope](https://www.youtube.com/watch?v=8iE28oGtayQ)
 * [Do Digital Scopes Have REAL Verniers?](https://www.youtube.com/watch?v=7v-P75MOZ5o&feature=em-uploademail)
 
+# Spectrum Analyser
+* [No Spectrum Analyser? No Problem!](https://hackaday.com/2015/12/20/no-spectrum-analyser-no-problem/)
+
 # Vector Network Analyzer (VNA)
 Vector Network Analyzers are used to test component specifications
 and verify design simulations to make sure systems and their components work properly together.
@@ -97,9 +104,10 @@ and verify design simulations to make sure systems and their components work pro
 * [Learning About VNAs](https://hackaday.com/2020/06/11/learning-about-vnas/)
 * [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
 * [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
+* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
+* [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
 * [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
 * [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
-* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
 * [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
 
 # Example Uses
@@ -108,7 +116,7 @@ and verify design simulations to make sure systems and their components work pro
 * [Back to Basics: Diodes - guide to operation, characteristics, types and specifications](https://www.youtube.com/watch?v=Pp5AAj2aIzc)
 
 # LabView
-* [What is LabVIEW?](https://www.youtube.com/watch?v=P8y3tKJQadE)
+* [What is LabVIEW?](https://www.youtube.com/watch?v=P8y3tKJQadEG)
 * [LabVIEW in Linux](http://danielcentore.com/labview-in-linux/)
 * [LabVIEW 2018 Additional Installation Information](https://intra.kth.se/polopoly_fs/1.338137.1555493593!/labview_lin_extrainfo.pdf)
 
@@ -122,6 +130,10 @@ and verify design simulations to make sure systems and their components work pro
 
 # Measuring RF Cable Impedance
 * [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
+
+# Oscilloscope Current Probe
+* [Understanding, Selecting, and Effectively Using Current Probes](https://www.digikey.com/en/articles/understanding-selecting-effectively-using-current-probes)
+* [Micsig CP2100A Best Affordable Current Probe](https://www.youtube.com/watch?v=8zW4j0euN8A)
 
 # Chaotic Circuits
 A Chua's circuit (also known as a Chua circuit)

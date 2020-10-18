@@ -138,6 +138,9 @@ Lithium-ion polymer cells tend to be thin rectangles in a silvery bag.
 They are soft-shelled and have an easy to damage casing.
 They often weigh a little less and come in smaller capacity.
 
+# Lithium Sulfur Batteries
+* [Lithium Sulfur Batteries Slated For Takeoff](https://hackaday.com/2020/08/23/lithium-sulfur-batteries-slated-for-takeoff/)
+
 ## Voltages
 Depending on the design and chemistry of your lithium cell,
 you may see them sold under different nominal voltages.
@@ -259,7 +262,9 @@ It is a class of [switched-mode power supply (SMPS)][16]
 containing at least two semiconductors (a diode and a transistor)
 and at least one energy storage element, a capacitor, inductor, or the two in combination.
 
-https://www.adafruit.com/products/2030
+* https://www.adafruit.com/products/2030
+* [DIY Boost Converter || How to step up DC voltage efficiently](https://www.youtube.com/watch?v=QnUhjnbZ0T8)
+* [Creating a Boost Converter WITHOUT a Microcontroller](https://www.youtube.com/watch?v=5R_QCurh_iM)
 
 # DC/DC Buck Converter
 A [buck converter][17] (step-down converter) is a DC-to-DC power converter
@@ -279,6 +284,9 @@ making it a Uninterruptable Power Supply (UPS).
 # How to Prolong Battery Life
 * [Elevating Self Discharge](https://batteryuniversity.com/learn/article/elevating_self_discharge)
 * [Battery Life Optimization in IoT devices with the Multi-Channel Power Probe](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_application/application_notes/1td07/1TD07_1e_BatteryLife_IoT~1.pdf)
+* [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
+* [How to optimize energy efficiency in smart devices](https://blog.nordicsemi.com/getconnected/how-to-optimize-energy-efficiency-in-smart-devices)
+* [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
 
 ## Self Discharge
 Much attention can be paid to extending battery life through the use of
@@ -328,6 +336,8 @@ can accept and deliver charge much faster than batteries,
 and tolerates many more charge and discharge cycles than rechargeable batteries.
 
 * [Hybrid Supercapacitors Are — Well — Super](https://hackaday.com/2020/03/14/hybrid-supercapacitors-are-well-super/)
+* [Rapid Charging Supercapacitors](https://hackaday.com/2020/09/16/rapid-charging-supercapacitors/)
+* [How does a Supercapacitor Work?](https://batteryuniversity.com/learn/article/whats_the_role_of_the_supercapacitor)
 
 
 

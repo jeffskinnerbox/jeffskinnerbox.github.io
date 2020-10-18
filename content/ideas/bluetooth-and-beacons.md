@@ -2221,6 +2221,7 @@ can operate as a master or slave Bluetooth device.
     * Nordic Thingy:52 Nodejs
     * Nordic-Thingy:52 iOS library and sample app
 * [Nordic Thingy:91](https://www.nordicsemi.com/Software-and-Tools/Prototyping-platforms/Nordic-Thingy-91)
+* [Nordic Thingy:91 Getting Started Guides](https://www.hackster.io/videos/753)
 
 ### Nordic Bluetooth Tools
 * nrfjprog, pynrfjprog - Intro, Mac OS X & Linux now supported - https://devzone.nordicsemi.com/blogs/840/nrfjprog-pynrfjprog-intro-mac-os-x-linux-now-suppo/

@@ -26,6 +26,10 @@ Check this out - [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.ki
 # TensorFlow
 * [TesnorFlow 2.0](https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04)
 
+# Tensorflow Lite
+* [Official TensorFlow Lite Micro Support Comes to the ESP32](https://www.hackster.io/news/official-tensorflow-lite-micro-support-comes-to-the-esp32-9708fb6a760f)
+* [Announcing TensorFlow Lite Micro support on the ESP32](https://blog.tensorflow.org/2020/08/announcing-tensorflow-lite-micro-esp32.html)
+
 
 * [Building a Real-Time Object Recognition App with Tensorflow and OpenCV](https://towardsdatascience.com/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32)
 * [How to train your own Object Detector with TensorFlow’s Object Detector API](https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9)

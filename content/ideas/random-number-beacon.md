@@ -36,6 +36,7 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 * [Analog 4-bit random number generator](https://geneticfractals.org/2020/05/17/analog-4-bit-random-number-generator/)
 
 # Linux Entropy
+* [Entropy is not disorder: A physicist’s perspective](https://medium.com/swlh/entropy-is-not-disorder-a-physicists-perspective-c0dccfea67f1)
 * [WHAT IS ENTROPY AND HOW DO I GET MORE OF IT?](https://hackaday.com/2017/11/02/what-is-entropy-and-how-do-i-get-more-of-it/)
 * [Ensuring Randomness with Linux's Random Number Generator](https://blog.cloudflare.com/ensuring-randomness-with-linuxs-random-number-generator/)
 * [Check available entropy in Linux](https://major.io/2007/07/01/check-available-entropy-in-linux/)

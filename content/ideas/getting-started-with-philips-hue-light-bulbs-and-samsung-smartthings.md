@@ -913,6 +913,14 @@ And in general, the apps instructions are crappy to non-existent.
 * [Samsung patches SmartThings Hub flaws](https://www.zdnet.com/article/internet-of-things-samsung-patches-smartthings-hub-flaws/)
 * [Samsung SmartThings still hasn’t earned my trust in the smart home](https://www.cnet.com/news/samsung-smartthings-still-hasnt-earned-my-trust-in-the-smart-home/)
 
+## Direct Connected Devices SmartThings Platform
+Direct connected devices do not require a middle cloud or a hub.
+After flashing the firmware the device will use the SmartThings platform as its backend provider.
+Communication happens directly between the platform and the device over MQTT.
+The SDK enables rapid development of these devices on a variety of low cost SOCs (like the ESP32).
+
+* [How to Build Direct Connected Devices](https://community.smartthings.com/t/how-to-build-direct-connected-devices/204055)
+
 ## SmartThings Developer Documentation
 * [SmartThings Developer Documentation](https://smartthings.developer.samsung.com/docs/index.html)
 
@@ -963,9 +971,9 @@ My first sensor was the [Fibaro System Flood Sensor][73],
 a Z-Wave water detector I [purchase on Amazon][74].
 It also includes temperature sensor, tamper sensor, a acoustic & visual alarm,
 and you can even use an [external probe][81].
-You'll find a [manual for the Flood Sensor][75]and [knowledge base][82]
+You'll find a [manual for the Flood Sensor][75] and [knowledge base][82]
 on Fibaro's website but the SmartThings installation is found [here][76],
-and a Youtube revew [here][80].
+and a Youtube review [here][80].
 
 First, you need to physically prepare the device for operation by
 [twist open the casing and remove the battery insulator][77].

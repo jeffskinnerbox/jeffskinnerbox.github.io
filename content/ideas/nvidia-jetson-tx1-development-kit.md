@@ -46,7 +46,7 @@ image manipulation and mathematics used in high-end robotics.
 See some benchmarking done [here][19].
 
 For comparison, a handheld calculator performs relatively few FLOPS
-([What is a FLOP?][10]).
+([what is a FLOP?][10] and [why do we care?][51]).
 A computer response time below 0.1 second in a calculation context is
 usually perceived as instantaneous by a human operator,
 so a simple calculator needs only about 10 FLOPS to be considered functional ([source][08]).
@@ -824,7 +824,7 @@ The dimensions of the board are 170.18mm x 170.18mm (6.7in x 6.7in  or  6 45/64 
 [48]:https://medium.com/intuitionmachine/building-a-270-teraflops-deep-learning-box-of-under-10-000-2d790b0ae2ec
 [49]:https://www.nvidia.com/en-us/titan/titan-v/
 [50]:https://www.intel.com/content/www/us/en/products/processors/core/core-vpro/i7-8700k.html
-[51]:
+[51]:https://www.techradar.com/news/should-we-fear-the-next-generation-of-supercomputers
 [52]:
 [53]:
 [54]:
