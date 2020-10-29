@@ -45,6 +45,7 @@ The megaAVR chips became extremely popular after they were designed into the
 8-bit Arduino platform in 2005.
 
 * [Arduino](http://arduino.cc/en/Main/Products)
+* [Minimal TinyAVR 0 Programming](https://hackaday.com/2020/10/05/minimal-tinyavr-0-programming/)
 
 ## PIC / Microchip Technology
 PIC or PICmicro is a family of modified Harvard architecture microcontrollers
@@ -91,6 +92,7 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 
 ## Blue Pill STM32
 * [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide](https://www.youtube.com/watch?v=EaZuKRSvwdo&t=13s&app=desktop)
+* [STM32 Clones: The Good, The Bad And The Ugly](https://hackaday.com/2020/10/22/stm32-clones-the-good-the-bad-and-the-ugly/)
 
 ## Intel
 * [Intel Edison Module](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)

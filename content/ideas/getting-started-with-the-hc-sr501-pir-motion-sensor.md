@@ -3,6 +3,7 @@ Image for summary - https://i1.wp.com/henrysbench.capnfatz.com/wp-content/upload
 * [Microwave Sensor - 5.8GHz Doppler Radar Motion Sensor](https://www.seeedstudio.com/MW0581TR11-5-8GHz-Microwave-Doppler-Radar-Motion-Sensor-p-4366.html)
 * [Microwave vs PIR Sensor](https://www.seeedstudio.com/blog/2019/12/13/which-arduino-motion-sensor-to-use-microwave-or-pir-sensor)
 
+# HC-SR501 Passive Infrared (PIR) motion Sensor
 [!hr-sr501](https://www.squirrel-labs.net/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/i/r/irmodule_3.jpg)
 The [HC-SR501 Passive Infrared (PIR) motion sensor][01]
 will detect infrared changes, which can often be interpreted as motion.
@@ -57,6 +58,8 @@ http://blog.roman-mueller.ch/index.php/2013/01/26/hc-sr501-passive-infrared-sens
 * [Microwave Sensor - 5.8GHz Doppler Radar Motion Sensor](https://www.seeedstudio.com/MW0581TR11-5-8GHz-Microwave-Doppler-Radar-Motion-Sensor-p-4366.html)
 * [Microwave vis PIR Sensors](https://www.seeedstudio.com/blog/2019/12/13/which-arduino-motion-sensor-to-use-microwave-or-pir-sensor/)
 
+# MLX90614 Infrared Thermometer
+* [SparkFun IR Thermometer Evaluation Board - MLX90614](https://www.sparkfun.com/products/10740)
 
 
 

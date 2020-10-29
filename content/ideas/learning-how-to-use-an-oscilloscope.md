@@ -28,6 +28,7 @@
 * [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
 * [History of the Oscilloscope: Oersted’s Laws and Hand Drawn Waveforms](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-oersteds-laws-and-hand-drawn-waveforms/)
 * [History of the Oscilloscope: Visualizing with Light, the CRT, to the Modern Oscilloscope](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-visualizing-with-light-crt-modern-oscilloscope/)
+* [vintageTEK - Online Museum of TekTronix Oscilloscopes](https://vintagetek.org/exhibits/)
 
 # Digital Oscilloscope Specs
 * [Understanding Digital Oscilloscope Sample Rate and Analog Bandwidth Specs](https://www.allaboutcircuits.com/technical-articles/understanding-digital-oscilloscope-sample-rate-analog-bandwidth)

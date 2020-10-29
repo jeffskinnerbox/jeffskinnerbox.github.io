@@ -8,6 +8,7 @@
     * [OpenSCAD](http://www.openscad.org/)
     * [FreeCAD](https://www.freecadweb.org/)
     * [SolveSpace](http://solvespace.com/index.pl)
+    * [OpenCascade / CascadeStudio](https://hackaday.com/2020/09/30/hyper-links-and-hyperfunctional-text-cad/)
     * [TINKERCAD](https://www.tinkercad.com/)
     * [Onshape](https://www.onshape.com/open-source)
     * [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
@@ -51,6 +52,7 @@ and their conversion to [PCB designs][46].
 * [Add An Ant To Your Desk For Some Compact PCB Manufacturing](https://hackaday.com/2019/07/27/add-an-ant-to-your-desk-for-some-compact-pcb-manufacturing/)
 * [KiCad Panelization Made Easy](https://hackaday.com/2020/04/25/kicad-panelization-made-easy/)
 * [Circuit Simulations with KiCad](https://www.woolseyworkshop.com/2019/07/01/performing-a-circuit-simulation-in-kicad/)
+* [Let KiCad And Python Make Your Coils](https://hackaday.com/2020/10/19/let-kicad-and-python-make-your-coils/)
 
 * [EEVblog #1259 - PCB Manufacturing Options EXPLAINED](https://www.youtube.com/watch?v=mT2Vp3HcIP4&)
 * [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
@@ -140,6 +142,7 @@ import designs from other CAD software application for use or modification on yo
 * [OpenSCAD vs. FreeCAD - Using FreeCAD to Export a printable STL of an OpenSCAD Model](https://www.youtube.com/watch?v=G66zAjnZpcc)
 * [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
 * [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
+* [FreeCAD Parametrics Made Simple](https://hackaday.com/2020/10/09/freecad-parametrics-made-simple/)
 
 ### FreeCAD + CadQuery
 Like OpenSCAD, [FreeCAD][09] is a parametric modeler.

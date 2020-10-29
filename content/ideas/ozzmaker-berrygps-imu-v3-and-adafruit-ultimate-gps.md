@@ -398,6 +398,15 @@ GPX files store three types of data:
 ----
 
 
+# Enable the USB Gadget Support
+With USB Gadget support,
+you can plug your Pi directly into your PC and get to it without any 3rd party software
+and the Pi can use a separate wireless network such as your phone.
+This helps create a setup that’s friendly for travel and requires very little cost.
+
+* [enable the USB Gadget support on the Raspberry Pi Zero W](https://back7.co/home/weekend-project-portable-pi-zero-usb-gadget)
+
+
 # Raspberry Pi Zero Setup
 I have set up all all my Raspberry Pi's as [headless devices][01].
 For one thing, I want to SSH into my devices so I don't want
@@ -1462,6 +1471,9 @@ you can use the same procedure (Steps 4 onward) used for the OzzMaker BerryGPS d
 
 ----
 
+
+# WiFi Scan Mapping
+* [Creepy Wireless Stalking Made Easy](https://hackaday.com/2016/12/04/creepy-wireless-stalking-made-easy/)
 
 # GPS Data Logger and Mapping
 The posts ["BerryGPS Data logger using a BerryGPS"][29]

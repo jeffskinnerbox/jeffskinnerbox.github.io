@@ -24,6 +24,8 @@ to the walled gardens you are trying to gain access to.
 * [Flipper Zero/One — Tamagotchi for Hackers](https://hackaday.io/project/170875/logs)
 * [Flipper Zero Blasts Past Funding Goal And Into Our Hearts](https://hackaday.com/2020/09/02/flipper-zero-blasts-past-funding-goal-and-into-our-hearts/)
 
+* [Automated Tools For WiFi Cracking](https://hackaday.com/2020/09/30/automated-tools-for-wifi-cracking/)
+
 
 
 

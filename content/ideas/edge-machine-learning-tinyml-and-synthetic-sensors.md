@@ -18,6 +18,8 @@ TinyML is a community of engineers focused on how best to implement machine lear
 * [Data Driven Science & Engineering Machine Learning, Dynamical Systems, and Control](http://databookuw.com/databook.pdf)
 * [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems]()
 
+* [Free Online Resources To Get A Comprehensive Understanding Of TinyML](https://analyticsindiamag.com/free-online-resources-to-get-a-comprehensive-understanding-of-tinyml/)
+
 # μTensor
 * [μTensor](https://utensor.github.io/website/)
 
@@ -40,6 +42,10 @@ TinyML is a community of engineers focused on how best to implement machine lear
 # TinyML Tools
 * [NanoEdge AI Studio](https://cartesiam.ai/)
 * [Audio Analytic](https://www.audioanalytic.com/)
+
+# ATtiny85
+* [Tiny Machine Learning on the ATtiny85](https://hackaday.com/2020/01/07/tiny-machine-learning-on-the-attiny85/)
+
 
 # Sensor Array / Synthetic Sensor
 The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)

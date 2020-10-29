@@ -80,6 +80,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 # Spark Gap Radio
 * [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 * [Revolutionary Spark Gap Radio REBUILT!!](https://www.youtube.com/watch?v=7QlQ__JzKNI)
+* [Making a Spark-Gap Transmitter](https://www.youtube.com/watch?v=SnKKj2bonAI&feature=youtu.be)
 
 # Coherer
 The [coherer](https://en.wikipedia.org/wiki/Coherer)
@@ -90,6 +91,7 @@ and De Forest's Audion (aka Triode Vacuum Tube).
 For more information, see Kathy Balistreri excellent videos on the ["Secret History of Electricity"](https://www.youtube.com/channel/UCYrX5FiWjiPd0JytMh6NX1Q)
 Specifically, check out:
 
+* [Let's try to build a Vacuum Tube Radio](https://www.youtube.com/watch?v=wuK_Fl88sPU)
 * [Triode Vacuum Tube: History & Physics](https://www.youtube.com/watch?v=0Smj2nHo9zA)
 * [Reginald Fessenden & the Physics of the First Radio Broadcast](https://www.youtube.com/watch?v=RYHaihLhBvc)
 * [The Arc Transmitter (Poulsen Arc) and the Titanic](https://www.youtube.com/watch?v=hrmx_TKNvyc)
@@ -167,6 +169,8 @@ by building your own coherer.
 * [Homemade Capacitors Of A Mad Scientist](http://hackaday.com/2016/10/03/homemade-capacitors-of-a-mad-scientist/)
 * [How to Measure the Dielectric Constant for DIY Capacitors](http://hackaday.com/2016/10/12/measuring-the-dielectric-constant-for-diy-capacitors/)
 * [Lightning Generator Made Of Water (DIY Marx)](https://www.youtube.com/watch?v=WDfZFSay_1A&t=364s)
+
+* [How to choose the right capacitor type for a circuit?! || Film vs. Ceramic vs. Electrolytic](https://www.youtube.com/watch?v=2v8zBj7_sxg&feature=youtu.be)
 
 ## Inductor
 * [Digging In The Dirt Yields Homebrew Inductors](https://hackaday.com/2020/09/13/digging-in-the-dirt-yields-homebrew-inductors/)

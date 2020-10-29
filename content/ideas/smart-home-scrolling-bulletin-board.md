@@ -280,6 +280,20 @@ using a device's existing speaker and mic.
 * [Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
 * [Resemble](https://www.resemble.ai/)
 
+# Display Server Attacks
+* [Displaying Incoming Server Attacks By Giving Server Logs A Scoreboard](https://hackaday.com/2020/09/23/displaying-incoming-server-attacks/)
+
+
+
+------
+
+
+
+# Controller for the Scroller
+* [Knobby](https://github.com/quadule/knobby)
+* [Small Spotify Remote Broadens Musical Horizons](https://hackaday.com/2020/10/21/small-spotify-remote-broadens-musical-horizons/)
+* [PiAlert – V1](https://nick-web.co.uk/raspberrypi/posts/2020-09-21/pialert)
+
 
 
 [01]:https://io.adafruit.com/

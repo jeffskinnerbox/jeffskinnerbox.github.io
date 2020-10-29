@@ -94,6 +94,8 @@ So when you plug the RPi Zero into a computer, it could start typing!
 (although Windows and Mac have difficulty handling it)
 * **Gadget Tester** (`g_zero`) – Used for testing purposes
 
+* [enable the USB Gadget support on the Raspberry Pi Zero W](https://back7.co/home/weekend-project-portable-pi-zero-usb-gadget)
+
 ## Console Access to RPi Zero
 [!sereial-cable](https://cdn-shop.adafruit.com/970x728/954-02.jpg)
 A [USB to TTL serial cable][35] (aka console cable)
@@ -782,6 +784,7 @@ The following articles could be helpful:
 
 ## Step 7B: Battery Supply + Power Monitoring
 * [LiFePO4wered/Pi3 Product Brief](https://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf)
+* [The PiWatcher](https://www.omzlo.com/articles/the-piwatcher)
 
 [!LiFePO4wered/Pi](https://cdn.hackaday.io/images/9332751457457361166.jpg)
 The [LiFePO4wered/Pi][85] (purchase on [Tindie][87])

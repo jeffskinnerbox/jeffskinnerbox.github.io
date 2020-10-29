@@ -308,6 +308,9 @@ Lightning Basics - https://www.nssl.noaa.gov/education/svrwx101/lightning/
 * [Simple Seismic Sensor Makes Earthquake Detection Personal](https://hackaday.com/2019/10/28/simple-seismic-sensor-makes-earthquake-detection-personal/)
 * [Earthquake sensor from OpenElectronicsStore on Tindie](https://www.tindie.com/products/openelectronics/earthquake-sensor/)
 
+# Sensing The Earth’s Wobble
+* [Sensing The Earth’s Wobble In Time](https://hackaday.com/2020/10/08/sensing-the-earths-wobble-in-time/)
+
 # OpenEEW
 earthquake early-warning systems OpenEEW
 * [The Linux Foundation, Grillo and IBM Announce New Earthquake Early-Warning Open Source Project](https://www.linuxfoundation.org/press-release/2020/08/the-linux-foundation-grillo-and-ibm-announce-new-earthquake-early-warning-open-source-project/)

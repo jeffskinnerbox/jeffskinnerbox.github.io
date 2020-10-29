@@ -15,6 +15,7 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Drone Theory 101: Part 1. The basics, and how an fpv quadcopter functions!](https://www.youtube.com/watch?v=K05UwsiqZ_E)
 * [Build Your Own Selfie Drone With Computer Vision](https://hackaday.com/2019/06/30/build-your-own-selfie-drone-with-computer-vision/)
 * [Micro 105 FPV Quadcopter](https://www.thingiverse.com/thing:1221911)
+* [Dynamic Soaring: 545 MPH RC Planes Have No Motor](https://hackaday.com/2020/09/24/dynamic-soaring-545-mph-rc-planes-have-no-motor/)
 
 ## Mini-Drone
 * [The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)

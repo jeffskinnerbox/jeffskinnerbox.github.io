@@ -121,8 +121,16 @@ The Tesla coil provides a high voltage demonstration of a resonant transformer.
 
 What did Nikola Tesla have in mind?
 Nikola Tesla wanted to beam power without wires.
+
+**Build This**
+* [DIY 3 volt tesla coil MUSEUM QUALITY](https://www.youtube.com/watch?v=zbV1zyg_4qU)
+* [SEE-THROUGH Portable Tesla Coil ( DIY, Museum Quality)](https://www.youtube.com/watch?v=jMgG3qrt-JM)
+* [A Miniature Power Supply for High Voltage Hacking](https://hackaday.com/2020/08/23/a-miniature-power-supply-for-high-voltage-hacking/)
+
+
 * [Tesla Coil - Wireless Power Machine 3D Printed (ft .Plasma Channel)](https://www.youtube.com/watch?v=ZITh9C_7hbg)
 * [Tesla Coil Electric Bikes Is Wireless](https://hackaday.com/2020/09/09/tesla-coil-electric-bikes-is-wireless/)
+* [How to make a powerful Tesla coil](https://www.youtube.com/watch?v=lkyuRBgrQ3g&feature=youtu.be)
 * [New Zealand To Test Wireless Power Transmission](https://hackaday.com/2020/09/10/new-zealand-to-test-wireless-power-transmission/)
 * [Texas Tesla Tower Titillates](https://hackaday.com/2019/11/20/texas-tesla-tower-titillates/)
 

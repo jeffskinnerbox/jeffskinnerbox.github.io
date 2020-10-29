@@ -171,6 +171,9 @@ http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What
 * [SDR Spectrum Grabber](http://hackaday.com/2016/11/18/cache-shortwave-signals-for-later-with-this-sdr-spectrum-grabber/)
 * [sdrangelove - a Qt software defined radio application](http://osmocom.org/projects/sdr/wiki/sdrangelove)
 
+# Ground-Penetrating Radar
+* [Affordable Ground-Penetrating Radar](https://hackaday.com/2020/10/22/affordable-ground-penetrating-radar/)
+
 # P25 Police Scanner
 * [Trunking Police Scanning with SDRTrunk](https://hackaday.com/2020/07/28/trunking-police-scanning-with-sdrtrunk/)
 * [SDR As A Police And Fire Radio Scanner](https://hackaday.com/2013/04/25/sdr-as-a-police-and-fire-radio-scanner/)
@@ -396,6 +399,7 @@ and now even has a script to allow you to start it automatically.
 * [Samy Kamkar: Reverse Engineering for a Secure Future](https://hackaday.com/2018/01/02/samy-kamkar-reverse-engineering-for-a-secure-future/)
 * [Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016](https://www.youtube.com/watch?v=1RipwqJG50c&t=15s)
 * [Samy Kamkar's Crash Course in How to Be a Hardware Hacker](https://www.youtube.com/watch?v=tlwXmNnXeSY&app=desktop)
+* [Interactive Disassembler (IDA)](https://www.hex-rays.com/products/ida/)
 
 # Reverse Engineering Ceiling Fan
 * [Reverse Engineering A Ceiling Fan Remote](https://hackaday.com/2020/03/31/reverse-engineering-a-ceiling-fan-remote/)
@@ -779,6 +783,9 @@ so you could use an old laptop or PC as a development platform.
 
 
 
+
+## PySDR
+* [PySDR: A Guide to SDR and DSP using Python](https://pysdr.org/index.html)
 
 ## GNURadio
 [GNURadio][31] is a gigantic suite of software,

@@ -55,6 +55,7 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [LiFePO4wered/Solar1](https://www.tindie.com/products/xorbit/lifepo4weredsolar1/)
 * [Solar Pi Platter](https://www.tindie.com/products/globoy/solar-pi-platter/)
 * [makerPower Solar](https://www.crowdsupply.com/danjuliodesigns/makerpower-solar)
+* [Let The Solar Free](https://hackaday.com/2020/10/24/let-the-solar-free/)
 
 
 # Implementing Power Management

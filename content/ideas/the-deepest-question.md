@@ -19,6 +19,9 @@ and  after all, [isn't it dead][07]?
 * [Carneades.org](https://carneades.org/)
 * [Youtube: Carneades.org](https://www.youtube.com/user/carneadesofcyrene)
 
+# Very, Very Lage Numbers
+* [A Numbers Game](https://medium.com/@jrf6xh/a-numbers-game-a8ce2ce22aca)
+
 # Philosophy of Numbers
 * [Do numbers EXIST? - Numberphile](https://www.youtube.com/watch?v=1EGDCh75SpQ)
 * [Philosophy of Numbers - Numberphile](https://www.youtube.com/watch?v=vA2cdHLKYB8)
@@ -107,11 +110,18 @@ A function is a relation that uniquely associates members of one set with member
 * [Chaos Theory and the Logistic Map](https://geoffboeing.com/2015/03/chaos-theory-logistic-map/)
 * [Machine Learning’s ‘Amazing’ Ability to Predict Chaos](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/)
 
+# The Hidden Structure of the Universe
+* [A New Map of All the Particles and Forces](https://www.quantamagazine.org/a-new-map-of-the-standard-model-of-particle-physics-20201022)
+* [Chapter 2:]() - Coming October 29
+* [Chapter 3:]() - Coming November 5
+* [Chapter 4:]() - Coming November 12
+
 # What about Quantum Theory?
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
 * [EEVblog #1316 - Quantum Computing for Electrical Engineers](https://www.youtube.com/watch?v=nOQhdgY8aBM)
 * [Long Version: Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0)
 * [How Quantum is the Uncertainty Principle?](https://medium.com/swlh/how-quantum-is-the-uncertainty-principle-4569eb7a9eb1)
+* [Quantum Tunnels Show How Particles Can Break the Speed of Light](https://www.quantamagazine.org/quantum-tunnel-shows-particles-can-break-the-speed-of-light-20201020/)
 
 # What about String Theory?
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
@@ -175,6 +185,10 @@ A function is a relation that uniquely associates members of one set with member
 
 # Nothingness
 * [The Four Different Meanings Of ‘Nothing’ To A Scientist](https://medium.com/starts-with-a-bang/the-four-different-meanings-of-nothing-to-a-scientist-283d9ad185fd)
+
+# Hard Problems
+* [Computer Scientists Break Traveling Salesperson Record](https://www.quantamagazine.org/computer-scientists-break-traveling-salesperson-record-20201008/)
+* [Taking a Crack at the Traveling Salesman Problem](https://hackaday.com/2020/10/21/taking-a-crack-at-the-traveling-salesman-problem/)
 
 
 

@@ -111,6 +111,10 @@ and founded the American Radio Relay League (ARRL).
 
 
 
+# The M17 Project
+* [M17 Aims To Replace Proprietary Ham Radio Protocols](https://hackaday.com/2020/10/02/m17-aims-to-replace-proprietary-ham-radio-protocols/)
+* [The M17 Project](https://m17project.org/)
+
 # Emergency Communications
 * [How to communicate when the world goes silent](https://graywolfsurvival.com/2716/ham-radio-best-shtfdisaster-communication/)
 
@@ -147,6 +151,9 @@ was announced it was described as being designed for,
 * [The $50 Ham: Going Mobile](https://hackaday.com/2020/02/05/the-50-ham-going-mobile/)
 
 * [Ham Radio Prep – Ham Radio Online License Class](https://hamradioprep.com/)
+
+# Noise Sources
+* [Tracking Down Radio Frequency Noise Source, With Help From Mother Nature](https://hackaday.com/2020/09/25/tracking-down-radio-frequency-noise-source-with-help-from-mother-nature/)
 
 # Internet Radio
 * [World Radio Lets Your Fingers Do The Walking](https://hackaday.com/2020/09/12/world-radio-lets-your-fingers-do-the-walking/)

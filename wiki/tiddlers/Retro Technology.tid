@@ -190,7 +190,8 @@ I never used it, but I still have this book; the 13 edition printed in 1928.
 
 It was on [[HP's version|http://www.hpmuseum.org/]]
 of this [[first Desktop Computer|http://hackaday.com/2015/12/08/retrotechtacular-a-desktop-computer-from-1965/]]
-(I believe it might have been a [[HP 9830A|http://www.hpmuseum.org/hp9830.htm]])
+(I believe it might have been a [[HP 9830A|http://www.hpmuseum.org/hp9830.htm]]
+or a [[HP9100|https://hackaday.com/2020/10/02/retrotechtacular-the-5000-40-pound-hp-classroom-computer/]])
 that sparked my interest in software coding.
 Programming it was only slightly better than working in assembly language.
 
@@ -273,6 +274,15 @@ and you will also discover what lengths the designs went to conserve memory
 Despite the navigation technology, it still needed good old retro-technology,
 even for its day, to initialize the LM's AGC.
 Check out the LM's [[Alignment Optical Telescope|http://hackaday.com/2016/09/06/apollo-the-alignment-optical-telescope/#more-220722]].
+
+Speaking of the Apollo moon shoot program,
+let's not forget about the amazing engineering of the
+[[Saturn F-1 Engine|https://www.youtube.com/watch?v=Z37MdvcSaFY]].
+As of 2020, over 50 year since sending man to the moon,
+this is still the most powerful rocket engine ever created,
+delivering 1.5 million pounds of thrust.
+You can stand next-to & touch one of these monsters at the
+[[Smithsonian National Air and Space Museum|https://airandspace.si.edu/collection-objects/f-1-rocket-engine/nasm_A19700271000]].
 
 Do you remember when computer graphics meet
 [[ASCII characters on paper via a teletype terminal|http://hackaday.com/2016/06/28/retrotechtacular-ascii-art-in-the-19th-century/]]?
@@ -373,3 +383,9 @@ It is often used to refer to oversized computers such as Cray’s supercomputer 
 So what is inside big iron?
 Take a look at this [[teardown of a $250,000 1991 vintage IBM 9121 TCM Processor module|https://www.youtube.com/watch?v=xQ3oJlt4GrI&feature=youtu.be]]
 from a System/390 ES9000 Enterprise Server mainframe computer,
+
+While it still lives among us, you could argue that in this wireless world
+[[Ethernet technology is retro-technology at the age of 40+ years|https://hackaday.com/2020/10/19/ethernet-at-40-from-a-napkin-sketch-to-multi-gigabit-links/]].
+This technology orginated at [[Xerox’s Palo Alto Research Center (PARC)|https://www.parc.com/about-parc/parc-history/]]
+a based on an exciting digital satellite technology called [[ALOHAnet|https://en.wikipedia.org/wiki/ALOHAnet]]
+that I learned about in an advance communications course in graduate school.

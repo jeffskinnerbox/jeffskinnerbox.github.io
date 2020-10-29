@@ -3,7 +3,7 @@
 * [Non Intrusive Load Monitoring with Shelly 3EM](https://blog.squix.org/2020/07/non-intrusive-load-monitoring-with-shelly-3em.html)
 * [A Complete Raspberry Pi Power Monitoring System](https://hackaday.com/2020/07/24/a-complete-raspberry-pi-power-monitoring-system/)
 
-
+* [#321 7 Sensors tested: Measuring Current with Microcontrollers (Arduino, ESP32, ESP8266)](https://www.youtube.com/watch?v=cG8moaufmQs&t=75s)
 
 
 

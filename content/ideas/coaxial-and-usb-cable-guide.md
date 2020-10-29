@@ -135,10 +135,18 @@ but it also draws more power, A LOT more of it.
 A regular Type-C cable is able to deliver 3A of current, while higher spec ones go up to 5A.
 USB 2.0 can only support anywhere from 500mA up to 2A.
 
+## Measuring USB Cable Resistance
+* [Measuring USB cable resistance using USB testers](https://www.youtube.com/watch?v=9IG9wSS3F9w)
+
+### USB-C
 It’s 2019 and USB-C is still a mess - https://www.androidauthority.com/state-of-usb-c-870996/
 The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable
 
 * [USB-C Is Taking Over… When, Exactly?](https://hackaday.com/2020/06/23/usb-c-is-taking-over-when-exactly/)
+* [The Wonderful World Of USB Type-C](https://hackaday.com/2018/08/17/the-wonderful-world-of-usb-type-c/)
+
+#### Power Delivery
+* [Here is why USB Type-C is AWESOME and how you can use Power Delivery for your electronics!](https://www.youtube.com/watch?v=OwAZqJ4wpJg)
 
 ## The Annoyances of USB Charging
 Most computers' USB ports can only charge smartphones slowly -- at 0.5 Amp max. Charge current, measured in Amp, indicates how fast it charges; e.g., 1.0 Amp means charging twice as fast as 0.5 Amp.

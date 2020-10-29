@@ -80,7 +80,11 @@ $10K can buy you two [Nvidia Titan V GPUs][49] and a [Intel i7 8700K][50], [cran
 * [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://blog.hackster.io/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797)
 * [Hands-On: New Nvidia Jetson Nano is More Power In A Smaller Form Factor](https://hackaday.com/2019/03/18/hands-on-new-nvidia-jetson-nano-is-more-power-in-a-smaller-form-factor/)
 * [Hands On With Nvidia's New Jetson Nano](https://www.extremetech.com/computing/288153-hands-on-with-nvidias-new-jetson-nano)
+
+# Google Coral
 * [Google Coral Edge TPU vs NVIDIA Jetson Nano: A quick deep dive into EdgeAI performance](https://blog.usejournal.com/google-coral-edge-tpu-vs-nvidia-jetson-nano-a-quick-deep-dive-into-edgeai-performance-bc7860b8d87a)
+* [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
+* [You Can Now Preorder the Google Coral Dev Board Mini](https://www.makeuseof.com/preoder-google-coral-dev-board-mini/)
 
 
 

@@ -14,6 +14,7 @@
 * [Cluster computing on the Raspberry Pi with Kubernetes](https://opensource.com/life/16/2/build-a-kubernetes-cloud-with-raspberry-pi)
 
 ## Using Raspberry Pi for Hadoop Cluster
+* [Cluster Deck Packs Four Pis Into One Portable Package](https://hackaday.com/2020/10/22/cluster-deck-packs-four-pis-into-one-portable-package/)
 * [Raspberry Pi Cluster Shows You The Ropes](https://hackaday.com/2020/04/24/raspberry-pi-cluster-shows-you-the-ropes/)
 * [Five years of Raspberry Pi clusters](https://medium.com/@alexellisuk/five-years-of-raspberry-pi-clusters-77e56e547875)
 * [Raspberry Pi Supercomputer Cluster](https://www.youtube.com/watch?v=VzcarXuVUvU)

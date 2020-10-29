@@ -19,5 +19,10 @@ Compatible with Arduino and MicroPython, Wio Terminal is an ATSAMD51-based micro
 * [Sipeed Maix Amigo](https://www.seeedstudio.com/Sipeed-Maix-Amigo-p-4689.html)
 * [Sipeed Maix Amigo is a Portable 64-bit RISC-V AI Development Kit with Display and Cameras](https://www.cnx-software.com/2020/08/24/sipeed-maix-amigo-portable-64-bit-risc-v-ai-development-kit-display-cameras/)
 
+# Projects
+* [Wio Terminal MQTT Client Using Arduino IDE](https://dzone.com/articles/wio-terminal-mqtt-client-using-arduino-ide)
+* [Wio Terminal Attitude Indicator](https://www.hackster.io/SeeedStudio/wio-terminal-attitude-indicator-eae8d6)
+* [Using Web Bluetooth APIs with Wio Terminal](https://wiki.seeedstudio.com/Wio-Terminal-Web-Bluetooth/)
+
 
 

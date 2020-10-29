@@ -15,3 +15,14 @@ Most power supplies are designed in such a way that it is optimized for CV opera
 
 * [4 Ways to Build Your Power Supply Skill Set](https://www.keysight.com/us/en/assets/7018-06003/ebooks/5992-2716.pdf)
 
+
+
+-----
+
+
+
+# Build Your Own Power Supply
+Good thing to have on the basement workbench.
+
+* [Bench Supplies Get Smaller Thanks To USB-C](https://hackaday.com/2020/10/19/bench-supplies-get-smaller-thanks-to-usb-c/)
+

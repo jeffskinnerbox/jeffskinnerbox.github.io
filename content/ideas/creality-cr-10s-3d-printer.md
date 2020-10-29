@@ -553,6 +553,7 @@ Sources:
 
 * [Creality CR-10S Mods and Review](https://www.youtube.com/watch?v=sC4vXBgNvY0)
 * [Creality CR-10 Mods and Review](https://www.youtube.com/watch?v=4V8Vi17qiCA)
+* [Creality CR-10 DIY Stand Alone KIT modification](https://www.youtube.com/watch?v=pKgHxoWwfpo&app=desktop)
 * [10 Must-Have Creality CR-10 Upgrades and Mods](https://all3dp.com/2/10-must-have-creality-cr-10-upgrades-and-mods/)
 * [Thingiverse: CR-10 Mods](https://www.thingiverse.com/UncleJessy/collections/cr-10-mods)
 * [Creality CR-10 tool holder](https://www.thingiverse.com/thing:2253349)

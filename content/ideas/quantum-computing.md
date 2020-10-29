@@ -11,6 +11,15 @@
 * [The Golden Age Of Quantum Computing Is Upon Us (Once We Solve These Tiny Problems)](http://www.fastcompany.com/3045708/big-tiny-problems-for-quantum-computing)
 * [Quantum Computing And The End Of Encryption](https://hackaday.com/2020/06/11/quantum-computing-and-the-end-of-encryption/)
 
+# Towards a Demystification of Quantum Mechanics
+* [episode 1: the concept of state](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-de9053357cb8)
+* [episode 2: forces and interactions](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-e9c519c9b184)
+* [episode 3: what is a beam of electrons made of?](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-9b7b1659e4)
+* [episode 4: an introduction to quantum field theory](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-dddcabf25ad3)
+* [episode 5: the collapse of the wavefunction](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-91bcada12348)
+* [The Karpinsky Interpretation of Quantum Mechanics](https://medium.com/@john_99387/the-karpinsky-interpretation-of-quantum-mechanics-7013db304c4d)
+* [Duality Of Light Explored By Revisiting The Double-Slit Experiment](https://hackaday.com/2020/10/18/duality-of-light-explored-by-revisiting-the-double-slit-experiment/)
+
 # Tutorials on Quantum Computing
 
 ## Simple Simulator

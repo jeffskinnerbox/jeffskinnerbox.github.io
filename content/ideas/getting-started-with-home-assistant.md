@@ -138,12 +138,22 @@ No more worrying about your SD card dying on you out of nowhere. Enjoy!
 ------
 
 
+
+# Stress Tesing
+* [How to Stress Test Temperature on Raspberry Pi (Stressberry)](https://core-electronics.com.au/tutorials/how-to-stress-test-temperature-on-raspberry-pi.html)
+* [Stress Testing the Raspberry Pi](https://www.instructables.com/Stress-Testing-the-Raspberry-Pi/)
+* [Stress Testing Your Raspberry Pi (for Cooling and Overclocking)](https://core-electronics.com.au/tutorials/stress-testing-your-raspberry-pi.html)
+
+------
+
+
 # Smart Home / IoT Platform
 So what do I load onto my hardware platform to give me the full Smart Home / IoT Platform experiance?
 
 * [#295 Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc: IOTstack](https://www.youtube.com/watch?v=a6mjt8tWUws)
 * [#352 Raspberry Pi4 Home Automation Server (incl. Docker, OpenHAB, HASSIO, NextCloud)](https://www.youtube.com/watch?v=KJRMjUzlHI8&t=849s)
 * [Raspberry Pi as SMART HOME hub – (Video Tutorial)](https://peyanski.com/raspberry-pi-as-smart-home-hub-video-tutorial/)
+* [Easy Home Assistant, Node-RED, InfluxDB and Grafana Integration](https://peyanski.com/home-assistant-node-red-influxdb-and-grafana-integration/)
 
 ### Node-Red, InfluxDB, Mosquitto, and Grafana
 * [#255 Node-Red, InfluxDB, and Grafana Tutorial on a Raspberry Pi](https://www.youtube.com/watch?v=JdV4x925au0)
@@ -194,6 +204,12 @@ Lovelace is the Home Assistant dashboard.
 # Smart Home / IoT Devices
 
 ### ESPHome
+Tasmota or ESPHome, together with Home Assistant are often seen together for home automation.
+Most of the focus is on flashing and integrating readily available devices and sensors.
+But which framework is better also for our do-it-yourself sensors and ESP32 boards.
+
+* [Tasmota vs ESPhome: Who wins?](https://www.youtube.com/watch?v=nHaFM0tKOvY&feature=youtu.be)
+
 Esphome shows a lot of promise.
 It has over-the-air updates, it automatically compiles based on some yaml and uploads it! If it cant upload it (like the initial flash) I would simply set up the yaml, compile it, SCP it locally and flash it with https://github.com/espressif/esptool. If this worked, it would now support OTA updates.
 
@@ -209,6 +225,7 @@ Also: the server runs as a container, so its running on my Server network on nom
 * [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
 * [Roll Your Own Automation With ESPHome](https://hackaday.com/2020/04/20/roll-your-own-automation-with-esphome/)
 * [My Secure Smart Home](https://marcyoung.us/post/smart-home/)
+
 
 
 ------

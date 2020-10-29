@@ -2,7 +2,6 @@
 # ESP32-S2
 * [The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?time_continue=51&v=L6IoSVdKwNM&feature=emb_logo)
 * [#339 The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?v=L6IoSVdKwNM)
-* [A Comparison of the New ESP32-S2 to the ESP32](https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32)
 * [EYE on NPI - Espressif ESP32-S2 SoC](https://www.youtube.com/watch?v=4F25y-P8krM)
 * [ESP32-S2 Processor Datasheet Released, Development Boards Unveiled](https://www.cnx-software.com/2019/09/03/esp32-s2-processor-datasheet-released-development-boards-unveiled/)
 * [FeatherS2 Board Brings ESP32-S2 to Adafruit Feather Form Factor](https://www.cnx-software.com/2020/10/05/feathers2-board-brings-esp32-s2-to-adafruit-feather-form-factor/)
@@ -15,6 +14,8 @@
 * [My ESP32 videos](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ)
 
 * [RemoteDebug for ESP Platforms](https://hackaday.com/2019/03/07/remotedebug-for-esp-platforms/)
+
+* [#328 ESP32 Secrets: Interrupts, and Deep-Sleep under the Hood](https://www.youtube.com/watch?v=CJhWlfkf-5M)
 
 
 * [Using the ESP8266 to build the Internet of Things](https://www.youtube.com/watch?v=CjeDkmm0w_w&app=desktop)
@@ -115,6 +116,7 @@ Prerequisites
 
 # ESP Security
 * [Don’t Toss That Bulb, It Knows Your Password](https://hackaday.com/2019/01/29/dont-toss-that-bulb-it-knows-your-password/)
+* [ESP32 Vulnerability Affects Older Chips](https://hackaday.com/2020/09/24/esp32-vulnerability-affects-older-chips/)
 
 # Watchdog Time
 * [Preventing Embedded Fails with Watchdogs](https://hackaday.com/2019/01/12/preventing-embedded-fails-with-watchdogs/)

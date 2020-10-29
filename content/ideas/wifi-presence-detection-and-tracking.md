@@ -45,6 +45,7 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [Quickie WiFi Scanner](http://hackaday.com/2016/02/24/quickie-wifi-scanner/)
 * [WiFi Scanner -Know the WiFi Signal around you](https://community.seeedstudio.com/WiFi-Scanner--Know-the-WiFi-Signal-around-you--p-220.html)
 * [esp8266locationtracker - Opportunistically track and transmit the location of a ESP8266](https://github.com/dancudds/esp8266locationtracker)
+* [ESP8266 Turned Secretive WiFi Probe Request Sniffer](https://hackaday.com/2020/09/20/esp8266-turned-secretive-wifi-probe-request-sniffer/)
 
 ----
 
@@ -107,6 +108,8 @@ This chip includes a GPS processor, WiFi scanner, and a Lora radio
 * [Offical version writen in Go - FIND GitHub](https://github.com/schollz/find3)
 * [Python version - FIND GitHub](https://github.com/kootenpv/find)
 * [find-lf - extension of FIND, the Framework for Internal Navigation and Discovery](https://github.com/schollz/find-lf)
+* [Track Wi-Fi Devices In Your Home](https://hackaday.com/2016/12/25/track-wi-fi-devices-in-your-home/)
+* [Creepy Wireless Stalking Made Easy](https://hackaday.com/2016/12/04/creepy-wireless-stalking-made-easy/)
 
 ----
 

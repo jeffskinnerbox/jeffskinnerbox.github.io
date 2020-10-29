@@ -66,6 +66,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [Time Zone Map](https://www.timeanddate.com/time/map/)
 * [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
 * [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
+* [Slide Clock](https://www.instructables.com/Slide-Clock/)
 
 # Ferrofliud Clock
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)

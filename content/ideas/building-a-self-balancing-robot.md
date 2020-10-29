@@ -65,6 +65,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun](https://www.kickstarter.com/projects/petoi/bittle)
     * [sit(); Good Boy!](https://www.hackster.io/news/sit-good-boy-e0f259d88d44)
 * [The Spot Micro Is a Much Smaller, Cheaper, and DIY Version of Its Namesake](https://www.hackster.io/news/the-spot-micro-is-a-much-smaller-cheaper-and-diy-version-of-its-namesake-d93c1d36fe91)
+* [The Adorable Robot Spot, Now In Affordable Form](https://hackaday.com/2020/10/23/the-adorable-robot-spot-now-in-affordable-form/)
 
 # Jumping Robot
 * [Little Jumping Bot Can Now Stick The Perfect Landing](https://hackaday.com/2020/08/02/little-jumping-bot-can-now-stick-the-perfect-landing/)

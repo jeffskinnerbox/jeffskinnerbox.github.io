@@ -124,6 +124,7 @@
 * [LoRaWAN Encryption Keys Easy to Crack, Jeopardizing Security of IoT Networks](https://threatpost.com/lorawan-encryption-keys-easy-to-crack-jeopardizing-security-of-iot-networks/152276/)
 * [How to detect and prevent issues with vulnerable LoRaWAN networks](https://www.helpnetsecurity.com/2020/01/28/vulnerable-lorawan-networks/)
 * [LoRaWAN Networks Susceptible to Hacking: Common Cyber Security Problems, How to Detect and Prevent Them](https://act-on.ioactive.com/acton/attachment/34793/f-87b45f5f-f181-44fc-82a8-8e53c501dc4e/1/-/-/-/-/LoRaWAN%20Networks%20Susceptible%20to%20Hacking.pdf)
+* [LoRaWAN & MQTT: What to Know When Securing Your IoT Network](https://securityboulevard.com/2020/10/lorawan-mqtt-what-to-know-when-securing-your-iot-network/)
 
 
 
