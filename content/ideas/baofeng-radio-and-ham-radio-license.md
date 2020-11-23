@@ -15,6 +15,8 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 * [Hiking Pole Turned Lightweight Yagi Antenna](https://hackaday.com/2020/01/09/hiking-pole-turned-lightweight-yagi-antenna/)
 * [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
 
+* [Projects by Chris Thompson](https://www.g0kla.com/index.php)
+
 
 
 

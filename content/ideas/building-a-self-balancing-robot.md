@@ -4,6 +4,9 @@ Consider this for radio remote control - [Pi GRRL Zero Parts Kit - Includes Pi Z
 
 * [The balancing problem](http://twopotatoe.net/?page_id=323)
 
+# Self-Driving Vicheale
+* [Self-Driving RC Truck is a Master’s Thesis in Cybernetics and Robotics](https://hackaday.com/2020/10/31/self-driving-rc-truck-is-a-masters-thesis-in-cybernetics-and-robotics/)
+
 # Let's Robot
 Still in the early stages of development,
 Let's Robot is a live-streaming telepresence platform for controlling robots
@@ -26,6 +29,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Sonic The Hedgehog Self-Balancing Robot Can Bend At The Knees](https://hackaday.com/2020/01/31/sonic-the-hedgehog-self-balancing-robot-can-bend-at-the-knees/)
 * [Sonic The Self-Balancing Robot: Face-Plants And The Challenges Of Sensor Integration](https://hackaday.com/2020/02/26/sonic-the-self-balancing-robot-face-plants-and-the-challenges-of-sensor-integration/)
 * [Autonomous 3D Rover With Tank Tracks Rules The Fields. Almost](https://hackaday.com/2020/04/02/autonomous3d-rover-with-tank-tracks-rules-the-fields-almost/)
+* [OpenBot - Open Source Self-Driving Smartphone Robot](https://hackaday.com/2020/11/06/open-source-self-driving-smartphone-robot/)
 
 # Walking Robot
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
@@ -65,7 +69,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun](https://www.kickstarter.com/projects/petoi/bittle)
     * [sit(); Good Boy!](https://www.hackster.io/news/sit-good-boy-e0f259d88d44)
 * [The Spot Micro Is a Much Smaller, Cheaper, and DIY Version of Its Namesake](https://www.hackster.io/news/the-spot-micro-is-a-much-smaller-cheaper-and-diy-version-of-its-namesake-d93c1d36fe91)
-* [The Adorable Robot Spot, Now In Affordable Form](https://hackaday.com/2020/10/23/the-adorable-robot-spot-now-in-affordable-form/)
+* [The Adorable Robot Spot, Now In Affordable Form](https://hackaday.com/2020/10/23/the-adorable-robot-spot-now-in-affordable-form)
 
 # Jumping Robot
 * [Little Jumping Bot Can Now Stick The Perfect Landing](https://hackaday.com/2020/08/02/little-jumping-bot-can-now-stick-the-perfect-landing/)
@@ -97,9 +101,11 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Kinetic Sculpture Achieves Balance Through Machine Learning](https://hackaday.com/2018/10/26/kinetic-sculpture-achieves-balance-through-machine-learning/)
 * [ESPway | A Segway-style WiFi controlled robot built on ESP8266](http://brobot.tistory.com/m/6)
 
-# Balancing Wheel
+# Reaction Wheel Balancing
 * [Balance Wheel](http://hackaday.io/project/4267-balance-wheel)
 * [Stick Balances Itself With Reaction Wheels](http://hackaday.com/2016/08/11/stick-balances-itself-with-reaction-wheels/)
+* [Resistance Is Futile: Balancing Cubes Are Taking Over!](https://hackaday.com/2016/03/25/resistance-is-futile-balancing-cubes-are-taking-over/)
+* [reaction wheel balancing](https://www.youtube.com/watch?v=wFZl9MwwkB8)
 
 # Inverted Pendulum
 * [Inverted Pendulum For The Control Enthusiast](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)

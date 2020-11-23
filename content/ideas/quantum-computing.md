@@ -11,6 +11,14 @@
 * [The Golden Age Of Quantum Computing Is Upon Us (Once We Solve These Tiny Problems)](http://www.fastcompany.com/3045708/big-tiny-problems-for-quantum-computing)
 * [Quantum Computing And The End Of Encryption](https://hackaday.com/2020/06/11/quantum-computing-and-the-end-of-encryption/)
 
+
+# PennyLane
+A cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network.
+
+* [PennyLane](https://pennylane.ai/)
+
+
+
 # Towards a Demystification of Quantum Mechanics
 * [episode 1: the concept of state](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-de9053357cb8)
 * [episode 2: forces and interactions](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-e9c519c9b184)
@@ -19,6 +27,9 @@
 * [episode 5: the collapse of the wavefunction](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-91bcada12348)
 * [The Karpinsky Interpretation of Quantum Mechanics](https://medium.com/@john_99387/the-karpinsky-interpretation-of-quantum-mechanics-7013db304c4d)
 * [Duality Of Light Explored By Revisiting The Double-Slit Experiment](https://hackaday.com/2020/10/18/duality-of-light-explored-by-revisiting-the-double-slit-experiment/)
+
+# Making a Quantum Computer
+* [Making a Quantum Computer at Home](https://okezuebell.medium.com/making-a-quantum-computer-at-home-bc59afe72d7d)
 
 # Tutorials on Quantum Computing
 

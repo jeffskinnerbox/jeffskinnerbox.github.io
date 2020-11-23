@@ -72,6 +72,7 @@ that when investigated or explained may prove to be well founded or true.
 An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - [Cantor's Paradox](https://www.youtube.com/watch?v=WIrdyu9WquQ)
 
 #  Gödel’s Incompleteness Theorems
+* [Gödel’s First Incompleteness Theorem](https://medium.com/@laurgao/g%C3%B6dels-first-incompleteness-theorem-d41516ccd37d)
 * [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
 * [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
 
@@ -122,6 +123,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Long Version: Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0)
 * [How Quantum is the Uncertainty Principle?](https://medium.com/swlh/how-quantum-is-the-uncertainty-principle-4569eb7a9eb1)
 * [Quantum Tunnels Show How Particles Can Break the Speed of Light](https://www.quantamagazine.org/quantum-tunnel-shows-particles-can-break-the-speed-of-light-20201020/)
+* [The Most Famous Paradox in Physics Nears Its End](https://www.quantamagazine.org/the-black-hole-information-paradox-comes-to-an-end-20201029/)
 
 # What about String Theory?
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
@@ -150,6 +152,7 @@ A function is a relation that uniquely associates members of one set with member
 * [The block collision puzzle](https://www.youtube.com/playlist?list=PLZHQObOWTQDMalCO_AXOC5GWsuY8bOC_Y)
 * [The Beauties Hidden in Pi(π)](https://medium.com/however-mathematics/the-beauties-hidden-in-pi-%CF%80-1c614e636426)
 * [Estimating π with Monte-Carlo-Simulations](https://medium.com/cantors-paradise/estimating-%CF%80-using-monte-carlo-simulations-3459a84b5ef9)
+* [A Beautiful Way to Calculate π: Buffon’s Needle Problem](https://medium.com/however-mathematics/a-beautiful-way-to-calculate-%CF%80-buffons-needle-problem-51d41029f287)
 
 # Bootstrapping
 * [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)
@@ -189,6 +192,21 @@ A function is a relation that uniquely associates members of one set with member
 # Hard Problems
 * [Computer Scientists Break Traveling Salesperson Record](https://www.quantamagazine.org/computer-scientists-break-traveling-salesperson-record-20201008/)
 * [Taking a Crack at the Traveling Salesman Problem](https://hackaday.com/2020/10/21/taking-a-crack-at-the-traveling-salesman-problem/)
+
+# Critical Phenomena
+* [The Fascinating Mystery of Systems with Many Length Scales](https://medium.com/cantors-paradise/the-fascinating-mystery-of-systems-with-many-lengths-24ec663e7d1b)
+
+# Category Theory
+* [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
+
+# Quantum Entanglement
+* [A new perspective on quantum entanglement](https://medium.com/the-infinite-universe/a-new-perspective-on-quantum-entanglement-3dbcde93ffdb)
+
+# What Is a Particle?
+* [What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
+
+# Uncomputable Numbers
+* [Uncomputable Numbers](https://medium.com/cantors-paradise/uncomputable-numbers-ee528830d295)
 
 
 

@@ -44,6 +44,24 @@ the Raspberry Pi has a 10/100 Mbps interface, with maximum traffic throughput of
 * [Iperf cheat sheet](https://www.jamescoyle.net/cheat-sheets/581-iperf-cheat-sheet)
 * [Video: iPerf3 Interoperability](https://www.youtube.com/watch?v=_K6uUOZwr40)
 
+# Measure Networked File Transfer Speed
+We can combine `nc` and `dd` to measure networked file transfer speeds.
+To do this, on the server machine, we again run `netcat` in “listen” mode,
+and on the client machine we use `dd` to pipe n bytes of zeroes over the connection:
+
+```bash
+# on server machine
+nc -l 1234
+
+# on client machine
+dd if=/dev/zero bs=1M count=1K | nc -vv 10.10.0.2 1234
+```
+
+Here `bs` is the block size in bytes and `count` is the number of blocks sent.
+The `-vv` argument to `nc` tells it to produce verbose output.
+
+* [Two Power Commands for Unix Ninjas](https://levelup.gitconnected.com/two-overlooked-commands-for-unix-ninjas-55b8bfc4dc84)
+
 # Network Performance Testing with wget
 If you want to test throughout and packet loss,
 iPerf or iPerf3 are the way to go since those tools run in memory.

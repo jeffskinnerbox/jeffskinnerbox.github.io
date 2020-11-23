@@ -13,6 +13,12 @@ DragonOS is a Debian Linux based operating system which comes with many open sou
 * [SigDigger - A free digital signal analyzer](https://batchdrake.github.io/SigDigger/)
 
 
+# Documentation and Tutorals
+* [PySDR: A Guide to SDR and DSP using Python](https://pysdr.org/index.html)
+* [SDR for the Radio Amateur](https://www.g0kla.com/sdr/index.php)
+* [GNU Radio: SuggestedReading](https://wiki.gnuradio.org/index.php/SuggestedReading)
+* []()
+
 
 
 ################################################################################
@@ -312,6 +318,7 @@ Kalibrate-RTL
 [RTLSDR Scanner](http://eartoearoak.com/software/rtlsdr-scanner) is a simple cross platform python based spectrum analyzer for the RTL-SDR. The scanner also has an auto calibration feature which can help find the PPM offset of a dongle.
 
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
+* [Product Review: The TinySA, A Shirt-Pocket Sized Spectrum Analyzer](https://hackaday.com/2020/11/09/product-review-the-tinysa-a-shirt-pocket-sized-spectrum-analyzer/)
 * [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
 
@@ -379,6 +386,7 @@ and now even has a script to allow you to start it automatically.
 * [ATTACK SOME WIRELESS DEVICES WITH A RASPBERRY PI AND AN RTL-SDR](https://hackaday.com/2017/09/10/attack-some-wireless-devices-with-a-raspberry-pi-and-an-rtl-sdr/)
 * [EXPLOITING WEAK CRYPTO ON CAR KEY FOBS](https://hackaday.com/2017/10/18/exploiting-weak-crypto-on-car-key-fobs/)
 * [RFCrack - A Software Defined Radio Attack Tool](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
+* [Introduction to Firmware Reverse Engineering](https://www.youtube.com/watch?v=ccgB3UuCxjE)
 
 # Radio Reverse Engineering
 * [USING THE FCC EAS FOR FUN AND PROFIT](https://hackaday.com/2016/10/10/using-the-fcc-eas-for-fun-and-profit/)

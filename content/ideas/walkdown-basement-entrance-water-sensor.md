@@ -156,6 +156,16 @@ USB Isolator - https://www.adafruit.com/product/2107
 # Detecting Low Battery Voltages
 * [Adding a Battery Gauge to a Project with Zero Parts](https://hackaday.com/2014/11/08/adding-a-battery-gauge-to-a-project-with-zero-parts/)
 
+# Distance Sensor
+It has a range of 28 cm to 750 cm with a **read resolution of 1mm**
+(precision isn't specified, but its probably about 5-10 mm).
+
+This sensor has a 'blind' zone distance of 0 to 28 cm,
+that means it can't accurately tell when something is less than that distance away.
+it's best used when you know that the object you're sensing is at least 30 cm from the sensor!
+
+* [Large Ultrasonic (Sonar) Sensor with Horn and UART Output](https://www.adafruit.com/product/4664)
+
 
 
 [01]:https://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf

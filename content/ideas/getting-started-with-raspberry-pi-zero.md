@@ -682,7 +682,7 @@ To work around this, you could simply connect ESP8266 to the serial port in the 
 and start a WiFi point-to_point (PPP) connection to some other machine on your WiFi network,
 giving you terminal access.
 But unfortunately the ESP8266 doesn’t provide PPP support.
-The article "[RASPBERRY PI ZERO + ESP8266 = INTERNET?!][24]"
+The article ["RASPBERRY PI ZERO + ESP8266 = INTERNET?!"][24]
 and [software from Jee Labs][40] does provide away around all this.
 Effectively a [wireless to serial bridge][41] but its more
 like a WiFi co-processor to web-enable, reprogram,
@@ -785,6 +785,7 @@ The following articles could be helpful:
 ## Step 7B: Battery Supply + Power Monitoring
 * [LiFePO4wered/Pi3 Product Brief](https://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf)
 * [The PiWatcher](https://www.omzlo.com/articles/the-piwatcher)
+* [A Super UPS For The Pi](https://hackaday.com/2020/11/05/a-super-ups-for-the-pi/)
 
 [!LiFePO4wered/Pi](https://cdn.hackaday.io/images/9332751457457361166.jpg)
 The [LiFePO4wered/Pi][85] (purchase on [Tindie][87])

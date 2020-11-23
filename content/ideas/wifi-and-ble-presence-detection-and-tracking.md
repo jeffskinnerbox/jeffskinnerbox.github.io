@@ -27,6 +27,9 @@ Kali Linux is a Debian-derived Linux distribution designed for digital forensics
 
 # Presence and Identity
 
+## Sound
+* [Building A Top-Notch Electret Microphone](https://hackaday.com/2020/11/02/building-a-top-notch-electret-microphone/)
+
 ## Sensing WiFi and BLE Devices
 * [Tracking people via WiFi (even when not connected)](https://www.crc.id.au/tracking-people-via-wifi-even-when-not-connected/)
 * [Presence detection using phone’s WiFi and Node-RED](https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/)

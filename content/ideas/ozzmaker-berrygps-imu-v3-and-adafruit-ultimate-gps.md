@@ -45,6 +45,7 @@ From there, [using 200 lines of Python](https://github.com/bunnie/watchmap) ([he
 Combining the GPS location information onto a video stream
 
 * [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
+* [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
 
 # logging
 * [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
@@ -53,6 +54,9 @@ Combining the GPS location information onto a video stream
 * [How to Fool a GPS](https://www.ted.com/talks/todd_humphreys_how_to_fool_a_gps?language=en)
 * [GPS Jamming and Spoofing: When Good Signals Go Bad](https://www.directionsmag.com/article/8107)
 * [Teardown: Mini GPS Jammer](https://hackaday.com/2020/09/08/teardown-mini-gps-jammer/)
+
+# GPS-Tracker Using LoRa
+* [Create Your Own GPS-Tracker Using LoRa](https://dzone.com/articles/create-your-own-gps-tracker-using-lora)
 
 
 

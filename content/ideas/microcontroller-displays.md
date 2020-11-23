@@ -36,14 +36,17 @@ https://www.waveshare.com/0.96inch-OLED-B.htm
 Electronic paper, as that display tech is known (E Ink is a trademarked term owned by the company named E Ink, the tech's leading purveyor), has always been associated primarily with the Kindle and its ilk.
 
 * [DESK OF LADYADA - Fast partial updates on an E-Ink - starring QT Py!](https://www.youtube.com/watch?v=3sYBws3-OoU)
-
+* [Color E-Ink Display Photo Frame Pranks](https://hackaday.com/2020/10/30/color-e-ink-display-photo-frame-pranks-mom/)
 * [Waveshare 2.9 Inch E-Paper Raw Display Panel 296x128 Resolution 3.3V E-Ink Electronic Paper Screen with Embedded Controller SPI Interface Support Partial Refresh](https://www.amazon.com/gp/product/B072J2LG8N/ref=ppx_od_dt_b_asin_title_s00)
-* [Waveshare Universal e-Paper Raw Panel Driver Shield for Raspberry Pi](https://www.amazon.com/gp/product/B075R55WQT/ref=ppx_od_dt_b_asin_title_s00)
 
 You can find technical information at the [Waveshape Wiki](https://www.waveshare.com/wiki/Main_Page)
+* [Waveshare Universal e-Paper Raw Panel Driver Shield for Raspberry Pi](https://www.amazon.com/gp/product/B075R55WQT/ref=ppx_od_dt_b_asin_title_s00)
 * [E-Paper Driver HAT](https://www.waveshare.com/wiki/E-Paper_Driver_HAT)
 * [2.9inch e-Paper Module](https://www.waveshare.com/wiki/2.9inch_e-Paper_Module)
 * [E-Paper ESP8266 Driver Board](https://www.waveshare.com/wiki/E-Paper_ESP8266_Driver_Board)
+
+Move advanced products:
+* [Pimoroni's Inky Impression Is a 5.7" Seven-Color E Ink Display for the Raspberry Pi and Compatibles](https://www.hackster.io/news/pimoroni-s-inky-impression-is-a-5-7-seven-color-e-ink-display-for-the-raspberry-pi-and-compatibles-e20b7026a9d3)
 
 ## Wio Terminal
 The [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)

@@ -10,8 +10,11 @@
 
 
 
-
 ################################################################################
+
+# Jetson Modules
+* [Jetson Modules](https://developer.nvidia.com/embedded/jetson-modules)
+* [NVIDIA Announces $59 Jetson Nano 2GB, A Single Board Computer With Makers In Mind](https://hackaday.com/2020/10/05/nvidia-announces-59-jetson-nano-2gb-a-single-board-computer-with-makers-in-mind/)
 
 # NVIDIA Jetson TX1
 The "Nvidia Jetson" is a brand name for a series of computation processor boards from Nvidia.

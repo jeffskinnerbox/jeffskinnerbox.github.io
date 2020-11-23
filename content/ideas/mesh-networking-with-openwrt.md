@@ -254,6 +254,11 @@ Many of the community mesh network organization do not anonymize your identity,
 prevent monitoring, orprevent jamming but some make some
 [surgestion on how to do this](https://commotionwireless.net/understanding-commotions-warning-label/).
 
+[LibreMesh](https://libremesh.org/)
+:   LibreMesh is a modular framework for creating OpenWrt-based firmwares for wireless mesh nodes.
+    The layer 2 uses the dynamic routing protocol BATMAN-ADV and
+    network layer 3 uses by default the routing protocol BMX.
+
 [Meta Mesh](http://www.metamesh.org/)
 :   The Meta Mesh organization works with communities and the unincorporated,
     volunteer run, [Pittmesh Working Group](http://www.pittmesh.net/) to build Community Wireless Networks in Pittsburgh, PA

@@ -1,3 +1,7 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.1
+-->
 
 
 # Using Vagrant, Docker, and Ansible
@@ -208,12 +212,20 @@ Vagrant is related to virtual machines and Docker is a virtual environment tool.
 Aside from reading [Vagrant's official documentation][05],
 it also helps to know some of the basic terminology used by Vagrant:
 
-* **Box:** A box is a packaged Vagrant environment, typically a virtual machine.
-* **Provider:** A provider is the location in which the virtual environment runs.
-It can be local (the default is to use VirtualBox), remote, or even a special case like a Docker container.
-* **Provisioner:** A provisioner is a tool to set up the virtual environment,
-and can be as simple as a shell script, but alternatively a more advanced tool
-like Chef, Puppet, or Ansible can be used.
+* **Vagrant Box:**
+A box is basically a package containing a representation of a virtual machine running a specific operating system.
+To be more simple, it is a base image of any Operating System or Kernel. It may be for a specific Provider.
+* **Providers:**
+The Provider is the piece of software responsible for creating and managing the virtual machines used by Vagrant.
+The main providers are Virtualbox and VMware, but the default one is VirtualBox, since it's free and open source.
+* **Provisioners:**
+Provisioner will do some task(s) using the vm instance already provided.
+The provisioners are used to set up the virtual server, installing all necessary software and executing different tasks. The most used provisioners are: Puppet, Chef and Ansible.
+Shell Script is also a very common option. You can find more information about vagrant provisioners here.
+* **The Vagrantfile:**
+The basic vagrant configuration is based in one file, the Vagrantfile. It shall be placed in your repository root.
+In this file you will define which base box you want - a box is, basically,
+a package with an operational system to be run in your virtual machine.
 
 ## Boxes
 [Boxes][12] are the package format for Vagrant environments.

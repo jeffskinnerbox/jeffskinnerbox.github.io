@@ -16,6 +16,7 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Build Your Own Selfie Drone With Computer Vision](https://hackaday.com/2019/06/30/build-your-own-selfie-drone-with-computer-vision/)
 * [Micro 105 FPV Quadcopter](https://www.thingiverse.com/thing:1221911)
 * [Dynamic Soaring: 545 MPH RC Planes Have No Motor](https://hackaday.com/2020/09/24/dynamic-soaring-545-mph-rc-planes-have-no-motor/)
+* [Quadcopter With Tensegrity Shell Takes A Beating And Gets Back Up](https://hackaday.com/2020/11/05/quadcopter-with-tensegrity-shell-takes-a-beating-and-gets-back-up/)
 
 ## Mini-Drone
 * [The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)
@@ -29,6 +30,7 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Tiny Drones Navigate Like Real Bugs](https://hackaday.com/2019/11/06/tiny-drones-navigate-like-real-bugs/)
 * [The Ball-Drone Project](https://hackaday.io/project/169823-the-ball-drone-project)
 * [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
+* [Flies Like A Quadcopter, But This Drone Design Has Only One Propeller](https://hackaday.com/2020/11/02/flies-like-a-quadcopter-but-this-drone-design-has-only-one-propeller/)
 
 # Hackable Drones
 * [A Hackable Drone Without All The Wiring](https://hackaday.com/2020/05/02/a-hackable-drone-without-all-the-wiring/)

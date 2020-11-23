@@ -50,13 +50,13 @@ The first step in doing this, is to convert the Thingiverse STL files into STEP 
 ### Open Source Radio Controller
 * [Perfecting the Open Source RC Controller](https://hackaday.com/2019/05/15/perfecting-the-open-source-rc-controller/)
 * [DEVELOPING THE ULTIMATE OPEN SOURCE RADIO CONTROL TRANSMITTER](https://hackaday.com/2019/04/03/developing-the-ultimate-open-source-radio-control-transmitter/)
+* [ESP8266 Does RC Without The Transmitter](https://hackaday.com/2020/10/30/esp8266-does-rc-without-the-transmitter/)
 
 ### RC TX/RX Protocols Explained
 * [RC TX RX PROTOCOLS EXPLAINED](https://oscarliang.com/pwm-ppm-sbus-dsm2-dsmx-sumd-difference/)
 * [DIY PWM to PPM converter for 2.4GHz receiver using Arduino](https://www.electronicsinfoline.com/pin/23450/)
 
 ## Battery
-
 Lithium polymer (LiPo) batteries are a wonder of the modern age
 and have revolutionized the hobby of flying RC planes.
 

@@ -49,6 +49,7 @@ All About Batteries
 * [Emergency Power Based on Cordless Drill Batteries](http://hackaday.com/2015/01/31/emergency-power-based-on-cordless-drill-batteries/)
 * [UPS PIco - Uninterruptible Power Supply with Peripherals and I2C control Interface](http://www.rpiblog.com/2015/01/ups-pico-uninterruptible-power-supply.html)
 * [Ultimate Battery Backup Mod](http://hackaday.com/2016/03/05/ultimate-battery-backup-mod/)
+* [A Super UPS For The Pi](https://hackaday.com/2020/11/05/a-super-ups-for-the-pi/)
 
 # Raspberry Pi Battery Power
 * [Battery Backup For The Raspberry Pi](http://hackaday.com/2016/03/17/battery-backup-for-the-raspberry-pi/)
@@ -273,7 +274,7 @@ which steps down voltage (while stepping up current) from its input (supply) to 
 https://www.crowdsupply.com/electronut-labs/snapvcc
 
 # Uninterruptable Power Supply (UPS)
-Adafruit [PowerBoost 1000C Charger][19] is a DC/DC boost converter module
+Adafruit's [PowerBoost 1000C Charger][19] is a DC/DC boost converter module
 that can be powered by any 3.7V LiIon/LiPoly battery,
 and convert the battery output to 5.2V DC for running your 5V projects.
 Best of all, it has built-in load-sharing battery charger circuit.
@@ -335,9 +336,24 @@ It typically stores 10 to 100 times more energy per unit volume or mass than ele
 can accept and deliver charge much faster than batteries,
 and tolerates many more charge and discharge cycles than rechargeable batteries.
 
+Super capacitor can be charged very quickly due to their low internal resistance,
+which is known as ESR, but they can just as quickly be discharged.
+They are superior to batteries, die over time when in use,
+but if you handle your super capacitors carefully, you will die before they do...Seriously!
+
+The challege with super capacitors is that they hav very small voltage ratings,
+such as 2.5v, 2.7v and 5.5v (Some common values).
+In order to make our capacitors capable of charging up to a higher voltage,
+you need to place them in series, which brings a bunch of other variables into play.
+
+* [Let's Learn About Super Capacitors! (A Practical Guide to Super Capacitors)](https://www.instructables.com/Lets-learn-about-Super-Capacitors-A-Practical-G/)
 * [Hybrid Supercapacitors Are — Well — Super](https://hackaday.com/2020/03/14/hybrid-supercapacitors-are-well-super/)
 * [Rapid Charging Supercapacitors](https://hackaday.com/2020/09/16/rapid-charging-supercapacitors/)
 * [How does a Supercapacitor Work?](https://batteryuniversity.com/learn/article/whats_the_role_of_the_supercapacitor)
+
+* [Is there a simple and cheap way to protect your super caps? How?](https://www.youtube.com/watch?v=NsTAyD2i3rc)
+* [Simple Balancing and Protection Method for Supercaps](https://www.youtube.com/watch?v=clMjGGEZRYw)
+* [Solar harvesting into supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 
 
 

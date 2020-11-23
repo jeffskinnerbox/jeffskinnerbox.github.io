@@ -79,6 +79,8 @@ and supports Wi-Fi, Bluetooth, 6LoWPAN and Thread, but not Z-wave or Zigbee.
 It can support both IPv4 and IPv6 as well.
 The mbed OS is free, will be available to ARM’s partners and developers in 4Q14.
 
+* [Sophie Wilson: ARM And How Making Things Simpler Made Them Faster & More Efficient](https://hackaday.com/2018/05/08/sophie-wilson-arm-and-how-making-things-simpler-made-them-faster-more-efficient/)
+
 * [Tessel 2](https://www.pjrc.com/store/teensy.html) - 16 MHz AVR
 * [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) - 72 MHz Cortex-M4
 * [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) - ARM Cortex-M7 processor at 600 MHz, with a NXP iMXRT1062 chip, the fastest microcontroller on 04/2020
@@ -92,6 +94,7 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 
 ## Blue Pill STM32
 * [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide](https://www.youtube.com/watch?v=EaZuKRSvwdo&t=13s&app=desktop)
+* [Bare-Metal STM32: From Power-Up To Hello World](https://hackaday.com/2020/11/17/bare-metal-stm32-from-power-up-to-hello-world/)
 * [STM32 Clones: The Good, The Bad And The Ugly](https://hackaday.com/2020/10/22/stm32-clones-the-good-the-bad-and-the-ugly/)
 
 ## Intel

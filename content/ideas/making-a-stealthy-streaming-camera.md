@@ -37,6 +37,7 @@
 * [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
 * [How to Build a Raspberry Pi Body Camera](https://www.tomshardware.com/how-to/raspberry-pi-body-camera)
 * [Building a Blockchain Police Bodycam PoC for $25](https://www.digitalmarketnews.com/building-a-blockchain-police-bodycam-poc-for-25/)
+* [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
 
 
 
@@ -141,12 +142,13 @@ we will work around these and other limitations.
 * [ESP8266 Wi-Fi Instant Camera is a Simple Shooter](https://hackaday.com/2018/11/13/esp8266-wi-fi-instant-camera-is-a-simple-shooter/)
 * [ESP32 / 8266 WiFi instant Camera](https://hackaday.io/project/162256-esp32-8266-wifi-instant-camera)
 * [ESP8266 / ESP32 WiFi Powered Digital Camera](https://github.com/Heltec-Aaron-Lee/FS2) is a digital "Polaroid" that uploads the photo instantly to the cloud.
-* [Captivating ESP32 Camera Hack](https://hackaday.com/2019/06/10/captivating-esp32-camera-hack/)
 * [Cheap ESP32 Webcam](https://hackaday.com/2019/02/02/cheap-esp32-webcam/)
     * [A $9 Fully Open Source Streaming Webcam with No Soldering!](https://www.hackster.io/punkgeek/a-9-fully-open-source-streaming-webcam-with-no-soldering-c4b7c6)
     * [How can I display an RTSP video stream in a web page](https://stackoverflow.com/questions/2245040/how-can-i-display-an-rtsp-video-stream-in-a-web-page)
 * [ESP32 with Camera and TFT Display](https://www.youtube.com/watch?v=v_8XifFcpaI&list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * [ESP-Eye: First Look (ESP32 Face Recognition)](https://www.youtube.com/watch?v=_JwMuvFVMsM&feature=youtu.be)
+* [#285 ESP32 Cameras: Comparison and Test (OV2640) and I2S MEMS microphone test](https://www.youtube.com/watch?v=5IhhyJjjCxo)
+* [Captivating ESP32 Camera Hack](https://hackaday.com/2019/06/10/captivating-esp32-camera-hack/)
 * [ESP32 Camera Mini Series](https://www.youtube.com/playlist?list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * LEDWallCamera
     * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)

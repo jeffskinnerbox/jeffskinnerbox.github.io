@@ -29,3 +29,5 @@ Adafruit offers a devboard
 * [watchX](http://www.watchx.io/)
     * [watchX Demonstration](https://www.youtube.com/watch?v=-_z-94JHiTs)
 * [Is That An ESP32 On Your Wrist?](https://hackaday.com/2020/05/22/is-that-an-esp32-on-your-wrist/)
+* [There's Something ESPecially Impressive About the OpenSmartWatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
+* [Open SmartWatch Project](https://developer.sony.com/develop/open-devices/more-information/discontinued-projects-initiatives/open-smartwatch-project)

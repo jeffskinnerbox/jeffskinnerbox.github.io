@@ -230,7 +230,11 @@ Open `server.js` and replace its content as follows:
 ```js
 ```
 
+# Outdoors Electronics
+* [How to assemble an outdoors electronics project](https://www.youtube.com/watch?v=IObVtX9ZrJo)
+
 # Hardware Design
+* [E-Paper Weather Display Is A Great Base To Build From]()
 * [ESP8266 weather station with e-paper display](http://embedded-lab.com/blog/esp8266-weather-station-e-paper-display/)
 * [7.5inch Passive NFC-Powered e-Paper without Battery](https://www.seeedstudio.com/7-5inch-Passive-NFC-Powered-e-Paper-without-Battery-p-4494.html)
 * [ESP8266 Weather display](https://github.com/andrei7c4/weatherdisplay)
@@ -335,6 +339,7 @@ that can send notifications within minutes of an earthquake.
 # Spectrophotometer
 * [Spot Adulterated Olive Oil With This Spectrophotometer](https://hackaday.com/2019/08/31/spot-adulterated-olive-oil-with-this-spectrophotometer/)
 * [Arduino Rig Does Spectrophotometry](https://hackaday.com/2020/08/24/arduino-rig-does-spectrophotometry/)
+* [High-Speed Spectrometer Built With Cheap Linear CCD](https://hackaday.com/2020/11/21/high-speed-spectrometer-built-with-cheap-linear-ccd/)
 
 # NOAA Weather Satellite Data
 * [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)

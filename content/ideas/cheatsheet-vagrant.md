@@ -30,7 +30,7 @@ Be sure that you are in the same directory as the Vagrantfile when running these
 
 # Cleaning Up a VM
 - `vagrant destroy`        -- stops and deletes all traces of the vagrant machine
-- `vagrant destroy <ID>`   -- delete vagran machine of the referanced ID (e.g. `vagrant destroy e4981e5ec1db498b9fac379c7aea095b`)
+- `vagrant destroy <ID>`   -- delete vagrant machine of the referanced ID (e.g. `vagrant destroy e4981e5ec1db498b9fac379c7aea095b`)
 - `vagrant destroy -f`     -- same as above, without confirmation
 
 # Boxes

@@ -171,6 +171,7 @@ by building your own coherer.
 * [Lightning Generator Made Of Water (DIY Marx)](https://www.youtube.com/watch?v=WDfZFSay_1A&t=364s)
 
 * [How to choose the right capacitor type for a circuit?! || Film vs. Ceramic vs. Electrolytic](https://www.youtube.com/watch?v=2v8zBj7_sxg&feature=youtu.be)
+* [Experiences With Capacitor Failure](https://hackaday.com/2019/04/12/ask-hackaday-experiences-with-capacitor-failure/)
 
 ## Inductor
 * [Digging In The Dirt Yields Homebrew Inductors](https://hackaday.com/2020/09/13/digging-in-the-dirt-yields-homebrew-inductors/)

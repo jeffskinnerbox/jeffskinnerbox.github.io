@@ -11,6 +11,8 @@
 
 * [Adafruit’s Feather nRF52840 Express Board and Developing with CircuitPython](https://blog.nordicsemi.com/getconnected/adafruits-feather-nrf52840-express-board-and-developing-with-circuitpython)
 
+* [Micropython On Microcontrollers](https://hackaday.com/2020/11/14/micropython-on-microcontrollers/)
+
 
 
 

@@ -138,6 +138,9 @@ But in CVFS voltage and frequency can range over a continuum. An algorithm const
 * [Edge Impulse Documentation](https://docs.edgeimpulse.com/)
 * [Building and audio recognition system](https://www.edgeimpulse.com/blog/train-a-tiny-ml-model/)
 
+# Edge Impulse Eon
+[Edge Impulse Eon](https://www.edgeimpulse.com/blog/introducing-eon)
+
 ## Seeed Wio Terminal
 ## ATSAMD51-based Microcontroller
 * [Wio Terminal is officially supported by Edge Impulse now](https://www.seeedstudio.com/blog/2020/07/23/wio-terminal-is-officially-supported-by-edge-impulse-now/)

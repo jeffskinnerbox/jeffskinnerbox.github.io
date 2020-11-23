@@ -98,6 +98,7 @@ On Debian Linux, tc comes bundled with iproute, so in order to install it you ha
 * [Manage network connections from the Linux command line with nmcli](https://opensource.com/article/20/7/nmcli)
 * [Connect to a wireless network using command line nmcli](https://nullr0ute.com/2016/09/connect-to-a-wireless-network-using-command-line-nmcli/)
 
+
 * [RPi NetworkManager CLI](http://gary-dalton.github.io/RaspberryPi-projects/rpi_nmcli.html)
 * [Exploring NetworkManager, D-Bus, systemd, and Raspberry Pi](http://dev.iachieved.it/iachievedit/exploring-networkmanager-d-bus-systemd-and-raspberry-pi/)
 * According to [this article](https://raspberrypi.stackexchange.com/questions/48307/sharing-the-pis-wifi-connection-through-the-ethernet-port),
@@ -213,6 +214,15 @@ any interface not listed there will remain under NetworkManager control.
     * [`wpa_supplicant`][03]
 
 * **Tools for Monitoring / Controlling Network Time**
+
+* **Tools for Monitoring Filesystem and Disk IO**
+    * [`iotop`][97] shows you the total and current disk read and write numbers for the file system
+    and also shows you who is eating up the most disk I/O.
+    * [`iostat`][98] is used for monitoring system input/output statistics for devices and partitions.
+    It monitors system input/output by observing the time the devices are active
+    in relation to their average transfer rates.
+    * [`lsof`][]
+    * [`atop`][]
 
 * **Tools for Monitoring / Scanning IP Network**
     * [`nmap`][29] (network mapper) is a security tool for network exploration,
@@ -925,6 +935,24 @@ https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-compu
 * [How To Record and Share Terminal Sessions Using Terminalizer on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-record-and-share-terminal-sessions-using-terminalizer-on-ubuntu-18-04)
 * [Terminalizer](https://terminalizer.com/)
 * [termtosvg](https://github.com/nbedos/termtosvg)
+
+# Measure Networked File Transfer Speed
+We can combine `nc` and `dd` to measure networked file transfer speeds.
+To do this, on the server machine, we again run `netcat` in “listen” mode,
+and on the client machine we use `dd` to pipe n bytes of zeroes over the connection:
+
+```bash
+# on server machine
+nc -l 1234
+
+# on client machine
+dd if=/dev/zero bs=1M count=1K | nc -vv 10.10.0.2 1234
+```
+
+Here `bs` is the block size in bytes and `count` is the number of blocks sent.
+The `-vv` argument to `nc` tells it to produce verbose output.
+
+* [Two Power Commands for Unix Ninjas](https://levelup.gitconnected.com/two-overlooked-commands-for-unix-ninjas-55b8bfc4dc84)
 
 # Establishing a Connection
 You can use `iw` to connect to an AP directly if and only if the AP has:
@@ -2569,8 +2597,8 @@ could be gathered for this cheat sheet.
 [94]:https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work
 [95]:https://www.geeksforgeeks.org/iftop-command-in-linux-with-examples/
 [96]:http://www.tecmint.com/nethogs-monitor-per-process-network-bandwidth-usage-in-real-time/
-[97]:
-[98]:
+[97]:https://www.geeksforgeeks.org/iotop-command-in-linux-with-examples/
+[98]:https://www.geeksforgeeks.org/iostat-command-in-linux-with-examples/
 [99]:
 [100]:https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf
 [101]:http://www.computerhope.com/unix/screen.htm

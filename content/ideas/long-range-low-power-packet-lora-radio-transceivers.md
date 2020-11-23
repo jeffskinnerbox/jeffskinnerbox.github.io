@@ -133,6 +133,7 @@
 * [LoRa Tester with LCD & GPS: Open, Configurable, Low-Power](https://www.hackster.io/hubmartin/lora-tester-with-lcd-gps-open-configurable-low-power-4a5b61)
 * [LoRa Module VS nRF24 VS Generic RF Module || Range & Power Test](https://www.youtube.com/watch?v=nP6YuwNVoPU)
 * [What is LPWAN and the LoRaWAN Open Standard?](https://www.iotforall.com/what-is-lpwan-lorawan/amp/)
+* [Getting to Know LoRa Basics™ Station](https://www.thethingsindustries.com/article/getting-to-know-lora-basics-station/)
 
 # What is LPWAN?
 Long life cycles, extremely low cost connectivity requirements,

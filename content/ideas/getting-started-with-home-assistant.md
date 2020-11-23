@@ -10,6 +10,65 @@
 * [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
 * [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
 
+* [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
+
+# Home Automation Ideas
+* [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://www.youtube.com/watch?v=jDaRPsvvcz4)
+
+# ThingsBoard
+ThingsBoard is an open-source IoT platform that enables rapid development,
+management and scaling of IoT projects.
+It's goal is to provide the out-of-the-box IoT cloud, or on-premises solutions
+that will enable server-side infrastructure for your IoT applications.
+
+* [ThingsBoard](https://thingsboard.io/)
+
+# Awesome Home Assistant
+[Awesome Home Assistant](https://www.awesome-ha.com/)
+is a curated list of Home Assistant resources.
+It contains additional software, tutorials, custom integration, add-ons,
+custom Lovelace cards & plugins, cookbooks, example setups, and much more.
+The list is divided into categories and can be found here: https://www.awesome-ha.com/
+
+# Uninterruptible Power Supply (UPS)
+* See "Step 6: Zero Battery Supply (Optional)" in `getting-started-with-home-assistant.md`
+* See "Battery Supply + Power Monitoring" in `advanced-machine-vision-environment-for-raspberry-pi.md`
+* [UPS PIco - Uninterruptible Power Supply with Peripherals and I2C control Interface](http://www.rpiblog.com/2015/01/ups-pico-uninterruptible-power-supply.html)
+* [Ultimate Battery Backup Mod](http://hackaday.com/2016/03/05/ultimate-battery-backup-mod/)
+* [A Super UPS For The Pi](https://hackaday.com/2020/11/05/a-super-ups-for-the-pi/)
+
+Adafruit's [PowerBoost 1000C Charger](https://www.adafruit.com/products/2465)
+is a DC/DC boost converter module
+that can be powered by any 3.7V LiIon/LiPoly battery,
+and convert the battery output to 5.2V DC for running your 5V projects.
+Best of all, it has built-in load-sharing battery charger circuit.
+So it will automatically switch over to the USB power when available,
+instead of continuously charging/draining the battery,
+making it a Uninterruptable Power Supply (UPS).
+
+# Camera
+Bust you use the cloud service
+* [Wyze Cam V3 Review - Unboxing, Features, Setup, Installation, Testing, Video & Audio Quality](https://www.youtube.com/watch?v=WQZ_xExcwto)
+* [Wyze Cam v3: Unbelievable Night Vision for $20](https://www.youtube.com/watch?v=EwP7p2Z7hOA&feature=emb_rel_end)
+* [Wyze Review](https://www.security.org/security-cameras/wyze/review/)
+* [Can Wyze Cameras Be Hacked (and How You Can Stop Them)](https://thesecuritycameraguy.com/can-wyze-cameras-be-hacked-and-how-you-can-stop-them/)
+* https://www.amazon.com/gp/customer-reviews/R1GN9BTTWQZK3P/ref=cm_cr_othr_d_rvw_ttl?ie=UTF8&ASIN=B076H3SRXG
+* https://www.amazon.com/gp/customer-reviews/R2NX523G3R0CZ8/ref=cm_cr_othr_d_rvw_ttl?ie=UTF8&ASIN=B076H3SRXG
+* https://www.amazon.com/gp/customer-reviews/RV54YRZNI6I6R/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B076H3SRXG
+
+* [OFFICIAL RTSP Support! Use Wyze cams with any NVR | Smart Home | Home Assistant](https://www.youtube.com/watch?v=YPiHs44i0TA)
+* [How to Set Up Wyze Official RTSP Firmware : Use Wyze Cams with Network DVRs!](https://www.youtube.com/watch?v=e0SgzWwt7yI)
+* [3 Of The Best Ways To Configure Your Wyze Cameras](https://www.youtube.com/watch?v=Io4eNaTjf08)
+* [Wyze Cam Outdoor | App setup | Features](https://www.youtube.com/watch?v=02yQ6dT15Lc)
+
+# Cooling
+* [Benchmarking Different Methods to Cool the Raspberry Pi](https://medium.com/young-coder/benchmarking-different-methods-to-cool-the-raspberry-pi-ff015cc075e)
+
+
+
+
+################################################################################
+
 
 
 I got plans for several standard home sensors (e.g. water sensors),
@@ -56,6 +115,10 @@ Read these articals to get some insight and pointers:
 
 ------
 
+
+# Raspberry Pi OS vs Ubuntu
+## Raspbian
+If your Raspberry Pi 4 will not boot, it is possible that the SPI EEPROM has become corrupted. To check, remove the SD card, disconnect the device from power, then reconnect it. If the green LED does not flash, this indicates that the EEPROM has become corrupted. - https://www.raspberrypi.org/downloads/
 
 # Smart Home / IoT Server
 The first critical decision is what hardware do I use?
@@ -108,7 +171,23 @@ allowing the Pi to load its file system from a server on the same network.
 * [PiVoyager: installation and tutorial](https://www.omzlo.com/articles/pivoyager-installation-and-tutorial)
 
 ### Overclocking the Raspberry Pi
+* [Adventures In Overclocking: Which Raspberry Pi 4 Flavor Is Fastest?](https://hackaday.com/2020/11/11/adventures-in-overclocking-which-raspberry-pi-4-flavor-is-fastest/)
 * [Overclocking the Raspberry Pi 4](https://www.tomshardware.com/reviews/raspberry-pi-4-b-overclocking,6188.html)
+* [Some Raspberry Pi 4s Can Now Overclock to 2.3 GHz. Here’s How.](https://www.tomshardware.com/how-to/raspberry-pi-4-23-ghz-overclock)
+
+### Safe Shutdown with Super Capacitors
+* [Safe Shutdown for Raspberry Pi with Super Capacitors](https://quantumenergygenerator.com/blog/133-safe-shutdown-for-raspberry-pi-with-super-capacitors/)
+* [Is there a simple and cheap way to protect your super caps? How?](https://www.youtube.com/watch?v=NsTAyD2i3rc)
+* [Pimp my Raspberry: Automatic fan, automatic shutdown, automatic Python](https://www.youtube.com/watch?v=P5o0PpfzuW8)
+
+* [Let's Learn About Super Capacitors! (A Practical Guide to Super Capacitors)](https://www.instructables.com/Lets-learn-about-Super-Capacitors-A-Practical-G/)
+* [Hybrid Supercapacitors Are — Well — Super](https://hackaday.com/2020/03/14/hybrid-supercapacitors-are-well-super/)
+* [Rapid Charging Supercapacitors](https://hackaday.com/2020/09/16/rapid-charging-supercapacitors/)
+* [How does a Supercapacitor Work?](https://batteryuniversity.com/learn/article/whats_the_role_of_the_supercapacitor)
+
+* [Is there a simple and cheap way to protect your super caps? How?](https://www.youtube.com/watch?v=NsTAyD2i3rc)
+* [Simple Balancing and Protection Method for Supercaps](https://www.youtube.com/watch?v=clMjGGEZRYw)
+* [Solar harvesting into supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 
 # Install
 ### Step 1: Flash Raspberry Pi SD Card
@@ -172,7 +251,10 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 * [Home Automation Covers Everything](https://hackaday.com/2020/07/13/home-automation-covers-everything/)
 
-### Lovelace
+### Home Assistant
+* [Tutorial: How to Install Home Assistant on a Generic Linux System](https://diy.viktak.com/2020/07/tutorial-how-to-install-home-assistant-on-a-generic-linux-system.html)
+
+#### Lovelace
 Lovelace is the Home Assistant dashboard.
 
 # ################################### REMOVE ###################################
@@ -186,6 +268,19 @@ Lovelace is the Home Assistant dashboard.
 * [OpenHAB App](https://play.google.com/store/apps/details?id=org.openhab.habdroid&hl=en)
 * [Uber Home Automation w/ Arduino & Pi](http://www.instructables.com/id/Uber-Home-Automation-w-Arduino-Pi/?ALLSTEPS)
 # ################################### REMOVE ###################################
+
+
+
+------
+
+
+
+# NextCloud
+## rsync
+## rclone (aka rsybc fir cloud storage)
+Rclone ("rsync for cloud storage") is a command line program to sync files and directories to and from different cloud storage providers.
+
+* [Linux Fu: Send In The (Cloud) Clones](https://hackaday.com/2020/11/10/linux-fu-send-in-the-cloud-clones/)
 
 
 

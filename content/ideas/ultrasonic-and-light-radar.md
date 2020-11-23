@@ -1,29 +1,4 @@
 
-# HC-SR04 Ultrasonic Sensor
-* [Ultrasonic Distance Sensors Arduino Tutorial and Comparison for HC-SR04, HY-SRF05, US-015](https://www.youtube.com/watch?v=aLkkAsrSibo)
-* [Making a better HC-SR04 Echo Locator](http://uglyduck.ath.cx/ep/archive/2014/01/Making_a_better_HC_SR04_Echo_Locator.html)
-* [Ultrasonic Trimount Brackets](https://blog.tindie.com/2020/08/ultrasonic-trimount-brackets/)
-
-# Other Ultrasonic Sensor
-* [Panel Mount Ultrasonic (Sonar) Ranging Module with UART Output](https://www.adafruit.com/product/4665)
-* [Large Ultrasonic (Sonar) Sensor with Horn and UART Output](https://www.adafruit.com/product/4664)
-* [CH101 from TDK InvenSense Ultrasonic Rangefinder](https://www.sparkfun.com/products/17271)
-
-# PIR
-* [How PIR modules work and using them to control LED strings.](https://www.youtube.com/watch?v=evZM2_RTvTU)
-* [PIR Sensors: Test and comparison of HC-SR501 and HC-SR505. Is the bigger better?](https://www.youtube.com/watch?v=0zgY5x9Zq3M)
-* [Presence detection using phone’s WiFi and Node-RED](https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/)
-
-# IR
-* [IR distance sensor includes cable (20cm-150cm)](https://www.adafruit.com/product/1031)
-
-# Time of Flight Distance Sensor
-* [VL6180X ToF sensor](https://www.adafruit.com/product/3316)
-* [VL53L0X ToF sensor](https://www.adafruit.com/product/3317)
-
-# Walking Speed
-* [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
-
 # Radar Sensors
 * [Recognizing Activities Using Radar](https://hackaday.com/2020/09/06/recognizing-activities-using-radar/)
 * [Robot Radar Module](https://hackaday.com/2018/05/03/robot-radar-module/)
@@ -48,20 +23,5 @@
 * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor)
 * [Acconeer](https://www.acconeer.com/products)
 
-# BLE Human Presence Detector
-* [BLE Human Presence Detector using an ESP32 (Tutorial, Arduino IDE)](https://www.youtube.com/watch?v=KNoFdKgvskU)
-
-# Sensor Array / Synthetic Sensor
-The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)
-envisions using the natural sensing capabilities of marine organisms to detect
-the presence of underwater vehicles in strategic waters such as straits and littoral regions.
-PALS technology would register organisms’ responses to target stimuli,
-process and distill that information, and relay it to remote end users.
-
-* [Sense All the Things with a Synthetic Sensor](http://hackaday.com/2017/05/19/sense-all-the-things-with-a-synthetic-sensor/)
-* [Into The Belly Of The Beast With Placemon](https://hackaday.com/2020/09/17/into-the-belly-of-the-beast-with-placemon/)
-* [Synthetic Sensors: Towards General-Purpose Sensing](http://www.gierad.com/assets/supersensor/supersensor.pdf)
-* [Synthetic Sensors (Gierad Laput - ACM CHI 2017)](https://www.youtube.com/watch?v=hpxUrvTltJI)
-* [Vibrosight Hears When You are Sleeping. It Knows When You’re Awake.](https://hackaday.com/2018/10/22/vibrosight-hears-when-you-are-sleeping-it-knows-when-youre-awake/)
-* [Enhancing my ordinary IP security cameras with AI](https://harizanov.com/2018/03/enhancing-my-ordinary-security-cameras-with-ai/)
-
+* [Ultrasonic RAdar System (URAS): Arduino and Virtual Reality for a light-free mapping of indoor environments](http://www.ieeeprojectmadurai.in/Emp%20basepaper%202017-2018/Ultrasonic%20RAdar%20System%20(URAS)%20Arduino%20and%20Virtual.pdf)
+* [Ultrasonic Radar](https://d1wqtxts1xzle7.cloudfront.net/54454063/Paper1.pdf?1505648052=&response-content-disposition=inline%3B+filename%3DUltrasonic_Radar.pdf&Expires=1605559598&Signature=XcMENKobsb1WkgvPpMN657F-40I-1Cs3mlZQyNIIQw2IkmuAUfxaHXmq5kuF06Z4erlpgfLjZB7Z5hCErG~BddcbaxI2jmd8rOsDwHbgZLQS1ca0sY~OhlGKMIf3WSzbbYuKDd~m0z7NWnJ5k0u15Jd6iDsUFl2lLWousUGIc1O1wULrakn0ZYst17jZHt-HyU9nj3SMdLU21epmDBWFlbVBrQsQTgf9226iIRLuXKuEfPBss6WnUII9M9Ljac0DBTeKWkIzCy~1xguORqvYF80k0bf489ylbGUARSXQsSF91ArzbUEc4x~g4Ke1hphhla-ruMGnkqabfrkWkxqTnw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)

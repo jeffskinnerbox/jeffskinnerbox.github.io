@@ -173,8 +173,13 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [Not All 7-Segment Displays Are Electronic](https://hackaday.com/2019/10/13/not-all-7-segment-displays-are-electronic/)
 
 ## Big Display
-* [DIY 7 Segment Digital Clock](https://www.youtube.com/watch?v=1aNHF5tcTpw)
-* [DIY Big Clock](https://www.ivanmiranda.com/diy-big-digital-clock)
+**Big**
+* [DIY Big Digital Clock](https://ivanmiranda.com/pages/diy-big-digital-clock)
+    * [DIY 7 Segment Digital Clock](https://www.youtube.com/watch?v=1aNHF5tcTpw)
+
+**Bigger**
+* [Big Workshop Clock Is 3D Printing Done Right](https://hackaday.com/2020/11/01/big-workshop-clock-is-3d-printing-done-right/)
+    * [GIANT 3D PRINTED LED CLOCK](https://www.youtube.com/watch?v=4z82I-032zs)
 
 ## Projecting Time on Ceiling
 Project of a clock (or other information) on ceiling in bedroom

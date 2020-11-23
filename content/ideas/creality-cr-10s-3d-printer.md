@@ -82,8 +82,18 @@ but mainly [it get great reviews][43].
 You have to use 1.75mm filament with the CR-10.
 It's possible to use other sizes, but not without heavy modification.
 
+Polylactic acid, or PLA, is a bioplastic printing material derived from natural materials like
+corn, tapioca, and potatoes.
 Generally PLA is the easiest material to print with, at least as you are starting out.
 They come in rolls of 1kg (2.2 pounds).
+
+So, is PLA food safe and biodegradable?
+You would thinks becasue its made from food products.
+[Check out this article][68] where they state
+"PLA is Generally Recognized as Safe (GRAS) when used in contact with food".
+And [this article][69] state "The process of biodegradation and its duration is highly dependent on the environment ...
+PLA biodegrades because its origins are natural and microorganisms can feed on it to turn it into compost ...
+In ordinary room-conditions, PLA will endure for hundreds of years."
 
 With any filament there's some settings you will have to tweak to get the best performance out of it.
 You can play around with retraction settings to reduce the amount of stringing you get on the prints.
@@ -104,6 +114,7 @@ Wood fills.
 * [5 ways to ruin your filament (and how to fix it)](https://www.youtube.com/watch?v=WlmCc-vRNr0)
 * [WHY you NEED TO DRY your FILAMENTS!](https://www.youtube.com/watch?v=FAXUjZZER5E)
 * [Plastics: PETG](https://hackaday.com/2019/01/29/plastics-petg/)
+* [Bringing High Temperature 3D Printing To The Masses](https://hackaday.com/2020/10/28/bringing-high-temperature-3d-printing-to-the-masses/)
 
 ## Transparent 3D Prints
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
@@ -266,6 +277,9 @@ and touch on different issues related to additive manufacturing.
 The 3D model is designed to print at 1:1 scale without support materials.
 It is challenging for most 3D printers but the small volume (15.55 cm3)
 typically prints in well under two hours and does not require much material.
+
+>**NOTE:** There is a challenger to the 3DBenchy,
+>called the [Print in Place Engine Benchmark][67].
 
 You'll find [many sites][08] where you can download the CAD / STL files for 3DBenchy.
 The site I choose was [Thingiverse][09].
@@ -527,6 +541,9 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 * [G-Code to STL – How to Convert G-Code Back to STL](https://all3dp.com/2/g-code-to-stl-how-to-convert-g-code-back-to-stl/)
 * [STL to STEP – How to Convert STL Files to STEP](https://all3dp.com/2/stl-to-step-how-to-convert-stl-files-to-step/)
 
+# GCode Post-Processor
+* [This GCode Post-Processor Squeezes Lines Into Arcs](https://hackaday.com/2020/11/03/this-gcode-post-processor-squeezes-lines-into-arcs/)
+
 # PLA Smoothing
 * [PLA Smoothing 3D Prints with 3D Gloop!](https://www.youtube.com/watch?v=vQc5TBPF8uw)
 
@@ -618,6 +635,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 
 ## OctoPrint
+* [How to Remote Monitor your 3D Printer with Raspberry Pi](https://www.tomshardware.com/how-to/monitor-3D-printer-raspberry-pi)
 * [Cura OctoPrint Connection: What Is It & How to Install It](https://all3dp.com/2/cura-octoprint-plugin-connection/)
 * [OctoPrint Setup: How to Install OctoPi on a Raspberry Pi](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/)
 * [OctoPi GUI Setup](https://github.com/shandilyaguy247/OctoPi_GUI_Setup)
@@ -637,6 +655,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Upgrading A 3D Printer With OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
 * [OctoPrint Setup: How to Install OctoPi on a Raspberry Pi](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/)
 * [Weekend Project: Scaling Octoprint with udev, haproxy, and a Raspberry Pi 4](https://back7.co/home/scaling-octoprint-with-a-raspberry-pi)
+* [Octolapse](https://hackaday.com/2018/07/02/coolest-way-to-watch-3d-printing-lights-camera-octolapse/)
 
 ### Save Energy
 * [Save Energy by automating your 3D-printer (Raspberry safe shutdown, OctoPrint, Sonoff)](https://www.youtube.com/watch?v=WR0WdTBQJGo&feature=youtu.be)
@@ -915,7 +934,7 @@ that can be seen clearly only when back lit with a light source.
 [64]:https://www.protolabs.com/
 [65]:https://hackaday.com/2020/08/26/3d-printering-the-world-of-non-free-3d-models-is-buyer-beware/
 [66]:https://hackaday.com/2019/09/05/3d-printering-the-search-for-better-search/
-[67]:
-[68]:
-[69]:
+[67]:https://www.thingiverse.com/thing:4575774
+[68]:https://all3dp.com/2/is-pla-food-safe-what-you-really-need-to-know/
+[69]:https://all3dp.com/2/is-pla-biodegradable-what-you-really-need-to-know/
 [70]:

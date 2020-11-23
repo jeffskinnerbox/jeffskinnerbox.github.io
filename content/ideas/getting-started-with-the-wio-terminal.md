@@ -24,5 +24,8 @@ Compatible with Arduino and MicroPython, Wio Terminal is an ATSAMD51-based micro
 * [Wio Terminal Attitude Indicator](https://www.hackster.io/SeeedStudio/wio-terminal-attitude-indicator-eae8d6)
 * [Using Web Bluetooth APIs with Wio Terminal](https://wiki.seeedstudio.com/Wio-Terminal-Web-Bluetooth/)
 
+# TinyML
+* [Wio Terminal Sensor Fusion - Introduction](https://www.element14.com/community/community/project14/sensors/blog/2020/10/26/wio-terminal-sensor-fusion)
+
 
 
