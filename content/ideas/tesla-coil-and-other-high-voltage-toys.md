@@ -175,6 +175,7 @@ Voltage multipliers can be used to generate a few volts to millions of volts for
 * [Marx generator](https://en.wikipedia.org/wiki/Marx_generator)
 * [Pour Yourself A Glass Of 100,000 Volts](https://hackaday.com/2020/08/05/pour-yourself-a-glass-of-100000-volts/)
 * [Lightning Generator Made Of Water (DIY Marx)](https://www.youtube.com/watch?v=WDfZFSay_1A&feature=youtu.be)
+* [Making 500,000 VOLT ARC with Marx Generator](https://www.youtube.com/watch?v=dje7uhyW23o&feature=youtu.be)
 
 ## Cockroft-Walton Multiplier
 * [d.i.y. 250 kV High Voltage DC Power Supply with Neat Trick for Switching Polarity](http://www.diyphysics.com/2012/02/09/d-i-y-250-kv-high-voltage-dc-power-supply-with-neat-trick-for-switching-polarity/)

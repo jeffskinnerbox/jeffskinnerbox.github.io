@@ -4,6 +4,7 @@
 
 
 * Consider using [OpenFaaS](https://www.openfaas.com/)
+* [Bash Functions as a Service](https://medium.com/swlh/bash-functions-as-a-service-b4033bc1ee97)
 
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Hundreds ‘Rickrolled’ in Mysterious Campus Prank at Cornell](https://cornellsun.com/2017/11/10/hundreds-rickrolled-in-mysterious-campus-prank-at-cornell/)
@@ -38,7 +39,15 @@
 * [How to Build a Raspberry Pi Body Camera](https://www.tomshardware.com/how-to/raspberry-pi-body-camera)
 * [Building a Blockchain Police Bodycam PoC for $25](https://www.digitalmarketnews.com/building-a-blockchain-police-bodycam-poc-for-25/)
 * [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
+* [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
 
+# ShowMeWebCam
+* [Showmewebcam Raspberry Pi 0 + High Quality Camera = High-quality USB Webcam!](https://awesomeopensource.com/project/showmewebcam/showmewebcam)
+* [Raspberry Pi Zero Webcam with ShowMeWebCam SD card image](https://www.youtube.com/watch?v=nH2G16YoBT4&feature=youtu.be)
+* [Build a Better USB Webcam!](https://www.youtube.com/watch?v=x_4XuQ0JgQo)
+* [Raspberry Pi High Quality Camera setup for low-latency Video Conferencing](http://www.davidhunt.ie/raspberry-pi-high-quality-camera-setup-for-low-latency-video-conferencing/)
+* [Raspberry Pi Zero with Pi Camera as USB Webcam](http://www.davidhunt.ie/raspberry-pi-zero-with-pi-camera-as-usb-webcam/)
+* [USB Webcams Out Of Stock? Make One With A Raspberry Pi And HQ Camera Module](https://hackaday.com/2020/11/30/usb-webcams-out-of-stock-make-one-with-a-raspberry-pi-and-hq-camera-module/)
 
 
 

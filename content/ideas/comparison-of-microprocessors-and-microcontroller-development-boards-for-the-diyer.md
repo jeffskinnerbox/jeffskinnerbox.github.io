@@ -92,10 +92,11 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 * [Degrees Of Freedom: Booting ARM Processors](https://hackaday.com/2020/08/12/degrees-of-freedom-booting-arm-processors/)
 * [Google’s Pigweed For ARM Development Is A Nice Surprise](https://hackaday.com/2020/03/21/googles-pigweed-for-arm-development-is-a-nice-surprise/)
 
-## Blue Pill STM32
+## STM32 (aka Blue Pill)
 * [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide](https://www.youtube.com/watch?v=EaZuKRSvwdo&t=13s&app=desktop)
 * [Bare-Metal STM32: From Power-Up To Hello World](https://hackaday.com/2020/11/17/bare-metal-stm32-from-power-up-to-hello-world/)
 * [STM32 Clones: The Good, The Bad And The Ugly](https://hackaday.com/2020/10/22/stm32-clones-the-good-the-bad-and-the-ugly/)
+* [Blue Pill As A Nerdy Swiss Army Knife](https://hackaday.com/2020/11/22/blue-pill-as-a-nerdy-swiss-army-knife/)
 
 ## Intel
 * [Intel Edison Module](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)

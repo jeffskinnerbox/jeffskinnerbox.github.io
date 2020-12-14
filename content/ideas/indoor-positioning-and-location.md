@@ -50,6 +50,7 @@ This chip includes a GPS processor, WiFi scanner, and a Lora radio
 * [OpenCellid](https://opencellid.org/) - The world's largest Open Database of Cell Towers from [Unwired Labs](http://unwiredlabs.com/)
 * [Location using ESP8266 | Geolocation Without GPS Module](https://electronicsforu.com/electronics-projects/gps-geolocation-using-esp8266-projects)
 * A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
+* [Roll Your Own Tracking](https://hackaday.com/2020/12/08/roll-your-own-tracking/)
 
 # What3Words
 With what3words, the entire planet into three-meter squares and assigned each a unique,

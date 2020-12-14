@@ -113,11 +113,14 @@ signal conversion module on the [DFROBOT website][12].
 The signal conversion module provides:
 * additional electrical isolation
 
-https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction
+* [CT sensors - An Introduction](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction)
+* [#347 Measuring Mains Voltage, Current, and Power for Home Automation](https://www.youtube.com/watch?v=Vb9-pbLdsfQ)
+* [DIY ESP32 AC Power Meter (with Home Assistant/Automation Integration)](https://www.youtube.com/watch?v=PSzkaSy5lHY&feature=youtu.be)
 
 
 
 -----
+
 
 
 # Data Converters

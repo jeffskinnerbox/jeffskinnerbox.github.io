@@ -62,6 +62,8 @@ Try "Alexa, announce that dinner is ready."
 # Text to Voice
 Text To Voice allows your Alexa enabled device to say anything you want.
 Whatever you type, Alexa will speak.
+
+* [The No Voice Assistant: You Can Now Text Alexa](https://www.makeuseof.com/you-can-now-text-alexa/)
 * [Text To Voice](https://www.amazon.com/TopVoiceApps-com-Text-To-Voice/dp/B07GSYW3S7)
 * [Alexa Announce Feature - Text to Speach via Alexa now a possability?](https://community.home-assistant.io/t/alexa-announce-feature-text-to-speach-via-alexa-now-a-possability/52067)
 

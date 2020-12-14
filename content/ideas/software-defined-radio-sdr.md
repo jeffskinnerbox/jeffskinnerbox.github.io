@@ -405,6 +405,7 @@ and now even has a script to allow you to start it automatically.
 * [DSpectrum](https://www.rtl-sdr.com/youtube-talk-introduction-to-dspectrum-for-reverse-engineering-signals/)
 * [Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR](Attack Some Wireless Devices With A Raspberry Pi And An RTL-SDR)
 * [Samy Kamkar: Reverse Engineering for a Secure Future](https://hackaday.com/2018/01/02/samy-kamkar-reverse-engineering-for-a-secure-future/)
+* [Breaking Encrypted Firmware Workshop](https://hackaday.com/2020/12/11/remoticon-video-breaking-encrypted-firmware-workshop/)
 * [Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016](https://www.youtube.com/watch?v=1RipwqJG50c&t=15s)
 * [Samy Kamkar's Crash Course in How to Be a Hardware Hacker](https://www.youtube.com/watch?v=tlwXmNnXeSY&app=desktop)
 * [Interactive Disassembler (IDA)](https://www.hex-rays.com/products/ida/)

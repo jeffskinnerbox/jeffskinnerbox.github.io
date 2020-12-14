@@ -145,6 +145,7 @@ was announced it was described as being designed for,
 
 * [Ham Radio Crash Course](https://www.youtube.com/user/hoshnasi/videos)
 * [FT8: Saving Ham Radio or Killing It?](https://hackaday.com/2018/11/02/ft8-saving-ham-radio-or-killing-it/)
+* [Ham Radio Needs To Embrace The Hacker Community Now More Than Ever](https://www.kj7nzl.net/blog/ham-radio-needs-to-embrace-the-hacker-community-now-more-than-ever/)
 * [The $50 Ham: Getting Your Ticket Punched](https://hackaday.com/2019/03/08/the-50-ham-getting-your-ticket-punched/)
 * [The $50 Ham: Entry-Level Transceivers for Technicians](https://hackaday.com/2019/03/15/the-50-ham-entry-level-transceivers-for-technicians/)
 * [The $50 Ham: Checking Out the Local Repeater Scene](https://hackaday.com/2019/04/11/the-50-ham-checking-out-the-local-repeater-scene/)

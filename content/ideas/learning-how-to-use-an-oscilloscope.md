@@ -60,6 +60,7 @@ To to that, you man not start here, but you should certainly finish here:
 
 # Tutorials on Electronics
 * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
+* [Full 8-Bit Computer On Breadboards](https://hackaday.com/2020/11/23/full-8-bit-computer-on-breadboards/)
 
 # Debugging Electronics
 * [Daniel Samarin - Debugging Electronics: You Can’t Handle the Ground Truth!](https://www.youtube.com/watch?time_continue=10&v=oULeLtcv4n4&feature=emb_logo)

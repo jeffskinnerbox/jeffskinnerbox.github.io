@@ -244,6 +244,8 @@ Vagrant boxes are all provider-specific. A box for VirtualBox is incompatible wi
 * https://www.vagrantup.com/docs/multi-machine/
 
 ## What About Containers (e.g. Docker)
+Containerization is the process of distributing and deploying applications in a portable and predictable way. It accomplishes this by packaging components and their dependencies into standardized, isolated, lightweight process environments called containers.  Many organizations are now interested in designing applications and services that can be easily deployed to distributed systems, allowing the system to scale easily and survive machine and application failures.  Docker, a containerization platform developed to simplify and standardize deployment in various environments, was largely instrumental in spurring the adoption of this style of service design and management.  A large amount of software has been created to build on this ecosystem of distributed container management.
+
 A container emulates the user space of an operating system.
 You run a container engine to create isolated processes, memory, mount points, and networking.
 
@@ -1070,11 +1072,13 @@ https://devopscube.com/packer-tutorial-for-beginners/
 * [Manage your Raspberry Pi fleet with Ansible](https://opensource.com/article/20/9/raspberry-pi-ansible)
 
 # Docker
-* [How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)
+* [How To Install and Use Docker on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 * [How To Install and Use Docker on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
+* [How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)
 * [A Beginner-Friendly Introduction to Containers, VMs and Docker](https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
 * [Running a Docker container as a non-root user](https://medium.com/redbubble/running-a-docker-container-as-a-non-root-user-7d2e00f8ee15)
 
+* [The Docker Ecosystem: An Introduction to Common Components](https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components)
 * [Docker Tutorial: Get Going From Scratch](https://stackify.com/docker-tutorial/)
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/)
 * [A sysadmin's guide to containers](https://opensource.com/article/18/8/sysadmins-guide-containers)
@@ -1090,6 +1094,16 @@ https://devopscube.com/packer-tutorial-for-beginners/
 * [Docker’s detached mode for beginners](https://medium.freecodecamp.org/dockers-detached-mode-for-beginners-c53095193ee9)
 * [Docker for App Dev](https://www.youtube.com/watch?v=tfOqLM9HjRg&list=PL6aLoEodmDP-SwkMXsLPnD2soWE7_2fwl)
 * [Building container images with the ansible-bender tool](https://opensource.com/article/19/10/building-container-images-ansible)
+
+## Docker Getting Started
+* [A Beginner’s Guide to Understanding and Building Docker Images](https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/)
+* [Using Docker and Docker Compose for Local Development and Small Deployments](https://www.codementor.io/@jquacinella/docker-and-docker-compose-for-local-development-and-small-deployments-ph4p434gb)
+
+## Docker Best Practices
+* [Docker Best Practices and Anti-Patterns](https://medium.com/better-programming/docker-best-practices-and-anti-patterns-e7cbccba4f19)
+* [Docker: Building Images for Multiple Architectures](https://admantium.medium.com/docker-building-images-for-multiple-architectures-4f142f6dda71)
+* [Using Variables in Docker-Compose](https://medium.com/better-programming/using-variables-in-docker-compose-265a604c2006)
+* [Create lean Docker images using the Builder Pattern](https://medium.com/@kaperys/create-lean-docker-images-using-the-builder-pattern-37fe2b5d97d4)
 
 ## Snap
 Canonical has deployed Snappy Ubuntu Core,

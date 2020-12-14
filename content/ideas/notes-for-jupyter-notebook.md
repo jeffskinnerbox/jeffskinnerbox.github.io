@@ -53,6 +53,7 @@
 
 # The New Jupyter Book
 * [The New Jupyter Book](https://medium.com/swlh/the-new-jupyter-book-4028f054893f)
+* [Creating a solid Data Science development environment](https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34)
 
 
 

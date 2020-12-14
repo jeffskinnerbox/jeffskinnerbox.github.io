@@ -23,6 +23,8 @@ Compatible with Arduino and MicroPython, Wio Terminal is an ATSAMD51-based micro
 * [Wio Terminal MQTT Client Using Arduino IDE](https://dzone.com/articles/wio-terminal-mqtt-client-using-arduino-ide)
 * [Wio Terminal Attitude Indicator](https://www.hackster.io/SeeedStudio/wio-terminal-attitude-indicator-eae8d6)
 * [Using Web Bluetooth APIs with Wio Terminal](https://wiki.seeedstudio.com/Wio-Terminal-Web-Bluetooth/)
+* [Wio terminal GPS](https://www.hackster.io/SeeedStudio/wio-terminal-gps-ad70e2)
+* [LoRa GPS Tracker with Wio Terminal](https://www.hackster.io/idreams/lora-gps-tracker-with-wio-terminal-5d8647)
 
 # TinyML
 * [Wio Terminal Sensor Fusion - Introduction](https://www.element14.com/community/community/project14/sensors/blog/2020/10/26/wio-terminal-sensor-fusion)

@@ -7,6 +7,8 @@
 * [The Modular Connector and How It Got That Way](https://hackaday.com/2018/10/02/the-modular-connector-and-how-it-got-that-way/#more-326628)
 * [The BNC Connector and How It Got That Way](https://hackaday.com/2018/10/19/the-bnc-connector-and-how-it-got-that-way/)
 * [Three Quick Tips About Using U.FL](https://learn.sparkfun.com/tutorials/three-quick-tips-about-using-ufl)
+* [Ham radio - the UHF connector and PL259 installation -Ria's Shack](https://www.youtube.com/watch?v=6A_OrkKj8Q0)
+* [Ham Radio - N connectors for coaxial cable](https://www.youtube.com/watch?v=nef7BZTdu8s&list=PLaKDdkKwLCRilHQOC7lfyNfJA0PxBkkdN&index=7)
 
 
 Essentials of Connector Technology
@@ -64,6 +66,7 @@ Some of the widely used connector types are:
 * [PL259][08] - Also goes by UHF connector, or Amphenol coaxial connector, it is a threaded RF connector design, from an era when UHF referred to frequencies over 30 MHz. The UHF connector is the most common connector in amateur radio applications up to 150 MHz.
 * [F-Type][09] - The F connector is a coaxial RF connector commonly used for "over the air" terrestrial television, cable television, satellite television, and cable modems. It is usually connected to RG-6/U coax cable or with RG-59/U cable.
 * U.FL - [Three Quick Tips About Using U.FL](https://learn.sparkfun.com/tutorials/three-quick-tips-about-using-ufl)
+* N Connector -  handles frequencies up to 11 GHz.
 
 ## Why 50 and 75 Ohms
 There is a prevalence of 50 ohm coax.

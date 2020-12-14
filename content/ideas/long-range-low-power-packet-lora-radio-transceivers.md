@@ -8,6 +8,8 @@
 
 * [Handheld LoRa Joystick For Long-Range Bots](https://hackaday.com/2019/09/11/handheld-lora-joystick-for-long-range-bots/)
 
+* [IRC Over LoRa, For When Things Really Go South](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
+
 
 # Adafruit Products
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
@@ -125,6 +127,7 @@
 * [How to detect and prevent issues with vulnerable LoRaWAN networks](https://www.helpnetsecurity.com/2020/01/28/vulnerable-lorawan-networks/)
 * [LoRaWAN Networks Susceptible to Hacking: Common Cyber Security Problems, How to Detect and Prevent Them](https://act-on.ioactive.com/acton/attachment/34793/f-87b45f5f-f181-44fc-82a8-8e53c501dc4e/1/-/-/-/-/LoRaWAN%20Networks%20Susceptible%20to%20Hacking.pdf)
 * [LoRaWAN & MQTT: What to Know When Securing Your IoT Network](https://securityboulevard.com/2020/10/lorawan-mqtt-what-to-know-when-securing-your-iot-network/)
+* [Deploying a LoRaWAN network server on Azure](https://blog.benjamin-cabe.com/2020/12/01/deploying-a-lorawan-network-server-on-azure)
 
 
 
@@ -488,6 +491,7 @@ like [The Things Network][14], [scriptr;][11].
 # The Things Network
 ![img](http://thethingsnetwork.org/static/ttn/media/The%20Things%20Uitlijning.svg)
 
+* [The Things Stack](https://thethingsindustries.com/docs/getting-started/)
 * [LoRaWAN with ProRF and The Things Network](https://learn.sparkfun.com/tutorials/lorawan-with-prorf-and-the-things-network/all)
 * https://www.thethingsnetwork.org/docs/
 * [The Things Network](http://thethingsnetwork.org/)

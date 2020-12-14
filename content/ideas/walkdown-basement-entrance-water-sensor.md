@@ -57,6 +57,10 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [makerPower Solar](https://www.crowdsupply.com/danjuliodesigns/makerpower-solar)
 * [Let The Solar Free](https://hackaday.com/2020/10/24/let-the-solar-free/)
 
+# Solar Powered: Pro & Con
+* [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
+* [The Dark Side Of Solar Power](https://hackaday.com/2020/12/02/the-dark-side-of-solar-power/#more-429117)
+
 
 # Implementing Power Management
 Usually, we can model an device power consumption using three different areas:

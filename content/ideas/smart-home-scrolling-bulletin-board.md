@@ -57,6 +57,7 @@ Native Informational Features
 
 # Give it a Voice via Amazon Polly
 * [Amazon Polly Tutorial | How to convert Text to Speech using AWS Polly](https://www.youtube.com/watch?v=ywpPZE6Gd80)
+* [The No Voice Assistant: You Can Now Text Alexa](https://www.makeuseof.com/you-can-now-text-alexa/)
 
 
 

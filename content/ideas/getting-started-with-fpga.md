@@ -236,9 +236,10 @@ Hardware description languages (HDL), such as Verilog or VHDL, are used to desig
 
 TinyFPGA is a family of low cost, open source FPGA development boards designed and created by Luke Valenty. The boards are supported by free (and many open source) toolsets.
 
-[Comparing an FPGA to a Microcontroller, Microprocessor or an ASIC](https://www.element14.com/community/groups/fpga-group/blog/2018/02/22/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic)
-[FPGA for Dummies](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/misc/fpgas_for_dummies_ebook.pdf)
-[Ben Eater's: Build an 8-bit computer from scratch](https://eater.net/8bit/)
+* [Comparing an FPGA to a Microcontroller, Microprocessor or an ASIC](https://www.element14.com/community/groups/fpga-group/blog/2018/02/22/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic)
+* [FPGA for Dummies](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/misc/fpgas_for_dummies_ebook.pdf)
+* [Ben Eater's: Build an 8-bit computer from scratch](https://eater.net/8bit/)
+* [Full 8-Bit Computer On Breadboards](https://hackaday.com/2020/11/23/full-8-bit-computer-on-breadboards/)
 
 
 ## iCE FPGA

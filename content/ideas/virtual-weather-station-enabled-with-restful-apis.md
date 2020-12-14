@@ -153,7 +153,10 @@ This online service allows you to quickly define REST API or SOAP endpoints and 
 * [Stack Of Plant Saucers, Transformed Into Low Cost Solar Shield](https://hackaday.com/2019/09/01/stack-of-plant-saucers-transformed-into-low-cost-solar-shield/)
 * [A lightweight, self contained, solar-powered weather station for the Raspberry Pi](https://github.com/masneyb/weather-station)
 * [Solar-powered Weather Station Has the Complete Suite of Sensors](http://hackaday.com/2016/08/17/solar-powered-weather-station-has-the-complete-suite-of-sensors/)
+
+# Solar Powered: Pro & Con
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
+* [The Dark Side Of Solar Power](https://hackaday.com/2020/12/02/the-dark-side-of-solar-power/#more-429117)
 
 # Space Weather
 Space Weather is the term scientists use to describe the ever changing conditions in space. Explosions on the Sun create storms of radiation, fluctuating magnetic fields, and swarms of energetic particles. These phenomena travel outward through the Solar System with the solar wind. Upon arrival at Earth, they interact in complex ways with Earth's magnetic field, creating Earth's radiation belts and the Aurora. Some space weather storms can damage satellites, disable electric power grids, and disrupt cell phone communications systems.

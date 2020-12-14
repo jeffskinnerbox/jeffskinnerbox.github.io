@@ -61,6 +61,8 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 [The Xtal Set Society](https://www.midnightscience.net/)
 [Antique Wireless Association](http://www.antiquewireless.org/)
 
+# High-Impedance Earphone
+* [Cheap DIY High Impedance Earphones](https://hackaday.com/2020/12/03/cheap-diy-high-impedance-earphones/)
 
 # History
 * [Crystal radio](https://en.m.wikipedia.org/wiki/Crystal_radio)
@@ -92,6 +94,7 @@ For more information, see Kathy Balistreri excellent videos on the ["Secret Hist
 Specifically, check out:
 
 * [Let's try to build a Vacuum Tube Radio](https://www.youtube.com/watch?v=wuK_Fl88sPU)
+* [Finalizing the Low Voltage Vacuum Tube Audio Amplifier](https://www.youtube.com/watch?v=hx6rzXAAUiQ&t=824s)
 * [Triode Vacuum Tube: History & Physics](https://www.youtube.com/watch?v=0Smj2nHo9zA)
 * [Reginald Fessenden & the Physics of the First Radio Broadcast](https://www.youtube.com/watch?v=RYHaihLhBvc)
 * [The Arc Transmitter (Poulsen Arc) and the Titanic](https://www.youtube.com/watch?v=hrmx_TKNvyc)

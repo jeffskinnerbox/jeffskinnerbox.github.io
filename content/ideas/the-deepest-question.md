@@ -124,6 +124,13 @@ A function is a relation that uniquely associates members of one set with member
 * [How Quantum is the Uncertainty Principle?](https://medium.com/swlh/how-quantum-is-the-uncertainty-principle-4569eb7a9eb1)
 * [Quantum Tunnels Show How Particles Can Break the Speed of Light](https://www.quantamagazine.org/quantum-tunnel-shows-particles-can-break-the-speed-of-light-20201020/)
 * [The Most Famous Paradox in Physics Nears Its End](https://www.quantamagazine.org/the-black-hole-information-paradox-comes-to-an-end-20201029/)
+* [Observing The Universe Really Does Change The Outcome, And This Experiment Shows How](https://medium.com/starts-with-a-bang/observing-the-universe-really-does-change-the-outcome-and-this-experiment-shows-how-454d10b651ca)
+
+# Fine-Structure Constant
+* [Physicists Nail Down the ‘Magic Number’ That Shapes the Universe](https://www.quantamagazine.org/physicists-measure-the-magic-fine-structure-constant-20201202/)
+
+# Quantum Fluctuations
+* [Quantum Fluctuations Were Experimentally Proven Way Back In 1947](https://medium.com/starts-with-a-bang/quantum-fluctuations-were-experimentally-proven-way-back-in-1947-35952514e5eb)
 
 # What about String Theory?
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
@@ -153,6 +160,9 @@ A function is a relation that uniquely associates members of one set with member
 * [The Beauties Hidden in Pi(π)](https://medium.com/however-mathematics/the-beauties-hidden-in-pi-%CF%80-1c614e636426)
 * [Estimating π with Monte-Carlo-Simulations](https://medium.com/cantors-paradise/estimating-%CF%80-using-monte-carlo-simulations-3459a84b5ef9)
 * [A Beautiful Way to Calculate π: Buffon’s Needle Problem](https://medium.com/however-mathematics/a-beautiful-way-to-calculate-%CF%80-buffons-needle-problem-51d41029f287)
+
+# Entropy
+* [What, Exactly, is Entropy?](https://medium.com/cantors-paradise/what-exactly-is-entropy-2a0e2fc067f8)
 
 # Bootstrapping
 * [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)

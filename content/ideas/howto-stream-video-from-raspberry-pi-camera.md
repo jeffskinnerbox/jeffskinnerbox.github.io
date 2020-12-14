@@ -1,4 +1,5 @@
 * Consider using [OpenFaaS](https://www.openfaas.com/)
+* [Bash Functions as a Service](https://medium.com/swlh/bash-functions-as-a-service-b4033bc1ee97)
 
 * [HKCam: A Raspberry Pi-powered and open-source HomeKit security camera that costs under US$20](https://www.notebookcheck.net/HKCam-A-Raspberry-Pi-powered-and-open-source-HomeKit-security-camera-that-costs-under-US-20.422731.0.html)
 * [Wyze Cam Pan 1080p Pan/Tilt/Zoom Wi-Fi Indoor Smart Home Camera with Night Vision and 2-Way Audio, Works with Alexa]()

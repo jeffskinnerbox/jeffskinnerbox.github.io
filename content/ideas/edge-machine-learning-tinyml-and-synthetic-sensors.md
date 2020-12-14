@@ -20,8 +20,13 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 * [Free Online Resources To Get A Comprehensive Understanding Of TinyML](https://analyticsindiamag.com/free-online-resources-to-get-a-comprehensive-understanding-of-tinyml/)
 
+* [Remoticon Video: How To Use Machine Learning With Microcontrollers](https://hackaday.com/2020/12/04/remoticon-video-how-to-use-machine-learning-with-microcontrollers/)
+
 # μTensor
 * [μTensor](https://utensor.github.io/website/)
+
+# SensiML
+* [SensiML](https://sensiml.com/)
 
 # TensorFlow Lite
 * [TensorFlow Lite](https://www.tensorflow.org/lite)

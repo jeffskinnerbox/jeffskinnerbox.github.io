@@ -38,6 +38,7 @@ Electronic paper, as that display tech is known (E Ink is a trademarked term own
 * [DESK OF LADYADA - Fast partial updates on an E-Ink - starring QT Py!](https://www.youtube.com/watch?v=3sYBws3-OoU)
 * [Color E-Ink Display Photo Frame Pranks](https://hackaday.com/2020/10/30/color-e-ink-display-photo-frame-pranks-mom/)
 * [Waveshare 2.9 Inch E-Paper Raw Display Panel 296x128 Resolution 3.3V E-Ink Electronic Paper Screen with Embedded Controller SPI Interface Support Partial Refresh](https://www.amazon.com/gp/product/B072J2LG8N/ref=ppx_od_dt_b_asin_title_s00)
+* [$25 TTGO T5 4.7-inch e-Paper Display comes with ESP32 WiFi & Bluetooth SoC](https://www.cnx-software.com/2020/12/04/ttgo-t5-4-7-inch-e-paper-display-comes-with-esp32-wifi-bluetooth-soc/)
 
 You can find technical information at the [Waveshape Wiki](https://www.waveshare.com/wiki/Main_Page)
 * [Waveshare Universal e-Paper Raw Panel Driver Shield for Raspberry Pi](https://www.amazon.com/gp/product/B075R55WQT/ref=ppx_od_dt_b_asin_title_s00)
@@ -47,6 +48,9 @@ You can find technical information at the [Waveshape Wiki](https://www.waveshare
 
 Move advanced products:
 * [Pimoroni's Inky Impression Is a 5.7" Seven-Color E Ink Display for the Raspberry Pi and Compatibles](https://www.hackster.io/news/pimoroni-s-inky-impression-is-a-5-7-seven-color-e-ink-display-for-the-raspberry-pi-and-compatibles-e20b7026a9d3)
+
+### E-Paper Templates
+* [Templateize Your Timetable With EPaper Templates](https://hackaday.com/2020/12/02/templateize-your-timetable-with-epaper-templates/)
 
 ## Wio Terminal
 The [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)

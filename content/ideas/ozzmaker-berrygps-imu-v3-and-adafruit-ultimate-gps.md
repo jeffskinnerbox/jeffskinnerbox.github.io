@@ -44,8 +44,11 @@ From there, [using 200 lines of Python](https://github.com/bunnie/watchmap) ([he
 # DashCam
 Combining the GPS location information onto a video stream
 
-* [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
+ [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
+* [How to Build a Raspberry Pi Body Camera](https://www.tomshardware.com/how-to/raspberry-pi-body-camera)
+* [Building a Blockchain Police Bodycam PoC for $25](https://www.digitalmarketnews.com/building-a-blockchain-police-bodycam-poc-for-25/)
 * [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
+* [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
 
 # logging
 * [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
@@ -57,7 +60,8 @@ Combining the GPS location information onto a video stream
 
 # GPS-Tracker Using LoRa
 * [Create Your Own GPS-Tracker Using LoRa](https://dzone.com/articles/create-your-own-gps-tracker-using-lora)
-
+* [Wio terminal GPS](https://www.hackster.io/SeeedStudio/wio-terminal-gps-ad70e2)
+* [LoRa GPS Tracker with Wio Terminal](https://www.hackster.io/idreams/lora-gps-tracker-with-wio-terminal-5d8647)
 
 
 
