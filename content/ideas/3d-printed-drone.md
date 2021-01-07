@@ -7,6 +7,9 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 
 * [Intro to Aerodynamics: How Do Airplanes Fly?](https://www.youtube.com/watch?v=Z1FAAJ4hUaQ)
 
+# Regulations
+* [Federal Aviation Administration Announces Major Drone Rule Changes](https://hackaday.com/2020/12/29/federal-aviation-administration-announces-major-drone-rule-changes/)
+
 # Airplane / Drone
 * [WiFi Controlled Plane Is Cheap Flying Fun](https://hackaday.com/2019/04/12/wifi-controlled-plane-is-cheap-flying-fun/)
 * [8 open source drone projects](https://opensource.com/article/18/2/drone-projects)
@@ -31,6 +34,7 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [The Ball-Drone Project](https://hackaday.io/project/169823-the-ball-drone-project)
 * [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
 * [Flies Like A Quadcopter, But This Drone Design Has Only One Propeller](https://hackaday.com/2020/11/02/flies-like-a-quadcopter-but-this-drone-design-has-only-one-propeller/)
+* [How to Build an FPV Drone (under $150)!](https://www.instructables.com/How-to-Build-an-FPV-Drone-under-150/)
 
 # Hackable Drones
 * [A Hackable Drone Without All The Wiring](https://hackaday.com/2020/05/02/a-hackable-drone-without-all-the-wiring/)

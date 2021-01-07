@@ -64,6 +64,9 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [3 Word Address](http://what3words.com/)
 * [Plus Code](https://plus.codes/)
 
+## ZIP Code
+* [What the ZIP in ZIP Code Really Means](https://medium.com/knowledge-stew/what-the-zip-in-zip-code-really-means-4342492a4f1b)
+
 ## Location Platforms
 Use Skyhook Precision Location on a Raspberry Pi device running Raspbian Linux.
 The device will continuously record its location, even when disconnected from the internet or not.

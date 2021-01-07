@@ -178,7 +178,10 @@ Voltage multipliers can be used to generate a few volts to millions of volts for
 * [Making 500,000 VOLT ARC with Marx Generator](https://www.youtube.com/watch?v=dje7uhyW23o&feature=youtu.be)
 
 ## Cockroft-Walton Multiplier
+* [EEVblog #469 - Cockcroft-Walton Multiplier](https://www.youtube.com/watch?v=ep3D_LC2UzU&t=145s)
 * [d.i.y. 250 kV High Voltage DC Power Supply with Neat Trick for Switching Polarity](http://www.diyphysics.com/2012/02/09/d-i-y-250-kv-high-voltage-dc-power-supply-with-neat-trick-for-switching-polarity/)
+* [DIY Flyback Trafo Cockroft-Walton Voltage Multiplier(110.000 Volts)](https://www.instructables.com/DIY-Flyback-Trafo-Cockroft-Walton-Voltage-Multipli/)
+* [Voltage multiplier: Generating over 100,000 volts DC](https://www.youtube.com/watch?v=DI8Yt1AQrH8)
 
 ## Nice Build
 * [DIY Desktop Lightning Tower (USB rechargeable!)](https://www.youtube.com/watch?v=YYKlfFYTl-8)

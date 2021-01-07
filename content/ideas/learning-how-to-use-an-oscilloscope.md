@@ -45,6 +45,8 @@ Oscilloscope Sample Rate
 * [Differential (Normal) Mode Noise and Common Mode Noise－Causes and Measures](https://techweb.rohm.com/knowledge/emc/s-emc/01-s-emc/6899)
 * [How To Track Down Common Mode Noise](https://www.youtube.com/watch?v=BFLZm4LbzQU)
 * [Basics of Ferrite Beads: Filters, EMI Suppression, Parasitic oscillation suppression / Tutorial](https://www.youtube.com/watch?v=81C4IfONt3o)
+* [EEVblog #442 - Analog Vs Digital Oscilloscope Noise](https://www.youtube.com/watch?v=ImyUB3_n9fw)
+* [EEVblog #601 - Why Digital Oscilloscopes Appear Noisy](https://www.youtube.com/watch?v=Znwp0pK8Tzk&feature=youtu.be)
 
 # Premature Oscilloscope Triggering
 * [EEVblog #1320 - Premature Oscilloscope Triggering](https://www.youtube.com/watch?v=GZHnrGIK9V8)
@@ -80,6 +82,9 @@ To to that, you man not start here, but you should certainly finish here:
 * [Twelve tips for using the Rigol DS1052E Oscilloscope](http://www.righto.com/2013/07/tips-for-using-rigol-ds1052e.html)
 * [EEVblog #1324 - Scope TRICK: 2 Probes 1 Hand](https://www.youtube.com/watch?v=v8sCyr5pZkc&feature=em-uploademail)
 
+## FFT Mode
+See 15:45 minutes into the video. Bottomline ... doesn't work well - [EEVblog #845 - Oscilloscope FFT Comparison](https://www.youtube.com/watch?v=07VkEUUd0eo&feature=youtu.be)
+
 # Vector Display
 * turned his oscilloscope into a vector display - [WATCH VIDEO ON A OSCILLOSCOPE WITH AN ESP32](https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/)
 * [Scopetrex Is A Game Console… For Your Oscilloscope!](https://hackaday.com/2020/05/07/scopetrex-is-a-game-console-for-your-oscilloscope/)
@@ -107,6 +112,7 @@ and verify design simulations to make sure systems and their components work pro
 * [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
 * [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
+* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 * [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
 * [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
 * [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
@@ -136,9 +142,18 @@ and verify design simulations to make sure systems and their components work pro
 # Measuring RF Cable Impedance
 * [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
 
-# Oscilloscope Current Probe
+# Oscilloscope Probes
+* [The Secret Life of Oscilloscope Probes](http://www.dfad.com.au/links/THE%20SECRET%20WORLD%20OF%20PROBES%20OCt09.pdf)
+* [Oscilloscope Probes: What You Need to Know](https://www.youtube.com/watch?app=desktop&v=XQlPSFqhG08)
+## Passive Voltage Probe
+* [EEVblog #453 - Mysteries of x1 Oscilloscope Probes Revealed](https://www.youtube.com/watch?app=desktop&v=OiAmER1OJh4)
+## Active Voltage Probe
+## Current Probe
 * [Understanding, Selecting, and Effectively Using Current Probes](https://www.digikey.com/en/articles/understanding-selecting-effectively-using-current-probes)
 * [Micsig CP2100A Best Affordable Current Probe](https://www.youtube.com/watch?v=8zW4j0euN8A)
+## High Voltage Probe
+## Single-Ended Probe
+## Differential Probe
 
 # Chaotic Circuits
 A Chua's circuit (also known as a Chua circuit)

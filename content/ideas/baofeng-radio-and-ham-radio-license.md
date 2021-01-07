@@ -97,6 +97,11 @@ However there are still some things you can listen to:
 
 * [Which Exam to Take?](https://www.hamradiolicenseexam.com/which-exam.htm)
 
+The [Federal Communications Commission has adopted a $35 fee][09]
+for new amateur radio licenses, license renewals, and changes to existing licenses, like vanity call signs.
+While $35 isn't cheap, it's not the end of the world,
+and it's better than the $50 fee that the FCC was originally proposing.
+
 # History of Ham
 The origin of the term "Ham" is not clear but the prevailing theory is the following.
 In the early part of the 20th Century,
@@ -112,6 +117,8 @@ In the 1920's, Hiram Percy Maxim saw the value of a public with radios transceiv
 and founded the American Radio Relay League (ARRL).
 
 
+# QRZ
+* [QRZNOW](https://qrznow.com/)
 
 # The M17 Project
 * [M17 Aims To Replace Proprietary Ham Radio Protocols](https://hackaday.com/2020/10/02/m17-aims-to-replace-proprietary-ham-radio-protocols/)
@@ -212,7 +219,7 @@ wanted to measure the exact RF power output from your QRP rig, programmable osci
 [06]:http://www.instructables.com/id/Spooky-Tesla-Spirit-Radio/?ALLSTEPS
 [07]:https://codegreenprep.com/2015/02/new-baofeng-bf-f8hp-worthy-successor-uv-5r/
 [08]:https://en.wikipedia.org/wiki/WSJT_(amateur_radio_software)
-[09]:
+[09]:https://swling.com/blog/2020/12/fcc-adopts-a-35-license-fee-for-amateur-radio-service-applications/
 [10]:
 [11]:
 [12]:

@@ -1,3 +1,8 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
 
 * [Versatile Volt, Ampere, and Power Meter](https://www.instructables.com/id/Versatile-Volt-Ampere-and-Power-Meter/)
 * [Cute and versatile DIY Volt, Ampere, Power, efficiency and Capacity Meters](https://www.youtube.com/watch?v=8gmzQuk9OwA)

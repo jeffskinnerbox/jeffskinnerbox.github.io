@@ -22,6 +22,11 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 * [Remoticon Video: How To Use Machine Learning With Microcontrollers](https://hackaday.com/2020/12/04/remoticon-video-how-to-use-machine-learning-with-microcontrollers/)
 
+# Himax WE-I Plus (Camera)
+* [Himax WE-I Plus](https://docs.edgeimpulse.com/docs/himax-we-i-plus)
+* [Himax WE-I Plus EVB Endpoint AI Development Board](https://www.sparkfun.com/products/17256)
+* [Himax Launches WiseEye WE-I Plus HX6537-A with Full Support for TensorFlow Lite for Microcontrollers](https://www.hackster.io/news/himax-launches-wiseeye-we-i-plus-hx6537-a-with-full-support-for-tensorflow-lite-for-microcontrollers-484c17737b73)
+
 # μTensor
 * [μTensor](https://utensor.github.io/website/)
 

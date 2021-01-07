@@ -39,6 +39,10 @@ via watching for WiFi packets with it MAC address.
 Others have used the insights gain from tear downs and discovered ways to repurpose these Dash Buttons:
 
 * [Amazon Dash Button Silent Doorbell](https://www.hackster.io/elizabethna/amazon-dash-button-silent-doorbell-ec0956)
+* [Amazon may be done with Dash buttons, but you don’t have to be](https://www.dailydot.com/debug/amazon-dash-buttons-what-to-do-hacks/)
+* [Welcome to amazon-dash’s documentation!](https://docs.nekmo.org/amazon-dash/)
+* [https://github.com/Nekmo/amazon-dash](https://github.com/Nekmo/amazon-dash)
+
 
 * [What Is Amazon Dash? And 6 of the Best Hacks You Should Know](https://www.makeuseof.com/tag/hacks-amazon-dash-buttons/)
 * [Easiest Way to “Hack” Amazon Dash Button](https://community.smartthings.com/t/easiest-way-to-hack-amazon-dash-button/98113)

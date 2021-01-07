@@ -164,6 +164,7 @@ Space Weather is the term scientists use to describe the ever changing condition
 * [NASA APIs](https://api.nasa.gov/index.html)
 * [SPACE WEATHER PREDICTION CENTER](https://www.swpc.noaa.gov/communities/space-weather-enthusiasts)
 * [Welcome To Solar Cycle 25; Our Sun Enters A New 11-Year Period](https://hackaday.com/2020/10/06/welcome-to-solar-cycle-25-our-sun-enters-a-new-11-year-period/)
+* [Solar Flares And Radio Communications — How Precarious Are Our Electronics?](https://hackaday.com/2020/12/30/solar-flares-and-radio-communications-how-precarious-are-our-electronics/)
 
 # Creating APIs
 * [How to set-up a powerful API with Nodejs, GraphQL, MongoDB, Hapi, and Swagger](https://medium.freecodecamp.org/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
@@ -354,6 +355,12 @@ that can send notifications within minutes of an earthquake.
 * [GNUradio decoders for different satellites](https://github.com/daniestevez/gr-satellites)
 * [L Band Satellite Antennas Revealed](https://hackaday.com/2019/08/04/l-band-satellite-antennas-revealed/)
 
+# Radiosonde
+A [radiosonde][10] is a battery-powered telemetry instrument carried into the atmosphere usually by a weather balloon that measures various atmospheric parameters and transmits them by radio to a ground receiver.
+
+* [Radiosonders: Getting Data from Upstairs](https://hackaday.com/2017/12/08/radiosondes/)
+* [A Tracker For Radio Sondes](https://hackaday.com/2020/12/27/a-tracker-for-radio-sondes/)
+
 
 
 [01]:https://nodejs.org/
@@ -365,7 +372,7 @@ that can send notifications within minutes of an earthquake.
 [07]:http://json.org/
 [08]:http://en.wikipedia.org/wiki/NoSQL
 [09]:https://github.com/expressjs/body-parser
-[10]:
+[10]:https://en.wikipedia.org/wiki/Radiosonde
 [11]:
 [12]:
 [13]:

@@ -32,6 +32,10 @@ PIC Mesh
 Mesh Bee
 * [Mesh Bee](http://wiki.seeedstudio.com/wiki/Zig_Bee)
 
+Maxwell Mesh WiFi
+* [Mesh Wi-Fi for nerds](https://www.crowdsupply.com/andy-haas/maxwell)
+* [Maxwell Mesh Wifi Documentation](https://docs.google.com/document/d/1TnzFl1mKHkWIbcUVCAEKZYzHnerIYOiiUq8j5ZDTStQ/edit#heading=h.h6za53wq6dff)
+
 ESP8266 Mesh Networking
 * [ESP8266 Mesh User Guide](http://www.espressif.com/sites/default/files/30a-esp8266_mesh_user_guide_en.pdf)
 * [ESP-Mesh](https://espressif.com/en/products/software/esp-mesh/overview)

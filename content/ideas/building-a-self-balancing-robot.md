@@ -4,6 +4,9 @@ Consider this for radio remote control - [Pi GRRL Zero Parts Kit - Includes Pi Z
 
 * [The balancing problem](http://twopotatoe.net/?page_id=323)
 
+# Mechanisms
+* [Ten Robot Mechanisms For Your Design Toolbox](https://hackaday.com/2020/12/25/ten-robot-mechanisms-for-your-design-toolbox/)
+
 # Self-Driving Vicheale
 * [Self-Driving RC Truck is a Master’s Thesis in Cybernetics and Robotics](https://hackaday.com/2020/10/31/self-driving-rc-truck-is-a-masters-thesis-in-cybernetics-and-robotics/)
 

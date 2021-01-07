@@ -5,6 +5,8 @@
 
 * [#321 7 Sensors tested: Measuring Current with Microcontrollers (Arduino, ESP32, ESP8266)](https://www.youtube.com/watch?v=cG8moaufmQs&t=75s)
 
+* [A Complete Raspberry Pi Power Monitoring System](https://hackaday.com/2020/07/24/a-complete-raspberry-pi-power-monitoring-system/)
+
 
 
 

@@ -45,6 +45,7 @@ You can find technical information at the [Waveshape Wiki](https://www.waveshare
 * [E-Paper Driver HAT](https://www.waveshare.com/wiki/E-Paper_Driver_HAT)
 * [2.9inch e-Paper Module](https://www.waveshare.com/wiki/2.9inch_e-Paper_Module)
 * [E-Paper ESP8266 Driver Board](https://www.waveshare.com/wiki/E-Paper_ESP8266_Driver_Board)
+* [Collin's Lab: Eink, Think Ink - the full series!](https://www.youtube.com/watch?v=eipKg2pUQ_8)
 
 Move advanced products:
 * [Pimoroni's Inky Impression Is a 5.7" Seven-Color E Ink Display for the Raspberry Pi and Compatibles](https://www.hackster.io/news/pimoroni-s-inky-impression-is-a-5-7-seven-color-e-ink-display-for-the-raspberry-pi-and-compatibles-e20b7026a9d3)

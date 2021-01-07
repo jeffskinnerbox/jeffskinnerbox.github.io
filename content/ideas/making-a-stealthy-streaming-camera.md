@@ -14,6 +14,15 @@
 
 * [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
 
+
+
+
+
+# Motion Activation
+* [How to make a DIY home alarm system with a raspberry pi and a webcam](https://medium.com/@Cvrsor/how-to-make-a-diy-home-alarm-system-with-a-raspberry-pi-and-a-webcam-2d5a2d61da3d)
+* [Building a Motion Activated Security Camera with the Raspberry Pi Zero](https://www.bouvet.no/bouvet-deler/utbrudd/building-a-motion-activated-security-camera-with-the-raspberry-pi-zero)
+* [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
+
 # ESP32-CAM or ESP32-EYE 0r esp32-eye + Omnivision camera
 * [How to make a small, low-cost, remote accessible security camera with an ESP32](https://www.nabto.com/esp32/)
 * [Matchbox-Sized P2P Remote Accessible Camera with ESP32](https://www.hackster.io/crgregersen/matchbox-sized-p2p-remote-accessible-camera-with-esp32-a41126)

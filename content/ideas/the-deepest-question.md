@@ -30,6 +30,7 @@ and  after all, [isn't it dead][07]?
 * [“Is God A Mathematician” by Mario Livio](https://medium.com/cantors-paradise/is-god-a-mathematician-by-mario-livio-a7ae4beec5e2)
 
 # What is the Foundation of Mathmatics?
+* [The Map of Mathematics](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
 * [Crisis in the Foundation of Mathematics](https://www.youtube.com/watch?v=KTUVdXI2vng)
 * [What Does It Mean to Be a Number? (The Peano Axioms](https://www.youtube.com/watch?v=3gBoP8jZ1Is)
 * [What are Numbers Made of?](https://www.youtube.com/watch?v=S4zfmcTC5bM)
@@ -116,6 +117,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Chapter 2:]() - Coming October 29
 * [Chapter 3:]() - Coming November 5
 * [Chapter 4:]() - Coming November 12
+* [What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 
 # What about Quantum Theory?
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
@@ -136,9 +138,11 @@ A function is a relation that uniquely associates members of one set with member
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
 
 # Information
+* [How Claude Shannon Invented the Future](https://www.quantamagazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/)
 * [The Mathematics Behind Communication and Transmitting Information](https://medium.com/however-mathematics/the-mathematics-behind-communication-and-transmitting-information-f8162aa25055)
 
 # Fractional Calculus and Gamma Function
+* [What is Fractional Calculus?](https://medium.com/cantors-paradise/fractional-calculus-48192f4e9c9f)
 * [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
 
 # Fractals
@@ -148,10 +152,11 @@ A function is a relation that uniquely associates members of one set with member
 * [Euler’s Formula](https://medium.com/swlh/eulers-formula-11a991fc3829)
 * [Euler’s Identity](https://medium.com/swlh/eulers-identity-990b52f0d8fc)
 
-# Richard Feynman’s Integral Trick
+# Richard Feynman’s Integral Trick and Other Such Things
 * [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
 * [Calculus 2: Integration, Computation of Areas and Volumes, Differential Equations](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKGna43cvDO4NZEEOdM4vcR)
 * [Richard Hamming: "Learning to Learn"](https://www.youtube.com/playlist?list=PL2FF649D0C4407B30)
+* [How Richard Feynman Reinvented Quantum Theory](https://medium.com/cantors-paradise/how-richard-feynman-reinvented-quantum-theory-68395f213cb0)
 
 # Finding Pi in Unusal Places
 * [The Pi Machine: The most unexpected answer to a counting puzzle](https://medium.com/@christopher.fraser/the-pi-machine-the-most-unexpected-answer-to-a-counting-puzzle-b365db558b12)
@@ -217,6 +222,12 @@ A function is a relation that uniquely associates members of one set with member
 
 # Uncomputable Numbers
 * [Uncomputable Numbers](https://medium.com/cantors-paradise/uncomputable-numbers-ee528830d295)
+
+# Probability & Statistics
+* [Math-Based Decision Making: The Secretary Problem](https://medium.com/cantors-paradise/math-based-decision-making-the-secretary-problem-a30e301d8489)
+
+# The Universe Wants to Kill You
+* [The Universe Might End Tomorrow](https://medium.com/predict/the-universe-might-end-tomorrow-8916b0d0cee2)
 
 
 

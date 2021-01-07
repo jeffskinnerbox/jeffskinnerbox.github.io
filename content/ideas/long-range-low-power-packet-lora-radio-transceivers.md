@@ -572,6 +572,7 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 
 
 ### Multi-Channel Gateway
+* [The Things Indoor LoRaWAN WiFi Gateway Based on SX1308 – US915](https://www.amazon.com/dp/B08L6BWNJR)
 #### Basic Station
 * https://github.com/lorabasics/basicstation
 * https://doc.sm.tc/station/
@@ -1280,6 +1281,7 @@ arduino-timer                	1.0.0     	sketchbook
 * [ESP32 #51: Battery Monitor](https://www.youtube.com/watch?v=-j04T_uVu8U)
 * [Get Months of Battery Life from an ESP8266!](https://www.youtube.com/watch?v=1vs86fwEdtM)
 * [Calculate the Li-Po Battery Level in ESP-Wroom-02](https://arduino.stackexchange.com/questions/60419/calculate-the-li-po-battery-level-in-esp-wroom-02)
+* [Battery Life Estimator](https://www.thethingsnetwork.org/article/battery-lifetime-estimation-of-lorawan-devices)
 
 # Watchdog Time
 * [Preventing Embedded Fails with Watchdogs](https://hackaday.com/2019/01/12/preventing-embedded-fails-with-watchdogs/)

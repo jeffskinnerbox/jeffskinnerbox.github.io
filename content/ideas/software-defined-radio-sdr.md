@@ -7,6 +7,8 @@
 DragonOS is a Debian Linux based operating system which comes with many open source software defined radio programs pre-installed. It supports SDRs like the RTL-SDR, HackRF and LimeSDR.
 
 * [Software-Defined Radio Made Easy](https://hackaday.com/2020/04/11/software-defined-radio-made-easy/)
+* [DRAGONOS: DEBIAN LINUX WITH PREINSTALLED OPEN SOURCE SDR SOFTWARE](https://www.rtl-sdr.com/dragonos-debian-linux-with-preinstalled-open-source-sdr-software/)
+* [DragonOS LTS Installer](https://www.youtube.com/watch?v=3akw0eL6qyo)
 * [Receive Analog Video Radio Signals From Scratch](https://hackaday.com/2020/05/31/receive-analog-video-radio-signals-from-scratch/)
 
 # SigDigger
@@ -108,6 +110,13 @@ http://en.wikipedia.org/wiki/Waveform_viewer
 ################################################################################
 # SDR Hardware and Software Tools
 ################################################################################
+
+# The Verboten Band
+* [Why Your Scanner Has A Hole In It](https://hackaday.com/2020/12/19/why-your-scanner-has-a-hole-in-it/)
+* [The Verboten Band](https://computer.rip/2020-11-28%20the%20verboten%20band.html)
+
+# SineStick
+[SineStick](https://hackaday.io/project/166672-sinestick)
 
 # YARD Stick One
 YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer from Great Scott Gadgets
@@ -321,6 +330,7 @@ Kalibrate-RTL
 * [Product Review: The TinySA, A Shirt-Pocket Sized Spectrum Analyzer](https://hackaday.com/2020/11/09/product-review-the-tinysa-a-shirt-pocket-sized-spectrum-analyzer/)
 * [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
+* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 
 [HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][70]
 
@@ -883,7 +893,9 @@ Other Tools
 # Be Careful
 * [The Great Ohio Key Fob Mystery, Or “Honey, I Jammed The Neighborhood!”](https://hackaday.com/2019/05/15/the-great-ohio-key-fob-mystery-or-honey-i-jammed-the-neighborhood/)
 
-
+# Radio Astronomy / Radio Telescope
+* [A Miniature Radio Telescope In Every Backyard](https://hackaday.com/2019/10/22/a-miniature-radio-telescope-in-every-backyard/)
+* [SpaceAusScope Team Listens To The Galaxy](https://hackaday.com/2020/12/23/spaceausscope-team-listens-to-the-galaxy/)
 
 
 

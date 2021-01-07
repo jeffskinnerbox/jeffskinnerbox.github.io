@@ -1,3 +1,8 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
 
 The Rigol 25 MHz DG1022A Function/Arbitrary Waveform Generators
 use [Direct Digital Synthesis (DDS)][01]

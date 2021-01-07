@@ -618,6 +618,7 @@ Donkeycar community has built a self driving library for Python.
 * [Donkey Car](http://www.donkeycar.com/)
 * [Stereo Vision and LiDAR Powered Donkey Car](https://www.hackster.io/bluetiger9/stereo-vision-and-lidar-powered-donkey-car-575769)
 * [Autonomous Rover Navigates The House With LIDAR](https://hackaday.com/2020/09/22/autonomous-rover-navigates-the-house-with-lidar/)
+* [Lidar House Looks Good, Looks All Around](https://hackaday.com/2020/12/20/lidar-house-looks-good-looks-all-around/)
 * [Build an Autonomous R/C Car with Raspberry Pi](https://makezine.com/projects/build-autonomous-rc-car-raspberry-pi/)
 * [Modular Robotics Made Easier With ROS](https://hackaday.com/2018/05/31/modular-robotics-made-easier-with-ros/)
 * [Buy Or Build An Autonomous Race Car To Take The Checkered Flag](https://hackaday.com/2018/11/30/buy-or-build-an-autonomous-race-car-to-take-the-checkered-flag/)
@@ -717,6 +718,11 @@ Something as simple as this:
 
 * [Bangle.js](https://banglejs.com/)
 * [Badgy Is an ESP8266 E Ink Badge for DEF CON and More](https://www.hackster.io/news/badgy-is-an-esp8266-e-ink-badge-for-def-con-and-more-57ee5f3d54e2)
+
+## Active Aerodynamics
+Active aerodynamics employs self-adjusting front and rear spoilers, open and shut vents, and in-motion height adjustments to keep vehicles firmly planted on the road while maintaining optimum efficiency – whether in terms of speed, downforce or fuel consumption.
+
+* [Active Aero For A Radio Control Car](https://hackaday.com/2021/01/03/active-aero-for-a-radio-control-car/)
 
 
 

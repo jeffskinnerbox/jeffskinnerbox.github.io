@@ -56,6 +56,7 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
     * https://www.adafruit.com/product/3317
     * [TF-Luna (ToF) Micro Single-point Ranging LiDAR](https://www.dfrobot.com/product-1995.html?tracking=5e72005d37725)
 * [Steering Self Driving Car without LIDAR](https://medium.com/towards-data-science/steering-self-driving-car-without-lidar-a6b0a4d2e2f1)
+* [Lidar House Looks Good, Looks All Around](https://hackaday.com/2020/12/20/lidar-house-looks-good-looks-all-around/)
 * [LIDAR Built On Familiar Platform](https://hackaday.com/2020/04/11/lidar-built-on-familiar-platform/)
 * [TFmini Plus - ToF LIDAR Range Finder](https://www.seeedstudio.com/TFmini-Plus-LIDAR-Range-Finder-based-on-ToF-p-3222.html)
 * [Homemade Lidar: OpenTOFLidar](https://hackaday.com/2020/03/24/lidar-system-isnt-just-a-rangefinder-anymore/)

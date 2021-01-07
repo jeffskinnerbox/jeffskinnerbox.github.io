@@ -1,3 +1,9 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+
 
 # Power Supplies
 The output of a power supply can operate in either constant voltage (CV) or constant current (CC) mode depending on

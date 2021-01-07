@@ -96,6 +96,13 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 # Measuring RF Cable Impedance
 * [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
 
+# Measuring Cable Length
+Time-Domain Reflectometry (TDR) is a way to measure the time between
+injecting a pulse into a cable and receiving its echo,
+either from the other end of the cable or from some fault or defect along the way.
+
+* [#323: Measure length of coax, etc. with your scope, a battery and a resistor - simple TDR](https://www.youtube.com/watch?v=z6UJPqQYzNc)
+
 
 
 ----

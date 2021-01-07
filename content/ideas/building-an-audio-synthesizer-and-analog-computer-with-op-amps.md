@@ -12,11 +12,20 @@
 
 * [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
 
+
+
+# Faust
+Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc. Faust targets high-performance signal processing applications and audio plug-ins for a variety of platforms and standards.
+
+* [Faust](https://faust.grame.fr/index.html)
+# VCV Rack
+* [VCV Rack: The Eurorack Simulator](https://vcvrack.com/)
+* [Remoticon Video: Intro to Modern Synthesis Using VCV Rack](https://hackaday.com/2020/12/15/remoticon-video-intro-to-modern-synthesis-using-vcv-rack/)
+
 # Audio Sequencer
 A music sequencer (or audio sequencer or simply sequencer) is a device or application software that can record, edit, or play back music, by handling note and performance information in several forms, typically CV/Gate, MIDI, or Open Sound Control (OSC), and possibly audio and automation data for DAWs and plug-ins
 * [Adding MIDI To A Mini Synth Is Easy As Pi](https://hackaday.com/2020/09/21/adding-midi-to-a-mini-synth-is-easy-as-pi/)
 * [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
-
 
 
 # ADC and DAC
@@ -25,11 +34,9 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 # Audio Systems
 * [Teensy Audio Library, Delay Line Demo](https://www.youtube.com/watch?v=d80d1HWy5_s&feature=emb_title)
 * [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html)
+* [A Synth Of Your Own, For Not A Lot](https://hackaday.com/2020/12/20/a-synth-of-your-own-for-not-a-lot/)
 
-# Faust
-Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc. Faust targets high-performance signal processing applications and audio plug-ins for a variety of platforms and standards.
 
-* [Faust](https://faust.grame.fr/index.html)
 
 
 ## Music and Sound Waves
@@ -131,6 +138,9 @@ to your projects without additional hardware.
 * [Google’s AI-Powered Synthesizer](https://www.theverge.com/circuitbreaker/2018/3/13/17114760/google-nsynth-super-ai-touchscreen-synth)
 * [Synthberry Pi standalone Pure Data Raspberry Pi synthesiser](https://www.geeky-gadgets.com/raspberry-pi-synthesiser-14-02-2020/)
 * https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/
+
+## ...And Now For Something Different...
+* [VOC - 25](https://www.lovehulten.com/voc25.html)
 
 ## Digital Audio Editor
 * [Audacity](http://audacity.sourceforge.net/)

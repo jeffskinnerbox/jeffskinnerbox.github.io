@@ -1,6 +1,7 @@
 
 # Latest Kali
-[Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
+* [Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
+* [Hands-On: Kali Linux on the Raspberry Pi 4](https://www.zdnet.com/article/hands-on-kali-linux-on-the-raspberry-pi-4/)
 
 # Other Tools
 * [Scan your Linux security with Lynis](https://opensource.com/article/20/5/linux-security-lynis)
@@ -1415,6 +1416,7 @@ pip install arpwitch
 ## Netcat Listener
 * [How to Build a Hacking Raspberry Pi](https://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
 * [How to Use Netcat, the Swiss Army Knife of Hacking Tools](https://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/)
+* [7 Fundamental Use Cases of Netcat](https://medium.com/100-days-of-linux/7-fundamental-use-cases-of-netcat-866364eb1742)
 * [Netcat vs Cryptcat – Remote Shell to Control Kali Linux from Windows machine](https://gbhackers.com/netcat-vs-cryptcat/)
 
 ## Set Wireless Interface to Monitor / Managed Modes

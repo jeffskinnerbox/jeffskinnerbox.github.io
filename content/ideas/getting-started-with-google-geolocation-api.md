@@ -19,6 +19,9 @@
 * [The Google Maps Geolocation API](https://developers.google.com/maps/documentation/geolocation/intro)
 * [Client Libraries for Google Maps Web Services](https://developers.google.com/maps/web-services/client-library)
 
+## ZIP Code
+* [What the ZIP in ZIP Code Really Means](https://medium.com/knowledge-stew/what-the-zip-in-zip-code-really-means-4342492a4f1b)
+
 # MapQuest's Map APIs
 * [MapQuest Developer Portal](https://developer.mapquest.com/)
 * [MapQuest Products](https://business.mapquest.com/products/)

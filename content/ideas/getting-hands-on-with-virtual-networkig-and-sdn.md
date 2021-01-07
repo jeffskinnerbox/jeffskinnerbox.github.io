@@ -239,6 +239,33 @@ Ryu supports various protocols for managing network devices, such as OpenFlow, N
 providing implementations of OSPFv2, OSPFv3, RIP v1 and v2,
 RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD.
 
+# Network Simulation
+[GNS3][06] is an open source network simulator to emulate, configure, test and troubleshoot virtual and real networks.
+GNS3 allows you to run a small topology consisting of only a few devices on your laptop,
+to those that have many devices hosted on multiple servers or even hosted in the cloud.
+
+# Virtual Networking Lab
+When you work with virtualized environments,
+you will sooner or later realize that a large part of the complexity of such environments
+originates in the non-trivial endeavor of networking.
+The virtualization technology stacks different virtualization layers on top of each other.
+To provide the basics to understand all this,
+this series aims at introducing some of the more commonly used techniques using hands-on exercises.
+
+* [Virtual networking labs – networking-samples](https://github.com/christianb93/networking-samples)
+* [Virtual networking labs – NAT and host-only networking with VirtualBox](https://leftasexercise.com/2019/12/13/virtual-networking-labs-nat-and-host-only-networking-with-virtualbox/)
+* [Virtual networking labs – VirtualBox internal networks and bridges](https://leftasexercise.com/2019/12/16/virtual-networking-labs-virtualbox-internal-networks-and-bridges/)
+* [Virtual networking labs – more on bridges](https://leftasexercise.com/2019/12/20/virtual-networking-labs-more-on-bridges/)
+* [Virtual networking labs – virtual Ethernet networks with VLAN tags](https://leftasexercise.com/2019/12/30/virtual-networking-labs-virtual-ethernet-networks-with-vlan-tags/)
+* [Virtual networking labs – overlay networks](https://leftasexercise.com/2020/01/03/virtual-networking-labs-overlay-networks/)
+* [Virtual networking labs – a short introduction to Open vSwitch](https://leftasexercise.com/2020/01/06/virtual-networking-labs-a-short-introduction-to-open-vswitch/)
+* [Virtual networking labs – Open vSwitch in practice](https://leftasexercise.com/2020/01/10/virtual-networking-labs-open-vswitch-in-practice/)
+* [Virtual networking labs – using OpenFlow](https://leftasexercise.com/2020/01/13/virtual-networking-labs-using-openflow/)
+* [Virtual networking labs – building a virtual router with iptables and Linux namespaces](https://leftasexercise.com/2020/01/17/virtual-networking-labs-building-a-virtual-firewall-and-router-with-linux-namespaces/)
+
+* [Linux Bridge - how it works](https://goyalankit.com/blog/linux-bridge)
+* [Creating a Bridge and Shared Network on Docker](https://qiita.com/kojiwell/items/f16757c1f0cc86ff225b)
+
 
 
 [01]:https://www.opennetworking.org/
@@ -246,7 +273,7 @@ RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and Net
 [03]:https://opencord.org/about/
 [04]:https://www.opennetworking.org/cord/
 [05]:https://www.opennetworking.org/m-cord/
-[06]:
+[06]:https://www.gns3.com/
 [07]:
 [08]:
 [09]:

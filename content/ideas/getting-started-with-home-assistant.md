@@ -1,6 +1,11 @@
 
-############################## REMOVE THESE ITEMS ##############################
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
 
+
+############################## REMOVE THESE ITEMS ##############################
 # ThingsBoard
 ThingsBoard is an open-source IoT platform that enables rapid development,
 management and scaling of IoT projects.
@@ -21,27 +26,6 @@ that will enable server-side infrastructure for your IoT applications.
 # DYI Smart Home
 * [6 open source home automation tools](https://opensource.com/life/17/12/home-automation-tools?utm_medium=Email&utm_campaign=weekly&sc_cid=701f2000000tpYEAAY)
 * [What Smart Home IoT Platform Should You Use?](https://dzone.com/articles/what-smart-home-iot-platform-should-you-use)
-
-# Consider using this model / tool for your next round of deveploment
-    * [Set Up A Headless Raspberry Pi, All From Another Computer’s Command Line](https://hackaday.com/2018/11/24/set-up-a-headless-raspberry-pi-all-from-another-computers-command-line/)
-    * [Headless Raspberry Pi Configuration](http://peter.lorenzen.us/linux/headless-raspberry-pi-configuration)
-    * Make use of the following "Maiden Script" capabilities
-        * [Finding the Raspberry Pis on the network](https://www.youtube.com/watch?v=hx7DB7Iqslk)
-            * nmap -sn 192.168.1.0/24
-            * sudo arp-scan 192.168.1.0/24
-            * sudo arp-scan 192.168.1.0/24 | grep dc:a6:32
-        * [raspberian-firstboot](https://github.com/nmcclain/raspberian-firstboot)
-        * [Hardware bootstrapping with Ansible](https://opensource.com/article/19/5/hardware-bootstrapping-ansible)
-        * [Safely enabling ssh in the default Raspbian Image](http://hackerpublicradio.org/eps.php?id=2356)
-    * Use Ansible
-        * [Using Ansible to configure a Raspberry Pi (Home Assistant, LIRC, 433Utils, Z-Wave, etc.)](https://chester.me/archives/2019/04/using-ansible-to-configure-a-raspberry-pi-home-assistant-lirc-433utils-zwave-etc/)
-        * [Starting with Ansible in Raspberry Pi](https://dev.to/project42/starting-with-ansible-in-raspberry-pi-2mhm)
-        * [Ansible and Raspberry Pi](https://leonelgalan.com/2020/04/24/ansible-raspberry-pi.html)
-        * [Manage your Raspberry Pi fleet with Ansible](https://opensource.com/article/20/9/raspberry-pi-ansible)
-        * [Installing Ansible on the Raspberry Pi](https://www.theurbanpenguin.com/installing-ansible-on-the-raspberry-pi/)
-        * [Initial Pi configuration via Ansible](https://qmacro.org/2020/04/05/initial-pi-configuration-via-ansible/)
-        * [Test Ansible configuration](https://www.pidramble.com/wiki/setup/test-ansible)
-
 ############################## REMOVE THESE ITEMS ##############################
 
 
@@ -56,7 +40,12 @@ that will enable server-side infrastructure for your IoT applications.
 
 
 
-
+<!--
+See https://github.com/andrewjfreyer/monitor/blob/master/README.md
+<details><summary><h1>Introduction</h1></summary>
+<br>
+</details>
+-->
 
 I got plans for several standard home sensors (e.g. water sensors),
 not so standard sensors (e.g. people detecting via smart phone RF exhaust),
@@ -93,15 +82,30 @@ But I want to give serious consideration to alternatives like
 [Mozilla WebThings][12] and [Eclipse ThingWeb][16],
 which are both an implementations of the ["Web of Things" standard from the W3C][17].
 
-With wide control comes greater resposibility.
-Read these articals to get some insight and pointers:
+With wide control comes greater responsibility.
+Read these articles to get some insight, pointers,
+and confidence that helped me select Home Assistant as my platform:
 
-* [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
-* [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
-and it's companion [video](https://www.youtube.com/watch?v=F-mEA5RN_yo)
-* [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://smarthomesolver.com/reviews/25-smart-home-automation-ideas-volume-2/)
-and it's companion [video](https://www.youtube.com/watch?v=jDaRPsvvcz4)
-
+* Pros/Cons of Home Assistant
+    * [3 Things No One Will Tell You About Home Assistant](https://www.youtube.com/watch?v=WGiFUpiYjEE&feature=youtu.be)
+    * [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
+    * [Why I use Home Assistant for open source home automation](https://opensource.com/article/20/11/home-assistant)
+    * [Cloud control vs local control: What to choose for your home automation](https://opensource.com/article/20/11/cloud-vs-local-home-automation)
+    * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
+    * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
+    * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
+* Home Automation Ideas
+    * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
+    * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
+    and it's companion: [video](https://www.youtube.com/watch?v=F-mEA5RN_yo)
+    * [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://smarthomesolver.com/reviews/25-smart-home-automation-ideas-volume-2/)
+    * [Ranking All My Smart Home Products and Projects. SMART HOME TOUR.](https://www.youtube.com/watch?v=n0dfuj60aaI&feature=youtu.be)
+    and it's companion: [video](https://www.youtube.com/watch?v=jDaRPsvvcz4)
+* Informative YouTubers focusing on home automation:
+    * [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ)
+    * [Everything Smart Home](https://www.youtube.com/channel/UCrVLgIniVg6jW38uVqDRIiQ)
+    * [SuperHouseTV](https://www.youtube.com/user/SuperHouseTV)
+    * [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw)
 
 ------
 
@@ -136,6 +140,17 @@ of your M.2 SATA Drive which comes with built-in adapter board for the M.2 SSD.
 * You can also [configure the Argon case fan and power button][05] for you needs
 (e.g. temperature selectable multi-speed fan & power switch supporting safe shutdown and hard reboot).
 And to top it off, the GPIO pins are still easily accessible but smartly hidden.
+
+
+
+------
+
+
+# Getting Started With Home Assistant
+* [Quickly getting started with Home Assistant (2020 Guide)](https://www.youtube.com/watch?v=Am8FEhBhe5Y&feature=youtu.be)
+* [Home Assistant Beginners Guide: Installation, Addons, Integrations, Scripts, Scenes, and Automations](https://www.youtube.com/watch?v=sVqyDtEjudk)
+* [Home Assistant INSTALLATION GUIDE 2020 + Key Addons](https://www.youtube.com/watch?v=xNK3IDxSPHo)
+* []()
 
 
 
@@ -1122,6 +1137,7 @@ No more worrying about your SD card dying on you out of nowhere. Enjoy!
 * [IoT Network Deep Dive](https://abhatikar.medium.com/iot-network-deep-dive-f896e6de0ee5)
 * [Secure remote access to your IoT devices](https://tinkerman.cat/post/secure-remote-access-to-your-iot-devices/)
 * [Building a web-server and Reverse-proxy for IOT and arm devices](https://blog.craterx.com/webserver/)
+* [I’m NUC Done Yet — Breathing New Life Into an Old Machine](https://medium.com/swlh/im-nuc-done-yet-breathing-new-life-into-an-old-machine-f819f5e1c131)
 
 
 
@@ -1141,6 +1157,7 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [PiVPN](https://pivpn.io/)
 
 ### Node-Red, InfluxDB, Mosquitto, and Grafana
+* [Node-RED + Home Assistant How-To](https://www.youtube.com/watch?v=SuoSXVqjyfc)
 * [#255 Node-Red, InfluxDB, and Grafana Tutorial on a Raspberry Pi](https://www.youtube.com/watch?v=JdV4x925au0)
 * [Easy Home Assistant, Node-RED, InfluxDB and Grafana Integration](https://peyanski.com/home-assistant-node-red-influxdb-and-grafana-integration/)
 * [The Script](https://tech.scargill.net/the-script/)
@@ -1165,9 +1182,6 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 * [Home Automation Covers Everything](https://hackaday.com/2020/07/13/home-automation-covers-everything/)
 
-### Home Assistant
-* [Tutorial: How to Install Home Assistant on a Generic Linux System](https://diy.viktak.com/2020/07/tutorial-how-to-install-home-assistant-on-a-generic-linux-system.html)
-
 # Awesome Home Assistant
 [Awesome Home Assistant](https://www.awesome-ha.com/)
 is a curated list of Home Assistant resources.
@@ -1175,24 +1189,21 @@ It contains additional software, tutorials, custom integration, add-ons,
 custom Lovelace cards & plugins, cookbooks, example setups, and much more.
 The list is divided into categories and can be found here: https://www.awesome-ha.com/
 
-* [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
-* [Why I use Home Assistant for open source home automation](https://opensource.com/article/20/11/home-assistant)
-
+### Home Assistant on non-RPi & Vagrant
+* [Tutorial: How to Install Home Assistant on a Generic Linux System](https://diy.viktak.com/2020/07/tutorial-how-to-install-home-assistant-on-a-generic-linux-system.html)
+* [Hass.io on Vagrant/VirtualBox for testing & add-on development](https://community.home-assistant.io/t/hass-io-on-vagrant-virtualbox-for-testing-add-on-development/29612)
 
 #### Lovelace
 Lovelace is the Home Assistant dashboard.
 
-# ################################### REMOVE ###################################
-# openHAB
-* [openHAB][08]
-* [openHAB 2 has arrived](https://jaxenter.com/openhab-2-arrived-131328.html)
-* [$20 Wireless Arduino Home Automation w/ OpenHAB](http://hackaday.io/project/1720-20-wireless-arduino-home-automation-w-openhab)
-* [Installing openHAB Home Automation on Raspberry Pi](https://dzone.com/articles/installing-openhab-home-automation-on-raspberry-pi)
-* [OpenHAB on Raspberry Pi](http://www.instructables.com/id/OpenHAB-on-Raspberry-Pi/?ALLSTEPS)
-* [HABmin on Raspberry Pi - An openHAB Admin Console](http://www.instructables.com/id/openHAB-Admin-Console-HABmin-on-Raspberry-Pi/?ALLSTEPS)
-* [OpenHAB App](https://play.google.com/store/apps/details?id=org.openhab.habdroid&hl=en)
-* [Uber Home Automation w/ Arduino & Pi](http://www.instructables.com/id/Uber-Home-Automation-w-Arduino-Pi/?ALLSTEPS)
-# ################################### REMOVE ###################################
+* [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
+* [Setting up Home Assistant Lovelace UI](https://www.youtube.com/watch?t=652&v=QEtX0uboxQA&feature=youtu.be)
+* [EASY Lovelace Mobile Dashboard](https://youtu.be/5y6rhwr5Y8c)
+
+* [How I built my Home Assistant touchscreen](https://www.youtube.com/watch?v=sv67ovOhjzQ)
+* [Smart Home Control Panel - Best looking and most useful component | HA Dashboard](https://www.youtube.com/watch?v=KDpz3OvaU4c)
+* [Create an AWESOME looking Lovelace Dashboard with no YAML Files in 2020! - Home Assistant - How to](https://www.youtube.com/watch?v=ixIGlEpvWXY)
+
 
 
 
@@ -1251,6 +1262,9 @@ It uses passwords for both API integrations (home-assistant) and for OTA updates
 Also: the server runs as a container, so its running on my Server network on nomad. I can simply go to http://esphome.service.consul and click “Upload” to update my IoT.
 
 * [ESPHome](https://esphome.io/)
+* [ESPHome Device Configuration Repository](https://www.esphome-devices.com/)
+
+* [Home Automation With Home Assistant and ESPHome - First Steps](https://www.youtube.com/watch?v=xDbH-xPQtXU)
 * [Home Automation with ESPHome & Home Assistant](https://www.youtube.com/playlist?list=PL2a34OA-WuyYvDbSaIthEk5dCs1BB2fB-)
 * [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
 * [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
@@ -1260,6 +1274,39 @@ Also: the server runs as a container, so its running on my Server network on nom
 
 
 ------
+
+
+
+# Manage Raspberry Pi with Ansible
+* [Manage your Raspberry Pi fleet with Ansible](https://opensource.com/article/20/9/raspberry-pi-ansible)
+
+## Consider using this model / tool for your next round of deveploment
+    * [Set Up A Headless Raspberry Pi, All From Another Computer’s Command Line](https://hackaday.com/2018/11/24/set-up-a-headless-raspberry-pi-all-from-another-computers-command-line/)
+    * [Headless Raspberry Pi Configuration](http://peter.lorenzen.us/linux/headless-raspberry-pi-configuration)
+    * Make use of the following "Maiden Script" capabilities
+        * [Finding the Raspberry Pis on the network](https://www.youtube.com/watch?v=hx7DB7Iqslk)
+            * nmap -sn 192.168.1.0/24
+            * sudo arp-scan 192.168.1.0/24
+            * sudo arp-scan 192.168.1.0/24 | grep dc:a6:32
+        * [Updated "firstboot" Release for Raspberry Pi OS](https://www.nedmcclain.com/raspberry-pi-os-firstboot/)
+        * [raspberian-firstboot](https://github.com/nmcclain/raspberian-firstboot)
+        * [Hardware bootstrapping with Ansible](https://opensource.com/article/19/5/hardware-bootstrapping-ansible)
+        * [Safely enabling ssh in the default Raspbian Image](http://hackerpublicradio.org/eps.php?id=2356)
+        * [Safely enabling ssh in the default Raspberry Pi OS](https://github.com/kenfallon/fix-ssh-on-pi)
+    * Use Ansible
+        * [Using Ansible to configure a Raspberry Pi (Home Assistant, LIRC, 433Utils, Z-Wave, etc.)](https://chester.me/archives/2019/04/using-ansible-to-configure-a-raspberry-pi-home-assistant-lirc-433utils-zwave-etc/)
+        * [Starting with Ansible in Raspberry Pi](https://dev.to/project42/starting-with-ansible-in-raspberry-pi-2mhm)
+        * [Ansible and Raspberry Pi](https://leonelgalan.com/2020/04/24/ansible-raspberry-pi.html)
+        * [Manage your Raspberry Pi fleet with Ansible](https://opensource.com/article/20/9/raspberry-pi-ansible)
+        * [Installing Ansible on the Raspberry Pi](https://www.theurbanpenguin.com/installing-ansible-on-the-raspberry-pi/)
+        * [Initial Pi configuration via Ansible](https://qmacro.org/2020/04/05/initial-pi-configuration-via-ansible/)
+        * [Test Ansible configuration](https://www.pidramble.com/wiki/setup/test-ansible)
+
+# Manage Home Assistant with Ansible
+
+
+------
+
 
 
 # Integration with Alexa
@@ -1334,8 +1381,12 @@ making it a Uninterruptable Power Supply (UPS).
 
 # Smart Analog Doorbell
 * [Making my analog doorbell smart by simply attaching a $7 sensor to it](https://partofthething.com/thoughts/making-my-analog-doorbell-smart-by-simply-attaching-a-7-sensor-to-it/)
+* [DIY ESP32 Video Doorbell Locks Out Big Brother](https://hackaday.com/2020/12/22/diy-esp32-video-doorbell-locks-out-big-brother/)
 
-# Camera
+# Indoor Localization
+* [How to set up Indoor Localization with Crownstone and Home Assistant](https://www.youtube.com/watch?v=1BONZ-ryKeA)
+
+# Wyze Camera
 Bust you use the cloud service
 * [Wyze Cam V3 Review - Unboxing, Features, Setup, Installation, Testing, Video & Audio Quality](https://www.youtube.com/watch?v=WQZ_xExcwto)
 * [Wyze Cam v3: Unbelievable Night Vision for $20](https://www.youtube.com/watch?v=EwP7p2Z7hOA&feature=emb_rel_end)
@@ -1352,6 +1403,24 @@ Bust you use the cloud service
 
 * [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
 * [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
+
+# WatchDog
+* [Edge Networking’s Last Resort](https://medium.com/@nedmcclain/edge-networkings-last-resort-890b536ab960)
+
+# Nabu Casa
+Nabu Casa (built by the founder of Home Assistant),
+claims to be the missing cloud piece for Home Assistant.
+
+* Keep's your Home Assistant secure by deal with dynamic DNS, SSL certificates, and eliminating the need to open ports on your router.
+* Supports the Home Assistant by paying for the infrastructure to build new releases and pay for hosting the community forums.
+* Text to Speech is part of your subscription. This allows you to turn any text into natural sounding audio clips to be played on any speaker that Home Assistant supports.
+
+# Smart Thermostat
+* [Building a better thermostat with Home Assistant](https://opensource.com/article/18/8/build-thermostat-open-source-tools)
+
+# MQTT
+* [Understanding MQTT: How Smart Home Devices Communicate](https://www.youtube.com/watch?v=NjKK5ab0-Kk)
+* [MQTT Essentials](https://www.hivemq.com/tags/mqtt-essentials/)
 
 
 

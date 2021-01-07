@@ -198,6 +198,7 @@ Installation is very simple, just follow the [online install instructions][47].
 ### Step X: Install and Configure Cura - DONE
 Cura is an open source 3D printer slicing application.
 * [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
+* [Cura 4.8 - Is this the best Cura Ever?](https://www.youtube.com/watch?v=965tR7AuVJs&feature=youtu.be)
 
 To install Cura, I followed the procedures documented at
 [Cura's PPA site for the stable release](https://launchpad.net/~thopiekar/+archive/ubuntu/cura).
@@ -688,6 +689,8 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 -----
 
 
+Also checkout for ideas: [3d-printed-things/my-cr10s/](https://github.com/jantman/3d-printed-things/tree/master/my-cr10s)
+
 # Kitting to Make the Creality CR-10S Standalone
 # My Modifications to the Creality CR-10S
 I found a great list of modifications for the Creality CR-10S.
@@ -871,6 +874,9 @@ that can be seen clearly only when back lit with a light source.
 
 # Press Fit Parts
 * [Adding Crush Ribs To 3D Printed Parts For A Better Press Fit](https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/)
+
+# Metal Plated Plastic
+* [Metal Plating Plastic Or Metal Parts](https://hackaday.com/2021/01/01/metal-plating-plastic-or-metal-parts/)
 
 
 
