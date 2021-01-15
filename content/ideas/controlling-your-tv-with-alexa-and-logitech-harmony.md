@@ -5,6 +5,8 @@
 * [Alexa can control your TV with a Logitech Harmony. Here's how](https://www.cnet.com/how-to/how-to-logitech-harmony-amazon-alexa-echo/)
 * [Harmony Tips and Tricks](https://www.youtube.com/watch?v=L8Xdh_t0FGE)
 
+* [Owning the Smart Home with Logitech Harmony Hub](https://medium.com/tenable-techblog/owning-the-smart-home-with-logitech-harmony-hub-fe2135e4adac)
+
 
 
 So you want to do the "smart home" thing.
@@ -40,10 +42,10 @@ Amazon advertises that [Amazon Echo][36] [Alexa skills][20]
 have been developed for you to support a Smart Home.
 
 >**Definition:** "Smart Home" is the term commonly used to define a residence that has
-appliances, lighting, heating, air conditioning, TVs, computers,
-entertainment audio & video systems, security, and camera systems that are capable of
-communicating with one another and can be controlled remotely by a time schedule,
-from any room in the home, as well as remotely from any location in the world by phone or Internet.
+>appliances, lighting, heating, air conditioning, TVs, computers,
+>entertainment audio & video systems, security, and camera systems that are capable of
+>communicating with one another and can be controlled remotely by a time schedule,
+>from any room in the home, as well as remotely from any location in the world by phone or Internet.
 
 To support the Smart Home concept,
 Amazon's Alexa provides a set of built-in smart home capabilities,

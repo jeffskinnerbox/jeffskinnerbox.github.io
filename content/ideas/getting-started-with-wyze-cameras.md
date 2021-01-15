@@ -39,6 +39,9 @@ Compatible with WyzeCam.
 * [26ft Power Extension Cable Compatible with WyzeCam](https://www.amazon.com/Extension-Compatible-WyzeCam-Charging-Security/dp/B07KY6BB6D)
 * [SIOCEN 26FT 2Pack USB Power Extension Cable for Wyze Cam Pan,WyzeCam](https://www.amazon.com/SIOCEN-Extension-WyzeCam-Security-Charging/dp/B07X1S8TQY)
 
+# Wyze Cam Privacy / Security
+* [Data Breach at Wyze Labs Exposes Information of 2.4 Million Customers](https://www.nytimes.com/2019/12/30/business/wyze-security-camera-breach.html)
+
 
 
 -----

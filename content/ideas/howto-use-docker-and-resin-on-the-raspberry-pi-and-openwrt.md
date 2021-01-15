@@ -20,6 +20,8 @@ chroot mechanism is used to do things like sandbox untrusted FTP clients or
 a chroot environment can be used to create and host a separate virtualized copy of the software system.
 See examples of `chroot` use [here][25], [here][26], and [here][27].
 
+* [chroot — A Linux Wonder!](https://medium.com/100-days-of-linux/chroot-a-linux-wonder-fc36ed08087e)
+
 ## debootstrap
 debootstrap - Bootstrap a basic Debian system - http://manpages.ubuntu.com/manpages/trusty/man8/debootstrap.8.html
 

@@ -1,4 +1,9 @@
 
+# ESP32-S3
+* [Announcing ESP32-S3 for AIoT Applications](https://www.espressif.com/en/news/ESP32_S3)
+* [Espressif's New ESP32-S3 Adds AI Features for IoT Devices](https://www.hackster.io/news/espressif-s-new-esp32-s3-adds-ai-features-for-iot-devices-b42b902abdf5)
+* [New Part Day: Espressif ESP32-S3](https://hackaday.com/2021/01/09/new-part-day-espressif-esp32-s3/)
+
 # ESP32-S2
 * [The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?time_continue=51&v=L6IoSVdKwNM&feature=emb_logo)
 * [#339 The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?v=L6IoSVdKwNM)

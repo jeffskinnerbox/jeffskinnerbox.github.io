@@ -59,6 +59,7 @@ All About Batteries
 * [A PRIMER ON BUCK (AND BOOST) CONVERTERS](http://hackaday.com/2015/01/24/a-primer-on-buck-and-boost-converters/)
 * [Buck Converter Efficiency](https://hackaday.com/2018/06/02/buck-converter-efficiency/)
 * [Selecting a DC/DC Converter for Maximum Battery Life in Pulsed-Load Applications](http://www.ti.com/lit/an/slva740/slva740.pdf)
+* [AVR Microcontroller Doubles Up As A Switching Regulator](https://hackaday.com/2021/01/09/avr-microcontroller-doubles-up-as-a-switching-regulator/)
 * https://www.adafruit.com/products/1903
 * https://www.adafruit.com/products/2030
 

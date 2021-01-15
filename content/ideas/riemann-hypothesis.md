@@ -78,6 +78,7 @@ The Riemann Hypothesis is one of the [Millennium Prize Problems](http://www.clay
 
 Best explanation of the Riemann hypothesis
 
+* [How I Learned to Love and Fear the Riemann Hypothesis](https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/)
 * [What is the Riemann Hypothesis?](https://www.youtube.com/watch?v=v9nyNBLCPks&feature=youtu.be)
 * [Riemann Hypothesis](https://www.youtube.com/watch?v=UGj6mfCSZfY&feature=youtu.be)
 * [The Riemann Hypothesis](https://www.youtube.com/watch?v=rGo2hsoJSbo&feature=youtu.be)

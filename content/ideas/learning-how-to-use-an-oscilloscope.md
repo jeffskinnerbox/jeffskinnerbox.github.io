@@ -48,6 +48,8 @@ Oscilloscope Sample Rate
 * [EEVblog #442 - Analog Vs Digital Oscilloscope Noise](https://www.youtube.com/watch?v=ImyUB3_n9fw)
 * [EEVblog #601 - Why Digital Oscilloscopes Appear Noisy](https://www.youtube.com/watch?v=Znwp0pK8Tzk&feature=youtu.be)
 
+* [Remoticon Video: Basics of RF Emissions Debugging Workshop](https://hackaday.com/2021/01/08/remoticon-video-basics-of-rf-emissions-debugging-workshop/)
+
 # Premature Oscilloscope Triggering
 * [EEVblog #1320 - Premature Oscilloscope Triggering](https://www.youtube.com/watch?v=GZHnrGIK9V8)
 

@@ -985,6 +985,11 @@ At this point, data should start flowing from the water sensor to SmartThings.
 You should get updates on the smartphone app and SmartThings Cloud UI.
 [Data is refreshed every 10 minutes][79] (except for water sensing).
 
+Reviews of the Fibaro System Flood Sensor and like products:
+
+* [Flood Sensor from FIBARO - flood sensor review](https://en.smartme.pl/flood-sensor-from-fibaro-flood-sensor-review/)
+* [Review of Shelly Flood. Will it save from flooding?](https://en.smartme.pl/shelly-flood-review-will-save-you-from-flooding/)
+
 ### Step X: Setup Samsung SmartThings Portals
 There are several websites your going to want access to,
 so log into the following and establish accounts (if not done already):

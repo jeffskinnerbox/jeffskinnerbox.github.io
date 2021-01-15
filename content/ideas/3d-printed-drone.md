@@ -10,7 +10,11 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 # Regulations
 * [Federal Aviation Administration Announces Major Drone Rule Changes](https://hackaday.com/2020/12/29/federal-aviation-administration-announces-major-drone-rule-changes/)
 
+# Parachutes / Balloon
+* [GPS Guided Parachutes For High Altitude Balloons](https://hackaday.com/2021/01/07/gps-guided-parachutes-for-high-altitude-balloons/)
+
 # Airplane / Drone
+* [Six Degrees Of Freedom Omnicopter With Ardupilot](https://hackaday.com/2021/01/09/six-degrees-of-freedom-omnicopter-with-ardupilot/)
 * [WiFi Controlled Plane Is Cheap Flying Fun](https://hackaday.com/2019/04/12/wifi-controlled-plane-is-cheap-flying-fun/)
 * [8 open source drone projects](https://opensource.com/article/18/2/drone-projects)
 * [Build a PRO FPV Racing Drone for ONLY $99 Full guide - 2018 UAVFUTURES $99 Build](https://www.youtube.com/watch?v=GFNGUDT_9_c)

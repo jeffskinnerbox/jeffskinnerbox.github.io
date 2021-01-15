@@ -135,7 +135,7 @@ The ESP-01 little board draw over 50mA while idle.
 When WiFi went active, there are large spikes.
  You need to use a dedicated 3.3V source or dedicated, high current, regulator.
 
-Below is what I have begain to use.
+Below is what I have begain to toy with in 2014.
 
 ## ESP-01
 <div style="float: left">

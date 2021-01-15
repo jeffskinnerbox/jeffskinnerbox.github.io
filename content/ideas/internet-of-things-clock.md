@@ -95,6 +95,9 @@ It was the earliest design of a pendulum clock.
 * [3D Printed Galileo Pendulum](https://www.youtube.com/watch?v=8g-rlaZNAjU)
 * [Galileo Wooden Escapement Mechanism](https://www.instructables.com/id/Galileo-Wooden-Escapement-Mechanism/)
 
+## Ping Pong Ball Clock
+* [MAKE YOUR OWN PIXEL CLOCK USING PING PONG BALLS AND LEDS!](https://www.yankodesign.com/2021/01/08/make-your-own-pixel-clock-using-leds-and-ping-pong-balls/)
+
 ## Clepsydra Clock
 A water clock or clepsydra is any timepiece by which time is measured by
 the regulated flow of liquid into (inflow type) or out from (outflow type) a vessel,

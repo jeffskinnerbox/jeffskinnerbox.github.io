@@ -14,7 +14,6 @@
 
 * [Raspberry Pi Mini PC Transformed Into Wireless Router](http://www.geeky-gadgets.com/raspberry-pi-mini-pc-transformed-into-router-29-05-2014/)
 * [RASPBERRY PI AND ROUTING: TURNING A PI INTO A ROUTER](http://www.jacobsalmela.com/raspberry-pi-and-routing-turning-a-pi-into-a-router/)
-* [RASPBERRY PI + CANTENNA: ULTIMATE 2.4GHZ WARDRIVING AND LONG-RANGE WIFI ACCESS](http://www.jacobsalmela.com/raspberry-pi-cantenna-ultimate-2-4ghz-wardriving-and-long-range-wifi-access/)
 
 * [hackable Linksys WRT54G router in a new WRT1900AC model](http://linuxgizmos.com/linksys-creates-successor-to-wrt54g/)
 * [Raspberry Pi Auto-Hotspot](http://cymplecy.wordpress.com/2014/08/01/class-hotspot/)

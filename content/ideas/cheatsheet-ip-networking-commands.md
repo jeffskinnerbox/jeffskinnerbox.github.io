@@ -2,7 +2,6 @@
 * [NetBeez Blog](https://netbeez.net/blog/)
 * [A sysadmin's guide to network management](https://opensource.com/article/18/7/sysadmin-guide-networking-commands)
 * [Cisco Networking Basics: IP Addressing](https://www.networkcomputing.com/networking/cisco-networking-basics-ip-addressing/636970615)
-* [Nmap Tutorial: Common Commands](https://www.networkcomputing.com/networking/nmap-tutorial-common-commands/520799832)
 * [A List of Network Monitoring Tools for Network and System Administrators](https://www.cellstream.com/intranet/reference-reading/tipsandtricks/330-a-list-of-network-monitoring-tools-for-network-and-system-administrators.html)
 * [What are useful command-line network monitors on Linux](http://xmodulo.com/useful-command-line-network-monitors-linux.html)
 * [8 Linux Commands: To Find Out Wireless Network Speed, Signal Strength And Other Information](http://www.cyberciti.biz/tips/linux-find-out-wireless-network-speed-signal-strength.html)
@@ -16,15 +15,20 @@
 
 * [7 Common Network Latency Culprits](https://www.networkcomputing.com/networking/7-common-network-latency-culprits/851316634)
 
+* [An NMAP Primer](https://danielmiessler.com/study/nmap/)
+* [Nmap Tutorial: Common Commands](https://www.networkcomputing.com/networking/nmap-tutorial-common-commands/520799832)
+* [Running a quick NMAP scan to inventory my network](https://www.redhat.com/sysadmin/quick-nmap-inventory)
+
 * [ip vs. ifconfig - WILT](http://www.innervoice.in/blogs/2015/11/27/ip-vs-ifconfig-wilt/)
 * [A Subnetting Primer](https://danielmiessler.com/study/subnetting/)
 * [IPv4 Subnetting Best Practices](https://www.networkcomputing.com/networking/ipv4-subnetting-best-practices/319505609)
 * [Firewalls](https://danielmiessler.com/study/firewalls/)
-* [An IPTABLES Primer](https://danielmiessler.com/study/iptables/)
-* [16 iptables tips and tricks for sysadmins](https://opensource.com/article/18/10/iptables-tips-and-tricks)
-* [An NMAP Primer](https://danielmiessler.com/study/nmap/)
 * [20 Myths of WiFi Interferance](http://www.wifiadvies.be/20-myths-of-wi-fi-interference/)
 * [Simple WebSocket Client](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo?hl=en)
+
+* [An IPTABLES Primer](https://danielmiessler.com/study/iptables/)
+* [16 iptables tips and tricks for sysadmins](https://opensource.com/article/18/10/iptables-tips-and-tricks)
+* [Layman’s iptables 101](https://medium.com/swlh/https-medium-com-iximiuz-laymans-iptables-101-9277f9072afb)
 
 # mitmproxy
 * [mitmproxy - Tools for Analysising and Inspecting HTTP Traffic](https://mitmproxy.org/)
@@ -77,6 +81,7 @@ The iproute2 collection contains the following command-line utilities:
 
 what about ethtool, netifd, nm-tool, nm-online, [nmcli](https://fedoraproject.org/wiki/Networking/CLI)
 
+* [Linux tools: How to use the ss command](https://www.redhat.com/sysadmin/ss-command)
 * Why nm-tool is no longer available in Ubuntu 15.04? - http://askubuntu.com/questions/617067/why-nm-tool-is-no-longer-available-in-ubuntu-15-04
 * 9 Linux ethtool Examples to Manipulate Ethernet Card (NIC Card) - http://www.thegeekstuff.com/2010/10/ethtool-command/
 * Fun with ethtool - http://www.linuxjournal.com/content/fun-ethtool
@@ -241,7 +246,11 @@ any interface not listed there will remain under NetworkManager control.
     * [`netstat`][09] (network statistics) is a command-line tool that displays
     network connections for TCP (both incoming and outgoing),
     routing tables, and a number of network interface and network protocol statistics.
+    The `netstat` command is deprecated and you can replace with `ss`.
     **Example Usage:** `netstat -ie`
+    * [`ss`][99] is a tool used to dump socket statistics and displays information
+    for PACKET, TCP, UDP, DCCP, RAW, and Unix domain sockets,
+    in similar fashion (although simpler and faster) to netstat.
     * [`nethogs`][71] is a small "net top" tool. Instead of breaking the traffic down per protocol or per subnet,
     like most tools do, it groups bandwidth by process.
     * [`iptraf-ng`][72]  is a console-based network statistics utility for Linux.
@@ -887,6 +896,7 @@ but any network service can be secured with SSH.
 * [Linux Fu: Stupid SSH Tricks](https://hackaday.com/2019/12/17/linux-fu-stupid-ssh-tricks/)
 * [Linux Fu: Simple SSH File Sharing](https://hackaday.com/2020/09/21/linux-fu-simple-ssh-file-sharing/)
 * [SSH Reverse Proxy and Tunneling](https://medium.com/better-programming/ssh-reverse-proxy-and-tunneling-b6d96ab2325)
+* [SSH Tunneling, a Guide](https://medium.com/the-kickstarter/ssh-tunneling-a-guide-79075d52ed43)
 
 ## Eliminate SSH Keys and use a GPG Keys Instead
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
@@ -1124,6 +1134,8 @@ iw wlan0 ibss leave
 
 # Finding a device IP Address
 * [ARP Scan versus Ping Sweep](https://netscantools.blogspot.com/2009/06/arp-scan-versus-ping-sweep.html)
+* [Using ARP for Network Recon](https://www.linux-magazine.com/Online/Features/Using-ARP-for-Network-Recon)
+
 There is a difference between ARP Scan and Ping Sweep. When you do an ARP Scan of a subnet, all devices that communicate with IPv4 on that subnet must respond to ARP packets. If they don't respond they cannot communicate with any other machine. This even applies to devices that are running firewalls and do not respond to ICMP echo request packets (ping packets).
 
 When you use Ping Sweep on that same subnet, you are sending ICMP echo request packets to every device. If the device (computer) is running a third party 'personal' firewall or even something like the built-in Windows Firewall, it may not respond depending on the firewall settings. So you will see fewer devices respond with Ping Sweep than with ARP Scan.
@@ -1222,6 +1234,40 @@ done
 # waits for all pings to complete
 wait
 ```
+
+# Finding a Duplicate IP Address
+You use `arp-scan` for is in finding duplicate IP addresses.
+This is a great feature for locating a device with a duplicate IP addressu
+if you have a mixed static and DHCP network like many of us do.
+You can easily find duplicates by filtering a scan with:
+
+```bash
+# accurately identifying all devices on a network
+$ sudo arp-scan -I enp0s3 192.168.1.0/24
+Interface: enp0s3, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.9.2 with 256 hosts (http://www.nta-monitor.com/
+  tools-resources/security-tools/arp-scan/)
+192.168.1.81  10:dd:b1:xx:xx:xx  Apple, Inc.
+192.168.1.75  84:a9:3e:xx:xx:xx  Hewlett Packard
+192.168.1.69  28:cf:e9:xx:xx:xx  Apple, Inc.
+192.168.1.76  8c:70:5a:xx:xx:xx  Intel Corporate
+192.168.1.79  cc:6d:a0:xx:xx:xx  Roku, Inc.
+192.168.1.71  dc:68:eb:xx:xx:xx  Nintendo Co.,Ltd
+192.168.1.86  cc:6d:a0:xx:xx:xx  Roku, Inc.
+192.168.1.72  88:71:e5:xx:xx:xx  Amazon Technologies Inc.
+
+9 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.9.2: 256 hosts scanned in 1.953 seconds
+(131.08 hosts/sec). 9 responded
+
+# find duplicate use of ip addresses
+$ sudo arp-scan -I enp0s3 192.168.1.0/24 |grep –i dup
+192.168.1.81  10:dd:b1:xx:xx:xx  Apple, Inc. (DUP.)
+192.168.1.81  84:a9:3e:xx:xx:xx  Hewlett Packard (DUP. 2)
+```
+
+By using the MAC address, you can check your switches to find the device
+with the duplicate IP address and fix the problem.
 
 # Finding Your Raspberry Pi
 I typical run my Raspberry Pis headless,
@@ -1718,6 +1764,7 @@ http://www.coyotepoint.com/files/downloads/StaticRoutes.pdf
 ## Using, Ping Traceroute, and MTR to Diagnose Network Issues
 http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
+* [How to use the Linux mtr command](https://www.redhat.com/sysadmin/linux-mtr-command)
 
 ### `ping`
 http://www.cyberciti.biz/faq/unix-ping-command-examples/
@@ -2608,7 +2655,7 @@ could be gathered for this cheat sheet.
 [96]:http://www.tecmint.com/nethogs-monitor-per-process-network-bandwidth-usage-in-real-time/
 [97]:https://www.geeksforgeeks.org/iotop-command-in-linux-with-examples/
 [98]:https://www.geeksforgeeks.org/iostat-command-in-linux-with-examples/
-[99]:
+[99]:https://www.redhat.com/sysadmin/ss-command
 [100]:https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf
 [101]:http://www.computerhope.com/unix/screen.htm
 [102]:https://kthx.at/subnetmask/

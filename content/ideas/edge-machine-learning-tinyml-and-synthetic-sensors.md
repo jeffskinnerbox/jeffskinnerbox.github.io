@@ -177,6 +177,7 @@ which makes it smaller and does things like quantisation, which allow you to red
 * [Autonomous embedded driving using computer vision](https://www.edgeimpulse.com/blog/autonomous-driving-using-computer-vision/)
 * [BABL: A Baby Monitor Powered by tinyML and Edge Impulse!](https://www.hackster.io/ishotjr/babl-a-baby-monitor-powered-by-tinyml-and-edge-impulse-f5045f)
 * [Cough Detection with TinyML on Arduino](https://www.hackster.io/edge-impulse/cough-detection-with-tinyml-on-arduino-417f37)
+* [Smart Bird Feeder Powered by Edge Impulse and Balena Fin](https://www.hackster.io/mithun-das/smart-bird-feeder-powered-by-edge-impulse-and-balena-fin-bd6416)
 
 
 ################################################################################
@@ -194,7 +195,8 @@ The Eta Compute EC3532 AI Sensor comes in a small box
 along with a [SparkFun FTDI Basic Breakout - 3.3V board][15]
 and a USB cable.
 
->**NOTE:** You can also use a different FTDI cable, but make sure that it outputs 3.3V as the AI Sensor is not 5V tolerant.
+>**NOTE:** You can also use a different FTDI cable,
+>but make sure that it outputs 3.3V as the AI Sensor is not 5V tolerant.
 
 # Setup for ECM3532 AI Sensor
 The ECM3532 AI Sensor ([$100 on Digi-Key][06])

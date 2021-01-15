@@ -29,7 +29,25 @@ that will enable server-side infrastructure for your IoT applications.
 ############################## REMOVE THESE ITEMS ##############################
 
 
+# Raspberry Pi as a Server
+* [Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc.](https://www.youtube.com/watch?v=a6mjt8tWUws&feature=youtu.be)
+    * [IOTstack](https://sensorsiot.github.io/IOTstack/)
 
+* [#255 Node-Red, InfluxDB, and Grafana Tutorial on a Raspberry Pi](https://www.youtube.com/watch?v=JdV4x925au0)
+* [Raspberry Pi 4 8GB & USB Boot](https://www.youtube.com/watch?v=2zrwjGcyM5s)
+* [#312 Boot a Raspberry Pi4 with an SSD to make it reliable and fast](https://www.youtube.com/watch?v=gp6XW-fGVjo)
+* [#288 Raspberry Pi 4 Coolers: Which one is best? (Quickie)](https://www.youtube.com/watch?v=qa3YnWhzPsw)
+
+* [How to Disable the Annoying SSH Password Warning on Raspberry Pi](https://www.tomshardware.com/how-to/disable-ssh-password-warning-raspberry-pi)
+
+## Proxy Server
+* [How to Use a Raspberry Pi as a Proxy Server (with Privoxy)](https://www.howtogeek.com/683971/how-to-use-a-raspberry-pi-as-a-proxy-server-with-privoxy/)
+
+## Mozilla WebThings
+* [Mozilla WebThings: An Open Platform For Building IoT Devices](https://hackaday.com/2019/10/29/mozilla-webthings-an-open-platform-for-building-iot-devices/)
+
+## Set-Up
+* [How to resize a Root Partition in Linux](https://medium.com/100-days-of-linux/how-to-resize-a-linux-root-file-system-af3e5096b4e4)
 
 
 
@@ -1203,6 +1221,7 @@ Lovelace is the Home Assistant dashboard.
 * [How I built my Home Assistant touchscreen](https://www.youtube.com/watch?v=sv67ovOhjzQ)
 * [Smart Home Control Panel - Best looking and most useful component | HA Dashboard](https://www.youtube.com/watch?v=KDpz3OvaU4c)
 * [Create an AWESOME looking Lovelace Dashboard with no YAML Files in 2020! - Home Assistant - How to](https://www.youtube.com/watch?v=ixIGlEpvWXY)
+* [Grid Cards in Home Assistant // Build your own AWESOME dashboard with 9 different types of cards!](https://www.youtube.com/watch?app=desktop&v=I96fN7uQ9PY)
 
 
 
@@ -1308,6 +1327,13 @@ Also: the server runs as a container, so its running on my Server network on nom
 ------
 
 
+# Automation Button
+* [Automate LIKE A PRO! #01 - Automations Button. Learn to create an automation combined with a button](https://www.youtube.com/watch?v=lkMoEQmsqIk)
+
+# Presence Detection
+* [Install Presence Detection in Home Assistant](https://www.youtube.com/watch?v=H4_p61nqqAs)
+* [Presence detection with Raspberry Pi, Home Assistant and Monitor](https://www.youtube.com/watch?v=-uRq4L6bxrI&feature=youtu.be)
+* [monitor](https://github.com/andrewjfreyer/monitor) - Passive Bluetooth presence detection of beacons, cell phones, and other Bluetooth devices. Useful for mqtt-based home automation, especially when the script runs on multiple devices, distributed throughout a property.
 
 # Integration with Alexa
 * [How to do Simple Home Automation with Amazon Alexa || ESP8266](https://www.youtube.com/watch?v=ZyetXihGrM0)
@@ -1403,6 +1429,10 @@ Bust you use the cloud service
 
 * [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
 * [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
+
+# Shelly Flood Sensor
+* [Shelly Flood Sensor Review](https://hometechhacker.com/shelly-flood-sensor-review/)
+* [HOME ASSISTANT SHELLY FLOOD | Detect any leakages immediately](https://www.youtube.com/watch?v=amJcuFv2Roo)
 
 # WatchDog
 * [Edge Networking’s Last Resort](https://medium.com/@nedmcclain/edge-networkings-last-resort-890b536ab960)

@@ -203,6 +203,7 @@ This post shows in detailed steps how to open a serial connection to an embedded
 * [how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI&feature=youtu.be)
 * [How to Communicate with UART](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
 * [Arduino for Production! How to Communicate with UART - Tutorials for the AVR Microcontroller](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
+* [Bare-Metal STM32: Universal, Asynchronous Communication With UARTs](https://hackaday.com/2021/01/08/bare-metal-stm32-universal-asynchronous-communication-with-uarts/)
 
 * [Back to Basics: The Universal Asynchronous Receiver/Transmitter (UART)](http://www.allaboutcircuits.com/technical-articles/back-to-basics-the-universal-asynchronous-receiver-transmitter-uart/?utm_source=All+About+Circuits+Members&utm_campaign=44def5ed41-EMAIL_CAMPAIGN_2016_12_28&utm_medium=email&utm_term=0_2565529c4b-44def5ed41-270523833/)
 * [Where does 9600 bps come from?](https://www.sparkfun.com/news/2231)

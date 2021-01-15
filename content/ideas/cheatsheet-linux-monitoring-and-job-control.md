@@ -2,6 +2,7 @@
 
 
 * [How to kill a process or stop a program in Linux](https://opensource.com/article/18/5/how-kill-process-stop-program-linux)
+* [Respect of the Kill: How To Properly Terminate Your Linux Processes](https://akaabachi.medium.com/respect-of-the-kill-how-to-properly-terminate-your-linux-processes-99f6025f2e53)
 
 # File Magic
 A "[shebang][13]" is the character sequence consisting of the characters number sign and exclamation mark (`#!`)
@@ -26,6 +27,14 @@ Usually a named pipe appears as a file, and generally processes attach to it for
 * [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring?sc_cid=70160000000lcFhAAI)
 * [How To Monitor Your Ubuntu 16.04 System with Sysdig](https://www.digitalocean.com/community/tutorials/how-to-monitor-your-ubuntu-16-04-system-with-sysdig)
 * [Uptime Monitor - monitors your websites every 5 minutes and alerts you if your sites are down](https://uptimerobot.com/)
+
+# What is a Process?
+A process is nothing but a task or a program in execution in Linux Server/Operating System. It is a running instance of a program. It is made up of program instruction, data read from files, other programs or input from a system user.
+There are two types of process:
+foreground processes (user interactive, initialized and controlled through a terminal session)
+and background processes (automatic processes No need of user level input).
+
+* [Process In a Linux Based System](https://shereef-pt.medium.com/process-in-a-linux-based-system-5f6434e8243)
 
 Linux is a multitasking operating systems, that is,
 a system that can run multiple commands (process) during the same period of time.

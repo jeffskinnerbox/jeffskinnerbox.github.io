@@ -34,6 +34,7 @@ even though it’s buried behind a NAT or a firewall!
 * [Reverse Shells](https://www.sans.org/reading-room/whitepapers/covert/inside-out-vulnerabilities-reverse-shells-1663)
 * [SSH Reverse Proxy and Tunneling](https://medium.com/better-programming/ssh-reverse-proxy-and-tunneling-b6d96ab2325)
 * [Bypass your Linux firewall with SSH over HTTP](https://opensource.com/article/20/7/linux-shellhub)
+* [Simple SSH Tweaks for Remote Developers](https://medium.com/better-programming/simple-ssh-tweaks-for-remote-developers-4392a1409c33)
 
 # How Is This Done?
 1. You will need a virtual machine (VM) somewhere on the Internet.
@@ -132,6 +133,7 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 
 # Reverse SSH Tunnel – when you cannot SSH to your host
+* [SSH Tunneling, a Guide](https://medium.com/the-kickstarter/ssh-tunneling-a-guide-79075d52ed43)
 * [Persistent reverse (NAT bypassing) SSH tunnel access with autossh](https://raymii.org/s/tutorials/Autossh_persistent_tunnels.html)
 
 You may be in a restricted network situation (company, hotel, hospital)

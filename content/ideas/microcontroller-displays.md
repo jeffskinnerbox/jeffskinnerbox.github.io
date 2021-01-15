@@ -35,6 +35,7 @@ https://www.waveshare.com/0.96inch-OLED-B.htm
 ## E-Paper / E-Ink Display
 Electronic paper, as that display tech is known (E Ink is a trademarked term owned by the company named E Ink, the tech's leading purveyor), has always been associated primarily with the Kindle and its ilk.
 
+* [How to Make a Name Badge with Tricolor E-Ink Display](https://www.hackster.io/Lover/how-to-make-a-name-badge-with-tricolor-e-ink-display-073acb)
 * [DESK OF LADYADA - Fast partial updates on an E-Ink - starring QT Py!](https://www.youtube.com/watch?v=3sYBws3-OoU)
 * [Color E-Ink Display Photo Frame Pranks](https://hackaday.com/2020/10/30/color-e-ink-display-photo-frame-pranks-mom/)
 * [Waveshare 2.9 Inch E-Paper Raw Display Panel 296x128 Resolution 3.3V E-Ink Electronic Paper Screen with Embedded Controller SPI Interface Support Partial Refresh](https://www.amazon.com/gp/product/B072J2LG8N/ref=ppx_od_dt_b_asin_title_s00)

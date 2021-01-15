@@ -398,6 +398,8 @@ and now even has a script to allow you to start it automatically.
 * [RFCrack - A Software Defined Radio Attack Tool](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
 * [Introduction to Firmware Reverse Engineering](https://www.youtube.com/watch?v=ccgB3UuCxjE)
 
+* [Remoticon Video: Basics of RF Emissions Debugging Workshop](https://hackaday.com/2021/01/08/remoticon-video-basics-of-rf-emissions-debugging-workshop/)
+
 # Radio Reverse Engineering
 * [USING THE FCC EAS FOR FUN AND PROFIT](https://hackaday.com/2016/10/10/using-the-fcc-eas-for-fun-and-profit/)
 * [Universal Radio Hacker](https://hackaday.com/2017/02/23/universal-radio-hacker/)

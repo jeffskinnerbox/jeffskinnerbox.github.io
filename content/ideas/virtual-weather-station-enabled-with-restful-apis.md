@@ -299,6 +299,7 @@ Lightning Basics - https://www.nssl.noaa.gov/education/svrwx101/lightning/
 
 # Open Source Seismometer
 * [Earthquake Detection On A Chip](https://hackaday.com/2019/07/06/earthquake-detection-on-a-chip/)
+* [Earthquake Detector](https://avtanski.net/projects/seismic_sensor/)
 * [Classroom seismometers could monitor earthquakes worldwide](http://physicsworld.com/cws/article/news/2014/jan/28/classroom-seismometers-could-monitor-earthquakes-worldwide)
 * [TC1 Seismometers for Schools and Others on a Budget!](http://tc1seismometer.wordpress.com/)
 * [Instructables Seismometer](http://www.instructables.com/id/Seismometer/?ALLSTEPS)

@@ -1,5 +1,11 @@
 
-################################################################################
+
+
+
+* [Presence detection with Raspberry Pi, Home Assistant and Monitor](https://www.youtube.com/watch?v=-uRq4L6bxrI&feature=youtu.be)
+
+
+
 
 I want to building a radio listening device that will pickup WiFi & BLE devices,
 and (potentially using a network of these devices)
@@ -28,6 +34,7 @@ Kali Linux is a Debian-derived Linux distribution designed for digital forensics
 # Presence and Identity
 
 ## Sound
+* [LASER MIC MAKES EAVESDROPPING REMARKABLY SIMPLE](https://hackaday.com/2010/09/25/laser-mic-makes-eavesdropping-remarkably-simple/)
 * [Building A Top-Notch Electret Microphone](https://hackaday.com/2020/11/02/building-a-top-notch-electret-microphone/)
 * [Remoticon Video: Making Microphones And Finding Sound](https://hackaday.com/2020/12/08/remoticon-video-making-microphones-and-finding-sound/)
 * Coms Over TCP/IP / Sound & Video Transmission - [Nerfnet Tunnels TCP/IP Over NRF24L01 Radios](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
@@ -170,4 +177,7 @@ An international mobile subscriber identity (IMSI) is a unique number, usually f
 
 * [You Can Easily Get Into Anybody’s Smartphone with this Tool](https://www.techtimes.com/articles/246754/20200103/you-can-easily-get-into-anybody-s-smartphone-with-this-tool.htm)
 * [How to make a simple $7 IMSI Catcher](https://www.youtube.com/watch?v=UjwgNd_as30)
+
+# Seeing WiFi
+* [Building a Camera That Can See Wifi | Part 3 SUCCESS!](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=154s)
 

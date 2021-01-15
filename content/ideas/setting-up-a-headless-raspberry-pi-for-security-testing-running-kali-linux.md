@@ -1465,6 +1465,9 @@ is a type of denial-of-service attack that targets communication between a user 
 * [Pocket-Sized Deauther Could Definitely Get You In Trouble](https://hackaday.com/2019/04/04/pocket-sized-deauther-could-definitely-get-you-in-trouble/)
 * [Great Badge Concept: A “Geiger Counter” For WiFi Deauthentication Frames](https://hackaday.com/2020/06/20/great-badge-concept-a-geiger-counter-for-wifi-deauthentication-frames/)
 
+## Air Gap Attaches
+* [6 Ingenious Ways Hackers Break Into the World’s Most Secure Computers](https://tomsmith585.medium.com/6-ingenious-ways-hackers-break-into-the-worlds-most-secure-computers-45d751376259)
+
 
 
 
