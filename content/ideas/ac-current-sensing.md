@@ -6,6 +6,10 @@
 * [#321 7 Sensors tested: Measuring Current with Microcontrollers (Arduino, ESP32, ESP8266)](https://www.youtube.com/watch?v=cG8moaufmQs&t=75s)
 
 * [A Complete Raspberry Pi Power Monitoring System](https://hackaday.com/2020/07/24/a-complete-raspberry-pi-power-monitoring-system/)
+* [This Raspberry Pi Monitors Your Power Usage](https://www.tomshardware.com/news/raspberry-pi-power-monitoring-system)
+
+# Higher Precision
+* [Voltage Measurement HAT for Raspberry Pi offers 16-bit analog inputs](https://www.cnx-software.com/2021/01/17/voltage-measurement-hat-for-raspberry-pi-offers-16-bit-analog-inputs/)
 
 
 

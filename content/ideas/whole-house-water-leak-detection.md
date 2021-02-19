@@ -15,6 +15,11 @@ Water leak detection by measuring the flow of water in the house
 
 * [Data Mining Home Water Usage; Your Water Meter Knows You A Bit Too Well](https://hackaday.com/2019/08/14/data-mining-home-water-usage-your-water-meter-knows-you-a-bit-too-well/)
 
+
+* [An ESP Will Read Your Meter For You](https://hackaday.com/2021/02/07/an-esp-will-read-your-meter-for-you/)
+* [Old Gas Meter Gets Smart With The ESP8266](https://hackaday.com/2021/01/31/old-gas-meter-gets-smart-with-the-esp8266/)
+
+
 # About Leesburg's Water Meters
 * [Using SDR to Read Your Smart Meter](https://hackaday.com/2014/02/25/using-sdr-to-read-your-smart-meter/)
 * [Reading The Water Meter In A Literal Sense With an ESP8266](https://hackaday.com/2019/09/06/reading-the-water-meter-in-a-literal-sense-with-an-esp8266/)

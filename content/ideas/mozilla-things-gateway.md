@@ -417,6 +417,15 @@ there is a Virtual Things add-on which allows you to experiment with different t
 
 
 
+------
+
+
+
+* [Transform a RaspberryPi into a universal Zigbee and Z-Wave bridge](https://medium.com/the-monolith/transform-a-raspberrypi-into-a-universal-zigbee-and-z-wave-bridge-b686cdd1849e)
+
+
+
+
 [01]:https://www.ietf.org/
 [02]:https://webofthings.org/
 [03]:https://www.w3.org/WoT/

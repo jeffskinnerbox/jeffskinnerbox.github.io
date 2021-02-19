@@ -1,5 +1,8 @@
 # Display Types
 
+# Power Consumption
+* [How much current do OLED displays use?](How much current do OLED displays use?)
+
 ## LED Matrix
 I choose one of the many versions of the [MAX7219 dot matrix module][08]
 8x8 dot matrix common cathode LED display modules for my display.
@@ -28,6 +31,7 @@ In low ambient light conditions, an OLED screen can achieve a higher contrast ra
 
 * [0.96 Inch OLED Module 12864 128x64 Yellow Blue SSD1306 Driver I2C Serial Self-Luminous Display Board](https://www.amazon.com/gp/product/B072Q2X2LL/ref=ppx_od_dt_b_asin_title_s00)
 * [UCTRONICS 0.96 Inch OLED Module 12864 128x64 Yellow Blue SSD1306 Driver I2C Serial Self-Luminous Display Board for Arduino Raspberry PI](https://www.uctronics.com/display/uctronics-0-96-inch-oled-module-12864-128x64-yellow-blue-ssd1306-driver-i2c-serial-self-luminous-display-board-for-arduino-raspberry-pi.html)
+* [Interface OLED Graphic Display Module with ESP8266 NodeMCU](https://lastminuteengineers.com/oled-display-esp8266-tutorial/)
 
 https://www.waveshare.com/0.96inch-OLED-A.htm
 https://www.waveshare.com/0.96inch-OLED-B.htm
@@ -70,6 +74,7 @@ Compatible with Arduino and MicroPython, Wio Terminal is an ATSAMD51-based micro
 * [FontEdit - a custom font editor for LCD, LED and E-Paper displays](https://kapusta.cc/2020/03/20/fontedit/)
 
 # Using Raspberry Pi
+* [3.5" SPI LCD experiments on Raspberry Pi Zero](https://medium.com/swlh/3-5-spi-lcd-experiments-on-raspberry-pi-zero-b09fa8adb5c)
 
 # Using ESP8266 & ESP32
 

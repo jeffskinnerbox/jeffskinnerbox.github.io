@@ -29,7 +29,12 @@ that will enable server-side infrastructure for your IoT applications.
 ############################## REMOVE THESE ITEMS ##############################
 
 
+
+# MotionEye
+* [motionEye in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=0JdnJj_dTL4&feature=youtu.be)
+
 # Raspberry Pi as a Server
+* [Set up a minimal server on a Raspberry Pi](https://opensource.com/article/21/1/minimal-server-raspberry-pi)
 * [Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc.](https://www.youtube.com/watch?v=a6mjt8tWUws&feature=youtu.be)
     * [IOTstack](https://sensorsiot.github.io/IOTstack/)
 
@@ -47,7 +52,8 @@ that will enable server-side infrastructure for your IoT applications.
 * [Mozilla WebThings: An Open Platform For Building IoT Devices](https://hackaday.com/2019/10/29/mozilla-webthings-an-open-platform-for-building-iot-devices/)
 
 ## Set-Up
-* [How to resize a Root Partition in Linux](https://medium.com/100-days-of-linux/how-to-resize-a-linux-root-file-system-af3e5096b4e4)
+* [
+* How to resize a Root Partition in Linux](https://medium.com/100-days-of-linux/how-to-resize-a-linux-root-file-system-af3e5096b4e4)
 
 
 
@@ -64,6 +70,8 @@ See https://github.com/andrewjfreyer/monitor/blob/master/README.md
 <br>
 </details>
 -->
+
+* [All Smart Home Devices In One App - 7 Smart Home Dashboards](https://www.youtube.com/watch?v=RyyTf-l9Qq8)
 
 I got plans for several standard home sensors (e.g. water sensors),
 not so standard sensors (e.g. people detecting via smart phone RF exhaust),
@@ -111,6 +119,7 @@ and confidence that helped me select Home Assistant as my platform:
     * [Cloud control vs local control: What to choose for your home automation](https://opensource.com/article/20/11/cloud-vs-local-home-automation)
     * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
     * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
+    * [Integrate devices and add-ons into your home automation setup](https://opensource.com/article/21/2/home-automation-addons)
     * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
 * Home Automation Ideas
     * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
@@ -572,6 +581,7 @@ so we can physically remove the SD-Card.
 
 Sources:
 
+* [How to Boot Raspberry Pi 4/400 From a USB SSD](https://www.youtube.com/watch?v=pto45lMgH5w)
 * [How to Boot Raspberry Pi 4 From a USB SSD or Flash Drive](https://www.tomshardware.com/how-to/boot-raspberry-pi-4-usb)
 * [Stable Raspberry Pi 4 USB boot (HOW-TO)](https://www.youtube.com/watch?v=tUrX9wzhygc)
 
@@ -1149,6 +1159,19 @@ No more worrying about your SD card dying on you out of nowhere. Enjoy!
 
 
 
+# Disable the Microsoft Repo
+the Raspberry Pi OS installed a Microsoft apt repository on all machines running Raspberry Pi OS without the person’s or admin’s knowledge. Every time a Raspbian device is updated by having this repo, it will ping a Microsoft server.
+
+* [Heads up: Microsoft repo secretly installed on all Raspberry Pi’s Linux OS](https://www.cyberciti.biz/linux-news/heads-up-microsoft-repo-secretly-installed-on-all-raspberry-pis-linux-os/)
+* [Users Upset as Raspberry Pi OS Now Pings a Microsoft Server During Updates](https://medium.com/pcmag-access/users-upset-as-raspberry-pi-os-now-pings-a-microsoft-server-during-updates-e017f85e32b0)
+* [How to disable the Microsoft repo on the Raspberry Pi](https://www.windowscentral.com/how-disable-microsoft-repo-raspberry-pi)
+
+
+
+------
+
+
+
 # IoT Security
 * [IoT without Internet.. Yes its possible :)](https://abhatikar.medium.com/iot-without-internet-yes-its-possible-938c43f0a75f)
 * [Secure IoT for Successful IoT](https://abhatikar.medium.com/secure-iot-for-successful-iot-e8059bf63a0f)
@@ -1196,9 +1219,25 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [works with Framework for Internal Navigation and Discovery (FIND)](https://github.com/schollz/find3)
 * [AWS IoT Environment for Home Assistant](https://www.hackster.io/mitchese/aws-iot-environment-for-home-assistant-899a1b)
 * [Integrating Snips with Home Assistant](https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77)
-* [Home Assistant Tutorials](https://www.youtube.com/playlist?list=PLLydq6ff7NvJ1ioQSVRCt2FJK9EFzRKWr)
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 * [Home Automation Covers Everything](https://hackaday.com/2020/07/13/home-automation-covers-everything/)
+
+#### Home Assistant Tutorials
+* [Home Assistant Tutorials](https://www.youtube.com/playlist?list=PLLydq6ff7NvJ1ioQSVRCt2FJK9EFzRKWr)
+* [Smart Home Makers](https://www.youtube.com/channel/UCa-_T4_g4T_11YMlxn80LaQ)
+
+#### Home Assistant Concepts
+* Device
+* Entity
+    * ID
+    * Name
+    * Icon
+    * State
+    * Attribute
+* Service
+* Automation
+* [Home Assistant Concepts Explained Device, Entity, Service, Automation](https://www.youtube.com/watch?v=reQxGZfnewQ)
+
 
 # Awesome Home Assistant
 [Awesome Home Assistant](https://www.awesome-ha.com/)
@@ -1211,8 +1250,21 @@ The list is divided into categories and can be found here: https://www.awesome-h
 * [Tutorial: How to Install Home Assistant on a Generic Linux System](https://diy.viktak.com/2020/07/tutorial-how-to-install-home-assistant-on-a-generic-linux-system.html)
 * [Hass.io on Vagrant/VirtualBox for testing & add-on development](https://community.home-assistant.io/t/hass-io-on-vagrant-virtualbox-for-testing-add-on-development/29612)
 
+### Home Assistant Add-ons
+Add-ons are additional applications and services,
+that can be run alongside Home Assistant.
+The Home Assistant OS and Supervised installations types, provide the Supervisor,
+which is capable of running and manage these add-ons.
+
+* **Official Add-ons** - Created and maintained by the Home Assistant team
+* **Third Party Add-ons** - Anyone can create an add-on
+
 #### Lovelace
-Lovelace is the Home Assistant dashboard.
+Lovelace is the Home Assistant frontend/UI and can be customize to fit your needs or taste better.
+
+* **Themes** - It is all about the looks, apply some style.
+* **Custom UI Cards** - Lovelace allows people to build custom cards on top of it, which you can easily add to your instance.
+* **Alternative Dashboards** -
 
 * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
 * [Setting up Home Assistant Lovelace UI](https://www.youtube.com/watch?t=652&v=QEtX0uboxQA&feature=youtu.be)
@@ -1222,6 +1274,8 @@ Lovelace is the Home Assistant dashboard.
 * [Smart Home Control Panel - Best looking and most useful component | HA Dashboard](https://www.youtube.com/watch?v=KDpz3OvaU4c)
 * [Create an AWESOME looking Lovelace Dashboard with no YAML Files in 2020! - Home Assistant - How to](https://www.youtube.com/watch?v=ixIGlEpvWXY)
 * [Grid Cards in Home Assistant // Build your own AWESOME dashboard with 9 different types of cards!](https://www.youtube.com/watch?app=desktop&v=I96fN7uQ9PY)
+* [Custom Button Card Pt1: How to make Home Assistant Lovelace Icons to Spin / Rotate / Flash](https://www.youtube.com/watch?v=0wg9bdnGD00&feature=youtu.be)
+* [How to Add Custom Panels in Home Assistant](https://www.digiblur.com/2020/12/how-to-add-custom-panels-in-home.html)
 
 
 
@@ -1230,12 +1284,17 @@ Lovelace is the Home Assistant dashboard.
 
 
 
+# Seafile
+* [Building a File Server on a Raspberry Pi with Seafile](https://medium.com/swlh/building-a-file-server-on-a-raspberry-pi-with-seafile-d972bad14688)
+
 # NextCloud
 ## rsync
 ## rclone (aka rsybc fir cloud storage)
 Rclone ("rsync for cloud storage") is a command line program to sync files and directories to and from different cloud storage providers.
 
 * [Linux Fu: Send In The (Cloud) Clones](https://hackaday.com/2020/11/10/linux-fu-send-in-the-cloud-clones/)
+* [How Nextcloud is the ultimate open source productivity suite](https://opensource.com/article/21/1/nextcloud-productivity)
+* [#352 Raspberry Pi4 Home Automation Server (incl. Docker, OpenHAB, HASSIO, NextCloud)](https://www.youtube.com/watch?v=KJRMjUzlHI8&t=849s)
 
 
 
@@ -1264,7 +1323,7 @@ Rclone ("rsync for cloud storage") is a command line program to sync files and d
 
 # Smart Home / IoT Devices
 
-### ESPHome
+## ESPHome
 Tasmota or ESPHome, together with Home Assistant are often seen together for home automation.
 Most of the focus is on flashing and integrating readily available devices and sensors.
 But which framework is better also for our do-it-yourself sensors and ESP32 boards.
@@ -1286,9 +1345,21 @@ Also: the server runs as a container, so its running on my Server network on nom
 * [Home Automation With Home Assistant and ESPHome - First Steps](https://www.youtube.com/watch?v=xDbH-xPQtXU)
 * [Home Automation with ESPHome & Home Assistant](https://www.youtube.com/playlist?list=PL2a34OA-WuyYvDbSaIthEk5dCs1BB2fB-)
 * [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
-* [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
 * [Roll Your Own Automation With ESPHome](https://hackaday.com/2020/04/20/roll-your-own-automation-with-esphome/)
 * [My Secure Smart Home](https://marcyoung.us/post/smart-home/)
+
+## Tasmota
+* [Tasmota Ready Smart Home Devices - No flashing and without the Cloud!](https://www.digiblur.com/2020/09/tasmota-ready-smart-home-devices-no.html)
+
+## Sonoff
+* [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
+
+## Shelly
+* [Shelly 1 Switch Tricks - True 3-Way, Long Press Actions, 2 switches, Automations w/ Tasmota Firmware](https://www.youtube.com/watch?v=mSENAY9_AlI&feature=youtu.be)
+
+### Shelly Flood Sensor
+* [Shelly Flood Sensor Review](https://hometechhacker.com/shelly-flood-sensor-review/)
+* [HOME ASSISTANT SHELLY FLOOD | Detect any leakages immediately](https://www.youtube.com/watch?v=amJcuFv2Roo)
 
 
 
@@ -1324,16 +1395,13 @@ Also: the server runs as a container, so its running on my Server network on nom
 # Manage Home Assistant with Ansible
 
 
+
 ------
+
 
 
 # Automation Button
 * [Automate LIKE A PRO! #01 - Automations Button. Learn to create an automation combined with a button](https://www.youtube.com/watch?v=lkMoEQmsqIk)
-
-# Presence Detection
-* [Install Presence Detection in Home Assistant](https://www.youtube.com/watch?v=H4_p61nqqAs)
-* [Presence detection with Raspberry Pi, Home Assistant and Monitor](https://www.youtube.com/watch?v=-uRq4L6bxrI&feature=youtu.be)
-* [monitor](https://github.com/andrewjfreyer/monitor) - Passive Bluetooth presence detection of beacons, cell phones, and other Bluetooth devices. Useful for mqtt-based home automation, especially when the script runs on multiple devices, distributed throughout a property.
 
 # Integration with Alexa
 * [How to do Simple Home Automation with Amazon Alexa || ESP8266](https://www.youtube.com/watch?v=ZyetXihGrM0)
@@ -1366,6 +1434,7 @@ Also: the server runs as a container, so its running on my Server network on nom
 * [Adventures In Overclocking: Which Raspberry Pi 4 Flavor Is Fastest?](https://hackaday.com/2020/11/11/adventures-in-overclocking-which-raspberry-pi-4-flavor-is-fastest/)
 * [Overclocking the Raspberry Pi 4](https://www.tomshardware.com/reviews/raspberry-pi-4-b-overclocking,6188.html)
 * [Some Raspberry Pi 4s Can Now Overclock to 2.3 GHz. Here’s How.](https://www.tomshardware.com/how-to/raspberry-pi-4-23-ghz-overclock)
+* [I Wrote a Paper for a PhD Course on an Overclocked Raspberry Pi 4](https://medium.com/an-idea/i-wrote-a-paper-for-a-phd-course-on-an-overclocked-raspberry-pi-4-cb14c9210ed4)
 
 # Safe Shutdown with Super Capacitors
 * [Safe Shutdown for Raspberry Pi with Super Capacitors](https://quantumenergygenerator.com/blog/133-safe-shutdown-for-raspberry-pi-with-super-capacitors/)
@@ -1405,13 +1474,6 @@ So it will automatically switch over to the USB power when available,
 instead of continuously charging/draining the battery,
 making it a Uninterruptable Power Supply (UPS).
 
-# Smart Analog Doorbell
-* [Making my analog doorbell smart by simply attaching a $7 sensor to it](https://partofthething.com/thoughts/making-my-analog-doorbell-smart-by-simply-attaching-a-7-sensor-to-it/)
-* [DIY ESP32 Video Doorbell Locks Out Big Brother](https://hackaday.com/2020/12/22/diy-esp32-video-doorbell-locks-out-big-brother/)
-
-# Indoor Localization
-* [How to set up Indoor Localization with Crownstone and Home Assistant](https://www.youtube.com/watch?v=1BONZ-ryKeA)
-
 # Wyze Camera
 Bust you use the cloud service
 * [Wyze Cam V3 Review - Unboxing, Features, Setup, Installation, Testing, Video & Audio Quality](https://www.youtube.com/watch?v=WQZ_xExcwto)
@@ -1430,10 +1492,6 @@ Bust you use the cloud service
 * [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
 * [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
 
-# Shelly Flood Sensor
-* [Shelly Flood Sensor Review](https://hometechhacker.com/shelly-flood-sensor-review/)
-* [HOME ASSISTANT SHELLY FLOOD | Detect any leakages immediately](https://www.youtube.com/watch?v=amJcuFv2Roo)
-
 # WatchDog
 * [Edge Networking’s Last Resort](https://medium.com/@nedmcclain/edge-networkings-last-resort-890b536ab960)
 
@@ -1445,12 +1503,61 @@ claims to be the missing cloud piece for Home Assistant.
 * Supports the Home Assistant by paying for the infrastructure to build new releases and pay for hosting the community forums.
 * Text to Speech is part of your subscription. This allows you to turn any text into natural sounding audio clips to be played on any speaker that Home Assistant supports.
 
-# Smart Thermostat
-* [Building a better thermostat with Home Assistant](https://opensource.com/article/18/8/build-thermostat-open-source-tools)
+* [Home Assistant - Nabu Casa vs DIY (Costs & Benefits Compared)](https://www.youtube.com/watch?v=PNRlCPBSNGc&feature=youtu.be)
+
+## Integrate Amazon Echo
+* [Amazon Echo Devices in Home Assistant](https://suburbannerd.com/hassio-echo/)
+* [Alexa with Home Assistant Local for FREE Without Subscription](https://www.youtube.com/watch?v=Ww2LI59IQ0A&t=14s)
+
+## Integrate Google Home/Google Assistant
+integrate Google Home/Google Assistant with Home Assistant which will allow you to control all of your Home Assistant connected devices with your Google Home or Nest speaker, all done for free without a cloud subscription.
+
+* [Google Home with Home Assistant Local for FREE Without Subscription](https://www.youtube.com/watch?v=RqGi_GI0ltU&feature=youtu.be)
+* [How-To: Home Assistant TALK TO Google Assistant / Google Home](https://www.youtube.com/watch?v=CUc6NEEbbeo)
 
 # MQTT
 * [Understanding MQTT: How Smart Home Devices Communicate](https://www.youtube.com/watch?v=NjKK5ab0-Kk)
 * [MQTT Essentials](https://www.hivemq.com/tags/mqtt-essentials/)
+
+# Store Home Assistant History
+The standard recorder in Home Assistant sometimes gets corrupt and results in losing your history and Home Assistant not starting up again. You can solve this by using MariaDB to record the history of your sensors.
+
+* [No More History Loss In Home Assistant!](https://www.youtube.com/watch?v=0Nf70avId0w&feature=youtu.be)
+* [INSANE STATISTICS In Home Assistant With Grafana!](https://www.youtube.com/watch?v=rXF-LycbjoA&feature=youtu.be)
+
+# Enable SSH In Home Assistant
+* [Enable SSH In Home Assistant](https://www.youtube.com/watch?v=_ANmn9QSLtA)
+
+
+
+-------
+
+
+
+# Smart House
+
+## Security Alarm System
+* [DIY Home Security Alarm System with Home Assistant](https://www.youtube.com/watch?v=qtx1KlouxQs&feature=youtu.be)
+
+## Smart Analog Doorbell
+* [Making my analog doorbell smart by simply attaching a $7 sensor to it](https://partofthething.com/thoughts/making-my-analog-doorbell-smart-by-simply-attaching-a-7-sensor-to-it/)
+* [DIY ESP32 Video Doorbell Locks Out Big Brother](https://hackaday.com/2020/12/22/diy-esp32-video-doorbell-locks-out-big-brother/)
+
+## Indoor Localization
+* [How to set up Indoor Localization with Crownstone and Home Assistant](https://www.youtube.com/watch?v=1BONZ-ryKeA)
+
+## Smart Garage
+* [Smart Garage Control With Firebase AutoML Vision Edge and RaspberryPi](https://medium.com/firebase-developers/smart-garage-control-with-firebase-automl-vision-edge-and-raspberrypi-834fa0eaa7c6)
+* [Smart Garage Door Opener | Shelly 1 & Home Assistant](https://www.youtube.com/watch?v=rix-sO9hGSc)
+
+## Smart Thermostat
+* [Building a better thermostat with Home Assistant](https://opensource.com/article/18/8/build-thermostat-open-source-tools)
+
+# Presence Detection
+* [Install Presence Detection in Home Assistant](https://www.youtube.com/watch?v=H4_p61nqqAs)
+* [Presence detection with Raspberry Pi, Home Assistant and Monitor](https://www.youtube.com/watch?v=-uRq4L6bxrI&feature=youtu.be)
+* [monitor](https://github.com/andrewjfreyer/monitor) - Passive Bluetooth presence detection of beacons, cell phones, and other Bluetooth devices. Useful for mqtt-based home automation, especially when the script runs on multiple devices, distributed throughout a property.
+
 
 
 

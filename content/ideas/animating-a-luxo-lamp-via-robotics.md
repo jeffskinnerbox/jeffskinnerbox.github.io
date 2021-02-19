@@ -48,6 +48,7 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [Robot Car Follows Wherever You Go](http://hackaday.com/2017/07/20/robot-car-follows-wherever-you-go/)
 
 #### Distance Sensor
+* [An Explainer on the Different Types of LiDAR Devices](https://www.crowdsupply.com/onion/tau-lidar-camera/updates/an-explainer-on-the-different-types-of-lidar-devices)
 * [best distance sensor for robots](http://www.teraranger.com/products/teraranger-one/)
 * [RPLIDAR A1M8 - 360 Degree Laser Scanner Development Kit](https://www.dfrobot.com/product-1125.html)
 * [Xaxxon OpenLIDAR Sensor offers open hardware and software](https://www.geeky-gadgets.com/xaxxon-openlidar-sensor-16-10-2019/)

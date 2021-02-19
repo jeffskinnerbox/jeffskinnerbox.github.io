@@ -179,6 +179,7 @@ Intel has announced a software strategy,
 called [Open Visual Inferencing and Neural Network Optimization (OpenVINO)][14]
 to unify these offerings for the application developer.
 
+* [Raspberry Pi and OpenVino: With the Intel Compute Stick](https://towardsdatascience.com/raspberry-pi-and-openvino-2dd11c3c88d9)
 * [Intel OpenVINO: Funny Name, Great Strategy](https://www.forbes.com/sites/moorinsights/2018/05/22/intel-openvino-funny-name-great-strategy/#7d86ae186301)
 * [OpenVINO Toolkit Accelerates Computer Vision Development across Intel® Platforms](https://software.intel.com/en-us/blogs/2018/05/16/openvino-toolkit-accelerates-cv-development-across-intel-platforms)
 * [OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)

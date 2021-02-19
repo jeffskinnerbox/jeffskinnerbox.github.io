@@ -42,6 +42,7 @@ as they offer high stability and signal purity.
 * [The Basics of Direct Digital Synthesizers (DDSs) and How to Select and Use Them](https://www.digikey.com/en/articles/the-basics-of-direct-digital-synthesizers-ddss)
 * [A Technical Tutorial on Digital Signal Synthesis](https://www.analog.com/media/cn/training-seminars/tutorials/450968421DDS_Tutorial_rev12-2-99.pdf)
 * [The XR2206 Function Generator DIY Kit & other goodies](https://www.electroschematics.com/function-generator/)
+* [Connecting 50 ohm signal generator to non-50 ohm device](https://www.youtube.com/watch?app=desktop&v=Xb1WO4BLcSQ)
 
 
 

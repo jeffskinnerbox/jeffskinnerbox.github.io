@@ -10,6 +10,8 @@
 
 * [IRC Over LoRa, For When Things Really Go South](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
 
+* [LoRa and LoRaWAN for IoT](https://itnext.io/lora-for-iot-1f91085c5917)
+
 
 # Adafruit Products
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
@@ -20,6 +22,9 @@
 * [Adafruit Feather](https://www.adafruit.com/feather)
 * [Adafruit RadioFruit](https://www.adafruit.com/?q=radiofruit)
 * [Adafruit RFM69 Radio with CircuitPython](https://www.hackster.io/whitney-knitter/pi-os-for-zynqberry-adafruit-rfm69-radio-with-circuitpython-1ae658)
+
+# SmartFun
+* [SparkFun LoRa Thing Plus - ExpLoRaBLE](https://www.sparkfun.com/products/17506)
 
 # Long Range Mode for ESP32
 * [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
@@ -519,7 +524,11 @@ to the receiver in a telecommunication system.
 
 * [RF Line of Sight](http://pathrf.com/company/news/112-online-applications-news/rf-radio-app-news/122-rf-line-of-sight-released)
 
+
+
 ------
+
+
 
 # LoRa Build and Buy Options
 * [LoRa Add-on Boards for Makers](https://www.eetindia.co.in/news/article/LoRa-Add-on-Boards-for-Makers)
@@ -617,7 +626,11 @@ to a main board computer or microcontroller.
 #### The Things Gateway
 * [The Things Gateway](https://www.adafruit.com/product/3943)
 
+
+
 -----
+
+
 
 * [LoRa Tutorials For The DIY Masses ](https://hackaday.com/2020/02/25/lora-tutorials-for-the-diy-masses/)
 * [LoRa/LoRaWAN tutorials](https://www.youtube.com/playlist?list=PLmL13yqb6OxdeOi97EvI8QeO8o-PqeQ0g)
@@ -698,6 +711,13 @@ Much of it remains valid for the version I'm using (v2), but be careful:
 
 
 
+# LoRa Range Testing
+See this video by SmartFun about how they tested the range of their device.
+The use of two device sees like a simple idea that could be mssed.
+Combine this with a GPS tracker and a LCD display, and you got a full package
+
+* [Product Showcase: SparkFun LoRa Thing Plus - ExpLoRaBLE](https://www.youtube.com/watch?v=fTf7vAOQG7Y)
+
 
 
 
@@ -705,6 +725,8 @@ Much of it remains valid for the version I'm using (v2), but be careful:
 
 
 ------
+
+
 
 # HelTec WiFi LoRa 32 + LoRaWAN
 Andreas Spiess has an excellent [introduction to the HelTec WiFi LoRa 32][37].

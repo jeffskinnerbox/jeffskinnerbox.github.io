@@ -9,3 +9,5 @@
 * [Another Advantage of Remote Work—Less Opportunity for Age Discrimination?](https://remote.co/remote-work-age-discrimination/)
 
 * [REMOTE.CO - All Things Remote Work](https://remote.co/)
+
+* [3 Developer Side Hustles That Will Make You Money Right Now](https://medium.com/javascript-in-plain-english/3-developer-side-hustles-that-will-make-you-money-right-now-96aa59fdc2a0)

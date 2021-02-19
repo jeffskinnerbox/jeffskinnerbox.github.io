@@ -174,6 +174,9 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [Metro Minimalist Clock](https://learn.adafruit.com/metro-minimalist-clock/overview)
 * [7 Segment Display Internet Clock](https://learn.adafruit.com/7-segment-display-internet-clock/code)
 * [Not All 7-Segment Displays Are Electronic](https://hackaday.com/2019/10/13/not-all-7-segment-displays-are-electronic/)
+* [Edge-Lit 7-Segments Clock The New Normal](https://hackaday.com/2020/04/14/edge-lit-7-segments-clock-the-new-normal/)
+* [HowTo: Electronics – Build seven segment LED digit called “pxlDigit” from WS2812 LEDs](https://nerdiy.de/en/howto-elektronik-sieben-segment-ziffer-pxldigit-aus-ws2812-leds-bauen/)
+* [Mechanical Seven-Segment Display, Smaller and Better Than the Original](https://hackaday.com/2021/02/04/mechanical-seven-segment-display-smaller-and-better-than-the-original/)
 
 ## Big Display
 **Big**
@@ -215,6 +218,7 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 * [Moving Fridge Magnets Make For Unique Clock](https://hackaday.com/2020/08/14/moving-fridge-magnets-make-for-unique-clock/)
 * [Clock Is Not Readable By Humans](https://hackaday.com/2020/10/06/clock-is-not-readable-by-humans/)
 * [This mechanical clock tells time using steel balls](https://www.blogdot.tv/this-mechanical-clock-tells-time-using-steel-balls/)
+* [Chain Link Clock Drags Time Along](https://hackaday.com/2021/01/27/chain-link-clock-drags-time-along/)
 
 ################################################################################
 
@@ -233,6 +237,9 @@ It means all communications between your browser and the website are encrypted.
 * [Flash Encryption](https://docs.espressif.com/projects/esp-idf/en/latest/security/flash-encryption.html)
 
 
+
+# Atomic Clock
+* [Who decides how long a second is?](https://www.youtube.com/watch?v=4I5Q3UXkGd0)
 
 # Time from GPS
 * [Time synchronization with a Garmin GPS](https://www.lammertbies.nl/comm/info/gps-time)

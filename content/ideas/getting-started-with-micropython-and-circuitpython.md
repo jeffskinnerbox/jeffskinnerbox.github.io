@@ -12,6 +12,7 @@
 * [Adafruit’s Feather nRF52840 Express Board and Developing with CircuitPython](https://blog.nordicsemi.com/getconnected/adafruits-feather-nrf52840-express-board-and-developing-with-circuitpython)
 
 * [Micropython On Microcontrollers](https://hackaday.com/2020/11/14/micropython-on-microcontrollers/)
+* [Raspberry Pi Pico vs ESPR32: Intro to Microcontrollers with MicroPython](https://www.techtimes.com/articles/256277/20210124/raspberry-pi-pico-vs-espr32-intro-microcontrollers-micropython.htm)
 
 
 

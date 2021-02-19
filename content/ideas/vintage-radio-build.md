@@ -9,6 +9,7 @@
 * [History of Radio](https://en.wikipedia.org/wiki/History_of_radio)
 * [How Early Radio Receivers Worked](https://hackaday.com/2020/07/10/how-early-radio-receivers-worked/)
 * [Modern Radio Receiver Architecture: From Regenerative to Direct Conversion](https://hackaday.com/2020/07/17/modern-radio-receiver-architecture-from-regenerative-to-direct-conversion/)
+* [EVERYONE SHOULD BUILD AT LEAST ONE REGENERATIVE RADIO RECEIVER](https://hackaday.com/2017/02/01/everyone-should-build-at-least-one-regenerative-radio-receiver/)
 * [Receiver Architectures: Fundamentals and Properties](http://ece.tamu.edu/~s-sanchez/665%20Lect%202-Receiver-Topologies%202009.pdf)
 
 # National Radio Quiet Zone
@@ -120,6 +121,7 @@ by building your own coherer.
 * [Michigan Mighty Mite](http://www.sm7ucz.se/MMM/MMM.htm)
 * [Negative Resistance Oscillator](http://www.sparkbangbuzz.com/index.html)
 * [Dust Off Those AM Radios, There’s Something Good On!](https://hackaday.com/2018/01/12/what-to-do-with-all-of-those-mid-century-and-pre-war-vintage-am-radios-build-your-own-am-radio-station/)
+* [A One-Transistor Ham Transmitter Anyone Can Build](https://hackaday.com/2021/01/20/a-one-transistor-ham-transmitter-anyone-can-build/)
 
 # Receiver
 * [Alfred P. Morgan: A Generation’s Radio Hacker](http://hackaday.com/2015/12/11/alfred-p-morgan-a-generations-radio-hacker/)
@@ -177,7 +179,10 @@ by building your own coherer.
 * [Experiences With Capacitor Failure](https://hackaday.com/2019/04/12/ask-hackaday-experiences-with-capacitor-failure/)
 
 ## Inductor
+* [How INDUCTOR's work & How to make your own](https://www.youtube.com/watch?app=desktop&v=d-E12DlzGGc)
 * [Digging In The Dirt Yields Homebrew Inductors](https://hackaday.com/2020/09/13/digging-in-the-dirt-yields-homebrew-inductors/)
+* [Yet Another Inductance Measuring Scheme](http://hackaday.com/2016/09/15/yet-another-inductance-measuring-scheme/)
+* [Coil32: The freeware coil inductance calculator for radio frequency coils](https://coil32.net/)
 
 ## Diode
 * [History Of The Diode](http://hackaday.com/2016/08/15/history-of-the-diode/)
@@ -192,8 +197,6 @@ by building your own coherer.
 * [Flame Triodes Don’t Need Any Vacuum](http://hackaday.com/2016/05/26/flame-triodes-dont-need-any-vacuum/)
 * [Flame Triode With Gain](http://www.sparkbangbuzz.com/flame-amp/flameamp.htm)
 
-# Inductor
-* [Yet Another Inductance Measuring Scheme](http://hackaday.com/2016/09/15/yet-another-inductance-measuring-scheme/)
 
 # Resistors
 * [What is There to Know About Resistors?](http://hackaday.com/2016/09/06/what-is-there-to-know-about-resistors/)
@@ -218,3 +221,6 @@ by building your own coherer.
 # Audio Amplifiers
 ## Class D Digital Audio Amplifier
 * [MAKE WEARABLE AND IOT AUDIO EFFORTLESS WITH A PLUG'N'PLAY CLASS D AMPLIFIER](https://www.maximintegrated.com/en/design/technical-documents/design-solutions/7/7334.html)
+
+## Q-Multiplier
+* [Q Multiplier — Er… Multiplies Q](https://hackaday.com/2021/01/18/q-multiplier-er-multiplies-q/)

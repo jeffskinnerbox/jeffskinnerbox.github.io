@@ -19,7 +19,11 @@ DragonOS is a Debian Linux based operating system which comes with many open sou
 * [PySDR: A Guide to SDR and DSP using Python](https://pysdr.org/index.html)
 * [SDR for the Radio Amateur](https://www.g0kla.com/sdr/index.php)
 * [GNU Radio: SuggestedReading](https://wiki.gnuradio.org/index.php/SuggestedReading)
-* []()
+
+# Web Enabled SDR
+* [Using Software Defined Radio Without SDR Hardware - WebSDR](https://www.youtube.com/watch?v=zfO5JeSe-dE)
+* [WebSDR](http://websdr.org/)
+* [KiwiSDR](http://kiwisdr.com/public/)
 
 
 
@@ -98,6 +102,7 @@ is a complex-valued representation of the [real-valued][50] modulated physical s
 * [IQ Modulator Basics: Operation, measurements, impairments](https://www.youtube.com/watch?v=RHFZUqUM8DY&feature=em-subs_digest)
 * [Display in-phase and quadrature components of modulated signal constellation][55]
 * [If The I And Q Of Software Defined Radio Are Your Nemesis, Read On][45]
+* [What’s Your IQ – About Quadrature Signals…](https://www.tek.com/blog/quadrature-iq-signals-explained)
 
 ## Waveform Viewer
 A waveform viewer is a software tool for viewing a signals waveform.
@@ -237,6 +242,8 @@ Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-glo
 * [Intro to RTL-SDR, Part I - Principles and Hardware](http://ajoo.blog/intro-to-rtl-sdr-part-i-principles-and-hardware.html)
 * [Intro to RTL-SDR, Part II - Software](http://ajoo.blog/intro-to-rtl-sdr-part-ii-software.html)
 * [Software Defined Radio Academy](https://www.youtube.com/c/SoftwareDefinedRadioAcademy/videos)
+* [Remoticon Video: Learning The Basics Of Software-Defined Radio (SDR)](https://hackaday.com/2021/01/19/remoticon-video-learning-the-basics-of-software-defined-radio-sdr/)
+* [Doing WiFi With Software Defined Radio](https://hackaday.com/2021/01/16/doing-wifi-with-software-defined-radio/)
 
 
 

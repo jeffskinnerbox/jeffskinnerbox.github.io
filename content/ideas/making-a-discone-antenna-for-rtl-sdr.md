@@ -1,6 +1,5 @@
 
 * [Antenna Basics: Radiation Patterns, Permittivity, Directivity, and Gain](http://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/)
-* [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)
 * [Get Your Weather Images Straight From The Satellite](https://hackaday.com/2020/03/14/get-your-weather-images-straight-from-the-satellite/)
 * [Radio Antenna Mismatching: VSWR Explained](https://hackaday.com/2018/08/17/radio-antenna-mismatching-vswr-explained/)
 
@@ -10,16 +9,10 @@
 * [KiwiSDR Vs RaspberrySDR — A Tale Of Two SDRs](https://hackaday.com/2020/09/30/kiwisdr-vs-raspberrysdr-a-tale-of-two-sdrs/)
 
 
-# Write Your Own Electromagntic Numerical Analysis
-[Antenna Design, Analysis and Simulation](https://www.microwavejournal.com/articles/29437-antenna-design-analysis-and-simulation)
 
-[Meep](https://meep.readthedocs.io/en/latest/) is a free and open-source software package for electromagnetics simulation via the finite-difference time-domain (FDTD) method spanning a broad range of applications.
 
-* [Meep GitHub](https://github.com/NanoComp/meep)
-* Documentation - [Meep: A flexible free-software package for electromagnetic simulations by the FDTD method](https://data.mendeley.com/datasets/42hb3hb2tt/1)
-* [Simulations of electromagnetic waves with python-meep](https://www.fzu.cz/~dominecf/meep/)
 
-################################################################################
+
 
 Need a SMA Panel Jack connector
 
@@ -37,7 +30,16 @@ and the principle parameters of antenna specifications.
 There are also example characteristics of several popular antennas shown
 with a discussion on the trade-offs and benefits of each design.
 
-------
+
+
+
+
+
+
+
+--------
+
+
 
 Like all radio devices, to make optimal use of the RTL-SDR, a good antenna is need.
 The 145mm [monopole antenna][41] that comes with my [NooElec R820T SDR & DVB-T][40] dongle
@@ -63,7 +65,7 @@ In this posting I set out to perform this analysis on my DIY discone antenna.
 In doing this, I start out with a short, high-level tutorial on the core electromagnetic principles
 related to antenna design and build up to the analysis and my antennas final physical specifications.
 
-## The Electromagnetic Spectrum
+# The Electromagnetic Spectrum
 [Radio frequency (RF)][01] or [radio spectrum][02] refers to the part of the [electromagnetic spectrum][03] frequencies lower than around 300 GHz (or, equivalently, wavelengths longer than about 1 mm).
 Electromagnetic waves in this frequency range, called [radio waves][04], can travel through the earths atmosphere with ease and are used for [radio communication][05] and various other technologies.
 Above 300 GHz, the absorption of electromagnetic radiation by Earth's atmosphere is so great that the atmosphere is effectively opaque, until it becomes transparent again in the near-infrared and optical window frequency ranges.
@@ -213,27 +215,36 @@ For more on electromagnetic near fields and far fields, see:
 * [Antenna Field Regions](http://www.ic.gc.ca/eic/site/smt-gst.nsf/eng/sf10112.html)
 * [What’s The Difference Between EM Near Field And Far Field?](http://electronicdesign.com/energy/what-s-difference-between-em-near-field-and-far-field)
 
+## Guided Wave and a Free-Space Wave
+A [waveguide](https://en.wikipedia.org/wiki/Waveguide) is a structure that guides waves
+
+an antenna is a transition device, or transducer, between a guided wave and a free space wave or vice versa. The antenna is a device which interfaces a circuit and space.
+
+The concept of propagation refers to the various ways by which an electromagnetic (EM) wave travels from the transmitting antenna to the receiving antenna. Propagation of EM wave may also be regarded as a means of transferring energy or information from one point (a transmitter) to another (a receiver).
+
 ## Electromagnetic Radiation
 * [How does an Antenna work? | ICT #4](https://www.youtube.com/watch?v=ZaXm6wau-jc)
 * [Understanding Electromagnetic Radiation! | ICT #5](https://www.youtube.com/watch?v=FWCN_uI5ygY)
-
-## Extending WiFi Range
-* [Uni-Directional WIFI Range Extender](https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/)
-* [ESP32 WiFi Hits 10KM with a Little Help](https://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/#more-252084)
-
-[TP-Link AC1750 WiFi Range Extender](https://www.amazon.com/gp/product/B010S6SG3S/) (aka TP-Link RE450) [from Amazon][02]
-I used this device to extend the range of of my home WiFi into places
-where I currently get poor reception.
-Like my router, its dual band (2.4GHz 450Mbps / 5GHz 1300Mbps)
-and claims to be compatible with any type of Router/Gateway/Access Point.
-The video shows three methods for setting up the range extender:
-smart phone app, web browser, or router WPS button:
-[How to set up a TP-Link Range Extender](https://www.youtube.com/watch?v=W9QxHvIyULQ)
 
 
 ## The Physics Behind Antennas
 * [The Physics Behind Antennas](https://hackaday.com/2019/07/11/the-physics-behind-antennas/)
 * [Practical Guide to Radio-Frequency Analysis and Design](https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/)
+
+
+
+--------
+
+
+
+# What is an Antenna?
+An antenna acts as an interface between a guided wave and a free-space wave.
+
+The wire antennas are made of thin, conducting,
+straight or curved wire segments or hollow tubes and are very easy to construct. It is suspended above the ground and the radius of the
+wire is very small compared to the operating wavelength of the radio waves used. The dipole and monopole are examples of straight
+wire antennas. The loop antenna is an example of curved wire antenna. The loop antenna is a radiating coil of any convenient cross
+section of one or more turns carrying radio frequency current.
 
 ## Typical Antenna Designs
 * [monopole antenna][41]
@@ -265,7 +276,7 @@ then it can be conveniently used up to 1.4 Gigahertz!
 The lowest operational frequency is called cut-off frequency.
 Below this frequency the SWR will increase rapidly.
 
-## Driving the Antenna
+### Driving the Antenna
 When transmitting (or receiving) a radio signal via an antenna, you often have to consider
 the wave nature of the radio signal because multiple wave cycles will be present within the body
 of the current caring wire, called a [transmission line][22].
@@ -274,7 +285,7 @@ In radio engineering, a transmission line is a specialized cable or other struct
 designed to carry alternating current of radio frequency, that is, currents with a frequency high enough that their wave nature must be taken into account.
 Transmission lines must be used when the frequency is high enough that the wavelength of the waves begins to approach the length of the cable used.
 
-## Fundamental Antenna Parameters
+### Fundamental Antenna Parameters
 Antennas are characterized by a number of performance measures which a user would be concerned with in selecting or designing an antenna for a particular application.
 To establish the key figures of merit for an antenna, you first must establish a reference point from which all antennas can be compared.
 That reference point is the [isotopic antenna][23].
@@ -313,31 +324,111 @@ It is also important to note that the receiving characteristics of an antenna ar
 This electromagnetic fact, call [reciprocity][27], means we can state the antenna's properties
 independently of its uses as a transmitter or receiver.
 
-## Antenna Tuning
+### Antenna Tuning
 * [Antenna Tuning For GHz Frequencies](https://hackaday.com/2019/08/03/antenna-tuning-for-ghz-frequencies/)
 * [Antenna Tuning for Beginners](https://www.baseapp.com/iot/antenna-tuning-for-beginners/)
 * [Michael Ossmann: Simple RF Circuit Design](https://hackaday.com/2016/03/23/michael-ossmann-makes-you-an-rf-design-hero/)
 * [Chris Gammell - Gaining RF Knowledge: An Analog Engineer Dives into RF Circuits](https://www.youtube.com/watch?v=AS8Ybhm0qk8)
 
-## Comparing Antenna Perfromance
+### Comparing Antenna Perfromance
 * [Comparing shortwave antennas with Python](http://www.hydrogen18.com/blog/comparing-shortwave-antennas-with-python.html)
+
+### Phased Array Antenna
+A phased array antenna is an array antenna whose single radiators can be fed with different phase shifts. As a result, the common antenna pattern can be steered electronically. The electronic steering is much more flexible and requires less maintenance than the mechanical steering of the antenna.
+
+* [VISUALIZATION OF A PHASED ARRAY ANTENNA SYSTEM](https://hackaday.com/2017/01/05/visualization-of-a-phased-array-antenna-system/)
 
 
 
 -------
 
-# Tin Can DIY WiFi Antenna (Cantenna)
-* [How To Build A Tin Can DIY WiFi Antenna](https://www.shtfpreparedness.com/build-tin-can-wifi-antenna/)
 
-# Patch Antenna
-* [A Patch Antenna Is Just A Rectangle, It Should Be Easy To Design, Right?](https://hackaday.com/2020/03/01/a-patch-antenna-is-just-a-rectangle-it-should-be-easy-to-design-right/)
 
-# Loop Antenna
-* [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
-* [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
-* [Antenna Pulls In AM Stations](https://hackaday.com/2020/08/19/antenna-pulls-in-am-stations/)
+# Antenna Modeling
+* [Antenna Modeling](http://www.arrl.org/antenna-modeling)
+* [Antenna Modeling, Courtesy of Ubuntu and Wine](https://eksfiles.net/2008/01/antenna-modeling-courtesy-of-ubuntu-wine/)
+* [Antennas in Linux](https://www.linuxjournal.com/content/antennas-linux)
 
-## Discone Antenna
+# Electromagntic Numerical Analysis
+Because of its popularity and [respect amoung the Ham Radio community][33] and others,
+I have focused on the [Numerical Electromagnetic Code (NEC)][31] family of tools.
+It is based on a numerical solution of electromagnetic ﬁeld integrals for thin,
+perfectly conducting wire segments using the [Method of Moments (MoM)][32].
+
+There are at least four generations of NEC, with NEC2 being the highest version of the code within the public domain.
+A translation of NEC2 into C, is called NEC2C, and when given a GTK+ based GUI, called Xnec2c.
+There is also nec2++, which is a port of NEC2 to C++, with a C/C++ interface and python bindings.
+There also exist many variations of these versions of NEC and multiple specialized implementations and supporting tools.
+A good starting point to navigate this confusion is the [Numerical Electromagnetic Code NEC2 unofficial home page][34]
+and [The unofficial Numerical Electromagnetic Code (NEC) Archives][35].
+
+I'll be using Xnec2c since it is is a [GTK+][37] graphical interactive version of nec2c and well suited for my Linux system.
+It incorporates the nec2c core, which it uses for reading input files and calculating output data,
+but it produce an output in graphical format by default.
+The latest version of Xnec2c appears to be 2.3 and can be obtained from [here][36]
+(Note: The Ubuntu / Debian packages appear to be version 1.4).
+This package also includes many example input files and you can get more at [Steve Conklin's GitHub site][38].
+
+## NEC2, 4NEC2, NEC2++, XNEC2C, ... Electromagnetic Simulation Software
+The Numerical Electromagnetics Code (NEC-2) is a comprehensive package for the analysis of the electromagnetic properties of structures. It can analyse radiating properties i.e. antenna gain, as well as scattering properties (radar cross section) of structures. NEC-2 was originally written in FORTRAN.
+
+4NEC2 (Numerical Electric Code) is a simulation method for wire antennas, developed by the Lawrence Livermore Laboratory in
+1981 for the Navy. To realize this, an antenna is divided into ―short segments‖ with linear variation of current and voltage. The results
+are very convenient and the standard for this simulation technique is NEC2. The demerit of NEC2 is that the simulation errors occur
+when wires are crossing in a very short distance or when using buried wires were overcome with 4NEC2. 4NEC2 offers a huge
+amount of possibilities and options and it was programmed by Arie Voors. Its main advantages are the optimizing tools and the
+parameter sweeps. It can be found and downloaded free of charge from the Internet. It is open source software. In 4NEC2, the
+frequency, wavelength, length, radius can be changed and the radiation pattern, smith chart is generated accordingly. Also the
+efficiency is calculated for the obtained radiation pattern.
+
+NEC2++ is an extensive rewrite of NEC-2 in C++ by Tim Molteno. This work was helped tremendously by the work of N. Kyriazis who ported NEC-2 to C. The new portions of code are licensed under the GNU Public License (GPL).
+
+* [NEC2](http://www.nec2.org/)
+* [Nec2++](http://elec.otago.ac.nz/w/index.php/Necpp)
+* [NEC2++ Electromagnetic Simulation Software](https://tmolteno.github.io/necpp/)
+* [XNEC2C](https://www.qsl.net/5b4az/pkg/nec2/xnec2c/doc/xnec2c.html)
+* [Modeling antennas in Python with NEC2++](http://astroelec.blogspot.com/2015/05/modeling-antennas-in-python-with-nec2.html)
+
+## necpp
+This module allows you to do antenna simulations in Python using the nec2++ antenna simulation package.
+
+* [python-necpp: Antenna simulation in python](https://pypi.org/project/necpp/)
+
+## Using NEC, 4NEC2, etc.
+* [How to produce a NEC antenna file (and what software to use it with)?](https://ham.stackexchange.com/questions/5405/how-to-produce-a-nec-antenna-file-and-what-software-to-use-it-with)
+* [Antenna simulations with 4NEC2 including an application example for 2300MHz](http://www.vhfcomm.co.uk/4nec2%20antenna%20simulation%20english.pdf)
+* [A Beginner’s Guide to Modeling with NEC: Part 1 - : Getting settled and getting started](http://wireless.ictp.it/school_2005/download/nec2/nec_part1.pdf)
+* [A Beginner’s Guide to Modeling with NEC: Part 2 - The Ins and Outs of Modeling](http://wireless.ictp.it/school_2005/download/nec2/nec_part2.pdf)
+* [A Beginner’s Guide to Modeling with NEC: Part 3 - Sources, grounds and sweeps](http://wireless.ictp.it/school_2005/download/nec2/nec_part3.pdf)
+* [A Beginner’s Guide to Modeling with NEC: Part 4 - Loads, transmission lines, tests and limitations](http://wireless.ictp.it/school_2005/download/nec2/nec_part4.pdf)
+* [Design of helical antenna using 4NEC2](http://pnrsolution.org/Datacenter/Vol3/Issue2/191.pdf)
+* [Patch Antenna Design with NEC2](https://www.aeronetworks.ca/2018/07/patch-antenna-design-with-nec2.html)
+* [Olde Skool Antenna Design with NEC2 on OpenBSD](https://www.aeronetworks.ca/2017/07/olde-skool-antenna-design-with-nec2-on.html)
+* [Xnec2c dipole model quickstart](http://ag6cb.blogspot.com/2013/09/model-dipole-going-from-sketch-to-xyz.html)
+
+## gprMax
+gprMax is open source software that simulates electromagnetic wave propagation. It solves Maxwell’s equations in 3D using the Finite-Difference Time-Domain (FDTD) method. gprMax was designed for modelling Ground Penetrating Radar (GPR) but can also be used to model electromagnetic wave propagation for many other applications.
+
+* [What is gprMax](http://docs.gprmax.com/en/latest/include_readme.html)
+* [grpMax](http://www.gprmax.com/index.shtml)
+* [GPR modelling using gprMax (online workshop, July 2020)](https://www.youtube.com/playlist?list=PLf_lDHRs1yH6h5T-s-RvPbkdXFMqLrhy4)
+
+## Write Your Own Electromagntic Numerical Analysis
+[Antenna Design, Analysis and Simulation](https://www.microwavejournal.com/articles/29437-antenna-design-analysis-and-simulation)
+
+[Meep](https://meep.readthedocs.io/en/latest/) is a free and open-source software package for electromagnetics simulation via the finite-difference time-domain (FDTD) method spanning a broad range of applications.
+
+* [Meep GitHub](https://github.com/NanoComp/meep)
+* Documentation - [Meep: A flexible free-software package for electromagnetic simulations by the FDTD method](https://data.mendeley.com/datasets/42hb3hb2tt/1)
+* [Simulations of electromagnetic waves with python-meep](https://www.fzu.cz/~dominecf/meep/)
+
+
+-------
+
+
+
+
+# Discone Antenna Design
 A discone antenna is a version of a [biconical antenna][19] is typically a wired structure,
 its usually mounted vertically, with the disc at the top and the cone beneath.
 The open litature discribes it as omnidirectional,
@@ -365,7 +456,7 @@ Using this tool, I get the following results:
 ![Discone Dimensions](img/posts/jekyll-posts/discone-dimensions.jpg, "xxx")
 ![Discone Measurements](img/posts/jekyll-posts/discone-measurments.png, "xxx")
 
-## Electromagntic Numerical Analysis
+## Discone Antenna Electromagntic Numerical Analysis
 We would like to solve [Maxwell's equations][28] for the discone antenna design to discover its radiation pattern, etc.
 Solving these equations as a [closed-form expression ][29] is hopeless except for the simplest types of antenna structures.
 So we'll need to leverage [numerical methods][30] to perform the analysis of the discone antenna.
@@ -425,16 +516,15 @@ you'll need to tap into the documentation available for the multiple generations
 With a little bit of insight, you'll be able to leverage these "not quite xnec2c documentation" sources.
 Check out these sources:
 
-* [Xnec2c User Manual](http://www.qsl.net/5b4az/pkg/nec2/xnec2c/doc/xnec2c.html)
 * [The Method of Moments: A Numerical Technique for Wire Antenna Design](http://www.highfrequencyelectronics.com/Archives/Feb06/HFE0206_Rawle.pdf)
 * [Antenna Modelling for Radio Amateurs Made Easier](http://www.rafars.org/QRV_Articles/01/Antenna.html)
-* [Wire Antenna Modelling with NEC-2](http://www.qsl.net/4nec2/Tutorial.pdf)
 * Antenna modeling using nec2c on Ubuntu Linux: Video [part 1](http://www.popscreen.com/v/6b31Y/Antenna-modeling-using-xnec2c-part1) and [part 2](http://www.youtube.com/watch?v=KgYfU7wghso).
 * A Beginner’s Guide to Modeling with NEC: [part 1](http://wireless.ictp.it/school_2005/download/nec2/nec_part1.pdf), [part 2](http://wireless.ictp.it/school_2005/download/nec2/nec_part2.pdf), [part 3](http://wireless.ictp.it/school_2005/download/nec2/nec_part3.pdf), and [part 4](http://wireless.ictp.it/school_2005/download/nec2/nec_part4.pdf).
 * [MININEC: The Other Edge of The Sword](http://www.arrl.org/files/file/Technology/tis/info/pdf/9102018.pdf)
+* [Wire Antenna Modelling with NEC-2](http://www.qsl.net/4nec2/Tutorial.pdf)
+* [Xnec2c User Manual](http://www.qsl.net/5b4az/pkg/nec2/xnec2c/doc/xnec2c.html)
 * [Simulation of Wire Antennas using 4NEC2](http://www.qsl.net/4nec2/Tutorial_4NEC2_english.pdf)
 * [4NEC2 Tutorial: Electric Dipole Antenna Simulation](http://www.qsl.net/4nec2/NEC_tutorial1.pdf)
-* [Lowering The Boom On Yagi Element Isolation](https://hackaday.com/2020/05/10/lowering-the-boom-on-yagi-element-isolation/)
 
 ## Antenna Modeling of a Discone Antenna
 
@@ -448,6 +538,98 @@ Cabling Require:
 
 * Cable attached Discone - [50 Ohm RG-174 cable][61] attached to the antenna at xxx and terminated at the other end of the cable with a female [SubMiniature version A (SMA)][62] connector
 * Cable from Discone-cable to SDR device - A long [50 Ohm RG-174 cable][61] with [SMA][62] male connector on one end and a female on the other end.  This cable is connected with a 6 inch coax cable assembly with a female to [MCX male][57].  The male MCX plugs into the SDR device.
+
+## Why is Coax 50 Ohm?
+There is a prevalence of 50 ohm coax.
+Sure, you sometimes see 75 ohm coax, but overwhelmingly, RF circuits work at 50 ohms.
+Apparently in the 1930s,
+radio transmitters were pushing towards higher power levels.
+You generally think that thicker wires have less loss.
+For coax cable carrying RF though, it’s a bit more complicated.
+The impedance is a function of the dielectric material,
+the diameter of the center conductor,
+and RF signals exhibit the skin effect (they don’t travel in the center of the conductor)
+
+When you put all this together,
+you learn that the loss of the cable is minimized at 77 ohms for a cable with air dielectric.
+Of course, that’s not 50 ohms but closer to the 75 ohms used to carry weak antenna signals in TV systems.
+According to [Microwaves 101][65], choice of 50 ohms is a compromise between power handling capability
+and signal loss per unit length, for air dielectric.
+For cheaper commercial cables, such as those that bring CATV to your home,
+an impedance 75 ohms probably was a compromise between low loss and cable flexibility.
+
+* [Why is Coax 50 Ohms?](https://www.youtube.com/watch?app=desktop&v=I-OnQZJv35I)
+
+
+
+---------
+
+
+# What Makes a Good Antenna?
+It sometimes seems as though antennas and RF design are portrayed as something of a Black Art, the exclusive preserve of an initiated group of RF mystics and beyond the reach of mere mortals.
+
+NanoVNA as a useful tool in the antenna builder’s arsenal, one which gives a revolutionary window on performance compared to the trial-and-error of previous times.
+
+* [How to build performing antennas for LoRa, WiFi, 433MHz, Airplanes etc.(NanoVNA, MMANA-GAL)](https://www.youtube.com/watch?v=6cVYsHCLKq8)
+* [How to properly use a NanoVNA V2 Vector Network Analyzer (Tutorial)](https://www.youtube.com/watch?v=_pjcEKQY_Tk)
+* [Why 50 Ohms?](https://www.youtube.com/results?search_query=why+50+ohms)
+
+## Vector Network Analyzer (VNA)
+Vector Network Analyzers are used to test component specifications
+and verify design simulations to make sure systems and their components work properly together.
+
+* [Learning About VNAs](https://hackaday.com/2020/06/11/learning-about-vnas/)
+* [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
+* [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
+* [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
+* [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
+* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
+* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
+* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
+* [#329: Presentation recording: Intro to the VNA and NanoVNA for BayCon 2021](https://www.youtube.com/watch?v=o1eLK4EMpEQ)
+
+# Antenna Tuner
+A antenna tuner is a device used to match impedances between a transmitter and an antenna.
+
+* [Manual Antenna Tuner Shows How Homebrewing Is Done](https://hackaday.com/2021/01/15/manual-antenna-tuner-shows-how-homebrewing-is-done/)
+    * [End Fed Half Wave Antenna Tuner: Part 1 - Initial Build](https://www.youtube.com/watch?v=XKzWSsTBjCo&feature=emb_logo)
+    * [End Fed Half Wave Antenna Tuner: Part 2 - Final Configuration](End Fed Half Wave Antenna Tuner: Part 2 - Final Configuration)
+    * [End Fed Half Wave Antenna Tuner: Part 3 - Field Demonstration](https://www.youtube.com/watch?v=t9HAvY6n2gw)
+
+## Tin Can DIY WiFi Antenna (Cantenna)
+* [How To Build A Tin Can DIY WiFi Antenna](https://www.shtfpreparedness.com/build-tin-can-wifi-antenna/)
+
+## Patch Antenna
+* [A Patch Antenna Is Just A Rectangle, It Should Be Easy To Design, Right?](https://hackaday.com/2020/03/01/a-patch-antenna-is-just-a-rectangle-it-should-be-easy-to-design-right/)
+
+##  Active GNSS Antenna
+* [Active GNSS Antenna: Quadrifilar Helix Antenna for GPS/GNSS](https://hackaday.io/project/176769-active-gnss-antenna)
+
+## Loop Antenna
+* [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
+* [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
+* [Antenna Pulls In AM Stations](https://hackaday.com/2020/08/19/antenna-pulls-in-am-stations/)
+
+## Yagi Antenna
+* [Lowering The Boom On Yagi Element Isolation](https://hackaday.com/2020/05/10/lowering-the-boom-on-yagi-element-isolation/)
+
+## Helical Antenna
+A helical antenna is an antenna in which a conductor connected to ground plane, is wound into a helical shape. The
+helix is the simplest antenna which generates circular polarized waves.
+
+## Extending WiFi Range
+* [Uni-Directional WIFI Range Extender](https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/)
+* [ESP32 WiFi Hits 10KM with a Little Help](https://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/#more-252084)
+
+[TP-Link AC1750 WiFi Range Extender](https://www.amazon.com/gp/product/B010S6SG3S/) (aka TP-Link RE450) [from Amazon][02]
+I used this device to extend the range of of my home WiFi into places
+where I currently get poor reception.
+Like my router, its dual band (2.4GHz 450Mbps / 5GHz 1300Mbps)
+and claims to be compatible with any type of Router/Gateway/Access Point.
+The video shows three methods for setting up the range extender:
+smart phone app, web browser, or router WPS button:
+[How to set up a TP-Link Range Extender](https://www.youtube.com/watch?v=W9QxHvIyULQ)
+
 
 
 
@@ -515,7 +697,7 @@ Cabling Require:
 [62]:http://en.wikipedia.org/wiki/SMA_connector
 [63]:http://www.rohde-schwarz-usa.com/rs/rohdeschwarz/images/8GE01_Antenna_Basics.pdf
 [64]:https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/
-[65]:
+[65]:http://www.microwaves101.com/encyclopedias/why-fifty-ohms
 [66]:
 [67]:
 [68]:

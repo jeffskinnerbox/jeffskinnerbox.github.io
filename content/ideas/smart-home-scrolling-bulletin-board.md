@@ -239,6 +239,7 @@ Example builds
 * [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
 * [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
 * [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
+* [Creating a Telegram bot with Micronaut](https://dzone.com/articles/creating-a-telegram-bot-with-micronaut)
 
 # Telegram Bot with Google DialogFlow
 * [DialogFlow Integration with Telegram](https://medium.com/@hemantjain1999/dialogflow-integration-with-telegram-4048e16397fc)

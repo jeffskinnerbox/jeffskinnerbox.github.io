@@ -123,6 +123,7 @@ and you can purchase it [on Tindie][90].
 # Software Configuration
 
 # Overclocking
+* [I Wrote a Paper for a PhD Course on an Overclocked Raspberry Pi 4](https://medium.com/an-idea/i-wrote-a-paper-for-a-phd-course-on-an-overclocked-raspberry-pi-4-cb14c9210ed4)
 * [What accessories do I need to overclock my Raspberry Pi 3 B+?](https://www.androidcentral.com/what-accessories-do-i-need-overclock-my-raspberry-pi-3-b)
 * config.txt - Overclocking options - https://www.raspberrypi.org/documentation/configuration/config-txt/overclocking.md
 * [Overclock Your Raspberry Pi The Right Way](https://hackaday.com/2018/01/16/__trashed-5/)

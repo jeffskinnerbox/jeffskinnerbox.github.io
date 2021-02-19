@@ -33,11 +33,16 @@ To to that, you man not start here, but you should certainly finish here:
 * [Review: Testdriving LibrePCB Shows That It’s Growing Up Fast](https://hackaday.com/2020/01/22/review-testdriving-librepcb-shows-that-its-growing-up-fast/)
 * [Introduction to LibrePCB A new, powerful and intuitive EDA tool for everyone](https://www.youtube.com/watch?v=vu-h5y6tK34&t=10s)
 
+## Surface Mount Technology (SMT) Assembly
+* [Learn Bil Herd’s DIY Surface Mount Assembly Process](https://hackaday.com/2021/02/02/learn-bil-herds-diy-surface-mount-assembly-process/)
+
 ## KiCad
 [KiCad][25] is a free software suite for
 [electronic design automation (EDA), aka electronic computer-aided design (ECAD)][26].
 It facilitates the design of schematics for electronic circuits
 and their conversion to [PCB designs][46].
+
+* [Feeling the KiCad 6 Electricity](https://hackaday.com/2021/02/04/feeling-the-kicad-6-electricity/)
 
 * [Beginner's Guide to KiCad](https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all)
 * [Byte Sized Pieces Help The KiCad Go Down](https://hackaday.com/2019/04/18/byte-sized-pieces-help-the-kicad-go-down/)

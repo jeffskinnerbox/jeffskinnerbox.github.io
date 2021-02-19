@@ -6,6 +6,8 @@
 
 * [AllSeen's merger with OCF brings IoT closer to common ground](http://www.pcworld.com/article/3130102/allseens-merger-with-ocf-brings-iot-closer-to-common-ground.html)
 
+* [Connected Home over IP (CHIP)](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/connected-home-over-ip-sneak-peek-of-early-development-on-nrf52840)
+
 
 See [here](https://www.radio-electronics.com/info/cellulartelecomms/lte-long-term-evolution/ue-category-categories-classes.php),
 [here](https://www.leverege.com/blogpost/cellular-iot-explained-nb-iot-vs-lte-m),
@@ -25,6 +27,18 @@ This rambling list of acronyms and phrases is the producton of my preperation.
 The importance of this job area:
 * [The Best Jobs Of 2014: Lots Of Math, Data And Code](http://readwrite.com/2014/04/28/best-jobs-2014-math-big-data-code-programming#awesm=~oD26OeAU8DImbd)
 * [The Best Jobs of 2014](http://www.careercast.com/jobs-rated/best-jobs-2014)
+
+
+################################################################################
+
+
+# 5G
+* [Global update on spectrum for 4G & 5G](https://www.qualcomm.com/media/documents/files/spectrum-for-4g-and-5g.pdf)
+* [What’s in the future of 5G millimeter wave?](https://www.qualcomm.com/news/onq/2021/01/14/whats-future-5g-millimeter-wave)
+
+
+
+################################################################################
 
 
 
@@ -1263,6 +1277,9 @@ No one else in the industry has a true Cat-1 or Cat-0 LTE chipset
 * [LTE Cat 0 opens M2M door][15]
 * [Making LTE lighter, cheaper (and slower) for the Internet of Things][16]
 
+## Private-LTE
+* [Demystifying Private Cellular for the Enterprise](https://www.networkcomputing.com/wireless-infrastructure/demystifying-private-cellular-enterprise)
+
 # Altair Semiconductor
 Altair Semiconductor has come out with LTE-only chipsets that they claim is a better match for a variety of
 business and consumer IoT applications than any other available long-range connectivity options.
@@ -1341,7 +1358,7 @@ of providing 4x the throughput of 802.11ac.
 
 ## WiFi 6
 * [Wi-Fi 6E becomes official—the FCC will vote on rules this month](https://arstechnica.com/gadgets/2020/04/fcc-will-vote-on-rules-for-1-2ghz-of-new-wi-fi-6e-spectrum-on-april-23/)
-* []()
+* [What Is Wi-Fi 6E?](https://uk.pcmag.com/networking/131082/what-is-wi-fi-6e)
 
 # Wi-SUN
 * [Wi-SUN: the New Wireless Standard Rivaling LoRaWAN and NB-IoT in Smart Cities](https://www.allaboutcircuits.com/news/wisun-new-wireless-standard-rivaling-lorawan-nb-iot-smart-cities/)

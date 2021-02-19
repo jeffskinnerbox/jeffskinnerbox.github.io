@@ -1,3 +1,4 @@
+
 * [Using the ESP8266 to build the Internet of Things](https://www.youtube.com/watch?v=CjeDkmm0w_w&app=desktop)
 * http://www.pighixxx.com/test/wp-content/uploads/2015/06/ESP8266_11.pdf
 * [ESP Cookbook](https://hackaday.io/project/24993-esp-cookbook)
@@ -5,11 +6,26 @@
 * [ESP8266 Tips & Tricks](https://www.youtube.com/channel/UCqk4hT4XpzUVVUfsIDNzvPw)
 * [My ESP32 videos](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ)
 
+# ESP Remote Debugging
 * [RemoteDebug for ESP Platforms](https://hackaday.com/2019/03/07/remotedebug-for-esp-platforms/)
 
 
 * 13 part series with interesting examples - [Why is IoT so Expensive? Hint: It Doesn’t Have to Be!](https://blog.falafel.com/why-is-iot-so-expensive-hint-it-doesnt-have-to-be/)
 * [Using a NodeMCU and Light Sensor to Build a JavaScript Night Light](https://www.losant.com/blog/building-a-nodemcu-javascript-night-light)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![ESP8266](http://www.seeedstudio.com/depot/bmz_cache/9/9f6470017d1ee80290eeddbe72d59d69.image.530x397.jpg "The ESP8266 offers a complete and self-contained WiFi networking solution, allowing it to either host the application or to offload all WiFi networking functions from another application processor.")
 ![ESP8266](/images/ESP8266.jpg "The ESP8266 offers a complete and self-contained WiFi networking solution, allowing it to either host the application or to offload all WiFi networking functions from another application processor.")
@@ -135,7 +151,20 @@ The ESP-01 little board draw over 50mA while idle.
 When WiFi went active, there are large spikes.
  You need to use a dedicated 3.3V source or dedicated, high current, regulator.
 
-Below is what I have begain to toy with in 2014.
+Below is what I have begain to use.
+
+# ESP32 vs ESP8266
+What’s the difference between ESP32 and ESP8266?
+Should you use ESP32 or ESP8266 in your projects?
+
+* [ESP32 vs ESP8266 – Pros and Cons](https://makeradvisor.com/esp32-vs-esp8266/)
+* [SP8266 module comparison: ESP-01, ESP-05, ESP-12, ESP-201, Test Board and NodeMCU](https://blog.squix.org/2015/03/esp8266-module-comparison-esp-01-esp-05.html)
+* [Best ESP8266 Wi-Fi Development Board – Buying Guide 2020](https://makeradvisor.com/best-esp8266-wi-fi-development-board/)
+* [ESP32 Development Boards Review and Comparison](https://makeradvisor.com/esp32-development-boards-review-comparison/)
+
+
+--------
+
 
 ## ESP-01
 <div style="float: left">
@@ -163,6 +192,68 @@ This appears to be the most common ESP8266 modual compatable with breadboarding:
 * 14.2 mm W x 14.2 mm L
 
 * [Get Started With ESP8266 Using AT Commands, NodeMCU, or Arduino (ESP-12E)](http://www.instructables.com/id/Get-Started-with-ESP8266-Using-AT-Commands-NodeMCU/)
+
+# ESP-01
+assuming at power up the Blue led flashed twice quickly and then flashes every second, this means it attempting to connect to your WiFi network. It should do this for about 30 seconds then if it can’t connect the flashing will stop and it will become it’s own access point on 192.168.4.1.
+
+* https://www.itead.cc/wiki/ESP8266_Serial_WIFI_Module
+* http://www.whatimade.today/esp8266-and-the-water-heater/
+
+* [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
+* [Update the Firmware in Your ESP8266 Wi-Fi Module](https://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/)
+* [How to Flash ESP-01 Firmware to the Improved SDK v2.0.0](https://www.allaboutcircuits.com/projects/flashing-the-ESP-01-firmware-to-SDK-v2.0.0-is-easier-now/?utm_source=All+About+Circuits+Members&utm_campaign=498644bd29-EMAIL_CAMPAIGN_2017_03_23&utm_medium=email&utm_term=0_2565529c4b-498644bd29-270523833)
+* [ESP8266 WiFi Module Quick Start Guide](http://rancidbacon.com/files/kiwicon8/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf)
+
+## Programming the ESP-01
+Programming the ESP-01 is no easy task.
+It takes a mess of wires, you must powering the ESP with proper voltage and sufficient current,
+you need to toggle it into flash mode, etc.
+This board will ease the task of programming the ESP-01.
+
+* [ESP-01 Dev Board](http://www.instructables.com/id/Tiny-ESP-01-Dev-Board/)
+* [ESP8266 ESP-01 Programming and Development Board](https://www.tindie.com/products/blkbox/esp8266-esp-01-programming-and-development-board/)
+* [Build a simple dev board to make programing ESP-01](http://www.nfriedly.com/techblog/2015/07/build-a-diy-esp8266ex-esp-01-dev-test-programming-board/)
+
+
+# Working with ESP-01 or Similar Boards
+[!esp-01-512K-1M](https://cdn.instructables.com/ORIG/F4Q/KV0K/IO4JRAXC/F4QKV0KIO4JRAXC.jpg)
+This tiny ESP8266 WiFi Module is a self contained System on a Chip (SOC),
+with integrated TCP/IP protocol stack,
+and can give a microcontroller access to your WiFi network.
+The ESP8266 is capable of either hosting a small application
+or offloading all WiFi networking functions in support of another application processor.
+This module has a powerful enough on-board processing
+and storage capability that allows it to be integrated with the sensors
+and other application specific devices through its GPIOs with minimal development.
+
+Each ESP8266 module comes pre-programmed with an AT command set firmware.
+this means you can simply hook this up to your processor
+and get about as much WiFi-ability as a WiFi Shield offers.
+
+The ESP-01 version of the ESP8266 WiFi module comes in two version.
+The orginal (blue board) had a flash disk size of 512k
+and the new version (black board, with words "AI Cloud inside" near the antenna)
+with 1MB of flash.
+
+**Note:** The ESP8266 Module is not capable of 5-3V logic shifting
+and will require an external Logic Level Converter.
+**Do not** power it directly with 5V.
+
+To enable ESP8266 firmware flashing,
+GPIO-0 pin must be pulled low before the device is reset.
+Conversely, for a normal boot, GPIO-0 must be pulled high or floating.
+
+If you have a NodeMCU dev kit then you don't need to do anything,
+as the USB connection can pull GPIO-0 low.
+
+If you have an ESP-01 or other device without built-in USB, you will need to enable flashing yourself by pulling GPIO0 low or pressing a "flash" switch, while powering up or resetting the module.
+
+https://www.youtube.com/watch?v=5ovkcvEzohU
+
+
+--------
+
+
 
 ## ESP-02
 <div style="float: left">
@@ -197,6 +288,10 @@ castellated pads with built-in ceramic antenna:
 * VCC/GND
 * 12.2 mm W x 17.4 mm L
 
+
+--------
+
+
 ## ESP-12 / ESP-12E
 <div style="float: left">
     <a href="http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-12">
@@ -223,7 +318,11 @@ For example, the ESP-01 has a total of eight pins connected to user-reachable he
 * WiFi - 802.11 support b/g/n/d/e/i/k/r
 * TCP Connections - Max: 5 concurrent
 
-## NodeMCU / ESP-12 Development Board
+
+--------
+
+
+## NodeMCU / ESP-12
 <div style="float: left">
     <a href="http://www.kloppenborg.net/blog/microcontrollers/2016/08/02/getting-started-with-the-esp8266">
         <img class="img-rounded" style="margin: 0px 8px" title="This shows you the ESP-12 ESP8266 WiFi Module Pinout" alt="ESP-01" src="https://raw.githubusercontent.com/nodemcu/nodemcu-devkit-v1.0/master/Documents/NODEMCU_DEVKIT_V1.0_PINMAP.png" width="200" height="200">
@@ -235,7 +334,21 @@ It has on it a ESP-12E along with USB, reset & flash switches to make developmen
 This maybe the most important of them all given inexpensive they have become
 (I have seen prices of $6) and the quantity of code being developed for it.
 
-----
+# NodeMCU / ESP8266 Development Board
+The sections above take your through the use of an ESP8266 on some for of development board.
+But what do you do for a devices like the ESP-01
+where you basically just have the process and a WiFi antenna, without an operating system?
+This [bare metal environment][77] presents additional challeges.
+
+
+--------
+
+
+## Adafruit Feather HUZZAH
+
+
+--------
+
 
 # Methods of Programming ESP8266
 Software for the ESP8266 can be written in one of several languages:
@@ -334,7 +447,9 @@ Also check out these sources:
 * [ESP8266 Firmware ToolChain](http://www.electrodragon.com/w/Category:ESP8266_Firmware_ToolChain)
 * https://github.com/esp8266/esp8266-wiki/wiki/Toolchain
 
+
 ----
+
 
 ## Arduino IDE
 [!arduino-esp8266-logo](https://www.penninkhof.com/wp-content/uploads/2015/08/arduino-esp8266.png)
@@ -362,6 +477,7 @@ Some sources are below:
 * [Quick Start to Nodemcu (ESP8266) on Arduino IDE](http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/?ALLSTEPS#intro)
 * [ESP8266 - Easiest way to program so far (Using Arduino IDE)](http://www.whatimade.today/esp8266-easiest-way-to-program-so-far/)
 
+############################# REMOVE BETWEEN LINES #############################
 ### Step 1: Download and Install Arduino IDE - DONE
 You can download the Arduino IDE from the [Arduino software website][145].
 To get the latest release for Linux 64bit:
@@ -433,6 +549,7 @@ These libraries are located at https://dl.espressif.com/dl/package_esp32_index.j
 For the code below, we'll also need two additional libraries.
 You can do this via **Tools** > **Manage Libraries...** > enter "Adafruit Unified Sensors" and install.
 Repeat with teh filter "DHT sensor" and select "DHT sensort by Adafruit".
+############################# REMOVE BETWEEN LINES #############################
 
 ### Step 4: Wire-up a ESP8266 - DONE
 In my case, I'm using the [NodeMCU DevKit][34]
@@ -464,7 +581,40 @@ Arduino IDE Now Supports Building Software in the Command Line - http://lifehack
 ### Step X:
 ### Step X:
 
-----
+
+-------
+
+
+## FreeRTOS
+[!freertos-logo](https://www.microsemi.com/images/soc/partners/solution/ip/FreeRTOSlogov1.jpg)
+The developer of the ESP8266, Espressif, has also created a ESP8266 SDK based on [FreeRTOS][63]
+called [ESP8266_RTOS_SDK][64].
+There is also a community developed fork (sponsored by [SuperHouse Automation][66])
+called [esp-open-rtos][65] but claims to be
+substantially different from the Espressif version.
+Off hand, this community version appears better documented and supported.
+
+FreeRTOS is a popular [real-time operating system][72] kernel
+for embedded devices that has been ported to 35 microcontrollers.
+FreeRTOS is designed to be small and simple.
+The kernel itself consists of only three C files.
+To make the code readable, easy to port, and maintainable, it is written mostly in C,
+but there are a few assembly functions included where needed
+(mostly in architecture-specific scheduler routines).
+FreeRTOS provides methods for multiple threads or tasks, mutexes, semaphores and software timers.
+A tick-less mode is provided for low power applications.
+
+* [FreeRtos on Esp8266](http://correderajorge.github.io/Esp8266-FreeRtos/)
+* [ESP8266 FreeRTOS Introduction](http://www.nefastor.com/esp8266-freertos-introduction/)
+* [ESP8266 FreeRTOS SDK – blinking LED example](http://www.pratikpanda.com/esp8266-blinking-led-example/)
+* [ESP8266 FreeRTOS Test](https://blog.the-jedi.co.uk/2015/02/14/esp8266-freertos-test/)
+* [Setting Up FreeRTOS on Arduino](https://exploreembedded.com/wiki/Setting_Up_FreeRTOS_on_Arduino)
+* [Using FreeRTOS multi-tasking in Arduino](https://www.hackster.io/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc)
+* [Tiny $7 IoT module packs WiFi, BLE, and sensors, runs FreeRTOS](http://linuxgizmos.com/tiny-7-iot-module-packs-wifi-ble-and-sensors-runs-freertos/)
+
+
+-------
+
 
 ## NodeMCU With eLua
 [!lua-logo](http://www.lua.org/images/lua.gif)
@@ -502,36 +652,20 @@ Programming the ESP8266 with eLua and NodeMCU appears to be one of the easier me
 One key benefit is that this technique gives you an interactive shell on the ESP8266
 in which you can program and experiment with little chance of bricking the unit permanently.
 
-----
+esptool.py --port /dev/ttyUSB0 write_flash -fm dio -fs 32m 0x00000 nodemcu-master-9-modules-2017-04-29-21-15-41-integer.bin
 
-## FreeRTOS
-[!freertos-logo](https://www.microsemi.com/images/soc/partners/solution/ip/FreeRTOSlogov1.jpg)
-The developer of the ESP8266, Espressif, has also created a ESP8266 SDK based on [FreeRTOS][63]
-called [ESP8266_RTOS_SDK][64].
-There is also a community developed fork (sponsored by [SuperHouse Automation][66])
-called [esp-open-rtos][65] but claims to be
-substantially different from the Espressif version.
-Off hand, this community version appears better documented and supported.
+esptool.py --port /dev/ttyUSB0 erase_flash
 
-FreeRTOS is a popular [real-time operating system][72] kernel
-for embedded devices that has been ported to 35 microcontrollers.
-FreeRTOS is designed to be small and simple.
-The kernel itself consists of only three C files.
-To make the code readable, easy to port, and maintainable, it is written mostly in C,
-but there are a few assembly functions included where needed
-(mostly in architecture-specific scheduler routines).
-FreeRTOS provides methods for multiple threads or tasks, mutexes, semaphores and software timers.
-A tick-less mode is provided for low power applications.
+luatool.py --port /dev/ttyUSB0 --baud 74400 --list
+luatool.py --port /dev/ttyUSB0 --baud 74400 --wipe
 
-* [FreeRtos on Esp8266](http://correderajorge.github.io/Esp8266-FreeRtos/)
-* [ESP8266 FreeRTOS Introduction](http://www.nefastor.com/esp8266-freertos-introduction/)
-* [ESP8266 FreeRTOS SDK – blinking LED example](http://www.pratikpanda.com/esp8266-blinking-led-example/)
-* [ESP8266 FreeRTOS Test](https://blog.the-jedi.co.uk/2015/02/14/esp8266-freertos-test/)
-* [Setting Up FreeRTOS on Arduino](https://exploreembedded.com/wiki/Setting_Up_FreeRTOS_on_Arduino)
-* [Using FreeRTOS multi-tasking in Arduino](https://www.hackster.io/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc)
-* [Tiny $7 IoT module packs WiFi, BLE, and sensors, runs FreeRTOS](http://linuxgizmos.com/tiny-7-iot-module-packs-wifi-ble-and-sensors-runs-freertos/)
+luatool.py --port /dev/ttyUSB0 --src credentials.lua --dest credentials.lua
+luatool.py --port /dev/ttyUSB0 --src mqtt_client.lua --dest mqtt_client.lua
+luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 
-----
+
+-------
+
 
 ## MicroPython
 * [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266)
@@ -542,7 +676,19 @@ A tick-less mode is provided for low power applications.
 * [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/index.html)
 * [Python on ESP32 – Getting Started](https://www.zerynth.com/blog/python-on-esp32-getting-started/)
 
-----
+## MicroPython
+* https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview
+* [Video overview of MicroPython on ESP8266](https://www.youtube.com/watch?v=D-CaWFMFCV0)
+* [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266)
+* [Micro Python Now Runs on the ESP8266](http://hackaday.com/2014/11/29/micro-python-now-runs-on-the-esp8266-contributors-wanted-to-get-wifi-working/)
+* [MicroPython on the ESP8266: Kicking the Tires](http://hackaday.com/2016/07/21/micropython-on-the-esp8266-kicking-the-tires/)
+* [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/index.html)
+* [MicroPython on the ESP8266: Kicking the Tires](http://hackaday.com/2016/07/21/micropython-on-the-esp8266-kicking-the-tires/)
+* [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/index.html)
+
+
+-------
+
 
 ## Mongoose OS
 [!mongoos-os-logo](https://blog.cesanta.com/hubfs/logo_blue_MOS.png?t=1490439456366)
@@ -965,7 +1111,9 @@ No other MCU solution can do this, at least that I'm aware of.
 * [Rapid Prototyping with AWS IoT and Mongoose OS on ESP32 Platform](https://www.slideshare.net/AmazonWebServices/rapid-prototyping-with-aws-iot-and-mongoose-os-on-esp32-platform)
 * https://www.youtube.com/watch?v=16jF0HUyedg&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE&index=12
 
-----
+
+-------
+
 
 ## PlatformIO
 [!platfromio-logo](http://cdn.platformio.org/images/platformio-logo.17fdc3bc.png)
@@ -1004,63 +1152,6 @@ as illustrated by the postings below:
 * [1/3: PlatfomIO overview & compiling + uploading locally and on a Raspberry Pi](https://blog.openenergymonitor.org/2016/06/platformio/)
 * [2/3: Continuous testing and auto release binary generation using PlatformIO & TravisCI](https://blog.openenergymonitor.org/2016/06/auto-build-continuous-test-firmware/)
 * [3/3: Continuous Deployment (OTA to ESP8266)](https://blog.openenergymonitor.org/2016/06/esp8266-ota-update/)
-
-# ESP-01
-assuming at power up the Blue led flashed twice quickly and then flashes every second, this means it attempting to connect to your WiFi network. It should do this for about 30 seconds then if it can’t connect the flashing will stop and it will become it’s own access point on 192.168.4.1.
-
-* https://www.itead.cc/wiki/ESP8266_Serial_WIFI_Module
-* http://www.whatimade.today/esp8266-and-the-water-heater/
-
-* [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
-* [Update the Firmware in Your ESP8266 Wi-Fi Module](https://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/)
-* [How to Flash ESP-01 Firmware to the Improved SDK v2.0.0](https://www.allaboutcircuits.com/projects/flashing-the-ESP-01-firmware-to-SDK-v2.0.0-is-easier-now/?utm_source=All+About+Circuits+Members&utm_campaign=498644bd29-EMAIL_CAMPAIGN_2017_03_23&utm_medium=email&utm_term=0_2565529c4b-498644bd29-270523833)
-* [ESP8266 WiFi Module Quick Start Guide](http://rancidbacon.com/files/kiwicon8/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf)
-
-## Programming the ESP-01
-Programming the ESP-01 is no easy task.
-It takes a mess of wires, you must powering the ESP with proper voltage and sufficient current,
-you need to toggle it into flash mode, etc.
-This board will ease the task of programming the ESP-01.
-
-* [ESP-01 Dev Board](http://www.instructables.com/id/Tiny-ESP-01-Dev-Board/)
-* [ESP8266 ESP-01 Programming and Development Board](https://www.tindie.com/products/blkbox/esp8266-esp-01-programming-and-development-board/)
-* [Build a simple dev board to make programing ESP-01](http://www.nfriedly.com/techblog/2015/07/build-a-diy-esp8266ex-esp-01-dev-test-programming-board/)
-
-
-# Working with ESP-01 or Similar Boards
-[!esp-01-512K-1M](https://cdn.instructables.com/ORIG/F4Q/KV0K/IO4JRAXC/F4QKV0KIO4JRAXC.jpg)
-This tiny ESP8266 WiFi Module is a self contained System on a Chip (SOC),
-with integrated TCP/IP protocol stack,
-and can give a microcontroller access to your WiFi network.
-The ESP8266 is capable of either hosting a small application
-or offloading all WiFi networking functions in support of another application processor.
-This module has a powerful enough on-board processing
-and storage capability that allows it to be integrated with the sensors
-and other application specific devices through its GPIOs with minimal development.
-
-Each ESP8266 module comes pre-programmed with an AT command set firmware.
-this means you can simply hook this up to your processor
-and get about as much WiFi-ability as a WiFi Shield offers.
-
-The ESP-01 version of the ESP8266 WiFi module comes in two version.
-The orginal (blue board) had a flash disk size of 512k
-and the new version (black board, with words "AI Cloud inside" near the antenna)
-with 1MB of flash.
-
-**Note:** The ESP8266 Module is not capable of 5-3V logic shifting
-and will require an external Logic Level Converter.
-**Do not** power it directly with 5V.
-
-To enable ESP8266 firmware flashing,
-GPIO-0 pin must be pulled low before the device is reset.
-Conversely, for a normal boot, GPIO-0 must be pulled high or floating.
-
-If you have a NodeMCU dev kit then you don't need to do anything,
-as the USB connection can pull GPIO-0 low.
-
-If you have an ESP-01 or other device without built-in USB, you will need to enable flashing yourself by pulling GPIO0 low or pressing a "flash" switch, while powering up or resetting the module.
-
-https://www.youtube.com/watch?v=5ovkcvEzohU
 
 # Working with ESP8266 on Development Board
 The ESP8266 like the ESP-01 is small, super-cheap, being installed everywhere,
@@ -2142,22 +2233,6 @@ but the best example might be [Lua MQTT client on Adafruit][108].
 check out Adafruits - DIY ESP8266 Home Security with Lua and MQTT - https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/programming-the-esp8266-with-lua
 for ideas on the init.lua
 
-```lua
-```
-
-
-
-esptool.py --port /dev/ttyUSB0 write_flash -fm dio -fs 32m 0x00000 nodemcu-master-9-modules-2017-04-29-21-15-41-integer.bin
-
-esptool.py --port /dev/ttyUSB0 erase_flash
-
-luatool.py --port /dev/ttyUSB0 --baud 74400 --list
-luatool.py --port /dev/ttyUSB0 --baud 74400 --wipe
-
-luatool.py --port /dev/ttyUSB0 --src credentials.lua --dest credentials.lua
-luatool.py --port /dev/ttyUSB0 --src mqtt_client.lua --dest mqtt_client.lua
-luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
-
 
 # Losant Builder Kit
 * [Losant Builder Kit Instructions](https://docs.losant.com/getting-started/losant-iot-dev-kits/builder-kit/)
@@ -2186,7 +2261,7 @@ luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 # ESP8266 Security
 * NodeMCU custom builds https://nodemcu-build.com/index.php has a option for TLS/SSL support provided by mbed TLS: TLS 1.0 / 1.1 / 1.2 and most common cipher suites including DH/ECDH (ECDSA-based disabled by default).
 * [How to prevent WiFi Password from being leaked from Lua code?](http://stackoverflow.com/questions/34243734/how-to-prevent-wifi-password-from-being-leaked-from-lua-code)
-
+* [Don’t Toss That Bulb, It Knows Your Password](https://hackaday.com/2019/01/29/dont-toss-that-bulb-it-knows-your-password/)
 
 Be wary of precompiled firmware-binaries you find on the web.
 and in fact, be wary of using andy IoT device for security applications like a door opener etc.
@@ -2220,13 +2295,6 @@ but this is [not fool proof protection][102].
 * https://www.zymbit.com/product/zymkey-3i-i2c-k52-4100/
 
 
-# Upload Code Wirelessly
-* [ESP8266 Upload Code Wirelessly!](https://www.youtube.com/watch?v=bplYzg6-_i4)
-* [Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA)
-* [Internet of Things with ESP8266 #4: Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA&t=52s)
-* [Over The Air programming Tutorial](https://www.youtube.com/watch?v=GR2ZXyPaqMo)
-* [ESP32 OTA tutorial with tricks (incl. OTA debugging)](https://www.youtube.com/watch?v=1pwqS_NUG7Q)
-
 
 
 
@@ -2254,17 +2322,19 @@ that could be be battery powered and dropped almost anywhere.
 * [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
 * [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
 * [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
+* [Creating a Telegram bot with Micronaut](https://dzone.com/articles/creating-a-telegram-bot-with-micronaut)
 
 # Over-The-Air (OTA) Flashing of Firmware
 * [TRANSPARENT ESP8266 WIFI-TO-SERIAL BRIDGE](http://hackaday.com/2015/09/18/transparent-esp8266-wifi-to-serial-bridge/)
 * [ESP-LINK: Wifi-Serial Bridge w/REST&MQTT](https://github.com/jeelabs/esp-link)
 * [Hijacking the Sonoff OTA Mechanism](http://hackaday.com/2017/05/31/hijacking-the-sonoff-ota-mechanism/)
 
-# Working without ESP8266 Development Board
-The sections above take your through the use of an ESP8266 on some for of development board.
-But what do you do for a devices like the ESP-01
-where you basically just have the process and a WiFi antenna, without an operating system?
-This [bare metal environment][77] presents additional challeges.
+# Upload Code Wirelessly
+* [ESP8266 Upload Code Wirelessly!](https://www.youtube.com/watch?v=bplYzg6-_i4)
+* [Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA)
+* [Internet of Things with ESP8266 #4: Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA&t=52s)
+* [Over The Air programming Tutorial](https://www.youtube.com/watch?v=GR2ZXyPaqMo)
+* [ESP32 OTA tutorial with tricks (incl. OTA debugging)](https://www.youtube.com/watch?v=1pwqS_NUG7Q)
 
 
 # Sonoff
@@ -2342,9 +2412,6 @@ bla bla bla
 * [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
 * [Websocket Client and Server for ESP-8266](https://github.com/morrissinger/ESP8266-Websocket)
     * [ESP8266+Websocket server RGB LED controller](http://www.instructables.com/id/Esp8266Websockets-RGB-LED-controller/?ALLSTEPS)
-
-# ESP Security
-* [Don’t Toss That Bulb, It Knows Your Password](https://hackaday.com/2019/01/29/dont-toss-that-bulb-it-knows-your-password/)
 
 # Hacking the ESP8266
 * [Your ESP8266 Needs More Memory](http://hackaday.com/2016/07/16/your-esp8266-needs-more-memory/)
@@ -2462,16 +2529,6 @@ bla bla bla
 
 ## Alternatives
 * [ESP8266 or MKR1000?](http://hackaday.com/2016/04/29/esp8266-or-mkr1000/)
-
-## MicroPython
-* https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview
-* [Video overview of MicroPython on ESP8266](https://www.youtube.com/watch?v=D-CaWFMFCV0)
-* [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266)
-* [Micro Python Now Runs on the ESP8266](http://hackaday.com/2014/11/29/micro-python-now-runs-on-the-esp8266-contributors-wanted-to-get-wifi-working/)
-* [MicroPython on the ESP8266: Kicking the Tires](http://hackaday.com/2016/07/21/micropython-on-the-esp8266-kicking-the-tires/)
-* [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/index.html)
-* [MicroPython on the ESP8266: Kicking the Tires](http://hackaday.com/2016/07/21/micropython-on-the-esp8266-kicking-the-tires/)
-* [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/index.html)
 
 ## More
 * [The Pain of Connecting to WPA Wi-Fi on the Linux Command Line](http://www.sevenforge.com/2009/07/28/connecting-to-wpa-wifi-on-the-command-line/)

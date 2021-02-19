@@ -1,4 +1,7 @@
 
+* [How to use ESP32 Dual Core with Arduino IDE](https://randomnerdtutorials.com/esp32-dual-core-arduino-ide/)
+
+
 # ESP32-S3
 * [Announcing ESP32-S3 for AIoT Applications](https://www.espressif.com/en/news/ESP32_S3)
 * [Espressif's New ESP32-S3 Adds AI Features for IoT Devices](https://www.hackster.io/news/espressif-s-new-esp32-s3-adds-ai-features-for-iot-devices-b42b902abdf5)
@@ -11,6 +14,12 @@
 * [ESP32-S2 Processor Datasheet Released, Development Boards Unveiled](https://www.cnx-software.com/2019/09/03/esp32-s2-processor-datasheet-released-development-boards-unveiled/)
 * [FeatherS2 Board Brings ESP32-S2 to Adafruit Feather Form Factor](https://www.cnx-software.com/2020/10/05/feathers2-board-brings-esp32-s2-to-adafruit-feather-form-factor/)
 * [ESP32-S2 board targets battery-powered applications with 30uA deep sleep power consumption](https://www.cnx-software.com/2020/10/28/esp32-s2-board-targets-battery-powered-applications-with-30ua-deep-sleep-power-consumption/)
+
+# ESP32-C3
+The new “C3” variant has a single 160 MHz RISC-V core that out-performs the ESP8266, and at the same time includes most of the peripheral set of an ESP32. While RAM often ends up scarce on an ESP8266 with around 40 kB or so, the ESP32-C3 sports 400 kB of RAM, and manages to keep it all running while burning less power. Like the ESP32, it has Bluetooth LE 5.0 in addition to WiFi.
+
+* [HANDS-ON: THE RISC-V ESP32-C3 WILL BE YOUR NEW ESP8266](https://hackaday.com/2021/02/08/hands-on-the-risc-v-esp32-c3-will-be-your-new-esp8266/)
+
 
 
 

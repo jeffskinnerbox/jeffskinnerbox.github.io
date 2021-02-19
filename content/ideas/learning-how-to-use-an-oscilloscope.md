@@ -58,10 +58,6 @@ None of these tools will be a substitute for a mastering of the domain of electr
 To to that, you man not start here, but you should certainly finish here:
 [The Truth is in There: The Art of Electronics, the x-Chapters](https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters)
 
-# Op-Amp
-* [An Op-Amp From The Ground Up](https://hackaday.com/2020/05/09/an-op-amp-from-the-ground-up/)
-* [What’s The Differance? Ask an OP Amp](https://hackaday.com/2018/11/13/whats-the-difference-ask-an-op-amp/)
-
 # Tutorials on Electronics
 * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
 * [Full 8-Bit Computer On Breadboards](https://hackaday.com/2020/11/23/full-8-bit-computer-on-breadboards/)
@@ -112,12 +108,12 @@ and verify design simulations to make sure systems and their components work pro
 
 * [Learning About VNAs](https://hackaday.com/2020/06/11/learning-about-vnas/)
 * [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
-* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
-* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
-* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 * [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
 * [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
 * [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
+* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
+* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
+* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 
 # Spectrum Analyzer
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
@@ -141,21 +137,29 @@ and verify design simulations to make sure systems and their components work pro
 * [GlScopeClient: A Permissively-Licensed Remote Oscilloscope Utility](https://hackaday.com/2019/05/30/glscopeclient-a-permissively-licensed-remote-oscilloscope-utility/)
 * [alk to your scope, and it obey](https://hackaday.com/2019/03/03/talk-to-your-scope-and-it-will-obey/)
 
+# Measuring Capacitor
+* [#135: Measure Capacitor ESR with an Oscilloscope and Function Generator](https://www.youtube.com/watch?app=desktop&v=115erzCCxgE)
+
 # Measuring RF Cable Impedance
 * [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
 
 # Oscilloscope Probes
 * [The Secret Life of Oscilloscope Probes](http://www.dfad.com.au/links/THE%20SECRET%20WORLD%20OF%20PROBES%20OCt09.pdf)
 * [Oscilloscope Probes: What You Need to Know](https://www.youtube.com/watch?app=desktop&v=XQlPSFqhG08)
+* [EEVblog #1367 - 5 Types of Oscilloscope Passive Probes COMPARED](https://www.youtube.com/watch?v=rzo4Ntxqu1E&feature=youtu.be)
 ## Passive Voltage Probe
 * [EEVblog #453 - Mysteries of x1 Oscilloscope Probes Revealed](https://www.youtube.com/watch?app=desktop&v=OiAmER1OJh4)
 ## Active Voltage Probe
+* [EEVblog #1368 - Active Oscilloscope Probes COMPARED (Part 2)](https://www.youtube.com/watch?v=WlSb8hdFtTY&feature=youtu.be)
 ## Current Probe
 * [Understanding, Selecting, and Effectively Using Current Probes](https://www.digikey.com/en/articles/understanding-selecting-effectively-using-current-probes)
 * [Micsig CP2100A Best Affordable Current Probe](https://www.youtube.com/watch?v=8zW4j0euN8A)
 ## High Voltage Probe
 ## Single-Ended Probe
 ## Differential Probe
+
+# Probe Calibration
+* [Calibrate probes on Rigol Oscilloscope](https://www.youtube.com/watch?v=vVt1xCKWkJY&feature=youtu.be)
 
 # Chaotic Circuits
 A Chua's circuit (also known as a Chua circuit)

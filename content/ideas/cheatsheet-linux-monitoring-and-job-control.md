@@ -242,6 +242,7 @@ systemd init system, which has nowadays been adopted by the majority of Linux di
 
 * [Pack Your Bags – Systemd Is Taking You To A New Home](https://hackaday.com/2019/10/16/pack-your-bags-systemd-is-taking-you-to-a-new-home/)
 * [Use systemd timers instead of cronjobs](https://opensource.com/article/20/7/systemd-timers)
+* [Systemctl What is it Good For (Absolutely everything!)?](https://medium.com/swlh/systemctl-what-is-it-good-for-absolutely-everything-5da85861f5cb)
 
 # Pathological Processes
 _You describe a person or their behaviour as pathological when they behave in an extreme and unacceptable way, and have very powerful feelings which they cannot control._

@@ -11,6 +11,9 @@
 * [A Short Guide to Hard Problems](https://www.quantamagazine.org/a-short-guide-to-hard-problems-20180716/)
 * [Finally, a Problem That Only Quantum Computers Will Ever Be Able to Solve](https://www.quantamagazine.org/finally-a-problem-that-only-quantum-computers-will-ever-be-able-to-solve-20180621/)
 * [The most remarkable numbers: Prime Numbers](https://medium.com/@Alikayaspor/the-most-remarkable-numbers-prime-numbers-569566e837c2)
+* [The Goldbach Conjecture](https://medium.com/cantors-paradise/the-goldbach-conjecture-5ffafb9cee8e)
+
+* [The Mind-Boggling Properties of the Alternating Harmonic Series](https://medium.com/cantors-paradise/the-mind-boggling-properties-of-the-alternating-harmonic-series-d5e91a53dcfa)
 
 
 
@@ -78,6 +81,7 @@ The Riemann Hypothesis is one of the [Millennium Prize Problems](http://www.clay
 
 Best explanation of the Riemann hypothesis
 
+* [Solve This Equation To Win A Million Dollars](https://medium.com/cantors-paradise/solve-this-equation-to-win-a-million-dollars-ca5b3754e2da)
 * [How I Learned to Love and Fear the Riemann Hypothesis](https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/)
 * [What is the Riemann Hypothesis?](https://www.youtube.com/watch?v=v9nyNBLCPks&feature=youtu.be)
 * [Riemann Hypothesis](https://www.youtube.com/watch?v=UGj6mfCSZfY&feature=youtu.be)

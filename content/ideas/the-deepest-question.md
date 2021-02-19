@@ -36,8 +36,10 @@ and  after all, [isn't it dead][07]?
 * [What are Numbers Made of?](https://www.youtube.com/watch?v=S4zfmcTC5bM)
 * [All the Numbers - Numberphile](https://www.youtube.com/watch?v=5TkIe60y2GI)
 * [All the Numbers (extra footage) - Numberphile](https://www.youtube.com/watch?v=LsBQhfkw5ag)
+* [3 Paradoxes That Gave Us Calculus](https://www.youtube.com/watch?v=EbHqtENNnSY)
 
 # The Infinite and Infinitesimal
+* [The Father of Infinity and Modern Mathematics: Georg Cantor](https://ali.medium.com/the-father-of-infinity-and-modern-mathematics-georg-cantor-93beb245756e)
 * [Cantor’s Approach to Mathematical Infinity](https://medium.com/however-mathematics/cantors-approach-to-mathematical-infinity-ca0119e18894)
 * [Cardinal Numbers](https://medium.com/@joshuagammage/cardinal-numbers-661a1a6c224d)
 * [What is infinity and how many of them are there?](https://medium.com/@tivadar.danka/what-is-infinity-and-how-many-of-them-are-there-c4912322b5ad)
@@ -107,6 +109,7 @@ A function is a relation that uniquely associates members of one set with member
 
 # What about Chaos Theory and Emergent Properties?
 * [This equation will change how you see the world (the logistic map)](https://www.youtube.com/watch?v=ovJcsL7vyrk)
+* [A Single Equation that Rules the World](https://medium.com/cantors-paradise/a-single-equation-that-rules-the-world-7673d4e5c359)
 * [Chaos in One Innocent Equation](https://medium.com/swlh/chaos-in-one-innocent-equation-168d0bd31bad)
 * [The Logistic Map](https://www.complexity-explorables.org/flongs/logistic/)
 * [Chaos Theory and the Logistic Map](https://geoffboeing.com/2015/03/chaos-theory-logistic-map/)
@@ -175,6 +178,9 @@ A function is a relation that uniquely associates members of one set with member
 # Probability of the Extremely Rare
 * [How to Build a Probability Microscope](https://nautil.us/issue/44/Luck/-how-to-build-a-probability-microscope)
 * [Probability: A Philosophical Perspective, Part I](https://medium.com/thesociablesolipsist/probability-a-philosophical-perspective-part-i-accb35315900)
+* [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
+    * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
+    * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
 
 # Other Ideas
 * [Fixed Points](https://www.youtube.com/watch?v=csInNn6pfT4)
@@ -225,10 +231,17 @@ A function is a relation that uniquely associates members of one set with member
 
 # Probability & Statistics
 * [Math-Based Decision Making: The Secretary Problem](https://medium.com/cantors-paradise/math-based-decision-making-the-secretary-problem-a30e301d8489)
+* [The Zipf Mystery](https://www.youtube.com/watch?v=fCn8zs912OE&feature=youtu.be)
+* [3 Mathematical Laws to know as a Data Scientist](https://medium.com/datadriveninvestor/mathematical-laws-to-know-as-a-data-scientist-9e94fc96a0f9)
+
+# Card Tricks
+* [Amaze your friends! Astound your family!](https://plus.maths.org/content/amaze-your-friends-astound-your-family)
 
 # The Universe Wants to Kill You
 * [The Universe Might End Tomorrow](https://medium.com/predict/the-universe-might-end-tomorrow-8916b0d0cee2)
 
+# Relativity
+* [General Relativity: How Einstein’s wrong ideas led to his greatest success](https://medium.com/the-infinite-universe/general-relativity-how-einsteins-wrong-ideas-led-to-his-greatest-success-dcfe085a417)
 
 
 

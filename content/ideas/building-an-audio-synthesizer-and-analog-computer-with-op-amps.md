@@ -223,6 +223,12 @@ Doesn't seem to work???
 
 # Op Amps
 * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
+* [An Op-Amp From The Ground Up](https://hackaday.com/2020/05/09/an-op-amp-from-the-ground-up/)
+* [What’s The Differance? Ask an OP Amp](https://hackaday.com/2018/11/13/whats-the-difference-ask-an-op-amp/)
+* [Homemade Operational Amplifier](https://hackaday.io/project/176860-homemade-operational-amplifier)
+* [Deconstructing a Simple Op-Amp](https://hackaday.com/2018/02/20/deconstructing-a-simple-op-amp/)
+* [Circuit VR: Some Op Amps](https://hackaday.com/2020/12/24/circuit-vr-some-op-amps/)
+* [Circuit VR: Even More Op Amps](https://hackaday.com/2021/01/15/circuit-vr-even-more-op-amps/)
 
 
 

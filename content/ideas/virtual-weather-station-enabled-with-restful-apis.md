@@ -68,6 +68,8 @@ If none of that suits you, though, you can also [roll out your own weather alert
 
 Some simple weather station setups:
 Nice Design
+* [Building ESP8266 Weather station with BME280 (part I)](http://itohi.com/blog/building-esp8266-weather-station-part-i/)
+* [Building ESP8266 Weather station with BME280 (part II)](http://itohi.com/blog/building-esp8266-weather-station-part-ii/)
 * [ESP8266 Colored Weather Station](https://www.instructables.com/id/ESP8266-Colored-Weather-Station/)
 * [Stylish desktop ESP8266 weather station](https://hackaday.io/project/174508-stylish-desktop-esp8266-weather-station)
 * [Weather Station with ePaper and Raspberry Pi](Weather Station with ePaper and Raspberry Pi)
@@ -147,6 +149,9 @@ Sample Application with Backbone.js, Twitter Bootstrap, Node.js, Express, and Mo
 is a simple configurable service to mock out RESTful API or SOAP web-services.
 This online service allows you to quickly define REST API or SOAP endpoints and have them return JSON or XML data.
 
+
+# PLA Waterproofing
+* [Truck Bed Liners Improve 3D Prints](https://hackaday.com/2021/02/14/truck-bed-liners-improve-3d-prints/)
 
 # Solar Powered Weather Station
 * [Solar Powered Weather Station](https://hackaday.io/project/19324-weather-station)
@@ -351,6 +356,7 @@ that can send notifications within minutes of an earthquake.
 * [Receive Weather Satellite Images With Software-Defined Radio](http://mattg.co.uk/words/noaa_sdr/)
 * [Downloading Satellite Images via FM Radio](http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/)
 * [NOAA Weather Satellite Reception with GNU Radio and USRP](http://www.oz9aec.net/index.php/gnu-radio-blog/350-noaa-weather-satellite-reception-with-gnu-radio-and-usrp)
+* [Decoding NOAA Satellite Images In Python](https://hackaday.com/2021/01/27/decoding-noaa-satellite-images-in-python/)
 * [Reading Weather Data with Software-Defined Radio](http://www.linux-magazine.com/Online/Features/Reading-Weather-Data-with-Software-Defined-Radio)
 * [Downloading Satellite Images via FM Radio](http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/)
 * [GNUradio decoders for different satellites](https://github.com/daniestevez/gr-satellites)

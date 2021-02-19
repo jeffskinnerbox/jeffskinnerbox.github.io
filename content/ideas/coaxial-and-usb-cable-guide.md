@@ -87,6 +87,8 @@ and signal loss per unit length, for air dielectric.
 For cheaper commercial cables, such as those that bring CATV to your home,
 an impedance 75 ohms probably was a compromise between low loss and cable flexibility.
 
+* [Why is Coax 50 Ohms?](https://www.youtube.com/watch?app=desktop&v=I-OnQZJv35I)
+
 ## Sources
 * [Coaxial Cable FAQs](http://www.cableorganizer.com/articles/coaxial-cable-faqs.html)
 * [Coaxial Cable Solutions Guide](http://www.digikey.com/Web%20Export/Supplier%20Content/GenCable_42/PDF/GenCable_CoaxialCable.pdf?redirected=1)

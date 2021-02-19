@@ -56,6 +56,9 @@ TinyML is a community of engineers focused on how best to implement machine lear
 # ATtiny85
 * [Tiny Machine Learning on the ATtiny85](https://hackaday.com/2020/01/07/tiny-machine-learning-on-the-attiny85/)
 
+# K210 AI Accelerator
+* [K210 AI Accelerator](https://www.crowdsupply.com/xalogic/k210-ai-accelerator)
+
 
 # Sensor Array / Synthetic Sensor
 The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)

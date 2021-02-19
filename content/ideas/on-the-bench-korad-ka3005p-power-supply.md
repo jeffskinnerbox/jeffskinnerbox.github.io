@@ -31,4 +31,5 @@ Most power supplies are designed in such a way that it is optimized for CV opera
 Good thing to have on the basement workbench.
 
 * [Bench Supplies Get Smaller Thanks To USB-C](https://hackaday.com/2020/10/19/bench-supplies-get-smaller-thanks-to-usb-c/)
+* [USB-C Programmable Power Supply For Any Project](https://hackaday.com/2021/01/16/usb-c-programmable-power-supply-for-any-project/)
 

@@ -106,7 +106,21 @@ VBoxManage snapshot $VM restore <name of snapshot>
 ## Installing VirtualBox
 
 ### Step X: Installing VirtualBox
+Along with the Vagrant install, it is essentially to installed and keep updated the Guest Addition package.
+Keeping the tools update is problematic enough,
+but then you realize not all boxes available from the official repository even have Guest Additions installed
+Luckly, there is a plugin that can manage installing and updating the tools automatically.
+
+```bash
+# install guest addition plugin
 vagrant plugin install vagrant-vbguest
+
+# to update your plugins after a vagrant upgrade
+vagrant plugin update vagrant-vbguest
+
+# to repair your plugins if broken
+vagrant plugin repair vagrant-vbguest
+```
 
 ### Step X: Removing VirtualBox
 I had problems where my version of VirtualBox and its Guest Additions where not at the same level.

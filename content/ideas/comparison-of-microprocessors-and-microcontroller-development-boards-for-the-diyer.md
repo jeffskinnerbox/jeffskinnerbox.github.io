@@ -1,6 +1,7 @@
 
 * [70+ Raspberry Pi alternatives in one convenient list](http://liliputing.com/2016/06/70-raspberry-pi-alternatives-one-convenient-list.html)
-* [Understanding the Differences Between ARM and x86 Processing Cores](https://www.allaboutcircuits.com/news/understanding-the-differences-between-arm-and-x86-cores/?utm_source=All+About+Circuits+Members&utm_campaign=623e2e2933-EMAIL_CAMPAIGN_2017_05_16&utm_medium=email&utm_term=0_2565529c4b-623e2e2933-270523833/)
+* [Understanding the Differences Between ARM and x86 Processing Cores](https://www.allaboutcircuits.com/news/understanding-the-differences-between-arm-and-x86-cores/)
+* [Shootout: Raspberry Pi Pico vs ESP32(-S2) and STM32 Blackpill](https://www.youtube.com/watch?v=cVHCllbN3bQ&feature=youtu.be)
 
 Are you feeling confined by the Arduino's limited environment, peripherals, and power?
 You're beginning to look around for other options, but your finding there are too many choices?
@@ -81,6 +82,7 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 
 * [Sophie Wilson: ARM And How Making Things Simpler Made Them Faster & More Efficient](https://hackaday.com/2018/05/08/sophie-wilson-arm-and-how-making-things-simpler-made-them-faster-more-efficient/)
 
+* [Raspberry Pi Enters Microcontroller Game With $4 Pico](https://hackaday.com/2021/01/20/raspberry-pi-enters-microcontroller-game-with-4-pico/)
 * [Tessel 2](https://www.pjrc.com/store/teensy.html) - 16 MHz AVR
 * [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) - 72 MHz Cortex-M4
 * [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) - ARM Cortex-M7 processor at 600 MHz, with a NXP iMXRT1062 chip, the fastest microcontroller on 04/2020
@@ -92,14 +94,20 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 * [Degrees Of Freedom: Booting ARM Processors](https://hackaday.com/2020/08/12/degrees-of-freedom-booting-arm-processors/)
 * [Google’s Pigweed For ARM Development Is A Nice Surprise](https://hackaday.com/2020/03/21/googles-pigweed-for-arm-development-is-a-nice-surprise/)
 
-## STM32 (aka Blue Pill)
+## STM32F1 (aka Blue Pill)
 * [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide](https://www.youtube.com/watch?v=EaZuKRSvwdo&t=13s&app=desktop)
 * [Bare-Metal STM32: From Power-Up To Hello World](https://hackaday.com/2020/11/17/bare-metal-stm32-from-power-up-to-hello-world/)
 * [STM32 Clones: The Good, The Bad And The Ugly](https://hackaday.com/2020/10/22/stm32-clones-the-good-the-bad-and-the-ugly/)
 * [Blue Pill As A Nerdy Swiss Army Knife](https://hackaday.com/2020/11/22/blue-pill-as-a-nerdy-swiss-army-knife/)
 
+## STM32F4 (aka Black Pill)
+* [BLUE PILL VS BLACK PILL: TRANSITIONING FROM STM32F103 TO STM32F411](https://hackaday.com/2021/01/20/blue-pill-vs-black-pill-transitioning-from-stm32f103-to-stm32f411/)
+
 ## Intel
 * [Intel Edison Module](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
+* [How Apple Just Changed the Entire Industry](https://www.youtube.com/watch?v=OuF9weSkS68&feature=youtu.be)
+* [ntel - From Inventors of the CPU to Laughing Stock - Part 1](https://www.youtube.com/watch?v=JH2nXMv6yZI&feature=youtu.be)
+* []()
 
 ## Feescale
 * [UDOO](http://www.udoo.org/)

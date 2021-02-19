@@ -1843,6 +1843,7 @@ but the articles "[How to Operate Linux Spycams With Motion][118]" and
 * [Raspberry Pi Security System Part 1: The camera](https://hackmypi.com/PiCamPart1.php)
 * [motionEye is a web-based frontend for motion](https://github.com/ccrisan/motioneye)
 * [motionEyeOS](https://github.com/ccrisan/motioneyeos/wiki)
+* [motionEye in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=0JdnJj_dTL4&feature=youtu.be)
 
 ### Camera Human Recognition
 * [Building a Motion Activated Security Camera with the Raspberry Pi Zero](http://hackaday.com/2017/02/06/motion-detecting-camera-recognizes-humans-using-the-cloud/)

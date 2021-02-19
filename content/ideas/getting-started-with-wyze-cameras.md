@@ -158,6 +158,28 @@ RTSP make a cheap Wyze into an expensive IP Cam.
 * [Smart Home Integration](https://wyzelabs.zendesk.com/hc/en-us/sections/360005012811-Smart-Home-Integration)
 * [Turn Your Wyze Cameras Off When Anyone Comes Home (And On When You Leave)](https://www.youtube.com/watch?v=OGGnMbXoJL0)
 
+# Alexa Integration
+* [HOW TO USE WYZE CAM WITH ALEXA](https://www.youtube.com/watch?v=PhrdEOOpZxY)
+* [Monocle RTSP/RTP IP Cameras](https://www.amazon.com/Monocle-RTSP-RTP-IP-Cameras/dp/B079P7DZ4D)
+* []()
+
+## Echo Show 5
+Set up
+* Plug your Echo Show 5 into an outlet. In about a minute, the display will turn on and Alexa will greet you.
+* Follow the on-screen setup instructions. During setup, you'll connect to Wi-Fi so you can access Amazon services.
+* Once setup is complete, say "Alexa" to wake your Echo Show 5, then ask for music, news, weather, and more. You'll know Alexa is ready when the blue bar appears at the bottom of the screen.
+* Check out our [Alexa guide](https://www.amazon.com/b?node=17934672011) for the latest updates. You can also ask, "Alexa, what can you do?"
+* Swipe down from the top of your Echo Show 5 screen to access Settings. Swipe left from the right side of the screen for shortcuts to music, smart home, tips on using Alexa, and more.
+* [Download](https://www.amazon.com/b?node=18354642011) or update the Amazon Alexa app on your smartphone to get more out of your Echo Show 5.
+* visit the [Alexa Privacy Hub](https://www.amazon.com/b/?node=19149155011) or ask, "Alexa, how do I review my privacy settings?
+    * “Alexa, why did you do that?”
+    * “Alexa, how do I delete my voice recordings?”
+    * “Alexa, how do I turn off the microphones?”
+* Manage Your Alexa Data - https://www.amazon.com/alexa-privacy/apd/myad
+* Chat help page - https://www.amazon.com/hz/contact-us/csp
+* Support for Echo Show - https://www.amazon.com/gp/help/customer/display.html?nodeId=202138870
+* Amazon Digital and Device Forum  - https://www.amazonforum.com/s/
+
 
 
 [01]:https://wyzelabs.zendesk.com/hc/en-us/articles/360030110891-Wyze-Cam-Setup-Guide

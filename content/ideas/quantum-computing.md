@@ -1,4 +1,5 @@
 
+
 * [The Three Pillars of Quantum Computing](https://medium.com/digital-diplomacy/the-three-pillars-of-quantum-computing-d80ff5f50ec7)
 * [The Ultimate Beginner’s Guide to Quantum Computing and its Applications](https://towardsdatascience.com/the-ultimate-beginners-guide-to-quantum-computing-and-its-applications-5b43c8fbcd8f)
 * [Quantum computing for the very curious](https://quantum.country/qcvc)
@@ -37,8 +38,11 @@ A cross-platform Python library for differentiable programming of quantum comput
 * [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
 ## Qiskit
+* [Qiskit](https://qiskit.org/)
 * [Quantum Computing With QISKit](https://hackaday.com/2019/04/02/quantum-computing-with-qiskit/)
+* [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * [Using Qiskit with IBM QX to generate quantum circuits](https://hub.packtpub.com/using-qiskit-with-ibm-qx-to-generate-quantum-circuits-tutorial/)
+* [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
 
 ## Quirk
 * [Quantum Searching in Your Browser](https://hackaday.com/2018/02/07/quantum-searching-in-your-browser/)
@@ -66,8 +70,6 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Our quantum problem](http://aeon.co/magazine/science/our-quantum-reality-problem/)
 * [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
-* [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
-* [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * [Online course trains students in the bizarre world of quantum computing](https://www.livescience.com/quantum-computing-students-online-course.html)
 
 # IBM Q
@@ -88,3 +90,6 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 # Build Your Own Quantum Computer
 * [36C3: Build Your Own Quantum Computer At Home](https://hackaday.com/2019/12/30/36c3-build-your-own-quantum-computer-at-home/)
+
+# Classic Physics Analogs for Quantum Systems
+* [The Amazing Physics Of The Wilberforce Pendulum](https://www.youtube.com/watch?v=M0Zjl_tMOZg)

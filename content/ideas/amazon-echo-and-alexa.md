@@ -38,6 +38,7 @@
 * [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
 * [Set Up Telegram Bot on Raspberry Pi](https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/)
 * [home surveillance monitored via telegram](https://ginolhac.github.io/posts/diy-raspberry-monitored-via-telegram/#communication-with-motion-via-telegram)
+* [Creating a Telegram bot with Micronaut](https://dzone.com/articles/creating-a-telegram-bot-with-micronaut)
 
 * [ReSpeaker 2 Mics Pi HAT for Alexa Voice Service, Google Assistant](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=new_0606)
 

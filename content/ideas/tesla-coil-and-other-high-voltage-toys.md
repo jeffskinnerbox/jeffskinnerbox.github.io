@@ -31,6 +31,8 @@ but some people have claimed to modification it to create [20,000V][03] and even
 Maybe I could even do some exploring of spectrum mysteries like
 [Number Stations][01] and [Tesla Spirit Radio][06]).
 
+# Simple Tesla Coil (But Dangerous)
+* [Extremely Simple Tesla Coil With Only 3 Components](https://hackaday.com/2021/01/12/extremely-simple-tesla-coil-with-only-3-components/)
 
 
 ------
@@ -48,7 +50,7 @@ A relaxation oscillator is a nonlinear electronic oscillator circuit that produc
 The circuit consists of a feedback loop containing a switching device such as a transistor, comparator, relay, op amp, or a negative resistance device like a tunnel diode, that repetitively charges a capacitor or inductor through a resistance until it reaches a threshold level, then discharges it again.
 
 ### Pearson–Anson Oscillator
-Maybe the simples relacation oscillator is
+Maybe the simples relaxation oscillator is
 resistive/capacitive circuit relaxation oscillator with a neon lamp as the threshold device
 called a Pearson–Anson oscillator, neon lamp oscillator, or sawtooth oscillator.
 
@@ -122,7 +124,7 @@ The Tesla coil provides a high voltage demonstration of a resonant transformer.
 What did Nikola Tesla have in mind?
 Nikola Tesla wanted to beam power without wires.
 
-**Build This**
+**Build This - Starter Project**
 * [DIY 3 volt tesla coil MUSEUM QUALITY](https://www.youtube.com/watch?v=zbV1zyg_4qU)
 * [SEE-THROUGH Portable Tesla Coil ( DIY, Museum Quality)](https://www.youtube.com/watch?v=jMgG3qrt-JM)
 * [A Miniature Power Supply for High Voltage Hacking](https://hackaday.com/2020/08/23/a-miniature-power-supply-for-high-voltage-hacking/)
@@ -152,12 +154,18 @@ Nikola Tesla wanted to beam power without wires.
 ## Slayer Exciter
 The Slayer Exciter is an air core transformer adapted to operating at low DC voltages. It has a primary and secondary, like a Tesla coil, but it uses low voltage components--diodes and transistors--instead of spark gaps and tank capacitors to induce resonant rise in the coil.
 
+* [A Tesla Coil From PCBs](https://hackaday.com/2019/04/25/a-tesla-coil-from-pcbs/)
 * [SLAYER EXCITER - Tutorial, Explanation, and More](https://www.youtube.com/watch?v=AehL3BodduE&t=339s)
 * [Compact Slayer Exciter For Your High Voltage Needs](https://hackaday.com/2020/03/21/compact-slayer-exciter-for-your-high-voltage-needs/)
 * [Building the Poor-mans Mini Tesla Coil (Slayer Exciter)](https://www.instructables.com/id/building-the-poor-mans-mini-tesla-coil-slayer-exc/)
 * [Slayer Exciter Circuit with a Tesla Coil](https://www.electroboom.com/?p=521)
 * [Easy SSTC, Slayer Exciter on Steroids!](https://www.instructables.com/id/Easy-SSTC-Slayer-Exciter-On-Steroids/)
 * [World's Most Powerful Pancake Slayer Tesla Coil? (Melts Copper)](https://www.youtube.com/watch?v=TT4QolzknC0)
+* [Handheld Slayer Exciter Wand Makes For Easy High Voltage Magic](https://hackaday.com/2021/01/13/handheld-slayer-exciter-wand-makes-for-easy-high-voltage-magic/)
+
+## Flame Discharge
+* [Electric Candle Replaces Flame With Plasma](https://hackaday.com/2021/02/01/electric-candle-replaces-flame-with-plasma/)
+* [Building a Wireless Power Plasma Candle](https://www.youtube.com/watch?v=SyZuel2iaBk&feature=youtu.be)
 
 # Van Der Graaff
 * [Mini Van De Graaff Is A Shocking Desk Toy](https://hackaday.com/2018/12/10/mini-van-de-graaff-is-a-shocking-desk-toy/)

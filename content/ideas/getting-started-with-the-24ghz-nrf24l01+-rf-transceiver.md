@@ -24,6 +24,7 @@ Check out
 * [BLE advertising beacons using an nRF24L01+ module ](http://hackaday.com/2016/06/21/hackaday-prize-entry-ble-beacon-library/)
 * [Fixing your cheap nrf24l01+ pa/lna module](http://blog.blackoise.de/2016/02/fixing-your-cheap-nrf24l01-palna-module/#comment-7225)
 * [Building a LC-Filter for your nrf24l01+ pa/lna module](http://blog.blackoise.de/category/ugly-fix/)
+* [Optimizing your nRF24 range with a simple test rig](https://bitbanksoftware.blogspot.com/2018/12/optimizing-your-nrf24-range-with-simple.html)
 
 # Coms Over TCP/IP / Sound & Video Transmission
 * [Nerfnet Tunnels TCP/IP Over NRF24L01 Radios](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
@@ -258,9 +259,6 @@ Now build the example programs:
     cd ~/src/RF24/librf24-rpi/librf24/examples
     make
 
-
-
-
 ## Sources
 
 * [NRF24L01+ transmitting from Raspberry pi to Arduino](http://p24bredo.wordpress.com/2013/05/21/nrf24l01-transmitting-from-raspberry-pi-to-arduino/)
@@ -276,6 +274,8 @@ Now build the example programs:
 * [nRF24L01 Examples using the RF24 Libraries](http://arduino-info.wikispaces.com/nRF24L01-RF24-Examples)
 * [ElectFreaks NRF24L01 Series](http://www.elecfreaks.com/wiki/index.php?title=NRF24L01_Series)
 * [Neil's Log Book](http://nrqm.ca/nrf24l01/)
+
+
 
 [01]:http://www.nordicsemi.com/eng/Products/2.4GHz-RF
 [02]:http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P

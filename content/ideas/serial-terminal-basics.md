@@ -28,6 +28,7 @@ HyperTerminal - HyperTerminal is the defacto terminal program for any Windows OS
 PuTTY
 Screen
 microcom
+GTKTerm - `sudo apt install gtkterm` (https://github.com/Jeija/gtkterm)
 
 # Character Encoding
 * [Baudot code](https://en.wikipedia.org/wiki/Baudot_code) aka International Telegraph Alphabet No. 1 or ITA1

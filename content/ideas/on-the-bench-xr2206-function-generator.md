@@ -35,6 +35,11 @@ as they offer high stability and signal purity.
 
 
 
+* [Reverse Engineering USB Protocols On A Function Generator](https://hackaday.com/2021/02/09/reverse-engineering-usb-protocols-on-a-function-generator/)
+
+
+
+
 [01]:https://www.everythingrf.com/community/what-is-direct-digital-synthesis
 [02]:
 [03]:

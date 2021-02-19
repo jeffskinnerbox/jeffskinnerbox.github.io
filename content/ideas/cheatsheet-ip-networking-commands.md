@@ -1,5 +1,7 @@
 
+* [Working with systemd-networkd](https://medium.com/100-days-of-linux/working-with-systemd-networkd-e461cfe80e6d)
 * [NetBeez Blog](https://netbeez.net/blog/)
+* [Getting the Most Out of Linux Network Troubleshooting Tools](https://medium.com/swlh/getting-the-most-out-of-linux-network-troubleshooting-tools-23bd72e20330)
 * [A sysadmin's guide to network management](https://opensource.com/article/18/7/sysadmin-guide-networking-commands)
 * [Cisco Networking Basics: IP Addressing](https://www.networkcomputing.com/networking/cisco-networking-basics-ip-addressing/636970615)
 * [A List of Network Monitoring Tools for Network and System Administrators](https://www.cellstream.com/intranet/reference-reading/tipsandtricks/330-a-list-of-network-monitoring-tools-for-network-and-system-administrators.html)
@@ -336,7 +338,7 @@ any interface not listed there will remain under NetworkManager control.
 
 * **Terminal Access**
     * [`telnet`][24] ([teletype network][85]) is a computer protocol that provides
-    two-way interactive communication used on the Internet
+    two-way interactive, unsecure communication used on the Internet
     or local area network to provide text-oriented
     communication facility using a virtual terminal connection.
     **Example Usage:** `telnet 192.168.8.1`
@@ -355,6 +357,15 @@ any interface not listed there will remain under NetworkManager control.
     but requires a `ssh` terminal session on the remote end.
     * [`streamhut`][93]  allows you to stream (pipe) realtime data from your
     terminal stdout/stderr to a web xterm UI or even to another terminal.
+    * [`upterm`][134] is an open-sourced solution for sharing terminal sessions
+    instantly over the public internet via SSH tunnels.
+
+* **Captue Terminal Session**
+    * `script` command creates a typescript file from your terminal session by
+    grabing the input & output of your terminal interactive session
+    exactly as it's displayed in your terminal.
+    * [How to capture terminal sessions and output with the Linux script command](https://www.redhat.com/sysadmin/linux-script-command)
+    * [How to replay terminal sessions recorded with the Linux script command](https://www.redhat.com/sysadmin/playback-scriptreplay)
 
 ################################################################################
 
@@ -2554,6 +2565,7 @@ could be gathered for this cheat sheet.
 * [Some useful socat commands](http://technostuff.blogspot.com/2008/10/some-useful-socat-commands.html)
 * [Socat, Another Network Swiss Army Knife](https://blog.rootshell.be/2010/10/31/socat-another-network-swiss-army-knife/)
 * [Hands-on learning about network protocols using socat](http://www.volkerschatz.com/net/socatproc.html)
+* [Linux Fu: Serial Untethered](https://hackaday.com/2021/02/11/linux-fu-serial-untethered/)
 
 
 
@@ -2690,7 +2702,7 @@ could be gathered for this cheat sheet.
 [131]:https://seravo.fi/2014/create-wireless-access-point-hostapd
 [132]:http://linux.die.net/man/8/iwspy
 [133]:https://wiki.archlinux.org/index.php/wicd
-[134]:
+[134]:https://medium.com/@owenou/upterm-secure-terminal-sharing-1f4add94f5ac
 [135]:http://linux.die.net/man/8/iwlist
 [136]:http://linux.die.net/man/8/iwpriv
 [137]:

@@ -1,6 +1,9 @@
 
 for CSI, you can get the NEID in the file `/home/csiadmin/coolerCache/neid`.
 
+* [9 things to do in your first 10 minutes on a Linux server](https://opensource.com/article/20/12/linux-server)
+* [How To Check If A Linux System Is Physical Or Virtual Machine](https://ostechnix.com/check-linux-system-physical-virtual-machine/)
+
 # Tools
 * [What's in the Box? Interrogate Your Linux Machine's Hardware](http://www.linuxjournal.com/content/whats-box-interrogate-your-linux-machines-hardware)
 * [Linux commands to display your hardware information](https://opensource.com/article/19/9/linux-commands-hardware-information)

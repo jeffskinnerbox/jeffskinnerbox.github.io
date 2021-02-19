@@ -48,6 +48,7 @@ I bought it because its programmability and others have successfully hacked it
 Some examples of this are:
 
 * [Baofeng UV-5R Review and Set-Up](https://www.youtube.com/watch?v=56PvtAqacz8)
+* [Is Transmitting On FRS, GMRS & MURS With Ham Radios (Baofeng) Legal?](https://www.youtube.com/watch?app=desktop&v=Fb7w_TDpmtw)
 
 * [Take it Apart - Baofeng UV-5R+ 136-174 400-480 MHz FM Transceiver](https://www.takeitapart.com/guide/9)
 * [Teardown Tuesday: Baofeng Amateur Radio Transceiver](https://www.allaboutcircuits.com/news/teardown-tuesday-baofeng-amateur-radio-transceiver/?utm_source=All+About+Circuits+Members&utm_campaign=3488ffa7b4-EMAIL_CAMPAIGN_2017_03_09&utm_medium=email&utm_term=0_2565529c4b-3488ffa7b4-270523833/)
@@ -55,8 +56,13 @@ Some examples of this are:
 * [CHIRP](http://chirp.danplanet.com/projects/chirp/wiki/Home)
 * [Hacking the Baofeng UV5R](http://elazary.com/index.php?option=com_content&view=article&id=49%3Ahacking-the-baofeng-uv5r&catid=14%3Abaofeng-uv5r&Itemid=17&showall=1)
 
-# After Market Antenna
+## After Market Antenna
+* [The First Thing To Upgrade On Your Handheld Ham Radio](https://www.youtube.com/watch?v=5-95vlOMYOU&feature=youtu.be)
 * [Super-Elastic Signal Stick](https://signalstuff.com/product/super-elastic-signal-stick/)
+
+## Custom Made Antenna
+* [3D Printer Makes Ham Antenna Portable](https://hackaday.com/2021/02/09/3d-printer-makes-ham-antenna-portable/)
+* [The $50 Ham: A Cheap Antenna For The HF Bands](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)
 
 # What can you do with the Baofeng UV-5R
 * [Baofeng UV-5R; Top 5 things to listen to](https://www.youtube.com/watch?v=q3nMV5rOFiw)
@@ -94,6 +100,8 @@ However there are still some things you can listen to:
 * [HamTestOnline](https://www.hamradiolicenseexam.com/)
 * [Gordon West Training Resources From The W5YI Group](http://www.gordonwestradioschool.com/main/page_w5yi_training_resources.html)
 * [Amateur Radio Exam Practice](http://aa9pw.com/radio/)
+
+* [Ham Radio Crash Course](https://www.youtube.com/user/hoshnasi?app=desktop)
 
 * [Which Exam to Take?](https://www.hamradiolicenseexam.com/which-exam.htm)
 
@@ -150,17 +158,21 @@ When FT8, jointly developed by Joe Taylor and Steve Franke (K9AN),
 was announced it was described as being designed for,
 “[multi-hop Es where signals may be weak and fading, openings may be short, and you want fast completion of reliable, confirmable QSO’s.][08]”
 
+* [Ham Radio Prep – Ham Radio Online License Class](https://hamradioprep.com/)
 * [Ham Radio Crash Course](https://www.youtube.com/user/hoshnasi/videos)
 * [FT8: Saving Ham Radio or Killing It?](https://hackaday.com/2018/11/02/ft8-saving-ham-radio-or-killing-it/)
 * [Ham Radio Needs To Embrace The Hacker Community Now More Than Ever](https://www.kj7nzl.net/blog/ham-radio-needs-to-embrace-the-hacker-community-now-more-than-ever/)
+* [A Few Of My Favorite Things: Amateur Radio](https://hackaday.com/2021/01/21/a-few-of-my-favorite-things-amateur-radio/)
+
 * [The $50 Ham: Getting Your Ticket Punched](https://hackaday.com/2019/03/08/the-50-ham-getting-your-ticket-punched/)
 * [The $50 Ham: Entry-Level Transceivers for Technicians](https://hackaday.com/2019/03/15/the-50-ham-entry-level-transceivers-for-technicians/)
 * [The $50 Ham: Checking Out the Local Repeater Scene](https://hackaday.com/2019/04/11/the-50-ham-checking-out-the-local-repeater-scene/)
 * [The $50 Ham: Dummy Loads](https://hackaday.com/2019/04/25/the-50-ham-dummy-loads/)
 * [The $50 Ham: Dummy Loads, Part 2](https://hackaday.com/2019/05/17/the-50-ham-dummy-loads-part-2/)
 * [The $50 Ham: Going Mobile](https://hackaday.com/2020/02/05/the-50-ham-going-mobile/)
+* [The $50 Ham: A Cheap Antenna For The HF Bands](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)
+* [The $50 Ham: Digital Modes With WSJT-X](https://hackaday.com/2021/02/10/the-50-ham-digital-modes-with-wsjt-x/)
 
-* [Ham Radio Prep – Ham Radio Online License Class](https://hamradioprep.com/)
 
 # Noise Sources
 * [Tracking Down Radio Frequency Noise Source, With Help From Mother Nature](https://hackaday.com/2020/09/25/tracking-down-radio-frequency-noise-source-with-help-from-mother-nature/)
@@ -182,6 +194,8 @@ Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 # Raspberry Pi for Ham-Radio
 * [Setup Raspberry Pi for Ham-Radio](https://orari.or.id/index.php/2019/09/02/setup-raspberry-pi-for-ham-radio/)
 * [Tutorial For Setting Up Raspberry Pi For Ham Radio Use](https://hackaday.com/2020/09/08/tutorial-for-setting-up-raspberry-pi-for-ham-radio-use/)
+* [Hamlib 4.1 Install Raspberry Pi](https://www.youtube.com/watch?v=dKVQdMTlCAY&feature=youtu.be)
+* [HamPi, formerly known as W3DJS Raspberry Pi for Ham Radio](https://github.com/dslotter/HamPi/)
 
 # Ham Radio Satellites
 * [All About Ham Satellites](https://hackaday.com/2019/01/07/all-about-ham-satellites/)
@@ -208,6 +222,12 @@ wanted to measure the exact RF power output from your QRP rig, programmable osci
 
 * [Measuring HamShield Power Output](https://inductivetwig.com/blogs/news/measuring-hamshield-power-output)
 * [Wideband Power Meter](https://inductivetwig.com/products/vhf-uhf-shf-power-meter-with-usb-serial)
+
+# Radio Garden
+Radio Garden is a non-profit Dutch radio and digital research project developed from 2013 to 2016, by the Netherlands Institute for Sound and Vision
+
+* [Radio Garden](http://radio.garden)
+* [50,000+ Radio Stations in One API](https://www.programmableweb.com/news/50000-radio-stations-one-api/2012/01/26)
 
 
 

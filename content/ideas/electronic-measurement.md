@@ -28,10 +28,10 @@ and verify design simulations to make sure systems and their components work pro
 * [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
 * [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
 * [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
-
 * [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
-* [How to properly use a NanoVNA V2 Vector Network Analyzer (Tutorial)](https://www.youtube.com/watch?v=_pjcEKQY_Tk)
+* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
+* [#329: Presentation recording: Intro to the VNA and NanoVNA for BayCon 2021](https://www.youtube.com/watch?v=o1eLK4EMpEQ)
 
 # Spectrum Analyzer
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)

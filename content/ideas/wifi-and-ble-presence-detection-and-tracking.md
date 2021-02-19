@@ -39,6 +39,15 @@ Kali Linux is a Debian-derived Linux distribution designed for digital forensics
 * [Remoticon Video: Making Microphones And Finding Sound](https://hackaday.com/2020/12/08/remoticon-video-making-microphones-and-finding-sound/)
 * Coms Over TCP/IP / Sound & Video Transmission - [Nerfnet Tunnels TCP/IP Over NRF24L01 Radios](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 
+## Motion
+Mimic Go is a portable security device that can be affixed to surfaces or standalone items and sound an alarm when it detects any movement. This means the Mimic Go can be used to monitor fixed locations, like a table or couch, or individual items, like a laptop or purse. The device does not use cameras, microphones or GPS; instead, it relies on an accelerometer, magnetometer, temperature sensor and motion sensor to detect changes in surroundings.
+* [Mimic Go](https://smartmimic.com/mimic-go/)
+* [Mimic Track](https://smartmimic.com/mimic-track/)
+
+## IoT Radar Sensor
+The mini-H is a small high-resolution 60 GHz IoT radar sensor that can be used for elderly care, home automation and telehealth applications. The sensor, from sensor maker Bitsensing, can detect presence, movement, breathing, falls and gestures, even with clothes or blankets, and it can operate in dark or wet places. The sensor, which can be mounted to a wall, measures at 50 by 50 millimeters,
+* [Mini-H](http://bitsensing.com/product/healthcare.php)
+
 ## Sensing WiFi and BLE Devices
 * [Tracking people via WiFi (even when not connected)](https://www.crc.id.au/tracking-people-via-wifi-even-when-not-connected/)
 * [Presence detection using phone’s WiFi and Node-RED](https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/)

@@ -191,6 +191,7 @@ Installation is very simple, just follow the [online install instructions][47].
 * [2019 Cura Tutorial – Deep Inside the Cura 3D Slicer Software](https://all3dp.com/1/cura-tutorial-software-slicer-cura-3d/)
 * [Ultimaker Cura Guides - Ultimaker 3D Printing](https://www.youtube.com/playlist?list=PLdLJV6tsi3ACyxZt8ZNCywmOmdSpE2_cZ)
 * [Rarely Adjusted Slicer Setting Makes A Difference](https://hackaday.com/2019/11/02/rarely-adjusted-slicer-setting-makes-a-difference/)
+* [Click on - Click off - Supports in Cura 4.8](https://www.youtube.com/watch?app=desktop&v=owgUmQao2ME)
 
 ## Roll Your Own Slicer
 * [Smoothieboard Gets An Ambitious Update For V2](https://hackaday.com/2019/09/12/smoothieboard-gets-an-ambitious-update-for-v2/)
@@ -547,6 +548,9 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 # GCode Post-Processor
 * [This GCode Post-Processor Squeezes Lines Into Arcs](https://hackaday.com/2020/11/03/this-gcode-post-processor-squeezes-lines-into-arcs/)
 
+# PLA Waterproofing
+* [Truck Bed Liners Improve 3D Prints](https://hackaday.com/2021/02/14/truck-bed-liners-improve-3d-prints/)
+
 # PLA Smoothing
 * [PLA Smoothing 3D Prints with 3D Gloop!](https://www.youtube.com/watch?v=vQc5TBPF8uw)
 
@@ -638,6 +642,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 
 ## OctoPrint
+* [How to Set Up OctoPrint on Raspberry Pi 4](https://all3dp.com/2/octoprint-raspberry-pi-4-tutorial/)
 * [How to Remote Monitor your 3D Printer with Raspberry Pi](https://www.tomshardware.com/how-to/monitor-3D-printer-raspberry-pi)
 * [Cura OctoPrint Connection: What Is It & How to Install It](https://all3dp.com/2/cura-octoprint-plugin-connection/)
 * [OctoPrint Setup: How to Install OctoPi on a Raspberry Pi](https://all3dp.com/2/octoprint-setup-how-to-install-octopi-on-a-raspberry-pi/)
@@ -661,8 +666,11 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Octolapse](https://hackaday.com/2018/07/02/coolest-way-to-watch-3d-printing-lights-camera-octolapse/)
 
 ## Creality WiFi Box
+Creality WiFi Box is there answer to OctoPrint.
+
 * [Creality WiFi Takes On Octoprint](https://hackaday.com/2020/12/13/creality-wifi-takes-on-octoprint/)
 * [Creality WIFI Box tested: Budget Octoprint alternative?](https://www.youtube.com/watch?v=SBr0ArgDztc)
+* [Teardown: Creality Wi-Fi Box](https://hackaday.com/2020/12/28/teardown-creality-wifi-box/)
 
 ### Save Energy
 * [Save Energy by automating your 3D-printer (Raspberry safe shutdown, OctoPrint, Sonoff)](https://www.youtube.com/watch?v=WR0WdTBQJGo&feature=youtu.be)

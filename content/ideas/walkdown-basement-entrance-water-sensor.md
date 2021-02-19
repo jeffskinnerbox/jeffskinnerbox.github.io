@@ -33,11 +33,14 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [One ESP8266, One Battery, One Year… And Counting](https://hackaday.com/2020/01/15/one-esp8266-one-battery-one-year-and-counting/)
 * [How Low Can An ESP32 Go?](https://hackaday.com/2020/01/07/how-low-can-an-esp32-go/)
 * [Low-Power ESP32 Boards](https://blog.voneicken.com/2018/lp-wifi-esp32-boards/)
+* [ESP32 Soil Monitors Tap Into Ultra-Low Power Mode](https://hackaday.com/2021/01/14/esp32-soil-monitors-tap-into-ultra-low-power-mode/)
 * [ESP32 Low Power Device Design – Part 1](https://blog.squix.org/2020/04/esp32-door-sensor-part-1.html)
 * [A Deep Dive Into Low Power WiFi Microcontrollers](https://hackaday.com/2018/12/17/a-deep-dive-into-low-power-wifi-microcontrollers/)
 * [Deep Sleep & Other Power Modes (ESP32 + Arduino Series)](https://www.youtube.com/watch?v=dyvpRYfWjkY&feature=youtu.be)
 * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
 * [ESP32 Deep Sleep Tutorial](https://www.instructables.com/ESP32-Deep-Sleep-Tutorial/)
+* [ESP32 Trail Camera Goes the Distance on AA Batteries](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
+* [Datalogger Uses ESP32 and ESP8266 Low Power Modes](https://hackaday.com/2017/09/24/datalogger-uses-esp32-and-esp8266-low-power-modes/)
 
 
 
@@ -88,6 +91,17 @@ so that the ESP8266 can be turned on periodically.
 This is the most the most efficient mode.
 The deep-sleep mode can be used in scenarios where the device should send data at specific intervals.
 
+## ATtiny13 Sensor Reader
+uses an ATtiny13 to actually read the sensor values. The chip doesn’t run continuously, its watchdog is set at 1 Hz, ensuring that the device is woken up often enough so that it has time to power up the sensor
+
+* [The Right Tools For The Job](https://hackaday.com/2021/02/06/the-right-tools-for-the-job/)
+* [Old Gas Meter Gets Smart With The ESP8266](https://hackaday.com/2021/01/31/old-gas-meter-gets-smart-with-the-esp8266/)
+* [ATtiny Hacks](https://hackaday.com/category/attiny-hacks/)
+* [ESP32 TRAIL CAMERA GOES THE DISTANCE ON AA BATTERIES](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
+
+## ESP32 Ultra-Low Power Mode
+* [ESP32 Soil Monitors Tap Into Ultra-Low Power Mode](https://hackaday.com/2021/01/14/esp32-soil-monitors-tap-into-ultra-low-power-mode/)
+
 ## Burden Voltage
 In-circuit current measurement requires that the circuit-under-test be opened
 and the measurement instrument leads placed in series.
@@ -127,6 +141,7 @@ Peak power consumption will not be an issue for applications where there is enou
 * [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
 * [How to optimize energy efficiency in smart devices](https://blog.nordicsemi.com/getconnected/how-to-optimize-energy-efficiency-in-smart-devices)
 * [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
+* [Selecting the best lithium primary batteries for your LoRaWAN node](https://www.thethingsnetwork.org/article/selecting-the-best-lithium-primary-batteries-for-your-lorawan-node)
 
 ## Measurment Tools for Ultra-Low-Power
 µCurrent Meter - https://www.adafruit.com/product/882
@@ -143,11 +158,15 @@ USB Isolator - https://www.adafruit.com/product/2107
 
 
 
+# PLA Waterproofing
+* [Truck Bed Liners Improve 3D Prints](https://hackaday.com/2021/02/14/truck-bed-liners-improve-3d-prints/)
+
 # Water Detection
+* [Photoelectric Water / Liquid Level Sensor For Arduino](https://www.dfrobot.com/product-1470.html)
+* [Low Power Water Level Sensor for LoRaWAN/The Things Network](https://www.hackster.io/Amedee/low-power-water-level-sensor-for-lorawan-the-things-network-96c877)
 * [Water detection system](https://www.hackster.io/gusgonnet/water-detection-system-227b08?ref=list&ref_id=3061&offset=2)
 * [How to Protect Your House From Water Leaks—Without the Internet of Things](http://spectrum.ieee.org/at-work/education/how-to-protect-your-house-from-water-leakswithout-the-internet-of-things)
 * [ESP8266 Water Alarm](http://benlo.com/esp8266/esp8266WaterAlarm.html)
-* [Low Power Water Level Sensor for LoRaWAN/The Things Network](https://www.hackster.io/Amedee/low-power-water-level-sensor-for-lorawan-the-things-network-96c877)
 
 
 * [Flood Buzz Water Leak Detector - Set of 6](http://www.brookstone.com/pd/flood-buzz-water-leak-detector---set-of-6/745263p.html?bkeid=compare%7Cmercent%7Cgooglebaseads%7Csearch&gclid=Cj0KEQjwoM63BRDK_bf4_MeV3ZEBEiQAuQWqkUzwfq761WYUNx0aoD4_tHDvs13ASGm71N77GMQAtOIaAtoW8P8HAQ&adpos=1o5&device=c&creative=97619010084&network=g)

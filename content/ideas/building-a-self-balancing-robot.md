@@ -156,6 +156,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 # Poppy
 * [Poppy Humanoid Robot](https://www.poppy-project.org/en/)
 * [ERGO JR](https://www.poppy-project.org/en/robots/poppy-ergo-jr)
+* [Reachy The Open Source Robot Says Bonjour](https://hackaday.com/2021/01/14/reachy-the-open-source-robot-says-bonjour/)
 
 # Telepresence Bobot
 * [Get Back Out There, Robotically](https://hackaday.com/2020/04/18/get-back-out-there-robotically/)
