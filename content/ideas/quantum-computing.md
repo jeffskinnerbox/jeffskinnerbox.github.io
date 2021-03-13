@@ -1,5 +1,8 @@
 
 
+* [Quantum Mechanics Isn’t Weird, We’re Just Too Big](https://www.youtube.com/watch?v=q1O11kP6x1k)
+* [What's the Real Meaning of Quantum Mechanics?](https://www.youtube.com/watch?v=LqY3TUW7skI&t=133s)
+
 * [The Three Pillars of Quantum Computing](https://medium.com/digital-diplomacy/the-three-pillars-of-quantum-computing-d80ff5f50ec7)
 * [The Ultimate Beginner’s Guide to Quantum Computing and its Applications](https://towardsdatascience.com/the-ultimate-beginners-guide-to-quantum-computing-and-its-applications-5b43c8fbcd8f)
 * [Quantum computing for the very curious](https://quantum.country/qcvc)
@@ -38,7 +41,11 @@ A cross-platform Python library for differentiable programming of quantum comput
 * [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
 ## Qiskit
+Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits and application modules.
+Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
+
 * [Qiskit](https://qiskit.org/)
+* [Qiskit Videos](https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A)
 * [Quantum Computing With QISKit](https://hackaday.com/2019/04/02/quantum-computing-with-qiskit/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * [Using Qiskit with IBM QX to generate quantum circuits](https://hub.packtpub.com/using-qiskit-with-ibm-qx-to-generate-quantum-circuits-tutorial/)

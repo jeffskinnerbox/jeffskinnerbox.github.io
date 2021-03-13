@@ -1,4 +1,8 @@
 
+* [RP2040 vs STM32 vs ESP32 vs ESP8266](https://socialcompare.com/en/comparison/rp2040-vs-stm32-vs-esp32-vs-esp8266)
+* [ESP8266 vs ESP32 vs ESP32-S2 vs ESP32-C3](https://socialcompare.com/en/comparison/esp8266-vs-esp32-vs-esp32-s2)
+
+
 * [70+ Raspberry Pi alternatives in one convenient list](http://liliputing.com/2016/06/70-raspberry-pi-alternatives-one-convenient-list.html)
 * [Understanding the Differences Between ARM and x86 Processing Cores](https://www.allaboutcircuits.com/news/understanding-the-differences-between-arm-and-x86-cores/)
 * [Shootout: Raspberry Pi Pico vs ESP32(-S2) and STM32 Blackpill](https://www.youtube.com/watch?v=cVHCllbN3bQ&feature=youtu.be)
@@ -38,6 +42,9 @@ In addition it would have a GPU, the wireless transceiver and modem,
 the video and audio decoders for streaming video, GPS, controllers for the accelerometer,
 controllers for battery management, and who knows what else.
 As a result, there could be multiple microcontrollers in a SoC.
+
+## RISC & ARM
+* [RISC-V: How much is open source? Featuring the new ESP32-C3](https://www.youtube.com/watch?v=VdPsJW6AHqc)
 
 ## AVR / Atmel
 The [AVR][01] is a [modified Harvard architecture][05] 8-bit RISC single chip microcontroller

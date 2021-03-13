@@ -56,7 +56,10 @@
 * [Build a Better USB Webcam!](https://www.youtube.com/watch?v=x_4XuQ0JgQo)
 * [Raspberry Pi High Quality Camera setup for low-latency Video Conferencing](http://www.davidhunt.ie/raspberry-pi-high-quality-camera-setup-for-low-latency-video-conferencing/)
 * [Raspberry Pi Zero with Pi Camera as USB Webcam](http://www.davidhunt.ie/raspberry-pi-zero-with-pi-camera-as-usb-webcam/)
+
+# Raspberry Pi HQ Camera
 * [USB Webcams Out Of Stock? Make One With A Raspberry Pi And HQ Camera Module](https://hackaday.com/2020/11/30/usb-webcams-out-of-stock-make-one-with-a-raspberry-pi-and-hq-camera-module/)
+* [Minimalist Raspberry Pi Zero W HQ camera case](https://www.geeky-gadgets.com/raspberry-pi-camera-case-19-02-2021/)
 
 
 

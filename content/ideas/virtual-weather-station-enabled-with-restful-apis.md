@@ -1,4 +1,6 @@
 
+* [Forget Dark Sky — Build Your Own DIY Weather App](https://onezero.medium.com/forget-dark-sky-build-your-own-diy-weather-app-126809c2091c)
+
 I have been considered purchasing or building my own home weather station for my backyard.
 I would make it part of my larger plan to instrument my home for automation and monitoring.
 A sophisticated weather stations could be bristling with devices like:
@@ -68,6 +70,7 @@ If none of that suits you, though, you can also [roll out your own weather alert
 
 Some simple weather station setups:
 Nice Design
+* [NRF52 Weather Station Gives Forecast With Style](https://hackaday.com/2021/03/11/nrf52-weather-station-gives-forecast-with-style/)
 * [Building ESP8266 Weather station with BME280 (part I)](http://itohi.com/blog/building-esp8266-weather-station-part-i/)
 * [Building ESP8266 Weather station with BME280 (part II)](http://itohi.com/blog/building-esp8266-weather-station-part-ii/)
 * [ESP8266 Colored Weather Station](https://www.instructables.com/id/ESP8266-Colored-Weather-Station/)

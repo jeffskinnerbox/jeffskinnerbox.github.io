@@ -94,6 +94,9 @@ The device will continuously record its location, even when disconnected from th
 * A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
     * [WiGLE.net](https://wigle.net/)
 
+#Bluetooth
+* [Get Apple To Track Your Bluetooth Devices For You](https://hackaday.com/2021/03/05/get-apple-to-track-your-bluetooth-devices-for-you/)
+
 # WiFi and Cell ID Positioning
 Wi-Fi “sniffing” is a great way to do rough location processing.
 A sensor reads the MAC ID and signal strength of WiFi Access Points nearby,

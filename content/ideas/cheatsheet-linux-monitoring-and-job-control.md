@@ -125,6 +125,9 @@ audit trail of the commands and their arguments."
 * [What you probably didn’t know about sudo](https://opensource.com/article/19/10/know-about-sudo)
 * [sudo blog](https://blog.sudo.ws/)
 
+# Cron and Anacron
+* [How to use the Linux anacron command](https://opensource.com/article/21/2/linux-automation)
+
 # Nohup vs. Screen vs. Setid
 One thing must be clarified, using [screen][06] and nohup, you can return and check the output of the running commands, with screen because you can attach a screen session, and with nohup, because you can check the output file.
 
@@ -247,7 +250,7 @@ systemd init system, which has nowadays been adopted by the majority of Linux di
 # Pathological Processes
 _You describe a person or their behaviour as pathological when they behave in an extreme and unacceptable way, and have very powerful feelings which they cannot control._
 
-## Orphan Process - When a process become a daemon with intending so
+## Orphan Process - When a process become a daemon without intending so
 * [Orphan Process](http://www.geekride.com/orphan-zombie-process/)
 * [Cause a process to become a daemon](http://www.microhowto.info/howto/cause_a_process_to_become_a_daemon.html)
 * [daemonizing bash](http://blog.n01se.net/blog-n01se-net-p-145.html)

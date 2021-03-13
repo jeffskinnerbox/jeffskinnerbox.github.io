@@ -33,7 +33,15 @@ and verify design simulations to make sure systems and their components work pro
 * [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 * [#329: Presentation recording: Intro to the VNA and NanoVNA for BayCon 2021](https://www.youtube.com/watch?v=o1eLK4EMpEQ)
 
+# Measuring RF Cable Impedance
+* [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
+
 # Spectrum Analyzer
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
 * [Product Review: The TinySA, A Shirt-Pocket Sized Spectrum Analyzer](https://hackaday.com/2020/11/09/product-review-the-tinysa-a-shirt-pocket-sized-spectrum-analyzer/)
 
+# Time-Domain Reflectometry (TDR)
+A time-domain reflectometer (TDR) is an electronic instrument used to determine the characteristics of electrical lines by observing reflected waveforms.
+It can be used to characterize and locate faults in metallic cables  It can also be used to locate discontinuities in a connector, printed circuit board, or any other electrical path.
+
+* [Dead Simple Time-Domain Reflectometry with just a Battery and an Oscilloscope](https://hackaday.com/2020/12/14/dead-simple-time-domain-reflectometry-with-just-a-battery-and-an-oscilloscope/)

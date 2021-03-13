@@ -19,6 +19,8 @@ Adafruit offers a devboard
 * [Sport Your Hacker Status on Your Wrist with Watchy — an ESP32-Powered Smartwatch!](https://www.hackster.io/news/sport-your-hacker-status-on-your-wrist-with-watchy-an-esp32-powered-smartwatch-3db389fd4bc3)
     * [Building an IoT badge with ESP8266 + ePaper](https://medium.com/@monkeytypewritr/esp8266-iot-badge-epaper-c6ef25bdd521)
     * [Badgy Is an ESP8266 E Ink Badge for DEF CON and More](https://www.hackster.io/news/badgy-is-an-esp8266-e-ink-badge-for-def-con-and-more-57ee5f3d54e2)
+* [The IEEE Builds A Smart Watch](https://hackaday.com/2021/03/06/the-ieee-builds-a-smart-watch/)
+* [Watchy: The Hackable $50 Smartwatch](https://spectrum.ieee.org/geek-life/hands-on/watchy-the-hackable-50-smartwatch)
 
 ## OpenSmartWatch
 * [There's Something ESPecially Impressive About the OpenSmartWatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)

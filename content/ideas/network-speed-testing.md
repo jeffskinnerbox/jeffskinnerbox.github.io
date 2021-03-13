@@ -26,6 +26,12 @@
 * [7 tools for analyzing performance in Linux with bcc/BPF](https://opensource.com/article/17/11/bccbpf-performance)
 * [Netflix FlameScope](https://medium.com/netflix-techblog/netflix-flamescope-a57ca19d47bb)
 
+# What Is Throughput in Networking?
+* [What Is Throughput in Networking?](https://www.dnsstuff.com/network-throughput-bandwidth)
+
+
+
+
 
 I have had some significant performance problems with computer vision projects using OpenCV.
 The project worked reasonable while on my home network or when using my JetPack.

@@ -55,21 +55,6 @@ Then using [OpenSCAD][02], I made some modifications that are reflected in the O
 
 
 
-# Power Supplies
-Powering your projects using USB-C Power Delivery
-
-There is a peculiar side effect of the popularity of the USB-C.
-It has increased the availability of simple, portable programmable DC power supplies.
-
-There are several different options for powering your project using USB-C Power Delivery,
-ranging from ready made solutions to ICs you might include on your PCB. USB-C Power Delivery (PD) is a standard that supports up to 100W of power.
-
-* [DIY USB Type-C Power Delivery Trigger Board](https://www.instructables.com/DIY-USB-Type-C-Power-Delivery-Trigger-Board/)
-* [Here is why USB Type-C is AWESOME and how you can use Power Delivery for your electronics!](https://www.youtube.com/watch?v=OwAZqJ4wpJg)
-* [How to power ANYTHING using USB-C Power Delivery and the ZY12PDN PD Trigger Board](https://www.youtube.com/watch?v=aIHj3qMRqqE)
-* [A Plethora Of Power Delivery Potential](https://hackaday.com/2020/10/23/a-plethora-of-power-delivery-potential/)
-
-
 
 [01]:https://www.thingiverse.com/thing:2789890
 [02]:https://www.openscad.org/

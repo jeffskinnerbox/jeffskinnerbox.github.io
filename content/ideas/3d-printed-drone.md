@@ -14,6 +14,9 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 
 * [Intro to Aerodynamics: How Do Airplanes Fly?](https://www.youtube.com/watch?v=Z1FAAJ4hUaQ)
 
+# RC Link Protocol
+* [ExpressLRS: Open Source, Low Latency, Long Range RC Protocol ](https://hackaday.com/2021/01/19/expresslrs-open-source-low-latency-long-range-rc-protocol/)
+
 # Regulations / FAA Rules
 * [Federal Aviation Administration Announces Major Drone Rule Changes](https://hackaday.com/2020/12/29/federal-aviation-administration-announces-major-drone-rule-changes/)
 
@@ -46,6 +49,10 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
 * [Flies Like A Quadcopter, But This Drone Design Has Only One Propeller](https://hackaday.com/2020/11/02/flies-like-a-quadcopter-but-this-drone-design-has-only-one-propeller/)
 * [How to Build an FPV Drone (under $150)!](https://www.instructables.com/How-to-Build-an-FPV-Drone-under-150/)
+
+### NanoLongRange
+* [The #NanoLongRange by Dave_C_FPV](https://www.thingiverse.com/thing:4769576)
+* [Attack of the Flying 18650s](https://hackaday.com/2021/03/03/attack-of-the-flying-18650s/)
 
 # Hackable Drones
 * [A Hackable Drone Without All The Wiring](https://hackaday.com/2020/05/02/a-hackable-drone-without-all-the-wiring/)
@@ -91,6 +98,9 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [Serial Studio: Easily Visualise And Log Serial Data](https://hackaday.com/2021/01/31/serial-studio-easily-visualise-and-log-serial-data/)
 * [Introducing Serial Studio, a dashboard software for serial port projects](https://www.alex-spataru.com/blog/introducing-serial-studio)
 * [Serial-Studio](https://github.com/Serial-Studio/Serial-Studio)
+
+# Finding lost Drone
+* [Lost A Lightweight Quadcopter? Here Are The Best Ways To Find It](https://hackaday.com/2021/03/06/lost-a-lightweight-quadcopter-here-are-the-best-ways-to-find-it/)
 
 # Other
 * [The Drone That Can Play Dodgeball](https://hackaday.com/2020/03/23/the-drone-that-can-play-dodgeball/)

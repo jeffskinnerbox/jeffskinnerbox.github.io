@@ -122,6 +122,7 @@ by building your own coherer.
 * [Negative Resistance Oscillator](http://www.sparkbangbuzz.com/index.html)
 * [Dust Off Those AM Radios, There’s Something Good On!](https://hackaday.com/2018/01/12/what-to-do-with-all-of-those-mid-century-and-pre-war-vintage-am-radios-build-your-own-am-radio-station/)
 * [A One-Transistor Ham Transmitter Anyone Can Build](https://hackaday.com/2021/01/20/a-one-transistor-ham-transmitter-anyone-can-build/)
+* [Getting On The Air With A 10-Minute-ish Ham Transmitter](https://hackaday.com/2021/03/11/getting-on-the-air-with-a-10-minute-ish-ham-transmitter/)
 
 # Receiver
 * [Alfred P. Morgan: A Generation’s Radio Hacker](http://hackaday.com/2015/12/11/alfred-p-morgan-a-generations-radio-hacker/)

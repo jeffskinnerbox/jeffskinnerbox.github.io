@@ -156,8 +156,6 @@ The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fi
 
 * [USB-C Is Taking Over… When, Exactly?](https://hackaday.com/2020/06/23/usb-c-is-taking-over-when-exactly/)
 * [The Wonderful World Of USB Type-C](https://hackaday.com/2018/08/17/the-wonderful-world-of-usb-type-c/)
-
-#### Power Delivery
 * [Here is why USB Type-C is AWESOME and how you can use Power Delivery for your electronics!](https://www.youtube.com/watch?v=OwAZqJ4wpJg)
 
 ## The Annoyances of USB Charging

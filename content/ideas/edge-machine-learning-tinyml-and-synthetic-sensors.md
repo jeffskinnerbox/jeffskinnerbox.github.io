@@ -32,6 +32,8 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 # SensiML
 * [SensiML](https://sensiml.com/)
+* [SensiML Introduces Free Community Edition of Analytics Toolkit](https://sensiml.com/plans/community-edition/)
+* [Getting Started with the QuickFeather Dev Kit and SensiML](https://www.hackster.io/gatoninja236/getting-started-with-the-quickfeather-dev-kit-and-sensiml-9881a3)
 
 # TensorFlow Lite
 * [TensorFlow Lite](https://www.tensorflow.org/lite)

@@ -26,6 +26,8 @@ Faust (Functional Audio Stream) is a functional programming language for sound s
 A music sequencer (or audio sequencer or simply sequencer) is a device or application software that can record, edit, or play back music, by handling note and performance information in several forms, typically CV/Gate, MIDI, or Open Sound Control (OSC), and possibly audio and automation data for DAWs and plug-ins
 * [Adding MIDI To A Mini Synth Is Easy As Pi](https://hackaday.com/2020/09/21/adding-midi-to-a-mini-synth-is-easy-as-pi/)
 * [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
+* [Stochastic Markov Beats](https://hackaday.com/2021/02/20/stochastic-markov-beats/)
+* [12-Note Polyphony On An Arduino Synth](https://hackaday.com/2021/02/19/12-note-polyphony-on-an-arduino-synth/)
 
 
 # ADC and DAC

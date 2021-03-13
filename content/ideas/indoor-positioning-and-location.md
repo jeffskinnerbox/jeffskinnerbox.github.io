@@ -126,3 +126,6 @@ Get access to all of your favourite positioning technologies through a single AP
 # Other
 * [a monostatic active sonar using a piezo element and microphone](http://hackaday.com/2015/01/26/sonar-built-from-piezo-and-microphone/)
 * [Combination of Phone Sensors and Neural Networks Could Allow Hackers to Steal PINs](https://www.allaboutcircuits.com/news/how-phone-sensors-and-neural-networks-team-up-to-help-hackers-steal-pins/?utm_source=All+About+Circuits+Members&utm_campaign=4c598b9402-EMAIL_CAMPAIGN_2017_05_10&utm_medium=email&utm_term=0_2565529c4b-4c598b9402-270523833/)
+
+# Sonar Sensor Array
+* [Building a sonar sensor array with Arduino and Python](https://towardsdatascience.com/building-a-sonar-sensor-array-with-arduino-and-python-c5b4cf30b945)

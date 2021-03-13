@@ -1,5 +1,6 @@
 
 # Build This?
+* [DIY 50,000 Volt Arc Lighter Powered Tesla Coil (ft. Integza)](https://www.youtube.com/watch?v=4GRyxuRIPPo)
 * [SLAYER EXCITER - Tutorial, Explanation, and More](https://www.youtube.com/watch?v=AehL3BodduE&t=339s)
 * [Slayer Exciter Circuit, Using a Tesla Coil](https://www.youtube.com/watch?v=KzSoabcQYMg)
 * [Make your own Tesla Coil (Part 1) || Slayer Exciter Circuit](https://www.youtube.com/watch?v=LbTyEratSTI)
@@ -12,9 +13,11 @@
 * https://www.youtube.com/user/thegeekgroup/search?query=tesla
 
 # History
+* [History of the Tesla coil](https://en.wikipedia.org/wiki/History_of_the_Tesla_coil)
 * [How Does a Tesla Coil Work? A Historical Deep Dive](https://www.youtube.com/watch?v=IN9jb3fzZd0&t=131s)
 * [Who Invented Wireless? Marconi, Lodge or Tesla?](https://www.youtube.com/watch?v=dc41FCzeZNw)
 * [Tesla Fact vs. Fiction: Why the Public Perception is Wrong](https://www.youtube.com/watch?v=6331JXvOUGY)
+* [The Secret Life of Lightning: The Science of Giant Tesla Coils | Greg Leyh](https://www.youtube.com/watch?v=ntIBDVCfATA)
 
 ## Bug Zapper Racket Fly Swatter
 I purchased a $4 [Electronic Fly Swatter from Harbor Freight Tools][01]
@@ -25,7 +28,9 @@ It can put out about 600V,
 but some people have claimed to modification it to create [20,000V][03] and even [40,000V][04].
 
 # High Voltage Supply
+* [DIY Plasma Physics Powersource (Mini 20,000v Flyback)](https://www.youtube.com/watch?v=qaGmNRZG-Yg&t=70s)
 * [Super Simple DIY 10,000v AC Supply!](https://www.youtube.com/watch?v=OU11JRdG0fE&t=85s)
+* [High Voltage Transformer 20kV](https://www.rmcybernetics.com/shop/high-voltage/flyback-high-frequency-high-voltage-transformer-20kv)
 
 # Tesla Coil
 Maybe I could even do some exploring of spectrum mysteries like
@@ -33,6 +38,28 @@ Maybe I could even do some exploring of spectrum mysteries like
 
 # Simple Tesla Coil (But Dangerous)
 * [Extremely Simple Tesla Coil With Only 3 Components](https://hackaday.com/2021/01/12/extremely-simple-tesla-coil-with-only-3-components/)
+
+# Making a Spark-Gap Transmitter
+* [Making a Spark-Gap Transmitter](https://www.youtube.com/watch?v=SnKKj2bonAI&feature=youtu.be)
+* [Revolutionary Spark Gap Radio REBUILT!!](https://www.youtube.com/watch?v=7QlQ__JzKNI&t=9s)
+
+# Tesla Coil Experiments
+* [3 AMAZING EXPERIMENTS](https://www.youtube.com/watch?v=yClsj2wZ5GU&feature=youtu.be)
+* [Tesla Coil Experiments](https://www.rmcybernetics.com/science/diy-experiments/tesla-coil-experiments)
+* [7 Cool and Creative Tesla Coil Experiments](https://www.techeblog.com/7-cool-and-creative-tesla-coil-experiments/)
+
+
+# Electrostatic Generator
+* [Wimshurst Machine](http://www.sparkitelectrostatics.com/)
+
+# Counterpoise
+A counterpoise is a conductor or system of conductors used an earth or ground substitute in antenna systems.
+* https://www.w8ji.com/counterpoise_systems.htm
+* Ground vs Counterpoise - https://sites.google.com/view/kn9b/ground-vs-counterpoise
+
+
+
+
 
 
 ------
@@ -79,6 +106,17 @@ is genrerally given credit for its discovery but Henri Poincare made observation
 ### Inductor Resonance
 ### Resonant Frequency
 ### Self Resonant Frequency
+### Magnet Wire
+[Magnet wire][07] is a copper or aluminium wire coated with a very thin layer of insulation.
+It is used in the construction of transformers, inductors, motors, generators, speakers,
+electromagnets, and other applications that require tight coils of insulated wire.
+The wire itself is typically fully [annealed][08], electrolytically refined copper.
+The insulation is typically made of tough polymer film materials
+(typically not enamel wire dispite often being called "enameled wire").
+Both common copper wires and magnet wire are same by conduct,
+but the magnet copper wire is specially coated with thin and high heat absorbing material.
+Thin insulated material help to make more turns in a short area and capable for heat absorb.
+
 
 
 
@@ -113,22 +151,29 @@ The flyback transformer circuit was invented as a means of controlling the horiz
 
 ------
 
+**Build This - Telsla Coil Starter Project**
+* [DIY 3 volt tesla coil MUSEUM QUALITY](https://www.youtube.com/watch?v=zbV1zyg_4qU)
+* [SEE-THROUGH Portable Tesla Coil ( DIY, Museum Quality)](https://www.youtube.com/watch?v=jMgG3qrt-JM)
+* [A Miniature Power Supply for High Voltage Hacking](https://hackaday.com/2020/08/23/a-miniature-power-supply-for-high-voltage-hacking/)
+
+**Build This - Voltage Multiplier Starter Project**
+* [DIY Desktop Lightning Tower (USB rechargeable!](https://www.youtube.com/watch?v=YYKlfFYTl-8)
+* [Cockcroft-Walton Multiplier](https://www.youtube.com/watch?v=ep3D_LC2UzU)
+
+# Tesla Coil Build Guides
+* [The Ultimate Tesla Coil Build Guide (HD): EVERYTHING you need to know!](https://www.youtube.com/watch?v=wiaehhgtasM&feature=youtu.be)
 
 
 ## Tesla Coil
-The Tesla coil provides a high voltage demonstration of a resonant transformer.
+A Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla in 1891.
+t is used to produce high-voltage, low-current, high frequency alternating-current electricity.
+Tesla coil circuits were used commercially in [sparkgap radio transmitters][09] for wireless telegraphy until the 1920s.
 
 * https://nuwaves.com/the-tesla-coil-a-basic-rf-resonant-transformer/
 * https://my.eng.utah.edu/~kier/tesla/theory.html
 
 What did Nikola Tesla have in mind?
 Nikola Tesla wanted to beam power without wires.
-
-**Build This - Starter Project**
-* [DIY 3 volt tesla coil MUSEUM QUALITY](https://www.youtube.com/watch?v=zbV1zyg_4qU)
-* [SEE-THROUGH Portable Tesla Coil ( DIY, Museum Quality)](https://www.youtube.com/watch?v=jMgG3qrt-JM)
-* [A Miniature Power Supply for High Voltage Hacking](https://hackaday.com/2020/08/23/a-miniature-power-supply-for-high-voltage-hacking/)
-
 
 * [Tesla Coil - Wireless Power Machine 3D Printed (ft .Plasma Channel)](https://www.youtube.com/watch?v=ZITh9C_7hbg)
 * [Tesla Coil Electric Bikes Is Wireless](https://hackaday.com/2020/09/09/tesla-coil-electric-bikes-is-wireless/)
@@ -217,8 +262,12 @@ Paschen's law is an equation that gives the breakdown voltage, that is,
 the voltage necessary to start a discharge or electric arc, between two electrodes in a gas
 as a function of pressure and gap length.
 
+* [Lost Technology: Measure High Voltage using Spheres](https://www.youtube.com/watch?v=GpWwAfBywmE)
+* [15kV Spark Gap Experiment](https://www.youtube.com/watch?v=10IkDKV0p28)
 * [Paschen's law](https://en.wikipedia.org/wiki/Paschen%27s_law)
 * [Lost Technology: Measure High Voltage using Spheres](https://www.youtube.com/watch?v=GpWwAfBywmE)
+* [MEASURING High Voltage Generators (15KV, 20KV, 400KV, 1000KV)](https://www.youtube.com/watch?v=00U9zTZParg)
+* [High Voltage Generator Comparison (15KV, 20KV, 400KV, 1000KV)](https://www.youtube.com/watch?v=5sfVnczqb8g)
 
 ## Conduction and Breakdown in Gases
 * https://www.eeeguide.com/category/conduction-and-breakdown-in-gases/
@@ -238,7 +287,7 @@ The Townsend discharge or Townsend avalanche is a gas ionisation process where f
 [04]:https://www.youtube.com/watch?v=FrfexSDo2P0&feature=emb_rel_end
 [05]:https://en.wikipedia.org/wiki/Transformer_types
 [06]:https://www.quantamagazine.org/hidden-heroines-of-chaos-ellen-fetter-and-margaret-hamilton-20190520/
-[07]:
-[08]:
-[09]:
+[07]:https://en.wikipedia.org/wiki/Magnet_wire
+[08]:https://en.wikipedia.org/wiki/Annealing_(metallurgy)
+[09]:https://en.wikipedia.org/wiki/Spark-gap_transmitter
 [10]:

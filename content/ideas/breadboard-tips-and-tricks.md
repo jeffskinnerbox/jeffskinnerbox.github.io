@@ -32,7 +32,24 @@ A potentiometer is a three-terminal resistor with a sliding or rotating contact 
 # Device Panel
 [Panel-Mounted Breadboard Accessories](https://hackaday.com/2015/08/14/panel-mounted-breadboard-accessories/)
 
+# Magnet Wire
+[Magnet wire][07] is a copper or aluminium wire coated with a very thin layer of insulation.
+It is used in the construction of transformers, inductors, motors, generators, speakers,
+electromagnets, and other applications that require tight coils of insulated wire.
+The wire itself is typically fully [annealed][08], electrolytically refined copper.
+The insulation is typically made of tough polymer film materials
+(typically not enamel wire dispite often being called "enameled wire").
+
+* [Don’t Scrape Magnet Wire, Do This Instead](https://hackaday.com/2020/03/09/dont-scrape-magnet-wire-do-this-instead/)
+
+
 Breadboard
 Dupont Wire
 Male and Female Headers Connector
 Break Away Single Row Round Headers Machine Pin Female
+
+
+
+
+[07]:https://en.wikipedia.org/wiki/Magnet_wire
+[08]:https://en.wikipedia.org/wiki/Annealing_(metallurgy)

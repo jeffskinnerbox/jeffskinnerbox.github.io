@@ -39,6 +39,7 @@
 # History of Time
 * [A revolution in time](https://aeon.co/essays/when-time-became-regular-and-universal-it-changed-history)
 * [The First Clock In America Failed, And It Helped Revolutionize Physics](https://medium.com/starts-with-a-bang/the-first-clock-in-america-failed-and-it-helped-revolutionize-physics-223f8ab845d9)
+* [Why Don't We Have Metric Time?](https://www.youtube.com/watch?v=kUIYI34CdkE)
 
 # Horology
 Horology is the study of the measurement of time.
@@ -50,6 +51,8 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [tourbillon](https://en.wikipedia.org/wiki/Tourbillon)
 * [Jaeger-LeCoultre: Tourbillon watches explained by Jeff Kingston](https://www.youtube.com/watch?v=u7sE3L-V36E)
 * [Gyrotourbillion Blesses The Eyes, Hard to Say](https://hackaday.com/2018/06/30/gyrotourbillion-blesses-the-eyes-hard-to-say/)
+* [Gyrotourbillon - printed 3D](https://www.youtube.com/watch?v=DDE_oqEuyxM&feature=youtu.be)
+* [Gyrotourbillon](https://www.thingiverse.com/thing:2820444)
 * [Spiral Exhaust Movement](https://cults3d.com/en/3d-model/various/mouvement-echappement-spiral)
 * [3D-printed Watch with Tourbillon](https://www.thingiverse.com/thing:1249221)
     * [3D-printed Watch with Tourbillon - How it's made](https://www.youtube.com/watch?v=Go8woPGOggg&app=desktop)
@@ -59,6 +62,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [3D-Printed Tourbillon Demo Keeps the Time with Style](https://hackaday.com/2019/02/04/3d-printed-tourbillon-demo-keeps-the-time-with-style/)
 * [3D Print a Working Tourbillon Clock](https://makezine.com/projects/3d-printed-tourbillon-clock/)
 * [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
+* [3D Printed Tourbillon Mechanical Clock](https://www.youtube.com/watch?v=4DHofJbkiFo&feature=youtu.be)
 * [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
     * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
 * [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)

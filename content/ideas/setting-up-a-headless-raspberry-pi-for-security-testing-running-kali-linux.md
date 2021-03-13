@@ -100,6 +100,8 @@ You find many articles about how to turn a Raspberry Pi into a hacking platform:
 
 # HoneyPot
 * [HoneyPi – an easy honeypot for a Raspberry Pi](https://trustfoundry.net/honeypi-easy-honeypot-raspberry-pi/)
+* [How I Setup My SSH Honeypot](https://medium.com/@rockprofile/how-i-setup-my-ssh-honeypot-b34b2bd3fba9)
+* [I Opened My Connection To SSH Attacks, And These Were The Requests I Saw](https://medium.com/@rockprofile/i-opened-my-connection-to-ssh-attacks-and-these-were-the-requests-i-saw-a5999d62e511)
 
 # IoT Security
 * [ZYMBIT - Security Module For Raspberry Pi](https://www.zymbit.com/zymkey/)

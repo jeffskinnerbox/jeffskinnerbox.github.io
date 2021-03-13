@@ -37,9 +37,14 @@ I just need something we can try out to see if an idea is worth developing furth
 Then there is the topic of a dashboard and notifications to provide status to me.
 
 * Scrolling Dashboard
-* Alexa
+    * Make it a device connected with Home Assistant - /home/jeff/blogging/content/ideas/getting-started-with-home-assistant.md
+* Alexa / Google
+    * Include a speaker and Google Assistant - /home/jeff/blogging/content/ideas/google-aiy-projects.md
 * Telegram
 * Speaker
+    * Use a speaker, send it text-to-speach - /home/jeff/blogging/content/articles/speech-synthesis-on-the-raspberry-pi.md
+    * Clone a voice pattern to use with speaker - /home/jeff/blogging/content/ideas/voice-cloning.md
+    * Make the speaker into an intercom via Mumble - /home/jeff/blogging/content/ideas/raspberry-pi-zero-walkie-talkies-via-mumble.m
 
 Native Informational Features
 * Accurate Clock refresh off Internet Time Servers

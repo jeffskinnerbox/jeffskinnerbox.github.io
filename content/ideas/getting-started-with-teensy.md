@@ -59,6 +59,7 @@ https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board
 * [NuttX Real-Time Operating System](http://www.nuttx.org/)
 * [What is the NuttX RTOS and why should you care?](https://www.embedded.com/electronics-blogs/say-what-/4458729/What-is-the-NuttX-RTOS-and-why-should-you-care-)
 * [New Verizon Developer Toolkit Makes IoT Projects Easy for Amazon Web Services Users](https://iotbusinessnews.com/2018/11/30/27014-new-verizon-developer-toolkit-makes-iot-projects-easy-for-amazon-web-services-users/)
+* [Real-Time OS Basics: Picking The Right RTOS When You Need One](https://hackaday.com/2021/02/24/real-time-os-basics-picking-the-right-rtos-when-you-need-one/)
 
 # OTA
 * [Over the Air Updates for Your Arduino](https://hackaday.com/2018/01/18/over-the-air-updates-for-your-arduino/)

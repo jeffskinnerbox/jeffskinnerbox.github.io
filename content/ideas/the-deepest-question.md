@@ -108,6 +108,8 @@ A function is a relation that uniquely associates members of one set with member
 * [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
 
 # What about Chaos Theory and Emergent Properties?
+* [Can Maths Predict The Future?](https://www.youtube.com/watch?v=wtnA6ouIu0U)
+* [Can Maths Predict the Future? - Hannah Fry at Ada Lovelace Day 2014](https://www.youtube.com/watch?v=43w7rcYPUnI)
 * [This equation will change how you see the world (the logistic map)](https://www.youtube.com/watch?v=ovJcsL7vyrk)
 * [A Single Equation that Rules the World](https://medium.com/cantors-paradise/a-single-equation-that-rules-the-world-7673d4e5c359)
 * [Chaos in One Innocent Equation](https://medium.com/swlh/chaos-in-one-innocent-equation-168d0bd31bad)
@@ -116,13 +118,14 @@ A function is a relation that uniquely associates members of one set with member
 * [Machine Learning’s ‘Amazing’ Ability to Predict Chaos](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/)
 
 # The Hidden Structure of the Universe
-* [A New Map of All the Particles and Forces](https://www.quantamagazine.org/a-new-map-of-the-standard-model-of-particle-physics-20201022)
-* [Chapter 2:]() - Coming October 29
-* [Chapter 3:]() - Coming November 5
-* [Chapter 4:]() - Coming November 12
-* [What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
+* [The Hidden Structure of the Universe](https://www.quantamagazine.org/the-hidden-structure-of-the-universe-20201022/)
+* [Chapter 1: A New Map of All the Particles and Forces](https://www.quantamagazine.org/a-new-map-of-the-standard-model-of-particle-physics-20201022)
+* [Chapter 2: The Most Famous Paradox in Physics Nears Its End](https://www.quantamagazine.org/the-black-hole-information-paradox-comes-to-an-end-20201029/)
+* [Chapter 3: The Cosmologist Who Dreams in the Universe’s Dark Threads](https://www.quantamagazine.org/harvard-cosmologist-cora-dvorkin-dreams-in-dark-matter-20201105/)
+* [Chapter 4: What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 
 # What about Quantum Theory?
+* [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
 * [EEVblog #1316 - Quantum Computing for Electrical Engineers](https://www.youtube.com/watch?v=nOQhdgY8aBM)
 * [Long Version: Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0)

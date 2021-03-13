@@ -1,4 +1,15 @@
 
+READ THIS
+* [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
+* [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/)
+* [Understanding Sockets](https://www.digitalocean.com/community/tutorials/understanding-sockets)
+
+
+
+* [How To Inspect Your Local Network](https://medium.com/swlh/how-to-inspect-your-local-network-4187d7ae3b10)
+
+
+* [14 Essential Network Troubleshooting Tools](http://www.networkcomputing.com/networking/14-essential-network-troubleshooting-tools/2076793987)
 * [Working with systemd-networkd](https://medium.com/100-days-of-linux/working-with-systemd-networkd-e461cfe80e6d)
 * [NetBeez Blog](https://netbeez.net/blog/)
 * [Getting the Most Out of Linux Network Troubleshooting Tools](https://medium.com/swlh/getting-the-most-out-of-linux-network-troubleshooting-tools-23bd72e20330)
@@ -12,7 +23,6 @@
 * [80 Linux Monitoring Tools](https://blog.serverdensity.com/80-linux-monitoring-tools-know/)
 * [SysUsage: the sysstat and sar grapher](http://sysusage.darold.net/index.html)
 * [10 Useful Sar (Sysstat) Examples for UNIX / Linux Performance Monitoring](http://www.thegeekstuff.com/2011/03/sar-examples/?utm_source=feedburner)
-* [14 Essential Network Troubleshooting Tools](http://www.networkcomputing.com/networking/14-essential-network-troubleshooting-tools/2076793987)
 * [Unix Toolbox - a collection of Unix/Linux/BSD commands for advanced users](http://cb.vu/unixtoolbox.xhtml)
 
 * [7 Common Network Latency Culprits](https://www.networkcomputing.com/networking/7-common-network-latency-culprits/851316634)
@@ -222,14 +232,18 @@ any interface not listed there will remain under NetworkManager control.
 
 * **Tools for Monitoring / Controlling Network Time**
 
-* **Tools for Monitoring Filesystem and Disk IO**
+* **Tools for Monitoring Filesystem, Disk IO, Linux in General**
     * [`iotop`][97] shows you the total and current disk read and write numbers for the file system
     and also shows you who is eating up the most disk I/O.
     * [`iostat`][98] is used for monitoring system input/output statistics for devices and partitions.
     It monitors system input/output by observing the time the devices are active
     in relation to their average transfer rates.
-    * [`lsof`][]
-    * [`atop`][]
+    * [`lsof`][139] is short for "list open files", and reports all open files and the processes that opened them.
+    * [`atop`][140], [similar to `top` and `htop`][141],
+    is an interactive monitor and shows hardware resources cpu, memory, disk and network status.
+    * [`nmon`][142]
+    * [`collectl`][143]
+    * [`glances`][144] - nice!
 
 * **Tools for Monitoring / Scanning IP Network**
     * [`nmap`][29] (network mapper) is a security tool for network exploration,
@@ -432,6 +446,133 @@ http://linoxide.com/linux-command/use-ip-command-linux/
 [Cheat Sheets](http://packetlife.net/library/cheat-sheets/)
 
 ################################################################################
+
+
+
+------
+
+
+
+# How To Inspect Your Local Network
+Home network, all networks for that matter,
+increasingly grow complex and "out of control" overtime.
+Device are added, router, firewalls, servers, etc. are added that change how you network supports your needs.
+In time, things stop working or behave poorly, or worst yet, security vulnerabilities are exposed.
+So do you know how to scan your local network to understand how its configure
+to correct these anomalies?
+
+Few of us know how to do this.
+How do you get a list of all the device on your network?
+How do you know they are your devices and not some rouge, parasitic device some place there?
+How do you get a list of every open port on your computer that someone my exploit?
+What is connection via your WiFi vs Ethernet?
+
+The list of questions seems endless.
+The following guide describes how to inspect your network using a Linux server on that network.
+Be aware, doing this type of inspection on the public Internet
+or on a network other than your own
+[can get you sued, fired, expelled, jailed, or banned by your ISP][137].
+
+* [How To Inspect Your Local Network](https://medium.com/swlh/how-to-inspect-your-local-network-4187d7ae3b10)
+
+## Do We Have a Network COnnection?
+To get a list of currently active and inactive network connections,
+we can use the `ip` command.
+(**Note:** `ip` has been replacing the `ifconfig` command since `iproute2` tools became available).
+The command `ip -c addr show`
+(the `-c` colors the output text,
+`-detail` will give you more information,
+and `-json` will put it all into a nice JSON format)
+will show us everything that has an IP address,
+a MAC address, or is pretending to have one (Virtual Ethernet Device).
+
+```bash
+# list all active, inactive, and virtual network connections
+$ ip -c addr show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:22:4d:83:c1:c8 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.200/24 brd 192.168.1.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::222:4dff:fe83:c1c8/64 scope link
+       valid_lft forever preferred_lft forever
+3: eth1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+    link/ether 00:22:4d:83:c1:d7 brd ff:ff:ff:ff:ff:ff
+4: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 94:db:c9:51:10:ca brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.13/24 brd 192.168.1.255 scope global dynamic wlan0
+       valid_lft 63610sec preferred_lft 63610sec
+    inet6 fe80::96db:c9ff:fe51:10ca/64 scope link
+       valid_lft forever preferred_lft forever
+5: vboxnet0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0a:00:27:00:00:00 brd ff:ff:ff:ff:ff:ff
+6: vboxnet1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0a:00:27:00:00:01 brd ff:ff:ff:ff:ff:ff
+7: vboxnet2: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0a:00:27:00:00:02 brd ff:ff:ff:ff:ff:ff
+8: vboxnet3: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 0a:00:27:00:00:03 brd ff:ff:ff:ff:ff:ff
+```
+
+What does this say:
+
+* **1: lo** is the loopback network connection you find on every network device.
+This is for testing is implemented entirely within your computer
+and is not accessible from outside your computer.
+* **2: eth0 and 3: eth1** the `eth...` stands for Ethernet board and you have two of them.
+On my server and it shows only `eth0` is being used and it has IP address `192.168.1.200`.
+* **4: wlan0** `wl...` stands for wireless LAN, so its a WiFi interface or adapter with IP address `192.168.1.13`.
+* **5: to 8:** are virtual network connection, all currently down, and were established by me many days ago
+while experimenting with Virtualbox and Vagrant.
+
+If you want to just list what are the [network connections, their type, and status][138]:
+
+```bash
+# list network connections, type, and active/inactive status:
+$ ip -details -json address show | jq --join-output ' .[] |
+      if .linkinfo.info_kind // .link_type == "loopback" then
+          empty
+      else
+          .ifname ,
+          ( ."addr_info"[] |
+              if .family == "inet" or .family == "inet6" then
+                  " " + .local
+              else
+                  empty
+              end
+          ),
+          "\n"
+      end'
+
+eth0 192.168.1.200 fe80::222:4dff:fe83:c1c8
+eth1
+wlan0 192.168.1.13 fe80::96db:c9ff:fe51:10ca
+vboxnet0
+vboxnet1
+vboxnet2
+vboxnet3
+```
+
+
+
+------
+
+
+
+# Understanding Sockets
+* [Understanding Sockets](https://www.digitalocean.com/community/tutorials/understanding-sockets)
+
+
+
+------
+
+
+
 
 ## Network Time Protocol (NTP)
 One problem with logging events over a network is that differences in system clocks
@@ -2705,8 +2846,17 @@ could be gathered for this cheat sheet.
 [134]:https://medium.com/@owenou/upterm-secure-terminal-sharing-1f4add94f5ac
 [135]:http://linux.die.net/man/8/iwlist
 [136]:http://linux.die.net/man/8/iwpriv
-[137]:
-[138]:
-[139]:
-[140]:
-
+[137]:https://nmap.org/book/legal-issues.html
+[138]:https://serverfault.com/questions/1019363/using-ip-address-show-type-to-display-physical-network-interface
+[139]:https://www.howtogeek.com/426031/how-to-use-the-linux-lsof-command/
+[140]:https://haydenjames.io/use-atop-linux-server-performance-analysis/
+[141]:https://www.linux-magazine.com/Issues/2014/167/Real-Time-Monitoring-Tools
+[142]:http://nmon.sourceforge.net/pmwiki.php
+[143]:http://collectl.sourceforge.net/
+[144]:https://nicolargo.github.io/glances/
+[145]:
+[146]:
+[147]:
+[148]:
+[149]:
+[150]:

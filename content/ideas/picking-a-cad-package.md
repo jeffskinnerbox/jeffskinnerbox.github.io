@@ -14,6 +14,9 @@
     * [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
     * Electronics Design Automation (EDA)
         * [KiCad](http://www.kicad-pcb.org/)
+* Browser Based CAD
+    * [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
+    * [ Kiri:Moto](https://grid.space/kiri/)
 
 # Electronics Design Automation (EDA)
 Electronic design automation (also referred to as electronic computer-aided design)

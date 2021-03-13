@@ -61,6 +61,7 @@ To to that, you man not start here, but you should certainly finish here:
 # Tutorials on Electronics
 * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
 * [Full 8-Bit Computer On Breadboards](https://hackaday.com/2020/11/23/full-8-bit-computer-on-breadboards/)
+* [8-Bit Computer: UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
 
 # Debugging Electronics
 * [Daniel Samarin - Debugging Electronics: You Can’t Handle the Ground Truth!](https://www.youtube.com/watch?time_continue=10&v=oULeLtcv4n4&feature=emb_logo)
@@ -82,10 +83,6 @@ To to that, you man not start here, but you should certainly finish here:
 
 ## FFT Mode
 See 15:45 minutes into the video. Bottomline ... doesn't work well - [EEVblog #845 - Oscilloscope FFT Comparison](https://www.youtube.com/watch?v=07VkEUUd0eo&feature=youtu.be)
-
-# Vector Display
-* turned his oscilloscope into a vector display - [WATCH VIDEO ON A OSCILLOSCOPE WITH AN ESP32](https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/)
-* [Scopetrex Is A Game Console… For Your Oscilloscope!](https://hackaday.com/2020/05/07/scopetrex-is-a-game-console-for-your-oscilloscope/)
 
 # Power Measurement
 * [POWER MEASUREMENT OSCILLOSCOPE STYLE](https://hackaday.com/2019/04/24/power-measurement-oscilloscope-style/)
@@ -161,7 +158,15 @@ and verify design simulations to make sure systems and their components work pro
 # Probe Calibration
 * [Calibrate probes on Rigol Oscilloscope](https://www.youtube.com/watch?v=vVt1xCKWkJY&feature=youtu.be)
 
-# Chaotic Circuits
+
+
+--------
+
+
+
+# Scope Fun
+
+## Chaotic Circuits
 A Chua's circuit (also known as a Chua circuit)
 is a simple electronic circuit that exhibits classic chaotic behavior.
 It's ease of construction and a real-world example of a chaotic system,
@@ -171,6 +176,16 @@ leading some to declare it ["a paradigm for chaos"][05].
 * [Chua's circuit](https://en.wikipedia.org/wiki/Chua%27s_circuit)
 * [Building Chua's Circuit](http://www.chuacircuits.com/howtobuild1.php)
 * [Robust Op Amp Realization of Chua's Circuit](http://www.physics.smu.edu/scalise/chaoscircuit.pdf)
+
+## Vector Display / X-Y Mode
+Most dual channel oscilloscopes have an XY mode in which the timebase is replaced by the second channel, so instead of a constant sweep frequency the two inputs to be plotted relative to each other.
+
+* turned his oscilloscope into a vector display - [WATCH VIDEO ON A OSCILLOSCOPE WITH AN ESP32](https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/)
+* [Scopetrex Is A Game Console… For Your Oscilloscope!](https://hackaday.com/2020/05/07/scopetrex-is-a-game-console-for-your-oscilloscope/)
+* [Oscilloscope mushrooms on the Rigol DS1054Z](https://www.youtube.com/watch?v=NK5tK6SBO-c)
+* [Vector display](https://trmm.net/Vector_display/)
+* [Vector Display Introduction](https://www.nycresistor.com/2012/09/03/vector-display/)
+* [Comparing XY Mode on Analog and Digital Oscilloscopes](https://www.youtube.com/watch?v=1tTeXPmbxW0)
 
 
 

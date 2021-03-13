@@ -1,4 +1,5 @@
 
+* [Jupyter has a perfect code editor](https://towardsdatascience.com/jupyter-has-a-perfect-code-editor-62147cb9bf21)
 * [IPython Or Jupyter?](https://www.datacamp.com/community/blog/ipython-jupyter)
 * [Jupyter Notebook Tutorial: The Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
 * [Jupyter is now a full-fledged IDE](https://towardsdatascience.com/jupyter-is-now-a-full-fledged-ide-c99218d33095)

@@ -3,11 +3,17 @@
 * [Ultrasonic Distance Sensors Arduino Tutorial and Comparison for HC-SR04, HY-SRF05, US-015](https://www.youtube.com/watch?v=aLkkAsrSibo)
 * [Making a better HC-SR04 Echo Locator](http://uglyduck.ath.cx/ep/archive/2014/01/Making_a_better_HC_SR04_Echo_Locator.html)
 * [Ultrasonic Trimount Brackets](https://blog.tindie.com/2020/08/ultrasonic-trimount-brackets/)
+* [](https://www.dfrobot.com/product-1033.html)
 
 # Other Ultrasonic Sensor
+* [JSN-SR04T Ultrasonic Distance Measuring Sensor Waterproof](https://www.amazon.com/Integrated-Ultrasonic-Transducer-Waterproof-Compatible/dp/B08GZ6NG4N)
 * [Panel Mount Ultrasonic (Sonar) Ranging Module with UART Output](https://www.adafruit.com/product/4665)
 * [Large Ultrasonic (Sonar) Sensor with Horn and UART Output](https://www.adafruit.com/product/4664)
 * [CH101 from TDK InvenSense Ultrasonic Rangefinder](https://www.sparkfun.com/products/17271)
+* [URM06 - PULSE Ultrasonic Sensor](https://www.dfrobot.com/product-1033.html)
+
+## Sonar Sensor Array
+* [Building a sonar sensor array with Arduino and Python](https://towardsdatascience.com/building-a-sonar-sensor-array-with-arduino-and-python-c5b4cf30b945)
 
 # PIR
 * [How PIR modules work and using them to control LED strings.](https://www.youtube.com/watch?v=evZM2_RTvTU)

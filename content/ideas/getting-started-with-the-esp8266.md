@@ -36,6 +36,8 @@ inexpensive (less then $5), and ultimately [game changing][01]
 (**Note:** In [some places][06], you see this device referred to as the Wi07c.)
 Initially, [not much is know about this chip][02]
 but it does appear to have [TI CC3000][03] [like-functionality][05].
+It was meant to be used as a WiFi bridge for other microcontrollers until someone noticed it had way more processing power and memory than those other microcontrollers.
+Around November 2014, the SDK went public and a hacker (Ivan Grokhotkov) released a project to support the ESP8266 from within the Arduino IDE. And as they say "the rest is history".
 
 The ESP8266 has builtin TCP/IP using [LwIP][11],
 supports the [802.11b/g/n standard][10],
@@ -100,6 +102,14 @@ For instance it only has one PWM pin,
 but for $5 it’s a bargain.
 The ESP8266 was already well on its way to becoming a popular DIY tool.
 It’s super cheap, and easy to work with, and easy to get your hands on.
+
+# What Came Next
+* [With the rollout of the ESP32-S2, learn the differences between it and the ESP32 and compare them to the ESP8266.](https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32)
+Even though the ESP8266 has some limitations that could be overlooked, its huge success led to a bigger problem: security. There are literally hundreds of home appliances running on an ESP8266, from smart switches to smart light bulbs to LED drivers or even mosquito killers. And the ESP8266 does not provide any means to secure the code or the data it stores. Anyone with physical access to the device can read your more sensitive information, such as WiFi credentials.
+
+Espressif released the ESP32 in September 2016. The ESP32 tries to address all the issues of it’s bigger brother: it has lots of GPIOs, ADCs, and a DAC. It has a faster dual-core, Bluetooth, touch sensors and, most important, hardware encryption and code signature.
+
+In March 2019, some pictures of a new chip labeled “Chip7 2-2-A” were leaked.  Speculations were put to rest last month when Espressif announced the ESP32-S2.
 
 # Different Types of ESP8266 PCB
 There are [several types of ESP8266 modules][29] floating around out there,
@@ -2006,6 +2016,8 @@ configured for periodic deep sleep to preserve battery life
 This build was helped and guided by the following blog posts:
 
 * [ESP8266 NodeMCU – DHT22 humidity sensor with MQTT and deep sleep](https://odd-one-out.serek.eu/esp8266-nodemcu-dht22-mqtt-deep-sleep/)
+* [ESP8266 low power DHT11 temperature and moisture remote sensor](https://shepherdingelectrons.blogspot.com/2020/03/esp8266-low-power-dht11-temperature-and.html#more)
+* [Enable DeepSleep on an ESP8266-01](https://www.instructables.com/Enable-DeepSleep-on-an-ESP8266-01/)
 * [IoT Motion Detector With NodeMCU and BLYNK](https://www.hackster.io/mjrobot/iot-motion-detector-with-nodemcu-and-blynk-f3888e)
 * [PIR sensor, ESP8266 and MQTT](https://openhardwarecoza.wordpress.com/2016/03/10/pir-sensor-esp8266-and-mqtt/)
 

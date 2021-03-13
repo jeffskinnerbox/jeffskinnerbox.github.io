@@ -1,3 +1,7 @@
+
+READ THIS
+* [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/)
+
 * SDX Central - https://www.sdxcentral.com/
 * David Bombal - https://www.youtube.com/user/ConfigTerm/search?query=ryu
 
@@ -47,6 +51,9 @@ and arbitrary destination tree based forwarding tables for Ethernet switches.
 Program all those virtual switches based on calculated forwarding tables and see the effects of different routing policies via round trip delays (ping) and throughput (iperf) in Mininet.
 
 * https://www.grotto-networking.com/SDNfun.html#a-graph-with-attributes-and-json-export
+
+# Virtual Private Network (VPN)
+* [How to Create a VPN Server With Raspberry Pi](https://medium.com/pcmag-access/how-to-create-a-vpn-server-with-raspberry-pi-989b8831b9c8)
 
 # Definitions
 https://www.zdnet.com/article/software-defined-networking-101-what-sdn-is-and-where-its-going/

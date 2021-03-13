@@ -63,6 +63,8 @@ Some examples of this are:
 ## Custom Made Antenna
 * [3D Printer Makes Ham Antenna Portable](https://hackaday.com/2021/02/09/3d-printer-makes-ham-antenna-portable/)
 * [The $50 Ham: A Cheap Antenna For The HF Bands](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)
+* [2 Meter Quadrifilar Helicoidal Antenna - 3D Print Your Next Antenna](https://hackaday.com/2021/02/19/3d-print-your-next-antenna/)
+* [Capstan Winch Central To This All-Band Adjustable Dipole Antenna](https://hackaday.com/2021/02/23/capstan-winch-central-to-this-all-band-adjustable-dipole-antenna/)
 
 # What can you do with the Baofeng UV-5R
 * [Baofeng UV-5R; Top 5 things to listen to](https://www.youtube.com/watch?v=q3nMV5rOFiw)
@@ -109,6 +111,10 @@ The [Federal Communications Commission has adopted a $35 fee][09]
 for new amateur radio licenses, license renewals, and changes to existing licenses, like vanity call signs.
 While $35 isn't cheap, it's not the end of the world,
 and it's better than the $50 fee that the FCC was originally proposing.
+
+# Radio Repeaters
+* [Repeaterbook.com](https://www.repeaterbook.com/index.php/en-us/)
+* [RadioReference.com](https://www.radioreference.com/)
 
 # History of Ham
 The origin of the term "Ham" is not clear but the prevailing theory is the following.

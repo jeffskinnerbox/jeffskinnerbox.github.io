@@ -449,6 +449,7 @@ and connecting it to a desktop or laptop computer.
 * [Reading barcodes with Python and OpenMV](https://www.pyimagesearch.com/2018/03/19/reading-barcodes-with-python-and-openmv/)
 * [OpenMV Cam H7 - Machine Vision w/ MicroPython](https://www.kickstarter.com/projects/1798207217/openmv-cam-h7-machine-vision-w-micropython)
 * [Deep Learning at the Edge on an Arm Cortex-Powered Camera Board](https://blog.hackster.io/deep-learning-at-the-edge-on-an-arm-cortex-powered-camera-board-3ca16eb60ef7)
+* [Kwabena Agyeman talks about the OpenMV Design](https://www.youtube.com/watch?v=NAAbJfIO8yM&t=109s)
 
 # Arducam
 * [ArduCAM now Supports ESP8266 Arduino Board with WIFI Websocket Camera Demo](http://www.arducam.com/arducam-supports-esp8266-arduino-board-wifi-websocket-camera-demo/)

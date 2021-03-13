@@ -120,7 +120,9 @@ and confidence that helped me select Home Assistant as my platform:
     * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
     * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
     * [Integrate devices and add-ons into your home automation setup](https://opensource.com/article/21/2/home-automation-addons)
+    * [How to set up custom sensors in Home Assistant](https://opensource.com/article/21/2/home-assistant-custom-sensors)
     * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
+    * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
 * Home Automation Ideas
     * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
     * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
@@ -177,7 +179,8 @@ And to top it off, the GPIO pins are still easily accessible but smartly hidden.
 * [Quickly getting started with Home Assistant (2020 Guide)](https://www.youtube.com/watch?v=Am8FEhBhe5Y&feature=youtu.be)
 * [Home Assistant Beginners Guide: Installation, Addons, Integrations, Scripts, Scenes, and Automations](https://www.youtube.com/watch?v=sVqyDtEjudk)
 * [Home Assistant INSTALLATION GUIDE 2020 + Key Addons](https://www.youtube.com/watch?v=xNK3IDxSPHo)
-* []()
+* [Home Assistant Templates - A Beginner's Guide](https://www.youtube.com/watch?v=GnW0mLt2YLg)
+* [Top 11 Add-ons & Integrations for Home Assistant | Getting Started or Starting Over](https://www.youtube.com/watch?v=T0iX9_Yn-70)
 
 
 
@@ -1203,6 +1206,12 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [Easy Home Assistant, Node-RED, InfluxDB and Grafana Integration](https://peyanski.com/home-assistant-node-red-influxdb-and-grafana-integration/)
 * [The Script](https://tech.scargill.net/the-script/)
 
+### Prometheus & Graphite & Glances
+* [Glances](https://nicolargo.github.io/glances/)
+* [Prometheus vs. Graphite: Which Should You Choose for Time Series or Monitoring?](https://logz.io/blog/prometheus-vs-graphite/)
+* [Healthchecks - Simple and Effective Cron Job Monitoring](https://healthchecks.io/)
+
+
 
 
 ------
@@ -1274,7 +1283,6 @@ Lovelace is the Home Assistant frontend/UI and can be customize to fit your need
 * [Smart Home Control Panel - Best looking and most useful component | HA Dashboard](https://www.youtube.com/watch?v=KDpz3OvaU4c)
 * [Create an AWESOME looking Lovelace Dashboard with no YAML Files in 2020! - Home Assistant - How to](https://www.youtube.com/watch?v=ixIGlEpvWXY)
 * [Grid Cards in Home Assistant // Build your own AWESOME dashboard with 9 different types of cards!](https://www.youtube.com/watch?app=desktop&v=I96fN7uQ9PY)
-* [Custom Button Card Pt1: How to make Home Assistant Lovelace Icons to Spin / Rotate / Flash](https://www.youtube.com/watch?v=0wg9bdnGD00&feature=youtu.be)
 * [How to Add Custom Panels in Home Assistant](https://www.digiblur.com/2020/12/how-to-add-custom-panels-in-home.html)
 
 
@@ -1355,6 +1363,7 @@ Also: the server runs as a container, so its running on my Server network on nom
 * [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
 
 ## Shelly
+* https://www.thesmarthomehookup.com/?s=shelly
 * [Shelly 1 Switch Tricks - True 3-Way, Long Press Actions, 2 switches, Automations w/ Tasmota Firmware](https://www.youtube.com/watch?v=mSENAY9_AlI&feature=youtu.be)
 
 ### Shelly Flood Sensor
@@ -1402,6 +1411,8 @@ Also: the server runs as a container, so its running on my Server network on nom
 
 # Automation Button
 * [Automate LIKE A PRO! #01 - Automations Button. Learn to create an automation combined with a button](https://www.youtube.com/watch?v=lkMoEQmsqIk)
+* [Custom Button Card Pt1: How to make Home Assistant Lovelace Icons to Spin / Rotate / Flash](https://www.youtube.com/watch?v=0wg9bdnGD00&feature=youtu.be)
+* [Custom Button Card Pt2: Home Assistant Lovelace Icons Fonts, Weights, Backgrounds and Glows](https://www.youtube.com/watch?v=YUr1UAHYXQo&feature=youtu.be)
 
 # Integration with Alexa
 * [How to do Simple Home Automation with Amazon Alexa || ESP8266](https://www.youtube.com/watch?v=ZyetXihGrM0)
@@ -1518,6 +1529,7 @@ integrate Google Home/Google Assistant with Home Assistant which will allow you 
 # MQTT
 * [Understanding MQTT: How Smart Home Devices Communicate](https://www.youtube.com/watch?v=NjKK5ab0-Kk)
 * [MQTT Essentials](https://www.hivemq.com/tags/mqtt-essentials/)
+* [Setting up MQTT via Mosquito in Home Assistant with Node-Red (Tutorial)](https://www.youtube.com/watch?v=EWLJ1CASCp8&feature=youtu.be)
 
 # Store Home Assistant History
 The standard recorder in Home Assistant sometimes gets corrupt and results in losing your history and Home Assistant not starting up again. You can solve this by using MariaDB to record the history of your sensors.

@@ -64,6 +64,13 @@ In 2014, MQTT received ratification by OASIS (an open standards consortium).
 Just like in HTTP, the protocol of the world wide web,
 a number of methods are defined: connect, disconnect, subscribe, unsubscribe and publish.
 
+Although the word queueing is within the name,
+the main functionality is being a broker for message passing.
+IBM scientists invented the protocol in 1999 to monitor an oil pipeline that runs across a desert.
+The main goal of the protocol was to be able to communicate under limited resources with less computational overheads.
+IoT devices closely resemble the scenario of being low powered, computationally weak and bandwidth limited.
+Basically, MQTT is the protocol if you’re looking for scalable communication between hundreds and thousands of small low powered devices.
+
 Messages and subscriptions in MQTT are based on "topics".
 Topics can be viewed as a close relation to the URL we see in the location bar in our browsers.
 In the same way it is best practice for the structure of URLs to convey meaning

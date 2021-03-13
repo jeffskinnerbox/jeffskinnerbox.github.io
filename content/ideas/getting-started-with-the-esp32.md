@@ -1,6 +1,10 @@
 
 * [How to use ESP32 Dual Core with Arduino IDE](https://randomnerdtutorials.com/esp32-dual-core-arduino-ide/)
 
+* [RP2040 vs STM32 vs ESP32 vs ESP8266](https://socialcompare.com/en/comparison/rp2040-vs-stm32-vs-esp32-vs-esp8266)
+* [ESP8266 vs ESP32 vs ESP32-S2 vs ESP32-C3](https://socialcompare.com/en/comparison/esp8266-vs-esp32-vs-esp32-s2)
+
+
 
 # ESP32-S3
 * [Announcing ESP32-S3 for AIoT Applications](https://www.espressif.com/en/news/ESP32_S3)
@@ -8,7 +12,6 @@
 * [New Part Day: Espressif ESP32-S3](https://hackaday.com/2021/01/09/new-part-day-espressif-esp32-s3/)
 
 # ESP32-S2
-* [The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?time_continue=51&v=L6IoSVdKwNM&feature=emb_logo)
 * [#339 The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?v=L6IoSVdKwNM)
 * [EYE on NPI - Espressif ESP32-S2 SoC](https://www.youtube.com/watch?v=4F25y-P8krM)
 * [ESP32-S2 Processor Datasheet Released, Development Boards Unveiled](https://www.cnx-software.com/2019/09/03/esp32-s2-processor-datasheet-released-development-boards-unveiled/)
@@ -19,8 +22,7 @@
 The new “C3” variant has a single 160 MHz RISC-V core that out-performs the ESP8266, and at the same time includes most of the peripheral set of an ESP32. While RAM often ends up scarce on an ESP8266 with around 40 kB or so, the ESP32-C3 sports 400 kB of RAM, and manages to keep it all running while burning less power. Like the ESP32, it has Bluetooth LE 5.0 in addition to WiFi.
 
 * [HANDS-ON: THE RISC-V ESP32-C3 WILL BE YOUR NEW ESP8266](https://hackaday.com/2021/02/08/hands-on-the-risc-v-esp32-c3-will-be-your-new-esp8266/)
-
-
+* [RISC-V: How much is open source? Featuring the new ESP32-C3](https://www.youtube.com/watch?v=VdPsJW6AHqc)
 
 
 * [ESP32 Videos](https://www.youtube.com/playlist?list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9)

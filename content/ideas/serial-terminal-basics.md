@@ -49,8 +49,10 @@ Early user terminals connected to computers were electromechanical teleprinters/
 
 The DEC VT05 was an early example of a hardware based virtual teletype,
 a predecessor to the famous DEC VT100.
+The DEC VT100 became the gold standard for serial terminals in the early years of computers.
 * [VT05](https://en.wikipedia.org/wiki/VT05)
 * [VT100](https://en.wikipedia.org/wiki/VT100)
+* [DEC VT Terminal Product Line](https://www.landley.net/history/mirror/dec/vt_history)
 
 * https://en.wikipedia.org/wiki/Computer_terminal
 * [Building A 3270 Terminal Controller](https://hackaday.com/2020/05/28/building-a-3270-terminal-controller/)
@@ -67,6 +69,12 @@ serial port lines (CTS, RTS, DTR, DSR, RI, CD)
 ## RS-232
 
 # Serial Interface
+Along with the parallel port, the COM port, or serial port,
+is one of the traditional computer I/O interfaces which can still be found on
+POS systems, some medical equipment, lab instruments, and other older hardware.
+Although in modern computers the COM / serial port is of limited use,
+it remains popular for
+
 The whole purpose of a serial interface is to provide a
 single path for data transmission wirelessly or over a cable.
 Parallel buses are still used in some applications.
@@ -86,6 +94,8 @@ Most have been developed for specific applications.
 A few have become universal, such as I2C, CAN, LIN, SPI, Flex, MOST, and I2S.
 Then there’s Ethernet and USB and other higher-speed serial interfaces like FireWire, HDMI, and Thunderbolt.
 
+* [Сomprehensive guide of serial port specification](https://www.virtual-serial-port.org/article/what-is-serial-port/)
+
 # RS-232 and RS-485
 Two of the oldest serial interfaces are RS-232 and RS-485.
 These legacy interfaces aren’t obsolete or discontinued, though.
@@ -95,6 +105,11 @@ Both are still alive and well in many applications.
 * [According to Pete: How RS-485 Works](https://www.sparkfun.com/news/2652)
 * [Application Guidelines for TIA/EIA-485-A](http://e2e.ti.com/cfs-file/__key/telligent-evolution-components-attachments/00-142-00-00-00-33-63-91/TSB_2D00_89_2D00_A.pdf)
 * [RS-485 Transceiver Tutorial](https://www.intersil.com/content/dam/Intersil/whitepapers/interface/rs-485-transceiver-tutorial.pdf)
+
+## Modbus vs RS485
+RS485 is a serial data transmission standard widely used in industrial implementations. The Modbus protocol is commonly used when implementing RS485 communication.
+
+* [Modbus vs RS485](https://www.virtual-serial-port.org/articles/modbus-vs-rs485/#:~:text=RS485%20is%20a%20serial%20data,by%20transmitting%20with%20ASCII%20characters)
 
 # Computer Serial Port
 * http://www.labbookpages.co.uk/electronics/serialPort.html

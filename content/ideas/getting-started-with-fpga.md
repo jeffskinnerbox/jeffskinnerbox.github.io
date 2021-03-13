@@ -133,6 +133,9 @@ An application-specific integrated circuit (ASIC /ˈeɪsɪk/) is an integrated c
 * [FPGA Basics: Architecture, Applications and Uses](https://www.arrow.com/en/research-and-events/articles/fpga-basics-architecture-applications-and-uses)
 * [Reverse-engineering the first FPGA chip, the XC2064](http://www.righto.com/2020/09/reverse-engineering-first-fpga-chip.html)
 
+## RISC & ARM
+* [RISC-V: How much is open source? Featuring the new ESP32-C3](https://www.youtube.com/watch?v=VdPsJW6AHqc)
+
 # Embedded FPGA (eFPGA)
 a range of new startups provide embedded FPGA (eFPGA)
 
@@ -238,8 +241,11 @@ TinyFPGA is a family of low cost, open source FPGA development boards designed a
 
 * [Comparing an FPGA to a Microcontroller, Microprocessor or an ASIC](https://www.element14.com/community/groups/fpga-group/blog/2018/02/22/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic)
 * [FPGA for Dummies](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/misc/fpgas_for_dummies_ebook.pdf)
-* [Ben Eater's: Build an 8-bit computer from scratch](https://eater.net/8bit/)
+
+## Build 8-Bit Computer / TTL Computer
 * [Full 8-Bit Computer On Breadboards](https://hackaday.com/2020/11/23/full-8-bit-computer-on-breadboards/)
+* [Ben Eater's: Build an 8-bit computer from scratch](https://eater.net/8bit/)
+* [8-Bit Computer: UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
 
 
 ## iCE FPGA
