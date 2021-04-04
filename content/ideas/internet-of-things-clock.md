@@ -71,6 +71,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
 * [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
 * [Slide Clock](https://www.instructables.com/Slide-Clock/)
+* [Clock-of-Clocks Adds Light-Pipe Hands For Beauty And Function](https://hackaday.com/2021/03/19/clock-of-clocks-adds-light-pipe-hands-for-beauty-and-function/)
 
 # Ferrofliud Clock
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
@@ -89,6 +90,7 @@ consider joining the [Time Nuts email list](https://lists.febo.com/mailman/listi
 
 * [100 Year Old Atomic Clock](https://hackaday.com/2019/09/25/100-year-old-atomic-clock/)
 * [Cesium Clock Teardown, Or Quantum Physics Playground](https://hackaday.com/2020/03/25/cesium-clock-teardown-or-quantum-physics-playground/)
+* [Move Over Cesium Clock, Optical Clocks are Taking Over](https://hackaday.com/2021/03/26/move-over-cesium-clock-optical-clocks-are-taking-over/)
 * [How to get Precise Timing and Frequency to our Lab. From Crystals, TCXO, OCXO to GPSDO, BG7TBL](https://www.youtube.com/watch?v=a393cqhdZpM&feature=youtu.be)
 
 ## Galileo Escapement Mechanism
@@ -343,6 +345,46 @@ Source:
 * [WWV Radio Station](http://en.wikipedia.org/wiki/WWV_%28radio_station%29)
 * [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 
+# Network Time Protocol (NTP)
+Sometimes, knowing the time of day or having prcise timing signal is a prime concern.
+For example, imagine a relay that has to be activated at a certain time or
+a data logger that has to store values at precise intervals.
+
+The first thing that comes in your mind is to use an RTC (Real Time Clock) chip.
+But these chips are not precise and will need manual adjustments.
+Also, you still need a source for the time of day to set it properly.
+
+The solution here is to use Network Time Protocol (NTP).
+It’s a standard Internet Protocol (IP) for synchronizing the computer clocks to some reference over a network.
+The protocol can be used to synchronize all networked devices to Coordinated Universal Time (UTC)
+within a few milliseconds (50 milliseconds over the public Internet and under 5 milliseconds in a LAN environment).
+NTP sets the clocks of computers to UTC,
+any local time zone offset or day light saving time offset is applied by the client.
+In this manner clients can synchronize to servers regardless of location and time zone differences.
+
+>**NOTE:** Coordinated Universal Time (UTC) is a world-wide time standard,
+>closely related to GMT (Greenwich Mean Time).
+>UTC does not vary, it is the same world wide.
+
+## NTP Architecture
+NTP uses a hierarchical architecture.
+Each level in the hierarchy is known as a stratum.
+At the very top are high-precision timekeeping devices,
+such as atomic clocks, GPS or radio clocks, known as stratum 0 hardware clocks.
+Stratum 1 servers have a direct connection to a stratum 0 hardware clock and therefore have the most accurate time.
+Each stratum in the hierarchy synchronizes to the stratum above and act as servers for lower stratum computers.
+
+## How NTP Works?
+NTP can operate in a number of ways.
+The most common configuration is to operate in client-server mode.
+The basic working principle is as follows:
+
+1. The client device, such as ESP8266, connects to the server using the User Datagram Protocol (UDP) on port 123.
+1. A client then transmits a request packet to a NTP server.
+1. In response to this request the NTP server sends a time stamp packet.
+1. A time stamp packet contains multiple information like UNIX timestamp, accuracy, delay or timezone.
+1. A client can then parse out current date & time values.
+
 ## NTP Server
 The NTP acronym stands for [Network Time Protocol][07],
 which is an Internet networking communication protocol for clock synchronization
@@ -447,6 +489,7 @@ and therefore, if you sync your clock  daily with NTP, you should be fine for mo
 * [ESP8266 Internet Clock With Weather Update & Many More (No RTC and OTA)](https://www.instructables.com/id/ESP8266-Internet-Clock-With-Weather-Update-Many-Mo/)
 * [VFD-tube Clock with ESP32](https://www.elektormagazine.com/news/new-elektor-labs-kit-vfd-tube-clock-with-esp32)
 * [NTP Morse Code Clock Powered by ESP8266](https://hackaday.com/2018/12/08/ntp-morse-code-clock-powered-by-esp8266/)
+* [Getting Date & Time From NTP Server With ESP8266 NodeMCU](https://lastminuteengineers.com/esp8266-ntp-server-date-time-tutorial/)
 
 
 For my ESP8266 clock,

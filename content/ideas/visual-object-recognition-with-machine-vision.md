@@ -130,6 +130,7 @@ Test Videos
 * https://github.com/WatershedArts/Footfall/tree/master/images
 
 Test Images
+Lena Söderberg "lady in straw hat"
 * [Lenna](https://en.wikipedia.org/wiki/Lenna)
 * [Lenna](https://medium.com/five-guys-facts/lenna-e802b18d9ddc)
 * [The Lena Standard Test Image, Full Version (!)](http://tech.velmont.net/the-lena-standard-test-image-full-version/)

@@ -364,6 +364,7 @@ that can send notifications within minutes of an earthquake.
 * [Downloading Satellite Images via FM Radio](http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/)
 * [GNUradio decoders for different satellites](https://github.com/daniestevez/gr-satellites)
 * [L Band Satellite Antennas Revealed](https://hackaday.com/2019/08/04/l-band-satellite-antennas-revealed/)
+* [Satellite Ground Station Upcycles Trash](https://hackaday.com/2021/04/03/satellite-ground-station-upcycles-trash/)
 
 # Radiosonde
 A [radiosonde][10] is a battery-powered telemetry instrument carried into the atmosphere usually by a weather balloon that measures various atmospheric parameters and transmits them by radio to a ground receiver.

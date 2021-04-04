@@ -56,6 +56,16 @@ Some examples of this are:
 * [CHIRP](http://chirp.danplanet.com/projects/chirp/wiki/Home)
 * [Hacking the Baofeng UV5R](http://elazary.com/index.php?option=com_content&view=article&id=49%3Ahacking-the-baofeng-uv5r&catid=14%3Abaofeng-uv5r&Itemid=17&showall=1)
 
+## Limitations of the Baofeng UV-5R and the GT-5R
+Compared with the Baofeng UV-R5, the GT-5R
+is a 100% compliant with FCC transmit range and spurious emission requirements (aka legal version),
+complies with FCC Equipment Rule Part15B and Part90. FCC ID: ①ZP5BF-5 RA(TX) ②2AJGM-UV5 R (RX).
+
+This radio transmits only on 144-148MHz 420-450MHz with compliant spurious emission.
+Go with this legal version, beginners would never worry about goofing with authorities or obstruct other important public services by mistakes.
+
+* [Dump the UV-5R and Get the GT-5R](https://www.youtube.com/watch?v=1JyM8oNtoaE)
+
 ## After Market Antenna
 * [The First Thing To Upgrade On Your Handheld Ham Radio](https://www.youtube.com/watch?v=5-95vlOMYOU&feature=youtu.be)
 * [Super-Elastic Signal Stick](https://signalstuff.com/product/super-elastic-signal-stick/)
@@ -178,6 +188,7 @@ was announced it was described as being designed for,
 * [The $50 Ham: Going Mobile](https://hackaday.com/2020/02/05/the-50-ham-going-mobile/)
 * [The $50 Ham: A Cheap Antenna For The HF Bands](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)
 * [The $50 Ham: Digital Modes With WSJT-X](https://hackaday.com/2021/02/10/the-50-ham-digital-modes-with-wsjt-x/)
+* [The $50 Ham: WSPR-ing Around The World](https://hackaday.com/2021/03/25/the-50-ham-wspr-ing-around-the-world/)
 
 
 # Noise Sources
@@ -198,10 +209,25 @@ Introduction to Packet Radio - https://www.tapr.org/pr_intro.html
 * [EchoLink](http://www.echolink.org/)
 
 # Raspberry Pi for Ham-Radio
+* [Where to start? Raspberry pi for ham radio](https://www.youtube.com/watch?v=E1SEgPFQk4M)
 * [Setup Raspberry Pi for Ham-Radio](https://orari.or.id/index.php/2019/09/02/setup-raspberry-pi-for-ham-radio/)
 * [Tutorial For Setting Up Raspberry Pi For Ham Radio Use](https://hackaday.com/2020/09/08/tutorial-for-setting-up-raspberry-pi-for-ham-radio-use/)
 * [Hamlib 4.1 Install Raspberry Pi](https://www.youtube.com/watch?v=dKVQdMTlCAY&feature=youtu.be)
 * [HamPi, formerly known as W3DJS Raspberry Pi for Ham Radio](https://github.com/dslotter/HamPi/)
+
+Pat Winlink - https://youtu.be/UdpKZ4SZli8
+Propagation predection - https://youtu.be/jye6JkIPYY0
+Find Ardop offgrid - https://youtu.be/Xdp3iovC8ws
+EES - https://youtu.be/KaEeCq50Mno
+Digipeater - https://youtu.be/YqTpyPLtjUA
+JS8Call Playlist - https://www.youtube.co/playlist?list=...
+Chirp - https://youtu.be/RQ8eEsU1b1c
+
+# Automatic Packet Reporting System (ARPS)
+The [APRS (Automatic Packet Reporting System)][10] is a worldwide digital communications network for amateur radio, providing a single national channel where people can monitor what is happening in the surrounding area.
+
+* [Packet radio lives on through open source software](https://opensource.com/article/17/9/packet-radio)
+* [Configure an amateur radio gateway with a Raspberry Pi](https://opensource.com/article/18/3/how-configure-aprs-igate-raspberry-pi)
 
 # Ham Radio Satellites
 * [All About Ham Satellites](https://hackaday.com/2019/01/07/all-about-ham-satellites/)
@@ -246,7 +272,7 @@ Radio Garden is a non-profit Dutch radio and digital research project developed 
 [07]:https://codegreenprep.com/2015/02/new-baofeng-bf-f8hp-worthy-successor-uv-5r/
 [08]:https://en.wikipedia.org/wiki/WSJT_(amateur_radio_software)
 [09]:https://swling.com/blog/2020/12/fcc-adopts-a-35-license-fee-for-amateur-radio-service-applications/
-[10]:
+[10]:https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System
 [11]:
 [12]:
 [13]:

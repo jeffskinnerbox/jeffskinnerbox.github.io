@@ -60,6 +60,8 @@ http://blog.roman-mueller.ch/index.php/2013/01/26/hc-sr501-passive-infrared-sens
 
 # MLX90614 Infrared Thermometer
 * [SparkFun IR Thermometer Evaluation Board - MLX90614](https://www.sparkfun.com/products/10740)
+* [SparkFun PIR Breakout - 1uA (EKMB1107112)](https://www.sparkfun.com/products/17373)
+* [SparkFun PIR Breakout - 170uA (EKMC4607112K)](https://www.sparkfun.com/products/17372)
 
 
 

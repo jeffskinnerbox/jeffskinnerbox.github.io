@@ -2,12 +2,14 @@
 
 
 # Reverse Engineering Ceiling Fan
+* [Hacking My Ceiling Fan Radio Signal With a $15 USB TV Tuner (RTL2832U)](https://www.youtube.com/watch?v=_GCpqory3kc)
 * [Raspberry Pi Controls Ceiling Fan with Radio Waves](https://www.tomshardware.com/news/raspberry-pi-radio-wave-fan-controller)
 * [Reverse Engineering A Ceiling Fan Remote](https://hackaday.com/2020/03/31/reverse-engineering-a-ceiling-fan-remote/)
 * [Reverse engineering a ceiling fan](https://irrational.net/2014/03/23/reverse-engineering-a-ceiling-fan/)
 * [Building A New RF Remote From Scratch](https://hackaday.com/2020/04/30/building-a-new-rf-remote-from-scratch/)
 
 # Signals Reverse Engineering
+* [How to Hack your 433 MHz Devices with a Raspberry and a RTL-SDR Dongle (Weather Station)](https://www.youtube.com/watch?v=L0fSEbGEY-Q)
 * [Reverse Engineering Signals with the Universal Radio Hacker Software](http://www.rtl-sdr.com/reverse-engineering-signals-universal-radio-hacker-software/)
 * [Automate Your Home From the Clearance Rack](https://hackaday.com/2019/01/19/automate-your-home-from-the-clearance-rack/)
 * [ATTACK SOME WIRELESS DEVICES WITH A RASPBERRY PI AND AN RTL-SDR](https://hackaday.com/2017/09/10/attack-some-wireless-devices-with-a-raspberry-pi-and-an-rtl-sdr/)
@@ -54,5 +56,22 @@
 ## De-Crypting
 * [Hacking D-Link Firmware](https://hackaday.com/2020/08/24/hacking-d-link-firmware/)
 
+## rpitx
+rpitx is a general radio frequency transmitter for Raspberry Pi which doesn't require any other hardware unless filter to avoid intererence. It can handle frequencies from 5 KHz up to 1500 MHz.
+
+* [rpitx](https://github.com/F5OEO/rpitx)
+
+## Spektrum
+* [Spektrum](https://github.com/pavels/spektrum)
+
+## Universal Radio Hacker
+* [Universal Radio Hacker](https://github.com/jopohl/urh)
 
 
+# Spectrum Analyser
+* [No Spectrum Analyser? No Problem!](https://hackaday.com/2015/12/20/no-spectrum-analyser-no-problem/)
+* [What Can A $30 USB Spectrum Analyser Do For Me?](https://hackaday.com/2021/03/08/what-can-a-30-usb-spectrum-analyser-do-for-me/)
+* [TinySA is a $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
+
+# Bluetooth Beacons
+* [A Crash Course On Sniffing Bluetooth Low Energy](https://hackaday.com/2021/03/23/a-crash-course-on-sniffing-bluetooth-low-energy/)

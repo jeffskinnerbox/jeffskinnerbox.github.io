@@ -38,6 +38,7 @@ Doesn't sound like much but this little board is packed with functionality.
 * [Taking the Leap Off Board: An Introduction to I2C Over Long Wires](http://hackaday.com/2017/02/08/taking-the-leap-off-board-an-introduction-to-i2c-over-long-wires/)
 * [Bus Pirate Commandeers I2C](http://hackaday.com/2017/02/07/bus-pirate-commandeers-i2c/)
 * [UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
+* [DIY I2C Tester](https://hackaday.com/2021/03/23/diy-i2c-tester/)
 
 ## Bus Pirate Self-Test
 To use Bus Pirate, you'll need to connect with it via a terminal emulator.

@@ -104,8 +104,79 @@ and are not showing any signs of pending failure.
 If you let some directories get really full, like above 95% full, you will see some serious system problems.
 Check on the status of directory systems storage space and inode usage:
 
-    df
-    df -i
+```bash
+# -h (human readable) option instructs df to use the most applicable unit for the size of each filesystem,
+# like teribyte, gigabyte, megabyte and kilobyte sizes
+df -h
+
+# replace the 1K block counts with more useful output by using the -B (block size) option
+# followed by a letter from the list of K, M, G, T, P, E, Z or Y
+# These letters represent the kilo, mega, giga, tera, peta, exa, zeta, and yotta values from the multiple of 1024 scale
+df -BM
+
+# also list type of file system
+df -TBM
+
+# /dev/loop entries are pseudo file systems (type squashfs),
+# and you may want to exclude them from your list
+df -TBM -x squashfs
+
+# to get the total disk space used
+df -TBM -x squashfs --total
+
+# ask df to only include filesystems of type ext4
+df -TBM -t ext4 --total
+
+# ask df to report on a set of named filesystems
+df -TBM --total /dev /run
+
+# information represented in numbers of inodes
+df -iT
+```
+
+To further customize the display,
+we can tell df which columns to include. To do so use the `--output` option
+and provide a comma-separated list of the required column names
+(no spaces in the comma separated list).
+
+* **source**: The name of the filesystem.
+* **fstype**: The type of the filesystem.
+* **itotal**: The size of the filesystem in inodes.
+* **iused**: The space used on the filesystem in inodes.
+* **iavail**: The available space on the filesystem in inodes.
+* **ipcent**: The percentage of used space on the filesystem in inodes, as a percentage.
+* **size**: The size of the filesystem, by default in 1K blocks.
+* **used**: The space used on the filesystem, by default in 1K blocks.
+* **avail**: The available space on the filesystem, by default in 1K blocks.
+* **pcent**: The percentage of used space on the filesystem in inodes, by default in 1K blocks.
+* **file**: The filesystem name if specified on the command line.
+* **target**: The mount point for the filesystem.
+
+```bash
+# report on the first partition on the first drive, with human readable numbers,
+# and with the columns source, fstype, size, used, avail, and pcent
+df -h /dev/sda1 --output=source,fstype,size,used,avail,pcent
+```
+
+What if I wanted to see which of my many projects were taking up the most space.
+I want to go through all of the sub-directories from within my target directory,
+sorts them from largest to smallest, and prints their size in a human-readable format:
+
+```bash
+# sort size of sub-directories
+du -hs /home/jeff/src/a*
+224M	/home/jeff/src/ai-sensor
+4.9M	/home/jeff/src/ansible
+647M	/home/jeff/src/arduino
+8.0K	/home/jeff/src/autogluon
+
+# searches for large files over the specified size (50MB in my case) and prints them
+$ find /home/jeff/src/a* -type f -size +50M -exec ls -lh {} \;
+-rwxr-xr-x 1 jeff jeff 71M Jun 30  2020 /home/jeff/src/ai-sensor/emc3532/src/node-v14.5.0-linux-x64/bin/node
+-rwxr-xr-x 1 jeff jeff 71M Jun 30  2020 /home/jeff/src/ai-sensor/emc3532/bin/node
+-rwxr-xr-x 1 jeff jeff 82M Feb 11  2020 /home/jeff/src/arduino/java/lib/amd64/libjfxwebkit.so
+-rw-r--r-- 1 jeff jeff 64M Feb 11  2020 /home/jeff/src/arduino/java/lib/rt.jar
+```
 
 #### Disk and Filesystems Integrity
 [Smartmontools][02] is a set of applications that can test hard drives
@@ -138,7 +209,7 @@ To check results, run the following:
     sudo smartctl -l selftest /dev/sda
 
 Unfortunately, there’s no way to check progress, so just keep running that command until the results show up.
- If either test fails, you should immediately backup all your data.
+If either test fails, you should immediately backup all your data.
 Depending on the error, your drive might be close to death or it may still have a long life ahead.
 Consult the [smartmontools FAQ][06].
 

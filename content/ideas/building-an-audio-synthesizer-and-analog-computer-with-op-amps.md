@@ -28,6 +28,7 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
 * [Stochastic Markov Beats](https://hackaday.com/2021/02/20/stochastic-markov-beats/)
 * [12-Note Polyphony On An Arduino Synth](https://hackaday.com/2021/02/19/12-note-polyphony-on-an-arduino-synth/)
+* [Homebrew Grain Synth Has A Rad Step Sequencer](https://hackaday.com/2021/03/19/homebrew-grain-synth-has-a-rad-step-sequencer/)
 
 
 # ADC and DAC

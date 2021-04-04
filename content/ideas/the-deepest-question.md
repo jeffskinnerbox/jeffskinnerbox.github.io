@@ -104,6 +104,7 @@ A function is a relation that uniquely associates members of one set with member
 # What is Randomness?
 * [What is Random?](https://www.youtube.com/watch?v=9rIy0xY99a0)
 * [What is NOT Random?](https://www.youtube.com/watch?v=sMb00lz-IfE)
+* [How to Generate Pseudorandom Numbers](https://www.youtube.com/watch?v=C82JyCmtKWg)
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
 * [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
 
@@ -133,6 +134,24 @@ A function is a relation that uniquely associates members of one set with member
 * [Quantum Tunnels Show How Particles Can Break the Speed of Light](https://www.quantamagazine.org/quantum-tunnel-shows-particles-can-break-the-speed-of-light-20201020/)
 * [The Most Famous Paradox in Physics Nears Its End](https://www.quantamagazine.org/the-black-hole-information-paradox-comes-to-an-end-20201029/)
 * [Observing The Universe Really Does Change The Outcome, And This Experiment Shows How](https://medium.com/starts-with-a-bang/observing-the-universe-really-does-change-the-outcome-and-this-experiment-shows-how-454d10b651ca)
+* [What Happens During a Quantum Jump?](https://www.youtube.com/watch?v=j5HyMNNSGqQ)
+
+## The Speed of Light
+Maxwell's equations say the velocity of electromatic waves is inversely proportional
+the permittivity and permeability of free space.
+It makes sense that the velocity of any wave would be inversely proportional to the resistance of the substance it is traveling in.
+You might ask, why does resistance take on the values they do?
+No one knows why. These are just the constants of nature.
+
+About 40 years after Maxwell, Einstein did his own thought experiments inspired by Maxwell’s equation.
+His thought experiment was based on one simple assumption.
+He asked if the speed of light is an inherent property of space,
+why would this speed be any different based on the speed of the observer?
+And it was from this simple assumption,
+that he came up with the special theory of relativity in 1905 which changed our ideas about the nature of time.
+
+* [Why is the speed of light what it is? Maxwell equations visualized](https://www.youtube.com/watch?v=FSEJ4YLXtt8)
+* [Why isn't the speed of light infinite? What if it was?](https://www.youtube.com/watch?v=392N-IYRepc)
 
 # Fine-Structure Constant
 * [Physicists Nail Down the ‘Magic Number’ That Shapes the Universe](https://www.quantamagazine.org/physicists-measure-the-magic-fine-structure-constant-20201202/)
@@ -163,6 +182,10 @@ A function is a relation that uniquely associates members of one set with member
 * [Calculus 2: Integration, Computation of Areas and Volumes, Differential Equations](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKGna43cvDO4NZEEOdM4vcR)
 * [Richard Hamming: "Learning to Learn"](https://www.youtube.com/playlist?list=PL2FF649D0C4407B30)
 * [How Richard Feynman Reinvented Quantum Theory](https://medium.com/cantors-paradise/how-richard-feynman-reinvented-quantum-theory-68395f213cb0)
+
+# A Mathematician's Lament
+* [A Mathematician's Lament by Paul Lockhart](https://www.youtube.com/watch?v=mYGhwTy4B_M)
+* [A Mathematician's Lament by Paul Lockhart](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf)
 
 # Finding Pi in Unusal Places
 * [The Pi Machine: The most unexpected answer to a counting puzzle](https://medium.com/@christopher.fraser/the-pi-machine-the-most-unexpected-answer-to-a-counting-puzzle-b365db558b12)

@@ -1,4 +1,9 @@
 
+# # Type of Radar Sensors
+* [How to choose Radar Sensors (Tutorial). Incl. PIR and LIDAR](https://www.youtube.com/watch?v=PNbAM9IhfBE)
+* [#135 Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0&t=712s)
+* [#181 DIY Radar Speed Gun using cheap Radar Sensors (HB100, CDM324) for Arduino, ESP8266 and ESP32](https://www.youtube.com/watch?v=Kzsh59TM4MY)
+
 # Radar Sensors
 * [Recognizing Activities Using Radar](https://hackaday.com/2020/09/06/recognizing-activities-using-radar/)
 * [Robot Radar Module](https://hackaday.com/2018/05/03/robot-radar-module/)

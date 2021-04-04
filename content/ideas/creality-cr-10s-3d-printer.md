@@ -112,6 +112,7 @@ with a wider range of materials such as the:
 * **PC -** Polycarbonate is a strong, durable, and tough material. It's a naturally transparent thermoplastic with high impact resistance and excellent heat resistance.
 Copper and
 Wood fills.
+* **PCTG -** [Polyethylene Terephthalate-Glycol](https://hackaday.com/2021/03/24/pctg-filament-has-interesting-properties/)
 
 * [5 ways to ruin your filament (and how to fix it)](https://www.youtube.com/watch?v=WlmCc-vRNr0)
 * [WHY you NEED TO DRY your FILAMENTS!](https://www.youtube.com/watch?v=FAXUjZZER5E)
@@ -860,6 +861,11 @@ built on top of an underlying framework called [AliceVision][40].
 * [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
 * [Handheld 3D Scanning, Using Raspberry Pi 4 And Intel RealSense Camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/)
 * [Scan 3D Objects with this Raspberry Pi Photogrammetry Project](https://www.tomshardware.com/news/scan-3d-objects-with-this-raspberry-pi-photogrammetry-project)
+
+# Photo Rendering of 3D Models
+You may want a realistic photo renderings of your 3D CAD models.
+
+* [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
 
 ## OpenScan
 * [OpenScan](https://en.openscan.eu/)

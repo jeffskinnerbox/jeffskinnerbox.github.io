@@ -181,6 +181,8 @@ And to top it off, the GPIO pins are still easily accessible but smartly hidden.
 * [Home Assistant INSTALLATION GUIDE 2020 + Key Addons](https://www.youtube.com/watch?v=xNK3IDxSPHo)
 * [Home Assistant Templates - A Beginner's Guide](https://www.youtube.com/watch?v=GnW0mLt2YLg)
 * [Top 11 Add-ons & Integrations for Home Assistant | Getting Started or Starting Over](https://www.youtube.com/watch?v=T0iX9_Yn-70)
+* [6 ESSENTIAL Beginner's Tips After Installing Home Assistant](https://www.youtube.com/watch?v=Oxg6rzZo-Pg)
+* [Understanding YAML as it's used in Home Assistant Config files](https://www.youtube.com/watch?v=FfjSA2o_0KA)
 
 
 
@@ -1156,6 +1158,14 @@ No more worrying about your SD card dying on you out of nowhere. Enjoy!
 * [Stress Testing the Raspberry Pi](https://www.instructables.com/Stress-Testing-the-Raspberry-Pi/)
 * [Stress Testing Your Raspberry Pi (for Cooling and Overclocking)](https://core-electronics.com.au/tutorials/stress-testing-your-raspberry-pi.html)
 
+### Step X: Check Diagnostics & Clock Speed
+* [New Official Raspberry Pi Diagnostics Tool, Agnostics, Launches with MicroSD Performance Test](https://www.hackster.io/news/new-official-raspberry-pi-diagnostics-tool-agnostics-launches-with-microsd-performance-test-b1397a33c187)
+
+```bash
+# clock speed in mega-hertz
+watch -nl vcgencmd measure_clock arm
+```
+
 
 
 ------
@@ -1569,6 +1579,10 @@ The standard recorder in Home Assistant sometimes gets corrupt and results in lo
 * [Install Presence Detection in Home Assistant](https://www.youtube.com/watch?v=H4_p61nqqAs)
 * [Presence detection with Raspberry Pi, Home Assistant and Monitor](https://www.youtube.com/watch?v=-uRq4L6bxrI&feature=youtu.be)
 * [monitor](https://github.com/andrewjfreyer/monitor) - Passive Bluetooth presence detection of beacons, cell phones, and other Bluetooth devices. Useful for mqtt-based home automation, especially when the script runs on multiple devices, distributed throughout a property.
+
+# Floorplan
+* [Simple Interactive Floorplan in Home Assistant - No fancy software or custom cards](https://www.youtube.com/watch?v=FeTrI_kogXs)
+* [Interactive 3D floor plan with colour syncing lights using SweetHome 3D](https://www.youtube.com/watch?v=6QbtU9ID47A)
 
 
 

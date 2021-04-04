@@ -142,6 +142,8 @@ Modern GPS units are light, small, cheap, and use very little power.
 * [Not Just GPS: New Options For Global Positioning](https://hackaday.com/2020/07/07/not-just-gps-new-options-for-global-positioning/)
 * [Coarse Materials: GPS and GNSS for Geospatial Professionals](https://www.e-education.psu.edu/geog862/home.html)
 
+* [Can Maths Tell Us Where We Are?](https://www.youtube.com/watch?v=XJlVPlvkzdk)
+
 # Decoding GPS Signals
 * [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
 

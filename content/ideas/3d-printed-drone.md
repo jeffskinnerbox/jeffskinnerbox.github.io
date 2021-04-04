@@ -36,6 +36,8 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Quadcopter With Tensegrity Shell Takes A Beating And Gets Back Up](https://hackaday.com/2020/11/05/quadcopter-with-tensegrity-shell-takes-a-beating-and-gets-back-up/)
 
 ## Mini-Drone
+* [Micro Quadcopter Designed In OpenSCAD](https://hackaday.com/2021/04/02/micro-quadcopter-designed-in-openscad/)
+* [Resilient AI Drone Packs It All In Under 250 Grams](https://hackaday.com/2021/03/15/resilient-ai-drone-packs-it-all-in-under-250-grams/)
 * [The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)
     * [Eachine TRASHCAN](https://www.eachine.com/Eachine-TRASHCAN-75mm-Crazybee-F4-PRO-OSD-2S-Whoop-FPV-Racing-Drone-0803-16000KV-1200TVL-Adjustable-Camera-25-or-200mW-VTX-Swtichable-p-1328.html)
 * [How to Build a Cool & Cheap 3D Printed Mini Drone](https://www.youtube.com/watch?v=gpKcrYcMFKM)
@@ -83,6 +85,7 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 # Flight Controller
 * [DIY Flight Controller: How to build your own flight controller](https://www.youtube.com/playlist?list=PLUo0zMUQehP8k8IROYb-iXnCTw5TACZ5P)
 * [dRehmFlight: Customizable Flight Stabilisation For Your Weird Flying Contraptions](https://hackaday.com/2021/02/15/drehmflight-customizable-flight-stabilisation-for-your-weird-flying-contraptions/)
+* [Open Source Motion Controller For DIY Drones](https://hackaday.com/2021/03/24/open-source-motion-controller-for-diy-drones/)
 
 # VR Headset
 * [Open Source VR Headset For $200](https://hackaday.com/2020/09/13/open-source-vr-headset-for-200/)

@@ -104,12 +104,6 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Kinetic Sculpture Achieves Balance Through Machine Learning](https://hackaday.com/2018/10/26/kinetic-sculpture-achieves-balance-through-machine-learning/)
 * [ESPway | A Segway-style WiFi controlled robot built on ESP8266](http://brobot.tistory.com/m/6)
 
-# Reaction Wheel Balancing
-* [Balance Wheel](http://hackaday.io/project/4267-balance-wheel)
-* [Stick Balances Itself With Reaction Wheels](http://hackaday.com/2016/08/11/stick-balances-itself-with-reaction-wheels/)
-* [Resistance Is Futile: Balancing Cubes Are Taking Over!](https://hackaday.com/2016/03/25/resistance-is-futile-balancing-cubes-are-taking-over/)
-* [reaction wheel balancing](https://www.youtube.com/watch?v=wFZl9MwwkB8)
-
 # Inverted Pendulum
 * [Inverted Pendulum For The Control Enthusiast](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)
 * [Open-Source inverted pendulum](https://hackaday.io/project/167290-open-source-inverted-pendulum)

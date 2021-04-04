@@ -357,6 +357,13 @@ you need to place them in series, which brings a bunch of other variables into p
 * [Simple Balancing and Protection Method for Supercaps](https://www.youtube.com/watch?v=clMjGGEZRYw)
 * [Solar harvesting into supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 
+# DYI Battery and Supercapacitors
+* [Ionic liquids for energy storage and conversion - DIY](https://www.youtube.com/watch?v=ARaWq5YMbeY)
+* [Make Your Own Nuclear Battery](https://hackaday.com/2016/12/01/make-your-own-nuclear-battery/)
+
+# Wireless Power Harvesting
+* [5G as a wireless power grid](https://www.nature.com/articles/s41598-020-79500-x)
+
 
 
 [01]:https://en.wikipedia.org/wiki/Nickel%E2%80%93metal_hydride_battery

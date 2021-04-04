@@ -18,6 +18,13 @@
     * [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
     * [ Kiri:Moto](https://grid.space/kiri/)
 
+# Photo Rendering of 3D Models
+You may want a realistic photo renderings of your 3D CAD models.
+
+* [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
+* [THIS IS NOT REAL: LIFELIKE RENDERINGS FROM EAGLE FILES](https://hackaday.com/2012/06/05/this-is-not-real-lifelike-renderings-from-eagle-files/)
+* [REMOTICON VIDEO: KICAD TO BLENDER PCB RENDERS](https://hackaday.com/2020/12/23/remoticon-video-kicad-to-blender-pcb-renders/)
+
 # Electronics Design Automation (EDA)
 Electronic design automation (also referred to as electronic computer-aided design)
 is a category of software tools for designing electronic systems
@@ -66,6 +73,8 @@ and their conversion to [PCB designs][46].
 * [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
 * [PCB Design & Manufacture - video playlist](https://www.youtube.com/playlist?list=PL8D3B363139B67FF3)
 
+* [An Anti-Tamper Mesh Plugin For KiCad](https://hackaday.com/2021/03/14/an-anti-tamper-mesh-plugin-for-kicad/)
+
 ## CircuitMaker
 * [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
 
@@ -90,9 +99,11 @@ to check the integrity of circuit designs and to predict circuit behavior.
 ### LTSpice
 * [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
 * [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
+* [Phasors In LTSpice](https://hackaday.com/2021/03/17/phasors-in-ltspice/)
 
 ### MICRO-CAP 12
 * [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
+* [Commericial Circuit Simulator Goes Free](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
 
 ### PSpice
 * [TI And Cadence Make PSpice Free](https://hackaday.com/2020/09/20/ti-and-cadence-make-pspice-free/)
@@ -193,6 +204,7 @@ because it is possible to locate features based on the position of other feature
 # FreeCAD Workbenches To Consider
 * [Tools for running Slic3r from FreeCAD](https://github.com/limikael/freecad-slic3r-tools)
 * [Slic3r Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=36342)
+* [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
 
 
 

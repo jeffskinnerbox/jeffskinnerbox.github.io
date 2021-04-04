@@ -16,6 +16,14 @@
 * [Quantum Computing And The End Of Encryption](https://hackaday.com/2020/06/11/quantum-computing-and-the-end-of-encryption/)
 
 
+
+# Probabilistic Computing
+* [Waiting for Quantum Computing? Try Probabilistic Computing](https://spectrum.ieee.org/computing/hardware/waiting-for-quantum-computing-try-probabilistic-computing)
+* [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/)
+* [WHAT IS PROBABILISTIC COMPUTING?](https://www.lonja.de/what-is-probabilistic-computing/)
+* [Probabilistic Computation](https://betanalpha.github.io/assets/case_studies/probabilistic_computation.html)
+
+
 # PennyLane
 A cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network.
 

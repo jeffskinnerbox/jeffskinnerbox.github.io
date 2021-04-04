@@ -243,6 +243,14 @@ Voltage multipliers can be used to generate a few volts to millions of volts for
 * [A Tiny Jacob’s Ladder You Can Build At Home](https://hackaday.com/2020/08/29/a-tiny-jacobs-ladder-you-can-build-at-home/)
 * [Making a Jacob's Ladder to Celebrate a Million Subs!](https://www.youtube.com/watch?v=lT3vGaOLWqE)
 
+# Open Air Laser
+A Transversely Excited Atmospheric (TEA) Laser is nitrogen laser that operates at standard pressure and temperature.
+In fact, many operate using normal air which is over 75% N2.
+Normal air has a property known as super radiance.
+This means that air can produce a laser beam without bouncing light with mirrors that most lasers require.
+
+* [The Devil Is In The Details For This Open Air Laser](https://hackaday.com/2021/03/17/the-devil-is-in-the-details-for-this-open-air-laser/)
+
 
 
 --------

@@ -5,7 +5,6 @@ Tutorials - https://devzone.nordicsemi.com/tutorials/
 * [Bluetooth Commands](http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/bluetooth/bluetooth-commands)
 * [Bluetooth Devices Can Now Be Controlled From The Web Through Node.js](https://arc.applause.com/2016/02/12/bluetooth-gateway-navible-node-js/)
 * [“Everything is Better with Bluetooth”:  Add Your Own Custom Bluetooth LE to Your Next Project](https://www.allaboutcircuits.com/projects/add-custom-bluetoothle-to-your-next-project/?utm_source=All+About+Circuits+Members&utm_campaign=14090e08e3-EMAIL_CAMPAIGN_2017_07_06&utm_medium=email&utm_term=0_2565529c4b-14090e08e3-270523833/)
-* [Troubleshooting Tools for Your Next Bluetooth LE Project: Ubertooth and the Nordic nRF Sniffer](https://www.allaboutcircuits.com/projects/troubleshooting-tools-bluetooth-LE-project-ubertooth-Nordic-nRF-sniffer/?utm_source=All+About+Circuits+Members&utm_campaign=cb0049211b-EMAIL_CAMPAIGN_2017_07_19&utm_medium=email&utm_term=0_2565529c4b-cb0049211b-270523833/)
 * [nRF52832-MDK Documentation](https://wiki.makerdiary.com/nrf52832-mdk/)
 
 * [The Wireless Protocols Tying Together the Internet of Things](https://sub.allaboutcircuits.com/white-papers/silicon-labs/The_Wireless_Protocols_Tying_together_the_Internet_of_Things.pdf)
@@ -17,6 +16,8 @@ Tutorials - https://devzone.nordicsemi.com/tutorials/
 * [tutorials written by Nordic employees](https://devzone.nordicsemi.com/tutorials/)
 
 * [Beginning BLE Experiments And Making Everything Better](https://hackaday.com/2018/08/03/beginning-ble-experiments-and-making-everything-better/#more-318458)
+
+* [Direction Finding solutions now ready for developers](https://blog.nordicsemi.com/getconnected/direction-finding-solutions-now-ready-for-developers)
 
 
 Need to define BR/EDR some place
@@ -408,6 +409,10 @@ can actually resolve that address, allowing them to identify the device.
 Not very commonly used, a random number that you can change anytime.
 
 * https://devzone.nordicsemi.com/question/43670/how-to-distinguish-between-random-and-public-gap-addresses/
+
+## Sniffing Mode
+* [A Crash Course On Sniffing Bluetooth Low Energy](https://hackaday.com/2021/03/23/a-crash-course-on-sniffing-bluetooth-low-energy/)
+* [Troubleshooting Tools for Your Next Bluetooth LE Project: Ubertooth and the Nordic nRF Sniffer](https://www.allaboutcircuits.com/projects/troubleshooting-tools-bluetooth-LE-project-ubertooth-Nordic-nRF-sniffer)
 
 ## Bluetooth Security / Privacy
 In the 4.0, 4.1, and 4.2 Bluetooth specifications,

@@ -6,6 +6,13 @@
 * [The Evolution of a 3D Printed Off-Road R/C Car](https://hackaday.com/2020/04/09/the-evolution-of-a-3d-printed-off-road-r-c-car/)
     * [Tarmo4 RC Project](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit#heading=h.flrf7kcrqwuu)
 
+This guy appears to have used Tarmo as a base and improved it
+* [How To 3D Print Gears Like a Boss](https://www.youtube.com/watch?v=JMgXu1rFDJ0)
+
+
+
+
+
 ################################################################################
 
 
@@ -97,6 +104,9 @@ BLDC motor
 **Triditional** - Perfect for planes and helicopers use, setup via programming card or PC software
 **SimonK** - One of the first specialized multiroto firwares. Faster throttle response and all of the other other settings done for you.
 **BLHeli** - All of the power of SimonK with the ability to change elements like triditional using PC software.  Can be better with low spped motors.
+
+### ESC Visual Check
+* [Visualise ESC Problems With LEDs](https://hackaday.com/2021/03/18/visualise-esc-problems-with-leds/)
 
 ## Battery Eliminator Circuits (BEC)
 

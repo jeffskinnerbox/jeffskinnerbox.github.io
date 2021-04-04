@@ -1,4 +1,5 @@
 
+* [#112 LoRa / LoRaWAN De-Mystified / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
 
 * [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
 
@@ -114,6 +115,9 @@
 * [Configuring a LoRaWAN Gateway for The Things Network](https://www.hackster.io/nootropicdesign/configuring-a-lorawan-gateway-for-the-things-network-b3b1f2)
 * [Using LoRaWAN End Devices on The Things Network](https://www.hackster.io/nootropicdesign/using-lorawan-end-devices-on-the-things-network-206a86)
 * [RAK831 LoRaWAN Gateway](https://www.pocketmagic.net/rak831-lorawan-gateway/)
+
+# WM1302 LoRaWAN Gateway Module
+* [WM1302 LoRaWAN Gateway Module (SPI) - US915, based on SX1302](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-US915-p-4890.html)
 
 # Odd Applications
 * [ZOMBIES ATE YOUR NEIGHBORS? TELL EVERYONE THROUGH LORA!](https://hackaday.com/2019/12/04/zombies-ate-your-neighbors-tell-everyone-through-lora/)

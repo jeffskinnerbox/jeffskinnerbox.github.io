@@ -377,6 +377,7 @@ antenna = machine.Pin(16, machine.Pin.OUT, value=0)
 
 
 # Examples
+* [Getting Started with MicroPython](https://python.plainenglish.io/getting-started-with-micropython-c09dd0bbe33c)
 * [Getting Started with MicroPython on ESP32 – Hello World, GPIO, and WiFi](https://www.cnx-software.com/2017/10/16/esp32-micropython-tutorials/)
 * [Micro Python on ESP32 (HUZZAH32)](https://wolfpaulus.com/embedded/micro-python-esp32/)
 * [MicroPython Programming Tutorial: Getting Started with the ESP32 Thing](https://learn.sparkfun.com/tutorials/micropython-programming-tutorial-getting-started-with-the-esp32-thing/all)
