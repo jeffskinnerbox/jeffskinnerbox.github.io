@@ -152,6 +152,8 @@ and verify design simulations to make sure systems and their components work pro
 * [Understanding, Selecting, and Effectively Using Current Probes](https://www.digikey.com/en/articles/understanding-selecting-effectively-using-current-probes)
 * [Micsig CP2100A Best Affordable Current Probe](https://www.youtube.com/watch?v=8zW4j0euN8A)
 ## High Voltage Probe
+## High Current Probe
+* [High Current Measurement Probe For Oscilloscopes](https://hackaday.com/2021/04/11/high-current-measurement-probe-for-oscilloscopes/)
 ## Single-Ended Probe
 ## Differential Probe
 

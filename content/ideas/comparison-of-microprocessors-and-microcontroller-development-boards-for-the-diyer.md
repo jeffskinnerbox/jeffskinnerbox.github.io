@@ -1,6 +1,7 @@
 
 * [RP2040 vs STM32 vs ESP32 vs ESP8266](https://socialcompare.com/en/comparison/rp2040-vs-stm32-vs-esp32-vs-esp8266)
 * [ESP8266 vs ESP32 vs ESP32-S2 vs ESP32-C3](https://socialcompare.com/en/comparison/esp8266-vs-esp32-vs-esp32-s2)
+* [10 Best Microcontrollers on the Market for 2021](https://www.eetasia.com/10-best-microcontrollers-on-the-market-for-2021/)
 
 
 * [70+ Raspberry Pi alternatives in one convenient list](http://liliputing.com/2016/06/70-raspberry-pi-alternatives-one-convenient-list.html)

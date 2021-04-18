@@ -38,6 +38,10 @@ To to that, you man not start here, but you should certainly finish here:
 ## EasyEDA
 * [EasyEDA](https://easyeda.com/)
 
+### Convert EasyEDA Design to KiCad
+* [Introducing: EasyEDA 2 KiCad](https://urish.medium.com/introducing-easyeda-2-kicad-37489da1dfa7)
+* [Convert EasyEDA Files To KiCad EDA](https://wokwi.com/easyeda2kicad)
+
 ## LibrePCB
 * [LibrePCB](https://librepcb.org/)
 * [Review: Testdriving LibrePCB Shows That It’s Growing Up Fast](https://hackaday.com/2020/01/22/review-testdriving-librepcb-shows-that-its-growing-up-fast/)
@@ -211,6 +215,8 @@ because it is possible to locate features based on the position of other feature
 
 ------
 
+
+
 # OpenSCAD
 [OpenSCAD][02] makes use of two main techniques to do its job.
 It does [constructive solid geometry (CSG)][01]
@@ -236,6 +242,15 @@ OpenSCAD also supports extrusion of 2D outlines
 and it read design parameters from [DXF files][04].
 Besides DXF files OpenSCAD,
 can read and create 3D models in the [STL file][05] and [OFF file][06] formats.
+
+## OpenSCAD Workflow
+One of th emost appealing part of OpenSCAD is that it allows you
+to model physical objects as if you were writing software.
+CAD models are expressed in code, in plain text source files that can be managed with tools like git and make.
+This power comes, for those with minimal coding and geometric skills, with the price of a significant learning curve.
+
+* [Mastering OpenSCAD Workflow](https://hackaday.com/2018/11/14/mastering-openscad-workflow/)
+* [Designing 3D Printable Mechanisms in OpenSCAD](https://urish.medium.com/designing-3d-printable-mechanisms-in-openscad-5838dcb65b39)
 
 ## OpenSCAD Libraries
 OpenSCAD uses three library locations,

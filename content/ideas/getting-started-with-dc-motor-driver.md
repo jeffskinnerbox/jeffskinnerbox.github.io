@@ -170,6 +170,8 @@ The motor's position can then be commanded to move and hold at one of these step
 without any position sensor for feedback (an open-loop controller),
 as long as the motor is carefully sized to the application in respect to torque and speed.
 
+* [Stepper Motors Quick And Simple](https://hackaday.com/2021/04/09/stepper-motors-quick-and-simple/)
+
 ## Stepper Motor Wiring
 * [Deducing Stepper Motor Wiring](https://hackaday.com/2019/07/25/deducing-stepper-motor-wiring/)
 

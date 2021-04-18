@@ -19,6 +19,11 @@ and  after all, [isn't it dead][07]?
 * [Carneades.org](https://carneades.org/)
 * [Youtube: Carneades.org](https://www.youtube.com/user/carneadesofcyrene)
 
+# Truth
+* [Post-Truth: Why Facts Don't Matter Anymore](https://www.youtube.com/watch?v=dvk2PQNcg8w)
+* [There is No Algorithm for Truth - with Tom Scott](https://www.youtube.com/watch?v=leX541Dr2rU)
+* [This is How Easy It Is to Lie With Statistics](https://www.youtube.com/watch?v=bVG2OQp6jEQ)
+
 # Very, Very Lage Numbers
 * [A Numbers Game](https://medium.com/@jrf6xh/a-numbers-game-a8ce2ce22aca)
 
@@ -39,6 +44,7 @@ and  after all, [isn't it dead][07]?
 * [3 Paradoxes That Gave Us Calculus](https://www.youtube.com/watch?v=EbHqtENNnSY)
 
 # The Infinite and Infinitesimal
+* [Things get weird at infinity](https://www.youtube.com/watch?v=6HybPBUNzz8)
 * [The Father of Infinity and Modern Mathematics: Georg Cantor](https://ali.medium.com/the-father-of-infinity-and-modern-mathematics-georg-cantor-93beb245756e)
 * [Cantor’s Approach to Mathematical Infinity](https://medium.com/however-mathematics/cantors-approach-to-mathematical-infinity-ca0119e18894)
 * [Cardinal Numbers](https://medium.com/@joshuagammage/cardinal-numbers-661a1a6c224d)
@@ -78,6 +84,7 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 * [Gödel’s First Incompleteness Theorem](https://medium.com/@laurgao/g%C3%B6dels-first-incompleteness-theorem-d41516ccd37d)
 * [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
 * [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
+* [Do Gödel’s Theorems Impact Negatively on Physics?](https://www.cantorsparadise.com/do-g%C3%B6dels-theorems-impact-negatively-on-physics-ed09734b424c)
 
 # Strange Converance
 * [The Collatz Conjecture](https://medium.com/cantors-paradise/the-collatz-conjecture-some-shocking-results-from-180-000-iterations-7fea130d0377)
@@ -186,6 +193,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # A Mathematician's Lament
 * [A Mathematician's Lament by Paul Lockhart](https://www.youtube.com/watch?v=mYGhwTy4B_M)
 * [A Mathematician's Lament by Paul Lockhart](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf)
+* [Mastery of Mathematics for Accomplished Non-Mathematicians](https://www.cantorsparadise.com/mastery-of-mathematics-for-accomplished-non-mathematicians-9633e085aaaa)
 
 # Finding Pi in Unusal Places
 * [The Pi Machine: The most unexpected answer to a counting puzzle](https://medium.com/@christopher.fraser/the-pi-machine-the-most-unexpected-answer-to-a-counting-puzzle-b365db558b12)
@@ -197,6 +205,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 # Entropy
 * [What, Exactly, is Entropy?](https://medium.com/cantors-paradise/what-exactly-is-entropy-2a0e2fc067f8)
+* [A better description of entropy](https://www.youtube.com/watch?v=w2iTCm0xpDc)
+* [Entropy Confusion - Sixty Symbols](https://www.youtube.com/watch?v=vSgPRj207uE)
 
 # Bootstrapping
 * [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)
@@ -207,6 +217,21 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
     * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
+
+# Bayesian Statistics
+Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event. The degree of belief may be based on prior knowledge about the event, such as the results of previous experiments, or on personal beliefs about the event. This differs from a number of other interpretations of probability, such as the frequentist interpretation that views probability as the limit of the relative frequency of an event after many trials.
+
+* [Bayesian Statistics with Hannah Fry](https://www.youtube.com/watch?v=7GgLSnQ48os)
+* [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
+* [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+* [The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg)
+* [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
+
+# Risk
+* [This is How Easy It Is to Lie With Statistics](https://www.youtube.com/watch?v=bVG2OQp6jEQ)
+* [How Not to Fall for Bad Statistics - with Jennifer Rogers](https://www.youtube.com/watch?v=OfVaOqLUbZA)
+* [How To Lie With Statistics](https://www.youtube.com/watch?v=dy1-iBh0N0M)
+* [Spurious Correlations](https://www.tylervigen.com/spurious-correlations)
 
 # Other Ideas
 * [Fixed Points](https://www.youtube.com/watch?v=csInNn6pfT4)
@@ -243,6 +268,10 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # Critical Phenomena
 * [The Fascinating Mystery of Systems with Many Length Scales](https://medium.com/cantors-paradise/the-fascinating-mystery-of-systems-with-many-lengths-24ec663e7d1b)
 
+# Mathematical Notation
+* [Triangle of Power](https://www.youtube.com/watch?v=sULa9Lc4pck)
+* [The Grammar of Mathematics](https://www.cantorsparadise.com/the-grammar-of-mathematics-7c8bb957ea86)
+
 # Category Theory
 * [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
 
@@ -268,6 +297,9 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 # Relativity
 * [General Relativity: How Einstein’s wrong ideas led to his greatest success](https://medium.com/the-infinite-universe/general-relativity-how-einsteins-wrong-ideas-led-to-his-greatest-success-dcfe085a417)
+
+# Tensors
+* [A Light Intro To Tensors: A Framework For Defining Geometric Objects In Space](https://www.cantorsparadise.com/a-light-intro-to-tensors-49508a0a82ab)
 
 
 

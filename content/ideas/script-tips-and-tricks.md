@@ -9,3 +9,8 @@ commandlinefu.com is the place to record those command-line gems that you return
 * [Howto Scanning from the commandline](http://crunchbang.org/forums/viewtopic.php?id=13875)
 * [Top Ten One-Liners from CommandLineFu Explained](http://www.catonmat.net/blog/top-ten-one-liners-from-commandlinefu-explained/)
 
+* [Linux Fu: Shell Script File Embedding](https://hackaday.com/2021/04/09/linux-fu-shell-script-file-embedding/)
+
+# Writing Good Scripts
+* [Better Bash Scripts](https://hackaday.com/2017/07/21/linux-fu-better-bash-scripting/)
+* [Lint for Shell Scripts](https://hackaday.com/2017/03/29/lint-for-shell-scripters/)

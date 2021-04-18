@@ -50,6 +50,8 @@ TinyML is a community of engineers focused on how best to implement machine lear
 * [ST B-L475E-IOT01A](https://docs.edgeimpulse.com/docs/unboxing-the-st-b-l475e-iot01a) - $53.00
 * [M2S-HELLO-FPGA-KIT](https://www.microsemi.com/existing-parts/parts/150925)
 * [Easy TinyML on ESP32 and Arduino](https://www.hackster.io/news/easy-tinyml-on-esp32-and-arduino-a9dbc509f26c)
+* [ArduCam RP2040 Based TinyML Dev Board](https://www.arducam.com/pico4ml-an-rp2040-based-platform-for-tiny-machine-learning/)
+* [Arducam Pico4ML Board – TinyML on Raspberry Pi RP2040 with QVGA Camera & Display](https://www.cnx-software.com/2021/04/13/arducam-pico4ml-board-tinyml-on-raspberry-pi-rp2040-with-qvga-camera-display/)
 
 # TinyML Tools
 * [NanoEdge AI Studio](https://cartesiam.ai/)
@@ -99,6 +101,15 @@ process and distill that information, and relay it to remote end users.
 * [Machine Learning For a Few Dollars: Eta Compute’s ECM3532 Chip Brings Inference to the Edge](https://www.eejournal.com/article/machine-learning-for-a-few-dollars/)
 
 
+
+# Raspbery Pi 4
+* [Raspberry Pi 4 Gets Official Edge Impulse Machine Learning Support](https://www.tomshardware.com/news/raspberry-pi-4-supported-by-edge-impulse)
+* [Edge Impulse and TinyML on Raspberry Pi](https://www.raspberrypi.org/blog/edge-impulse-and-tinyml-on-raspberry-pi/)
+* [Edge Impulse: Raspberry Pi 4](https://docs.edgeimpulse.com/docs/raspberry-pi-4)
+
+# Silicon Labs Thunderboard Sense 2
+* [Silicon Labs Thunderboard Sense 2 // Hackster Spotlight](https://www.hackster.io/videos/894)
+* [Gesture Recognition with the Thunderboard Sense 2](https://www.hackster.io/gatoninja236/gesture-recognition-with-the-thunderboard-sense-2-d010ff)
 
 # Eta Compute's ECM3532 AI Sensor Board
 The ECM3532 is a dual-core (Arm Cortex-M3 plus NXP CoolFlux DSP) SoC which can support sensor fusion applications in the microwatt range for battery-powered or energy-harvesting designs. Always-on image processing and sensor applications can be achieved with a power budget of 100µW.

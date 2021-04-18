@@ -7,6 +7,7 @@
 * [Reverse Engineering A Ceiling Fan Remote](https://hackaday.com/2020/03/31/reverse-engineering-a-ceiling-fan-remote/)
 * [Reverse engineering a ceiling fan](https://irrational.net/2014/03/23/reverse-engineering-a-ceiling-fan/)
 * [Building A New RF Remote From Scratch](https://hackaday.com/2020/04/30/building-a-new-rf-remote-from-scratch/)
+* [Fan-tastic Misuse Of Raspberry Pi GPIO](https://hackaday.com/2021/04/06/fan-tastic-misuse-of-raspberry-pi-gpio/)
 
 # Signals Reverse Engineering
 * [How to Hack your 433 MHz Devices with a Raspberry and a RTL-SDR Dongle (Weather Station)](https://www.youtube.com/watch?v=L0fSEbGEY-Q)
@@ -65,7 +66,10 @@ rpitx is a general radio frequency transmitter for Raspberry Pi which doesn't re
 * [Spektrum](https://github.com/pavels/spektrum)
 
 ## Universal Radio Hacker
+* [Universal Radio Hacker](https://snapcraft.io/urh)
+* [Universal Radio Hacker](https://hackaday.com/2017/02/23/universal-radio-hacker/)
 * [Universal Radio Hacker](https://github.com/jopohl/urh)
+* [Universal Radio Hacker: Investigate Wireless Protocols like a Boss](https://hakin9.org/universal-radio-hacker-investigate-wireless-protocols-like-a-boss/)
 
 
 # Spectrum Analyser

@@ -14,6 +14,8 @@
 * [Using a NodeMCU and Light Sensor to Build a JavaScript Night Light](https://www.losant.com/blog/building-a-nodemcu-javascript-night-light)
 
 
+* [ESP8285 SMT Module - ESP8266 with 1MB FLASH - ESP-M2](https://www.adafruit.com/product/4065)
+
 
 
 

@@ -1917,6 +1917,7 @@ http://www.coyotepoint.com/files/downloads/StaticRoutes.pdf
 http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
 * [How to use the Linux mtr command](https://www.redhat.com/sysadmin/linux-mtr-command)
+* [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
 
 ### `ping`
 http://www.cyberciti.biz/faq/unix-ping-command-examples/

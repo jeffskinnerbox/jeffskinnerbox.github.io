@@ -458,6 +458,7 @@ and connecting it to a desktop or laptop computer.
 * [GitHub for ArduCAM](https://github.com/ArduCAM)
 * http://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/
     * [more information](https://www.youtube.com/watch?v=yCLb2eItDyE)
+* [Arducam Pico4ML Board – TinyML on Raspberry Pi RP2040 with QVGA Camera & Display](https://www.cnx-software.com/2021/04/13/arducam-pico4ml-board-tinyml-on-raspberry-pi-rp2040-with-qvga-camera-display/)
 
 # Rapberry Pi Camera Module vs USB Camera
 The Pi camera is 'run' by the GPU and can dump full frames into RAM at 15 frames a second.

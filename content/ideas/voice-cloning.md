@@ -5,6 +5,8 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 * [Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
 * [Resemble](https://www.resemble.ai/)
 
+* Use IBM's [Watson to turn speech to text](https://www.ibm.com/cloud/watson-speech-to-text)
+
 * [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
 
 * [Tacotron: A TensorFlow implementation of Google's Tacotron speech synthesis with pre-trained model](https://github.com/keithito/tacotron)

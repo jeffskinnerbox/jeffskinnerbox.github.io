@@ -341,6 +341,9 @@ sudo ppa-purge ppa:thopiekar/cura
 Calibration cubes are simple geometric shapes (usually cubes, hence the name)
 that help you fine-tune your 3D printer’s settings. They enable you to achieve maximum precision and accuracy in your prints.
 
+* [Accuracy and Precision](https://en.wikipedia.org/wiki/Accuracy_and_precision)
+* [Know Your Fits and Tolerances](https://hackaday.com/2019/02/25/know-your-fits-and-tolerances/)
+
 * [Calibration Cube – What’s the Best 3D Printer Calibration Cube?](https://all3dp.com/2/3d-printer-calibration-cube-the-best-models-how-to-use-them/)
 
 * [Classic Calibration Cube](https://www.thingiverse.com/thing:1278865)

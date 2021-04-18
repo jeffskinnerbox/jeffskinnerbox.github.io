@@ -15,6 +15,10 @@ Version:      0.0.0
 * [Voltage Standard Ref Tests - Digital Multimeter reference / accuracy check](https://www.youtube.com/watch?v=jXvGpFMKj5U)
 * [Voltage Standard Ref Tests - Follow-up](https://www.youtube.com/watch?v=XnTE13Szaqs&feature=emb_logo)
 
+* [Accuracy and Precision](https://en.wikipedia.org/wiki/Accuracy_and_precision)
+* [Know Your Fits and Tolerances](https://hackaday.com/2019/02/25/know-your-fits-and-tolerances/)
+
+
 
 # AD584LH High Precision 4-Channel Voltage Reference
 The [AD584 is an Analog Device's precision voltage reference][01] offering

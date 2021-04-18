@@ -77,6 +77,9 @@ perform regression testing, and train AI system using realistic scenarios.
 # Jumping Robot
 * [Little Jumping Bot Can Now Stick The Perfect Landing](https://hackaday.com/2020/08/02/little-jumping-bot-can-now-stick-the-perfect-landing/)
 
+# Slitering Robot (Snake)
+* [Slitherbot](https://hackaday.io/project/178463-slitherbot)
+
 # Camera Robot
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
 * [Little FPV Bot Keeps It Simple With An ESP32](https://hackaday.com/2019/02/11/little-fpv-bot-keeps-it-simple-with-an-esp32/)

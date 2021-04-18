@@ -36,6 +36,7 @@ If you needs some additional motivation for taking the test, check out these sit
 * [How to communicate when the world goes silent](http://graywolfsurvival.com/2716/ham-radio-best-shtfdisaster-communication/)
 * [Amateur Radio 101: What, Why, and How](http://k0mcg.net/2016/02/amateur-radio-101-what-why-and-how/)
 * [Amateur Radio 102: Basic Usage](http://k0mcg.net/2016/02/amateur-radio-102-basic-usage/)
+* [Why Should You Get a Ham Radio License?]()
 
 >**NOTE:** The Baofeng UV-5R has now been sort of superseded by a new model,
 >the [Baofeng F8HP][07].
@@ -189,6 +190,7 @@ was announced it was described as being designed for,
 * [The $50 Ham: A Cheap Antenna For The HF Bands](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)
 * [The $50 Ham: Digital Modes With WSJT-X](https://hackaday.com/2021/02/10/the-50-ham-digital-modes-with-wsjt-x/)
 * [The $50 Ham: WSPR-ing Around The World](https://hackaday.com/2021/03/25/the-50-ham-wspr-ing-around-the-world/)
+* [The $50 Ham: A Simple WSPR Beacon](https://hackaday.com/2021/04/15/the-50-ham-a-simple-wspr-beacon/)
 
 
 # Noise Sources

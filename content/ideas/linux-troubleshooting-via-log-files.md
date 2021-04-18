@@ -330,7 +330,9 @@ mtr combines the functionality of the traceroute and ping programs in a single n
 Install `sudo apt-get install mtr`
 
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
+* [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
 * [Diagnosing Network Issues with MTR](https://www.linode.com/docs/networking/diagnostics/diagnosing-network-issues-with-mtr)
+
 # Network Connection Troubleshooter
 
 ## Is the Network Connection Stable

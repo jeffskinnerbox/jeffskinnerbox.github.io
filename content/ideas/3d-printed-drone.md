@@ -1,5 +1,27 @@
 
 
+# Training
+* [Drone Programming With Python Course | 3 Hours | Including x4 Projects (2021)](https://www.youtube.com/watch?v=LmEcyQnfpDA)
+* [Learn Multirotors From First Principles](https://hackaday.com/2021/04/11/learn-multirotors-from-first-principles/)
+
+# Ryze Tech Tello
+* [Ryze Tech Tello](https://www.ryzerobotics.com/tello)
+* [Ryze Tech Tello](https://www.amazon.com/gp/product/B07BDHJJTH/)
+* [Drone Programming With Python Course | 3 Hours | Including x4 Projects (2021)](https://www.youtube.com/watch?v=LmEcyQnfpDA)
+* [Buying a Ryze Tello Drone? Watch This First!](https://www.youtube.com/watch?v=yQoC_n6126A)
+* [Ultimate Drone Buying Guide for Total Beginners 2020](https://www.youtube.com/watch?v=9mzwPoxKxEw)
+
+# EACHINE E58 WiFi FPV Quadcopter
+* [EACHINE E58 WIFI FPV With 2MP Wide Angle Camera High Hold Mode Foldable RC Drone Quadcopter RTF](https://www.eachine.com/de/EACHINE-E58-WIFI-FPV-With-2MP-Wide-Angle-Camera-High-Hold-Mode-Foldable-RC-Drone-Quadcopter-RTF-p-1045.html)
+* [Eachine E58 720P Folding FPV Camera Drone Flight Test Review](https://www.youtube.com/watch?v=Qp0qRJMhreU)
+
+# FPV Flight Simulators
+* [DroneDJ: An FPV professional offers his take on the new DJI FPV drone](https://www.youtube.com/watch?v=2W9dJmeM-Ik&list=TLGGkG2l79GO-8EwOTA0MjAyMQ)
+* [Linux FPV drone simulators](https://www.swalladge.net/archives/2019/11/15/fpv-drone-simulators-linux/)
+
+
+
+
 * [UAV Communications And Mission Systems](https://www.aeronetworks.ca/2021/01/uav-communications-and-mission-systems.html)
 
 
@@ -111,6 +133,23 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [A DIY Functional F-35 Is No Simple Task](https://hackaday.com/2020/04/27/a-diy-functional-f-35-is-no-simple-task/#more-407964)
 * [A Micro RC Plane Builder Shares His Tricks](https://hackaday.com/2017/02/10/a-micro-rc-plane-builder-shares-his-tricks/)
 * [Let’s Take A Closer Look At This Robotic Airship](https://hackaday.com/2020/07/22/lets-take-a-closer-look-at-this-robotic-airship/)
+
+
+
+
+
+# Components of a Drone
+Frame
+Motors
+Propellers
+Electronic Speed Controller (ESC)
+Flight Controller
+Power Distribution Board (PDB)
+Battery
+Receiver
+Camera
+Video Transmitter (VTX)
+Sensors
 
 
 

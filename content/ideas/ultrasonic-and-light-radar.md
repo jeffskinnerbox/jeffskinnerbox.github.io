@@ -28,5 +28,6 @@
 * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor)
 * [Acconeer](https://www.acconeer.com/products)
 
+* [Ultrasonic Sonar Detects Hidden Objects](https://hackaday.com/2021/04/02/ultrasonic-sonar-detects-hidden-objects/)
 * [Ultrasonic RAdar System (URAS): Arduino and Virtual Reality for a light-free mapping of indoor environments](http://www.ieeeprojectmadurai.in/Emp%20basepaper%202017-2018/Ultrasonic%20RAdar%20System%20(URAS)%20Arduino%20and%20Virtual.pdf)
 * [Ultrasonic Radar](https://d1wqtxts1xzle7.cloudfront.net/54454063/Paper1.pdf?1505648052=&response-content-disposition=inline%3B+filename%3DUltrasonic_Radar.pdf&Expires=1605559598&Signature=XcMENKobsb1WkgvPpMN657F-40I-1Cs3mlZQyNIIQw2IkmuAUfxaHXmq5kuF06Z4erlpgfLjZB7Z5hCErG~BddcbaxI2jmd8rOsDwHbgZLQS1ca0sY~OhlGKMIf3WSzbbYuKDd~m0z7NWnJ5k0u15Jd6iDsUFl2lLWousUGIc1O1wULrakn0ZYst17jZHt-HyU9nj3SMdLU21epmDBWFlbVBrQsQTgf9226iIRLuXKuEfPBss6WnUII9M9Ljac0DBTeKWkIzCy~1xguORqvYF80k0bf489ylbGUARSXQsSF91ArzbUEc4x~g4Ke1hphhla-ruMGnkqabfrkWkxqTnw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)

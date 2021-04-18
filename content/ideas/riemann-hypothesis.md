@@ -1,10 +1,11 @@
-* [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
+
 * [The Emergence of Calculus: A Mathematical Journey of Human Thought](https://medium.com/however-mathematics/the-emergence-of-calculus-a-mathematical-journey-of-human-thought-303dd0839b0a)
 * [A Critical Introduction to Mathematical Structuralism](https://medium.com/cantors-paradise/a-critical-introduction-to-mathematical-structuralism-3cb039427647)
 
 
 * [Prime Numbers on Numberphile](https://www.youtube.com/playlist?annotation_id=annotation_1659607549&feature=iv&list=PL0D0BD149128BB06F)
 * [Perfect Numbers and Mersenne Primes](https://www.youtube.com/watch?v=T0xKHwQH-4I)
+* [Exploring the mysteries of the Prime (gaps!) Line](https://www.youtube.com/watch?v=SMsTXQYgbiQ)
 
 * [The Peculiar Math That Could Underlie the Laws of Nature](https://www.quantamagazine.org/the-octonion-math-that-could-underpin-physics-20180720)
 * [Strange Numbers Found in Particle Collisions](https://www.quantamagazine.org/strange-numbers-found-in-particle-collisions-20161115/)
@@ -15,6 +16,16 @@
 
 * [The Mind-Boggling Properties of the Alternating Harmonic Series](https://medium.com/cantors-paradise/the-mind-boggling-properties-of-the-alternating-harmonic-series-d5e91a53dcfa)
 
+
+# Manim
+Manim is an engine for precise animations, designed for creating explanatory math videos.
+
+* [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
+
+## ManimCommunity
+* [How to Create Mathematical Animations like 3Blue1Brown Using Python](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
+* [ManimCommunity](https://github.com/ManimCommunity)
+* [Manim Documentation](https://docs.manim.community/en/stable/index.html#)
 
 
 

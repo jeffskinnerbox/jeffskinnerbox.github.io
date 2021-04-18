@@ -354,6 +354,7 @@ The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][1
 
 # RC Suspension Tuning
 * [RC Suspension Tuning Guide](http://www.competitionx.com/rc-tuning-guide/)
+* [Remote Controlled Car Gets Active Suspension](https://hackaday.com/2021/04/14/remote-controlled-car-gets-active-suspension/)
 
 ## Shocks
 * [RC Suspension Tuning Guide – Shocks](http://www.competitionx.com/rc-tuning-shocks/)

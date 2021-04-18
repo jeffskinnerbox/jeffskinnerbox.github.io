@@ -54,6 +54,9 @@ Inductance is usually measured in units called millihenrys or microhenrys. It is
 * [Measuring Self-Capacitance and Self-Resonant Frequency SRF of Inductors](https://www.youtube.com/watch?v=tjbK4LsOQRk)
 * [Engineering magnetics -- practical introduction to BH curve](https://www.youtube.com/watch?v=4UFKl9fULkA)
 
+* [Measure Capacitors and Inductors with an Oscilloscope and some basic parts](https://www.youtube.com/watch?v=74fz9iwZ_sM)
+* [How to measure a capacitor with an oscilloscope](https://www.youtube.com/watch?v=VylC8JFoiBo)
+
 
 
 [01]:https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction

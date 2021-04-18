@@ -23,14 +23,19 @@ Adafruit offers a devboard
 * [Watchy: The Hackable $50 Smartwatch](https://spectrum.ieee.org/geek-life/hands-on/watchy-the-hackable-50-smartwatch)
 
 ## OpenSmartWatch
+* [An Open Source Smart Watch You’d Actually Wear](https://hackaday.com/2021/04/08/an-open-source-smart-watch-youd-actually-wear/)
 * [There's Something ESPecially Impressive About the OpenSmartWatch Project](https://www.hackster.io/news/there-s-something-especially-impressive-about-the-opensmartwatch-project-c2c878b983cf)
 * [Open SmartWatch Project](https://developer.sony.com/develop/open-devices/more-information/discontinued-projects-initiatives/open-smartwatch-project)
+* [Open-SmartWatch Documentation](https://open-smartwatch.github.io/)
+* [AliExpress: LILYGO® & pauls_3d_things Open-Smartwatch T-micro32 ESP32 WIFI/Bluetooth for arduino](https://www.aliexpress.com/item/1005002341342799.html)
+* [LilyGo sells Open-Smartwatch open-source hardware ESP32 watch by “Paul’s 3D Things”](https://www.cnx-software.com/2021/04/07/lilygo-open-smartwatch-open-source-hardware-esp32-watch-by-pauls-3d-things/)
 
 ## WatchX
 * [watchX](http://www.watchx.io/)
     * [watchX Demonstration](https://www.youtube.com/watch?v=-_z-94JHiTs)
 
 ## PineTime
+* [PineTime](https://www.pine64.org/pinetime/)
 
 
 

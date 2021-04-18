@@ -43,6 +43,7 @@ Then there is the topic of a dashboard and notifications to provide status to me
 * Telegram
 * Speaker
     * Use a speaker, send it text-to-speach - /home/jeff/blogging/content/articles/speech-synthesis-on-the-raspberry-pi.md
+    * Use IBM's [Watson to turn speech to text](https://www.ibm.com/cloud/watson-speech-to-text)
     * Clone a voice pattern to use with speaker - /home/jeff/blogging/content/ideas/voice-cloning.md
     * Make the speaker into an intercom via Mumble - /home/jeff/blogging/content/ideas/raspberry-pi-zero-walkie-talkies-via-mumble.m
 

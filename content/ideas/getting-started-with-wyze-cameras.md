@@ -42,6 +42,22 @@ Compatible with WyzeCam.
 # Wyze Cam Privacy / Security
 * [Data Breach at Wyze Labs Exposes Information of 2.4 Million Customers](https://www.nytimes.com/2019/12/30/business/wyze-security-camera-breach.html)
 
+# Wyze Video Doorbell
+* [The Wyze Video Doorbell Isn't for Everyone... Plus, CT Capetronix Smart Bulbs](https://www.youtube.com/watch?v=A29ki_tG5b8)
+* [Wyze Video Doorbell: Watch BEFORE you BUY](https://www.youtube.com/watch?v=QCVD4GE934I)
+
+# Wyze Thermostat
+* [How We Made Wyze Thermostat](https://www.youtube.com/watch?v=P9cWErjgUAk)
+* [Wyze Thermostat Hands On - Unboxing, Installation & First Impressions Review](https://www.youtube.com/watch?v=Hl7nZaZKKk4)
+* [Who Says Smart Thermostats Can't Be Cheap? | WYZE THERMOSTAT 3-MONTH REVIEW](https://www.youtube.com/watch?v=FFWzyNuAWgA)
+* []()
+* []()
+
+# Wyze Band Activity Tracker
+* [Wyze Band Review](https://www.pcmag.com/reviews/wyze-band)
+
+
+# Wyze Noise-Cancelling Headphones
 
 
 -----
