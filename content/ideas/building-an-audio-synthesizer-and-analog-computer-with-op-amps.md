@@ -232,6 +232,7 @@ Doesn't seem to work???
 * [Deconstructing a Simple Op-Amp](https://hackaday.com/2018/02/20/deconstructing-a-simple-op-amp/)
 * [Circuit VR: Some Op Amps](https://hackaday.com/2020/12/24/circuit-vr-some-op-amps/)
 * [Circuit VR: Even More Op Amps](https://hackaday.com/2021/01/15/circuit-vr-even-more-op-amps/)
+* [Exploring Op Amp Loading](https://hackaday.com/2021/04/18/exploring-op-amp-loading/)
 
 
 
