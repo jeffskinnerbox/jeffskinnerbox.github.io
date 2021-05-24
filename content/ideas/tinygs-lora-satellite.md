@@ -22,3 +22,7 @@ FOSSASAT 1 did not work.
 # Lacuna Space
 LoRa Satellites start up
 * [Lacuna Space](https://lacuna.space/)
+
+# CubeSat / SatNOGS
+* [KRAKsat Space Systems - Polish CubeSat - PW-Sat2](https://alicja.space/)
+* [CubeSat For Under $1000?](https://hackaday.com/2021/04/28/cubesat-for-under-1000/)

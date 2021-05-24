@@ -18,7 +18,8 @@ A volume unit (VU) meter or standard volume indicator (SVI) is a device displayi
 * [The VU Meter And How It Got That Way](https://hackaday.com/2018/08/09/the-vu-meter-and-how-it-got-that-way/)
 * [Building A Top-Notch Electret Microphone](https://hackaday.com/2020/11/02/building-a-top-notch-electret-microphone/)
 * [Remoticon Video: Making Microphones And Finding Sound](https://hackaday.com/2020/12/08/remoticon-video-making-microphones-and-finding-sound/)
+* [MEMS Microphone](https://www.sparkfun.com/products/18011)
 
 # RF Exhaust
-wifi-and-ble-presence-detection-and-tracking.md
-
+* wifi-and-ble-presence-detection-and-tracking.md
+* [Secure and cool Remote Controls (Touchless, AES128 encryption, with a T-Beam watch and a cat)](https://www.youtube.com/watch?v=cXh0T1CWtyg)

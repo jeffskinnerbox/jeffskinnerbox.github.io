@@ -290,6 +290,8 @@ making it a Uninterruptable Power Supply (UPS).
 * [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
 * [How to optimize energy efficiency in smart devices](https://blog.nordicsemi.com/getconnected/how-to-optimize-energy-efficiency-in-smart-devices)
 * [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
+* [Improve battery life in Ultra Low Power wireless applications](https://blog.nordicsemi.com/getconnected/improve-battery-life-in-ultra-low-power-wireless-applications)
+* [Power Profiler Kit II](https://blog.nordicsemi.com/getconnected/power-profiler-kit-ii-brings-greater-insight-to-wireless-power-consumption)
 
 ## Self Discharge
 Much attention can be paid to extending battery life through the use of

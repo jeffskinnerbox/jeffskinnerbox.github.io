@@ -88,6 +88,8 @@ The most fundamental digital modulation techniques are based on [keying][40]:
 
 In QAM, an inphase signal (or I, with one example being a cosine waveform) and a quadrature phase signal (or Q, with an example being a sine wave) are amplitude modulated with a finite number of amplitudes, and then summed. It can be seen as a two-channel system, each channel using ASK. The resulting signal is equivalent to a combination of PSK and ASK.
 
+* [RF Modulation: Crash Course For Hackers](https://hackaday.com/2020/01/28/rf-modulation-crash-course-for-hackers/)
+
 ## Modulator and detector principles of operation
 PSK and ASK, and sometimes also FSK, are often generated and detected using the principle of QAM.
 The I and Q signals can be combined into a [complex-valued][46] signal _I+jQ_ (where _j_ is the [imaginary unit][47]).
@@ -335,9 +337,7 @@ Kalibrate-RTL
 * [Useful? Cheap Spectrum Analyzer LTDZ 35-4400M](https://www.youtube.com/watch?v=PRsaGEk-EsQ&t=27s)
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
 * [Product Review: The TinySA, A Shirt-Pocket Sized Spectrum Analyzer](https://hackaday.com/2020/11/09/product-review-the-tinysa-a-shirt-pocket-sized-spectrum-analyzer/)
-* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
-* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
-* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
+
 
 [HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][70]
 [SDR calibration via GSM FCCH using Kalibrate and LTE-Cell-Scanner on RTL-SDR and HackRF](https://medium.com/@rxseger/sdr-calibration-via-gsm-fcch-using-kalibrate-and-lte-cell-scanner-on-rtl-sdr-and-hackrf-193a7fb8a3eb)

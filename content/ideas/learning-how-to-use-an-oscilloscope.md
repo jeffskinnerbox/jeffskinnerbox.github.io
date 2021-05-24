@@ -1,3 +1,112 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+
+# Basics of Oscilloscopes
+The modern oscilloscope is an invaluable tool.
+[What is an oscilloscope?  What is it useful for?  How is it used?][06]
+At its simplest level the oscilloscope allows users to visualize the behavior of a signal
+by displaying its voltage over a time period.
+But the setup, use, and interpretation of collected data can be overwhelming to many
+and the wealth of new capabilities enabled by digital oscilloscopes are often unknown.
+In this blog, I'll systematical review the use of an oscilloscope,
+specifically the [Rigol DS1054Z][07] ([Rigol's site][08]).
+
+# History of the Oscilloscope
+* [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
+* [History of the Oscilloscope: Oersted’s Laws and Hand Drawn Waveforms](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-oersteds-laws-and-hand-drawn-waveforms/)
+* [History of the Oscilloscope: Visualizing with Light, the CRT, to the Modern Oscilloscope](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-visualizing-with-light-crt-modern-oscilloscope/)
+* [vintageTEK - Online Museum of TekTronix Oscilloscopes](https://vintagetek.org/exhibits/)
+
+
+
+-------
+
+
+
+# Update Rigol DS1054Z Firmware - DONE
+First thing to do is update you Rigol DS1054Z firmware.
+[Here's a step-by-step video on how to perform the firmware (FW) upgrade][09].
+The steps are as follows:
+
+## Step 1: Format USB thumbdrive as Fat32 - DONE
+show your USB drive among all storage partitions and volumes on your computer use
+`dg -h` or `lsblk`.
+
+```bash
+# unmount the file system
+sudo umount /dev/sdi1
+
+#format drive with the FAT32 file system format and give it a name
+sudo mkfs.vfat -F 32 -n 'THUMB-DRIVE' /dev/sdi1
+```
+
+## Step 2: Downloading the Firmware - DONE
+Download the zip file to you PC drive first and then load to the thumb dirve:
+
+```bash
+# make a directory to story the zip file
+mkdir ~/Downloads/DS1054Z-firmware
+cd ~/Downloads/DS1054Z-firmware
+
+# download file from https://www.rigolna.com/firmware/
+
+# unzip the file and copy the appreciate file to the thumb drive
+unzip DS1000ZUpdate.zip
+cp DS1000ZUpdate.GEL /media/jeff/THUMB-DRIVE/
+```
+
+## Step 3: Do Firmware Upgrade - DONE
+Now get your oscilloscopes firmware version
+by select buttons **System** > **System Info**.
+
+Eject the thumb drive and plug into the oscilloscope.
+Select button **Ok**
+
+The firmware update takes about 5 minutes.
+When update complete, remove the thumb drive a restart the scope,
+and recheck firmware version.
+
+Now we must performing a self calibration, which takes about 15 minutes.
+The scope should warm up for at least 30 minutes before calibration.
+Select buttons **Utility** > **Menu Down Arrow** > **Self-Cal** > **Start**
+
+# Expand Rigol DS1054Z Bandwidth to 100 MHz
+There is a simple hack for the Rigol DS1054Z Digital Oscilloscope
+in order to activate all the installed options, including its 100Mhz bandwidth.
+You'll find that hack in the video
+"[How to Hack a Rigol DS1054Z DIgital Oscilloscope - Quick Tips][10]".
+Make sure the firmware is up to date before apply the activation key.
+
+Serial No.: DS1ZA164859787
+Options: DSER
+Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
+
+
+
+--------
+
+
+
+# Rigol DS1054Z Oscilloscope
+
+## Oscilloscope Definitions and Concepts
+## Triggering
+## Signal Integrity
+## Advanced Analysis
+## Connectivity and Data Management
+
+### Making Your First Measurement
+* [Making your first measurement](https://www.youtube.com/watch?v=-T--1IKV8lw)
+* [Basics of Oscilloscopes](https://beyondmeasure.rigoltech.com/acton/fs/blocks/showLandingPage/a/1579/p/p-0032/t/page/fm/0)
+
+
+
+--------
+
+
 
 * [EEVblog Oscilloscope Tutorials](https://www.youtube.com/playlist?list=PLvOlSehNtuHsCTtj-T_vkpTTbBXW4sB51)
 * [Mix - Eevblog oscilloscope](https://www.youtube.com/watch?v=xaELqAo4kkQ&list=RDQMgB8FTWZE6ak&start_radio=1)
@@ -24,11 +133,6 @@
 * [Scope Review: Keysight 1000 X-Series](https://hackaday.com/2017/05/02/scope-review-keysight-1000-x-series/)
 
 
-# History of the Oscilloscope
-* [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
-* [History of the Oscilloscope: Oersted’s Laws and Hand Drawn Waveforms](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-oersteds-laws-and-hand-drawn-waveforms/)
-* [History of the Oscilloscope: Visualizing with Light, the CRT, to the Modern Oscilloscope](https://www.allaboutcircuits.com/news/history-of-the-oscilloscope-visualizing-with-light-crt-modern-oscilloscope/)
-* [vintageTEK - Online Museum of TekTronix Oscilloscopes](https://vintagetek.org/exhibits/)
 
 # Digital Oscilloscope Specs
 * [Understanding Digital Oscilloscope Sample Rate and Analog Bandwidth Specs](https://www.allaboutcircuits.com/technical-articles/understanding-digital-oscilloscope-sample-rate-analog-bandwidth)
@@ -44,6 +148,7 @@ Oscilloscope Sample Rate
 # Noise and EMI
 * [Differential (Normal) Mode Noise and Common Mode Noise－Causes and Measures](https://techweb.rohm.com/knowledge/emc/s-emc/01-s-emc/6899)
 * [How To Track Down Common Mode Noise](https://www.youtube.com/watch?v=BFLZm4LbzQU)
+* [ferrite bead demo](https://www.youtube.com/watch?v=7w0Ec-HEPrA)
 * [Basics of Ferrite Beads: Filters, EMI Suppression, Parasitic oscillation suppression / Tutorial](https://www.youtube.com/watch?v=81C4IfONt3o)
 * [EEVblog #442 - Analog Vs Digital Oscilloscope Noise](https://www.youtube.com/watch?v=ImyUB3_n9fw)
 * [EEVblog #601 - Why Digital Oscilloscopes Appear Noisy](https://www.youtube.com/watch?v=Znwp0pK8Tzk&feature=youtu.be)
@@ -55,7 +160,7 @@ Oscilloscope Sample Rate
 
 ## The Art of Electronics
 None of these tools will be a substitute for a mastering of the domain of electronics.
-To to that, you man not start here, but you should certainly finish here:
+To that, you man not start here, but you should certainly finish here:
 [The Truth is in There: The Art of Electronics, the x-Chapters](https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters)
 
 # Tutorials on Electronics
@@ -99,18 +204,6 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 # Spectrum Analyser
 * [No Spectrum Analyser? No Problem!](https://hackaday.com/2015/12/20/no-spectrum-analyser-no-problem/)
 
-# Vector Network Analyzer (VNA)
-Vector Network Analyzers are used to test component specifications
-and verify design simulations to make sure systems and their components work properly together.
-
-* [Learning About VNAs](https://hackaday.com/2020/06/11/learning-about-vnas/)
-* [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
-* [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
-* [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
-* [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
-* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
-* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
-* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 
 # Spectrum Analyzer
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
@@ -144,6 +237,8 @@ and verify design simulations to make sure systems and their components work pro
 * [The Secret Life of Oscilloscope Probes](http://www.dfad.com.au/links/THE%20SECRET%20WORLD%20OF%20PROBES%20OCt09.pdf)
 * [Oscilloscope Probes: What You Need to Know](https://www.youtube.com/watch?app=desktop&v=XQlPSFqhG08)
 * [EEVblog #1367 - 5 Types of Oscilloscope Passive Probes COMPARED](https://www.youtube.com/watch?v=rzo4Ntxqu1E&feature=youtu.be)
+* [Oscilloscope Current Probe for RF](https://www.elektormagazine.com/labs/oscilloscope-current-probe-for-rf)
+* [MAKE YOUR OWN CURRENT CLAMP PROBE](https://hackaday.com/2018/01/27/make-your-own-current-clamp-probe/)
 ## Passive Voltage Probe
 * [EEVblog #453 - Mysteries of x1 Oscilloscope Probes Revealed](https://www.youtube.com/watch?app=desktop&v=OiAmER1OJh4)
 ## Active Voltage Probe
@@ -191,14 +286,35 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 
 
 
+-------
+
+
+
+# VISA (Virtual Instrument Software Architecture)
+* [HOW TO CONTROL YOUR INSTRUMENTS FROM A COMPUTER: IT’S EASIER THAN YOU THINK](https://hackaday.com/2016/11/16/how-to-control-your-instruments-from-a-computer-its-easier-than-you-think/)
+* [CONTROLLING YOUR INSTRUMENTS FROM A COMPUTER: DOING SOMETHING USEFUL](https://hackaday.com/2016/11/29/controlling-your-instruments-from-a-computer-doing-something-useful/)
+* [Ollie: Voice control for oscilloscopes](https://github.com/jmwilson/ollie)
+
+
+
 [01]:https://hackaday.com/2018/09/11/the-pre-crt-oscilloscope/
 [02]:https://hackaday.com/2018/11/01/cut-through-the-noise-see-tiny-signals/
 [03]:http://dangerousprototypes.com/2010/12/06/bus-pirate-piratescope/
 [04]:https://en.wikipedia.org/wiki/Vernier_scale
 [05]:https://www.worldscientific.com/worldscibooks/10.1142/1997
-[06]:
-[07]:
-[08]:
-[09]:
-[10]:
+[06]:https://www.youtube.com/watch?v=Iq4QlfH-oqk
+[07]:https://eleshop.eu/rigol-ds1054z.html
+[08]:https://www.rigolna.com/products/digital-oscilloscopes/1000z/
+[09]:https://www.youtube.com/watch?v=Xo9wLOAwW_o
+[10]:https://www.youtube.com/watch?v=aNy6-CLS3BI
+[11]:
+[12]:
+[13]:
+[14]:
+[15]:
+[16]:
+[17]:
+[18]:
+[19]:
+[20]:
 

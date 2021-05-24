@@ -35,6 +35,8 @@ and current sensing applications.
 
 We are interested here in the Hall effect current sensor which be used for AC or DC current measurement.
 
+* [Practical Sensors: The Hall Effect](https://hackaday.com/2021/05/20/practical-sensors-the-hall-effect/)
+
 ## Current Sensing Transformer
 A [current transformer][01] is a type of transformer that is used to reduce
 or multiply an alternating current (AC).

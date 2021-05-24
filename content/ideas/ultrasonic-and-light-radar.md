@@ -1,10 +1,18 @@
 
+Radar is a detection system that uses radio waves to determine the range, angle, or velocity of objects.
+
+A radar system consists of a transmitter producing electromagnetic waves in the radio or microwaves domain, a transmitting antenna, a receiving antenna (often the same antenna is used for transmitting and receiving) and a receiver and processor to determine properties of the object(s). Radio waves (pulsed or continuous) from the transmitter reflect off the object and return to the receiver, giving information about the object's location and speed.
+
+The term RADAR was coined in 1940 by the United States Navy as an acronym for "RAdio Detection And Ranging".
+
 # # Type of Radar Sensors
 * [How to choose Radar Sensors (Tutorial). Incl. PIR and LIDAR](https://www.youtube.com/watch?v=PNbAM9IhfBE)
 * [#135 Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0&t=712s)
 * [#181 DIY Radar Speed Gun using cheap Radar Sensors (HB100, CDM324) for Arduino, ESP8266 and ESP32](https://www.youtube.com/watch?v=Kzsh59TM4MY)
 
 # Radar Sensors
+
+* [mmWave Radar - Human Presence Detection](https://www.dfrobot.com/product-2282.html?tracking=608907df792ab)
 * [Recognizing Activities Using Radar](https://hackaday.com/2020/09/06/recognizing-activities-using-radar/)
 * [Robot Radar Module](https://hackaday.com/2018/05/03/robot-radar-module/)
     * [SparkFun Pulsed Radar Breakout - A111](https://www.sparkfun.com/products/15577)
@@ -30,4 +38,8 @@
 
 * [Ultrasonic Sonar Detects Hidden Objects](https://hackaday.com/2021/04/02/ultrasonic-sonar-detects-hidden-objects/)
 * [Ultrasonic RAdar System (URAS): Arduino and Virtual Reality for a light-free mapping of indoor environments](http://www.ieeeprojectmadurai.in/Emp%20basepaper%202017-2018/Ultrasonic%20RAdar%20System%20(URAS)%20Arduino%20and%20Virtual.pdf)
-* [Ultrasonic Radar](https://d1wqtxts1xzle7.cloudfront.net/54454063/Paper1.pdf?1505648052=&response-content-disposition=inline%3B+filename%3DUltrasonic_Radar.pdf&Expires=1605559598&Signature=XcMENKobsb1WkgvPpMN657F-40I-1Cs3mlZQyNIIQw2IkmuAUfxaHXmq5kuF06Z4erlpgfLjZB7Z5hCErG~BddcbaxI2jmd8rOsDwHbgZLQS1ca0sY~OhlGKMIf3WSzbbYuKDd~m0z7NWnJ5k0u15Jd6iDsUFl2lLWousUGIc1O1wULrakn0ZYst17jZHt-HyU9nj3SMdLU21epmDBWFlbVBrQsQTgf9226iIRLuXKuEfPBss6WnUII9M9Ljac0DBTeKWkIzCy~1xguORqvYF80k0bf489ylbGUARSXQsSF91ArzbUEc4x~g4Ke1hphhla-ruMGnkqabfrkWkxqTnw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+* [How I built an ultrasonic 3d scanner](https://www.alextoussaint.com/2021-04-28_How-I-built-an-ultrasonic-3d-scanner.html)
+
+## IoT Radar Sensor
+The mini-H is a small high-resolution 60 GHz IoT radar sensor that can be used for elderly care, home automation and telehealth applications. The sensor, from sensor maker Bitsensing, can detect presence, movement, breathing, falls and gestures, even with clothes or blankets, and it can operate in dark or wet places. The sensor, which can be mounted to a wall, measures at 50 by 50 millimeters,
+* [Mini-H](http://bitsensing.com/product/healthcare.php)

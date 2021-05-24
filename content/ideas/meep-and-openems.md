@@ -1,3 +1,4 @@
+
 **Computational Electromagnetics (CEM)**
 is the process of modeling the interaction of electromagnetic fields with physical objects and the environment.
 It typically involves using computationally efficient approximations to Maxwell's equations and is used to calculate antenna performance, electromagnetic compatibility, radar cross section and electromagnetic wave propagation.
@@ -15,6 +16,13 @@ is a numerical analysis technique used for modeling computational electrodynamic
 * [Are you using the right tools in computational electromagnetics?](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12041)
 * [Computational Electromagnetics](http://web.mst.edu/~jfan/slides/li2.pdf)
 
+
+
+-----
+
+
+
+# What is MEEP?
 The MIT Electromagnetic Equation Propagation (MEEP) is a free finite-difference time-domain (FDTD)
 simulation software package developed at MIT to model electromagnetic systems,
 along with our MPB eigenmode package
@@ -41,3 +49,14 @@ refers to the directional (angular) dependence of the strength of the radio wave
 * [antenna-radiation.ipynb](https://fossies.org/linux/meep/python/examples/antenna-radiation.ipynb)
 
 * [Development of Software for Antenna Analysis and Design using FDTD]()
+
+
+
+-----
+
+
+# What is openEMS?
+Welcome! openEMS is a free and open electromagnetic field solver using the FDTD method.
+Matlab or Octave are used as an easy and flexible scripting interface.
+
+* [openEMS](https://openems.de/start/)

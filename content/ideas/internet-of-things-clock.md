@@ -66,6 +66,8 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
     * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
 * [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)
+* [A Mind Blowing Mechanical Work Of Art - 3D Printed Tri-Axial Tourbillon](https://www.youtube.com/watch?v=j4Cfn5iATys)
+
 * [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
 * [Time Zone Map](https://www.timeanddate.com/time/map/)
 * [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
@@ -206,14 +208,17 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Phase-locked Inverter](https://mitxela.com/projects/phase-locked_inverter)
 
 ## Split-Flap Display (aka flip-clock)
+* [How a Split-Flap Display Works](https://www.youtube.com/watch?v=UAQJJAQSg_g)
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
+* [Dead simple split flap display](https://www.thingiverse.com/thing:2369832)
 * [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
 * [3D Printed Flip Clock Is Worth A Second Look](https://hackaday.com/2020/02/12/3d-printed-flip-clock-is-worth-a-second-look/)
 * [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
 * [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
+* [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
 
 ## Math Clock
 Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall+clock
@@ -498,6 +503,25 @@ Andreas has posted how to use the [ESP8266 to drive a clock, no RTC required][22
 and when combined this with his approach for
 [scheduling a daily task][24] and use of [RTC memory][25],
 you get a very interesting platform.
+
+# Over-The-Air (OTA) Firmware Updates
+OTA updates are critically important to developers with connected devices.
+I'm going to list several best practices developers should keep in mind with implementing their OTA solution.
+
+* Encrypt your firmware updates
+Encrypting a firmware image provides several benefits. First, it can convert your firmware binary into a form that seems random or meaningless. This is desired because a developer shouldn’t want their binary image to be easily studied, investigated or reverse engineered. This makes it harder for someone to steal intellectual property and more difficult to understand for someone who may be interested in attacking the system. Second, encrypting the image means that the sender must have a key or credential of some sort that matches the device that will decrypt the image. This can be looked at a simple source for helping to authenticate the source, although more should be done than just encryption to fully authenticate and verify integrity such as signing the image.
+
+* Do not support firmware rollbacks
+There is often a debate as to whether firmware rollbacks should be supported in a system or not. My recommendation for a best practice is that firmware rollbacks be disabled. The argument for rollbacks is often that if something goes wrong with a firmware update then the user can rollback to an older version that was working. This seems like a good idea at first, but it can be a vulnerability source in a system. For example, let’s say that version 1.7 had a bug in the system that allowed remote attackers to access the system. A new firmware version, 1.8, fixes this flaw. A customer updates their firmware to version 1.8, but an attacker knows that if they can force the system back to 1.7, they can own the system. Firmware rollbacks seem like a convenient and good idea, in fact I’m sure in the past I used to recommend them as a best practice. However, in today’s connected world where we perform OTA updates, firmware rollbacks are a vulnerability so disable them to protect your users.
+
+* Secure your bootloader
+Updating firmware Over-the-Air requires several components to ensure that it is done securely and successfully. Often the focus is on getting the new image to the device and getting it decrypted. However, just like in traditional firmware updates, the bootloader is still a critical piece to the update process and in OTA updates, the bootloader can’t just be your traditional flavor but must be secure.
+There are quite a few methods that can be used with the onboard bootloader, but no matter the method used, the bootloader must be secure. Secure bootloaders need to be capable of verifying the authenticity and integrity of the firmware before it is ever loaded. Some systems will use the application code to verify and install the firmware into a new application slot while others fully rely on the bootloader. In either case, the secure bootloader needs to be able to verify the authenticity and integrity of the firmware prior to accepting the new firmware image.
+It’s also a good idea to ensure that the bootloader is built into a chain of trust and cannot be easily modified or updated. The secure bootloader is a critical component in a chain-of-trust that is necessary to keep a system secure.
+
+* Build a Chain-of-Trust
+A chain-of-trust is a sequence of events that occur while booting the device that ensures each link in the chain is trusted software. For example, I’ve been working with the Cypress PSoC 64 secure MCU’s recently and these parts come shipped from the factory with a hardware-based root-of-trust to authenticate that the MCU came from a secure source. That Root-of-Trust (RoT) is then transferred to a developer, who programs a secure bootloader and security policies onto the device. During the boot sequence, the RoT verifying the integrity and authenticity of the bootloader, which then verifies the integrity and authenticity of any second stage bootloader or software which then verifies the authenticity and integrity of the application. The application then verifies the authenticity and integrity of its data, keys, operational parameters and so on.
+This sequence creates a Chain-Of-Trust which is needed and used by firmware OTA updates. When the new firmware request is made, the application must decrypt the image and verify that authenticity and integrity of the new firmware is intact. That new firmware can then only be used if the Chain-Of-Trust can successfully make its way through each link in the chain. The bottom line, a developer and the end user know that when the system boots successfully that the new firmware is legitimate.
 
 ## Establish Arduino IDE Development Environment
 In this section, my objective is to get my coding environment,

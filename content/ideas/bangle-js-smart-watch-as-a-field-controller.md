@@ -47,3 +47,6 @@ Adafruit offers a devboard
 * [BlitzWolf® BW-AT1 Full Touch Dymanic UI Smart Watch](https://www.banggood.com/BlitzWolf-BW-AT1-Full-Screen-Touch-Dymanic-UI-Display-Heart-Rate-Blood-Pressure-Oxygen-Monitor-Weather-Push-Smart-Watch-p-1619435.html)
 * [SMA-Q2 Smart Watch Is Completely Hackable](https://hackaday.com/2020/01/30/sma-q2-smart-watch-is-completely-hackable/)
 * [Is That An ESP32 On Your Wrist?](https://hackaday.com/2020/05/22/is-that-an-esp32-on-your-wrist/)
+
+# Other Things
+* [Secure and cool Remote Controls (Touchless, AES128 encryption, with a T-Beam watch and a cat)](https://www.youtube.com/watch?v=cXh0T1CWtyg)

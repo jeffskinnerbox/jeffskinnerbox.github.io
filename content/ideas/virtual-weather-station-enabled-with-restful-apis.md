@@ -291,8 +291,11 @@ Lightning Basics - https://www.nssl.noaa.gov/education/svrwx101/lightning/
 * [Lightning Analysis With Your SDR](https://hackaday.com/2020/08/07/lightning-analysis-with-your-sdr/)
 * [ANALYZING LIGHTNING DISCHARGES WITH AN RTL-SDR AND THE SAGE NETWORK](https://www.rtl-sdr.com/analyzing-lightning-discharges-with-an-rtl-sdr-and-the-sage-network/)
 
-## National Weather Service
-??
+## Weather Services
+* [Lightning Maps](https://www.lightningmaps.org/?lang=en#m=oss;t=3;s=0;o=0;b=;ts=0;)
+* [Blitzortung](https://www.blitzortung.org/en/live_lightning_maps.php)
+* [GOES-East CONUS - Geostationary Lightning Mapper](https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&band=EXTENT&length=12)
+* []()
 
 
 
@@ -353,6 +356,7 @@ that can send notifications within minutes of an earthquake.
 * [Spot Adulterated Olive Oil With This Spectrophotometer](https://hackaday.com/2019/08/31/spot-adulterated-olive-oil-with-this-spectrophotometer/)
 * [Arduino Rig Does Spectrophotometry](https://hackaday.com/2020/08/24/arduino-rig-does-spectrophotometry/)
 * [High-Speed Spectrometer Built With Cheap Linear CCD](https://hackaday.com/2020/11/21/high-speed-spectrometer-built-with-cheap-linear-ccd/)
+* [PI-BASED SPECTROMETER PUTS THE COMPLEXITY IN THE SOFTWARE](https://hackaday.com/2021/04/23/pi-based-spectrometer-puts-the-complexity-in-the-software/)
 
 # NOAA Weather Satellite Data
 * [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)

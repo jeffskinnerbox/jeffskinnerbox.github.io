@@ -434,6 +434,36 @@ see the text here - https://www.hardill.me.uk/wordpress/2016/11/05/alexa-home-sk
 
 This is a sample skill written in JavaScript that demonstrates how to use device ID and the API endpoint values to make a request to the Alexa Device Address API - https://github.com/alexa/skill-sample-node-device-address-api?mkt_tok=eyJpIjoiTjJabFltSmlaakF6WVRjeCIsInQiOiI4RjZvd3dka25pUU5PRXFnTFVTZ0FhdnNJeEJrWXY4RGdsR1Y5SEJFanFrMEtvZTk0K216UTEzZXJHMng2YlhDVHBDd3dwbmt2NG8ybE4rcE1VWEFEQ1ZQU3hVRUE0eTY5MjdWaWxIcGhPMG5cL0xoNWhPMEZKYXFaWGFBc1JrODMifQ==
 
+# Sidewalk
+[Amazon Sidewalk][38] is a low-bandwidth network that was first [announced in September of 2019][37],
+promised to extend the range at which you can control your devices
+beyond what Bluetooth and WiFi currently can support.
+The reported benefits of Sidewalk are:
+
+_Amazon Sidewalk creates a low-bandwidth network with the help of Sidewalk Bridge devices including select Echo and Ring devices.
+These Bridge devices share a small portion of your internet bandwidth which is pooled together to provide these services
+to you and your neighbors.
+And when more neighbors participate, the network becomes even stronger._
+
+Sidewalk is a low-bandwidth networking capability already built into some Echo and Ring devices.
+but it also piggybacks a portion of the owner’s broadband connection to the Internet.
+It provides basic connectivity over longer distances to compatible devices
+even when your WiFi network is not available.
+If your Internet connection goes down, then your devices will still have basic functionality
+via a local low-bandwidth wide-area wireless network provided by you neighbours Amazon Sidewalk devices.
+
+An example use case is Amazon smart dog tag called [Fetch][39].
+If your dog ever runs away, you'll be able to use the Amazon Sidewalk network to help find them.
+Devices in your neighbor's home might pick up your dog's Fetch so you can track it beyond your yard.
+During Amazon's testing with 700 Amazon employees in the Los Angeles area,
+Sidewalk hubs cast a signal as far as a mile, and combined to connect most of the city.
+
+Amazon [Sidewalk is goes live on June 8th, 2021][40],
+but Amazon [pre-emptively turned the feature on][41]
+for people with eligible devices late 2020.
+Luckly, [you can turn Sidewalk off][42].
+
+* [Amazon Sidewalk will create entire smart neighborhoods. Here's what you should know](https://www.cnet.com/home/smart-home/amazon-sidewalk-will-create-entire-smart-neighborhoods-faq-ble-900-mhz/)
 
 # First Alexa Skill (Ask Google)
 # Doing Google Search via Alexa
@@ -548,12 +578,12 @@ open phone apps, and [more][20].
 [34]:https://www.youtube.com/watch?v=Pv4Aw5-ONy0
 [35]:http://mymediaalexa.com/#section-3
 [36]:http://127.0.0.1:52051/index.html#!/
-[37]:
-[38]:
-[39]:
-[40]:
-[41]:
-[42]:
+[37]:https://www.cnet.com/news/amazon-sidewalk-extends-your-network-but-security-is-already-in-question/
+[38]:https://www.amazon.com/Amazon-Sidewalk/b?ie=UTF8&node=21328123011
+[39]:https://www.lifewire.com/what-is-ring-fetch-and-how-does-it-work-4771510
+[40]:https://www.cnet.com/home/smart-home/amazon-sidewalk-launches-june-8-with-support-for-tile-trackers/
+[41]:https://www.cnet.com/home/smart-home/amazon-sidewalk-has-automatically-switched-on-in-your-alexa-app/
+[42]:https://www.cnet.com/home/smart-home/how-to-switch-off-amazon-sidewalk-in-the-alexa-app/
 [43]:
 [44]:
 [45]:

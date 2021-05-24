@@ -826,6 +826,7 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [Printable Filament Spool Hub Skips the Bearings](https://hackaday.com/2019/03/16/printable-filament-spool-hub-skips-the-bearings/)
 * [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
 * [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
+* [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
 
 ## Radio Controlled Car
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)

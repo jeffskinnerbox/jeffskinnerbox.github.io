@@ -35,6 +35,7 @@ that will enable server-side infrastructure for your IoT applications.
 
 # MotionEye
 * [motionEye in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=0JdnJj_dTL4&feature=youtu.be)
+* [Visual Raspberry Pi With Node-Red And TensorFlow](https://hackaday.com/2021/04/22/visual-raspberry-pi-with-node-red-and-tensorflow/)
 
 # Raspberry Pi as a Server
 * [Set up a minimal server on a Raspberry Pi](https://opensource.com/article/21/1/minimal-server-raspberry-pi)

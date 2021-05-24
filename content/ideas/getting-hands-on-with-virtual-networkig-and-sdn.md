@@ -273,6 +273,24 @@ this series aims at introducing some of the more commonly used techniques using 
 * [Linux Bridge - how it works](https://goyalankit.com/blog/linux-bridge)
 * [Creating a Bridge and Shared Network on Docker](https://qiita.com/kojiwell/items/f16757c1f0cc86ff225b)
 
+# Containers vs VMs
+Containers host a single, stripped-down operating system (OS).
+This OS is specialized in one application, which is made up of microservices.
+VMs allow for a server’s processor to run different OSs on one compute node.
+The VM hosts a full version of the OS making it bulkier and more difficult to migrate than a container.
+
+Both environments have their advantages and disadvantages depending on the
+individual systems and tasks an operator has to complete.
+
+The key characteristic distinguishing a container from a VM is the container’s shorter lifespan.
+In a modern orchestration system, multiple copies of a container coexist.
+If one container fails, the server software can remove and replace it without a noticeable impact on service.
+This fact is an enabler of continuous integration and continuous delivery (CI/CD) environment,
+where new or experimental versions of containers can coexist with older versions.
+If an experimental feature fails, operators can roll back and replace all of the faulty new containers.
+
+* [How Does Container Networking Work? Defined](https://www.sdxcentral.com/cloud/containers/definitions/how-does-container-networking-work/)
+
 
 
 [01]:https://www.opennetworking.org/

@@ -45,6 +45,14 @@ It appeared in Unix in 1971, and is part of Linux and Unix-like operating system
 * [What is a TTY on Linux? (and How to Use the tty Command)](https://www.howtogeek.com/428174/what-is-a-tty-on-linux-and-how-to-use-the-tty-command/)
 * [The TTY demystified](http://www.linusakesson.net/programming/tty/)
 
+
+------
+
+
+# Background
+* [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
+* [Linux Terminal and Console Explained For Beginners](https://www.linuxbabe.com/command-line/linux-terminal)
+
 # Computer Terminal
 A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system.
 Early user terminals connected to computers were electromechanical teleprinters/teletypewriters (TeleTYpewriter, TTY), such as the Teletype Model 33 ASR, originally used for telegraphy or the Friden Flexowriter.
@@ -139,8 +147,21 @@ See - https://www.cyberciti.biz/tips/bash-fix-the-display.html
 * http://osr507doc.xinuos.com/en/HANDBOOK/serial_line_operation_changing.html
 * [How to change the color of your Linux terminal](https://opensource.com/article/19/9/linux-terminal-colors)
 
+
+-----
+
+
+
 # Screen
-How to check if I'm in screen session? - https://serverfault.com/questions/257975/how-to-check-if-im-in-screen-session
+GNU Screen is a terminal multiplexer, a software application that can be used to multiplex several virtual consoles, allowing a user to access multiple separate login sessions inside a single terminal window, or detach and reattach sessions from a terminal.
+Each virtual terminal provides the functions of the DEC VT100 terminal and, in addition, several control functions from the ISO 6429 and ISO 2022 standards.
+
+* [Using GNU screen with examples](https://linuxconfig.org/using-gnu-screen-with-examples)
+* [How to check if I'm in screen session?](https://serverfault.com/questions/257975/how-to-check-if-im-in-screen-session)
+* [GNU Screen Cheat Sheet](https://opensource.com/sites/default/files/gated-content/osdc_cheatsheet-screen-2021.4.14.pdf)
+* [Screen User’s Manual](https://www.gnu.org/software/screen/manual/screen.html)
+* [Screen Command: Set Baud Rate](https://www.cyberciti.biz/faq/unix-linux-apple-osx-bsd-screen-set-baud-rate/)
+* [What are useful .screenrc settings?](https://serverfault.com/questions/3740/what-are-useful-screenrc-settings)
 
 The `screen` program does not (as far as we know) provide an option for local echo
 (to see what you are typing).
@@ -148,6 +169,7 @@ Screen assumes that character echo will be supplied at the far end, not your loc
 This can be a pain but `minicom` is an alternative that can provide local echo.
 
 * [An introduction to GNU Screen](https://opensource.com/article/17/3/introduction-gnu-screen)
+* [Linux tips for using GNU Screen](https://opensource.com/article/21/4/gnu-screen-cheat-sheet)
 
 # Minicom
 Minicom is a terminal program, intended for use with a modem, that
@@ -204,6 +226,11 @@ You will see the minicom configuration utility ... http://processors.wiki.ti.com
 * [Minicom-tutorial](http://derrekito.github.io/Minicom-tutorial/)
 
 [Null modem](https://en.wikipedia.org/wiki/Null_modem)
+
+## st - Simple Terminal
+st is a simple terminal implementation for X.
+
+* [st - simple terminal](https://st.suckless.org/)
 
 #######################################
 

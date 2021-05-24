@@ -1,3 +1,15 @@
+
+Can you draw the connection between
+
+Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--> Prime Numbers
+
+* [The Beautiful Gamma Function and the Genius Who Discovered It](https://www.cantorsparadise.com/the-beautiful-gamma-function-and-the-genius-who-discovered-it-8778437565dc)
+
+
+
+
+
+
 What the hell is going on?
 
 In 1960, [Eugene Wigner][01]
@@ -7,6 +19,18 @@ published a now classic article on the philosophy of mathematics and of physics,
 
 [How math and science move in opposite directions](https://medium.com/@jblake17/how-math-and-science-move-in-opposite-directions-53820a836c4c)
 
+# Unreasonable Usefulness of Complex Numbers
+* [The Beautiful World of Complex Functions](https://www.cantorsparadise.com/the-beautiful-world-of-complex-functions-c94425c9643b)
+* [Beyond Infinity](https://www.cantorsparadise.com/beyond-infinity-143c191e0616)
+
+* [Infinity in Numbers — Leonhard Euler](https://www.cantorsparadise.com/the-pursuit-of-truth-and-beauty-in-a-timeless-universe-part-1-baca94d9e587)
+* [The Most Beautiful Equation in the World And the Geometry of Numbers](https://www.cantorsparadise.com/the-most-beautiful-equation-in-the-world-5ab6e49c363)
+* [The Beautiful Gamma Function and the Genius Who Discovered It](https://www.cantorsparadise.com/the-beautiful-gamma-function-and-the-genius-who-discovered-it-8778437565dc)
+* [Exploring a Different Kind of Calculus](https://www.cantorsparadise.com/exploring-a-different-kind-of-calculus-23204e02d545)
+
+* [Gravity as Geometry - Part I: Gravity and General Relativity](https://www.cantorsparadise.com/gravity-as-geometry-4e02450512ff)
+* [Fields and Symmetry - Part 2: Strong, Weak, Electromagnetic Interactions, Quantum Field Theory and Yang Mills Theory](https://www.cantorsparadise.com/fields-and-symmetry-5dfdcb529947)
+
 # Philosophy
 It may be wise to learn a little more about philosophy to truly appreciate and master the topics below.
 Philosophy is the systematic and critical study of fundamental questions that arise
@@ -14,7 +38,7 @@ about existence, logic, knowledge, values, reason, mind, and language.
 The philosophical methods include questioning, critical discussion, rational argument, and systematic presentation.
 
 So [what is Philosophy][04], [why do you need to know about it][05], [is it at all useful][06],
-and  after all, [isn't it dead][07]?
+and by the way, [isn't it dead][07]?
 
 * [Carneades.org](https://carneades.org/)
 * [Youtube: Carneades.org](https://www.youtube.com/user/carneadesofcyrene)
@@ -59,6 +83,7 @@ and  after all, [isn't it dead][07]?
 * [Axiom of infinity](https://en.wikipedia.org/wiki/Axiom_of_infinity)
 * [Axiom of Replacement](https://en.wikipedia.org/wiki/Axiom_schema_of_replacement)
 * [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis)
+* [The Continuum Hypothesis, explained](https://www.cantorsparadise.com/the-continuum-hypothesis-explained-e4dc95ebe669)
 * [Inaccessible Cardinal](https://en.wikipedia.org/wiki/Inaccessible_cardinal)
 * [An Infinite Playlist](https://www.youtube.com/playlist?list=PLa6IE8XPP_glwNKmFfl2tEL0b7E9D0WRr)
 * [The Nature of Infinity — and Beyond](https://medium.com/cantors-paradise/the-nature-of-infinity-and-beyond-a05c146df02c)
@@ -77,10 +102,12 @@ that when investigated or explained may prove to be well founded or true.
 * [Infinity Paradoxes - Numberphile](https://www.youtube.com/watch?v=dDl7g_2x74Q)
 * [Paradoxes of Infinity](https://www.cut-the-knot.org/WhatIs/Infinity/Paradoxes.shtml)
 * [Aristotle's Wheel Paradox - To Infinity and Beyond](https://www.youtube.com/watch?v=mrVg9GM5h7Q&feature=youtu.be)
+* [How Big are All Infinities Combined? (Cantor's Paradox)](https://www.youtube.com/watch?v=TbeA1rhV0D0)
 
 An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - [Cantor's Paradox](https://www.youtube.com/watch?v=WIrdyu9WquQ)
 
 #  Gödel’s Incompleteness Theorems
+* [There's a Hole at the Bottom of Math](https://www.youtube.com/watch?v=HeQX2HjkcNo)
 * [Gödel’s First Incompleteness Theorem](https://medium.com/@laurgao/g%C3%B6dels-first-incompleteness-theorem-d41516ccd37d)
 * [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
 * [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
@@ -125,6 +152,9 @@ A function is a relation that uniquely associates members of one set with member
 * [Chaos Theory and the Logistic Map](https://geoffboeing.com/2015/03/chaos-theory-logistic-map/)
 * [Machine Learning’s ‘Amazing’ Ability to Predict Chaos](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/)
 
+# Order Emergent from Chaos
+* [Amazing Graphs - Numberphile](https://www.youtube.com/watch?v=pAMgUB51XZA)
+
 # The Hidden Structure of the Universe
 * [The Hidden Structure of the Universe](https://www.quantamagazine.org/the-hidden-structure-of-the-universe-20201022/)
 * [Chapter 1: A New Map of All the Particles and Forces](https://www.quantamagazine.org/a-new-map-of-the-standard-model-of-particle-physics-20201022)
@@ -161,7 +191,10 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Why isn't the speed of light infinite? What if it was?](https://www.youtube.com/watch?v=392N-IYRepc)
 
 # Fine-Structure Constant
+* [Fine Structure Constant Explained in 60 Seconds (Part 1) #shorts by Parth G](https://www.youtube.com/watch?v=KpLno70oYHE)
+* [Visualizing the Fine Structure Constant (Part 2) #shorts by Parth G](https://www.youtube.com/watch?v=lf3y1ydaVuo)
 * [Physicists Nail Down the ‘Magic Number’ That Shapes the Universe](https://www.quantamagazine.org/physicists-measure-the-magic-fine-structure-constant-20201202/)
+* [Fine Structure Constant - Sixty Symbols](https://www.youtube.com/watch?v=WlSLIW0gZtk)
 
 # Quantum Fluctuations
 * [Quantum Fluctuations Were Experimentally Proven Way Back In 1947](https://medium.com/starts-with-a-bang/quantum-fluctuations-were-experimentally-proven-way-back-in-1947-35952514e5eb)
@@ -203,6 +236,9 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Estimating π with Monte-Carlo-Simulations](https://medium.com/cantors-paradise/estimating-%CF%80-using-monte-carlo-simulations-3459a84b5ef9)
 * [A Beautiful Way to Calculate π: Buffon’s Needle Problem](https://medium.com/however-mathematics/a-beautiful-way-to-calculate-%CF%80-buffons-needle-problem-51d41029f287)
 
+# Finding e in Unusal Places
+* [A Brilliant Limit](https://www.youtube.com/watch?v=89d5f8WUf1Y)
+
 # Entropy
 * [What, Exactly, is Entropy?](https://medium.com/cantors-paradise/what-exactly-is-entropy-2a0e2fc067f8)
 * [A better description of entropy](https://www.youtube.com/watch?v=w2iTCm0xpDc)
@@ -217,6 +253,9 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
     * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
+
+# Probability Paradoxes
+* [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 
 # Bayesian Statistics
 Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event. The degree of belief may be based on prior knowledge about the event, such as the results of previous experiments, or on personal beliefs about the event. This differs from a number of other interpretations of probability, such as the frequentist interpretation that views probability as the limit of the relative frequency of an event after many trials.
@@ -246,6 +285,7 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [How physicists solved the problem of infinity](https://www.youtube.com/watch?v=dkYL6G0JHtY)
 * [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk&feature=youtu.be)
 
+* [Beyond Infinity: Analytic Continuation and its Applications in Quantum Physics](https://www.cantorsparadise.com/beyond-infinity-143c191e0616)
 * [Why is 1 + 2 + 4 + 8 + … = -1?](https://medium.com/cantors-paradise/the-powers-of-two-why-is-1-2-4-8-1-19d8f00be228)
 * [Sums Of Divergent Series](https://brilliant.org/wiki/sums-of-divergent-series/)
 * [Astounding Infinity](http://www.mathaware.org/mam/2014/calendar/infinity.html)

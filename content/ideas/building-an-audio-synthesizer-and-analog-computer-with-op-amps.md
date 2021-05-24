@@ -38,6 +38,10 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [Teensy Audio Library, Delay Line Demo](https://www.youtube.com/watch?v=d80d1HWy5_s&feature=emb_title)
 * [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html)
 * [A Synth Of Your Own, For Not A Lot](https://hackaday.com/2020/12/20/a-synth-of-your-own-for-not-a-lot/)
+* [DIY Synth VCO](https://www.youtube.com/playlist?list=PLHeL0JWdJLvTuGCyC3qvx0RM39YvopVQN)
+
+# Single-Op-Amp Voltage-Controlled Oscillator (VCO)
+* [Single-Op-Amp Voltage-Controlled Oscillator (VCO)](https://www.youtube.com/watch?v=WF2dYZ9JKko)
 
 
 
@@ -234,7 +238,8 @@ Doesn't seem to work???
 * [Circuit VR: Even More Op Amps](https://hackaday.com/2021/01/15/circuit-vr-even-more-op-amps/)
 * [Exploring Op Amp Loading](https://hackaday.com/2021/04/18/exploring-op-amp-loading/)
 
-
+## Op Amps and LTSpice
+* [Introduction to Operational Amplifiers with LTSpice](https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice)
 
 ----
 

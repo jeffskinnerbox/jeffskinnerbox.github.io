@@ -44,9 +44,6 @@ Mimic Go is a portable security device that can be affixed to surfaces or standa
 * [Mimic Go](https://smartmimic.com/mimic-go/)
 * [Mimic Track](https://smartmimic.com/mimic-track/)
 
-## IoT Radar Sensor
-The mini-H is a small high-resolution 60 GHz IoT radar sensor that can be used for elderly care, home automation and telehealth applications. The sensor, from sensor maker Bitsensing, can detect presence, movement, breathing, falls and gestures, even with clothes or blankets, and it can operate in dark or wet places. The sensor, which can be mounted to a wall, measures at 50 by 50 millimeters,
-* [Mini-H](http://bitsensing.com/product/healthcare.php)
 
 ## Sensing WiFi and BLE Devices
 * [Tracking people via WiFi (even when not connected)](https://www.crc.id.au/tracking-people-via-wifi-even-when-not-connected/)

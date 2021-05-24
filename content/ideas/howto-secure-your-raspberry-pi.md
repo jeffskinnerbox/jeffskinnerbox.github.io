@@ -1,6 +1,8 @@
 
 To start, checkout some of the sections with [HowTo: Set-Up the Raspberry Pi as a Headless Device](http://jeffskinnerbox.me/posts/2016/Apr/27/howto-set-up-the-raspberry-pi-as-a-headless-device/).
 
+* [6 open source tools and tips to securing a Linux server for beginners](https://opensource.com/article/21/4/securing-linux-servers)
+
 * [How to Check If Your Online Accounts Have Been Hacked](https://www.makeuseof.com/tag/check-online-accounts-hacked/)
 
 * [How to encrypt your entire life in less than an hour](https://medium.freecodecamp.com/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3)

@@ -1,9 +1,10 @@
 
+* [9 New ESP32 Boards: Comparison and Tests](https://www.youtube.com/watch?v=mnoZYlyebBc)
+
 * [How to use ESP32 Dual Core with Arduino IDE](https://randomnerdtutorials.com/esp32-dual-core-arduino-ide/)
 
 * [RP2040 vs STM32 vs ESP32 vs ESP8266](https://socialcompare.com/en/comparison/rp2040-vs-stm32-vs-esp32-vs-esp8266)
 * [ESP8266 vs ESP32 vs ESP32-S2 vs ESP32-C3](https://socialcompare.com/en/comparison/esp8266-vs-esp32-vs-esp32-s2)
-* [SparkFun Thing Plus - ESP32-S2 WROOM](https://www.sparkfun.com/products/17743)
 
 
 
@@ -52,6 +53,18 @@ The new “C3” variant has a single 160 MHz RISC-V core that out-performs the 
 
 # ESP32-C6
 * [ Espressif ESP32-C6 Includes WiFi 6 And A RISC-V Core](https://hackaday.com/2021/04/11/new-part-day-espressif-esp32-c6/)
+
+# ESP32-WROOM
+* [SparkFun Thing Plus - ESP32 WROOM](https://www.sparkfun.com/products/15663)
+* [SparkFun Thing Plus - ESP32-S2 WROOM](https://www.sparkfun.com/products/17743)
+
+# ESP32-WROOM-DA
+The [ESP32-WROOM-DA](https://www.espressif.com/en/news/ESP32-WROOM-DA)
+resemblance to the ESP32-WROOM but can deliver better WiFi connectivity.
+The clever WiFi trick comes in the form of a pair of antennas at 90 degrees to each other,
+allowing it to select whichever antenna gives the best signal at any one time.
+
+* [New Part Day: ESP32-WROOM-DA](https://hackaday.com/2021/05/21/new-part-day-esp32-wroom-da/)
 
 
 

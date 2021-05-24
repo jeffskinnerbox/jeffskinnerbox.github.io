@@ -1,5 +1,6 @@
 
 * [How to Measure Inductance](https://www.wikihow.com/Measure-Inductance)
+* [The Design of Phase-Locked-Loop Circuit for Precision Capacitance Micrometer](https://www.matec-conferences.org/articles/matecconf/pdf/2016/31/matecconf_iciea2016_12006.pdf)
 
 # Background
 [Faraday's law of induction][01] (generally called Faraday's law)
@@ -29,6 +30,11 @@ If a time varying current flowing through a coil there is an [electromotive forc
 The induced EMF across the coil is directly proportional to the rate of change of current with respect to time.
 Due to the property inducing EMF, all types of electrical coil can be referred as inductor.
 An inductor is an energy storage device which stores energy in form of magnetic field.
+
+# Making Inductors
+
+## Variable Inductor
+* [Make Your Own Variable Inductor](https://hackaday.com/2021/04/22/make-your-own-variable-inductor/)
 
 # Inductor Parasitic Properties
 In electrical circuits, a [parasitic element][05] is a circuit element

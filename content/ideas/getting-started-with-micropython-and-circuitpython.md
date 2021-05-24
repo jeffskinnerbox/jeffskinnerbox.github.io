@@ -104,8 +104,17 @@ Judging from the Adafruit documentation on `ampy`,
 they appear to be backing away from supporting only on xxxxxxxxx
 
 ## rshell
+Remote MicroPython shell.
+This is a simple shell which runs on the host and uses MicroPython's raw-REPL to send python snippets to the pyboard in order to get filesystem information, and to copy files to and from MicroPython's filesystem.
+
+* [rshell](https://github.com/dhylands/rshell)
 
 ## mpfshell
+
+## WebREPL
+WebREPL allows you to use the Python prompt over WiFi, connecting through a browser.
+
+* [WebREPL - a prompt over WiFi](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html#webrepl-a-prompt-over-wifi)
 
 ## GUI Tools
 * [LittlevGL Brings GUI Tools to Micropython](https://hackaday.com/2019/02/28/littlevgl-brings-gui-tools-to-micropython/)

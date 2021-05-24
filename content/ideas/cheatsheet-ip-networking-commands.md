@@ -298,6 +298,9 @@ any interface not listed there will remain under NetworkManager control.
     It allows the user to display TCP/IP and other packets being transmitted or
     received over a network to which the computer is attached.
     * [`dumpcap`][73] is a network traffic dump tool.
+    * [`ngrep`][153] stands for “network grep,” and focuses on parsing text,
+    but in network packets. ngrep parses network traffic text using regular expressions,
+    but to also present the output in a human-friendly way.
     It lets you capture packet data from a live network and write the packets to a file.
     * [`wireshark`][32] (originally called `ethereal`) is the world's de facto
     network protocol analyzer letting you do deep inspection of hundreds of protocols,
@@ -305,6 +308,18 @@ any interface not listed there will remain under NetworkManager control.
     * [`tshark`][35] the command-line version of Wireshark.
     The main advantage of tshark is that it can be used in scripts.
     Its main disadvantage is that it does not have a GUI.
+
+* **IP Traffic Replay**
+    * [`tcpreplay`][145] replays pcap files at arbitrary speeds onto a network.
+    [Tcpreplay][152] is a suite of utilities for editing and replaying previously captured network traffic.
+    Originally designed to replay malicious traffic patterns to Intrusion Detection/Prevention Systems,
+    it has seen many evolutions including capabilities to replay to web servers.
+    * [`tcprewrite`][146] edits pcap files and creates a new pcap file
+    * [`tcpreplay-edit`][147] edits pcap files and replays onto a network
+    * [`tcpprep`][148] creates client/server definition cache files used by tcpreplay/tcprewrite
+    * [`tcpbridge`][149] bridge two network segments with the power of tcprewrite
+    * [`tcpliveplay`][150] replay a TCP pcap file in a manner that a server will recognize
+    * [`tcpcapinfo`][151] raw pcap file decoder and debugger
 
 * **Linux Performance Monitoring**
     * [`vmstat`][89] is a tool that collects and reports data about your system’s memory, swap,
@@ -2855,9 +2870,19 @@ could be gathered for this cheat sheet.
 [142]:http://nmon.sourceforge.net/pmwiki.php
 [143]:http://collectl.sourceforge.net/
 [144]:https://nicolargo.github.io/glances/
-[145]:
-[146]:
-[147]:
-[148]:
-[149]:
-[150]:
+[145]:https://tcpreplay.appneta.com/
+[146]:https://tcpreplay.appneta.com/wiki/tcprewrite-man.html
+[147]:https://tcpreplay.appneta.com/wiki/tcpreplay-edit-man.html
+[148]:https://tcpreplay.appneta.com/wiki/tcpprep-man.html
+[149]:https://tcpreplay.appneta.com/wiki/tcpbridge-man.html
+[150]:https://tcpreplay.appneta.com/wiki/tcpliveplay-man.html
+[151]:https://tcpreplay.appneta.com/wiki/tcpcapinfo-man.html
+[152]:https://hackaday.com/2021/04/26/linux-fu-a-little-bit-of-network-history-repeating-itself/
+[153]:https://netbeez.net/blog/linux-analyze-network-ngrep/
+[154]:
+[155]:
+[156]:
+[157]:
+[158]:
+[159]:
+[160]:

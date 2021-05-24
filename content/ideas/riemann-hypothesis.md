@@ -3,6 +3,7 @@
 * [A Critical Introduction to Mathematical Structuralism](https://medium.com/cantors-paradise/a-critical-introduction-to-mathematical-structuralism-3cb039427647)
 
 
+* [Are Prime Numbers Made Up?](https://www.youtube.com/watch?v=XnEqfTjp66A&list=RDCMUCs4aHmggTfFrpkPcWSaBN9g&index=6)
 * [Prime Numbers on Numberphile](https://www.youtube.com/playlist?annotation_id=annotation_1659607549&feature=iv&list=PL0D0BD149128BB06F)
 * [Perfect Numbers and Mersenne Primes](https://www.youtube.com/watch?v=T0xKHwQH-4I)
 * [Exploring the mysteries of the Prime (gaps!) Line](https://www.youtube.com/watch?v=SMsTXQYgbiQ)

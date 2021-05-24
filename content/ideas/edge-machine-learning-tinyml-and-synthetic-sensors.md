@@ -94,6 +94,9 @@ process and distill that information, and relay it to remote end users.
 
 * [Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc&t=329s)
 
+# ESP32 Cam
+* [ESP32 Cam and Edge Impulse](https://github.com/edgeimpulse/example-esp32-cam)
+
 
 # AI at the Very, Very Edge
 * [AI at the Very, Very Edge](https://www.eetimes.com/ai-at-the-very-very-edge/)
@@ -194,6 +197,7 @@ which makes it smaller and does things like quantisation, which allow you to red
 * [BABL: A Baby Monitor Powered by tinyML and Edge Impulse!](https://www.hackster.io/ishotjr/babl-a-baby-monitor-powered-by-tinyml-and-edge-impulse-f5045f)
 * [Cough Detection with TinyML on Arduino](https://www.hackster.io/edge-impulse/cough-detection-with-tinyml-on-arduino-417f37)
 * [Smart Bird Feeder Powered by Edge Impulse and Balena Fin](https://www.hackster.io/mithun-das/smart-bird-feeder-powered-by-edge-impulse-and-balena-fin-bd6416)
+* [detecting microcontroller behaviour](https://github.com/Santandersecurityresearch/CurrentSense-TinyML)
 
 
 ################################################################################

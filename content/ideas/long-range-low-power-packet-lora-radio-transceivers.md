@@ -1,4 +1,6 @@
 
+* [New LoRa chips and Heltec LoRa boards. How good are they? (Arduino, SX1262, ASR6501)](https://www.youtube.com/watch?v=lobNwqHLrag)
+
 * [#112 LoRa / LoRaWAN De-Mystified / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
 
 * [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
@@ -12,6 +14,27 @@
 * [IRC Over LoRa, For When Things Really Go South](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
 
 * [LoRa and LoRaWAN for IoT](https://itnext.io/lora-for-iot-1f91085c5917)
+
+
+
+--------
+
+
+
+[The Things Network](https://www.thethingsnetwork.org/)
+is a registered non-profit organization running a global, open LoRaWAN network with +15k gateways. This network is owned and operated by a community of +100k members from all around the world.
+The Things Network runs on [open-source software](https://github.com/TheThingsNetwork),
+making the functionalities of the network transparent.
+
+[The Things Industry](https://www.thethingsindustries.com/)
+is a full-service Internet of Things provider, providing the required resources to build end-to-end LoRaWAN® solutions. The Things Industries is also the creator and maintainer of The Things Network, the open global LoRaWAN network enabling IoT developers to get started with the technology
+
+[Start with The Things Network, scale with The Things Industries](https://www.thethingsindustries.com/news/what-difference-between-things-industries-and-things-network/?mc_cid=c6c2f9b91b&mc_eid=b679eede51)
+
+
+
+----------
+
 
 
 # Adafruit Products
@@ -93,6 +116,11 @@
 # LoStik
 * [LoStik](https://www.crowdsupply.com/third-venture/lostik)
 * [Build a LoRa Gateway with n-fuse mPCIe card](https://www.hackster.io/fewi/build-a-lora-gateway-with-n-fuse-mpcie-card-71f0e1)
+
+# TTN Mapper
+* [The Things Network Node for TTNmapper.org](https://www.hackster.io/Amedee/the-things-network-node-for-ttnmapper-org-a8bcd4)
+* [The Things Network Node For TTNmapper With GPS](https://www.hackster.io/Amedee/the-things-network-node-for-ttnmapper-with-gps-231ea1)
+* [GPS Mapper for The Things Network (TTN) - LoRaWAN](https://www.hackster.io/fablabeu/gps-mapper-for-the-things-network-ttn-lorawan-584ed7)
 
 # LoRa Management Platforms
 * [OpenChirp](https://openchirp.io/)

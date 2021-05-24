@@ -149,7 +149,7 @@ The flyback transformer circuit was invented as a means of controlling the horiz
 
 
 
-------
+-----
 
 **Build This - Telsla Coil Starter Project**
 * [DIY 3 volt tesla coil MUSEUM QUALITY](https://www.youtube.com/watch?v=zbV1zyg_4qU)
@@ -211,11 +211,14 @@ The Slayer Exciter is an air core transformer adapted to operating at low DC vol
 ## Flame Discharge
 * [Electric Candle Replaces Flame With Plasma](https://hackaday.com/2021/02/01/electric-candle-replaces-flame-with-plasma/)
 * [Building a Wireless Power Plasma Candle](https://www.youtube.com/watch?v=SyZuel2iaBk&feature=youtu.be)
+* [The World's Hottest Candle Can Actually Melt Steel—Plasma Candle](https://www.youtube.com/watch?v=3vtGktz8c1M)
 
 # Van Der Graaff
+* [How A Van De Graaff Generator Works](https://hackaday.com/2017/02/16/how-a-van-de-graaff-generator-works/)
 * [Mini Van De Graaff Is A Shocking Desk Toy](https://hackaday.com/2018/12/10/mini-van-de-graaff-is-a-shocking-desk-toy/)
 * [DIY 40000 volt Van Der Graaff (battery powered)](https://www.youtube.com/watch?v=b-Gs81_-_aU&feature=youtu.be)
 * [Building a Van De Graaff HIGH VOLTAGE Generator](https://www.youtube.com/watch?v=im-PLK7ePhQ)
+* [nsane 500,000v Van De Graaff Generator Build](https://www.youtube.com/watch?v=nxagMrTVonQ)
 
 # Voltage Multiplier
 A voltage multiplier is an electrical circuit that converts AC electrical power from a lower voltage to a higher DC voltage, typically using a network of capacitors and diodes.

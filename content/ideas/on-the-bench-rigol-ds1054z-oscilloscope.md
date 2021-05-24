@@ -9,7 +9,6 @@ Version:      0.0.0
 
 * [Rigol MSO5000 Hacked, Features Unlocked](https://hackaday.com/2018/12/19/rigol-mso5000-hacked-features-unlocked/)
 * [Controlling a Rigol oscilloscope using Linux and Python](http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/)
-* [Controlling a Rigol oscilloscope using Linux and Python](http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/)
 * [Twelve tips for using the Rigol DS1052E Oscilloscope](http://www.righto.com/2013/07/tips-for-using-rigol-ds1052e.html)
 
 # Computer Control a Rigol Oscilloscope

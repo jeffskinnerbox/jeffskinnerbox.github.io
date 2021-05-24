@@ -43,6 +43,9 @@ The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fi
 * [Bench Supplies Get Smaller Thanks To USB-C](https://hackaday.com/2020/10/19/bench-supplies-get-smaller-thanks-to-usb-c/)
 * [USB-C Programmable Power Supply For Any Project](https://hackaday.com/2021/01/16/usb-c-programmable-power-supply-for-any-project/)
 
+* [Easy USB‑C Power For All Your Devices](https://hackaday.com/2021/04/21/easy-usb%e2%80%91c-power-for-all-your-devices/)
+* [FPX, Reconfigurable USB C Power Supply](https://blog.tindie.com/2021/04/fpx-reconfigurable-usb-c-power-supply/)
+
 * [DIY USB Type-C Power Delivery Trigger Board](https://www.instructables.com/DIY-USB-Type-C-Power-Delivery-Trigger-Board/)
 * [Here is why USB Type-C is AWESOME and how you can use Power Delivery for your electronics!](https://www.youtube.com/watch?v=OwAZqJ4wpJg)
 * [How to power ANYTHING using USB-C Power Delivery and the ZY12PDN PD Trigger Board](https://www.youtube.com/watch?v=aIHj3qMRqqE)

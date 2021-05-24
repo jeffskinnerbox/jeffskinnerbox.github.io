@@ -95,6 +95,10 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Paparazzi UAV](http://wiki.paparazziuav.org/wiki/Main_Page)
 * [ArduPilot](https://ardupilot.org/index.php)
 
+## PX4 Open Source Autopilot
+* [PX4 Open Source Autopilot](https://px4.io/)
+* [TAKING REVERSE ENGINEERING TO THE SKIES: CHEAP DRONE GETS PX4 AUTOPILOT](https://hackaday.com/tag/stm32f405rg/)
+
 # Motors to Use
 * motor with position sensing
     * [IQ Motor Module](https://www.crowdsupply.com/iq-motion-control/iq-motor-module)

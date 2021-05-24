@@ -104,6 +104,7 @@ to check the integrity of circuit designs and to predict circuit behavior.
 * [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
 * [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
 * [Phasors In LTSpice](https://hackaday.com/2021/03/17/phasors-in-ltspice/)
+* [Getting Started with LTspice](https://learn.sparkfun.com/tutorials/getting-started-with-ltspice)
 
 ### MICRO-CAP 12
 * [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
@@ -115,6 +116,9 @@ to check the integrity of circuit designs and to predict circuit behavior.
 
 ### Xyce
 * [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
+
+### QucsStudio
+* [QucsStudio](http://qucsstudio.de/)
 
 # CAD File Interchangeability
 Exchanging CAD files between CAD tools can be a big headache.

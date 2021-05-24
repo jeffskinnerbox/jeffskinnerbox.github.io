@@ -43,9 +43,12 @@ It was invented Edwin Armstrong in 1918.
 Virtually all modern radio receivers use the superheterodyne principle.
 
 * https://en.wikipedia.org/wiki/Superheterodyne_receiver
+* [The Superheterodyne Radio: No really, that's its name](https://www.youtube.com/watch?v=hz_mMLhUinw)
 * [Superheterodyne Radios Explained/](https://hackaday.com/2019/01/02/superheterodyne-radios-explained/)
 * [SIMPLE SUPERHETERODYNE SW RECEIVER HARKS BACK ALMOST 100 YEARS](https://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
 * [What Does The Bat Say? Tune In With This Heterodyne Detector](https://hackaday.com/2020/06/27/what-does-the-bat-say-tune-in-with-this-heterodyne-detector/)
+* [A Superheterodyne Receiver With A 74xx Twist](https://hackaday.com/2021/04/19/a-superheterodyne-receiver-with-a-74xx-twist/)
+* [Elenco AM/FM Radio Kit - Superheterodyne Designed to AM and FM Broadcasts](https://www.amazon.com/gp/product/B008515U1U)
 
 # Crystal Radio
 ![lost-knowladge](http://i0.wp.com/cdn.makezine.com/uploads/2009/02/lk_banner2.jpg?resize=189%2C207)

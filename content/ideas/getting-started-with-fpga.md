@@ -175,6 +175,7 @@ An eFPGA is just the core, without the analog I/O, which can be integrated into 
 * [Asic World: Verilog Tutorial](http://asic-world.com/verilog/veritut.html)
 * [Learning FPGA, yosys, nextpnr, and RISC-V](https://github.com/BrunoLevy/learn-fpga)
 * [An FPGA Tutorial using the ZedBoard](https://www.beyond-circuits.com/wordpress/tutorial/)
+* Digital Filters via FPGA: [FIR Filters For Xilinx](https://hackaday.com/2021/05/18/fir-filters-for-xilinx/)
 
 
 * [What Is An FPGA?](https://www.youtube.com/watch?v=gUsHwi4M4xE)
@@ -258,6 +259,7 @@ and synthesizing the HDL.
 Using any of these FPGA tools usually means agreeing to terms and conditions that nobody reads.
 
 * [An Open Source Toolchain For ICE40 FPGAs](https://hackaday.com/2015/05/29/an-open-source-toolchain-for-ice40-fpgas/)
+* [Using Docker To Sail Through Open-Source Xilinx FPGA Development](https://hackaday.com/2021/05/05/using-docker-to-sail-through-open-source-xilinx-fpga-development/)
 
 
 ## Lattice

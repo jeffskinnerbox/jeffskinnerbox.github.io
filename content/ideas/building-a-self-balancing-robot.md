@@ -106,6 +106,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Junk Bin Self Balancing Bot With ESP8266](https://hackaday.com/2018/07/05/junk-bin-self-balancing-bot-with-esp8266/)
 * [Kinetic Sculpture Achieves Balance Through Machine Learning](https://hackaday.com/2018/10/26/kinetic-sculpture-achieves-balance-through-machine-learning/)
 * [ESPway | A Segway-style WiFi controlled robot built on ESP8266](http://brobot.tistory.com/m/6)
+* [Actively Balancing A Robot With A Gyroscope](https://hackaday.com/2021/05/17/actively-balancing-a-robot-with-a-gyroscope/)
 
 # Inverted Pendulum
 * [Inverted Pendulum For The Control Enthusiast](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)
@@ -159,19 +160,24 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 * [Get Back Out There, Robotically](https://hackaday.com/2020/04/18/get-back-out-there-robotically/)
 
 # Proportional Integral Derivative (PID) Controller
-* [Classical Control Theory](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
-* [PID Controllers Explained](https://www.youtube.com/watch?v=VVOi2dbtxC0&feature=youtu.be)
-* [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)
-* [PID Controller](https://en.wikipedia.org/wiki/PID_controller)
-* [Proportional-Integral-Derivative (PID) Controller](https://nicisdigital.wordpress.com/2011/06/27/proportional-integral-derivative-pid-controller/)
-* [PID Control with Arduino](https://hackaday.com/2018/04/14/pid-control-with-arduino/)
-* [PID Controllers Deep Dive - Nice Layman Description](http://hackaday.com/2014/07/07/droning-on-pid-controllers-and-bullet-connectors/)
-* [Control Theory Seminar](http://focus.ti.com/docs/training/catalog/events/event.jhtml?sku=OLT214002&sp_rid_pod4=NzQ0MDMwMzkzNTMS1&sp_mid_pod4=45597282)
-* [Evolutionary optimization of PID parameters for empirically identified system](http://wemakethings.net/2013/12/01/pid_genetics/)
-* [Flying with Proportional – Integral – Derivative Control](http://hackaday.com/2016/05/18/flying-with-proportional-integral-derivative-control/)
-* [An Introduction to Control Systems: Designing a PID Controller Using MATLAB’s SISO Tool](http://www.allaboutcircuits.com/technical-articles/an-introduction-to-control-systems-designing-a-pid-controller-using-matlabs/)
-* [Unlock the Phase Locked Loop](http://hackaday.com/2016/03/23/unlock-the-phase-locked-loop/)
-* [Learn Something About Phase Locked Loops](https://hackaday.com/2018/06/20/learn-something-about-phase-locked-loops/)
+* General
+    * [Classical Control Theory](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+    * [PID Controllers Explained](https://www.youtube.com/watch?v=VVOi2dbtxC0&feature=youtu.be)
+    * [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)
+    * [PID Controller](https://en.wikipedia.org/wiki/PID_controller)
+    * [Proportional-Integral-Derivative (PID) Controller](https://nicisdigital.wordpress.com/2011/06/27/proportional-integral-derivative-pid-controller/)
+    * [PID Control with Arduino](https://hackaday.com/2018/04/14/pid-control-with-arduino/)
+    * [PID Controllers Deep Dive - Nice Layman Description](http://hackaday.com/2014/07/07/droning-on-pid-controllers-and-bullet-connectors/)
+    * [Control Theory Seminar](http://focus.ti.com/docs/training/catalog/events/event.jhtml?sku=OLT214002&sp_rid_pod4=NzQ0MDMwMzkzNTMS1&sp_mid_pod4=45597282)
+    * [Evolutionary optimization of PID parameters for empirically identified system](http://wemakethings.net/2013/12/01/pid_genetics/)
+    * [An Introduction to Control Systems: Designing a PID Controller Using MATLAB’s SISO Tool](http://www.allaboutcircuits.com/technical-articles/an-introduction-to-control-systems-designing-a-pid-controller-using-matlabs/)
+
+* Flying
+    * [Flying With Proportional – Integral – Derivative Control](https://hackaday.com/2016/05/18/flying-with-proportional-integral-derivative-control/)
+
+* Phase Locked Loop
+    * [Unlock the Phase Locked Loop](http://hackaday.com/2016/03/23/unlock-the-phase-locked-loop/)
+    * [Learn Something About Phase Locked Loops](https://hackaday.com/2018/06/20/learn-something-about-phase-locked-loops/)
 
 * Embedded Proportional Integral Derivative (PID) Temperature Controller
     * [Part 1: The Circuit](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-1-the-circuit/)

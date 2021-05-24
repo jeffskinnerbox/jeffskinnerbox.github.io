@@ -1,5 +1,6 @@
 
 * [Convert your CD to mp3 with Sound Juicer](http://www.rooot.net/en/geek-stuff/linux/26-cd-to-mp3-sound-juicer.html)
+* [How I digitized my CD collection with open source tools](https://opensource.com/article/21/4/digitize-cd-open-source-tools)
 
 # Google Play Music Manager
 Google Play Music

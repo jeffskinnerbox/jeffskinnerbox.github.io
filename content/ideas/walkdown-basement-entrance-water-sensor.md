@@ -51,10 +51,10 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
 * [Dave Young -- Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 * [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
+* [Cheap and simple Solar Power for our small Projects (ESP32, ESP8266, Arduino)](https://www.youtube.com/watch?v=37kGva3NW8w)
 
 * [3W Solar Panel 138X160](https://www.seeedstudio.com/3W-Solar-Panel-138X160.html)
 * [LiPo Rider Pro](https://www.seeedstudio.com/LiPo-Rider-Pro.html)
-* [Solar harvesting into supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 * [LiFePO4wered/Solar1](https://www.tindie.com/products/xorbit/lifepo4weredsolar1/)
 * [Solar Pi Platter](https://www.tindie.com/products/globoy/solar-pi-platter/)
 * [makerPower Solar](https://www.crowdsupply.com/danjuliodesigns/makerpower-solar)
@@ -64,6 +64,33 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
 * [The Dark Side Of Solar Power](https://hackaday.com/2020/12/02/the-dark-side-of-solar-power/#more-429117)
 
+# Hybrid Super Capacitors
+[Lithium Ion Capacitors (LICs)][] combine many advantages of Li-ion batteries and supercapacitors
+making it a perfect choice for batteryless IoT applications.
+A lithium-ion capacitor is a hybrid electrochemical energy storage device which
+combines the tecnologies of lithium-ion battery anode with the cathode of an electric double-layer capacitor (EDLC).
+
+* [Solar Harvesting into Supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
+* [Solar Harvesting into Li-ion Battery](https://hackaday.io/project/160376-solar-harvesting-into-li-ion-battery)
+* [Solar Harvesting into Lithium Ion Capacitor](https://hackaday.io/project/178177-solar-harvesting-into-lithium-ion-capacitor)
+
+
+
+# USB Power Meter
+* [A tale of 3 USB Testers: Ruideng UM25C, UM34C and a fake](https://www.youtube.com/watch?v=wuASLuor9Fs)
+* [YZXStudio ZY1276 vs RuiDeng UM25C USB Power Monitor](https://www.youtube.com/watch?v=fsLuqGJGyCk)
+
+* [USB C Power Meter Tester - FNB38 USB Digital Voltmeter Ammeter Tester QC4 PD3.0 2.0 PPS Fast Charging Protocol Capacity Test Current Voltage Meter](https://www.amazon.com/Voltmeter-Charging-Protocol-Amperimetro-Indicator/dp/B08GWRD8PP)
+
+* [Review and tear-down of the Ruideng UM34C USB Tester](https://www.youtube.com/watch?v=3yhHX96h-jg&t=55s)
+* [UM34C](https://www.amazon.com/gp/product/B07DMNDT96/)
+* Guide Video: https://www.youtube.com/watch?v=3yhHX96h-jg User manual and Android APP download link: http://www.mediafire.com/folder/5c877rc21tp1p/UM34
+* [UM34C USB Meter Review and How I Got Faster Phone Charging](https://www.youtube.com/watch?v=W7Mm2RvVQ6c)
+* [Measuring USB cable resistance using USB testers](https://www.youtube.com/watch?v=9IG9wSS3F9w)
+
+* [USB Tester surprises that can go wrong](https://www.youtube.com/watch?v=_JzyoVFNcLE)
+
+* [Make your own Power Meter/Logger](https://www.youtube.com/watch?v=lrugreN2K4w&t=0s)
 
 # Implementing Power Management
 Usually, we can model an device power consumption using three different areas:
@@ -141,13 +168,17 @@ Peak power consumption will not be an issue for applications where there is enou
 * [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
 * [How to optimize energy efficiency in smart devices](https://blog.nordicsemi.com/getconnected/how-to-optimize-energy-efficiency-in-smart-devices)
 * [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
+* [Improve battery life in Ultra Low Power wireless applications](https://blog.nordicsemi.com/getconnected/improve-battery-life-in-ultra-low-power-wireless-applications)
+* [Power Profiler Kit II](https://blog.nordicsemi.com/getconnected/power-profiler-kit-ii-brings-greater-insight-to-wireless-power-consumption)
 * [Selecting the best lithium primary batteries for your LoRaWAN node](https://www.thethingsnetwork.org/article/selecting-the-best-lithium-primary-batteries-for-your-lorawan-node)
 
 ## Measurment Tools for Ultra-Low-Power
+Otii Arc - https://www.qoitech.com/buy/
 µCurrent Meter - https://www.adafruit.com/product/882
 CurrentRanger - https://lowpowerlab.com/shop/product/152
 USB Isolator - https://www.adafruit.com/product/2107
 
+* [Super Low Electrical Energy Meter || DIY or Buy || Is measuring µA/nA possible the DIY way?](https://www.youtube.com/watch?v=s6SAjQYhssk)
 * [#245 Deep-Sleep Current: Which is better? µCurrent or CurrentRanger?](https://www.youtube.com/watch?v=HmXfyLyN38c&feature=youtu.be)
 * [TvE’s Blog - adventure in low power](https://blog.voneicken.com/)
 * [uCurrent Videos](https://www.youtube.com/results?search_query=uCurrent)

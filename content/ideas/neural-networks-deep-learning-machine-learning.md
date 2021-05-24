@@ -79,6 +79,8 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [“GANs” vs “ODEs”: the end of mathematical modeling?](https://towardsdatascience.com/gans-vs-odes-the-end-of-mathematical-modeling-ec158f04acb9)
 * [Differential Equations as a Neural Network Layers](https://towardsdatascience.com/differential-equations-as-a-neural-network-layer-ac3092632255)
 
+* [Latest Neural Nets Solve World’s Hardest Equations Faster Than Ever Before](Latest Neural Nets Solve World’s Hardest Equations Faster Than Ever Before)
+
 * [Foundations Built for a General Theory of Neural Networks](https://www.quantamagazine.org/foundations-built-for-a-general-theory-of-neural-networks-20190131/)
 * [The mathematics of optimization for deep learning](https://towardsdatascience.com/the-mathematics-of-optimization-for-deep-learning-11af2b1fda30)
 * [Deep Learning’s mathematics](https://medium.com/swlh/deep-learnings-mathematics-f52b3c4d2576)

@@ -42,10 +42,6 @@ Compatible with WyzeCam.
 # Wyze Cam Privacy / Security
 * [Data Breach at Wyze Labs Exposes Information of 2.4 Million Customers](https://www.nytimes.com/2019/12/30/business/wyze-security-camera-breach.html)
 
-# Wyze Video Doorbell
-* [The Wyze Video Doorbell Isn't for Everyone... Plus, CT Capetronix Smart Bulbs](https://www.youtube.com/watch?v=A29ki_tG5b8)
-* [Wyze Video Doorbell: Watch BEFORE you BUY](https://www.youtube.com/watch?v=QCVD4GE934I)
-
 # Wyze Thermostat
 * [How We Made Wyze Thermostat](https://www.youtube.com/watch?v=P9cWErjgUAk)
 * [Wyze Thermostat Hands On - Unboxing, Installation & First Impressions Review](https://www.youtube.com/watch?v=Hl7nZaZKKk4)
@@ -56,8 +52,30 @@ Compatible with WyzeCam.
 # Wyze Band Activity Tracker
 * [Wyze Band Review](https://www.pcmag.com/reviews/wyze-band)
 
-
 # Wyze Noise-Cancelling Headphones
+
+
+
+-----
+
+
+
+# Wyze Video Doorbell
+The Wyze doorbell camera is surprisingly compact, measuring just 3.25 x 1.5 x 0.625 inches (HxWxD).
+It comes with a WiFi connected indoor chime,
+and you can put in multiple chimes to cover your whole house.
+Wyze Video Doorbell records and live streams video in 1080p Full HD
+with a 3:4 aspect ratio so you can see every visitor from head to toe.
+
+Reviews:
+
+* [The Wyze Video Doorbell Isn't for Everyone... Plus, CT Capetronix Smart Bulbs](https://www.youtube.com/watch?v=A29ki_tG5b8)
+* [Wyze Video Doorbell: Watch BEFORE you BUY](https://www.youtube.com/watch?v=QCVD4GE934I)
+
+## How to set up Wyze Video Doorbell
+* [How to set up Wyze Video Doorbell](https://www.youtube.com/watch?v=IMK-D2Jj_BE)
+* [Wyze Doorbell Installation and Review - Is it Any Good?](https://www.youtube.com/watch?v=4-no1MTrL9A)
+
 
 
 -----

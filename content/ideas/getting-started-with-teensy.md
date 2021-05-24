@@ -61,6 +61,8 @@ https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board
 * [New Verizon Developer Toolkit Makes IoT Projects Easy for Amazon Web Services Users](https://iotbusinessnews.com/2018/11/30/27014-new-verizon-developer-toolkit-makes-iot-projects-easy-for-amazon-web-services-users/)
 * [Real-Time OS Basics: Picking The Right RTOS When You Need One](https://hackaday.com/2021/02/24/real-time-os-basics-picking-the-right-rtos-when-you-need-one/)
 
+* [Shawn Hymel Presents: Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+
 # OTA
 * [Over the Air Updates for Your Arduino](https://hackaday.com/2018/01/18/over-the-air-updates-for-your-arduino/)
 

@@ -1,6 +1,11 @@
 
 [tomtektest](https://www.youtube.com/channel/UCUEo3LPGD1gWfGJQoE0i1Gg/playlists)
 
+# Learning about Electronics
+* [Learning about Electronics](http://www.learningaboutelectronics.com/)
+* [ElectronicsNotes](https://www.youtube.com/channel/UCj5v6V19CtjoeFzuiiEQpRg)
+* [ElectronicsNotes](https://www.electronics-notes.com/)
+
 # Metrology
 Metrology is the scientific study of measurement
 
@@ -18,20 +23,6 @@ Kelvin probes are a special type of probe for making accurate resistance measure
 
 * [CIRCUIT VR: RESISTANCE MEASUREMENT WITH FOUR WIRES](https://hackaday.com/2019/06/05/circuit-vr-resistance-measurement-with-four-wires/)
 * [TTT341 Kelvin Probes](https://www.youtube.com/watch?v=Y5SYuXyRO2I)
-
-# Vector Network Analyzer (VNA)
-Vector Network Analyzers are used to test component specifications
-and verify design simulations to make sure systems and their components work properly together.
-
-* [Learning About VNAs](https://hackaday.com/2020/06/11/learning-about-vnas/)
-* [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
-* [DIY Scalar Network Analyzer](https://hackaday.com/2019/12/25/diy-scalar-network-analyzer/)
-* [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
-* [Test Antenna Signal Pattern on the Cheap](https://imgur.com/gallery/5zWhpTA)
-* [NanoVNA Is A $50 Vector Network Analyzer](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/)
-* [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
-* [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
-* [#329: Presentation recording: Intro to the VNA and NanoVNA for BayCon 2021](https://www.youtube.com/watch?v=o1eLK4EMpEQ)
 
 # Measuring RF Cable Impedance
 * [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
