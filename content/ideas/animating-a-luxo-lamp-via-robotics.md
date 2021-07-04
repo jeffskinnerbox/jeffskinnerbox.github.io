@@ -83,7 +83,12 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [TurtleBot3 Official Wiki](http://turtlebot3.robotis.com/en/latest/)
 
 #### Simple, Biologically Inspired Robots
+BEAM robotics (from biology, electronics, aesthetics and mechanics)
+is a style of robotics that primarily uses simple analogue circuits, such as comparators,
+instead of a microprocessor in order to produce an unusually simple design.
+
 * [BEAM Robots](http://www.smfr.org/robots/)
+* [LIVING ROBOTS: REVISITING BEAM](https://hackaday.com/2021/05/29/living-robots-revisiting-beam/)
 
 #### Other
 * [This Friendly Robot Could One Day Be Your Family’s Personal Assistant](http://www.wired.com/2014/07/jibo-family-robot/)

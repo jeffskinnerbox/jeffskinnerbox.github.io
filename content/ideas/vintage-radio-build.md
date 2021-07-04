@@ -113,6 +113,7 @@ by building your own coherer.
 * [Tuning Into Atomic Radio: Quantum Technique Unlocks Laser-Based Radio Reception](https://hackaday.com/2019/07/17/tuning-into-atomic-radio-quantum-technique-unlocks-laser-based-radio-reception/#more-365114)
 
 # Transmitter
+* [How to make the world's easiest Radio ! Do it yourself at home!](https://www.youtube.com/watch?v=w18z059DzOU)
 * [Build a 1929 Style TNT Transmitter](http://members.shaw.ca/ve7sl/tnt.html)
 * [Hacking Transmitters, 1920s Style](https://hackaday.com/2019/11/28/hacking-transmitters-1920s-style/)
 * [Showcase: Homemade 1930s-Style AM Radio Transmitter](http://retrovoltage.com/2011/04/05/showcase-homemade-1930s-style-am-radio-transmitter/)
@@ -207,6 +208,7 @@ by building your own coherer.
 * [Resistance in Motion: What You Should Know About Variable Resistors](http://hackaday.com/2016/09/16/resistance-in-motion-everything-you-should-know-about-variable-resistors/)
 
 # Other
+* [Old Books About Radio](http://www.survivorlibrary.com/index.php/8-category/113-library-radio)
 * [Modern Radio Laboratories](http://www.modernradiolabs.com/)
 * [Elmer G. Osterhoudt and The Modern Radio Laboratories Catalog](http://www.analogdial.com/Osterhoudt/Osterhoudt1.html)
 * [Alfred Powell Morgan's "The Boy Electrician"](https://books.google.com/books/about/The_Boy_Electrician.html?id=G09NAAAAYAAJ)

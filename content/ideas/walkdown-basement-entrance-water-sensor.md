@@ -41,11 +41,14 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [ESP32 Deep Sleep Tutorial](https://www.instructables.com/ESP32-Deep-Sleep-Tutorial/)
 * [ESP32 Trail Camera Goes the Distance on AA Batteries](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
 * [Datalogger Uses ESP32 and ESP8266 Low Power Modes](https://hackaday.com/2017/09/24/datalogger-uses-esp32-and-esp8266-low-power-modes/)
+* [ESP32-S2 board targets battery-powered applications with 30uA deep sleep power consumption](https://www.cnx-software.com/2020/10/28/esp32-s2-board-targets-battery-powered-applications-with-30ua-deep-sleep-power-consumption/)
+* [Test of Battery operated ESP32 Boards (Olimex, TinyPICO, EzSBC, TTGO)](https://www.youtube.com/watch?v=ajt7vtgKNNM)
 
 
 
 # Solar Power
 * [PiJuice Zero](https://www.crowdsupply.com/pi-supply/pijuice-zero)
+* [Solar Power Manager 5V](https://www.dfrobot.com/product-1712.html)
 
 # Solar Irradiance ... Got Enough?
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
@@ -73,6 +76,11 @@ combines the tecnologies of lithium-ion battery anode with the cathode of an ele
 * [Solar Harvesting into Supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 * [Solar Harvesting into Li-ion Battery](https://hackaday.io/project/160376-solar-harvesting-into-li-ion-battery)
 * [Solar Harvesting into Lithium Ion Capacitor](https://hackaday.io/project/178177-solar-harvesting-into-lithium-ion-capacitor)
+
+# Lead Acid Battery
+* [Raspberry Pi Battery Power](https://www.youtube.com/watch?v=lPyDtuzYE5s)
+* [Should you choose a lead acid battery for solar storage?](https://www.solarreviews.com/blog/lead-acid-batteries-for-solar-storage)
+* [How To Recharge Lead Acid Battery Through Solar Panel](https://www.edgefxkits.com/blog/how-to-recharge-lead-acid-battery-through-solar-panel/)
 
 
 
@@ -173,11 +181,14 @@ Peak power consumption will not be an issue for applications where there is enou
 * [Selecting the best lithium primary batteries for your LoRaWAN node](https://www.thethingsnetwork.org/article/selecting-the-best-lithium-primary-batteries-for-your-lorawan-node)
 
 ## Measurment Tools for Ultra-Low-Power
-Otii Arc - https://www.qoitech.com/buy/
-µCurrent Meter - https://www.adafruit.com/product/882
-CurrentRanger - https://lowpowerlab.com/shop/product/152
-USB Isolator - https://www.adafruit.com/product/2107
+* Otii Arc (Qoitech) - https://www.qoitech.com/buy/
+* µCurrent Meter (EEVblog) - https://www.adafruit.com/product/882
+* CurrentRanger (LowPowerLab) - https://lowpowerlab.com/shop/product/152
+* USB Isolator (Adafruit) - https://www.adafruit.com/product/2107
+* Power Profiler Kit (Nordic) - https://www.nordicsemi.com/Software-and-tools/Development-Tools/Power-Profiler-Kit-2
+* [simple calculator for estimating a (LiPo) battery's life](https://of-things.de/battery-life-calculator.php)
 
+* [How to measure low Currents for ESP/Arduino? Power Profiler Kit, Otii, µCurrent Gold, Joulescope](https://www.youtube.com/watch?v=LUB8RWzzLWc)
 * [Super Low Electrical Energy Meter || DIY or Buy || Is measuring µA/nA possible the DIY way?](https://www.youtube.com/watch?v=s6SAjQYhssk)
 * [#245 Deep-Sleep Current: Which is better? µCurrent or CurrentRanger?](https://www.youtube.com/watch?v=HmXfyLyN38c&feature=youtu.be)
 * [TvE’s Blog - adventure in low power](https://blog.voneicken.com/)

@@ -27,6 +27,9 @@ Most power supplies are designed in such a way that it is optimized for CV opera
 
 
 
+# Voltage Regulators
+* [#183 How to select voltage regulators for small projects? (ESP8266, ESP32, Arduino)](https://www.youtube.com/watch?v=ffLU7PSuI5k)
+
 # Build Your Own USB-C Power Supply
 Good thing to have on the basement workbench.
 Powering your projects using USB-C Power Delivery

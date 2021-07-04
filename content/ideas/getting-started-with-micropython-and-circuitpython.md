@@ -68,7 +68,7 @@ In addition, microcontroller programming involves at least 5 steps
 (with a specific tool-chain for a given architectures — AVR, Xtensa, ARM etc.)
 3. **Flash** your code to the board with some USB-to-serial adapter.
 4. **Debug** your code with an IDE and a lot of serial log/print statements.
-5. **Repeat**
+5. **Repeat**by going back to step 1.
 
 With MicroPython, the expectation is to strike out 2.5 of the 5.
 The extra 0.5 from taking advantage of the large set of library.
@@ -100,43 +100,46 @@ to interact with a CircuitPython or MicroPython board over a serial connection.
 >If you want to use `shell` or a terminal to send input to a board,
 >check out MicroPython tools like `rshell` or `mpfshell` for more advanced interaction with boards.
 
-Judging from the Adafruit documentation on `ampy`,
-they appear to be backing away from supporting only on xxxxxxxxx
-
-## rshell
-Remote MicroPython shell.
-This is a simple shell which runs on the host and uses MicroPython's raw-REPL to send python snippets to the pyboard in order to get filesystem information, and to copy files to and from MicroPython's filesystem.
-
-* [rshell](https://github.com/dhylands/rshell)
-
-## mpfshell
-
-## WebREPL
-WebREPL allows you to use the Python prompt over WiFi, connecting through a browser.
-
-* [WebREPL - a prompt over WiFi](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html#webrepl-a-prompt-over-wifi)
-
-## GUI Tools
-* [LittlevGL Brings GUI Tools to Micropython](https://hackaday.com/2019/02/28/littlevgl-brings-gui-tools-to-micropython/)
-* [LittlevGL: Open-source Embedded GUI Library](https://littlevgl.com/)
-* [LittlevGL's Blog](https://blog.littlevgl.com/)
-
-## Pytype
-[`pytype`](https://google.github.io/pytype/)
-is a static type analyzer for Python code.
-* [How to quickly find type-issues in your Python code with Pytype](https://medium.freecodecamp.org/how-to-quickly-find-type-issues-in-your-python-code-with-pytype-c022782f61c3)
-
-## MicroIDE
-MicroIDE is an Integrated Development Environment for micro controllers - https://microide.com/
+## Jupyter MicroPython Kernel
+The Jupyter Notebook community have created a kernel to interact
+with a MicroPython ESP8266 or ESP32 over its serial REPL.
 
 
 
 
-# CircuitBrains
-CircuitPython on an ARM Cortex M4 in about 1 square inch!
 
-* [CircuitBrains Basic](https://kevinneubauer.com/portfolio/circuitbrains-basic/)
-* [CircuitBrains Deluxe](https://kevinneubauer.com/portfolio/circuitbrains-deluxe/)
+------
+
+
+
+
+# MicroPython on the ESP32
+To use MicroPython with the ESP8266 or ESP32,
+you'll need to first flash it with the latest MicroPython firmware.
+MicroPython firmware source code is available on [Github][17],
+so we could built the firmware from source,
+but it is best to use the pre-built binary which you can download via MicroPython website below:
+
+* [MicroPython ESP8266 Firmware](https://micropython.org/download/esp8266)
+* [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/quickref.html)
+* [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/tutorial/index.html)
+
+* [MicroPython ESP32 Firmware](https://micropython.org/download/esp32)
+* [Quick reference for the ESP32](https://docs.micropython.org/en/latest/esp32/quickref.html)
+* [Getting started with MicroPython on the ESP32](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html)
+
+There is a multitude of modules and boards from different sources which carry the ESP32 chip.
+I'm going to focus on the ESP32 board, specifically the ESP-32S (aka ESP-WROOM-32).
+MicroPython tries to provide a generic port which would run on as many boards/modules as possible,
+but there may be limitations.
+To make a generic ESP32 port and support as many boards as possible,
+the following design and implementation decision were made:
+
+* GPIO pin numbering is based on ESP32 chip numbering.
+Have the manual/pin diagram of your board at hand to find correspondence between your board pins and actual ESP32 pins.
+* All pins are supported by MicroPython but not all are usable on any given board.
+For example pins that are connected to external SPI flash should not be used,
+and a board may only expose a certain selection of pins.
 
 # ESP32 + MicroPython
 I want to set up and program an ESP32 device running MicroPython.
@@ -150,51 +153,32 @@ For extra libraries, a clone or archive of micropython/micropython-lib (git clon
 * **esptool (version 2.2 or newer)** to flash the board
 * **adafruit-ampy** - to manage files on the board
 
-* [Micropython — just works!](https://medium.com/@nihal.pasham/micropython-just-works-4e8979e7d7a6)
-* [Get on the Good Foot with MicroPython on the ESP32](https://hackernoon.com/get-on-the-good-foot-with-micropython-on-the-esp32-decdd32c4720)
-* [Get on the Good Foot with MicroPython on the ESP32, Part 1 of 2](https://boneskull.com/micropython-on-esp32-part-1/)
-* [Get on the Good Foot with MicroPython on the ESP32, Part 2 of 2](https://boneskull.com/micropython-on-esp32-part-2/)
-* [Programming an ESP using Jupyter Notebook](https://lemariva.com/blog/2019/01/micropython-programming-an-esp-using-jupyter-notebook)
-* [MicroPython on ESP Using Jupyter Notebook](https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9)
-* [Micropython on ESP Using Jupyter](https://www.instructables.com/id/Micropython-on-ESP-Using-Jupyter/)
-* [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel)
+### Step 1: Download MicroPython Firmware - DONE
+For any given ESP board, there is only one firmware package to download
+but there are many types to choose from.
 
+Check out the following for details:
 
+* [Firmware for Generic ESP32 module](https://micropython.org/download/esp32/)
 
-
-
-----
-
-
-# Pre-Built MicroPython Firmware
-MicroPython source code is available on [Github][17],
-so we could built the firmware from source,
-but there’s also a [pre-built binary which you can download on MicroPython website][17]
-([source][21]):
-
-* [MicroPython ESP8266 Firmware][18]
-* [MicroPython ESP32 Firmware][19]
-
-
-Check thsi out for how to install - Playing with MicroPython on the ESP - https://hackaday.io/project/165390-playing-with-micropython-on-the-esp
-
-### Step X: Download MicroPython Firmware
-Notice there are many firmware packages for ESP8266 and ESP32 boards.
-You'll find for ESP32 separate firmware for boards with and without external SPIRAM.
+Note there is firmware for boards with and without external SPIRAM.
 Non-SPIRAM firmware will work on any board,
 whereas SPIRAM enabled firmware will only work on boards with 4MiB of external pSRAM.
-In my case, I'm using the standard firmware:
+In my case, I'm using the standard & non-spiram firmware.
 
 ```bash
-# get the standard (non-spiram) esp32 firmware: stable and lastest builds
-cd ~/Downloads
-wget https://micropython.org/resources/firmware/esp32-20190125-v1.10.bin   # stable build
-wget https://micropython.org/resources/firmware/esp32-20190214-v1.10-98-g4daee3170.bin   # lastest build
+# make a directory for store firmware bin files
+mkdir ~/Downloads/micropython
+cd ~/Downloads/micropython
+
+# get the esp32 firmware: stable and lastest builds
+wget https://micropython.org/resources/firmware/esp32-20210418-v1.15.bin   # stable build
+wget https://micropython.org/resources/firmware/esp32-20210610-unstable-v1.15-201-g8c02b9494.bin   # latest build
 ```
 
-### Step X: Install Your Tools
-#### esptool.py
-Install the latest version of `esptool.py`:
+### Step 2: Install Your `esptool.py` - DONE
+Firmware flashing on the ESP32 (and for ESP8266) board is done using the `esptool.py` program.
+To install the latest version of `esptool.py`:
 
 ```bash
 # install the latest version of esptool.py
@@ -202,28 +186,129 @@ sudo apt install python-pip
 sudo pip install --upgrade pip
 sudo pip install esptool --upgrade
 ```
+In my case, I choose to use my existing version of `esptool.py`
+I have been using for all my C++ based coding for the ESP processors.
+That version is found here:
+`/home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py`.
 
-#### ampy
-https://learn.adafruit.com/sino-bit-micropython/running-code-with-ampy
+### Step 2A: Install Utility to Manipulate Files via USB - DONE
+The MicroPython tool [`ampy`][08] is a simple command line tool to manipulate files
+and run code on a CircuitPython or MicroPython board over its serial connection.
+With `ampy` you can send files from your computer to the board's file system,
+download files from a board to your computer,
+and send a Python script to a board to be executed.
 
+You can use `ampy` with either Python 2.7.x or 3.x:
 
-* [ESP32 MicroPython Tutorial with Raspberry Pi](https://www.youtube.com/watch?v=w15-EQASP_Y)
-* [ESP32 / ESP8266 MicroPython: Running scripts from a computer](https://techtutorialsx.com/2017/06/03/esp32-esp8266-micropython-running-scripts-from-a-computer/)
+```bash
+# install ampy
+pip install adafruit-ampy        # install ampy under python 2.7.x
+pip3 install adafruit-ampy       # install ampy under python 3.x
+```
 
-#### Jupyter
-* [Programming an ESP using Jupyter Notebook](https://lemariva.com/blog/2019/01/micropython-programming-an-esp-using-jupyter-notebook)
-* [MicroPython on ESP Using Jupyter Notebook](https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9)
-* [Micropython on ESP Using Jupyter](https://www.instructables.com/id/Micropython-on-ESP-Using-Jupyter/)
-* [A Jupyter based Micropython tutorial](https://github.com/hoihu/projects/blob/master/uPy/jupyter/uPy-tutorial1.ipynb)
-* [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel)
-* [MicroPython Jupyter notebook kernel with Tony D! @micropython @ProjectJupyter](https://www.youtube.com/watch?v=UFc0pR2ehiw&feature=youtu.be)
+Now lets see what `ampy` can do for us
 
- jupyter worksheet that explains things (how to install jupyter and the mpy-repl-tool package) and shows how to turn on a LED resp. the example disco flash effect from the official tutorials: https://github.com/hoihu/projects/blob/master/uPy/jupyter/uPy-tutorial1.ipynb
+```bash
+# list ampy help
+$ ampy --help
+Usage: ampy [OPTIONS] COMMAND [ARGS]...
 
-mpy-repl-tool is a package available on pypi with micropython tools
-* [Welcome to mpy-REPL-Tool’s documentation!](https://mpy-repl-tool.readthedocs.io/en/latest/)
+  ampy - Adafruit MicroPython Tool
 
-### Step X: Flash Firmware
+  Ampy is a tool to control MicroPython boards over a serial connection.
+  Using ampy you can manipulate files on the boards internal filesystem and
+  even run scripts.
+
+Options:
+  -p, --port PORT    Name of serial port for connected board.  Can optionally
+                     specify with AMPY_PORT environment variable.  [required]
+  -b, --baud BAUD    Baud rate for the serial connection (default 115200).
+                     Can optionally specify with AMPY_BAUD environment
+                     variable.
+  -d, --delay DELAY  Delay in seconds before entering RAW MODE (default 0).
+                     Can optionally specify with AMPY_DELAY environment
+                     variable.
+  --version          Show the version and exit.
+  --help             Show this message and exit.
+
+Commands:
+  get    Retrieve a file from the board.
+  ls     List contents of a directory on the board.
+  mkdir  Create a directory on the board.
+  put    Put a file or folder and its contents on the board.
+  reset  Perform soft reset/reboot of the board.
+  rm     Remove a file from the board.
+  rmdir  Forcefully remove a folder and all its children from the board.
+  run    Run a script and print its output.
+```
+
+Each subcommand has its own help, for example to see help for the `ls` command run:
+
+```bash
+# help for ampy subcommand ls
+$ ampy --port /dev/ttyUSB0 ls --help
+Usage: ampy ls [OPTIONS] [DIRECTORY]
+
+  List contents of a directory on the board.
+
+  Can pass an optional argument which is the path to the directory.  The
+  default is to list the contents of the root, /, path.
+
+  For example to list the contents of the root run:
+
+    ampy --port /board/serial/port ls
+
+  Or to list the contents of the /foo/bar directory on the board run:
+
+    ampy --port /board/serial/port ls /foo/bar
+
+  Add the -l or --long_format flag to print the size of files (however note
+  MicroPython does not calculate the size of folders and will show 0 bytes):
+
+    ampy --port /board/serial/port ls -l /foo/bar
+
+Options:
+  -l, --long_format  Print long format info including size of files.  Note the
+                     size of directories is not supported and will show 0
+                     values.
+  -r, --recursive    recursively list all files and (empty) directories.
+  --help             Show this message and exit.
+
+# help for ampy subcommand run
+$ ampy --port /dev/ttyUSB0 run --help
+Usage: ampy run [OPTIONS] LOCAL_FILE
+
+  Run a script and print its output.
+
+  Run will send the specified file to the board and execute it immediately.
+  Any output from the board will be printed to the console (note that this
+  is not a shell and you cannot send input to the program).
+
+  Note that if your code has a main or infinite loop you should add the
+  --no-output option.  This will run the script and immediately exit without
+  waiting for the script to finish and print output.
+
+  For example to run a test.py script and print any output until it
+  finishes:
+
+    ampy --port /board/serial/port run test.py
+
+  Or to run test.py and not wait for it to finish:
+
+    ampy --port /board/serial/port run --no-output test.py
+
+Options:
+  -n, --no-output  Run the code without waiting for it to finish and print
+                   output.  Use this when running code with main loops that
+                   never return.
+  --help           Show this message and exit.
+```
+
+### Step2B: rshell and mpfshell
+`ampy` isn't enough for you, check out other MicroPython tools like `rshell` or `mpfshell`
+for more advanced interaction with boards.
+
+### Step 3: Flash Firmware - DONE
 Now connect your Linux box with your ESP32.
 For most ESP32 boards, the ESP32 board will be give device `/dev/ttyUSB0`.
 You program your esp32 board using the [`esptool.py` program][20].
@@ -231,37 +316,39 @@ If you are putting MicroPython on your board for the first time,
 then you should first erase the entire flash using:
 
 ```bash
-# full path
-./esp-idf/components/esptool_py/esptool/esptool.py
-# erease the entire flash
-esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+# erease the entire flash on the esp32
+/home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 # flash the firmware starting at address 0x1000
-esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 ~/Downloads/esp32-20190125-v1.10.bin
+/home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 ~/Downloads/micropython/esp32-20210418-v1.15.bin
 ```
 
-If the last step is successful, the output should be similar to the one below:
+If these two step are successful, the output should be similar to below:
 
 ```bash
 # erease the entire flash
-$ python ~/.arduino15/packages/esp32/hardware/esp32/1.0.0/tools/esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
-esptool.py v2.3.1
+$ /home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+esptool.py v2.6
+Serial port /dev/ttyUSB0
 Connecting........_
 Chip is ESP32D0WDQ6 (revision 1)
-Features: WiFi, BT, Dual Core
+Features: WiFi, BT, Dual Core, Coding Scheme None
+MAC: 30:ae:a4:0e:8a:6c
 Uploading stub...
 Running stub...
 Stub running...
 Erasing flash (this may take a while)...
-Chip erase completed successfully in 2.9s
+Chip erase completed successfully in 5.8s
 Hard resetting via RTS pin...
 
 # flash the firmware starting at address 0x1000
-$ python ~/.arduino15/packages/esp32/hardware/esp32/1.0.0/tools/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 ~/Downloads/esp32-20190125-v1.10.bin
-esptool.py v2.3.1
-Connecting.....
+$ /home/jeff/.arduino15/packages/esp32/tools/esptool_py/2.6.1/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 ~/Downloads/micropython/esp32-20210418-v1.15.bin
+esptool.py v2.6
+Serial port /dev/ttyUSB0
+Connecting......
 Chip is ESP32D0WDQ6 (revision 1)
-Features: WiFi, BT, Dual Core
+Features: WiFi, BT, Dual Core, Coding Scheme None
+MAC: 30:ae:a4:0e:8a:6c
 Uploading stub...
 Running stub...
 Stub running...
@@ -269,19 +356,28 @@ Changing baud rate to 460800
 Changed.
 Configuring flash size...
 Auto-detected Flash size: 4MB
-Compressed 1087456 bytes to 687409...
-Wrote 1087456 bytes (687409 compressed) at 0x00001000 in 15.7 seconds (effective 555.0 kbit/s)...
+Compressed 1469216 bytes to 953244...
+Wrote 1469216 bytes (953244 compressed) at 0x00001000 in 21.8 seconds (effective 538.2 kbit/s)...
 Hash of data verified.
 
 Leaving...
 Hard resetting via RTS pin...
 ```
 
-### Step X: Test Your Firmware Install
-Now make a terminal connection to the device
-and enter the command `help()`:
+### Step 4: Test Your Firmware Install - DONE
+Once you have the firmware installed,
+you can access the REPL (Python prompt) over the ESP32 USB connection (or over UART0 depending on your board)
+via a serial terminal.
+The default baudrate is 115200.
+
+Now make a terminal connection to the the ESP32 and use the `help()`
+command to validate the firmware is working:
 
 ```bash
+# serial terminal to the esp32
+screen /dev/ttyUSB0 115200,cs8cls
+
+# test out the python REPL
 >>> help()
 Welcome to MicroPython on the ESP32!
 
@@ -317,70 +413,102 @@ Control commands:
 For further help on a specific object, type help(obj)
 For a list of available modules, type help('modules')
 >>>
+
+# list of available modules
 >>> help('modules')
-__main__          framebuf          socket            upip
-_boot             gc                ssl               upip_utarfile
-_onewire          hashlib           struct            upysh
-_thread           heapq             sys               urandom
-_webrepl          inisetup          time              ure
-apa106            io                ubinascii         urequests
-array             json              ucollections      uselect
-binascii          machine           ucryptolib        usocket
-btree             math              uctypes           ussl
-builtins          micropython       uerrno            ustruct
-cmath             neopixel          uhashlib          utime
-collections       network           uhashlib          utimeq
-dht               ntptime           uheapq            uzlib
-ds18x20           onewire           uio               webrepl
-errno             os                ujson             webrepl_setup
-esp               random            umqtt/robust      websocket
-esp32             re                umqtt/simple      websocket_helper
-flashbdev         select            uos               zlib
+__main__          framebuf          uasyncio/lock     urandom
+_boot             gc                uasyncio/stream   ure
+_onewire          inisetup          ubinascii         uselect
+_thread           machine           ubluetooth        usocket
+_uasyncio         math              ucollections      ussl
+_webrepl          micropython       ucryptolib        ustruct
+apa106            neopixel          uctypes           usys
+btree             network           uerrno            utime
+builtins          ntptime           uhashlib          utimeq
+cmath             onewire           uheapq            uwebsocket
+dht               uarray            uio               uzlib
+ds18x20           uasyncio/__init__ ujson             webrepl
+esp               uasyncio/core     uos               webrepl_setup
+esp32             uasyncio/event    upip              websocket_helper
+flashbdev         uasyncio/funcs    upip_utarfile
 Plus any modules on the filesystem
 >>>
 ```
 
 
 
+------
 
 
-----
 
-# Using MicroPython
-* [MicroPython Usage](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/micropython-usage)
+
+# Some Examples
+
+### Step X: Some Examples
+source [here][21]
+Check this out for how to install - Playing with MicroPython on the ESP - https://hackaday.io/project/165390-playing-with-micropython-on-the-esp
+
+Lets see what files (if any) are on the ESP32 board:
+
+```bash
+# list the files on the esp32 recursively and in long format
+$ ampy --port /dev/ttyUSB0 ls -r -l
+/boot.py - 139 bytes
+
+# lets load a junk file
+ls > junk
+ampy --port /dev/ttyUSB0 put junk
+
+# now view what files we got
+$ ampy --port /dev/ttyUSB0 ls -l
+/boot.py - 139 bytes
+/junk - 3213 bytes
+```
+
+A useful function for connecting to your local WiFi network is:
+
+def do_connect():
+    import network
+    wlan = network.WLAN(network.STA_IF)
+    wlan.active(True)
+    if not wlan.isconnected():
+        print('connecting to network...')
+        wlan.connect('essid', 'password')
+        while not wlan.isconnected():
+            pass
+    print('network config:', wlan.ifconfig())
+
+Once the network is established the socket module can be used to create and use TCP/UDP sockets as usual, and the urequests module for convenient HTTP requests.
+
+
+
+### Step X: Install Additional Tools
+
+
+* [ESP32 MicroPython Tutorial with Raspberry Pi](https://www.youtube.com/watch?v=w15-EQASP_Y)
+* [ESP32 / ESP8266 MicroPython: Running scripts from a computer](https://techtutorialsx.com/2017/06/03/esp32-esp8266-micropython-running-scripts-from-a-computer/)
+
+#### Jupyter
+* [MicroPython Jupyter notebook kernel with Tony D! @micropython @ProjectJupyter](https://www.youtube.com/watch?v=UFc0pR2ehiw&feature=youtu.be)
+* [Micropython on ESP Using Jupyter](https://www.instructables.com/id/Micropython-on-ESP-Using-Jupyter/)
 * [Programming an ESP using Jupyter Notebook](https://lemariva.com/blog/2019/01/micropython-programming-an-esp-using-jupyter-notebook)
 * [MicroPython on ESP Using Jupyter Notebook](https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9)
 * [Micropython on ESP Using Jupyter](https://www.instructables.com/id/Micropython-on-ESP-Using-Jupyter/)
+* [Get on the Good Foot with MicroPython on the ESP32, Part 1 of 2](https://boneskull.com/micropython-on-esp32-part-1/)
+* [Get on the Good Foot with MicroPython on the ESP32, Part 2 of 2](https://boneskull.com/micropython-on-esp32-part-2/)
 * [A Jupyter based Micropython tutorial](https://github.com/hoihu/projects/blob/master/uPy/jupyter/uPy-tutorial1.ipynb)
 * [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel)
 * [MicroPython Jupyter notebook kernel with Tony D! @micropython @ProjectJupyter](https://www.youtube.com/watch?v=UFc0pR2ehiw&feature=youtu.be)
 
-# Getting a Python Prompt
-You can get a prompt via the serial port, via UART0, which is the same UART that is used for programming the firmware. The baudrate for the REPL is 115200 and you can use a command such as:
+ jupyter worksheet that explains things (how to install jupyter and the `mpy-repl-tool` package) and shows how to turn on a LED resp. the example disco flash effect from the official tutorials: https://github.com/hoihu/projects/blob/master/uPy/jupyter/uPy-tutorial1.ipynb
 
-$ picocom -b 115200 /dev/ttyUSB0
+`mpy-repl-tool` is a package available on pypi with micropython tools
+* [Welcome to mpy-REPL-Tool’s documentation!](https://mpy-repl-tool.readthedocs.io/en/latest/)
 
-# Configuring the WiFi and using the board
-The ESP32 port is designed to be (almost) equivalent to the ESP8266 in terms of the modules and user-facing API. There are some small differences, notably that the ESP32 does not automatically connect to the last access point when booting up. But for the most part the documentation and tutorials for the ESP8266 should apply to the ESP32 (at least for the components that are implemented).
 
-See http://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html for a quick reference, and http://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html for a tutorial.
 
-The following function can be used to connect to a WiFi access point (you can either pass in your own SSID and password, or change the defaults so you can quickly call wlan_connect() and it just works):
 
-def wlan_connect(ssid='MYSSID', password='MYPASS'):
-    import network
-    wlan = network.WLAN(network.STA_IF)
-    if not wlan.active() or not wlan.isconnected():
-        wlan.active(True)
-        print('connecting to:', ssid)
-        wlan.connect(ssid, password)
-        while not wlan.isconnected():
-            pass
-    print('network config:', wlan.ifconfig())
-Note that some boards require you to configure the WiFi antenna before using the WiFi. On Pycom boards like the LoPy and WiPy 2.0 you need to execute the following code to select the internal antenna (best to put this line in your boot.py file):
-
-import machine
-antenna = machine.Pin(16, machine.Pin.OUT, value=0)
+------
 
 
 
@@ -392,187 +520,6 @@ antenna = machine.Pin(16, machine.Pin.OUT, value=0)
 * [MicroPython Programming Tutorial: Getting Started with the ESP32 Thing](https://learn.sparkfun.com/tutorials/micropython-programming-tutorial-getting-started-with-the-esp32-thing/all)
 * [MicroPython on an ESP32 Board With Integrated SSD1306 OLED Display (WEMOS/Lolin)](https://www.instructables.com/id/MicroPython-on-an-ESP32-Board-With-Integrated-SSD1/)
 * [MicroPython — OTA Updates and GitHub, a match made in heaven](https://medium.com/@ronald.dehuysser/micropython-ota-updates-and-github-a-match-made-in-heaven-45fde670d4eb)
-
-
-### Step X: Load MicroPython on a Microcontroller
-* [How to Load MicroPython on a Microcontroller Board](https://learn.sparkfun.com/tutorials/how-to-load-micropython-on-a-microcontroller-board/esp32-thing)
-
-### Step X: Install ampy
-https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy
-
-```bash
-sudo pip3 install adafruit-ampy
-
-ampy --help
-```
-
-To upgrade your `ampy`, do the following: `sudo pip3 install adafruit-ampy --upgrade`.
-
-
-### Step X: Loading MicroPython Firmware
-[MicroPython][01]
-[What is MicroPython][02]
-https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview
-
-
-
-
-
-
-# Build Your Own Custom MicroPython Firmware
-* [Building and Running MicroPython on the ESP8266]()https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/overview
-* [Build Your Own Custom MicroPython Firmware for the ESP8266 on Windows](https://www.youtube.com/watch?v=jG7WBY_vmpE)
-
->_Got it to work for ESP8266 but problem within MicroPython for ESP32 build._
-
-# ESP-IDF
-Espressif IoT Development Framework (ESP-IDF)
-[Getting Started With ESP32 ESP-IDF (Part 1)](http://iot-bits.com/esp32/getting-started-with-esp32-esp-idf-part-1/)
-[Getting Started With ESP32 ESP-IDF (Part 2)](http://iot-bits.com/esp32/getting-started-with-esp32-esp-idf-part-2/)
-[Getting Started With ESP32 ESP-IDF (Part 3)](http://iot-bits.com/esp32/getting-started-with-esp32-esp-idf-part-3/)
-
-
-## Toolchain Setup
-To setup my toolchain,
-I generally followed [Adafruit's methodology][10] (here is a [video][11] of this methodology).
-
-### Step X: Connect a USB Device Through Vagrant
-* [How to set up USB for Virtualbox?](https://askubuntu.com/questions/25596/how-to-set-up-usb-for-virtualbox)
-* [Connect a Usb device through Vagrant](http://code-chronicle.blogspot.com/2014/08/connect-usb-device-through-vagrant.html)
-
-To grant access by Vagrant (aka guest VM) to a USB device,
-we need to disable the device in the host
-and to enable in the guest (this is a precaution to avoid simultaneous access from host and guest).
-So your enabling device within Vagrant, not USB ports.
-Generally, this can be done within the Vagrantfile
-by enable the usb option and adding a filter
-based on the desired manufacturer and product IDs.
-
-First, lets get the manufacturer and product IDs of are target device:
-
-```bash
-# without the device plugged into the usb port
-lsusb > ~/tmp/junk1
-
-# with the device plugged into the usb port
-lsusb > ~/tmp/junk2
-
-# differance will give you the device information
-$ diff ~/tmp/junk1 ~/tmp/junk2
-20a21
-> Bus 003 Device 072: ID 10c4:ea60 Cygnal Integrated Products, Inc. CP210x UART Bridge / myAVR mySmartUSB light
-```
-
-The `10c4:ea60` is the desired `manufacture:product` ID information.
-This must go into the Vagrantfile like this:
-
-```
- # ------------------------ virtualbox VM configuration -----------------------
- config.vm.provider "virtualbox" do |vb|
-   .
-   .
-   vb.customize ["modifyvm", :id, "--usb", "on"]   # enable USB
-   vb.customize ['usbfilter', 'add', '0',
-       '--target', :id,
-       '--name', 'ESP32',
-       '--vendorid', '0x10c4',
-       '--productid', '0xea60']
-   .
-   .
- end
-```
-
-With this code block in your Vagrantfile,
-do a `vagrant up`, `vagrant ssh`,
-and check to if the device is visible to your VM with the following:
-
-```bash
-# check if the device is on the VM's usb list
-$ lsusb
-Bus 001 Device 002: ID 10c4:ea60 Cygnal Integrated Products, Inc. CP210x UART Bridge / myAVR mySmartUSB light
-Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
-```
-
-So you can no access this device via `/dev/bus/usb/001/002`.
-
->**NOTE:** You will only see the USB ports within VirtualBox / Vagrant if you have
->if you have previously installed the [VirtualBox Extension Pack][22].
-
-
-### Step X: Setup Vagrant Environment
-[Vagrant][13] is a tool that offers a simple and easy to use
-command-line client for managing virtual environments.
-I'm using it because it made it easier for me to
-stand-up new software solutions for testing without disrupting my working system.
-Vagrant has an easy-to-use workflow, makes automation easy, and lowers development environment setup time.
-Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider.
-Then, industry-standard provisioning tools such as
-shell scripts, Chef, or Puppet, can automatically install
-and configure software on the virtual machine.
-
-To get my Vagrant environment up and running,
-I started by examining the [Open-EIO `Vagrantfile`][14] and [Adafruit `Vagrantfile`][12].
-In included things from Espressif's ["Setup Toolchain" documentation][15]
-and this [video][16].
-I did some additional modifications and what resulted is listed below:
-
-```ruby
-```
-
-The Vagrant provisioning will take a bit of time,
-at least 60 minutes on my machine.
-
-### Step X: Verify Toolchain and ESP-IDF Install
-
-```bash
-# check if the esp32 toolchain was properly installed
-$ xtensa-esp32-elf-gcc -v
-Using built-in specs.
-COLLECT_GCC=xtensa-esp32-elf-gcc
-COLLECT_LTO_WRAPPER=/home/vagrant/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper
-Target: xtensa-esp32-elf
-Configured with: /home/ivan/e/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/home/ivan/e/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/home/ivan/e/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/home/ivan/e/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-61-gab8375a' --disable-__cxa_atexit --enable-cxx-flags='-fno-exceptions -fno-rtti' --with-gmp=/home/ivan/e/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/home/ivan/e/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/home/ivan/e/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/home/ivan/e/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-cloog=/home/ivan/e/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-libelf=/home/ivan/e/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --disable-multilib --enable-languages=c,c++ --disable-libstdcxx-verbose
-Thread model: single
-gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-61-gab8375a)
-
-# check if the esp8266 toolchain was properly installed
-```
-
-If you get a response like "xtensa-esp32-elf-gcc: Command not found",
-Then you have probably missed a step or done something wrong.
-
-https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#start-a-project
-
-```bash
-# check esp-idf
-mkdir ~/tmp
-cd ~/tmp
-cp -r $IDF_PATH/examples/get-started/hello_world .
-```
-
-#### Updating Toolchain and ESP-IDF
-If may want to update the ESP-IDF to take advantage of new features or bug fixes.
-Espressif recommends you delete the existing `~/esp/esp-idf` folder and cloning it again,
-exactly as when doing initial installation.
-
-### Step X: Verify MicroPython
-```bash
-# build it for your linux box
-cd ~/micropython/ports/unix
-make
-
-# now try it out on your linux box
-$ ./micropython
-MicroPython v1.10-104-g7ef9482 on 2019-02-17; linux version
-Use Ctrl-D to exit, Ctrl-E for paste mode
->>> list(5 * x + y for x in range(10) for y in [4, 2, 1])
-[4, 2, 1, 9, 7, 6, 14, 12, 11, 19, 17, 16, 24, 22, 21, 29, 27, 26, 34, 32, 31, 39, 37, 36, 44, 42, 41, 49, 47, 46]
->>>
-$
-
-# run complete test suite
-make test
-```
 
 
 
@@ -594,9 +541,9 @@ make test
 [14]:https://github.com/open-eio/esp32-micropython-vagrant/blob/master/Vagrantfile
 [15]:https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#setup-toolchain
 [16]:https://www.youtube.com/watch?v=jG7WBY_vmpE
-[17]:https://github.com/micropython/micropython
-[18]:https://micropython.org/download/#esp8266
-[19]:https://micropython.org/download/#esp32
+[17]:
+[18]:
+[19]:
 [20]:https://github.com/espressif/esptool
 [21]:https://www.cnx-software.com/2017/10/16/esp32-micropython-tutorials/
 [22]:https://www.virtualbox.org/wiki/Downloads

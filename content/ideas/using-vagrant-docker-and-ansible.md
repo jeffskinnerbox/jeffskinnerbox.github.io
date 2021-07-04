@@ -31,7 +31,9 @@ create development environments, or have your own private cloud.
 * [How to use infrastructure as code](https://opensource.com/article/19/7/infrastructure-code)
 
 
+
 ----
+
 
 
 # VirtualBox
@@ -185,7 +187,10 @@ but instead, I'll be using VirtualBox with Vagrant.
 sudo apt-get install virtualbox-guest-additions-iso
 ```
 
+
+
 ----
+
 
 
 # Vagrant
@@ -387,7 +392,7 @@ Vagrant 2.2.6
 # check if installed vagrant and virtualBox ara compatable
 $ vagrant up --provider=virtualbox
 The provider 'virtualbox' that was requested to back the machine
-'default' is reporting that it isn't usable on this system. The
+'default' is reporting that it is not usable on this system. The
 reason is shown below:
 
 Vagrant has detected that you have a version of VirtualBox installed
@@ -975,7 +980,9 @@ The private_network is a network that is only between your host and the guest vm
 * [Creating a Custom Box from Scratch](https://www.skoblenick.com/vagrant/creating-a-custom-box-from-scratch/)
 
 
+
 ----
+
 
 
 ## Vagrant Package: Custom Vagrant Boxes by Creating Your Own Base Box
@@ -1078,8 +1085,8 @@ https://devopscube.com/packer-tutorial-for-beginners/
 
 
 
-
 ----
+
 
 
 **see "howto-use-docker-and-resin-on-the-raspberry-pi-and-openwrt.md" for more text**
@@ -1132,9 +1139,12 @@ But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https:/
 * [How To Package and Publish a Snap Application on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-package-and-publish-a-snap-application-on-ubuntu-18-04?utm_source=DigitalOcean_Newsletter)
 
 
+
 ----
 
 
+
+##################### REPLACE WITH ~/src/ansible/README.md #####################
 # Ansible
 
 * [How to use Ansible to patch systems and install applications](https://opensource.com/article/18/3/ansible-patch-systems)
@@ -1947,8 +1957,12 @@ on the command-line when running ansible.
 ### Step X: Update and Reboot
 [Ansible reboot a Debian/Ubuntu Linux for kernel update and wait for it](https://www.cyberciti.biz/faq/ansible-reboot-debian-ubuntu-linux-for-kernel-update-waitforit/)
 
+##################### REPLACE WITH ~/src/ansible/README.md #####################
+
+
 
 ----
+
 
 
 # Using Vagrant and Ansible

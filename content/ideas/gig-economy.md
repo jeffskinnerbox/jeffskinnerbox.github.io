@@ -11,3 +11,5 @@
 * [REMOTE.CO - All Things Remote Work](https://remote.co/)
 
 * [3 Developer Side Hustles That Will Make You Money Right Now](https://medium.com/javascript-in-plain-english/3-developer-side-hustles-that-will-make-you-money-right-now-96aa59fdc2a0)
+
+* [CleverX is an AI powered knowledge platform that helps you book 1-on-1 video meetings with experts, consultants and executives across industries to get on-demand advice.](https://cleverx.com/)

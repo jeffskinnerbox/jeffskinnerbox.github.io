@@ -89,6 +89,7 @@ It can support both IPv4 and IPv6 as well.
 The mbed OS is free, will be available to ARM’s partners and developers in 4Q14.
 
 * [Sophie Wilson: ARM And How Making Things Simpler Made Them Faster & More Efficient](https://hackaday.com/2018/05/08/sophie-wilson-arm-and-how-making-things-simpler-made-them-faster-more-efficient/)
+* [Where Are All The Cheap X86 Single Board PCs?](https://hackaday.com/2021/06/17/where-are-all-the-cheap-x86-single-board-pcs/)
 
 * [Raspberry Pi Enters Microcontroller Game With $4 Pico](https://hackaday.com/2021/01/20/raspberry-pi-enters-microcontroller-game-with-4-pico/)
 * [Tessel 2](https://www.pjrc.com/store/teensy.html) - 16 MHz AVR

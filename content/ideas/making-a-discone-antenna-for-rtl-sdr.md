@@ -422,6 +422,10 @@ gprMax is open source software that simulates electromagnetic wave propagation. 
 * Documentation - [Meep: A flexible free-software package for electromagnetic simulations by the FDTD method](https://data.mendeley.com/datasets/42hb3hb2tt/1)
 * [Simulations of electromagnetic waves with python-meep](https://www.fzu.cz/~dominecf/meep/)
 
+## Long Range Antenna
+* [#291 External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU)
+* [#292 Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A&t=647s)
+
 
 -------
 

@@ -1,10 +1,12 @@
 
 # Latest Kali
+* [Kali Linux 2021.2 released: Kaboxer, Kali-Tweaks, new tools, and more!](https://www.helpnetsecurity.com/2021/06/02/kali-linux-2021-2-released/)
 * [Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
 * [Hands-On: Kali Linux on the Raspberry Pi 4](https://www.zdnet.com/article/hands-on-kali-linux-on-the-raspberry-pi-4/)
 
 # Other Tools
 * [Scan your Linux security with Lynis](https://opensource.com/article/20/5/linux-security-lynis)
+* [Identify security properties on Linux using checksec](https://opensource.com/article/21/6/linux-checksec)
 
 # ESP8266 Tools
 * [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
@@ -156,6 +158,7 @@ The operating system is free to use and live boots from a USB stick.
 * [17 penetration testing tools the pros use](https://www.csoonline.com/article/2943524/network-security/17-penetration-testing-tools-the-pros-use.html)
 * [DIY Pi Zero Pentesting Tool Keeps it Cheap](https://hackaday.com/2018/05/15/diy-pi-zero-pentesting-tool-keeps-it-cheap/)
 * [ROGUE PI: A RPI PENTESTING DROPBOX](https://hackaday.com/2013/03/24/rogue-pi-a-rpi-pentesting-dropbox/)
+* [WiFi Penetration Testing With An ESP32](https://hackaday.com/2021/05/27/wifi-penetration-testing-with-an-esp32/)
 
 # IoT Device Fingerprinting
 * [Free IoT security platform runs on OpenWrt routers and the Raspberry Pi](http://linuxgizmos.com/free-iot-security-platform-runs-on-openwrt-routers-and-the-raspberry-pi/)
@@ -325,6 +328,7 @@ Kali Linux has not only become the information security professional's platform 
 but has evolved into an industrial-grade and world-class
 operating system distribution in its own right.
 
+* [Pen testing with Linux security tools](https://opensource.com/article/21/5/linux-security-tools)
 * [Kali Linux Tutorials](https://www.youtube.com/channel/UCr8Gj8sZxggO8HXOpGTkkHg)
 * [Set Up a Headless Raspberry Pi Hacking Platform Running Kali Linux](https://null-byte.wonderhowto.com/how-to/set-up-headless-raspberry-pi-hacking-platform-running-kali-linux-0176182/)
 * [Hands-On: Kali Linux 2018.1 on the Raspberry Pi Zero W](http://www.zdnet.com/article/hands-on-kali-linux-2018-1-on-the-raspberry-pi-zero-w/)

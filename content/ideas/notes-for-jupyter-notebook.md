@@ -30,10 +30,6 @@
 * [BinderHub](https://binderhub.readthedocs.io/en/latest/)
 * [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/#)
 
-* [Jupyter Lab: Evolution of the Jupyter Notebook](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
-* [JupyterLab](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)
-* [JupyterLab teaches Python developers magic](https://opensource.com/article/19/5/jupyterlab-python-developers-magic)
-
 * [Unofficial Jupyter Notebook Extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
 * [Jupyter Notebook Extensions: How to get the most from the notebook environment](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 * [Set Your Jupyter Notebook up Right with this Extension](https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332)
@@ -44,7 +40,27 @@
 
 
 * [Running Jupyter Notebooks on a Ubuntu Server](https://hackingandslacking.com/running-jupyter-notebooks-on-a-ubuntu-server-b7b2cb88a986)
+
+
+
+----------
+
+
+# Jupyter as Integrated Development Environment (IDE)
+* [Jupyter has a perfect code editor](https://towardsdatascience.com/jupyter-has-a-perfect-code-editor-62147cb9bf21)
+
+
+
+----------
+
+
+
+# Jupyter Lab
+* [Jupyter Lab: Evolution of the Jupyter Notebook](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
+* [5 Extensions That Will Make You Switch to Jupyter Lab](https://towardsdatascience.com/5-extensions-that-will-make-you-switch-to-jupyter-lab-32c6b66ac755)
 * [Upgrading to JupyterLab on Ubuntu](https://hackersandslackers.com/upgrading-to-jupyter-lab-on-ubuntu/)
+* [JupyterLab](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)
+* [JupyterLab teaches Python developers magic](https://opensource.com/article/19/5/jupyterlab-python-developers-magic)
 
 
 

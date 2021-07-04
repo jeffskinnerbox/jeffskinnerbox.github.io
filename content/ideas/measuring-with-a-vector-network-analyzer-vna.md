@@ -173,6 +173,7 @@ from - https://www.youtube.com/watch?v=o1eLK4EMpEQ&t=301s
 Measure antennas, duplexers, diplexers, filters, inductors, capacitors, amplifiers, splitters, baluns, chockes, phase networks, attenuators, etc.
 
 * [Test & Measurement Fundamentals](https://www.youtube.com/watch?v=-Pi0UbErHTY&list=PLKxVoO5jUTlvsVtDcqrVn0ybqBVlLj2z8)
+* [NANOVNA](https://www.youtube.com/playlist?list=PLXDK0MeyK4ZhPjgg6xkBzt6OVtc5leUgA)
 
 ## Reflection Measurements
 Single port measurements
@@ -241,6 +242,7 @@ and verify network designs to make sure systems and their components work proper
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
 * [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 
+* [#188 Antenna Tutorial incl. cheap DIY Antenna Tester (LoRa, ESP32)](https://www.youtube.com/watch?v=J3PBL9oLPX8)
 * [How to build performing antennas for LoRa, WiFi, 433MHz, Airplanes etc.(NanoVNA, MMANA-GAL)](https://www.youtube.com/watch?v=6cVYsHCLKq8)
 * [How to properly use a NanoVNA V2 Vector Network Analyzer (Tutorial)](https://www.youtube.com/watch?v=_pjcEKQY_Tk)
 * [Why 50 Ohms?](https://www.youtube.com/results?search_query=why+50+ohms)

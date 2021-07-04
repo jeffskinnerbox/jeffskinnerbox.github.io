@@ -29,9 +29,6 @@ This guy appears to have used Tarmo as a base and improved it
 * [combine multiple .STL files to create a re-mix object](https://www.youtube.com/watch?v=sUe-Lnioagk)
 * [FreeCAD Assembly Tutorial](https://www.youtube.com/watch?v=mnkecA9S7kc)
 * [Convert STL to STEP](https://blog.bantamtools.com/convert-stl-to-step)
-* []()
-* []()
-* []()
 
 
 
@@ -392,6 +389,10 @@ proportional to the amount (angle) it is twisted.
 
 In the case of the Tarmo3 RC Car,
 there is a torsion spring in the drive train gearbox.
+An alternative is a slipper clutch.
+A [slipper clutch][51] is a mechanical assembly that transfers excess energy in to heat.
+The heat created is from friction between clutch pads and a clutch hub.
+
 
 
 ----
@@ -796,4 +797,4 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 [48]:https://en.wikipedia.org/wiki/STL_(file_format)
 [49]:https://www.instructables.com/id/Programming-Brushless-Motor-ESC-Without-RF-Transmi/
 [50]:http://www.tenergy.com/01321
-
+[51]:https://www.radiocontrolinfo.com/what-is-the-purpose-of-a-slipper-clutch-on-an-rc-car/

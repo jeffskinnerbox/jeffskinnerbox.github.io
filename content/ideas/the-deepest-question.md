@@ -66,6 +66,7 @@ and by the way, [isn't it dead][07]?
 * [All the Numbers - Numberphile](https://www.youtube.com/watch?v=5TkIe60y2GI)
 * [All the Numbers (extra footage) - Numberphile](https://www.youtube.com/watch?v=LsBQhfkw5ag)
 * [3 Paradoxes That Gave Us Calculus](https://www.youtube.com/watch?v=EbHqtENNnSY)
+* [Russell's Paradox - A Ripple in the Foundations of Mathematics](https://www.youtube.com/watch?v=xauCQpnbNAM)
 
 # The Infinite and Infinitesimal
 * [Things get weird at infinity](https://www.youtube.com/watch?v=6HybPBUNzz8)
@@ -143,6 +144,8 @@ A function is a relation that uniquely associates members of one set with member
 * [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
 
 # What about Chaos Theory and Emergent Properties?
+* [Chaos: The Science of the Butterfly Effect](https://www.youtube.com/watch?v=fDek6cYijxI)
+* [Chaos Theory: the language of (in)stability](https://www.youtube.com/watch?v=uzJXeluCKMs)
 * [Can Maths Predict The Future?](https://www.youtube.com/watch?v=wtnA6ouIu0U)
 * [Can Maths Predict the Future? - Hannah Fry at Ada Lovelace Day 2014](https://www.youtube.com/watch?v=43w7rcYPUnI)
 * [This equation will change how you see the world (the logistic map)](https://www.youtube.com/watch?v=ovJcsL7vyrk)
@@ -154,6 +157,7 @@ A function is a relation that uniquely associates members of one set with member
 
 # Order Emergent from Chaos
 * [Amazing Graphs - Numberphile](https://www.youtube.com/watch?v=pAMgUB51XZA)
+* [We may now know what life is](https://medium.com/the-infinite-universe/we-may-now-know-what-life-is-9326d34a14e8)
 
 # The Hidden Structure of the Universe
 * [The Hidden Structure of the Universe](https://www.quantamagazine.org/the-hidden-structure-of-the-universe-20201022/)
@@ -163,6 +167,8 @@ A function is a relation that uniquely associates members of one set with member
 * [Chapter 4: What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 
 # What about Quantum Theory?
+* [A Brief History of Quantum Mechanics - with Sean Carroll](https://www.youtube.com/watch?v=5hVmeOCJjOU)
+* [Q&A: A Brief History of Quantum Mechanics - with Sean Carroll](https://www.youtube.com/watch?v=Jv5FYrOthvE)
 * [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
 * [EEVblog #1316 - Quantum Computing for Electrical Engineers](https://www.youtube.com/watch?v=nOQhdgY8aBM)
@@ -173,8 +179,11 @@ A function is a relation that uniquely associates members of one set with member
 * [Observing The Universe Really Does Change The Outcome, And This Experiment Shows How](https://medium.com/starts-with-a-bang/observing-the-universe-really-does-change-the-outcome-and-this-experiment-shows-how-454d10b651ca)
 * [What Happens During a Quantum Jump?](https://www.youtube.com/watch?v=j5HyMNNSGqQ)
 
-## The Speed of Light
-Maxwell's equations say the velocity of electromatic waves is inversely proportional
+# Quantum Field Theory (QFT) & Mathematics
+* [The Mystery at the Heart of Physics That Only Math Can Solve](https://www.quantamagazine.org/the-mystery-at-the-heart-of-physics-that-only-math-can-solve-20210610/)
+
+# The Speed of Light
+Maxwell's equations say the velocity of electrometric waves is inversely proportional
 the permittivity and permeability of free space.
 It makes sense that the velocity of any wave would be inversely proportional to the resistance of the substance it is traveling in.
 You might ask, why does resistance take on the values they do?
@@ -195,6 +204,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Visualizing the Fine Structure Constant (Part 2) #shorts by Parth G](https://www.youtube.com/watch?v=lf3y1ydaVuo)
 * [Physicists Nail Down the ‘Magic Number’ That Shapes the Universe](https://www.quantamagazine.org/physicists-measure-the-magic-fine-structure-constant-20201202/)
 * [Fine Structure Constant - Sixty Symbols](https://www.youtube.com/watch?v=WlSLIW0gZtk)
+* [Constructor theory might be revolutionary but what can you do with it?](https://medium.com/the-infinite-universe/constructor-theory-may-not-be-the-science-revolution-it-claims-to-be-347ac51311e)
 
 # Quantum Fluctuations
 * [Quantum Fluctuations Were Experimentally Proven Way Back In 1947](https://medium.com/starts-with-a-bang/quantum-fluctuations-were-experimentally-proven-way-back-in-1947-35952514e5eb)
@@ -221,6 +231,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
 * [Calculus 2: Integration, Computation of Areas and Volumes, Differential Equations](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKGna43cvDO4NZEEOdM4vcR)
 * [Richard Hamming: "Learning to Learn"](https://www.youtube.com/playlist?list=PL2FF649D0C4407B30)
+* [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
 * [How Richard Feynman Reinvented Quantum Theory](https://medium.com/cantors-paradise/how-richard-feynman-reinvented-quantum-theory-68395f213cb0)
 
 # A Mathematician's Lament
@@ -243,6 +254,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [What, Exactly, is Entropy?](https://medium.com/cantors-paradise/what-exactly-is-entropy-2a0e2fc067f8)
 * [A better description of entropy](https://www.youtube.com/watch?v=w2iTCm0xpDc)
 * [Entropy Confusion - Sixty Symbols](https://www.youtube.com/watch?v=vSgPRj207uE)
+* [Entropy Explained!](https://www.youtube.com/playlist?list=PLsPUh22kYmNCzNFNDwxIug8q1Zz0Mj60H)
+* [How Quantum Entanglement Creates Entropy](https://www.youtube.com/watch?v=vgYQglmYU-8&t=891s)
 
 # Bootstrapping
 * [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)
@@ -260,6 +273,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # Bayesian Statistics
 Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event. The degree of belief may be based on prior knowledge about the event, such as the results of previous experiments, or on personal beliefs about the event. This differs from a number of other interpretations of probability, such as the frequentist interpretation that views probability as the limit of the relative frequency of an event after many trials.
 
+* [Statistics: Are you Bayesian or Frequentist?](https://towardsdatascience.com/statistics-are-you-bayesian-or-frequentist-4943f953f21b)
+* [Frequentism and Bayesianism: What's the Big Deal?](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [Bayesian Statistics with Hannah Fry](https://www.youtube.com/watch?v=7GgLSnQ48os)
 * [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
 * [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)

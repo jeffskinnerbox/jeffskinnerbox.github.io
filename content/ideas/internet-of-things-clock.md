@@ -16,6 +16,7 @@
 
 
 
+* [A Custom Clock With LED Filament Hands](https://hackaday.com/2021/06/25/a-custom-clock-with-led-filament-hands/)
 * ["Charlotte's Web" Style LED Filament Clock](https://www.instructables.com/id/Charlottes-Web-Style-LED-Filament-Clock/)
 * [Is That A Word Clock In Your Pocket?](https://hackaday.com/2019/02/15/is-that-a-word-clock-in-your-pocket/)
 * [Alphanumeric GPS Wall Clock](https://learn.sparkfun.com/tutorials/alphanumeric-gps-wall-clock)
@@ -149,6 +150,9 @@ and where the amount is then measured.
 # Speaking Clocks
 * [Retrotechtacular: The Speaking Clock Goes Silent](https://hackaday.com/2019/10/30/retrotechtacular-the-speaking-clock-goes-silent/)
 
+## GPS Stratum 1 NTP Server
+* [ESP82266 + GPS STRATUM 1 NTP SERVER](https://www.hackster.io/Absolutelyautomation/esp8266-based-wireless-ntp-server-b77926)
+
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
@@ -219,6 +223,7 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
 * [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
+* [Recreating an old-school mechanical split-flap display with Arduino](https://www.blogdot.tv/recreating-an-old-school-mechanical-split-flap-display-with-arduino/)
 
 ## Math Clock
 Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall+clock

@@ -56,8 +56,7 @@ that will enable server-side infrastructure for your IoT applications.
 * [Mozilla WebThings: An Open Platform For Building IoT Devices](https://hackaday.com/2019/10/29/mozilla-webthings-an-open-platform-for-building-iot-devices/)
 
 ## Set-Up
-* [
-* How to resize a Root Partition in Linux](https://medium.com/100-days-of-linux/how-to-resize-a-linux-root-file-system-af3e5096b4e4)
+* [How to resize a Root Partition in Linux](https://medium.com/100-days-of-linux/how-to-resize-a-linux-root-file-system-af3e5096b4e4)
 
 
 
@@ -140,7 +139,10 @@ and confidence that helped me select Home Assistant as my platform:
     * [SuperHouseTV](https://www.youtube.com/user/SuperHouseTV)
     * [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw)
 
+
+
 ------
+
 
 
 # Raspberry Pi OS vs Ubuntu
@@ -179,6 +181,7 @@ And to top it off, the GPIO pins are still easily accessible but smartly hidden.
 ------
 
 
+
 # Getting Started With Home Assistant
 * [Quickly getting started with Home Assistant (2020 Guide)](https://www.youtube.com/watch?v=Am8FEhBhe5Y&feature=youtu.be)
 * [Home Assistant Beginners Guide: Installation, Addons, Integrations, Scripts, Scenes, and Automations](https://www.youtube.com/watch?v=sVqyDtEjudk)
@@ -194,9 +197,11 @@ And to top it off, the GPIO pins are still easily accessible but smartly hidden.
 
 
 
-## Preparing the Raspberry OS
-
-### Step X: Prepare SD-Card for First Boot
+## Preparing the Raspberry Pi SD Card
+In this section, we will prepare SD-Card for first boot.
+This first boot will be from a SD Card on the Raspbewrry Pi,
+dispite the fact that the [Argon ONE M.2 Case for Raspberry Pi 4][20] with a the M.2 SATA SSD
+is our ultmate target configuration.
 
 ### Step 1: Download Raspberry Pi Image - DONE
 Before you can load a copy of the latest Raspberry Pi image onto your micro SD Card,
@@ -207,11 +212,16 @@ Check whether the file has been changed from its original state
 by checking its digital signature (SHA1 hash value).
 
 ```bash
-# download raspberry pi os at https://howtoraspberrypi.com/downloads/
+# change director to temp storage
+cd ~/Downloads/RPi-OS
 
-# validate file is uncorrupted via check of digital signature
-$ sha1sum /home/jeff/Downloads/RPi-OS/raspbian_latest.zip
-4c4ebc332ab2ed0e2e590adb2bf60f5cec95001f  /home/jeff/Downloads/RPi-OS/raspbian_latest.zip
+# download raspberry pi os (full image with with desktop)
+wget https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-full.zip
+
+# validate file is not corrupted via check of digital signature
+# at https://www.raspberrypi.org/software/operating-systems/
+$ sha256sum /home/jeff/Downloads/RPi-OS/2021-05-07-raspios-buster-armhf-full.zip
+84a711d9ff4c295711a40af43fea38893a20b3b087a48370d8fb926fb541faf5  /home/jeff/Downloads/RPi-OS/2021-05-07-raspios-buster-armhf-full.zip
 ```
 
 Next you need to unzip the file to retrieve the Linux image file:
@@ -220,27 +230,25 @@ Next you need to unzip the file to retrieve the Linux image file:
 # move to the directory with the download
 cd /home/jeff/Downloads/RPi-OS
 
-# unzip the download file
-$ unzip raspbian_latest.zip
-Archive:  raspbian_latest.zip
-  inflating: 2020-12-02-raspios-buster-armhf-full.img
+# unzip the raspberry pi os
+unzip 2021-05-07-raspios-buster-armhf-full.zip
 
 # check the size of the image, note that its over 8G
 $ ls -l
-total 11612092
--rw-r--r-- 1 jeff jeff 8787066880 Dec  2 08:21 2020-12-02-raspios-buster-armhf-full.img
--rw-rw-r-- 1 jeff jeff 3092088753 Dec  6 11:28 raspbian_latest.zip
+total 11347536
+-rw-r--r-- 1 jeff jeff 8602517504 May  7 11:23 2021-05-07-raspios-buster-armhf-full.img
+-rw-rw-r-- 1 jeff jeff 3005999855 May  7 11:35 2021-05-07-raspios-buster-armhf-full.zip
 
 # remove the zip file
-rm raspbian_latest.zip
+rm 2021-05-07-raspios-buster-armhf-full.zip
 ```
 
 ### Step 2: Write Raspberry Pi Image to SD Card - DONE
 Next using Linux, you have to copied the Raspberry OS image onto the SD card mounted to your system.
 I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][32] to create my SD Card.
 Make sure to [choose a reputable SD Card][33] from [here][34], don't go cheap.
-**NOTE:** Additionally important for this project is to use a 32G SD Card
-since we'll be using the SD Card to transport the RPi image to the M.2 SSD.
+**NOTE:** Additionally important for this project is to **use a 32G SD Card**
+since we'll be using the SD Card to copy and then transport the RPi image to the M.2 SSD.
 
 When using your card reader,
 you'll need to know the device name of the reader.
@@ -249,67 +257,15 @@ run `df -h`, then plug it back in, and run `df -h` again.
 
 ```bash
 # with the SD card reader unplugged
-$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-udev            7.8G     0  7.8G   0% /dev
-tmpfs           1.6G  2.2M  1.6G   1% /run
-/dev/sda3       110G   57G   47G  55% /
-tmpfs           7.8G  982M  6.8G  13% /dev/shm
-tmpfs           5.0M  8.0K  5.0M   1% /run/lock
-tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
-/dev/loop2       56M   56M     0 100% /snap/core18/1932
-/dev/loop4      141M  141M     0 100% /snap/gnome-3-26-1604/100
-/dev/loop3       56M   56M     0 100% /snap/core18/1885
-/dev/loop0       98M   98M     0 100% /snap/core/10185
-/dev/loop5      162M  162M     0 100% /snap/gnome-3-28-1804/128
-/dev/loop7      2.3M  2.3M     0 100% /snap/gnome-system-monitor/145
-/dev/loop6      256M  256M     0 100% /snap/gnome-3-34-1804/36
-/dev/loop1       98M   98M     0 100% /snap/core/10444
-/dev/loop8       52M   52M     0 100% /snap/snap-store/498
-/dev/loop9      163M  163M     0 100% /snap/gnome-3-28-1804/145
-/dev/loop10      65M   65M     0 100% /snap/gtk-common-themes/1513
-/dev/loop12      50M   50M     0 100% /snap/snap-store/467
-/dev/loop11     2.3M  2.3M     0 100% /snap/gnome-system-monitor/148
-/dev/loop13     141M  141M     0 100% /snap/gnome-3-26-1604/98
-/dev/loop14     218M  218M     0 100% /snap/gnome-3-34-1804/60
-/dev/loop15      65M   65M     0 100% /snap/gtk-common-themes/1514
-/dev/sda1       461M  139M  299M  32% /boot
-/dev/md0        917G  299G  572G  35% /home
-/dev/sdb        3.6T  561G  2.9T  17% /mnt/backup
-tmpfs           1.6G   12K  1.6G   1% /run/user/130
-tmpfs           1.6G   48K  1.6G   1% /run/user/1000
+df -h
 
 # with the SD card reader plugged in USB
 $ df -h
 Filesystem      Size  Used Avail Use% Mounted on
-udev            7.8G     0  7.8G   0% /dev
-tmpfs           1.6G  2.2M  1.6G   1% /run
-/dev/sda3       110G   57G   47G  55% /
-tmpfs           7.8G  989M  6.8G  13% /dev/shm
-tmpfs           5.0M  8.0K  5.0M   1% /run/lock
-tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
-/dev/loop2       56M   56M     0 100% /snap/core18/1932
-/dev/loop4      141M  141M     0 100% /snap/gnome-3-26-1604/100
-/dev/loop3       56M   56M     0 100% /snap/core18/1885
-/dev/loop0       98M   98M     0 100% /snap/core/10185
-/dev/loop5      162M  162M     0 100% /snap/gnome-3-28-1804/128
-/dev/loop7      2.3M  2.3M     0 100% /snap/gnome-system-monitor/145
-/dev/loop6      256M  256M     0 100% /snap/gnome-3-34-1804/36
-/dev/loop1       98M   98M     0 100% /snap/core/10444
-/dev/loop8       52M   52M     0 100% /snap/snap-store/498
-/dev/loop9      163M  163M     0 100% /snap/gnome-3-28-1804/145
-/dev/loop10      65M   65M     0 100% /snap/gtk-common-themes/1513
-/dev/loop12      50M   50M     0 100% /snap/snap-store/467
-/dev/loop11     2.3M  2.3M     0 100% /snap/gnome-system-monitor/148
-/dev/loop13     141M  141M     0 100% /snap/gnome-3-26-1604/98
-/dev/loop14     218M  218M     0 100% /snap/gnome-3-34-1804/60
-/dev/loop15      65M   65M     0 100% /snap/gtk-common-themes/1514
-/dev/sda1       461M  139M  299M  32% /boot
-/dev/md0        917G  299G  572G  35% /home
-/dev/sdb        3.6T  561G  2.9T  17% /mnt/backup
-tmpfs           1.6G   12K  1.6G   1% /run/user/130
-tmpfs           1.6G   48K  1.6G   1% /run/user/1000
-/dev/sdj1        60M   21M   39M  36% /media/jeff/boot
+ .
+ .
+ .
+/dev/sdj1        30G   32K   30G   1% /media/jeff/3130-3833
 ```
 
 Note that in my example above, the new device is `/dev/sdj1`.
@@ -318,6 +274,56 @@ but we want to write to the whole SD card, not just one partition.
 Therefore you need to remove that part when creating the image.
 With this information, and know the location of the Raspbian image and
 where we need to write the Raspberry OS image to the SD Card.
+
+```bash
+# go to directory with the RPi image
+cd /home/jeff/Downloads/RPi-OS
+
+# unmount the sd card reader
+sudo umount /dev/sdj1
+
+# write the image to the sd card reader
+$ sudo dd bs=4M if=2021-05-07-raspios-buster-armhf-full.img of=/dev/sdj
+2051+0 records in
+2051+0 records out
+8602517504 bytes (8.6 GB, 8.0 GiB) copied, 581.67 s, 14.8 MB/s
+
+# ensure the write cache is flushed
+sudo sync
+
+# (optional) make a copy of the image from the sd-card
+sudo dd bs=4M if=/dev/sdj of=copy-from-sd-card.img
+sudo truncate --reference 2021-05-07-raspios-buster-armhf-full.img copy-from-sd-card.img
+
+# (optional) check the integrity of the sd card image
+$ diff -s 2021-05-07-raspios-buster-armhf-full.img copy-from-sd-card.img
+Files 2021-05-07-raspios-buster-armhf-full.img and copy-from-sd-card.img are identical
+
+# remove the copied image
+rm ~/Downloads/RPi-OS/copy-from-sd-card.img
+```
+
+### Step 3: Enable SSH on SD Card - DONE
+SSH can be enabled on first boot by placing a file named `ssh` (without any extension),
+onto the root directory of the boot partition on the SD-Card:
+
+```bash
+# mount the SD card reader by plug it in USB again
+
+# check the mount point
+$ df -h | grep media
+/dev/sdj2       7.6G  6.6G  672M  91% /media/jeff/rootfs
+/dev/sdj1       253M   48M  205M  19% /media/jeff/boot
+
+# enable ssh on first boot
+sudo touch /media/jeff/boot/ssh
+
+# unmount the sd card
+sudo umount /dev/sdj1 /dev/sdj2
+```
+
+As shown above,
+while the SD Card is 32GB in size, the image makes it think its about 8GB.
 
 >**NOTE:** (Optional) To securely wipe data from the SD-Card,
 >you should wipe out all the data on the SD-Card by overwriting the entire drive with random data.
@@ -333,56 +339,10 @@ where we need to write the Raspberry OS image to the SD Card.
 >Depending of the size of the drive, the process will take some time to complete.
 >Once the disk is erased, the `dd `command will print “No space left on device”.
 
-```bash
-# go to directory with the RPi image
-cd /home/jeff/Downloads/RPi-OS
 
-# unmount the sd card reader
-sudo umount /dev/sdj1
 
-# write the image to the sd card reader
-$ sudo dd bs=4M if=2020-12-02-raspios-buster-armhf-full.img of=/dev/sdj
-2095+0 records in
-2095+0 records out
-8787066880 bytes (8.8 GB, 8.2 GiB) copied, 705.832 s, 12.4 MB/s
 
-# ensure the write cache is flushed
-sudo sync
 
-# (optional) make a copy of the image from the sd-card
-sudo dd bs=4M if=/dev/sdj of=copy-from-sd-card.img
-sudo truncate --reference 2020-12-02-raspios-buster-armhf-full.img copy-from-sd-card.img
-
-# (optional) check the integrity of the sd card image
-$ diff -s 2020-12-02-raspios-buster-armhf-full.img copy-from-sd-card.img
-Files 2020-12-02-raspios-buster-armhf-full.img and copy-from-sd-card.img are identical
-
-# remove the copied image
-rm ~/Downloads/RPi-OS/copy-from-sd-card.img
-```
-
-SSH can be enabled on first boot by placing a file named `ssh` (without any extension),
-onto the root directory of the boot partition on the SD-Card:
-
-```bash
-# enable ssh on first boot
-sudo touch /media/jeff/boot/ssh
-```
-
-Final check, unmount, and then remove the SD Card:
-
-```bash
-# sd card space used
-$ df -h | grep media
-/dev/sdj2       7.8G  6.7G  683M  91% /media/jeff/rootfs
-/dev/sdj1       253M   54M  199M  22% /media/jeff/boot
-
-# unmount the sd card
-sudo umount /dev/sdj1 /dev/sdj2
-```
-
->**NOTE:** While the SD Card is 32GB in size,
->ithe image makes it think its about 8GB.
 
 ########################### MOVE LATTER AND REPURPOSE ##########################
 Remove SD card from the reader on your computer.
@@ -481,46 +441,50 @@ SSH login (`ssh pi@192.168.1.69`)
 and run the following commands to update your RPi to the latest software:
 
 ```bash
+# login into the raspberry pi
+# you might want to generate a new key via: sudo ssh-keygen -R 192.168.1.69
+ssh pi@192.168.1.69
+
 # set the time zone for your raspberry pi device
 sudo timedatectl set-timezone America/New_York
 
 # update the raspberry pi os
-sudo apt-get update
-sudo apt-get -y upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 
 # clean up any packages no longer needed
 sudo apt-get -y autoremove
 ```
 
-Run the following commands to update your RPi to the latest firmware
-and resizing the disk partition to use the full disk size
-(important since we'll be uploading an 8GB  image file):
+Run the following commands to update your RPi to the latest firmware:
 
 ```bash
 # do firmware update and reboot
 sudo rpi-update
 
 # expand partition to use 100% of remaining space
-sudo raspi-config nonint do_expand_rootfs
+#sudo raspi-config nonint do_expand_rootfs
+
+# check if you got secured the remaining space on sd card
+#df -h
 
 # reboot needed the above to take effect
 sudo reboot
 ```
 
-Check if you got secured the remaining space on SD Card via `df -h`,
-and then shutdown the Raspberry Pi and remove the SD Card for the next step.
-
 Sources:
 
 * [How could one automate the raspbian raspi-config setup?](https://raspberrypi.stackexchange.com/questions/28907/how-could-one-automate-the-raspbian-raspi-config-setup)
 
-### Step 3: Prepare Bootloader to Use the M.2 SATA SSD - DONE
-Before editing the bootloader configuration,
+### Step 3: Prepare Bootloader - DONE
+Before editing the bootloader configuration so it uses the M.2 SATA SSD,
 make sure you have [updated your system][29] (as shown in previous step)
 to get the latest version of the [`rpi-eeprom` package][39].
 Now lets [install the stable bootloader][37]:
 
 ```bash
+# login into the raspberry pi
+ssh pi@192.168.1.69
+
 # make sure you have or install the latest bootloader
 $ sudo rpi-eeprom-update -d -a
 BCM2711 detected
@@ -533,15 +497,12 @@ VL805: up-to-date
 CURRENT: 000138a1
  LATEST: 000138a1
 
-# if not the latest bootloader, reboot
-sudo shutdown -r now
-
 # check the bootloader version, as well as the boot order
 vcgencmd bootloader_version
 vcgencmd bootloader_config
 
 # replace "critical" with "stable", allowing stable updates to be applied
-sudo sed -i 's/critical/stable/g' /etc/default/rpi-eeprom-update
+#sudo sed -i 's/critical/stable/g' /etc/default/rpi-eeprom-update
 
 # list the bootloader binaries
 $ ls /lib/firmware/raspberrypi/bootloader/stable/pieeprom*
@@ -576,17 +537,13 @@ TFTP_FILE_TIMEOUT=30000
 ENABLE_SELF_UPDATE=1
 DISABLE_HDMI=0
 BOOT_ORDER=0xf41
-
-# halt the rpi
-sudo shutdown -h now
 ```
 
-At this points, you could boot from the USB, assuming you didn't have the SD-Card installed on the RPi
-and you had an operating system to on the M.2 SSD.
-To accomplish this,
-in the next step we'll copy the Raspberry Pi OS to the the SD Card
-and then it will be installed on the M.2 SATA SSD
-so we can physically remove the SD-Card.
+At this points, because of the line `BOOT_ORDER=0xf41` in the bootloader configuration file,
+you could boot from the USB.
+This assuming you didn't have bootable SD-Card installed on the RPi
+and you have installed an operating system to on the M.2 SSD.
+Prpearing the M.2 SSD comes next.
 
 Sources:
 
@@ -594,11 +551,597 @@ Sources:
 * [How to Boot Raspberry Pi 4 From a USB SSD or Flash Drive](https://www.tomshardware.com/how-to/boot-raspberry-pi-4-usb)
 * [Stable Raspberry Pi 4 USB boot (HOW-TO)](https://www.youtube.com/watch?v=tUrX9wzhygc)
 
+### Step 4: Clone SD Card to M.2 SSD - DONE
+Now I want to create a copy of my SD Card Raspberry Pi image, with all the data and programs,
+and place it on the M.2 SDD so it boots up from there.
+To do this, I choose a tool that allows me to clone a SD Card to a bootable USB drive or disk.
+That tool is [`rpi-clone`][40].
 
-### Step 4: Load the Raspberry Pi OS Image on the SD Card - DONE
-We need to write the Raspberry Pi OS image onto the M.2 SDD.
-We'll do this via the SD Card, so let load the RPi OS image into the `/tmp`
-directory on the SD Card.
+First, lets prepare the M.2 SSD:
+
+```bash
+# install git so you can install rpi-clone
+sudo apt install git
+
+# install rpi-clone
+mkdir src
+cd src
+git clone https://github.com/billw2/rpi-clone.git
+cd rpi-clone
+sudo cp rpi-clone rpi-clone-setup /usr/local/sbin
+
+# list block devices to make sure you can access the m.2 ssd
+$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda           8:0    0 465.8G  0 disk
+├─sda1        8:1    0   256M  0 part
+└─sda2        8:2    0 465.5G  0 part
+mmcblk0     179:0    0  29.7G  0 disk
+├─mmcblk0p1 179:1    0   256M  0 part /boot
+└─mmcblk0p2 179:2    0  29.5G  0 part /
+```
+
+```bash
+# delete any existing partitions on the m.2 ssd
+$ sudo fdisk /dev/sda
+Welcome to fdisk (util-linux 2.33.1).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Command (m for help): d
+Partition number (1-4, default 4):
+
+Partition 4 has been deleted.
+  .
+  .
+  .
+```
+
+With the SSD cleaned up with no pre-existing partitions,
+copy over the SD Card image in it entiratiy to the M.2 SSD:
+
+```bash
+# do the clone
+sudo rpi-clone sda
+
+# check what you have created
+lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda           8:0    0 465.8G  0 disk
+├─sda1        8:1    0   256M  0 part
+└─sda2        8:2    0 465.5G  0 part
+mmcblk0     179:0    0  29.7G  0 disk
+├─mmcblk0p1 179:1    0   256M  0 part /boot
+└─mmcblk0p2 179:2    0  29.5G  0 part /
+```
+
+Sources:
+* [How to move Linux root partition to another drive quickly](https://medium.com/@dominikgacek/how-to-move-linux-root-partition-to-another-drive-quickly-31e54fdc9c19)
+* [How to Clone a Partition or Hard drive in Linux](https://www.tecmint.com/clone-linux-partitions/)
+* [How to Clone Your Linux Hard Drive: 4 Methods](https://www.makeuseof.com/tag/2-methods-to-clone-your-linux-hard-drive/)
+* [What is the best way to copy the whole rasbian image?](https://raspberrypi.stackexchange.com/questions/96354/what-is-the-best-way-to-copy-the-whole-rasbian-image)
+* [How do I clone an Ubuntu system to a new machine?](https://askubuntu.com/questions/1198756/how-do-i-clone-an-ubuntu-system-to-a-new-machine)
+* [How to Delete Partition in Linux](https://phoenixnap.com/kb/delete-partition-linux)
+
+### Step 5: Boot from M.2 SSD Drive - DONE
+Now halt the Raspberry Pi, remove the SD Card, and allow the Raspberry Pi
+to boot from the M.2 SSD drive within the Argon ONE.
+You should see the following:
+
+```bash
+# check the filesystem
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       458G  7.3G  427G   2% /
+devtmpfs        1.8G     0  1.8G   0% /dev
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           1.9G  8.5M  1.9G   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/sda1       253M   48M  205M  20% /boot
+tmpfs           384M     0  384M   0% /run/user/1000
+
+# check the block devices
+$ lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 465.8G  0 disk
+├─sda1   8:1    0   256M  0 part /boot
+└─sda2   8:2    0 465.5G  0 part /
+```
+
+We have a `/boot` partition and a `/` partition
+Now we will prepare the SSD on the Raspberry Pi for future use.
+
+### Step 6: Partition the SSD - DONE
+In the default partitioning given to us via `rpi-clone`,
+we have two partitions on the SSD.
+There is a partition for the `/boot` filesystem and `/` (aka root).
+What about a `/swap` and `/home` partition / filesystem?
+
+(parted) mkpart primary fat32 33.6MB 250MB    # /boot = ~256MB
+(parted) mkpart primary ext4 250MB 8GB        # /swap = ~8GB
+(parted) mkpart primary ext4 8GB 100GB        # /     = ~100GB
+(parted) mkpart primary ext4 100GB 100%       # /home = remainder of disk space (400GB)
+
+#### /swap
+RPi generates a RAM size dependant swap **file** in at `/var/swap`,
+instead of using an fixed sized swap partition as in most Linux distributions.
+It also automatically regenerate the swap file if RAM size changes, to fit the new size.
+This is done with the [`dphys-swapfile`][41] utility.
+
+```bash
+$ cat /etc/fstab
+proc                  /proc           proc    defaults          0       0
+PARTUUID=17cd6674-01  /boot           vfat    defaults          0       2
+PARTUUID=17cd6674-02  /               ext4    defaults,noatime  0       1
+# a swapfile is not a swap partition, no line here
+#   use  dphys-swapfile swap[on|off]  for that
+
+$ cat /etc/dphys-swapfile
+# /etc/dphys-swapfile - user settings for dphys-swapfile package
+# author Neil Franklin, last modification 2010.05.05
+# copyright ETH Zuerich Physics Departement
+#   use under either modified/non-advertising BSD or GPL license
+
+# this file is sourced with . so full normal sh syntax applies
+
+# the default settings are added as commented out CONF_*=* lines
+
+
+# where we want the swapfile to be, this is the default
+#CONF_SWAPFILE=/var/swap
+
+# set size to absolute value, leaving empty (default) then uses computed value
+#   you most likely don't want this, unless you have an special disk situation
+CONF_SWAPSIZE=100
+
+# set size to computed value, this times RAM size, dynamically adapts,
+#   guarantees that there is enough swap without wasting disk space on excess
+#CONF_SWAPFACTOR=2
+
+# restrict size (computed and absolute!) to maximally this limit
+#   can be set to empty for no limit, but beware of filled partitions!
+#   this is/was a (outdated?) 32bit kernel limit (in MBytes), do not overrun it
+#   but is also sensible on 64bit to prevent filling /var or even / partition
+#CONF_MAXSWAP=2048
+```
+
+Is it necessary or recommended to have a `/swap` partitions instead of a swap file?
+[On Ubuntu, a separate swap partition been superseded by a swap file within the root partition][42].
+So, I'm going with this new convention and not create a swap partition.
+
+#### /home
+I prefer to use a separate `/home` partition and not part of the `/` filesystem.
+RPi default partitioning doesn't do this.
+
+I will be using [`gparted`][44] (the graphical version of `parted`),
+but when I first tried this, I got the message "X11 connection rejected because of wrong authentication".
+I found the [solution for this][43] and its outlined below.
+To make sure everything is working graphically for `gparted`,
+lets first make sure X Windows is working properly for the root user:
+
+>**NOTE:** To get this task done, I had to reinstall the SD Card version of RPi OS
+>because the SDD cannot be mounted when doing these operations.
+>This activity should be done earlier, possibly right after the M.2 SSD is imaged at
+>"Step 4: Clone SD Card to M.2 SSD".
+
+```bash
+# make sure you login with x-forwarding activated
+ssh -X pi@192.168.1.69
+
+# install some x windows apps for testing
+sudo apt-get -y install x11-apps
+
+# make sure x windows is working for pi user - it should
+xeyes
+
+# does x windows work for root user - it may not
+sudo su
+xeyes
+
+# if not, apply the fix
+cd /
+xauth merge /home/pi/.Xauthority
+
+# make sure x windows is working for root user - it should now!
+xeyes
+
+# drop out of 'su'
+exit
+```
+
+Now we can use `gparted` to manage the disk partitions.
+`gparted` enables me to resize, copy, and move partitions without data loss.
+In this case, I want to reduce the size of the `/` partition to make room for a
+to be created partition that will hold the `/home` filesystem.
+
+
+```bash
+# install gparted
+sudo apt-get install -y gparted
+
+# start gparted and create new partition using this source
+# https://gparted.org/display-doc.php%3Fname%3Dmoving-space-between-partitions
+sudo gparted
+```
+
+With this completed, remove the SD Card and return to booting from the M.2 SSD.
+
+```bash
+# create a temporary mount point to copy files
+sudo mkdir /mnt/new-partition
+
+# mount the partition
+sudo mount /dev/sda3 /mnt/new-partition
+
+# copy over the files to the new partition
+sudo cp -RT /home /mnt/new-partition
+
+# get uuid for partition for /dev/sda3 partition
+$ ls -l /dev/disk/by-uuid | grep sda3 | awk '{ print $9 }'
+a52ce3f1-3dd9-4e98-8f7b-37fdfdc163ac
+
+# make a backup of the filesystem table
+sudo cp /etc/fstab /etc/fstab.bak
+
+# UUID=uuid	/path/to/mount_point	type	defaults,nofail	0	0
+# /dev/mmcblk0p5  /home           ext4    rw,user,auto,exec 0       0
+UUID=a52ce3f1-3dd9-4e98-8f7b-37fdfdc163ac	/home	ext4	defaults,nofail	0	0
+
+sudo su
+echo "UUID=a52ce3f1-3dd9-4e98-8f7b-37fdfdc163ac	/home	ext4	defaults,nofail	0	0" >> /etc/fstab
+
+# copy over the files to backup and remove them
+sudo cp -RT /home /home/pi/backup
+cd /home
+sudo rm -r pi
+
+# mount the partition
+sudo mount /dev/sda3 /home
+
+# check it out
+$ ls -l /home
+total 4
+drwxr-xr-x 6 pi pi 4096 Jun 13 21:37 pi
+
+# cross your fingers and reboot
+sudo reboot
+```
+
+
+Source:
+* [How to set up swap space?](https://raspberrypi.stackexchange.com/questions/70/how-to-set-up-swap-space)
+* [Is it necessary to have a /home and /swap partitions in 20.04][42]
+* [Creating a seperate home partition (Raspberry Pi)](https://mike632t.wordpress.com/2014/02/10/resizing-partitions/)
+* [sudo as root X11 connection rejected because of wrong authentication][43]
+* [Moving Space Between Partitions](https://gparted.org/display-doc.php%3Fname%3Dmoving-space-between-partitions)
+
+### Step 7: Install Argon Script - DONE
+Now we'll install the Argon ONE M.2 Case software script to control
+the function of the power switch and the cooling fan.
+
+The Argon ONE M.2 Case has a multi-function power button which operates as follows:
+
+* If the power is currently OFF, a short press turns the power ON.
+* If the power is currently ON, there are these press options:
+    * double–tap for reboot
+    * <3 second, nothing happens
+    * >=3 seconds for soft shutdown and power cut
+    * >=5 seconds for forced shutdown
+
+The default software setting automatically assumes that after a power failure,
+you want the power to remain off.
+You can change that behavior with a simple i2c command.
+I will change this since I want the RPi to boot up again after a power failure.
+
+Upon installation of the Argon ONE script, by default,
+the settings of the Argon ONE cooling system are as follows:
+
+* When the CPU temperature is at 55 C, the fan will run at 10% of its maximum speed
+* When the CPU temperature is at 60 C, the fan will run at 55% of its maximum speed
+* When the CPU temperature is at 65 C, the fan will run at 100% of its maximum speed
+
+
+Now lets install the script and set to our liking:
+
+```bash
+# install software to control the fan
+sudo su
+curl https://download.argon40.com/argon1.sh | bash
+
+# set to auto-power-up rpi after power failure - Mode 2 (Always ON)
+i2cset -y 1 0x01a 0xfe
+
+# OR must press button to power on from shutdown or power outage - Mode 1
+i2cset -y 1 0x01a 0xfd
+```
+
+The fan speed can be set based on the temperature of the RPi.
+
+```bash
+# for reference, ue this to get rpi temperature in celsius
+# fahrenheit - /opt/vc/bin/vcgencmd measure_temp | awk -F "[=\']" '{print($2 * 1.8)+32}'
+/opt/vc/bin/vcgencmd measure_temp
+
+# change the fan settings via
+sudo vi /etc/argononed.conf
+sudo systemctl restart argononed.service
+```
+
+If for any reason you want to remove these capabilities, do the following:
+
+```bash
+# if desired, uninstall the scripts
+argonone-uninstall to uninstall
+```
+
+Sources:
+
+* [Argon One Tips and Setup](http://wagnerstechtalk.com/argonone/)
+* [Argon ONE Case for Raspberry Pi 4 Updated](https://tech.scargill.net/argon-one-case-for-raspberry-pi4/)
+* [Argon-ONE-i2c-Codes/README.md](https://github.com/Argon40Tech/Argon-ONE-i2c-Codes/blob/master/README.md)
+* [Configure Argon 1 case with Fan and Power Button](https://www.yodeck.com/docs/display/YO/Configure+Argon+1+case+with+Fan+and+Power+Button)
+
+
+#################################### REMOVE ####################################
+### Step X: Format and Partition the SSD
+Often on Linux, when you plug a USB thumb drive in, you're alerted that the drive exists.
+Sometimes, however, a drive isn't set-up/organized so it functions.
+This will be the case for the M.2 SSD.
+To get Linux to recognize it, you need to format and partition the device.
+
+* **Formating** is the process of preparing a data storage device, such as a solid-state drive (SSD), for initial use.
+* **Partitioning** is the process of dividing a storage device into local sections,
+called partitions, which help organize multiple filesystems and their associated operating systems.
+Disk formatting is the process of preparing a data storage device for initial use.
+
+The first step is to get some information about the SSD:
+
+```bash
+# list block devices
+$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda           8:0    0 465.8G  0 disk
+├─sda1        8:1    0   256M  0 part
+└─sda2        8:2    0 465.5G  0 part
+mmcblk0     179:0    0  29.7G  0 disk
+├─mmcblk0p1 179:1    0   256M  0 part /boot
+└─mmcblk0p2 179:2    0  29.5G  0 part /
+
+# list formated / filesystems block devices
+$ lsblk -f
+NAME        FSTYPE LABEL  UUID                                 FSAVAIL FSUSE% MOUNTPOINT
+sda
+├─sda1      vfat   boot   4467-8C16
+└─sda2      ext4   rootfs 66f68227-b1ae-4493-9ef5-e593576a6e81
+mmcblk0
+├─mmcblk0p1 vfat   boot   B05C-D0C4                             204.2M    19% /boot
+└─mmcblk0p2 ext4   rootfs 075b0d0c-7b1e-4855-9547-125591698723   20.5G    25% /
+
+# list partitions
+$ sudo parted -l
+Model: Argon Forty (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+
+Number  Start   End    Size   Type     File system  Flags
+ 1      4194kB  273MB  268MB  primary  fat32        lba
+ 2      273MB   500GB  500GB  primary  ext4
+
+
+Model: SD SC32G (sd/mmc)
+Disk /dev/mmcblk0: 31.9GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+
+Number  Start   End     Size    Type     File system  Flags
+ 1      4194kB  273MB   268MB   primary  fat32        lba
+ 2      273MB   31.9GB  31.6GB  primary  ext4
+```
+
+I see the Samsung 860 EVO SSD 500GB is listed as the `sda` device
+with two partitions name `sda1` and `sda2`.
+
+It is generally recommended to have separate partitions for `/`, `/boot` and `swap`.
+It is also strongly suggest putting `/home` on a separate partition as well,
+even if you do not split the file system hierarchy any further.
+
+First, lets partition the SSD device:
+
+```bash
+# list the partitions
+$ sudo parted -l
+Model: Argon Forty (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+
+Number  Start   End    Size   Type     File system  Flags
+ 1      4194kB  273MB  268MB  primary  fat32        lba
+ 2      273MB   500GB  500GB  primary  ext4
+
+
+Model: SD SC32G (sd/mmc)
+Disk /dev/mmcblk0: 31.9GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+
+Number  Start   End     Size    Type     File system  Flags
+ 1      4194kB  273MB   268MB   primary  fat32        lba
+ 2      273MB   31.9GB  31.6GB  primary  ext4
+```
+
+We'll use the `parted` tool to work on the `/dev/sda` storage device.
+
+```bash
+# enter the parted tool to work on /dev/sda
+sudo parted --align optimal /dev/sda
+
+# find out how to make a new partition
+(parted) help mkpart
+  mkpart PART-TYPE [FS-TYPE] START END     make a partition
+
+	PART-TYPE is one of: primary, logical, extended
+        FS-TYPE is one of: zfs, btrfs, nilfs2, ext4, ext3, ext2, fat32, fat16, hfsx, hfs+, hfs, jfs, swsusp,
+        linux-swap(v1), linux-swap(v0), ntfs, reiserfs, freebsd-ufs, hp-ufs, sun-ufs, xfs, apfs2, apfs1, asfs, amufs5,
+        amufs4, amufs3, amufs2, amufs1, amufs0, amufs, affs7, affs6, affs5, affs4, affs3, affs2, affs1, affs0,
+        linux-swap, linux-swap(new), linux-swap(old)
+        START and END are disk locations, such as 4GB or 10%.  Negative values count from the end of the disk.  For
+        example, -1s specifies exactly the last sector.
+
+        'mkpart' makes a partition without creating a new file system on the partition.  FS-TYPE may be specified to set
+        an appropriate partition ID.
+
+# show information about the storage device
+(parted) print
+Model: Argon Forty (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+
+Number  Start   End    Size   Type     File system  Flags
+ 1      4194kB  273MB  268MB  primary  fat32        lba
+ 2      273MB   500GB  500GB  primary  ext4
+
+# set the partition table type to GPT
+(parted) mklabel gpt
+
+# make your partions
+(parted) mkpart primary fat32 33.6MB 250MB    # /boot = ~256MB
+(parted) mkpart primary ext4 250MB 8GB        # /swap = ~8GB
+(parted) mkpart primary ext4 8GB 100GB        # /     = ~100GB
+(parted) mkpart primary ext4 100GB 100%       # /home = remainder of disk space (400GB)
+
+# list your partions
+(parted) print
+Model: Argon Forty (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End     Size    File system  Name    Flags
+ 1      33.6MB  250MB   216MB   fat32        primary
+ 2      250MB   8000MB  7750MB  ext4         primary
+ 3      8019MB  100GB   92.0GB  ext4         primary
+ 4      100GB   500GB   400GB   ext4         primary
+
+# name the partitions
+(parted) name 1 'boot'
+(parted) name 2 'swap'
+(parted) name 3 'rootfs'
+(parted) name 4 'home'
+
+# list your partitions
+(parted) print
+Model: Argon Forty (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End     Size    File system  Name    Flags
+ 1      33.6MB  250MB   216MB   fat32        boot
+ 2      250MB   8000MB  7750MB  ext4         swap
+ 3      8019MB  100GB   92.0GB  ext4         rootfs
+ 4      100GB   500GB   400GB   ext4         home
+
+# save and quit
+(parted) quit
+
+# list formated / filesystems block devices
+$ lsblk -f
+NAME        FSTYPE LABEL  UUID                                 FSAVAIL FSUSE% MOUNTPOINT
+sda
+├─sda1
+├─sda2
+├─sda3
+└─sda4
+mmcblk0
+├─mmcblk0p1 vfat   boot   4467-8C16                             198.4M    21% /boot
+└─mmcblk0p2 ext4   rootfs 66f68227-b1ae-4493-9ef5-e593576a6e81    5.7G    54% /
+```
+
+Now lets format the new partitions:
+
+```bash
+# format all the new partitions
+sudo mkfs -t fat /dev/sda1      # /boot = ~256MB
+sudo mkfs -t ext4 /dev/sda2     # /swap = ~8GB
+sudo mkfs -t ext4 /dev/sda3     # /     = ~100GB
+sudo mkfs -t ext4 /dev/sda4     # /home = remainder of disk space (400GB)
+```
+
+```bash
+# make mount points for the ssd drive
+sudo mkdir /mnt
+sudo mkdir /mnt/SSD1
+sudo mkdir /mnt/SSD2
+sudo mkdir /mnt/SSD3
+sudo mkdir /mnt/SSD4
+
+# mount the partions for the ssd
+sudo mount /dev/sda1 /mnt/SSD1
+sudo mount /dev/sda2 /mnt/SSD2
+sudo mount /dev/sda3 /mnt/SSD3
+sudo mount /dev/sda4 /mnt/SSD4
+
+# list the these partitions
+sudo fdisk -l /dev/mmcblk0p1 /dev/sda1      # /boot = ~256MB
+
+# copy files from sd-card to ssd
+sudo dd if=/dev/mmcblk0p1 of=/dev/sda1      # /boot = ~256MB
+sudo dd if=/dev/root of=/dev/sda3           # /     = ~100GB
+
+
+/dev/sda2     # /swap = ~8GB
+/dev/sda3     # /     = ~100GB
+/dev/sda4     # /home = remainder of disk space (400GB)
+
+
+
+
+sudo mkdir /mnt/SSD/boot
+sudo cp /boot/*.elf /mnt/SSD/boot
+sudo cp /boot/*.dat /mnt/SSD/boot
+```
+#################################### REMOVE ####################################
+
+Sources:
+
+* [How to partition and format a drive on Linux](https://opensource.com/article/18/11/partition-format-drive-linux)
+* [How to partition a disk in Linux](https://opensource.com/article/18/6/how-partition-disk-linux)
+* [Stable Raspberry Pi 4 USB boot (HOW-TO)](https://www.youtube.com/watch?v=tUrX9wzhygc)
+* [Parted User’s Manual](https://www.gnu.org/software/parted/manual/parted.html)
+* [How To Format Disk Partitions on Linux](https://devconnected.com/how-to-format-disk-partitions-on-linux/)
+* [How to align partitions for best performance using parted](https://rainbow.chard.org/2013/01/30/how-to-align-partitions-for-best-performance-using-parted/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Step 4: Load the Raspberry Pi OS Image on the SD Card
+We need to write the Raspberry Pi OS image onto the M.2 SDD,
+but for the next step, we'll copy the Raspberry Pi OS to the the SD Card.
+To install the OS image on the M.2 SATA SSD,
+so we can physically remove the SD-Card,
+we'll load the RPi OS image into the `/tmp` directory on the SD Card.
 
 ```bash
 # place sd card in usb reader and plug into desktop computer
@@ -617,6 +1160,22 @@ $ df -h | grep media
 /dev/sdj2        29G   16G   12G  57% /media/jeff/rootfs
 /dev/sdj1       253M   54M  199M  22% /media/jeff/boot
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Step 5: Load Raspberry Pi OS on the M.2 SATA SSD
 Often on Linux, when you plug a USB thumb drive in, you're alerted that the drive exists.
@@ -1119,7 +1678,6 @@ sudo blkid -pi /dev/sdc
 findmnt -n -o SOURCE /
 ```
 
-
 ### Step 4: Install Argon Scripts
 
 
@@ -1510,6 +2068,7 @@ Bust you use the cloud service
 * https://www.amazon.com/gp/customer-reviews/RV54YRZNI6I6R/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B076H3SRXG
 
 * [OFFICIAL RTSP Support! Use Wyze cams with any NVR | Smart Home | Home Assistant](https://www.youtube.com/watch?v=YPiHs44i0TA)
+* [RTSP Cameras in Home Assistant!!](https://www.youtube.com/watch?v=mCTjFenZuNI)
 * [How to Set Up Wyze Official RTSP Firmware : Use Wyze Cams with Network DVRs!](https://www.youtube.com/watch?v=e0SgzWwt7yI)
 * [3 Of The Best Ways To Configure Your Wyze Cameras](https://www.youtube.com/watch?v=Io4eNaTjf08)
 * [Wyze Cam Outdoor | App setup | Features](https://www.youtube.com/watch?v=02yQ6dT15Lc)
@@ -1519,6 +2078,8 @@ Bust you use the cloud service
 
 # WatchDog
 * [Edge Networking’s Last Resort](https://medium.com/@nedmcclain/edge-networkings-last-resort-890b536ab960)
+* [Supervise your Home Server with a Watchdog and Heartbeats (Raspberry Pi, ESP8266, Docker)](https://www.youtube.com/watch?v=IGB2eRvhvB0)
+* [#270 Safely Monitor and Alarm with Supervisord and Telegram](https://www.youtube.com/watch?v=z1y6j8-V7J0&t=153s)
 
 # Nabu Casa
 Nabu Casa (built by the founder of Home Assistant),
@@ -1634,11 +2195,11 @@ The standard recorder in Home Assistant sometimes gets corrupt and results in lo
 [37]:https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md
 [38]:https://magpi.raspberrypi.org/articles/argon-one-m-2-review
 [39]:https://www.raspberrypi.org/documentation/hardware/raspberrypi/booteeprom.md
-[40]:
-[41]:
-[42]:
-[43]:
-[44]:
+[40]:https://github.com/billw2/rpi-clone
+[41]:http://neil.franklin.ch/Projects/dphys-swapfile/
+[42]:https://askubuntu.com/questions/1234838/is-it-necessary-to-have-a-home-and-swap-partitions-in-20-04
+[43]:https://www.slothparadise.com/sudo-root-x11-connection-rejected-wrong-authentication/
+[44]:https://gparted.org/
 [45]:
 [46]:
 [47]:

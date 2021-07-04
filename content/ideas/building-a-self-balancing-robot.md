@@ -32,7 +32,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Sonic The Hedgehog Self-Balancing Robot Can Bend At The Knees](https://hackaday.com/2020/01/31/sonic-the-hedgehog-self-balancing-robot-can-bend-at-the-knees/)
 * [Sonic The Self-Balancing Robot: Face-Plants And The Challenges Of Sensor Integration](https://hackaday.com/2020/02/26/sonic-the-self-balancing-robot-face-plants-and-the-challenges-of-sensor-integration/)
 * [Autonomous 3D Rover With Tank Tracks Rules The Fields. Almost](https://hackaday.com/2020/04/02/autonomous3d-rover-with-tank-tracks-rules-the-fields-almost/)
+* [Scratch Built Tracked Robot Reporting For Duty](https://hackaday.com/2021/06/17/scratch-built-tracked-robot-reporting-for-duty/)
 * [OpenBot - Open Source Self-Driving Smartphone Robot](https://hackaday.com/2020/11/06/open-source-self-driving-smartphone-robot/)
+* [ROBOT MOVES IN ANY DIRECTION ON BALL WHEELS](https://hackaday.com/2021/05/29/robot-moves-in-any-direction-on-ball-wheels/)
 
 # Walking Robot
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
@@ -55,10 +57,13 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Robotic Open Source Puppy Needs A Home](https://hackaday.com/2020/05/12/robotic-open-source-puppy-needs-a-home/)
 * [Compliant Quadruped Legs Using Servos](https://hackaday.com/2020/03/22/compliant-quadruped-legs-using-servos/)
 * [DIY hobby servos quadruped robot](https://hackaday.io/project/171456-diy-hobby-servos-quadruped-robot)
-* [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
-* [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
+
+# walking Hexapot Robot
+* [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
+* [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
+* [ZeroBug - DIY Hexapod Robot](https://hackaday.io/project/180534-zerobug-diy-hexapod-robot)
 
 # Wall Climbing Robot
 * [Ultra-Mobile Little Robot Will Climb The Walls](https://hackaday.com/2020/09/07/ultra-mobile-little-robot-will-climb-the-walls/)
@@ -74,6 +79,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [The Spot Micro Is a Much Smaller, Cheaper, and DIY Version of Its Namesake](https://www.hackster.io/news/the-spot-micro-is-a-much-smaller-cheaper-and-diy-version-of-its-namesake-d93c1d36fe91)
 * [The Adorable Robot Spot, Now In Affordable Form](https://hackaday.com/2020/10/23/the-adorable-robot-spot-now-in-affordable-form)
 
+# Mecanum Wheels
+* [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
+
 # Jumping Robot
 * [Little Jumping Bot Can Now Stick The Perfect Landing](https://hackaday.com/2020/08/02/little-jumping-bot-can-now-stick-the-perfect-landing/)
 
@@ -85,9 +93,6 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Little FPV Bot Keeps It Simple With An ESP32](https://hackaday.com/2019/02/11/little-fpv-bot-keeps-it-simple-with-an-esp32/)
 * [Pan/Tilt2 Servo Motor Kit for Pixy2 - Dual Axis Robotic Camera Mount](https://www.seeedstudio.com/Pan-Tilt2-Servo-Motor-Kit-for-Pixy2-Dual-Axis-Robotic-Camera-Mount-p-3161.html)
 * [Robot Can’t Take Its Eyes Off The Bottle](https://hackaday.com/2019/01/25/robot-cant-take-its-eyes-off-the-bottle/)
-
-# BEAM Robots
-* [BEAM Robots](http://www.smfr.org/robots/)
 
 # Balancing Bot
 * [Inside an Autonomous Self Balancing Robot](https://www.youtube.com/watch?v=s5m-DTn8jyw&list=PL3XBzmAj53RnO2fvVSaX-iTGfNFgcqSSu)
@@ -107,6 +112,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Kinetic Sculpture Achieves Balance Through Machine Learning](https://hackaday.com/2018/10/26/kinetic-sculpture-achieves-balance-through-machine-learning/)
 * [ESPway | A Segway-style WiFi controlled robot built on ESP8266](http://brobot.tistory.com/m/6)
 * [Actively Balancing A Robot With A Gyroscope](https://hackaday.com/2021/05/17/actively-balancing-a-robot-with-a-gyroscope/)
+
+# Self-Driving Bicycle
+* [A Self-Driving Bicycle is Something to Marvel At](https://hackaday.com/2021/06/10/a-self-driving-bicycle-is-something-to-marvel-at/)
 
 # Inverted Pendulum
 * [Inverted Pendulum For The Control Enthusiast](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)
@@ -149,6 +157,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 * [Ball Balancing PID System: 6 Steps (with Pictures)](https://www.instructables.com/id/Ball-Balancing-PID-System/)
 * [Ping-Pong Ball Makes Great PID Example](https://hackaday.com/2019/07/31/ping-pong-ball-makes-great-pid-example/)
 * [Robotic Ball Bouncer Uses Machine Vision To Stay On Target](https://hackaday.com/2020/03/05/robotic-ball-bouncer-uses-machine-vision-to-stay-on-target/)
+* [Robotic Ball-Bouncing Platform Learns New Tricks](https://hackaday.com/2021/06/30/robotic-ball-bouncing-platform-learns-new-tricks/)
 * [Robotic Basketball Hoop V2](https://hackaday.com/2020/05/19/robotic-basketball-hoop-v2/)
 
 # Poppy

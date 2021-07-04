@@ -50,6 +50,7 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Mathematics as thought](https://aeon.co/essays/the-secret-intellectual-history-of-mathematics)
 
 # Bernhard Riemann's Habilitation Dissertation
+* [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY)
 * [The Pattern to Prime Numbers?](https://www.youtube.com/watch?v=dktH8hJadyU)
 * [The Riemann Hypothesis, explained - Cantor’s Paradise](https://medium.com/cantors-paradise/the-riemann-hypothesis-explained-fa01c1f75d3f)
 * [Bernhard Riemann: The Habilitation Dissertation](https://larouchepac.com/20150610/bernhard-riemann-habilitation-dissertation)

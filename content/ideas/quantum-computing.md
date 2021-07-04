@@ -1,5 +1,6 @@
 
 
+* [Quantum Computers, Explained With Quantum Physics](https://www.youtube.com/watch?v=jHoEjvuPoB8)
 * [Quantum Mechanics Isn’t Weird, We’re Just Too Big](https://www.youtube.com/watch?v=q1O11kP6x1k)
 * [What's the Real Meaning of Quantum Mechanics?](https://www.youtube.com/watch?v=LqY3TUW7skI&t=133s)
 
@@ -54,6 +55,7 @@ Qiskit accelerates the development of quantum applications by providing the comp
 
 * [Qiskit](https://qiskit.org/)
 * [Qiskit Videos](https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A)
+* [Quantum Computer Coin Flips in Python Are Pure Fun](https://towardsdatascience.com/flip-a-coin-on-a-real-quantum-computer-in-python-df51e5f2367b)
 * [Quantum Computing With QISKit](https://hackaday.com/2019/04/02/quantum-computing-with-qiskit/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * [Using Qiskit with IBM QX to generate quantum circuits](https://hub.packtpub.com/using-qiskit-with-ibm-qx-to-generate-quantum-circuits-tutorial/)

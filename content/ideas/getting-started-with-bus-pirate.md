@@ -1,5 +1,6 @@
 
 * [Hands-On: GreatFET Is An Embedded Tool That Does It All](https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/)
+* [An Exercise In Firmware Dumping With The GreatFET](https://hackaday.com/2021/06/04/an-exercise-in-firmware-dumping-with-the-greatfet/)
 
 Summary: The Bus Pirate is an open source hacker multi-tool that talks to electronic stuff using 1-Wire, I2C, SPI, JTAG, Asynchronous serial, MIDI, PC keyboard, HD44780 LCD, and more. It has a ton of other capabilities like low-speed logic analyzer, 1Hz-40MHz frequency measurement, Bus traffic sniffers (SPI, I2C), and more.
 

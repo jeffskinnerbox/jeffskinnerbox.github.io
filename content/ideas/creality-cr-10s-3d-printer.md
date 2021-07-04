@@ -640,6 +640,7 @@ You can improve this by using [stepper motor vibration dampers][36].
 Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halts-and-catches-fire-analysis-finds-a-surprising-culprit/
 
 * [Monitor Your 3D Printer with Node-RED and Tasker](https://hackaday.com/2019/03/27/monitor-your-3d-printer-with-node-red-and-tasker/)
+* [OCTOPRINT TOUCHSCREEN: ALL YOU NEED TO KNOW](https://all3dp.com/2/octoprint-touchscreen-tutorial/)
 * [Finding Plastic Spaghetti with Machine Learning](https://hackaday.com/2019/03/29/finding-plastic-spaghetti-with-machine-learning/)
 * [3D Printer AI: UP Squared/Movidius/OctoPrint to Catch Errors](https://www.hackster.io/bltrobotics/3d-printer-ai-up-squared-movidius-octoprint-to-catch-errors-9dfe7b)
 * [The Spaghetti Detective](https://thespaghettidetective.com)

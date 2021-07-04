@@ -1,6 +1,8 @@
 
 for CSI, you can get the NEID in the file `/home/csiadmin/coolerCache/neid`.
 
+* Check out Ansible an its `ansible localhost -m setup` command.
+
 * [9 things to do in your first 10 minutes on a Linux server](https://opensource.com/article/20/12/linux-server)
 * [How To Check If A Linux System Is Physical Or Virtual Machine](https://ostechnix.com/check-linux-system-physical-virtual-machine/)
 

@@ -49,6 +49,10 @@ Electronic paper, as that display tech is known (E Ink is a trademarked term own
 * [$25 TTGO T5 4.7-inch e-Paper Display comes with ESP32 WiFi & Bluetooth SoC](https://www.cnx-software.com/2020/12/04/ttgo-t5-4-7-inch-e-paper-display-comes-with-esp32-wifi-bluetooth-soc/)
 * [Low Power eInk Weather Gadget](https://developer.run/52)
 
+# InkPlate 6
+* [InkPlate 6](https://www.crowdsupply.com/e-radionica/inkplate-6)
+* [Review: Inkplate 6PLUS](https://hackaday.com/2021/06/21/review-inkplate-6plus/)
+
 You can find technical information at the [Waveshape Wiki](https://www.waveshare.com/wiki/Main_Page)
 * [Waveshare Universal e-Paper Raw Panel Driver Shield for Raspberry Pi](https://www.amazon.com/gp/product/B075R55WQT/ref=ppx_od_dt_b_asin_title_s00)
 * [E-Paper Driver HAT](https://www.waveshare.com/wiki/E-Paper_Driver_HAT)

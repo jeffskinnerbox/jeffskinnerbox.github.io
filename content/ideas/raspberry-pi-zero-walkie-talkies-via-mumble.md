@@ -12,6 +12,7 @@ utilizing static config and GPIO for status LEDs and a button for push to talk
 ReSpeaker 2-Mic Pi HAT: https://www.amazon.com/KEYESTUDIO-ReSpeaker-2-Mic-V1-0-Raspberry/dp/B07H3T8SQY
 Raspberry Pi Zero W
 Loudspeakers: https://www.amazon.com/gp/product/B0738NLFTG/
+              https://www.amazon.com/MakerHawk-Full-Range-Advertising-Separating-JST-PH2-0mm-2/dp/B07FTB281F/
 TalkiePi project: https://github.com/dchote/talkiepi
 Setup instructions:
     * https://github.com/CustomMachines/talkiepi

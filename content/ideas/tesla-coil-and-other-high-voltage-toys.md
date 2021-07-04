@@ -57,6 +57,9 @@ A counterpoise is a conductor or system of conductors used an earth or ground su
 * https://www.w8ji.com/counterpoise_systems.htm
 * Ground vs Counterpoise - https://sites.google.com/view/kn9b/ground-vs-counterpoise
 
+# Electromagnetic pulse (EMP) Generator
+* [Is That An EMP Generator In Your Pocket Or Is My Calculator Just Broken?](https://hackaday.com/2021/06/17/is-that-an-emp-generator-in-your-pocket-or-is-my-calculator-just-broken/)
+
 
 
 
@@ -199,7 +202,12 @@ Nikola Tesla wanted to beam power without wires.
 ## Slayer Exciter
 The Slayer Exciter is an air core transformer adapted to operating at low DC voltages. It has a primary and secondary, like a Tesla coil, but it uses low voltage components--diodes and transistors--instead of spark gaps and tank capacitors to induce resonant rise in the coil.
 
+
 * [A Tesla Coil From PCBs](https://hackaday.com/2019/04/25/a-tesla-coil-from-pcbs/)
+* [High Output PCB Spiral Tesla Coil](https://circuitsalad.com/2021/05/30/high-output-pcb-spiral-tesla-coil/)
+* [Flat Transformer Gives This PCB Tesla Coil Some Kick](https://hackaday.com/2021/06/09/flat-transformer-gives-this-pcb-tesla-coil-some-kick/)
+
+
 * [SLAYER EXCITER - Tutorial, Explanation, and More](https://www.youtube.com/watch?v=AehL3BodduE&t=339s)
 * [Compact Slayer Exciter For Your High Voltage Needs](https://hackaday.com/2020/03/21/compact-slayer-exciter-for-your-high-voltage-needs/)
 * [Building the Poor-mans Mini Tesla Coil (Slayer Exciter)](https://www.instructables.com/id/building-the-poor-mans-mini-tesla-coil-slayer-exc/)

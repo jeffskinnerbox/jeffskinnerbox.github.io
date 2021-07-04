@@ -58,12 +58,23 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [RESQ Hunts For Lost Hikers From The Air](https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/)
 
 ## Using ESP8266
+* [HakByte: Remotely Track Devices over Wi-Fi with the ESP Bug](https://www.youtube.com/watch?v=1uSg9JoDGeU)
 * [Monitor Foot Traffic Using Radio](https://hackaday.com/2018/04/06/monitor-foot-traffic-using-radio/)
 * [ESP32-Paxcounter is a proof-of-concept device for metering passenger flows in realtime](https://hackaday.com/2018/04/06/monitor-foot-traffic-using-radio/)
 * [Quickie WiFi Scanner](http://hackaday.com/2016/02/24/quickie-wifi-scanner/)
 * [WiFi Scanner -Know the WiFi Signal around you](https://community.seeedstudio.com/WiFi-Scanner--Know-the-WiFi-Signal-around-you--p-220.html)
 * [esp8266locationtracker - Opportunistically track and transmit the location of a ESP8266](https://github.com/dancudds/esp8266locationtracker)
 * [ESP8266 Turned Secretive WiFi Probe Request Sniffer](https://hackaday.com/2020/09/20/esp8266-turned-secretive-wifi-probe-request-sniffer/)
+* [Hunting Rogue Access Points with the ESP8266](https://hackaday.com/2017/12/28/antenna-alignment-and-hunting-rogue-access-points-with-the-esp8266/)
+* [WarWalking With The ESP8266](http://hackaday.com/2016/10/23/warwalking-with-the-esp8266/)
+* [Dope Scope - A directional WiFi Sniffing device that fits in the palm of your hand](http://warcollar.com/products/dopescope.html)
+* [ESP8266 Sniffer](https://www.hackster.io/kosme/esp8266-sniffer-9e4770)
+* [ESP8266 Friend Detector](https://www.hackster.io/ricardooliveira/esp8266-friend-detector-12542e)
+* [Wi-Fi Sniffer as Sensor for Humans](https://www.youtube.com/watch?v=fmhjtzmLrg8)
+* [Remote Wifi Sniffing Station with an ESP8266](https://www.youtube.com/watch?v=_GQMZg_5FPE)
+    * [ETHERNET CONTROLLER DISCOVERED IN THE ESP8266](https://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
+    * [espthernet](https://github.com/cnlohr/espthernet)
+    * https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0
 
 ----
 

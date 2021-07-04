@@ -2,6 +2,8 @@
 * [How to Measure Inductance](https://www.wikihow.com/Measure-Inductance)
 * [The Design of Phase-Locked-Loop Circuit for Precision Capacitance Micrometer](https://www.matec-conferences.org/articles/matecconf/pdf/2016/31/matecconf_iciea2016_12006.pdf)
 
+* [Electronics tutorial - Ferrite and Magnetic permeability](https://www.youtube.com/watch?v=-EqmJx4rJTc)
+
 # Background
 [Faraday's law of induction][01] (generally called Faraday's law)
 is a basic law of electromagnetism predicting how a magnetic field will interact

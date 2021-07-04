@@ -44,6 +44,7 @@
 
 # Reverse Engineering Tools
 * [Reverse Engineering Embedded Device Firmware](https://hackaday.com/2011/05/30/reverse-engineering-embedded-device-firmware/)
+* [An Exercise In Firmware Dumping With The GreatFET](https://hackaday.com/2021/06/04/an-exercise-in-firmware-dumping-with-the-greatfet/)
 
 ## Ghidra
 [Ghidra](https://ghidra-sre.org/) is a free and open source reverse engineering tool [developed by the National Security Agency](https://www.nsa.gov/resources/everyone/ghidra/).

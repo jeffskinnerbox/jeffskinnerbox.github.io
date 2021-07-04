@@ -1,15 +1,22 @@
 
 
-# Training
-* [Drone Programming With Python Course | 3 Hours | Including x4 Projects (2021)](https://www.youtube.com/watch?v=LmEcyQnfpDA)
-* [Learn Multirotors From First Principles](https://hackaday.com/2021/04/11/learn-multirotors-from-first-principles/)
+# DIY Drones
 
-# Ryze Tech Tello
+## SRD-1 - 3D Printed Drone
+* [SRD-1 - 3D Printed Drone (Arduino + Raspberry)](https://www.element14.com/community/community/project14/attackofthedrones/blog/2021/05/25/srd-1-open-source-3d-printed-drone)
+
+## Ryze Tech Tello
 * [Ryze Tech Tello](https://www.ryzerobotics.com/tello)
 * [Ryze Tech Tello](https://www.amazon.com/gp/product/B07BDHJJTH/)
 * [Drone Programming With Python Course | 3 Hours | Including x4 Projects (2021)](https://www.youtube.com/watch?v=LmEcyQnfpDA)
 * [Buying a Ryze Tello Drone? Watch This First!](https://www.youtube.com/watch?v=yQoC_n6126A)
 * [Ultimate Drone Buying Guide for Total Beginners 2020](https://www.youtube.com/watch?v=9mzwPoxKxEw)
+
+
+
+# Training
+* [Drone Programming With Python Course | 3 Hours | Including x4 Projects (2021)](https://www.youtube.com/watch?v=LmEcyQnfpDA)
+* [Learn Multirotors From First Principles](https://hackaday.com/2021/04/11/learn-multirotors-from-first-principles/)
 
 # EACHINE E58 WiFi FPV Quadcopter
 * [EACHINE E58 WIFI FPV With 2MP Wide Angle Camera High Hold Mode Foldable RC Drone Quadcopter RTF](https://www.eachine.com/de/EACHINE-E58-WIFI-FPV-With-2MP-Wide-Angle-Camera-High-Hold-Mode-Foldable-RC-Drone-Quadcopter-RTF-p-1045.html)

@@ -12,7 +12,7 @@ by displaying its voltage over a time period.
 But the setup, use, and interpretation of collected data can be overwhelming to many
 and the wealth of new capabilities enabled by digital oscilloscopes are often unknown.
 In this blog, I'll systematical review the use of an oscilloscope,
-specifically the [Rigol DS1054Z][07] ([Rigol's site][08]).
+specifically the [Rigol DS1054Z][07] ([Rigol's site][08] and [Rigol DS1054Z User Guide][11]).
 
 # History of the Oscilloscope
 * [The Early History of the Oscilloscope: Amber and Frog Legs](https://www.allaboutcircuits.com/news/early-history-of-the-oscilloscope-amber-and-frog-legs/)
@@ -73,15 +73,20 @@ Now we must performing a self calibration, which takes about 15 minutes.
 The scope should warm up for at least 30 minutes before calibration.
 Select buttons **Utility** > **Menu Down Arrow** > **Self-Cal** > **Start**
 
-# Expand Rigol DS1054Z Bandwidth to 100 MHz
+# Expand Rigol DS1054Z Bandwidth to 100 MHz - DONE
 There is a simple hack for the Rigol DS1054Z Digital Oscilloscope
 in order to activate all the installed options, including its 100Mhz bandwidth.
 You'll find that hack in the video
 "[How to Hack a Rigol DS1054Z DIgital Oscilloscope - Quick Tips][10]".
 Make sure the firmware is up to date before apply the activation key.
 
+Model: DS1054Z
 Serial No.: DS1ZA164859787
+Software Version: 00.04.04.SP4
+Board Version: 0.1.1
+
 Options: DSER
+Privatekey: 6F1106DDA994DA
 Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 
@@ -92,8 +97,14 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 # Rigol DS1054Z Oscilloscope
 
+## Introduction
+* [EEVBlog #704 - Rigol DS1054Z Oscilloscope Features Review](https://www.youtube.com/watch?v=W2qdtQkBKhc&t=572s)
+* [Oscilloscopes Made Easy #1 - Introduction to Oscilloscopes (Rigol DS1104Z)](https://www.youtube.com/watch?v=uU3FhH7_MWo)
+* [Oscilloscopes Made Easy #2 - Simple Triggering (Rigol DS1104Z)](https://www.youtube.com/watch?v=5VyotIVwRiA&t=6s)
+
 ## Oscilloscope Definitions and Concepts
 ## Triggering
+* [Tutorial: How to use an Oscilloscope #3 - How to capture a signal event / glitch / transient](https://www.youtube.com/watch?v=JsoZZM2Vc5Y)
 ## Signal Integrity
 ## Advanced Analysis
 ## Connectivity and Data Management
@@ -101,6 +112,14 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 ### Making Your First Measurement
 * [Making your first measurement](https://www.youtube.com/watch?v=-T--1IKV8lw)
 * [Basics of Oscilloscopes](https://beyondmeasure.rigoltech.com/acton/fs/blocks/showLandingPage/a/1579/p/p-0032/t/page/fm/0)
+
+# Decode I2C Serial Data
+* [How to decode I2C serial data on the Rigol 1054Z oscilloscope](https://www.youtube.com/watch?v=VkbubgSxBnQ)
+* [DS1000z I2C Decoding and Triggering (covers DS1054Z, DS1074Z, DS1100Z, MSO1074Z, MSO1104Z)](https://www.youtube.com/watch?v=HxpSYlnEDos)
+
+# Decode SPI Serial Data
+* [Decoding SPI with the Rigol DS1054z Oscilloscope](https://www.youtube.com/watch?v=O1mPIjh72gY)
+
 
 
 
@@ -146,6 +165,10 @@ Oscilloscope Sample Rate
 
 
 # Noise and EMI
+* [Ferrite, chokes, and RFI](https://www.youtube.com/watch?v=LuMlM8zWQFk)
+* [How do ferrite cores work?](https://www.youtube.com/watch?v=PhOVMgPMqWU)
+* [How do EMI Filter Chokes Work?](https://www.youtube.com/watch?v=84aKURxohlg)
+* [Visualizing EMI Filter Frequency Response with an Oscilloscope](https://www.youtube.com/watch?v=glNDcDklhRw)
 * [Differential (Normal) Mode Noise and Common Mode Noise－Causes and Measures](https://techweb.rohm.com/knowledge/emc/s-emc/01-s-emc/6899)
 * [How To Track Down Common Mode Noise](https://www.youtube.com/watch?v=BFLZm4LbzQU)
 * [ferrite bead demo](https://www.youtube.com/watch?v=7w0Ec-HEPrA)
@@ -179,9 +202,6 @@ To that, you man not start here, but you should certainly finish here:
 * [Controlling a Rigol oscilloscope using Linux and Python](http://www.cibomahto.com/2010/04/controlling-a-rigol-oscilloscope-using-linux-and-python/)
 * [glScopeClient: A Permissively-Licensed Remote Oscilloscope Utility](https://hackaday.com/2019/05/30/glscopeclient-a-permissively-licensed-remote-oscilloscope-utility/)
 
-# Capture Oscilloscope Image
-* [Grab an Image From Your O-scope The Easy Way](https://hackaday.com/2019/03/30/grab-an-image-from-your-o-scope-the-easy-way/)
-
 # Tips & Tricks
 * [Twelve tips for using the Rigol DS1052E Oscilloscope](http://www.righto.com/2013/07/tips-for-using-rigol-ds1052e.html)
 * [EEVblog #1324 - Scope TRICK: 2 Probes 1 Hand](https://www.youtube.com/watch?v=v8sCyr5pZkc&feature=em-uploademail)
@@ -195,6 +215,9 @@ See 15:45 minutes into the video. Bottomline ... doesn't work well - [EEVblog #8
 # Fun With Negative Resistance
 * [Fun With Negative Resistance: Jellybean Transistors](https://hackaday.com/2019/05/08/fun-with-negative-resistance-jellybean-transistors/)
 
+# Transistor Tester with Oscilloscope
+* [Transistor Tester with Digital RIGOL Oscilloscope DS1054z 4K](https://www.youtube.com/watch?v=cd2rp9PhpgM)
+
 # Vernier Controls
 The concept is similar in use to [vernier calipers][04] which have a primary scale for gross measurements, and a secondary scale for fine measurements.
 
@@ -206,6 +229,7 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 
 
 # Spectrum Analyzer
+* [#828Using Oscilloscope as a Spectrum Analyzer (FFT)](https://www.youtube.com/watch?v=ZHYmUS7R6V4)
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
 * [Product Review: The TinySA, A Shirt-Pocket Sized Spectrum Analyzer](https://hackaday.com/2020/11/09/product-review-the-tinysa-a-shirt-pocket-sized-spectrum-analyzer/)
 
@@ -254,6 +278,9 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 
 # Probe Calibration
 * [Calibrate probes on Rigol Oscilloscope](https://www.youtube.com/watch?v=vVt1xCKWkJY&feature=youtu.be)
+
+# Probing Problems
+* [I Only Probed the Board With a Scope - Why Did My Board Crash?](https://www.youtube.com/watch?v=MJpDFnRQw8s)
 
 
 
@@ -307,7 +334,7 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 [08]:https://www.rigolna.com/products/digital-oscilloscopes/1000z/
 [09]:https://www.youtube.com/watch?v=Xo9wLOAwW_o
 [10]:https://www.youtube.com/watch?v=aNy6-CLS3BI
-[11]:
+[11]:https://assets.testequity.com/te1/Documents/pdf/rigol/Rigol-DS1054Z-Manual.pdf
 [12]:
 [13]:
 [14]:

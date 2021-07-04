@@ -12,6 +12,8 @@
 
 * [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
 
+* [OpAmp](https://www.youtube.com/playlist?list=PLXDK0MeyK4ZgWkzd59wLkir7ZjI7fIsFn)
+
 
 
 # Faust

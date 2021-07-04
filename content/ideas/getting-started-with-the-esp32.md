@@ -19,6 +19,7 @@
 * [ESP32-S2 Processor Datasheet Released, Development Boards Unveiled](https://www.cnx-software.com/2019/09/03/esp32-s2-processor-datasheet-released-development-boards-unveiled/)
 * [FeatherS2 Board Brings ESP32-S2 to Adafruit Feather Form Factor](https://www.cnx-software.com/2020/10/05/feathers2-board-brings-esp32-s2-to-adafruit-feather-form-factor/)
 * [ESP32-S2 board targets battery-powered applications with 30uA deep sleep power consumption](https://www.cnx-software.com/2020/10/28/esp32-s2-board-targets-battery-powered-applications-with-30ua-deep-sleep-power-consumption/)
+* [Test of Battery operated ESP32 Boards (Olimex, TinyPICO, EzSBC, TTGO)](https://www.youtube.com/watch?v=ajt7vtgKNNM)
 
 # ESP32-C3
 The new “C3” variant has a single 160 MHz RISC-V core that out-performs the ESP8266, and at the same time includes most of the peripheral set of an ESP32. While RAM often ends up scarce on an ESP8266 with around 40 kB or so, the ESP32-C3 sports 400 kB of RAM, and manages to keep it all running while burning less power. Like the ESP32, it has Bluetooth LE 5.0 in addition to WiFi.
@@ -53,6 +54,14 @@ The new “C3” variant has a single 160 MHz RISC-V core that out-performs the 
 
 # ESP32-C6
 * [ Espressif ESP32-C6 Includes WiFi 6 And A RISC-V Core](https://hackaday.com/2021/04/11/new-part-day-espressif-esp32-c6/)
+
+# ESP32-D
+
+# ESP32-E
+ESP32-E, specially designed for IoT, is an ESP-WROOM-32E-based main controller board with dual-core chips.
+
+# ESP32-NOW
+https://www.dfrobot.com/blog-1473.html?tracking=60adc151185b6
 
 # ESP32-WROOM
 * [SparkFun Thing Plus - ESP32 WROOM](https://www.sparkfun.com/products/15663)

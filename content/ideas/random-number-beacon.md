@@ -8,7 +8,11 @@ Can this clock be hacked so you can control its preciseion time source? - La Cro
 # Random Number Source
 * [Towards the Perfect Coin Flip: The NIST Randomness Beacon](http://hackaday.com/2014/12/19/nist-randomness-beacon/)
 * [Spooky Tesla Spirit Radio](https://www.instructables.com/id/Spooky-Tesla-Spirit-Radio/)
+* [Random Numbers From A Smoke Detector](https://hackaday.com/2021/06/26/random-numbers-from-a-smoke-detector/)
 * http://www.stevehultay.com/home.html
+
+# Quantum Random Number Generator
+* [A true Quantum Random Number Generator](https://hackaday.io/project/180445-qrng)
 
 # NTP Time Server
 [public ntp time server for everyone](http://www.pool.ntp.org/en/)

@@ -1,4 +1,14 @@
+
+Quantity  Unit Cost   Item                                     Reference
+   1         $40      C4Labs Zebra Bramble Fan Cluster Case    https://www.amazon.com/C4Labs-Zebra-Bramble-Cluster-Case/dp/B07VNHDM5Y
+   2         $ 7      50mm 5v fans                             https://www.amazon.com/Usongshine-Printer-Cooling-Mounting-Package/dp/B07Q1X29J9/
+   6         $75      Raspberry Pi 4 Model B - 8GB DDR4        https://www.microcenter.com/product/622539/pi4modelB8gb?src=raspberrypi
+
+
 * [NanoPi Cluster Is Quiet, Cool And Has Blinky Lights](https://hackaday.com/2018/07/05/nanopi-cluster-is-quiet-cool-and-has-blinky-lights/)
+* [C4Labs Bramble 4 or 6 Stack Cluster Case with fans for Raspberry Pi 4B, 3B+, 3B & 2.5" SSD Hard Drive](https://www.etsy.com/listing/492913299/c4labs-bramble-4-or-6-stack-cluster-case)
+* [C4Labs 8 Slot Cluster Cloudlet : Stackable Cluster For Raspberry Pi 4B and other Single Board Computers](https://www.etsy.com/listing/601443602/c4labs-8-slot-cluster-cloudlet-stackable)
+* https://www.amazon.com/s?k=c4+labs+cluster&ref=nb_sb_noss_2
 
 ## Learning Hadoop
 * [How to get started with Hadoop](http://bigdatastudio.com/tag/best-way-to-learn-hadoop)
@@ -11,6 +21,7 @@
 * [Installing aws-cli, the New AWS Command Line Tool](http://alestic.com/2013/08/awscli)
 
 # Using Google Kubernetes
+* [Self-hosting Kubernetes on your Raspberry Pi](https://blog.alexellis.io/self-hosting-kubernetes-on-your-raspberry-pi/)
 * [Cluster computing on the Raspberry Pi with Kubernetes](https://opensource.com/life/16/2/build-a-kubernetes-cloud-with-raspberry-pi)
 
 ## Using Raspberry Pi for Hadoop Cluster
@@ -33,6 +44,7 @@
 
 
 ## Using Raspberry Pi Zero for Hadoop Cluster
+* [The Turing Pi Cluster](https://www.youtube.com/playlist?list=PL2_OBreMn7Frk57NLmLheAaSSpJLLL90G)
 * [Cluster HAT v2.0](https://shop.pimoroni.com/products/cluster-hat)
 * Raspberry Pi Zero Cluster "Supercomputer" [Part 1](https://youtu.be/HsIFWk_QHoc) and [Part 2](https://youtu.be/ddrTDCdlYDE)
 * [EEVblog #934 - Raspberry Pi Supercomputer Cluster PART 1](https://www.youtube.com/watch?v=KI7YLXhovb8&feature=em-uploademail)

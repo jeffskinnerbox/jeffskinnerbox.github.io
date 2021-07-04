@@ -340,6 +340,7 @@ The United States Geological Survey provides a program called ShakeCast
 that can send notifications within minutes of an earthquake.
 
 * [ShakeCast](https://earthquake.usgs.gov/research/software/shakecast.php)
+* [ShakeAlert Promises Earthquake Early Warning Of About 10 Seconds](https://hackaday.com/2021/06/04/shakealert-promises-earthquake-early-warning-of-about-10-seconds/)
 
 # Geomagnetic Storms
 * [Measuring a geomagnetic storm with a Raspberry Pi magnetometer](http://www.southgatearc.org/news/2019/january/measuring-a-geomagnetic-storm-with-a-raspberry-pi-magnetometer.htm#.XDle9svYrhN)
@@ -351,6 +352,7 @@ that can send notifications within minutes of an earthquake.
 * [You Didn’t See Graphite Around This Geiger Counter](https://hackaday.com/2019/09/08/you-didnt-see-graphite-around-this-geiger-counter/)
 * [Global Radiation Montoring And Tracking Nuclear Disasters At Home](https://hackaday.com/2019/08/28/global-radiation-montoring-and-tracking-nuclear-disasters-at-home/)
 * [Warwalking For Radiation](https://hackaday.com/2019/09/10/warwalking-for-radiation/)
+* [Ionizing Radiation Detector For Safer Foraging](https://blog.tindie.com/2021/06/ionizing-radiation-detector-for-safer-foraging/)
 
 # Spectrophotometer
 * [Spot Adulterated Olive Oil With This Spectrophotometer](https://hackaday.com/2019/08/31/spot-adulterated-olive-oil-with-this-spectrophotometer/)
